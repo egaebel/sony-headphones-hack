@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.qti.hardware.scve.panorama@1.0::IPanoramaStitching/panoStitching' failed: exit code 128

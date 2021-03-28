@@ -1,0 +1,26 @@
+Steps Taken
+===========
+* Download and unzip and decompile source from apk ripped from phone
+----Didn't find anything useful in source code, but found some keys and cloudfront URLs in non-source files
+* Turn on bluetooth traffic capture on phone (output to wireshark format)
+* Indirectly retrieve bluetooth traffic capture from phone using adb bugreport workaround
+----LG stores the bluetooth traffic capture in the system dir where normal users cannot access it!
+* Root old Nexus 5 and install Sony Headphones app on it
+* Use rooted Nexus 5 (first time) to capture network traffic from SOny Headphones app (this network capture required rooting)
+* Analyze network traffic, calls to cloudfront, then what appears to be downloads from an S3 bucket
+
+Steps To Take
+==============
+* "Spoof" DNS server by setting phone to talk to laptop and using "dnsspoof" program with dnsspoof.conf file, redirect all cloudfront traffic back to the laptop
+* Create mitm server (in rust) to also run on laptop, print out requests/responses
+----Some decryption will be necessary, but using which keys?
+* Figure out request/response format and add this to the mitm server
+----First just replay
+* Add a self-signed certificate for my rust mitm server to actually execute the mitm attack
+* Verify the whole system works end to end with no tampering
+----Snoop on everything and ensure I can see it all working end-to-end
+* Start tampering
+----Swap out the shitty audio files from Sony with better ones (use a language besides english for this)
+--------Make sure the new audio files aren't longer than the originals (shouldn't be hard, that's the goal anyway) there might be some buffer overflows that can happen in the headphones firmware
+* Polish things up and make sure the headphones have the new audio loaded
+* Be happier :D

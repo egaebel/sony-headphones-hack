@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.fido@1.0::ILgeFido/default' failed: exit code 128

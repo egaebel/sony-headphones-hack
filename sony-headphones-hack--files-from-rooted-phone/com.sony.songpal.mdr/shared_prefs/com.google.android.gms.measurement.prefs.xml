@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="app_instance_id">907dcfad854dd4ee4f91ece2ceb616d0</string>
+    <string name="gmp_app_id">1:168661797034:android:18c56071cdef227f</string>
+    <string name="health_monitor:value">2WC12211:Service connection failed: -</string>
+    <long name="time_active" value="2264" />
+    <boolean name="has_been_opened" value="true" />
+    <long name="first_open_time" value="1615353789430" />
+    <long name="health_monitor:count" value="36" />
+    <boolean name="use_service" value="true" />
+    <long name="health_monitor:start" value="1615353789465" />
+    <long name="last_pause_time" value="1615435153498" />
+    <long name="last_upload" value="1615353789462" />
+    <boolean name="start_new_session" value="false" />
+    <string name="previous_os_version">6.0.1</string>
+</map>

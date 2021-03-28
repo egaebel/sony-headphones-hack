@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.biometrics.facerecognition@2.1::IBiometricsFacerecognition/default' failed: exit code 128

@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.powercontrol@1.1::IPowercontrol/default' failed: exit code 128

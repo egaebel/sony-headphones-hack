@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="94:DB:56:5F:D3:62">
+        <string>ImmersiveAudio</string>
+        <string>AdaptiveSoundControl</string>
+    </set>
+</map>

@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.qti.hardware.scve.panorama@1.0::IPanoramaTracking/panoTracking' failed: exit code 128

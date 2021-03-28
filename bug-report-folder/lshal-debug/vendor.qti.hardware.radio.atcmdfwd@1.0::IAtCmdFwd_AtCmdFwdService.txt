@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.qti.hardware.radio.atcmdfwd@1.0::IAtCmdFwd/AtCmdFwdService' failed: exit code 128

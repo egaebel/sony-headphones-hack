@@ -1,0 +1,25 @@
+{
+   "logger_active" : true,
+   "endpoints" : {
+      "_default" : "https://bdcore-apr-lb.bda.ndmdhs.com"
+   },
+   "country_to_endpoint" : {},
+   "log_group_info" : {
+      "groups" : {
+         "0" : {
+            "dispatch_setting" : {
+               "path" : "/actionlog",
+               "trigger_count" : 1,
+               "delay_max" : 1,
+               "payload_count" : 100,
+               "payload_length" : 1048576,
+               "timeout" : 60,
+               "local_queue_size_max" : 5242880
+            }
+         }
+      }
+   },
+   "action_type_to_log_group" : {},
+   "updated_at" : 1508499612,
+   "config_version" : "1"
+}

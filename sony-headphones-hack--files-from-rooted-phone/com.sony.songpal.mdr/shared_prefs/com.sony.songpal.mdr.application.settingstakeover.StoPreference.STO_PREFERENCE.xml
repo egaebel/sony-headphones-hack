@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="FIRST_DEVICE_REGISTERED" value="true" />
+    <long name="KEY_FW_UPDATE_SETTINGS_MODIFIED_TIME" value="1615354954304" />
+    <long name="ADAPTIVE_SOUND_SETTINGS_MODIFIED_TIME" value="1615355034443" />
+</map>

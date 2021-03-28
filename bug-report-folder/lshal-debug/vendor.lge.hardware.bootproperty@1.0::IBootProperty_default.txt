@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.bootproperty@1.0::IBootProperty/default' failed: exit code 128

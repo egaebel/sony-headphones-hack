@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.soi@1.0::ISoi/default' failed: exit code 128

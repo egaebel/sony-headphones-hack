@@ -1,0 +1,1 @@
+*** command 'lshal debug -E android.hardware.neuralnetworks@1.2::IDevice/qti-hta' failed: exit code 128

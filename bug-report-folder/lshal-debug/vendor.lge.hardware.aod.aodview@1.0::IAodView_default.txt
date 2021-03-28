@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.aod.aodview@1.0::IAodView/default' failed: exit code 128

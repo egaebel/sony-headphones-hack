@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.touch@1.0::ITouch/default' failed: exit code 128

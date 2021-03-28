@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.0::ILgeRadioTest/lge_radio_test' failed: exit code 128

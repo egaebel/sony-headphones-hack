@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.sensortest@1.0::ISensorTest/default' failed: exit code 128

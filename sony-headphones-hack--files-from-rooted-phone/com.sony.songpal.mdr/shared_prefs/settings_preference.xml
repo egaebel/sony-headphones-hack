@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="eula_accepted_version" value="2" />
+    <int name="settings_preference_version" value="1" />
+    <string name="pp_usage_config_accepted_status_list">[{&quot;mIsAccepted&quot;:true,&quot;mPpUsageId&quot;:&quot;PRODUCT_IMPROVEMENT&quot;,&quot;mVersion&quot;:3}]</string>
+    <boolean name="is_pp_accepted" value="true" />
+    <boolean name="is_eula_accepted" value="true" />
+    <boolean name="switched_history_log" value="true" />
+    <int name="pp_accepted_version" value="6" />
+    <string name="selected_country_code">us</string>
+    <boolean name="welcome_dont_show_again" value="true" />
+</map>

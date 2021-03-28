@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.wifi.hal@1.0::IWifiLgeHal/default' failed: exit code 128

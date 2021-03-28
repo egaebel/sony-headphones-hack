@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.qti.hardware.radio.internal.deviceinfo@1.0::IDeviceInfo/deviceinfo' failed: exit code 128

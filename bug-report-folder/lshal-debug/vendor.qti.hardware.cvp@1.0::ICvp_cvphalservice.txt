@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.qti.hardware.cvp@1.0::ICvp/cvphalservice' failed: exit code 128

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="version_code" value="7040150" />
+    <string name="success_register_date_to_prc">2021/03/11 03:52:26</string>
+    <string name="push_intent_service_name">com.sony.songpal.mdr.pushnotification.PushService</string>
+    <boolean name="enable_prc_push" value="true" />
+    <string name="registration_id">fi2-UCXNXSc:APA91bEwSBaFmacdCglyecXheKgHONJOPkFUHyDEqa5gy9o2ZxM3wtVcEm-uK46-Ihp4Q0mRFUPW1j6bi8V0SgVpYe4StHLeyV1TqYwptIaKR3UICY6OezTHEogkC-ApoDJtmsSB0KGr</string>
+</map>

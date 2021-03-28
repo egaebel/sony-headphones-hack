@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.payment.giftcard@1.0::IGiftcardDaemon/default' failed: exit code 128

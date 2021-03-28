@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.platform@1.0::IPlatform/default' failed: exit code 128

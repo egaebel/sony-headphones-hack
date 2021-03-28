@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.qti.hardware.scve.objecttracker@1.0::IObjectTracker/objectTracker' failed: exit code 128
