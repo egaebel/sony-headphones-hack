@@ -8,15 +8,38 @@ Steps Taken
 * Root old Nexus 5 and install Sony Headphones app on it
 * Use rooted Nexus 5 (first time) to capture network traffic from SOny Headphones app (this network capture required rooting)
 * Analyze network traffic, calls to cloudfront, then what appears to be downloads from an S3 bucket
+* "Spoof" DNS server by setting phone to talk to laptop and using "dnsspoof" program with dnsspoof.conf file, redirect all cloudfront traffic back to the laptop
+----dnschef is a way better application, it's up and running
+--------dnschef proxies requests by default to google and selectively "cooks" the dns lookups for other domains
 
 Steps To Take
 ==============
-* "Spoof" DNS server by setting phone to talk to laptop and using "dnsspoof" program with dnsspoof.conf file, redirect all cloudfront traffic back to the laptop
+* There appears to be an issue establishing the SSL connection. The app says "no internet connection" when trying to connect to my laptop
+----Use wireshark to sniff those packets and see what's up!
+--------TLS session establishment fails, from some reading at the URL below it appears that the application is using certificate pinning
+------------https://blog.securityevaluators.com/how-to-view-tls-traffic-in-androids-logs-6a42ca7a6e55
+--------Might be server name identification issues instead.....
+------------https://en.m.wikipedia.org/wiki/Server_Name_Indication
+------------https://stephanheijl.com/rustls_sni.html
+* Defeat certificate pinning
+----I've found an RSA cert key in the extracted apk (using apktool with the full command below). The cert is (apparently) in pkcs7 format in binary encoding (using DER). It was a pain in the ass to figure this out.
+----Cert location
+--------"/home/egaebel/Programs/sony-headphones-hack/base-apk--apktool-output/original/META-INF/CERT.RSA"
+----apktool command
+--------apktool d base.apk -o base-apk--apktool-output/
+----Guide to identify apk file location for an app
+--------https://gist.github.com/ctrl-freak/24ac0e61b7cf550a6945
+----openssl command to convert pkcs7 cert from der to ascii
+--------openssl pkcs7 -inform der -in CERT.RSA -text
+----openssl command to test secure connection with server
+--------openssl s_client -CAfile ../../../keys-and-certs/authority/server.crt -connect 192.168.1.64:443
+----Next step (I think?) replace the pinned certificate in the APK with my own, repackage the app, self-sign the app, upload to nexus 5 and try again.
 * Create mitm server (in rust) to also run on laptop, print out requests/responses
 ----Some decryption will be necessary, but using which keys?
-* Figure out request/response format and add this to the mitm server
-----First just replay
+--------The keys are ones that I set up. I create new key-certificate pairs for SSL spoofing and install the certs on my phone
 * Add a self-signed certificate for my rust mitm server to actually execute the mitm attack
+* Figure out request/response format and add this to the mitm server
+----First just replay and listen
 * Verify the whole system works end to end with no tampering
 ----Snoop on everything and ensure I can see it all working end-to-end
 * Start tampering
@@ -24,3 +47,12 @@ Steps To Take
 --------Make sure the new audio files aren't longer than the originals (shouldn't be hard, that's the goal anyway) there might be some buffer overflows that can happen in the headphones firmware
 * Polish things up and make sure the headphones have the new audio loaded
 * Be happier :D
+
+
+
+Notes
+=====
+* https://en.m.wikipedia.org/wiki/Server_Name_Indication
+* Looks like there might be a static IP for akamai CDN to serve the audio files?
+----If so, I'll have to change some router settings.....
+* My issues may all have stemmed from using a cert that only had a single domain name attached to it. I can now make SAN certs and am serving bdcore and music-center traffic from my mitm server!
