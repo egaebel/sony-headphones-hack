@@ -56,3 +56,7 @@ Notes
 * Looks like there might be a static IP for akamai CDN to serve the audio files?
 ----If so, I'll have to change some router settings.....
 * My issues may all have stemmed from using a cert that only had a single domain name attached to it. I can now make SAN certs and am serving bdcore and music-center traffic from my mitm server!
+
+
+openssl req -new -addext "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net" -key server.key -out server-2.csr
+openssl x509 -req -extfile <(printf "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net") -in server-2.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server-2.crt -days 9999 -sha256
