@@ -1,0 +1,3 @@
+https://devcenter.heroku.com/articles/ssl-certificate-self
+https://blog.didierstevens.com/2008/12/30/howto-make-your-own-cert-with-openssl/
+https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/
