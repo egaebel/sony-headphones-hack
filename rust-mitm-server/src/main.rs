@@ -15,16 +15,22 @@ use std::fs::File;
 use std::io::BufReader;
 use std::sync::{Arc, Mutex};
 
+const API_IAC_DOMAIN: &str = "api.iac.meta.ndmdhs.com";
+const API_IAC_URL: &str = "https://api.iac.meta.ndmdhs.com";
 const BDCORE_DOMAIN: &str = "bdcore-apr-lb.bda.ndmdhs.com";
 const BDCORE_URL: &str = "https://bdcore-apr-lb.bda.ndmdhs.com";
 const _CLOUDFRONT_URL: &str = "https://server-54-230-126-18.hio50.r.cloudfront.net";
+const HC_PRC_SONY_DNA_DOMAIN: &str = "hc01.prc.sonydna.com";
+const HC_PRC_SONY_DNA_URL: &str = "https://hc01.prc.sonydna.com";
 const INFO_UPDATE_SONY_DOMAIN: &str = "info.update.sony.net";
 const INFO_UPDATE_SONY_URL: &str = "https://info.update.sony.net";
+const MDS_CSX_SONY_DOMAIN: &str = "mds.csx.sony.com";
+const MDS_CSX_SONY_URL: &str = "https://mds.csx.sony.com";
 const MUSIC_CENTER_DOMAIN: &str = "musiccenter-cdn.meta.ndmdhs.com";
 const MUSIC_CENTER_URL: &str = "https://musiccenter-cdn.meta.ndmdhs.com";
 const SERVING_IP_ADDRESS: &str = "192.168.1.64";
 const SSL_PORT: &str = "443";
-const USE_RESPONSE_CACHE: bool = true;
+const USE_RESPONSE_CACHE: bool = false;
 
 #[derive(Debug, Eq, Hash, PartialEq)]
 struct CachedRequest {
@@ -53,7 +59,7 @@ impl CachedRequest {
 }
 
 impl CachedResponse {
-    fn new(headers: HashMap<String, String>, body: String) -> CachedResponse {
+    fn new(headers: HashMap<String, String>, body: &str) -> CachedResponse {
         let mut btree_headers: BTreeMap<String, String> = BTreeMap::new();
         for (key, value) in headers {
             btree_headers.insert(key, value);
@@ -61,7 +67,7 @@ impl CachedResponse {
         let btree_headers = btree_headers;
         return CachedResponse {
             headers: btree_headers,
-            body: body,
+            body: String::from(body),
         };
     }
 
@@ -125,6 +131,36 @@ fn convert_to_reqwest_headers(
     return header_map;
 }
 
+fn convert_actix_query_to_vec(query_string: &str) -> Vec<(String, String)> {
+    let mut query_vec: Vec<(String, String)> = Vec::new();
+    for query_entry in query_string.split(",") {
+        let mut query_entry_split = query_entry.split("=");
+        let name = query_entry_split.next().unwrap();
+        if name != "" {
+            let query_entry_tuple: (String, String) = (
+                String::from(name),
+                String::from(query_entry_split.next().unwrap()),
+            );
+
+            query_vec.push(query_entry_tuple);
+        }
+    }
+    return query_vec;
+}
+
+fn reqwest_cookie_to_actix_cookie(cookie: reqwest::cookie::Cookie) -> actix_web::cookie::Cookie {
+    return actix_web::cookie::Cookie::new(
+        String::from(cookie.name()),
+        String::from(cookie.value()),
+    );
+}
+
+/*
+fn actix_cookie_to_reqwest_cookie(cookie: actix_web::cookie::Cookie) -> reqwest::cookie::Cookie {
+    return reqwest::cookie::Cookie::from(cookie.name(), cookie.value());
+}
+*/
+
 fn make_client_request(
     request_type: &Method,
     url: &str,
@@ -137,15 +173,21 @@ fn make_client_request(
         &Method::POST => client
             .post(url)
             .headers(convert_to_reqwest_headers(req.headers()))
+            .query(&convert_actix_query_to_vec(req.query_string()))
+            .body(String::from(body))
             .send(),
         &Method::HEAD => client
-            .post(url)
+            .head(url)
             .headers(convert_to_reqwest_headers(req.headers()))
+            .query(&convert_actix_query_to_vec(req.query_string()))
+            .query(req.query_string())
             .body(String::from(body))
             .send(),
         &Method::GET => client
             .get(url)
             .headers(convert_to_reqwest_headers(req.headers()))
+            .query(&convert_actix_query_to_vec(req.query_string()))
+            .query(req.query_string())
             .body(String::from(body))
             .send(),
         _ => panic!("Received unexpected request_type: '{:?}'", request_type),
@@ -197,17 +239,28 @@ fn mitm(
             .to_http_response();
     }
     let url: String;
-    if host == MUSIC_CENTER_DOMAIN {
-        println!("Serving music center domain.....");
-        url = format!("{}{}", MUSIC_CENTER_URL, resource);
+    if host == API_IAC_DOMAIN {
+        println!("Serving api iac meta ndmdhs domain.....");
+        url = format!("{}{}", API_IAC_URL, resource);
     } else if host == BDCORE_DOMAIN {
         println!("Serving bdcore domain.....");
         url = format!("{}{}", BDCORE_URL, resource);
+        // Screw letting these analytics requests through.
+        return HttpResponse::new(StatusCode::OK);
+    } else if host == HC_PRC_SONY_DNA_DOMAIN {
+        println!("Serving sony DNA domain.....");
+        url = format!("{}{}", HC_PRC_SONY_DNA_URL, resource);
     } else if host == INFO_UPDATE_SONY_DOMAIN {
         println!("Serving info update sony domain.....");
         url = format!("{}{}", INFO_UPDATE_SONY_URL, resource);
+    } else if host == MDS_CSX_SONY_DOMAIN {
+        println!("Serving mds csx sony domain.....");
+        url = format!("{}{}", MDS_CSX_SONY_URL, resource);
+    } else if host == MUSIC_CENTER_DOMAIN {
+        println!("Serving music center domain.....");
+        url = format!("{}{}", MUSIC_CENTER_URL, resource);
     } else {
-        panic!("Man-in-the-middle services are not available for request to host '{}'. Please try again :D.", host);
+        panic!("Man-in-the-middle services are not available for request to host '{}', failed at attempting resource: '{}'. Please try again :D.", host, resource);
     }
     match make_client_request(request_type, &url, request_body, req) {
         Ok(resp) => {
@@ -220,6 +273,9 @@ fn mitm(
             let mut resp_builder = HttpResponse::Ok();
             set_headers_in_resp(resp.headers(), &mut resp_builder);
             let string_headers = convert_to_string_headers(resp.headers());
+            for cookie in resp.cookies() {
+                resp_builder.cookie(reqwest_cookie_to_actix_cookie(cookie));
+            }
             let text = resp.text().unwrap();
             println!(
                 "Response.text() from {}: '{:?}'",
@@ -233,14 +289,15 @@ fn mitm(
                 println!("Inserting request/response pair into cache.....");
                 CACHE.lock().unwrap().insert(
                     CachedRequest::new(request_type, host, resource, request_body),
-                    CachedResponse::new(string_headers, text),
+                    CachedResponse::new(string_headers, &text),
                 );
             }
-            return resp_builder.finish();
+            return resp_builder.body(text);
         }
         Err(e) => panic!(
-            "Error serving {}: {:?}",
+            "Error serving {}: {:?}\nWith headers: {:?}",
             get_request_string_url(request_type, &url),
+            req.headers(),
             e
         ),
     }
@@ -291,14 +348,15 @@ async fn main() -> std::io::Result<()> {
             .wrap(middleware::Logger::default())
             // .service(index)
             .app_data(String::configure(|cfg| {  // <- limit size of the payload
-                cfg.limit(2 << 16)
+                cfg.limit(2 << 32)
             }))
             .default_service(web::to(|body: String, request: HttpRequest| {
                 println!(
-                    "\n====================================\nRequest: '{:?}'\nRequest.head(): '{:?}'\nRequest.uri(): '{:?}'\nRequest.body(): '{:?}'",
+                    "\n====================================\nRequest: '{:?}'\nRequest.head(): '{:?}'\nRequest.uri(): '{:?}'\nRequest.headers(): '{:?}'\nRequest.body(): '{:?}'",
                     request,
                     request.head(),
                     request.uri(),
+                    request.headers(),
                     body,
                 );
                 let uri = request.uri();
