@@ -180,14 +180,12 @@ fn make_client_request(
             .head(url)
             .headers(convert_to_reqwest_headers(req.headers()))
             .query(&convert_actix_query_to_vec(req.query_string()))
-            .query(req.query_string())
             .body(String::from(body))
             .send(),
         &Method::GET => client
             .get(url)
             .headers(convert_to_reqwest_headers(req.headers()))
             .query(&convert_actix_query_to_vec(req.query_string()))
-            .query(req.query_string())
             .body(String::from(body))
             .send(),
         _ => panic!("Received unexpected request_type: '{:?}'", request_type),
