@@ -1,24 +1,26 @@
+use actix_web::client;
 use actix_web::dev::HttpResponseBuilder;
 use actix_web::http::header::HeaderValue;
 use actix_web::http::{Method, StatusCode};
 use actix_web::{
     get, middleware, web, App, FromRequest, HttpRequest, HttpResponse, HttpServer, Responder,
 };
+use lazy_static::lazy_static;
 use reqwest::blocking::Client;
 use rustls::internal::pemfile::{certs, rsa_private_keys};
 use rustls::sign::{RSASigningKey, SigningKey};
 use rustls::{NoClientAuth, ResolvesServerCertUsingSNI, ServerConfig};
 
-use lazy_static::lazy_static;
 use std::collections::{BTreeMap, HashMap};
 use std::fs::File;
 use std::io::BufReader;
 use std::sync::{Arc, Mutex};
+use std::time::Instant;
 
 const API_IAC_DOMAIN: &str = "api.iac.meta.ndmdhs.com";
 const API_IAC_URL: &str = "https://api.iac.meta.ndmdhs.com";
 const BDCORE_DOMAIN: &str = "bdcore-apr-lb.bda.ndmdhs.com";
-const BDCORE_URL: &str = "https://bdcore-apr-lb.bda.ndmdhs.com";
+const _BDCORE_URL: &str = "https://bdcore-apr-lb.bda.ndmdhs.com";
 const _CLOUDFRONT_URL: &str = "https://server-54-230-126-18.hio50.r.cloudfront.net";
 const HC_PRC_SONY_DNA_DOMAIN: &str = "hc01.prc.sonydna.com";
 const HC_PRC_SONY_DNA_URL: &str = "https://hc01.prc.sonydna.com";
@@ -76,7 +78,7 @@ impl CachedResponse {
         for (key, value) in self.headers.iter() {
             resp_builder.set_header(
                 String::from(key.as_str()).as_str(),
-                HeaderValue::from_str(String::from(value.as_str()).as_str()).unwrap(),
+                HeaderValue::from_str(value.as_str()).unwrap(),
             );
         }
         return resp_builder.body(String::from(self.body.as_str()));
@@ -108,6 +110,7 @@ fn set_headers_in_resp(
 }
 
 fn convert_to_string_headers(headers: &reqwest::header::HeaderMap) -> HashMap<String, String> {
+    let start = Instant::now();
     let mut string_headers: HashMap<String, String> = HashMap::new();
     for (key, value) in headers {
         string_headers.insert(
@@ -115,6 +118,11 @@ fn convert_to_string_headers(headers: &reqwest::header::HeaderMap) -> HashMap<St
             String::from(value.to_str().unwrap()),
         );
     }
+    let duration = start.elapsed();
+    println!(
+        "\n----------\nCopied headers in: '{}' milliseconds.\n----------\n",
+        duration.as_millis()
+    );
     return string_headers;
 }
 
@@ -161,6 +169,29 @@ fn actix_cookie_to_reqwest_cookie(cookie: actix_web::cookie::Cookie) -> reqwest:
 }
 */
 
+/*
+fn make_client_request_actix(
+    request_type: &Method,
+    url: &str,
+    body: &str,
+    req: &HttpRequest,
+) -> std::result::Result<(), ()> {
+    let actix_client = client::Client::new();
+    let mut client_request = match request_type {
+        &Method::POST => actix_client.post(url),
+        &Method::HEAD => actix_client.head(url),
+        &Method::GET => actix_client.get(url),
+        _ => panic!("Received unexpected request_type: '{:?}'", request_type),
+    }
+    .uri(req.uri())
+    .basic_auth("", Option::None);
+    for (key, value) in req.headers() {
+        client_request.set_header(key, HeaderValue::from(value));
+    }
+    return client_request.json().wait();
+}
+*/
+
 fn make_client_request(
     request_type: &Method,
     url: &str,
@@ -168,28 +199,30 @@ fn make_client_request(
     req: &HttpRequest,
 ) -> reqwest::Result<reqwest::blocking::Response> {
     println!("'{}' request against url: '{}'", request_type.as_str(), url);
-    let client = Client::new();
-    return match request_type {
-        &Method::POST => client
-            .post(url)
-            .headers(convert_to_reqwest_headers(req.headers()))
-            .query(&convert_actix_query_to_vec(req.query_string()))
-            .body(String::from(body))
-            .send(),
-        &Method::HEAD => client
-            .head(url)
-            .headers(convert_to_reqwest_headers(req.headers()))
-            .query(&convert_actix_query_to_vec(req.query_string()))
-            .body(String::from(body))
-            .send(),
-        &Method::GET => client
-            .get(url)
-            .headers(convert_to_reqwest_headers(req.headers()))
-            .query(&convert_actix_query_to_vec(req.query_string()))
-            .body(String::from(body))
-            .send(),
+    let duration;
+
+    let reqwest_client = Client::new();
+    let client_request: reqwest::blocking::Request = match request_type {
+        &Method::POST => reqwest_client.post(url),
+        &Method::HEAD => reqwest_client.head(url),
+        &Method::GET => reqwest_client.get(url),
         _ => panic!("Received unexpected request_type: '{:?}'", request_type),
-    };
+    }
+    .basic_auth::<_, &str>("", Option::None)
+    .headers(convert_to_reqwest_headers(req.headers()))
+    .query(&convert_actix_query_to_vec(req.query_string()))
+    .body(String::from(body))
+    .build()
+    .unwrap();
+    println!("Request being made for mitm: '{:?}'\n", client_request);
+    let start = Instant::now();
+    let resp = reqwest_client.execute(client_request);
+    duration = start.elapsed();
+    println!(
+        "\n-----------\nActual request time took: '{}' milliseconds.\n-----------\n",
+        duration.as_millis()
+    );
+    return resp;
 }
 
 fn get_request_string_url(request_type: &Method, url: &str) -> String {
@@ -241,8 +274,8 @@ fn mitm(
         println!("Serving api iac meta ndmdhs domain.....");
         url = format!("{}{}", API_IAC_URL, resource);
     } else if host == BDCORE_DOMAIN {
-        println!("Serving bdcore domain.....");
-        url = format!("{}{}", BDCORE_URL, resource);
+        println!("Serving bdcore domain (returning OK blindly).....");
+        // url = format!("{}{}", BDCORE_URL, resource);
         // Screw letting these analytics requests through.
         return HttpResponse::new(StatusCode::OK);
     } else if host == HC_PRC_SONY_DNA_DOMAIN {
@@ -293,7 +326,7 @@ fn mitm(
             return resp_builder.body(text);
         }
         Err(e) => panic!(
-            "Error serving {}: {:?}\nWith headers: {:?}",
+            "Error serving {}: {:?}\nWith headers: {:?}\n\n",
             get_request_string_url(request_type, &url),
             req.headers(),
             e
@@ -345,16 +378,16 @@ async fn main() -> std::io::Result<()> {
             // enable logger
             .wrap(middleware::Logger::default())
             // .service(index)
-            .app_data(String::configure(|cfg| {  // <- limit size of the payload
+            .app_data(String::configure(|cfg| {
+                // <- limit size of the payload
                 cfg.limit(2 << 32)
             }))
             .default_service(web::to(|body: String, request: HttpRequest| {
+                let start = Instant::now();
                 println!(
-                    "\n====================================\nRequest: '{:?}'\nRequest.head(): '{:?}'\nRequest.uri(): '{:?}'\nRequest.headers(): '{:?}'\nRequest.body(): '{:?}'",
+                    "\n====================================\nRequest: '{:?}'\nRequest.head(): '{:?}'\nRequest.body(): '{:?}'\n",
                     request,
                     request.head(),
-                    request.uri(),
-                    request.headers(),
                     body,
                 );
                 let uri = request.uri();
@@ -364,23 +397,19 @@ async fn main() -> std::io::Result<()> {
                 };
                 let path = &request.uri().path();
                 let method = request.method();
-                println!(
-                    "Default service hit with {}",
-                    get_request_string(
-                    method,
-                    host,
-                    path)
-                );
                 let response = mitm(method, host, path, &body, &request);
-                println!("Response going back from mitm server for {}: '{:?}'",
-                get_request_string(
-                    method,
-                    host,
-                    path), response);
+                let duration = start.elapsed();
+                println!(
+                    "Response going back from mitm server for {}: '{:?}'\n-----------\nServed request in: '{}' millis\n-----------\n",
+                    get_request_string(method, host, path),
+                    response,
+                    duration.as_millis()
+                );
                 return response;
             }))
     })
     .bind_rustls(format!("{}:{}", SERVING_IP_ADDRESS, SSL_PORT), config)?
+    .workers(20)
     .run()
     .await
 }
