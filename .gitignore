@@ -1,0 +1,10 @@
+/bin/
+/lib/
+saved-responses
+Cargo.lock
+../rust-mitm-server/Cargo.lock
+/Cargo.lock/
+rust-mitm-server/Cargo.
+rust-mitm-server/Cargo.lock
+audio-file-decoder/lib
+audio-file-decoder/bin

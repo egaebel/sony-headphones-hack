@@ -14,8 +14,9 @@ use rustls::{NoClientAuth, ResolvesServerCertUsingSNI, ServerConfig};
 use std::collections::{BTreeMap, HashMap};
 use std::fs::File;
 use std::io::BufReader;
+use std::io::prelude::*;
 use std::sync::{Arc, Mutex};
-use std::time::Instant;
+use std::time::{Instant, SystemTime, UNIX_EPOCH};
 
 const API_IAC_DOMAIN: &str = "api.iac.meta.ndmdhs.com";
 const API_IAC_URL: &str = "https://api.iac.meta.ndmdhs.com";
@@ -30,7 +31,9 @@ const MDS_CSX_SONY_DOMAIN: &str = "mds.csx.sony.com";
 const MDS_CSX_SONY_URL: &str = "https://mds.csx.sony.com";
 const MUSIC_CENTER_DOMAIN: &str = "musiccenter-cdn.meta.ndmdhs.com";
 const MUSIC_CENTER_URL: &str = "https://musiccenter-cdn.meta.ndmdhs.com";
-const SERVING_IP_ADDRESS: &str = "192.168.1.64";
+const SAVE_RESPONSE: bool = true;
+const SAVE_RESPONSE_DIR: &str = "saved-responses";
+const SERVING_IP_ADDRESS: &str = "192.168.1.32";
 const SSL_PORT: &str = "443";
 const USE_RESPONSE_CACHE: bool = false;
 
@@ -110,7 +113,6 @@ fn set_headers_in_resp(
 }
 
 fn convert_to_string_headers(headers: &reqwest::header::HeaderMap) -> HashMap<String, String> {
-    let start = Instant::now();
     let mut string_headers: HashMap<String, String> = HashMap::new();
     for (key, value) in headers {
         string_headers.insert(
@@ -118,11 +120,6 @@ fn convert_to_string_headers(headers: &reqwest::header::HeaderMap) -> HashMap<St
             String::from(value.to_str().unwrap()),
         );
     }
-    let duration = start.elapsed();
-    println!(
-        "\n----------\nCopied headers in: '{}' milliseconds.\n----------\n",
-        duration.as_millis()
-    );
     return string_headers;
 }
 
@@ -245,6 +242,7 @@ fn mitm(
     req: &HttpRequest,
 ) -> HttpResponse {
     let caching_domains: Vec<&str> = vec![MUSIC_CENTER_DOMAIN];
+    let response_saving_domains: Vec<&str> = vec![INFO_UPDATE_SONY_DOMAIN];
 
     // Option to just return an empty OK response.
     const RETURN_EMPTY_OKAY: bool = false;
@@ -294,7 +292,7 @@ fn mitm(
         panic!("Man-in-the-middle services are not available for request to host '{}', failed at attempting resource: '{}'. Please try again :D.", host, resource);
     }
     match make_client_request(request_type, &url, request_body, req) {
-        Ok(resp) => {
+        Ok(mut resp) => {
             println!(
                 "Response from {}: '{:?}'",
                 get_request_string(request_type, host, resource),
@@ -307,12 +305,19 @@ fn mitm(
             for cookie in resp.cookies() {
                 resp_builder.cookie(reqwest_cookie_to_actix_cookie(cookie));
             }
+            let mut body_buffer: Vec<u8> = vec![];
+            resp.copy_to(&mut body_buffer).unwrap();
             let text = resp.text().unwrap();
             println!(
                 "Response.text() from {}: '{:?}'",
                 get_request_string(request_type, host, resource),
                 text
             );
+            if SAVE_RESPONSE && response_saving_domains.contains(&host) && resp_status_code == StatusCode::OK {
+                let file_name = format!("{}--{}.binary", SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_millis(), url.replace("/", "--"));
+                let mut file = File::create(format!("{}/{}", SAVE_RESPONSE_DIR, file_name)).unwrap();
+                file.write_all(body_buffer.as_slice()).unwrap();
+            }
             if USE_RESPONSE_CACHE
                 && caching_domains.contains(&host)
                 && resp_status_code == StatusCode::OK
@@ -323,7 +328,8 @@ fn mitm(
                     CachedResponse::new(string_headers, &text),
                 );
             }
-            return resp_builder.body(text);
+            // return resp_builder.body(text);
+            return resp_builder.body(body_buffer);
         }
         Err(e) => panic!(
             "Error serving {}: {:?}\nWith headers: {:?}\n\n",
