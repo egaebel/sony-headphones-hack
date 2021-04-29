@@ -46,6 +46,7 @@ Steps Taken
 Steps To Take
 ==============
 * Figure out audio file format!
+----The audio section of the file has almost maximum entropy. It's probably encrypted (fucking why?) or maybe compressed? IDK how high entropy typically goes for compression algorithms though.
 * Start tampering
 ----Swap out the shitty audio files from Sony with better ones (use a language besides english for this)
 --------Make sure the new audio files aren't longer than the originals (shouldn't be hard, that's the goal anyway) there might be some buffer overflows that can happen in the headphones firmware
