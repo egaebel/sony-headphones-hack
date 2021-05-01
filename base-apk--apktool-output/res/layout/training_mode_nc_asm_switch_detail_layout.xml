@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_1" android:scaleType="fitXY" />
+        <FrameLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="46.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentStart="true">
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ASM_Simple_Title" android:layout_marginStart="16.0dip" style="@style/TSS_L_C1_Re" />
+                </LinearLayout>
+                <Switch android:id="@id/nc_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+                <include android:id="@id/nc_asm_switch_detail_content" layout="@layout/nc_asm_switch_detail_layout" />
+            </LinearLayout>
+        </FrameLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_2" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="start" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_left" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="end" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_right" android:scaleType="fitXY" />
+</FrameLayout>

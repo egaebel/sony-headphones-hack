@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/earpiece_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" />
+    <TextView android:id="@id/earpiece_size_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="32.0dip" android:maxLines="1" android:layout_toLeftOf="@id/checkbox" android:layout_toRightOf="@id/earpiece_icon" android:layout_centerVertical="true" style="@style/TSS_L_C1_Re" />
+    <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

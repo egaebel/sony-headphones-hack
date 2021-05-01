@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/alexa_button_container" android:layout_alignParentTop="true" />
+    <View android:id="@id/bottom_divider" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/alexa_button_container" />
+    <LinearLayout android:orientation="vertical" android:id="@id/alexa_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/alexa_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="@dimen/alexa_text_bottom_margin_with_button" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/T3S_C_C2_Re" />
+        <RelativeLayout android:id="@id/next_button_holder" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <ImageView android:id="@id/next_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/alexa_intro_next_button" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <TextView android:id="@id/next_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/STRING_COMMON_NEXT" android:layout_centerInParent="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/TSS_C_C1i_ReStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

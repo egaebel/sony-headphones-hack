@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_iasetup_analysis_camera_edit_toolbar" />
+    <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/IASetup_Instruction_Adjust_EarPhoto" style="@style/TM_C_C1i_ReStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.sony.songpal.mdr.application.immersiveaudio.setup.earcapture.ReshapeView android:id="@id/earReshapeView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/reshapeFrameLayout" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_centerInParent="true">
+            <ImageView android:id="@id/earGuideImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="58.0dip">
+        <TextView android:id="@id/linkSample" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_Link_EarPhotoSample" android:layout_centerInParent="true" style="@style/TSS_C_A1_ReStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="bottom" android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <Button android:textSize="@dimen/ui_common_font_size_S" android:textColor="?ui_common_color_C1i" android:id="@id/retake" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" android:minWidth="@dimen/ui_common_flat_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:maxLines="1" android:layout_alignParentLeft="true" />
+        <Button android:textSize="@dimen/ui_common_font_size_S" android:textColor="?ui_common_color_C1i" android:id="@id/next" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:minWidth="@dimen/ui_common_flat_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:maxLines="1" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginStart="96.0dip" android:layout_marginEnd="36.0dip">
+        <com.sony.songpal.mdr.view.MarqueeTextView android:textAppearance="@style/TS_L_C1_BoStyle" android:id="@id/track_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" />
+        <TextView android:textAppearance="@style/TSS_L_C2_Re" android:ellipsize="end" android:id="@id/artist_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" />
+        <TextView android:textAppearance="@style/TSS_L_C2_Re" android:ellipsize="end" android:id="@id/album_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <ImageButton android:id="@id/previous_button" android:background="@android:color/transparent" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/playback_previous_selector" android:contentDescription="@string/Assignable_Key_Setting_Function_Music_Prev" />
+        <com.sony.songpal.mdr.view.PlayPauseButton android:id="@id/play_pause_button" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <ImageButton android:id="@id/next_button" android:background="@android:color/transparent" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/playback_next_selector" android:contentDescription="@string/Assignable_Key_Setting_Function_Music_Next" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="18.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:id="@id/volume_icon" android:layout_width="38.0dip" android:layout_height="fill_parent" />
+        <com.sony.songpal.mdr.view.VolumeSlider android:id="@id/volume_slider" android:layout_width="0.0dip" android:layout_height="40.0dip" android:indeterminateDrawable="@drawable/a_mdr_ebb_slider_background" android:progressDrawable="@drawable/a_mdr_ebb_slider_selector" android:thumb="@drawable/a_mdr_ebb_slider_knob" android:layout_weight="1.0" android:contentDescription="@string/Volume_Talkback" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="-8.0dip" style="@style/EbbSliderStyle" />
+    </LinearLayout>
+</LinearLayout>

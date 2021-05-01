@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="18.0dip" android:layout_above="@id/abs_judge_button">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="24.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ESA_Test_Description" style="@style/TSS_L_C1_Re" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="36.0dip">
+                <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/a_mdr_esa_nc" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/ESA_NC_Description" android:maxLines="2" style="@style/T3S_L_C2_Re" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="18.0dip">
+                <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/a_mdr_esa_acoustic" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/ESA_Audio_Description" android:maxLines="2" style="@style/T3S_L_C2_Re" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/ESA_NC_Caution" style="@style/T3S_L_C2_Re" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/abs_judge_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_above="@id/relative_comparison_judge_button" android:layout_centerHorizontal="true" layout="@layout/ui_common_raised_button" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/relative_comparison_judge_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="40.0dip" android:text="@string/ESA_Comparison_Button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/TSS_C_A1_ReStyle" />
+</RelativeLayout>

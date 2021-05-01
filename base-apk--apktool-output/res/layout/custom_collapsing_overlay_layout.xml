@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/instructionguide_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_alignParentEnd="true">
+        <TextView android:ellipsize="end" android:id="@id/instructionguide_coach_mark_textview" android:background="@drawable/a_mdr_instruction_guide_coach_mark" android:paddingLeft="20.0dip" android:paddingTop="24.0dip" android:paddingRight="20.0dip" android:paddingBottom="16.0dip" android:focusable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignParentTop="true" android:importantForAccessibility="yes" android:layout_alignParentEnd="true" style="@style/T3S_L_C1i_ReStyle" />
+    </RelativeLayout>
+</RelativeLayout>

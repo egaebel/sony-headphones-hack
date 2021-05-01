@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/ui_navigation_bar_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_List_Title" android:maxLines="1" style="@style/TSS_L_C2_MeStyle" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/SettingsTakeOver_Settings_Description" style="@style/TSS_L_C2_Re" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <ImageView android:id="@id/backupStateIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="32.0dip">
+                    <TextView android:id="@id/backupStateText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/backupDateTimeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Settings_Status_DateTime_Label" android:maxLines="3" style="@style/TSS_L_C2_Re" />
+                        <TextView android:id="@id/backupDateTimeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/TSS_L_C2_Re" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Button android:id="@id/backupInfoButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_flat_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/Common_More" android:maxLines="1" style="@style/AppTheme.FlatButton" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="72.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Settings_Label_AutoSync" android:maxLines="2" android:layout_weight="1.0" style="@style/TS_L_C1_Re" />
+                <Switch android:id="@id/autoSyncSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="18.0dip">
+                <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/backupButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_raised_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/SettingsTakeOver_Settings_Button_Backup_Now" android:maxLines="1" />
+                <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/restoreButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minWidth="@dimen/ui_common_raised_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/SettingsTakeOver_Settings_Button_Restore_Now" android:maxLines="1" />
+            </LinearLayout>
+            <View android:background="#cccccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Settings_Account_Caption" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_L_C2_MeStyle" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_settings_take_over_settings_account_general" />
+                    <TextView android:id="@id/serviceNameText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="32.0dip" style="@style/TS_L_C1_Re" />
+                </LinearLayout>
+                <Button android:layout_gravity="right" android:id="@id/accountButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minWidth="@dimen/ui_common_flat_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/SettingsTakeOver_Settings_ServiceAccount" android:maxLines="1" android:textAllCaps="false" android:layout_marginEnd="4.0dip" style="@style/AppTheme.FlatButton" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/signOutLayout" android:background="?selectableItemBackground" android:paddingLeft="72.0dip" android:paddingTop="16.0dip" android:paddingRight="0.0dip" android:paddingBottom="16.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/STRING_TEXT_SIGNOUT" android:maxLines="2" style="@style/TS_L_C1_Re" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/signOutAndDeleteBackupLayout" android:background="?selectableItemBackground" android:paddingLeft="72.0dip" android:paddingTop="16.0dip" android:paddingRight="0.0dip" android:paddingBottom="16.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Settings_DeleteAccount_Caption" android:maxLines="2" style="@style/TS_L_C1_Re" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Settings_DeleteAccount_Description" android:layout_marginEnd="16.0dip" style="@style/TSS_L_C2_Re" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

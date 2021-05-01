@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/done_btn_layout" android:isScrollContainer="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/device_image" android:background="?color_device_image_bg" android:layout_width="fill_parent" android:layout_height="112.0dip" android:scaleType="fitCenter" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:minHeight="30.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <TextView android:textAppearance="@style/TLL_L_C1_Re" android:ellipsize="end" android:id="@id/device_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:maxLines="2" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/device_name_change_btn" />
+                <TextView android:id="@id/device_name_change_btn" android:background="?bg_devicedetail_change_btn" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:text="@string/STRING_TEXT_EDIT" android:layout_centerVertical="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_alignParentEnd="true" style="@style/TS_R_C2_Re" />
+            </RelativeLayout>
+            <View android:background="?ui_common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <FrameLayout android:id="@id/customer_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/done_btn_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_settings_done_button_margin_top" android:layout_marginBottom="@dimen/device_settings_done_button_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include android:id="@id/done_btn" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</RelativeLayout>

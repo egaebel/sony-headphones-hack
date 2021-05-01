@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <objectAnimator android:valueTo="@dimen/design_appbar_elevation" android:valueType="floatType" android:propertyName="elevation" />
+    </item>
+</selector>

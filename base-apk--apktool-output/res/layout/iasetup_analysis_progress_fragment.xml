@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:maxLines="1" layout="@layout/ui_common_toolbar" />
+    <ImageView android:gravity="top" android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:srcCompat="@drawable/a_mdr_immersive_process_bg" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_above="@id/navigation_bar_area">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/IASetup_Analyze_Title" android:lines="2" style="@style/T3L_L_C1_LiStyle" />
+        <TextView android:id="@id/ia_analysis_progress_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="8.0dip" android:text="@string/IASetup_Analyze_Detail" android:lines="3" style="@style/TSS_L_C1_Re" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/fw_update_progress_height" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="8.0dip" android:progressDrawable="@drawable/fw_update_progress" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <TextView android:textSize="12.0sp" android:layout_gravity="bottom|center" android:id="@id/tmp_response" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="HTTPS Response" />
+        <LinearLayout android:gravity="bottom|center|right" android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="14.0dip" android:layout_weight="1.0">
+            <include android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/ui_common_flat_button" />
+        </LinearLayout>
+    </LinearLayout>
+    <Space android:id="@id/navigation_bar_area" android:layout_width="fill_parent" android:layout_height="@dimen/ui_navigation_bar_height" android:layout_marginTop="28.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

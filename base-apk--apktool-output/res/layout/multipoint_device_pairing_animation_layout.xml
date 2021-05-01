@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/wave_anim_view" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerInside" android:importantForAccessibility="no" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/anime_mdr_2_device_multipoint_pairing" />
+    <ImageView android:id="@id/device_image" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+</RelativeLayout>

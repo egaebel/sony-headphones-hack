@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardUseCompatPadding="true">
+        <FrameLayout android:id="@id/voice_assistant_selection_card" android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?fg_common_press">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="80.0dip" android:scaleType="center" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_below="@id/image" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_C_C1_Re" />
+            </RelativeLayout>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

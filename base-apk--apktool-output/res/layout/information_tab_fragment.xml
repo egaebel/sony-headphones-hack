@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/contents_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/action_tabs" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="40.0dip" android:elevation="@dimen/ui_toolbar_elevation_height" app:tabGravity="fill" app:tabIndicatorColor="?theme_color_tab_indicator" app:tabIndicatorFullWidth="true" app:tabIndicatorHeight="2.0dip" app:tabMaxWidth="0.0dip" app:tabMode="fixed" style="@style/TabLayout" />
+        <com.sony.songpal.mdr.view.layout.NonSwipeableViewPager android:id="@id/action_tab_viewpager" android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_tabs" />
+    </RelativeLayout>
+</FrameLayout>

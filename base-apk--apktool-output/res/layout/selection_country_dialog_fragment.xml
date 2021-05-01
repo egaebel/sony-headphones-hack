@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/selection_country_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="@string/STRING_TITLE_COUNTRY" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/TL_L_C1_Me" />
+    <TextView android:id="@id/selection_country_message_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:text="@string/STRING_MSG_SELECT_COUNTRY" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/TM_L_C2_Re" />
+    <RelativeLayout android:id="@id/selection_country_scroll_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView android:id="@id/selection_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioGroup android:id="@id/selection_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView>
+        <View android:id="@id/top_divider" android:background="?ui_common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/selection_scroll_view" />
+        <View android:id="@id/bottom_divider" android:background="?ui_common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/selection_scroll_view" />
+    </RelativeLayout>
+</LinearLayout>

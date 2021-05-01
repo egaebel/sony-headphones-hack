@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/welcome_root_view" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/buttons_layout" android:layout_alignParentTop="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/pp_usage_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/TS_L_C1_Re" />
+            <TextView android:id="@id/pp_usage_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/TSS_L_C1_Re" />
+            <TextView android:id="@id/pp_usage_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/TSS_L_A1_Re" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/bottom_divider" android:background="?ui_common_divider_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/buttons_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/buttons_layout" android:paddingTop="28.0dip" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:layout_gravity="center_horizontal" android:id="@id/accept_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/ui_common_raised_button" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/decline_button" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</RelativeLayout>

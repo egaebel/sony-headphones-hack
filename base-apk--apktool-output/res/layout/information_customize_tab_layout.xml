@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <TextView android:id="@id/tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/TSS_C_A1_MeStyle" />
+        <ImageView android:id="@id/new_dots" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="2.0dip" android:layout_toRightOf="@id/tab_text" android:contentDescription="@string/InformationNotification_New_Talkback_2" app:srcCompat="@drawable/a_information_to_user_icon_new_arrival" />
+    </RelativeLayout>
+</RelativeLayout>

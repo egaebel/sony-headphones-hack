@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/navigation_bar_shadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/ui_navigation_bar_height" android:src="@drawable/bg_navigation_bar_shadow" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+</RelativeLayout>

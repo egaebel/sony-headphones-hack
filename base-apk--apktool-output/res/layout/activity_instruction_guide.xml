@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/toolbar_layout" android:layout_alignBottom="@id/toolbar_layout" android:elevation="4.0dip">
+        <ImageView android:id="@id/reload" android:padding="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/instruction_guide_reload_selector" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/select_earpiece_button_container" android:layout_below="@id/toolbar_layout" />
+    <View android:id="@id/bottom_divider" android:background="@color/ui_common_color_c4_light" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/select_earpiece_button_container" />
+    <FrameLayout android:id="@id/select_earpiece_button_container" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/page_controller_layout">
+        <include android:layout_gravity="center_horizontal" android:id="@id/select_earpiece_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="26.0dip" android:maxLines="1" layout="@layout/ui_common_raised_button" />
+    </FrameLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d3" android:scaleType="fitXY" android:layout_above="@id/page_controller_layout" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/page_controller_layout" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_alignParentBottom="true" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <ImageView android:id="@id/prev_button" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/a_mdr_instruction_guide_button_prev" />
+        <ImageView android:id="@id/next_button" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/a_mdr_instruction_guide_button_next" android:layout_alignParentEnd="true" />
+        <TextView android:gravity="center" android:id="@id/page_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@id/prev_button" android:layout_alignBottom="@id/prev_button" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/next_button" android:layout_toEndOf="@id/prev_button" style="@style/TSS_L_C3_Re" />
+    </RelativeLayout>
+    <ImageView android:id="@id/navigation_bar_shadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/ui_navigation_bar_height" android:src="@drawable/bg_navigation_bar_shadow" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+</RelativeLayout>

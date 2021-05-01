@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/a_mdr_clearbass_slider_background" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/a_mdr_clearbass_slider_background" />
+    <item android:state_pressed="true" android:drawable="@drawable/a_mdr_clearbass_slider_foreground" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/a_mdr_clearbass_slider_foreground" />
+    <item android:state_enabled="true" android:drawable="@drawable/a_mdr_clearbass_slider_background" />
+    <item android:state_focused="true" android:drawable="@drawable/a_mdr_clearbass_slider_background" />
+    <item android:drawable="@drawable/a_mdr_clearbass_slider_background" />
+</selector>

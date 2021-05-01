@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/action_footer" android:layout_below="@id/toolbar_layout">
+        <RelativeLayout android:id="@id/asc_sound_setting_customize_container" android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/asc_sound_settings_status_top" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentTop="true">
+                <TextView android:gravity="center" android:layout_gravity="end|center" android:id="@id/select_setting_item_button" android:layout_width="wrap_content" android:layout_height="@dimen/text_button_height" android:minWidth="@dimen/text_button_min_width" android:text="@string/ASC_Location_Sound_Setting_Reselect_items" android:paddingStart="@dimen/text_button_side_padding" android:paddingEnd="@dimen/text_button_side_padding" android:layout_marginEnd="8.0dip" style="@style/TSS_R_A1_MeStyle" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/asc_sound_settings_status_top">
+                <LinearLayout android:orientation="vertical" android:id="@id/card_layout_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <TextView android:id="@id/asc_sound_settings_empty_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/ASC_Location_Sound_Setting_Empty_message" android:layout_above="@id/action_footer" android:layout_below="@id/toolbar_layout" style="@style/TSS_C_C2_Re" />
+    <FrameLayout android:id="@id/action_footer" android:background="?theme_color_primary" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_alignParentBottom="true">
+        <include android:layout_gravity="left" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:maxLines="1" android:layout_marginEnd="2.0dip" layout="@layout/ui_common_flat_button" />
+        <include android:layout_gravity="right" android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:maxLines="1" android:layout_marginEnd="2.0dip" layout="@layout/ui_common_flat_button" />
+    </FrameLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d3" android:scaleType="fitXY" android:layout_above="@id/action_footer" />
+</RelativeLayout>

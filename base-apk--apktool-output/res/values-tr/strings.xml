@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">Uzun</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">Kısa</string>
+    <string name="AR_Custom_Reset">Sıfırla</string>
+    <string name="AR_Custom_Title">Düzenle</string>
+    <string name="AR_Custom_Title_iOS">DÜZENLE</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"Uygulama sık kullandığınız eylemlerinizi ve konumlarınızı algılar ve otomatik olarak ortam sesinin nasıl çekileceği gibi kulaklık ayarlarını değiştirir.
+Bu şekilde, müzik dinlediğiniz sahneye uygun optimum müzik deneyimlerini arşivler.
+
+Bu işlev kullanılsın mı?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"Uygulama eylemlerinizi algılar ve otomatik olarak ortam sesinin nasıl alınacağını ayarlar.
+Bu yolla, müziği dinlediğiniz sahneye uymak için optimum müzik deneyimlerini arşivler.
+
+Bu işlev kullanılsın mı?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">Uyarlanabilir Ses Kontrolü ayarı tamam.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"Algılanan eylemlere ve konuma uygun ayarlarda otomatik değişiklik nedeniyle Gürültü Kesme kapanabilir.
+Bu ayar panonun [Uyarlanabilir Ses Kontrolü] özelliği kullanılarak özelleştirilebilir."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"Sistem, Gürültü Kesme özelliğini devre dışı bırakmak ve tespit edilen davranışa bağlı olarak ortam sesini almak üzere ayarlanmıştır.
+Bu ayar, panelin [Uyarlanabilir Ses Kontrolü] özelliği kullanılarak özelleştirilebilir."</string>
+    <string name="AR_Notification_Message">[%s] etkinleştirildi.</string>
+    <string name="AR_Status_Detecting">Algılanıyor</string>
+    <string name="AR_Status_LongStay">Duruyor</string>
+    <string name="AR_Status_Run">Koşuyor</string>
+    <string name="AR_Status_ShortStay">Duruyor</string>
+    <string name="AR_Status_Vehicle">Taşıma</string>
+    <string name="AR_Status_Walking">Yürüyor</string>
+    <string name="AR_Title">Uyarlanabilir Ses Kontrolü</string>
+    <string name="AR_Title_Detail">Uygulama sık kullandığınız eylemlerinizi ve konumlarınızı algılar ve otomatik olarak ortam sesinin nasıl çekileceği gibi kulaklık ayarlarını değiştirir.</string>
+    <string name="AR_Title_Detail_China">Uygulama eylemlerinizi algılar ve [%s] değiştirilir.</string>
+    <string name="AR_Title_Detail_EffectTone">Geçiş sesi [%s] öğesi kapatılarak susturulabildiğinde bildirim sesi dışarı verilir.</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">Bu ayarlar bu konumdayken etkinleştirilir ve eylemlere göre otomatik değiştirme devre dışı bırakılır.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">Kayıtlı konumdayken devre dışıdır</string>
+    <string name="ASC_Behavior_Detection">Eylemlere göre otomatik değiştirme</string>
+    <string name="ASC_Behavior_Detection_Menu">Eylemleri Algılama</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"Sık kullandığınız konumları kaydederek konuma göre ayarların otomatik değiştirilmesi kullanılabilir hale gelir.
+Sık kullandığınız konumlar öğrenme işlevi kullanılarak kolayca kaydedilebilir.
+Bu işlev kullanılsın mı?
+*Öğrenme işlevini kullandıktan sonra sık kullandığınız konumların kaydedilmesi birkaç gün alacaktır."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">Konum öğrenme işlevleri çevrimdışı olduğundan konum sunucuya gönderilmedi.</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">Öğrenme işlevini kullanın</string>
+    <string name="ASC_LearningLocation">Sık kullandığınız konumları öğrenme</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"Sık kullandığınız konumlar için öğrenme işlevi ve Uyarlanabilir Ses Kontrolü'nün konumlarına göre ayarları otomatik değiştirme etkin, ancak Konum'a erişilemediğinden konumlar algılanamıyor.
+ 
+Bu işlevleri arka planda çalıştırmak için [Ayarlar] düğmesine basın ve [izinler] > [Konum] öğesinden [Her zaman izin ver] öğesini seçin. Her zaman izin verilirse, konum verileri uygulama kapalıyken veya kullanımda değilken bile toplanacaktır."</string>
+    <string name="ASC_Location_Detail">Konum Bilgileri</string>
+    <string name="ASC_Location_Detail_Message">"Yeni bir konum öğrenildi.
+Bu konum kaydedilirse kulaklık ayarları otomatik değiştirilebilir."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">Gürültü kesmeyi KAPALI olarak ayarlar ve çevrenizdeki kişilerin seslerini daha iyi algılamanızı etkinleştiren bir ön ayar yapar.</string>
+    <string name="ASC_Location_Detail_Message_Other">Bu konum için önerilen bir ayar ön ayar olarak mevcuttur.</string>
+    <string name="ASC_Location_Detail_Message_Station">Gürültü kesmeyi KAPALI olarak ayarlar ve çevrenizdeki ortam seslerini daha iyi algılamanızı etkinleştiren bir ön ayar yapar.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">Sık kullandığınız konumları öğrenme</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">Yeni bir konum öğrenildi.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">Bu konum kaydedilirse kulaklık ayarları otomatik değiştirilebilir.</string>
+    <string name="ASC_Location_Detection">Konuma göre otomatik değiştirme</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">Metro ve tünel gibi GPS alımının zayıf olduğu yerlerde, sık kullandığınız konumları öğrenme ve konuma göre otomatik değiştirme düzgün çalışmayabilir.</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">Mobil aygıtınızda GPS bulunmadığından, sık kullandığınız konumları öğrenme ve konuma göre otomatik değiştirme düzgün çalışmayabilir.</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">Konum algılamada sınırlar var</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">Konum Algılanıyor...</string>
+    <string name="ASC_Location_Empty_Message">Konumunuza göre otomatik değiştirmeyi kullanmak için sık kullandığınız konumları kaydedin.</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">"Konum'u Aç"</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"Sık kullandığınız konumlar için öğrenme işlevi ve Uyarlanabilir Ses Kontrolü'nün konumlarına göre ayarları otomatik değiştirme etkin, ancak Konum kapatıldığından konumlar algılanamıyor.
+
+Bu işlevlerin düzgün çalışmasını sağlamak için Konum'u açın."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"Sık kullandığınız konumlar için öğrenme işlevi ve Uyarlanabilir Ses Kontrolü'nün konumlarına göre ayarları otomatik değiştirme etkin, ancak Konum Servisleri kapatıldığından konumlar algılanamıyor.
+
+Bu işlevlerin düzgün çalışmasını sağlamak için Konum Servisleri'ni açın.
+Mobil cihazın “Ayarlar” > [Gizlilik] > [Konum Servisleri] altındaki ayarları gerçekleştirin."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">"Konum'u Aç"</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">"Konum Servisleri'ni Aç"</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">"Sık kullandığınız konumları algılamak için Konum'u açın."</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">"Sık kullandığınız konumları algılamak için Konum Servisleri'ni açın."</string>
+    <string name="ASC_Location_Learning_Location_List">Öğrenilen Konum</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">Sık kullandığınız konumlar</string>
+    <string name="ASC_Location_Learning_Location_Select_message">Kaydetmek istediğiniz bir konumu seçin.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">Öğrenme işlevi etkinleştirildi.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"Yalnızca algılanan eylemleriniz hariç sık kullandığını konumları kaydederek, o konuma göre ayarların otomatik değiştirilmesi Uyarlanabilir Ses Kontrolü içinde kullanılabilir hale gelir. Sık kullandığınız konumlar öğrenme işlevi kullanılarak kolayca kaydedilebilir.
+*Öğrenme işlevini kullandıktan sonra sık kullandığınız konumların kaydedilmesi birkaç gün alacaktır."</string>
+    <string name="ASC_Location_Learning_Tips_notification">Öğrenme işlevini kullanarak sık kullandığınız konumları kolayca kaydedebilirsiniz.</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">"Konum'a erişime izin ver"</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"Sık kullandığınız konumlar için öğrenme işlevi ve Uyarlanabilir Ses Kontrolü'nün konumlarına göre ayarları otomatik değiştirme etkin, ancak Konum algılanamadığından konumlar algılanamıyor.
+
+Bu işlevlerin düzgün çalışmasını sağlamak için Konum'a erişime izin verin. Her zaman izin verilirse, konum verileri uygulama kapalıyken veya kullanımda değilken bile toplanacaktır."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"Sık kullandığınız konumlar için öğrenme işlevi ve Uyarlanabilir Ses Kontrolü'nün konumlarına göre ayarları otomatik değiştirme etkin, ancak Konum'a erişilemediğinden konumlar algılanamıyor.
+
+Bu işlevlerin düzgün çalışmasını sağlamak için bir sonraki ekranda [Uygulamayı Kullanırken] seçeneğini belirleyin."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"Sık kullandığınız konumlar için öğrenme işlevi ve Uyarlanabilir Ses Kontrolü'nün konumlarına göre ayarları otomatik değiştirme etkin, ancak Konum Servisleri'ne erişilemediğinden konumlar algılanamıyor.
+
+Bu işlevleri arka planda çalıştırmak için [Ayarlar] düğmesine basın ve her zaman [Konum]'dan erişime izin verin."</string>
+    <string name="ASC_Location_Permission_Tips_notification">"Sık kullandığınız konumları algılamak için Konum'a erişime izin verin."</string>
+    <string name="ASC_Location_Position_Set">Konum</string>
+    <string name="ASC_Location_Position_Set_message">Bir konum belirtmek için dokunun.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">"Tam Konum'u Aç"</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"Sık kullandığınız konumlar için öğrenme işlevi ve Uyarlanabilir Ses Kontrolü'nün konumlarına göre ayarları otomatik değiştirme etkin, ancak Tam Konum kapatıldığından konumlar algılanamıyor.
+
+Bu özelliklerin doğru çalışması için [Ayarlar] düğmesine basın ve [Konum] öğesinden Tam Konum'u açın."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">"Sık kullandığınız konumları algılamak için Tam Konum'u açın."</string>
+    <string name="ASC_Location_Range">Aralık</string>
+    <string name="ASC_Location_Range_Param_Large">Büyük</string>
+    <string name="ASC_Location_Range_Param_Mid">Standart</string>
+    <string name="ASC_Location_Range_Param_Small">Küçük</string>
+    <string name="ASC_Location_Registration">Konumu Kaydet</string>
+    <string name="ASC_Location_Setting">Konum Ayarları</string>
+    <string name="ASC_Location_Sound_Setting">Kulaklık Ayarları</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">[Öğeler Ekle/Sil] içinden bu konuma geçmek için ayarı seçin.</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">Değiştirme</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">Öğeler Ekle/Sil</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"Bu konumda değiştirmek için bir ayar seçin.
+Seçilmemiş ayarlar bu konuma girmiş olsanız bile önceki durumu koruyacaktır."</string>
+    <string name="ASC_Location_Switch_Setting">Değiştirme Yöntemi</string>
+    <string name="ASC_Location_Type_Bus">Otobüs Durağı</string>
+    <string name="ASC_Location_Type_Gym">Spor Salonu</string>
+    <string name="ASC_Location_Type_Home">Ev</string>
+    <string name="ASC_Location_Type_Office">Çalışma Alanı</string>
+    <string name="ASC_Location_Type_Other">Diğer</string>
+    <string name="ASC_Location_Type_School">Okul</string>
+    <string name="ASC_Location_Type_Set">Kategori</string>
+    <string name="ASC_Location_Type_Set_message">Bir kategori seçin.</string>
+    <string name="ASC_Location_Type_Train">İstasyon</string>
+    <string name="ASC_NotificationSound">Değiştirirken Bildirim Tonu</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">Bildirim ayarlarına izin ver.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"Uyarlanabilir Ses Kontrolü'nün [Bildirimden Değiştir] ayarı etkinleştirilse de bildirim ayarına izin verilmediğinden bildirimler görüntülenmeyecektir.
+
+Bildirim ayarının bu işlevin düzgün çalışmasını sağlamasına izin verin."</string>
+    <string name="ASC_NowHere">Bu konumdasınız</string>
+    <string name="ASC_Others_Section">Diğer</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">Öğrenilen konumlardan kaydet</string>
+    <string name="ASC_RegisterFromMapBtn">Haritadan kaydet</string>
+    <string name="ASC_RegisteredLocation">Kayıtlı Konumlar</string>
+    <string name="ASC_Status_Empty">Otomatik değiştirilmedi</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">Devre dışı bırakıldı (Ekolayzırda değişiklikleri el ile yapmanız gerekecektir)</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*Manüel değiştiriliyor</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">Devre dışı bırakıldı (ses kalitesine öncelik nedeniyle)</string>
+    <string name="ASC_Status_Sound_Setting_info">Ayar Durumu</string>
+    <string name="ASC_Supplement_A2SC_Controlled">Uyarlanabilir Ses Kontrolü ile otomatik ayarla.</string>
+    <string name="ASC_Supplement_Change_Behavior">Eyleminiz değişirse Uyarlanabilir Ses Kontrolü ile ayar otomatik değişir.</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">Eyleminiz ve konumunuz değişirse Uyarlanabilir Ses Kontrolü ile ayar otomatik değişir.</string>
+    <string name="ASC_Supplement_Change_Location">Konumunuz değişirse Uyarlanabilir Ses Kontrolü ile ayar otomatik değişir.</string>
+    <string name="ASC_Supplement_Leave_Location">"Bu konumdan ayrılırsanız Uyarlanabilir Ses Kontrolü'ne göre otomatik ayara döner."</string>
+    <string name="ASC_Switch_Detail_Message">[Bildirimden Değiştir] olarak ayarlanırsa bu konumdayken bu ayarı istediğiniz zaman değiştirebilirsiniz.</string>
+    <string name="ASC_Switch_Notification_After_Button">Geri Döndür</string>
+    <string name="ASC_Switch_Notification_After_Description">Ayarı değiştirmeden önceki haline geri döndürebilirsiniz.</string>
+    <string name="ASC_Switch_Notification_After_Title">%s ayarına ayarla</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">Değiştir</string>
+    <string name="ASC_Switch_Notification_Before_Description">Bu konumun ayarına değiştirilsin mi?</string>
+    <string name="ASC_Switch_Notification_Before_Title">Yer: %s</string>
+    <string name="ASC_Switch_Type_Auto">Otomatik Değiştir</string>
+    <string name="ASC_Switch_Type_Manual">Bildirimden Değiştir</string>
+    <string name="ASM_Param_ASM">Ortam Sesi</string>
+    <string name="ASM_Param_NC">Gürültü Kesme</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">Kapalı</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">Açık</string>
+    <string name="ASM_Param_Street">Rüzgar Gürültüsünü Azaltma</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">Ortam Sesi</string>
+    <string name="ASM_Simple_Param_AsmNormal">Ortam Sesi - Normal Mod</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">Ortam Sesi - Normal Mod</string>
+    <string name="ASM_Simple_Param_AsmVoice">Ortam Sesi - Ses Modu</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">Ortam Sesi - Ses Modu</string>
+    <string name="ASM_Simple_Param_Asm_forBody">Ortam Sesi</string>
+    <string name="ASM_Simple_Param_Dual">Gürültü Kesme</string>
+    <string name="ASM_Simple_Param_Dual_forBody">Gürültü Kesme</string>
+    <string name="ASM_Simple_Param_NC">Gürültü Kesme</string>
+    <string name="ASM_Simple_Param_NC_forBody">Gürültü Kesme</string>
+    <string name="ASM_Simple_Param_Street">Rüzgar Gürültüsünü Azaltma</string>
+    <string name="ASM_Simple_Param_Street_forBody">Rüzgar Gürültüsünü Azaltma</string>
+    <string name="ASM_Simple_Title">Ortam Sesi Kontrolü</string>
+    <string name="ASM_Title">Ortam Sesi Kontrolü</string>
+    <string name="ASM_Voice">Sese Odaklan</string>
+    <string name="Abort_FWUpdate">Durdur</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">Ayarlanmadı</string>
+    <string name="AppNotify_Custom_Param_Vibration">Titreşim</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">Metinden Konuşmaya</string>
+    <string name="AppNotify_Custom_Title">Kulaklıkla bildirimleri al</string>
+    <string name="AppNotify_Detail">Kulaklıklarınızda seçili uygulamalardan bildirimleri alabilirsiniz. Metinden konuşmaya işlevini kullanmak için ortamın sesi mobil cihazın Bluetooth ayarlarında seçilmelidir.</string>
+    <string name="AppNotify_NeedSetup">Hangi uyglmlrn bildirmlrn alacğnz sçn.</string>
+    <string name="AppNotify_Notification_Message">[%s] etkn.</string>
+    <string name="AppNotify_Setapps">%d uygulama seçildi.</string>
+    <string name="AppNotify_Title">Kulaklıkla bildirimleri al</string>
+    <string name="AppSetting_Link">"Music Center'ı başlat"</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">Kaydet</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">Kulaklığa yeniden bağlantı gerektiğinden geçerli olarak çalmakta olan müzik duracaktır. Değiştirilsin mi?</string>
+    <string name="Assignable_Key_Changing_Error">İşlem başarısız oldu.</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">Düğmenin işlevini değiştirir</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">Bu işlevi kullanmak için Amazon Alexa uygulaması gerekir.</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">"Amazon Alexa'yı ayarlayın"</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">Bu işlevi kullanmak için Google Assistant uygulama ayarlarını tamamlayın.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">Bu işlevi kullanmak için Google Assistant uygulaması gerekir.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google Asistan</string>
+    <string name="Assignable_Key_Elem_Help_Button">Daha fazla bilgi</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">Düğme işlemleri devre dışı bırakıldı. Eşleme işlemi bu ayarda kullanılabilir.</string>
+    <string name="Assignable_Key_Elem_None_Title">Atanan Yok</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">Dokunma işlemi devre dışı bırakılacak. Ekleme işlemi bu ayarda kullanılabilir.</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">Oynatma kontrolü</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">Mobil cihazı sesinizle kulaklıkların mikrofonundan çalıştırabilirsiniz.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">Ses Yardımı İşlevi</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">Ses Yüksekliği Kontrolü</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">"Ses Yardımı İşlevi'ni hem sola hem de sağa atayamazsınız."</string>
+    <string name="Assignable_Key_Setting_1">[NC/AMBIENT] düğm. işlevini değiştir</string>
+    <string name="Assignable_Key_Setting_2">Sol kenar düğmesinin işlevini değiştir</string>
+    <string name="Assignable_Key_Setting_Button">Düğme işlevini değiştir</string>
+    <string name="Assignable_Key_Setting_C">[C] düğm. işlevini değiştir</string>
+    <string name="Assignable_Key_Setting_CUSTOM">[CUSTOM] düğm. işlevini değiştir</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">Sıfırla</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">Soldaki düğmeye atanmış işlevi değiştirebilirsiniz.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">Sağdaki düğmeye atanmış işlevi değiştirebilirsiniz.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">[C] düğmesine atanmış işlevi değiştirebilirsiniz.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">[CUSTOM] düğmesine atanmış işlevi değiştirebilirsiniz.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">Soldaki dokunmatik sensöre atanmış işlevi değiştirebilirsiniz.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">Sağdaki dokunmatik sensöre atanmış işlevi değiştirebilirsiniz.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">İşlev:</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">İşlem yöntemi:</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">Sol</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">Sağ</string>
+    <string name="Assignable_Key_Setting_Edit_Title">Düzenle</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">Ses Girişi/İptal Et</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">"Ses Yardımı İşlevi'ni İptal Et"</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">Ses Girişini İptal Et</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">Sesli Bildirim</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">Ses Girişi</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">"Ses Yardımı İşlevi'ni Başlat"</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">Sonraki Şarkı</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">Oynat/Duraklat</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">Önceki Şarkı</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">Gürültü Kesme/Ortam Sesi/Kapalı</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">Gürültü Önleme İyileştiricisi</string>
+    <string name="Assignable_Key_Setting_Function_None">Yok</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">Hızlı Dikkat</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">Ses Düzeyini Düşür</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">Ses Düzeyini Yükselt</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">Ses Girişi</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">2 Kez Basın</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">2 Kez Basın ve Basmaya Devam Edin</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">1 Kez Basın</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">1 Kez Basın ve Basmaya Devam Edin</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">3 Kez Basın</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">Basmaya Devam Edin</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">Uzun Basın</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">Çift Dokunun</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">Çift Dokunun ve Basmaya Devam Edin</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">Hafifçe Dokunun</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">Dokunun ve Basmaya Devam Edin</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">Üç Kez Dokunun</string>
+    <string name="Assignable_Key_Setting_NC">[NC] düğm. işlevini değiştir</string>
+    <string name="Assignable_Key_Setting_NCAMB">[NC/AMB] düğm. işlevini değiştir</string>
+    <string name="Assignable_Key_Setting_Not_Connected">Bağlı değil.</string>
+    <string name="Assignable_Key_Setting_R">Sağdaki düğmenin işlevini değiştirin</string>
+    <string name="Assignable_Key_Setting_SaveCheck">Düzenleme tamamlanmadı. Çıkılsın mı?</string>
+    <string name="Assignable_Key_Setting_Touch">Dokunmatik sensör işlevini değiştir</string>
+    <string name="AutoPlaybackControl_Title">Kulaklıklar çıkarıldığında duraklar</string>
+    <string name="AutoPowerOff_Off_Parameter">Kapatmayın</string>
+    <string name="AutoPowerOff_Off_Title">Kapatmayın</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">Belirli bir süre takılmazsa kulaklıkların gücü otomatik kapanır.</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">Kulaklıklar çıkarıldığında kapalı</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">Kulaklıklar çıkarıldığında kapalı</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Bluetooth bağlantısı kesildikten sonra belirtilen süre geçerse kulaklıkların gücü otomatik kapanır.</string>
+    <string name="AutoPowerOff_SelectTime_Title">Belirli bir süreden sonra kapat</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1 saat</string>
+    <string name="AutoPowerOff_SelectTme_30min">30 dakika</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3 saat</string>
+    <string name="AutoPowerOff_SelectTme_5min">5 dakika</string>
+    <string name="AutoPowerOff_Title">Otomatik Güç Kapatma</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">Pil Seviyesi</string>
+    <string name="Battery_Remain_Unknown">Pil Seviyesi Bilinmiyor</string>
+    <string name="Button_Next">Sonraki</string>
+    <string name="Button_Permission_iOS_Settings">Ayarlar</string>
+    <string name="Button_Prev">Önceki</string>
+    <string name="Codec_AAC">AAC yoluyla bağlandı.</string>
+    <string name="Codec_LDAC">LDAC yoluyla bağlandı.</string>
+    <string name="Codec_SBC">SBC yoluyla bağlandı.</string>
+    <string name="Codec_aptX">aptX yoluyla bağlandı.</string>
+    <string name="Codec_aptXHD">aptX HD yoluyla bağlandı.</string>
+    <string name="Common_App_Start">Başlat</string>
+    <string name="Common_Back">Geri</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">Bitti</string>
+    <string name="Common_EULA">Kullanıcı Lisans Anlaşması</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">Daha Bilg</string>
+    <string name="Common_Off">Kapalı</string>
+    <string name="Common_On">Açık</string>
+    <string name="Common_Other">Diğer</string>
+    <string name="Common_PP">Gizlilik politikası</string>
+    <string name="Common_Pause">Duraklat</string>
+    <string name="Common_Play">Oynat</string>
+    <string name="Common_Start">Başlat</string>
+    <string name="Common_Yes">Evet</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">Ayarları değiştirmek için, Ses Kalitesi Modu Kararlı Bağlantıya Öncelik olarak değiştirilmelidir. Ayrıca, kulaklık yeniden bağlanacak ve geçerli olarak çalan müzik duracaktır. Değiştirilsin mi?</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">Kulaklığa yeniden bağlantı gerektiğinden geçerli olarak çalmakta olan müzik duracaktır. Ayrıca, Ses Kalitesine Öncelik olarak değiştirilirse ses kalitesi ayarları kullanılmaz hale gelebilir. Değiştirilsin mi?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">Kulaklığa yeniden bağlantı gerektiğinden geçerli olarak çalmakta olan müzik duracaktır. Değiştirilsin mi?</string>
+    <string name="ConnectMode_Changing_Title_Caution">Ses Kalitesi Modu değiştirilmelidir</string>
+    <string name="ConnectMode_Changing_Title_Confirm">"Ses Kalitesi Modu'nu Değiştirir"</string>
+    <string name="ConnectMode_Connectivity_Detail">Ses sık sık atlıyorsa bu ayarı seçin.</string>
+    <string name="ConnectMode_Connectivity_Title">Kararlı Bağlantıya Öncelik</string>
+    <string name="ConnectMode_Sound_Title">Ses Kalitesine Öncelik</string>
+    <string name="ConnectMode_Title">Ses Kalitesi Modu</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">"Ürün (Sony | Headphones Connect), Sony Computer Science Laboratories, Inc.'in araştırmasına göre Sony Corporation'ın geliştirdiği etkinlik tanıma teknolojisini içerir."</string>
+    <string name="Copyright_AptX">"Qualcomm, Qualcomm Incorporated'ın ABD ve diğer ülkelerde kayıtlı izinle kullanılan bir ticari markasıdır. aptX, Qualcomm Technologies International, Ltd.'nin ABD ve diğer ülkelerde kayıtlı izinle kullanılan bir ticari markasıdır."</string>
+    <string name="Copyright_Bluetooth">Bluetooth® ifadesi ve logoları Bluetooth SIG, Inc. şirketinin mülkiyetinde olup Sony Corporation bunları kendisine verilmiş lisans kapsamında kullanmaktadır.</string>
+    <string name="Copyright_NFC">"N Markası, NFC Forum, Inc.'in, ABD ve diğer ülkelerde ticari markası veya kayıtlı ticari markasıdır."</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">En güncel pil düzeyini kontrol etmek için</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">Görüntülenen pil düzeyi kulaklıklar şarj kılıfından çıkarıldığında güncellenir.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">Şarj kılıfının pil düzeyi kulaklıklar şarj kılıfından çıkarıldığında güncellenir.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">Şarj kılıfının pil düzeyinin görüntülenmesi etkinleştirilsin mi?</string>
+    <string name="Cradle_Battery">Şarj Kılıfı</string>
+    <string name="Current_Volume_Talkback">Geçerli Ses Düzeyi</string>
+    <string name="DSEEHX_AI_Param_Auto">Otomatik</string>
+    <string name="DSEEHX_AI_Param_Off">Kapalı</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">Otomatik</string>
+    <string name="DSEEHX_Param_Off">Kapalı</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme Açık</string>
+    <string name="DSEE_HX_ON">DSEE HX Açık</string>
+    <string name="DSEE_ON">DSEE Açık</string>
+    <string name="DSEE_Param_Auto">Otomatik</string>
+    <string name="DSEE_Param_Off">Kapalı</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">Ses</string>
+    <string name="Dashboard_Tab_Status">Durum</string>
+    <string name="Dashboard_Tab_System">Sistem</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Bluetooth ile bağlandı.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Bluetooth ile bağlanmadı.</string>
+    <string name="Device_Connection_Connect">Bağla</string>
+    <string name="Device_Connection_Connect_iOS">Eşlenen kulaklığa bağlan</string>
+    <string name="Device_Connection_Message1">Kulaklığa Bluetooth üzerinden bağlanın.</string>
+    <string name="Device_Connection_Pair">Yeni kulaklığa bağlan</string>
+    <string name="Device_Registration_Top_Msg">Yeni bir kulaklık kaydedin.</string>
+    <string name="Download_Latest_MDRPlugin">"Bu kulaklığı kullanmak için Headphones Connect'in en son sürümü gerekli. Bu uygulamayı Google Play'den güncelleyin."</string>
+    <string name="Download_Latest_MDRPlugin_iOS">"Bu kulaklığı kullanmak için Headphones Connect'in en son sürümü gerekli. Bu uygulamayı App Store'dan güncelleyin."</string>
+    <string name="EBB_Indicator">Elektro Bas Yükseltici</string>
+    <string name="EBB_Param_Title">Seviye</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">Akustik</string>
+    <string name="EQ_Preset_Bass">Yüksek bas</string>
+    <string name="EQ_Preset_Bright">Parlak</string>
+    <string name="EQ_Preset_Custom">Manüel</string>
+    <string name="EQ_Preset_Dance">Dans</string>
+    <string name="EQ_Preset_EDM">EDM</string>
+    <string name="EQ_Preset_Excited">Heyecanlı</string>
+    <string name="EQ_Preset_Jazz">Jaz</string>
+    <string name="EQ_Preset_Mellow">Neşeli</string>
+    <string name="EQ_Preset_Off">Kapalı</string>
+    <string name="EQ_Preset_Pop">Pop</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B / Hip Hop</string>
+    <string name="EQ_Preset_Relaxed">Dinlendirici</string>
+    <string name="EQ_Preset_Rock">Rock</string>
+    <string name="EQ_Preset_Speech">Konuşma</string>
+    <string name="EQ_Preset_Title">Ekolayzır</string>
+    <string name="EQ_Preset_Treble">Yüksek tiz</string>
+    <string name="EQ_Preset_UserSetting">Özel</string>
+    <string name="EQ_Preset_Vocal">Vokal</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_tr.html</string>
+    <string name="ErrMsg_CannotAccess_Server">Sunucuya bağlanılamadı. Ağ bağlantısı durumunu kontrol edin.</string>
+    <string name="FW_Download_Param_Always">Her zaman otomatik indir</string>
+    <string name="FW_Download_Param_OnlyWiFi">Yalnızca Wi-Fi yoluyla bağlanıldığında</string>
+    <string name="FW_Download_Title">Otomatik yazılım indirme</string>
+    <string name="FW_EULA_Title">Kullanım Koşulları</string>
+    <string name="FW_Info_Button_Resume">Devam et</string>
+    <string name="FW_Info_Button_Start">Başla</string>
+    <string name="FW_Info_Caution">"Güncelleme sırasında kulaklık kullanılamayacak.
+Başlarken kulaklığı ve mobil aygıtı birbirlerinin yakınına yerleştirin."</string>
+    <string name="FW_Info_Caution_Downloading">"Kulaklık ve mobil cihaz birbirinden uzaklaşırsa veya kulaklığın gücü kapatılırsa indirme iptal edilecek.
+İptal edilirse indirme sürdürülebilir."</string>
+    <string name="FW_Info_Caution_Sending">"Kulaklık ve mobil cihaz birbirinden uzaklaşırsa veya kulaklığın gücü kapatılırsa aktarma iptal edilecek.
+İptal edilirse aktarma durduğu yerden devam ettirilebilir."</string>
+    <string name="FW_Info_Caution_Start">Kulaklığı ve mobil cihazı birbirine yaklaştırarak başlayın.</string>
+    <string name="FW_Info_EULA">Aşağıdaki düğmeye basmanız, belgeyi onayladığınız ve içeriğini kabul ettiğiniz anlamına gelecektir.</string>
+    <string name="FW_Info_EULALink">Kullanım Koşulları</string>
+    <string name="FW_Info_Message1">En son kulaklık yazılımı kullanılabilir.</string>
+    <string name="FW_Info_Message2">[Kabul Et] düğmesine basıldığında, güncelleme başlar.</string>
+    <string name="FW_Info_Message3">[Tamam] düğmesine basıldığında, güncelleme başlar.</string>
+    <string name="FW_Info_Message_Download">[%s] düğmesine basılırsa güncelleme hazırlıkları başlayacak.</string>
+    <string name="FW_Info_Message_Resume">[%s] düğmesine basıldığında aktarma devam eder.</string>
+    <string name="FW_Info_Message_Update">[%s] düğmesine basma güncellemeyi başlatır.</string>
+    <string name="FW_Info_Title">Yazılım Bilgisi</string>
+    <string name="FW_Info_Version">Sürüm</string>
+    <string name="FW_Notify_Abort">Kulaklığın yazılım aktarımı iptal edildi.</string>
+    <string name="FW_Notify_Detail">Daha Fazla Bilgi</string>
+    <string name="FW_Notify_Downloading">En yeni kulaklık yazılımı indiriliyor... (%d%%)</string>
+    <string name="FW_Notify_Msg">En son kulaklık yazılımı kullanılabilir.</string>
+    <string name="FW_Notify_Sending">En yeni kulaklık yazılımı aktarılıyor... (%d%%)</string>
+    <string name="FW_Notify_Update">Kulaklığın yazılımını güncelleyin.</string>
+    <string name="FW_Update_Button_Transit_AppStore">"App Store'dan güncelle"</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">"Google Play'den güncelle"</string>
+    <string name="FW_Update_Message1">Lütfen bekleyin...</string>
+    <string name="FW_Update_Message2">"Gücü kapatmayın.
+Kulaklığı ve mobil aygıtı birbirlerinden uzağa yerleştirmeyin."</string>
+    <string name="FW_Update_Message3">"Otomatik olarak yeniden başlar.
+Kulaklığı ve mobil aygıtı birbirlerinden uzağa yerleştirmeyin."</string>
+    <string name="FW_Update_Message_step2_1">Sol üniteye aktarılıyor</string>
+    <string name="FW_Update_Message_step2_2_1">Kulaklığın sol ünitesi güncelleniyor</string>
+    <string name="FW_Update_Message_step2_2_2">"Kulaklığın sol ünitesini güncelleme tamamlandı.
+Sağ üniteye bağlanılıyor"</string>
+    <string name="FW_Update_Message_step2_2_3">Sağ üniteye aktarıma hazırlanılıyor</string>
+    <string name="FW_Update_Message_step2_3">Sağ üniteye aktarılıyor</string>
+    <string name="FW_Update_Retry_Body_Caution">"Yazılım güncellenmesine başlamadan önce \"Google Assistant\" fonksiyonunu kapatmalısınız.
+\"Google Assistant\" fonksiyonu kapatıldığında kulaklık otomatik olarak yeniden başlatılacak olup karşınıza çıkan talimatları izlemeniz gerekmektedir.
+Yazılım güncellemesi sona erdiğinde, lütfen \"Google Assistant\" ayarını tekrar açın."</string>
+    <string name="FW_Update_Retry_Title_Caution">\"Google Assistant\" fonksiyonu kapatılmalıdır</string>
+    <string name="FW_Update_Status_Abort">Kulaklığın yazılım aktarımı iptal edildi.</string>
+    <string name="FW_Update_Status_Download">Yazılım indiriliyor...</string>
+    <string name="FW_Update_Status_Download_step1">Yazılım indiriliyor... (1/3)</string>
+    <string name="FW_Update_Status_Downloading">En yeni kulaklık yazılımı indiriliyor...</string>
+    <string name="FW_Update_Status_Install">Güncelleniyor...</string>
+    <string name="FW_Update_Status_Install_step3">Yazılım güncelleniyor... (3/3)</string>
+    <string name="FW_Update_Status_Prepared">Kulaklığın yazılımını güncelleyin.</string>
+    <string name="FW_Update_Status_Send">Yazılım aktarılıyor...</string>
+    <string name="FW_Update_Status_Send_step2">Yazılım aktarılıyor... (2/3)</string>
+    <string name="FW_Update_Status_Sending">En yeni kulaklık yazılımı aktarılıyor...</string>
+    <string name="FW_Update_Title">Yazılımı Güncelle</string>
+    <string name="FW_Version_Confirm_Title">%s Sürüm</string>
+    <string name="FW_Version_Menu_Title">%s Sürüm</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">tr</string>
+    <string name="GoogleAssistantIntro_Link">"Google Assistant'ınızı ayarlayın"</string>
+    <string name="GoogleAssistantIntro_Msg">Kişisel Google ve daha fazlasına anında erişim sağlayın. Kurulum yalnızca birkaç dakika sürer.</string>
+    <string name="GoogleAssistantIntro_Title">Google Assistant için optimize edilmemiştir.</string>
+    <string name="Help_Information_Priority_High">Lütfen buradan kontrol edin</string>
+    <string name="Help_Troubleshooting">Sorun Giderme</string>
+    <string name="IASetup_AnalyzeComplete_Detail">Sonra, 360 Reality Audio deneyiminizi optimize etmek için bu sonuçları bir müzik uygulamasına gönderin.</string>
+    <string name="IASetup_AnalyzeComplete_Title">Kulaklarınız başarıyla analiz edildi</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"Analiz için kulaklarınızın fotoğraflarını çekin.
+Fotoğraf çekmeden önce lütfen kulaklarınızın tamamen göründüğünden emin olun:
+
+- Kulaklıkları kulaklarınızdan çıkarın.
+- Kulaklarınızı saçla kapatmayın.
+- Küpe ve pirsingleri çıkarın."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">Kulağınızın şeklini analiz edin</string>
+    <string name="IASetup_Analyze_Cmd_Retry">Tekrar Analiz Et</string>
+    <string name="IASetup_Analyze_Cmd_Start">Analiz Et</string>
+    <string name="IASetup_Analyze_Detail">Bu, yaklaşık %d saniye sürecek.</string>
+    <string name="IASetup_Analyze_Label">Kulak şeklini analiz et</string>
+    <string name="IASetup_Analyze_Status_Done">Kulaklarınız analiz edildi</string>
+    <string name="IASetup_Analyze_Status_NotComp">Kulaklarınız analiz edilmedi</string>
+    <string name="IASetup_Analyze_Title">Kulaklarınız analiz ediliyor</string>
+    <string name="IASetup_AppDetail_NotInstalled">Yüklü değil</string>
+    <string name="IASetup_AppDetail_NotOptimized">Optimize edilmemiş</string>
+    <string name="IASetup_AppDetail_Optimized">Optimize edilmiş</string>
+    <string name="IASetup_AppInstallConf_Title">"Yükleme işleminden sonra Headphones Connect'e dönmeniz gerekir."</string>
+    <string name="IASetup_AppInstall_Detail">Yüklemeden sonra uygulama başladığında 360 Reality Audio ayarları tamamlanmıştır. Müzik uygulaması doğru ses alanını yndn oluşturmak için optimize edilir.</string>
+    <string name="IASetup_AppInstall_Detail_iOS">Uygulama yüklendikten ve 360 Reality Audio ayarları tamamlandıktan sonra, müzik uygulaması doğru bir ses alanı oluşturacak şekilde optimize edilir.</string>
+    <string name="IASetup_AppInstall_Install">Yükle ve optimize et</string>
+    <string name="IASetup_AppInstall_Install_iOS">Yükle</string>
+    <string name="IASetup_AppInstall_Title">Uyg. başladığında 360 Reality Audio ayarları tamamlanmıştır.</string>
+    <string name="IASetup_AppInstall_Title_iOS">Bu uygulamayı telefonunuza yükleyin.</string>
+    <string name="IASetup_AppIntroduction_Detail">"Bu yoğun müzik deneyimini dinlemek için 360 Reality Audio için olan bu müzik hizmeti uygulamalarından birine ihtiyacınız olacak.
+*Abonelik ücreti alınabilir ve uygun içerik müzik hizmetine göre değişebilir."</string>
+    <string name="IASetup_AppIntroduction_Title">360 Reality Audio İçin Kullanılabilir Müzik Uygulamaları</string>
+    <string name="IASetup_AppLaunch_Detail">"360 Reality Audio kurlmn tmmldktn sonra doğru ses alanıyla müzik çalmanın keyfini çkrblrsnz.
+Sizin için optmz edln 360 Reality Audio'nun keyfini çıkarın."</string>
+    <string name="IASetup_AppLaunch_Optimize">Optimize Etmek İçin Başlat</string>
+    <string name="IASetup_AppLaunch_Title">Uyg. başladığında 360 Reality Audio ayarları tamamlanmıştır.</string>
+    <string name="IASetup_AppList_Detail">"360 Reality Audio yalnızca bu müzik hizmeti uygulamalarından kullanılabilir. Lütfen kullanmak istediğiniz bir uygulamayı seçin.
+*Abonelik ücreti alınabilir ve uygun içerik müzik hizmetine göre değişebilir."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">Yüklü değil</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">Optimize edilmemiş</string>
+    <string name="IASetup_AppList_Gp_Optimized">Optimize edilmiş</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">Algılanamadı.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">Lütfen kafanızı hareket ettirmeyin.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">Lütfen akıllı telefonu hareket ettirmeyin.</string>
+    <string name="IASetup_CameraInstruction_Complete">Fotoğraf yakalandı.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">Kulağınız algılandı. Kafanızı hareket ettirmeyin.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">Sol kulak algılanıyor...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">Sağ kulak algılanıyor...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">Konum şimdi doğru. O konumdan kafanızı yavaşça sağa döndürün.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">Kafanızı yavaşça sağa döndürün.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">Konum şimdi doğru. O konumdan kafanızı yavaşça sola döndürün.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">Kafanızı yavaşça sola döndürün.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"Sol kulağınızın fotoğrafını çekin. Lütfen kulaklığınızı çıkarın.
+Kafanızı sağa döndürün ve deklanşöre basın."</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"Lütfen kulaklığınızı çıkarın.
+Kafanızı kulağınız çerçeve içinde kalacak şekilde sağa döndürün ve deklanşöre basın."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"Sağ kulağınızın fotoğrafını çekin. Lütfen kulaklığınızı çıkarın.
+Kafanızı sola döndürün ve deklanşöre basın."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"Lütfen kulaklığınızı çıkarın.
+Kafanızı kulağınız çerçeve içinde kalacak şekilde sola döndürün ve deklanşöre basın."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">Lütfen kamerayı başınızdan öteye taşıyın.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">Lütfen kamerayı yakınlaştırın.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">Lütfen kamerayı biraz aşağı eğin.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"Lütfen kulaklığınızı çıkarın.
+Ardından kameranın önüne bakarak kafanızı çerçevenin içine yerleştirin."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">Lütfen kamerayı biraz sola döndürün.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">Lütfen kamerayı biraz sağa döndürün.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">Lütfen kamerayı biraz yukarı eğin.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">Lütfen kulaklığınızı çıkarın.</string>
+    <string name="IASetup_CompletePhotograph_Detail">Kulağınızın şeklini analiz etmeye başlayın.</string>
+    <string name="IASetup_CompletePhotograph_Title">Sağ kulağınız başarıyla yakalandı</string>
+    <string name="IASetup_Confirm_NonBT_Device">Kulaklık ayarlarını gerçekleştirmek için [%s] düğmesine basın.</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">Yoğun 360 Reality Audio seslerini dinlemek ve karşılaştırmak için aşağıdaki ayarlar kapatılmalıdır.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">Müzik hizmeti uygulamalarınızda yoğun 360 Reality Audio çalmak için aşağıdaki ayarlar kapatılmalıdır.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">Kapat ve çal</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">Kapat ve başlat</string>
+    <string name="IASetup_EarPhoto_Auto">Otomatik Çekim (Önerilir)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">Otomatik Çekim</string>
+    <string name="IASetup_EarPhoto_Manual">Manüel Çekim</string>
+    <string name="IASetup_FailurePhotograph_Detail">Lütfen aşağıdaki bildirimi onaylayın ve kulağınızı yeniden çekin.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">Sol kulağınız tanınmadı</string>
+    <string name="IASetup_FailurePhotograph_R_Title">Sağ kulağınız tanınmadı</string>
+    <string name="IASetup_FeatureTitle">360 Reality Audio Kurulumu</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">Onaylandı</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">Bir kupon kullanmadan ilerle</string>
+    <string name="IASetup_FreeTrialCoupon_Start">Kupon sitesine git</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">Kulağınızın yönünü kontrol edin ve kılavuzu kullanarak konum ve boyut ayarlamaları yapın.</string>
+    <string name="IASetup_LearnMore">360 Reality Audio hakknd daha fzl bilgi</string>
+    <string name="IASetup_LearnMore_AboutApp">Müzik hizmeti ayrıntıları için buraya gidin</string>
+    <string name="IASetup_Link_EarPhotoSample">Kulağınızın konumu ve boyutu</string>
+    <string name="IASetup_Link_Handling_EarPhoto">Kişisel bilgileriniz nasıl kullanılır</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">Neden kulaklarnzn fotoğrafını çekmemiz gerkr?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">Müzik hizmetine gönderilecek bilgiler hakk.</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">Kulağınızın tamamının çerçeve içinde olduğunu kontrol edin ve [%s] düğmesine basın.</string>
+    <string name="IASetup_NeedToUpdateApp_Title">Güncelleme gerekli.</string>
+    <string name="IASetup_OOBE_Title">360 Reality Audio Hakkında</string>
+    <string name="IASetup_Optimize_Cmd_AppList">Onayla</string>
+    <string name="IASetup_Optimize_Cmd_Install">Yükle</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">Optimize Et</string>
+    <string name="IASetup_Optimize_Label">Uygulamaları optimize et</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">360 Reality Audio uygulamaları yüklü değil</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">360 Reality Audio uygulamaları henüz optimize edilmemiş</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">Optimize edilmiş bir 360 Reality Audio uygulaması yok</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d uygulama optimize edilmiş</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"Sonraki ekranda, ön kamerayı yüzünüze çevirin. Kulaklarınız algılandığında çekim otomatik yapılır.
+
+1. Mobil cihazınızı iki elinizle yüzünüzün önünde tutun.
+2. Yüzünüz algılandığında, sesli kılavuzu izleyerek kafanızı sağa çevirin.
+3. Çekim işlemi otomatik gerçekleştirilene kadar hareketsiz durun."</string>
+    <string name="IASetup_PhotographEar_Title">Sol kulağınızın bir fotoğrafını çekin</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">Küpeleri çıkarın.</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- Lütfen sol kulağınızın fotoğrafını çekin.
+- Çekim konumu çok aydınlık veya çok karanlıksa konumu değiştirin.
+- Kulaklığınızı kulağınızdan çıkarın."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- Lütfen sağ kulağınızın fotoğrafını çekin.
+- Çekim konumu çok aydınlık veya çok karanlıksa konumu değiştirin.
+- Kulaklığınızı kulağınızdan çıkarın."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">Saçınızın kulaklarınızı kapatmadığından emin olun.</string>
+    <string name="IASetup_Photograph_Ear_L">Sol kulak</string>
+    <string name="IASetup_Photograph_Ear_R">Sağ kulak</string>
+    <string name="IASetup_Photograph_Retake">Tekrar çekin</string>
+    <string name="IASetup_Photograph_Take">Bir fotoğraf çekin</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">Normal Ses</string>
+    <string name="IASetup_Select_NonBT_Button">Panoya git</string>
+    <string name="IASetup_SetupStart">Kurulumu başlat</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">Tamamlandı</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">Analiz için kulaklarınızın bir fotoğrafını çekin.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">Kulaklarınız analiz edilmedi</string>
+    <string name="IASetup_SetupSummary_Detail">Kulaklarınızın şeklini analiz ederek sizin için en iyi ses alanını doğru bir şekilde yeniden üretebiliriz.</string>
+    <string name="IASetup_SetupSummary_Optimize">"Adım 2'ye Başla"</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d uygulama optimize edildi</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">Kulak analizi sonuçlarını göndererek müzik hizmeti uygulmsn optimize edin.</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">360 Reality Audio uygulamaları yüklü değil</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">360 Reality Audio uygulamaları optimize edilmemiş</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">"Adım 1'e Başla"</string>
+    <string name="IASetup_SetupSummary_Title">360 Reality Audio ses alanınızı optimize edin</string>
+    <string name="IASetup_Setup_Complete">360 Reality Audio ses alanınız tamamlandı</string>
+    <string name="IASetup_Setup_Title">360 Reality Audio Kurulum</string>
+    <string name="IASetup_SoundPreview_Detail">Farkı duymak için aşağıdaki örnek müziği deneyin.</string>
+    <string name="IASetup_SoundPreview_Title">"360 Reality Audio'yu deneyimleyin"</string>
+    <string name="IASetup_StartAnalyze">Başla</string>
+    <string name="IASetup_SuccessPhotograph_Detail">Sonra, sağ kulağınızın bir fotoğrafını çekin.</string>
+    <string name="IASetup_SuccessPhotograph_Title">Sol kulağınız başarıyla yakalandı</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">Uygulamaları optimize et</string>
+    <string name="IASetup_TipsDetail_Description">360 Reality Audio müzik hizmeti uygulamalarında yoğun ses deneyimlerinin keyfini çıkarmak için kulak analizi sonuçlarını göndererek müzik hizmeti uygulamaları optimize edilmelidir.</string>
+    <string name="IASetup_TipsDetail_Title">360 Reality Audio ayarı hala tamamlanmadı.</string>
+    <string name="IASetup_UpdateApp">Güncelle</string>
+    <string name="IASetup_Welcome_Detail">Kulaklıklarınızda 360 Reality Audio çalma canlı performanstaymışsınız gibi yoğun bir ses deneyimi oluşturur.</string>
+    <string name="IASetup_Welcome_Title">"360 Reality Audio'ya Hoş Geldiniz"</string>
+    <string name="IAWM_Analyze_Cmd_Retry">Yeniden oluştur</string>
+    <string name="IAWM_Analyze_Cmd_Start">Oluştur</string>
+    <string name="IAWM_Analyze_Label">Kişisell. işitme profili oluşturun</string>
+    <string name="IAWM_Analyze_Status_Done">Tamamlandı</string>
+    <string name="IAWM_Analyze_Status_NotComp">Tamamlanmadı</string>
+    <string name="IAWM_Complete_Data_Title">İşitme profilinizin alımı tamamlandı</string>
+    <string name="IAWM_Confirmation_Dialog1">"İşitme profiliniz zaten kaydedildi.
+Profil sunucudan alınsın ve uygulamayı optimize etmeye geçilsin mi?"</string>
+    <string name="IAWM_Hrtf_App_Button">Almaya başlayın</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"İşitme profilinizin alınması başarısız oldu.
+Ağ bağlantısını kontrol edin ve biraz bekleyin ve yeniden deneyin."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"İşitme profili sunucudan alınamadı. 
+Akıllı telefonda işitme profilinizi oluşturmanın tamamlandığını onaylayın ve almayı başlatmak için düğmeye yeniden basın."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"İşitme profili sunucudan alınamadı.
+Aşağıdakileri kontrol ettikten sonra bir sonraki ekrana yeniden gidin ve almaya başlayın.
+- Akıllı telefondaki işitme profili oluşturma işleminiz tamamlanmış olduğu
+- Bu Walkman'deki 360 Spatial Sound Personalizer ve Headphones Connect uygulamalarında aynı hesapta oturumunuz açılmış olduğu"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">"360 Spatial Sound Personalizer uygulamasını akıllı telefonunuza indirin, bu Walkman'inkiyle aynı hesapla oturum açın ve ekrandaki talimatları izleyerek kulaklarınızın bir fotoğrafını çekin."</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">İşitme profilinizi bir akıllı telefonda oluşturur</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">Almaya başlayın</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"QR kodunu bir akıllı telefonla tarayın. Tarama gerçekleştirilemiyorsa uygulama mağazalarında “360 Spatial Sound Personalizer” uygulamasını arayın.
+İşitme profilinizin oluşturulmasının tamamlanmasından sonra bu Walkman işitme profilinizi otomatik olarak alır, dolayısıyla bu ekranda kalın."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"QR kodunu bir akıllı telefonla tarayın. Tarama gerçekleştirilemiyorsa uygulama mağazalarında “360 Spatial Sound Personalizer” uygulamasını arayın.
+İşitme profilinizi oluşturmayı tamamladıktan sonra aşağıdaki düğmeye basın ve almaya başlayın."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">Uygulamayı bir akıllı telefona yükleyin</string>
+    <string name="IAWM_Need_Sign_in_Description">Oluşturmak üzere olduğunuz veya oluşturduğunuz işitme profilinizi kullanmak için hesabınızda oturum açın.</string>
+    <string name="IAWM_Need_Sign_in_Title">Oturum Açma Gerekli</string>
+    <string name="IAWM_Recieve_Data_Title">İşitme profiliniz sunucudan alınıyor...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">360 Spatial Sound Personalizer uygulamasını kullanarak kulaklarınızın bir fotoğrafını çekin ve işitme profilinizi oluşturun.</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">İşitme profiliniz zaten oluşturuldu.</string>
+    <string name="IAWM_SetupSummary_Description">Sonra, doğru bir ses alanını yeniden oluşturmak için işitme profilinizi 360 Reality Audio için müzik hizmeti uygulamalarına gönderin.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">"Walkman'e döner ve işitme profilinizi gönderir ve sonra 360 Reality Audio için müzik hizmeti uygulamalarını optimize eder."</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">İşitme profilinizi gönderir ve 360 Reality Audio için müzik hizmeti uygulamalarını optimize eder.</string>
+    <string name="IAWM_SetupSummary_Title">İşitme profilinizin oluşturulması tamamlandı</string>
+    <string name="IAWM_Start_Recieving_Title">İşitme profilinizin alınmasını yeniden başlatın.</string>
+    <string name="InformationNotification_List_Info_Empty_Title">Şu anda hiç bilgi veya anket yok.</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">Bilgi ve anketler burada görüntülenir.</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">Kullanım ipuçları burada görüntülenir.</string>
+    <string name="InformationNotification_List_Tips_Section">İpuçları</string>
+    <string name="InformationNotification_List_Title">Bilgi</string>
+    <string name="InformationNotification_New_Talkback_1">Yeni bilgi var.</string>
+    <string name="InformationNotification_New_Talkback_2">Yeni bir öğe var.</string>
+    <string name="InformationNotification_New_Talkback_3">Bu yeni bir öğe.</string>
+    <string name="InformationToUsersLangCode">tr</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">Uygulama sık kullandığınız eylemlerinizi ve konumlarınızı algılar ve otomatik olarak ortam sesinin nasıl çekileceği gibi kulaklık ayarlarını değiştirir.</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">Uygulama eylemlerinizi algılar ve ortam sesinin nasıl alınacağını otomatik olarak ayarlar.</string>
+    <string name="InitialSetup_IASetup_Detail">Bu, dinleme ortamı canlı performanstaki gibi yoğun ses deneyiminin keyfini çıkarmanız için 360 Reality Audio ses deneyimini optimize etmek içindir.</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">Kurulumu başlatın ve kulaklığın işlevlerinin keyfini tam olarak çıkarın.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">Panoya git</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">Kurulum tamamlandı.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">Ayarları panodan istediğiniz zaman değiştirebilirsiniz.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">Bu, ayarların son adımıdır.</string>
+    <string name="InitialSetup_OverallSetup_Title">Kurulum</string>
+    <string name="InstructionGuide_CoachMark">Kulaklıkları rahat bir şekilde kullanabilmek için [%s Öğreticisi] öğesini kontrol edin.</string>
+    <string name="InstructionGuide_Menu_Title">%s Öğreticisi</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">[Tamam] düğmesine basıldığında, aktarım başlar.</string>
+    <string name="LanguageData_Info_Message_1">"Gücü kapatmayın.
+Kulaklıkları ve mobil aygıtı birbirlerinden uzağa yerleştirmeyin."</string>
+    <string name="LanguageData_Info_Message_2">"Otomatik olarak yeniden başlar.
+Kulaklığı ve mobil aygıtı birbirlerinden uzağa yerleştirmeyin."</string>
+    <string name="LanguageData_Restriction">"Aktarım sırasında kulaklık kullanılamaz. Yaklaşık %d dak sürebilir.
+Kulaklığı ve mobili birbirine yaklaştırarak başlayın."</string>
+    <string name="Left_Headphones">Sol Ünite</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"Diğer kulaklık bağlıyken değiştirilemez.
+Bağlı olan kulaklığı çıkarın."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">Konumların kaydı tamamlanmadı. Kapatılsın mı?</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"Arka planda olsa bile sık kullandığınız konumları algılamak için Konuma Eriş'e her zaman izin verilmelidir.
+
+[Ayarlar] düğmesine basın ve [izinler] > [Konum] öğesinden [Her zaman izin ver] öğesini seçin. Her zaman izin verilirse, konum verileri uygulama kapalıyken veya kullanımda değilken bile toplanacaktır."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">"Sık kullandığınız konumları algılamak için mobil cihaz ayarlarından Konuma Eriş'e her zaman izin verilmelidir."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">"Arka planda olsa bile sık kullandığınız konumları algılamak için mobil cihaz ayarlarından Konuma Eriş'e her zaman izin verilmelidir."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">"Arka planda olsa bile sık kullandığınız konumları algılamak için Konuma Eriş'e her zaman izin verilmelidir. Her zaman izin verilirse, konum verileri uygulama kapalıyken veya kullanımda değilken bile toplanacaktır. Gelecek ekrandaki içeriği onaylayın."</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">Bu konumun kaydı iptal edilsin mi?</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">Sık kullandığınız konumları algılamak için mobil cihaz ayarlarından Konum açılmalıdır.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"Sık kullandığınız konumları algılamak için Konum kullanılır.
+Konum'u açın."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"Sık kullandığınız konumları algılamak için Konum Servisleri açılmalıdır.
+
+Mobil cihazın “Ayarlar” > [Gizlilik] > [Konum Servisleri] altındaki ayarları gerçekleştirin."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">Kaydedilebilecek öğrenilmiş konum yok.</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">"Sık kullandığınız konumları algılamak için mobil cihaz ayarlarından Konum'a erişim gerekir."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"Sık kullandığınız konumları algılamak için Konum'a erişim gerekli.
+Konum'a erişime izin ver. Her zaman izin verilirse, konum verileri uygulama kapalıyken veya kullanımda değilken bile toplanacaktır."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"Sık kullandığınız konumları algılamak için Konum'a erişim gerekli.
+[Uygulamayı kullanırken] seçin."</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"Arka planda olsa bile sık kullandığınız konumları algılamak için Konum'a erişmeye izin verilmelidir.
+
+[Ayarlar] düğmesine basın ve her zaman [Konum]'dan erişime izin verin."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"Sık kullandığınız konumları algılamak için Tam Konum açılmalıdır.
+
+[Ayarlar] düğmesine basın ve [Konum] öğesinden Tam Konum'u açın."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"Konumları kaydetmek için Uyarlanabilir Ses Kontrolü'nü destekleyen kulaklıklar bağlanmalıdır.
+Kulaklıkları bağladıktan sonra, panonun sağ üst menüsünden [%s] öğesini seçin ve kayıt işlemine devam edin."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"Düzenlemek için Ses Kalitesi Modu [Kararlı Bağlantıya Öncelik] olarak değiştirilmelidir.
+Ayrıca, kulaklıklar yeniden bağlanacak ve geçerli olarak çalınmakta olan müzik durdurulacaktır. Değiştirilsin mi?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"Başka bir konum kaydedilemiyor.
+Gereksiz konumların kayıtlarını iptal edin."</string>
+    <string name="Msg_ASC_Registration_Comp">Kayıtlı %s.</string>
+    <string name="Msg_Abort_FWUpdate">"Yazılım güncellemesi durdurulsun mu?
+Durdurulursa, güncellemeyi durdurulduğu noktadan devam ettirebilirsiniz."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">Mobil cihazın “Ayarlar” > [Headphones] > [Konum]undan erişime izin verin.</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"Konum kullanılırsa eylem algılama doğruluğu iyileşir. Ayrıca, konuma bağlı olarak kulaklık ayarları otomatik değiştirilebilir.
+Bu işlevleri arka planda çalıştırmak için Konum'a her zaman izin verilmelidir.
+
+[Ayarlar] düğmesine basın ve her zaman [Konum]'dan erişime izin verin."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"Konum'u kullanma Uyarlanabilir Ses Kontrolü'nün doğruluğunu daha da iyileştirir.
+[Ayarlar] düğmesine basın ve [Konum]'dan erişime izin verin."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">"Uyarlanabilir Ses Kontrolü doğruluğunu iyileştirmek için GPS kullanmanız önerilir. Mobil aygıt ayarlarından GPS'i AÇIN."</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">Uyarlanabilir Ses Kontrolü doğruluğunu iyileştirmek için konum bilgilerine erişim izni önerilir.</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">Düzenleme tamamlanmadı. Çıkılsın mı?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"Konum kullanılırsa Uyarlanabilir Ses Kontrolünün eylem algılama doğruluğu iyileştirir. Ayrıca, konuma bağlı olarak kulaklık ayarları otomatik değiştirilebilir.
+Konum'a erişime izin ver."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"Konum kullanılırsa Uyarlanabilir Ses Kontrolü'nün doğruluğu iyileştirilecektir.
+Konum'a erişime izin verin."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"Konum kullanılırsa Uyarlanabilir Ses Kontrolü'nün doğruluğu iyileştirilecektir.
+Konum'a erişime izin verin."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"Konum kullanılırsa Uyarlanabilir Ses Kontrolünün eylem algılama doğruluğu iyileştirir. Ayrıca, konuma bağlı olarak kulaklık ayarları otomatik değiştirilebilir.
+[Uygulamayı kullanırken] seçin."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"Konum kullanılırsa Uyarlanabilir Ses Kontrolünün eylem algılama doğruluğu iyileştirir. Ayrıca, konuma bağlı olarak kulaklık ayarları otomatik değiştirilebilir.
+Konum ayarlarını açın."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"Konum kullanılırsa Uyarlanabilir Ses Kontrolü'nün doğruluğu iyileştirilecektir.
+Konumu AÇIN."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"Konum Servisleri açılırsa Uyarlanabilir Ses Kontrolünün eylem algılama doğruluğu iyileştirir. Ayrıca, konuma bağlı olarak kulaklık ayarları otomatik değiştirilebilir.
+Mobil cihazın “Ayarlar” > [Gizlilik] > [Konum Servisleri] altındaki ayarları gerçekleştirin."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"Konum Servisleri'ni açma Uyarlanabilir Ses Kontrolü'nün doğruluğunu iyileştirir.
+Mobil cihazın “Ayarlar” > [Gizlilik] > [Konum Servisleri] altındaki ayarları gerçekleştirin."</string>
+    <string name="Msg_Agree_EULAPP">Yukarıdaki içeriği okudum ve kabul ettim.</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">Bu işlevi kullanabilmek için bildirimlere erişim onaylanmalıdır. [%1$s] öğesini seçin ve %2$s ayarını etkinleştirin.</string>
+    <string name="Msg_Check_EULA">%s öğesini onaylayın. </string>
+    <string name="Msg_Check_EULAPP">%1$s ve %2$s öğelerini onaylayın. </string>
+    <string name="Msg_CompleteUpdate">Yazılım güncelleme tamamlandı.</string>
+    <string name="Msg_Complete_Language_Setting">Dil değişimi tamamlandı.</string>
+    <string name="Msg_ConfirmBattery_MDR">Pil seviyesi yetersiz. Kulaklığı şarj edin, yeniden bağlayın ve tekrar deneyin.</string>
+    <string name="Msg_ConfirmBattery_Mobile">Pil seviyesi yetersiz. Mobil cihazı şarj edin ve tekrar deneyin.</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">Bu ayarların değiştirilmesi için yazılım güncellemesinin iptal edilmesi gerekir. Yazılım güncellemesi, iptal edilse bile tekrar yapılabilir. Değiştirilsin mi?</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">Yazılım güncellemesi iptal edilmelidir</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">Ekolayzırı ve %s öğesini aynı anda kullanma kulaklık pil tüketimini artırır ve sürekli oynatma süresini kısaltır. Değiştirilsin mi?</string>
+    <string name="Msg_Confirm_L_connection">"Kulaklığın sol ünitesi mobil cihaza bağlı değil.
+Kulaklığın sol ünitesinin gücünün açık olduğunu kontrol edin ve tekrar deneyin."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">Dil değişimi iptal edilsin mi?</string>
+    <string name="Msg_Confirm_R_connection">"Kulaklığın sağ ünitesi mobil cihaza bağlı değil.
+Kulaklığın sağ ünitesinin gücünün açık olduğunu kontrol edin ve tekrar deneyin."</string>
+    <string name="Msg_Confirm_network_connection">Mobil cihaz ağa bağlı değil. Ağa bağlayın ve tekrar deneyin.</string>
+    <string name="Msg_ConnectDevice">Aşağıdaki düğmeden bir kulaklık bağlayın.</string>
+    <string name="Msg_ConnectDevice_talkback">"%s aygıtına bağlandı.
+Pano görüntüleniyor."</string>
+    <string name="Msg_ConnectMode_Changing_Error">İşlem başarısız oldu.</string>
+    <string name="Msg_ConnectNewDevice">Yeni kulaklığa bağlan</string>
+    <string name="Msg_ConnectionFailed">Bağlantı başarısız.</string>
+    <string name="Msg_ConnectionFailed_Internet">İçerik görüntülenemiyor. Internet bağlantınızı kontrol edin.</string>
+    <string name="Msg_ConnectionFailed_SRT">"%s ile bağlantı kurulamıyor.
+Cihazın gücünün açık olduğunu kontrol edin."</string>
+    <string name="Msg_DataError">Yazılım indirme başarısız.</string>
+    <string name="Msg_Disabled_Language_Setting">"Kulaklığın yazılım aktarımı sırasında dil değiştirilemez.
+Yazılım aktarımı tamamlandıktan sonra tekrar deneyin."</string>
+    <string name="Msg_DownloadFailed">Yazılım indirme başarısız.</string>
+    <string name="Msg_EmptyDevice">Aygıtı kaydetmek için [+] düğmesine basın.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"Bu kulaklığın yazılımını güncellemek için Headphones Connect'in en son sürümü gereklidir.
+Bu uygulamayı Google Play'den güncelleyin."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"Bu kulaklığın yazılımını güncellemek için Headphones Connect'in en son sürümü gereklidir.
+Bu uygulamayı App Store'dan güncelleyin."</string>
+    <string name="Msg_FWVer_unmatched">Yazılım güncelleme başarısız.</string>
+    <string name="Msg_Failed_Language_Setting">Dil değiştirilemedi.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">iOS sürümünüzde kulaklıkların yazılımı güncellenemiyor.</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"Lütfen mobil cihaz ayarlarından şu şekilde izin verin:
+[Ayarlar] -> [Kulaklık] -> [Kamera]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">[Ayarlar] düğmesine basın ve [izinler] > [Kamera] öğesinden erişime izin verin.</string>
+    <string name="Msg_IASetupAllowCamera">Lütfen fotoğraf çekmeye izin verin.</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">Lütfen mobil cihaz ayarlarından izin verin</string>
+    <string name="Msg_IASetup_AppInstallConf">"“%s” uygulamasını yükledikten sonra Headphones Connect'e dönün ve 360 Reality Audio ayarlarını tamamlayın."</string>
+    <string name="Msg_IASetup_AppOptimizing">Optimizasyon için hazırlanılıyor. Lütfen bekleyin...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"Size kulağınızın biçimine göre optimize edilmiş ses alanı sunulması için kulağınızdan alınan resimler, aşağıdaki süreç uygulanarak analiz edilmek üzere Sony'nin sunucusuna gönderilecektir.
+Bu analiz tamamlandıktan sonra, bu resimler kimliğinizle ilişkilendirilmeden sunucumuzda tutulacaktır.
+Bu resimler, yalnızca kulak analizi işlevimizi iyileştirme için yapılan araştırmalarda kullanılacak ve 30 gün sonra silinecektir."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- Kulağınızın şekline göre ses alanınızı optimize etmek için kulaklarınızın resmini kullanırız. Bunu, SİZİN İÇİN OPTİMİZE EDİLMİŞ SES ALANLARI OLUŞTURMAYA YÖNELİK MEŞRU AMACIMIZA ULAŞMAK İÇİN yaparız. Analiz tamamlandıktan sonra resimleri derhal sileriz.
+- Bu işlemden Sony Home Entertainment &amp; Sound Products Inc. sorumludur. ABD'de bulunan ve üçüncü bir tarafça korunan bir sunucuyu kullanırız. ABD'de verilerinizi korumak için Avrupa Komisyonu tarafından onaylanmış standart sözleşme maddelerini kullanırız.
+- Bizimle privacyoffice.seu@sony.com üzerinden veya bir Hollanda şirketi olan temsilcimiz Sony Europe BV, iş adresi: Taurusavenue 16, 2132LS Hoofddorp, Hollanda (AB'de iseniz) veya bir Hollanda şirketi olan Sony Europe BV, BK şubesinin iş adresi: The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, Birleşik Krallık (Birleşik Krallıkta iseniz) üzerinden iletişim kurabilirsiniz. Bizimle Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokyo, 141-8610, Japonya adresinden de iletişim kurabilirsiniz.
+- Kişisel verileri işlediğimiz süre boyunca bunlara erişme, bunları düzeltme ve silme hakkına sahipsiniz. Yaşadığınız, çalıştığınız veya şikayet durumunun oluştuğu ülkede veya bölgede bir veri koruma kurumuna şikayette bulunma hakkına da sahipsiniz."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"“%s” yüklü değilse veya güncelleme gerekiyorsa App Store açılır.
+
+“%s” başlatılırsa, 360 Reality Audio ayarları tamamlanmıştır."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"Kulaklığınız ortam sesi (A2DP) yoluyla bu mobil cihaza bağlı değil.
+
+Lütfen kulaklığınız ve diğer cihazlar arasındaki ortam sesinin bağlantısını kesin ve sonra bu mobil cihazı bağlayın."</string>
+    <string name="Msg_IASetup_ConnectCable">"Kulaklığınız bir mobil cihaza bağlı değil.
+
+Lütfen kulaklığı bu mobil cihaza bağlayın."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"Kulağınızı algılar ve çekim otomatik yürütülür.
+Otomatik çekim birkaç kez başarısız olursa, manüel çekim de yapılabilir."</string>
+    <string name="Msg_IASetup_General_Err">İşleme iptal edildi.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"Kulaklarınızın/kafanızın fotoğrafları ve sizi tanımlayabilen bilgiler 360 Reality Audio için herhangi bir müzik uygulamasına gönderilmeyecektir.
+
+Optimize edilmiş müzik dinlemek için yalnızca analiz edilen veriler müzik uygulamalarına gönderilecektir."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">"360 Reality Audio ayarlarını tamamlamak için “%s” uygulamasını en son sürüme güncelledikten sonra Headphones Connect'e dönün ve “%s” uygulamasını optimize edin."</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"Sonraki ekranda, sesli kılavuz sağlanacaktır. Kılavuzu duyabilmek için lütfen mobil cihazınızın sesini yükseltin.
+
+*Bu kulaklığın bağlantısını kesmeyin."</string>
+    <string name="Msg_IASetup_OpenAppInfo">"Google Play'de “%s” öğesini açmak istiyor musunuz?"</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">"App Store'da “%s” öğesini açmak istiyor musunuz?"</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"Canlı performansta duyduğunuz ses kafa ve kulak şeklinize bağlıdır.
+
+Sizin için kişisel optimum ses alanı üretmek için verileri hesaplamak için kulaklarınızın fotoğrafını analiz ederiz.
+
+Bu optimize edilmiş sonuçları 360 Reality Audio için müzik hizmeti uygulamalarına gönderdiğinizde, kulaklığınızla yoğun müzik deneyiminin keyfini çıkarabilirsiniz."</string>
+    <string name="Msg_IASetup_StopConfirm">360 Reality Audio kurulumu tamamlanmadı. Bu kurulumu daha sonra tamamlayabilirsiniz.</string>
+    <string name="Msg_IASetup_StopConfirm_Title">360 Reality Audio kurulumunu atlamak istiyor musunuz?</string>
+    <string name="Msg_IASetup_UnsupportedArea">Bu işlev, şu anda ülkenizde/bölgenizde kullanılamıyor.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"360 Reality Audio ayarı etkin.
+Müzik hizmeti uygulamalarında yoğun 360 Reality Audio çalarken bu ayarı kapatın."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"Çalışma ve duruma bağlı olarak bildirim tonları ve sesli kılavuz kulaklıklardan çalar.
+Ayar kapalı olarak ayarlanmış olsa bile bazı önemli bildirimler ve kılavuz devre dışı bırakılmayacaktır."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"Çalışma ve duruma bağlı olarak bildirim tonları ve sesli kılavuz kulaklıklardan çalar.
+Ayar kapalı olarak ayarlanmış olsa bile bazı önemli bildirimler ve kılavuz devre dışı bırakılmayacaktır.
+Ayrıca, yalnızca bildirim tonu değiştirilirken Uyarlanabilir Ses Kontrolü nedeniyle devre dışı bırakma durumunda, değişiklikleri Adaptive Uyarlanabilir Ses Kontrolü ayarlarından uygulayabilirsiniz."</string>
+    <string name="Msg_Information_NetworkError">Ağa bağlanamıyor.</string>
+    <string name="Msg_Information_OtherError">Bilgi alınamıyor.</string>
+    <string name="Msg_InstallFailed">Yazılım güncelleme başarısız.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">Yeni aygıtla olan bağlantıyı iptal eder.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">Seçili aygıta bağlanmak için bağlı aygıtlardan birinin bağlantısını kestikten sonra yeniden deneyin.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">Yeni bir aygıt bağlamak için bağlı aygıtlardan birinin bağlantısını kestikten sonra yeniden deneyin.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">Geçerli olarak bağlı aygıtın bağlantısının kesilmesi gerekli</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">%s bağlantısı kesilsin mi?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"%s bağlantısı kesilsin mi?
+Bağlantı kesilirse uygulamayla bağlantı kesilecektir."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">Yeniden bağlantı gerekli</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">Kulaklığa yeniden bağlantı gerektiğinden geçerli olarak çalmakta olan müzik duracaktır. Kulaklığa yeniden bağlanılsın mı?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">Kulaklığa yeniden bağlantı gerektiğinden geçerli olarak çalmakta olan müzik duracaktır. Bu ayar etkinleştirildiğinde LDAC kullanılamaz. Kulaklığa yeniden bağlanılsın mı?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"%1$s kaydı iptal edilsin mi?
+Kaydı iptal ettikten sonra %1$s öğesine yeniden bağlanmak için %1$s içinden %2$s kaydını iptal edin ve aygıt kaydını yeniden gerçekleştirin."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">Yazılımı güncellemek için kulaklıklara bağlı %s aygıtının bağlantısının kesilmesi gerekir. Bağlantı kesilip güncelleme başlasın mı?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">Bağlı %s aygıtının bağlantısının kesilmesi gerekti</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">Dili değiştirmek için kulaklıklara bağlı %s aygıtının bağlantısının kesilmesi gerekir. Bağlantı kesilip dil değiştirilsin mi?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">%s ile bağlantı başarısız oldu.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">%s bağlantısını kesme başarısız oldu.</string>
+    <string name="Msg_MultiPoint_FailedToPair">Yeni bir aygıtla bağlantı başarısız oldu.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">%s kaydını iptal etme başarısız oldu.</string>
+    <string name="Msg_MultiPoint_Info_Detail">Bu ayar etkinleştirildiğinde, kulaklık aynı anda iki cihaza bağlanabilecek. Bağlı cihazlar [%s] içinden kontrol edilebilir. Bu ayar etkinleştirildiğinde LDAC kullanılamaz.</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">Yeni aygıtlara bağlanmak için yazılım güncellemesinin iptal edilmesi gerekir. Yazılım güncellemesi iptal edilse bile devam ettirilebilir. Bağlanılsın mı?</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">Yazılım güncellemesinin iptal edilmesi gerekti</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">%s aygıtına bağlanmak için yazılım güncellemesinin iptal edilmesi gerekir. Yazılım güncellemesi iptal edilse bile devam ettirilebilir. Bağlanılsın mı?</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">%s öğesine bağlantı tamam.</string>
+    <string name="Msg_NeedConnectDevice">Kulaklık ve Bluetooth bağlantısı gerekiyor.</string>
+    <string name="Msg_OoBE_LocationPermission_After">Kulaklıkları kolayca kaydetmek için mobil aygıt ayarlarından konum bilgilerine erişime izin verin.</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"Konum'u kullanarak, yakındaki kulaklıkları kolayca kaydedebilirsiniz.
+Konum'a erişime izin verin."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"Konum'u kullanarak, yakındaki kulaklıkları kolayca kaydedebilirsiniz.
+Konum'a erişime izin verin."</string>
+    <string name="Msg_OoBE_LocationSetting_After">Kulaklıkları kolayca kaydetmek için mobil aygıt ayarlarından konum bilgilerini açın.</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"Konum'u kullanarak, yakındaki kulaklıkları kolayca kaydedebilirsiniz.
+Konum'u açın."</string>
+    <string name="Msg_PairingOS_BT_Settings">Bluetooth ayarları ekranından bir kulaklık seçin ve bağlayın.</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">Eşleme tamamlandığında [Geri] düğmesine basın.</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">%s öğesini Bluetooth ayar ekranından seçin ve bağlayın.</string>
+    <string name="Msg_Permission_BLE">Bunu, BLE özellikli kulaklığımızı belirlemek için kullanıyoruz.</string>
+    <string name="Msg_Permission_Location">Konum bilgileri, uygulama eylemlerinizi algıladığında ve otomatik olarak kulaklık ayarlarını değiştirdiğinde kullanılır.</string>
+    <string name="Msg_Permission_Location02">"Konum'u kullanma Uyarlanabilir Ses Kontrolü'nün doğruluğunu daha da iyileştirir."</string>
+    <string name="Msg_PowerOff">Kulaklıkların gücü kapatılsın mı?</string>
+    <string name="Msg_RecommendUpdate">Bu aygıtı daha rahat kullanmak için, yazılım güncellemesi önerilir.</string>
+    <string name="Msg_Reconnect_BT_Connection">Yazılım aktarma hedefi değiştiriliyor...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">Yeni kulaklık</string>
+    <string name="Msg_SelectMDR_Header">Kulaklık seç</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"Mobil aygıtın “Ayarlar”ının [Bluetooth]'undan kulaklığı seçin ve bağlanın.
+Bağlantı tamamlandığında, Headphones Connect'i yeniden başlatın."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"Kulaklıkların gücünün açıldığını kontrol edin ve mobil aygıtın “Ayarlar”ının [Bluetooth] öğesinden %s öğesini seçin ve bağlanın.
+Bağlantı tamamlandığında, Headphones Connect'i yeniden başlatın."</string>
+    <string name="Msg_SendFailed">Yazılım aktarma başarısız.</string>
+    <string name="Msg_SendFailed_WF_Special">"Yazılım aktarma %% %d iken durdu.
+Lütfen kulaklıkları şarj kılıfına koyup çıkardıktan sonra tekrar deneyin."</string>
+    <string name="Msg_Setting_Data_Err">Ses verilerini indirme başarısız.</string>
+    <string name="Msg_Setting_Downloading_Failed">Ses verilerini indirme başarısız.</string>
+    <string name="Msg_Setting_Sending_Failed">Ses verilerini aktarma başarısız.</string>
+    <string name="Msg_Title_FWAbort">Yazılım aktarma iptal edildi. Şunu kontrol edin.</string>
+    <string name="Msg_TrainingModeSaveCheck">Düzenleme tamamlanmadı. Çıkılsın mı?</string>
+    <string name="Msg_Update_NeedReboot">"Lütfen güncellemenin tamamlandığını kontrol edin.
+
+1. Lütfen kulaklıkları şarj kılıfına koyup çıkardıktan sonra tekrar bağlanmayı deneyin.
+2. Bu uygulamanın sağ üst köşesindeki menüden [%1$s Sürüm] seçimini yapın. “%2$s” görüntülenirse güncelleme tamamlanmıştır.
+
+Güncelleme tamamlanmamışsa tekrar deneyin."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"Lütfen güncellemenin tamamlandığını kontrol edin.
+
+Kulaklıkların gücünü kapatın, tekrar açın ve ardından bağlantı kurun. Bu uygulamanın sağ üst köşesindeki menüden [%1$s Sürüm] seçimini yapın. “%2$s” görüntülenirse güncelleme tamamlanmıştır.
+
+Güncelleme tamamlanmamışsa tekrar deneyin."</string>
+    <string name="Msg_VoiceData_NeedReboot">"Dilin değiştirildiğini kontrol edin.
+
+1. Sol ve sağ kulaklığı şarj kılıfına yerleştirin, bunları çıkarın ve tekrar bağlayın.
+2. Değiştirilen dil [%s] seçeneğinde gösteriliyorsa işlem tamamlanmıştır.
+
+Dil değiştirilmemişse tekrar deneyin."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"Dilin değiştirildiğini kontrol edin.
+
+Kulaklıkların gücünü kapatın, tekrar açın ve ardından bağlantı kurun. Değiştirilen dil [%s] seçeneğinde gösteriliyorsa işlem tamamlanmıştır.
+
+Dil değiştirilmemişse tekrar deneyin."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">iOS sürümünüzde sesli kılavuz dili değiştirilemedi.</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">Sonraki ekrandan bir kulaklık seçin. Kulaklığın gösterilmesi bir dakika sürebilir.</string>
+    <string name="MultiPoint_AddNewDevice_Description">Bağlanmak istediğiniz aygıtla Bluetooth ayarlarını açın ve %s öğesini seçin.</string>
+    <string name="MultiPoint_DeviceNotConnect">Bağlı değil.</string>
+    <string name="MultiPoint_DeviceStatus_Title">Geçerli Olarak Bağlanmakta Olan Aygıt</string>
+    <string name="MultiPoint_Device_Add">Yeni Aygıta Bağlan</string>
+    <string name="MultiPoint_Header_History">Eşleşen</string>
+    <string name="MultiPoint_Header_Pairing">Bağlanılıyor...</string>
+    <string name="MultiPoint_Menu_Delete">Kaydı İptal Et</string>
+    <string name="MultiPoint_Menu_Disconnect">Bağlantıyı Kes</string>
+    <string name="MultiPoint_Setting_Description">"Bu kulaklık aynı anda %d aygıta bağlanabilir.
+Müzik çalınacak aygıtlar arasında geçiş yapmak için müziği bir kez durdurun ve diğer bağlı aygıtlardan birinde oynatma işlemlerini gerçekleştirin."</string>
+    <string name="MultiPoint_Setting_Title">Bağlı Aygıtı Yönet</string>
+    <string name="MultiPoint_Status_Connecting">Bağlanılıyor...</string>
+    <string name="MultiPoint_Status_Disconnecting">Bağlantı kesilyor...</string>
+    <string name="MultiPoint_Talkback_Add_Device">Yeni bir aygıta bağlanır.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">Cihaz 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">Cihaz 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">Bağlı aygıt yok.</string>
+    <string name="MultiPoint_Talkback_Playing_Right">Ses çalındı.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">Bağlantı kesildi.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">Bağlanılıyor...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">Bağlantı kesiliyor...</string>
+    <string name="MultiPoint_Title">Aynı anda 2 cihaza bağlanın</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">Ayrıca, optimizasyonu yarı yolda iptal etmek için kulaklıklardaki düğmelerden birine basın.</string>
+    <string name="NC_Title">Gürültü Kesme</string>
+    <string name="NSBluetoothAlwaysUsageDescription">Bunu, Bluetooth özellikli kulaklığımızı belirlemek için kullanıyoruz.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">Bunu, Bluetooth özellikli kulaklığımızı belirlemek için kullanıyoruz.</string>
+    <string name="NSCameraUsageDescription">Lütfen akıllı telefonunuzun kulaklarınızın fotoğrafını çekmesine izin verin. Sizin için kişisel optimum ses alanı üretmek için verileri hesaplamak için kulaklarınızın fotoğrafını analiz ederiz.</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">"Uyarlanabilir Ses Kontrolü'ne göre ayarları otomatik değiştirmek için [Her Zaman İzin Ver] öğesini seçin."</string>
+    <string name="NSLocationAlwaysUsageDescription">"Uyarlanabilir Ses Kontrolü'ne göre ayarları otomatik değiştirmek için [Her Zaman İzin Ver] öğesini seçin."</string>
+    <string name="NSLocationWhenInUseUsageDescription">"Uyarlanabilir Ses Kontrolü'ne göre ayarları otomatik değiştirmek için erişime izin verin."</string>
+    <string name="NSUserTrackingUsageDescription">Bu bilgileri, cihaz kullanımınız ve ilgi alanlarınızla eşleşen reklamlar ve destek bilgileri sunmak için kullanırız.</string>
+    <string name="Notification_Headphones_Connected">%s aygıtına bağlanılıyor...</string>
+    <string name="Notification_Headphones_Connected_Unknown">Kulaklığa bağlanılıyor...</string>
+    <string name="Notification_IASetup_NeedToComplete">"Headphones Connect'e dönün ve 360 Reality Audio ayarlarını tamamlayın."</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">360 Reality Audio ayarı tamamlnmd</string>
+    <string name="Notification_Summary_Abort">Yazılım aktarımı iptal edildi.</string>
+    <string name="Notification_Summary_Downloading">İndiriliyor...</string>
+    <string name="Notification_Summary_FWVer_unmatched">Güncelleme başarısız.</string>
+    <string name="Notification_Summary_Prepared">Güncellemeye hazır.</string>
+    <string name="Notification_Summary_Sending">Aktarılıyor...</string>
+    <string name="Notification_Summary_Update_NeedReboot">Lütfen güncellemenin tamamlandığını kontrol edin.</string>
+    <string name="Notification_Summary_failed">Güncelleme başarısız.</string>
+    <string name="Notification_Summary_updated">Güncelleme tamamlandı.</string>
+    <string name="Notification_Summary_updating">Güncelleniyor...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">Değiştiriliyor...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">Değişiklik tamamlandı.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">Değiştirilemedi.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">Değişikliğin uygulandığını kontrol edin.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">Sesli kılavuz dilini değiştir</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">Sesli kılavuz dilini değiştir</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">Sesli kılavuz dili değiştirme tamamlandı.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">Sesli kılavuz dili değiştirilemedi.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">Sesli kılavuz dilinin değiştiğini kontrol edin.</string>
+    <string name="OPT_Baro_Title">Atmosfer Basıncı İyileştirme</string>
+    <string name="OPT_Message_Analyzing">Gürültü önleme istediğiniz şekilde iyileştirilir.</string>
+    <string name="OPT_Message_Baro">Atmosfer basıncı değişirse işlemi yeniden yapın.</string>
+    <string name="OPT_Message_Comp">Gürültü önleme istediğiniz şekilde iyileştirilir.</string>
+    <string name="OPT_Message_Personal">Her zamanki gibi takın. Saç stilinizin değişmesi gibi bir ndnl takma şeklinizi dğştrirsnz işlm yndn ypn.</string>
+    <string name="OPT_Personal_Done_Long">İyileştirildi</string>
+    <string name="OPT_Personal_Done_Short">Tamamla</string>
+    <string name="OPT_Personal_Initial_Long">İyileştirilmedi</string>
+    <string name="OPT_Personal_Initial_Short">İyilştrm önc</string>
+    <string name="OPT_Personal_Title">Kişisel İyileştirme</string>
+    <string name="OPT_Start">Başlat</string>
+    <string name="OPT_Status_Analyzing">Analiz ediliyor...</string>
+    <string name="OPT_Status_Baro">Atmosfer basıncı ölçülüyor...</string>
+    <string name="OPT_Status_Comp">Tamamla</string>
+    <string name="OPT_Status_Personal">Takma koşulunuz ölçülüyor...</string>
+    <string name="OPT_Title">Gürültü Önleme İyileştiricisi</string>
+    <string name="OPT_Title_iOS">Gürültü Önleme İyileştiricisi</string>
+    <string name="OPT_atm_Long">"%.1f atm'ye iyileştirildi"</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">Kulaklığı her zaman yaptığınız gibi takarak başlayın. Atmosfer basıncı uçakta olma gibi nedenlerle değişirse işlemi yeniden yapın.</string>
+    <string name="OPT_detail_Personal_Baro">Kulaklığı her zaman yaptığınız gibi takarak başlayın. Takma koşulu ve atmosfer basıncı değişirse işlemi yeniden yapın.</string>
+    <string name="OoBE_COMP_Message">Kulaklıkla bağlantı tamamlandı.</string>
+    <string name="OoBE_COMP_Title">Kulaklık ekle</string>
+    <string name="OoBE_Manual_Button_Label">Bluetooth ayarlarından kayıt ol</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Bluetooth KAPALI.
+Denetim merkezi'nden Bluetooth'u AÇIN."</string>
+    <string name="OoBE_Manual_Pair_Message">"Kulaklığın güç düğmesine yakl. 7 sn. basmaya devam edin. Kulaklığın LED'i dönüşümlü olarak mavi ve kırmızı yanıp sönünce veya hızlıca mavi yanıp sönünce, [Sonraki] öğesine basın.
+Hiç güç düğmesi yoksa kulaklığı Bluetooth cihazı kaydetme (eşleme) moduna ayarlayın. Ayrıntı için talimat kılavuzuna bakın."</string>
+    <string name="OoBE_Manual_Pair_Title">Kulaklık ekle</string>
+    <string name="OoBE_Message1">Kulaklığı Bluetooth üzerinden bağlar.</string>
+    <string name="OoBE_Message2">Bir bağlantı yöntemi seçin.</string>
+    <string name="OoBE_NFC_Button_Label">Tek dokunuşla bağlantıyla (NFC) kayıt ol</string>
+    <string name="OoBE_NFC_Message">Kulaklıktaki N İşaretini mobil aygıttaki N İşaretinin üzerinden konumlandırın ve dokunma işlemini yürütün.</string>
+    <string name="OoBE_NFC_Title">Kulaklık ekle</string>
+    <string name="OoBE_NonBT_Button_Label">Kablolu bir kulaklığı listeden kaydet</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">"Kulaklıklarınızı 360 Reality Audio'yu istediğiniz gibi kullanmak için kaydedin."</string>
+    <string name="OoBE_Power_On_Message">"Kulaklığın gücünü açın. Gücün açık olduğunu onaylayın ve [Sonraki] düğmesine basın.
+Gücü açma hakkında bilgi için kulaklık talimatları kılavuzuna bakın."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">Devam etmek için [%s] düğmesine basın.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">Kulaklığınız kablolu</string>
+    <string name="OoBE_Proximity_Message">Kulaklıkların kimlik doğrulamasını yapmak için mobil aygıtı ve %s öğesini birbirine yakın yerleştirin.</string>
+    <string name="OoBE_SelectAcc_Message">Bir kulaklık seçin. Gösterilmesi bir dakika sürebilir.</string>
+    <string name="OoBE_SelectAcc_Title">Kulaklık ekle</string>
+    <string name="OoBE_Title">Kulaklık ekle</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_tr.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_tr.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_tr.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_tr.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">Kulaklıkların bekleme süresini uzatmanızı sağlayarak ses oynatma belirli bir süre durdurulduğunda [%s] otomatik devre dışı bırakıldı.</string>
+    <string name="PS_Title">Güç tasarrufuyla bekle</string>
+    <string name="PlaybackController_Title">Şimdi Çalan</string>
+    <string name="PlaybackController_Unknown_Album">Bilinmeyen Albüm</string>
+    <string name="PlaybackController_Unknown_Artist">Bilinmeyen Sanatçı</string>
+    <string name="PlaybackController_Unknown_TrackName">Bilinmeyen Şarkı</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">Ekranın sağ üstündeki menünün [%s] öğesinden anketi yeniden görüntüleyebilirsiniz.</string>
+    <string name="Questionnaire_MenuItem">Anket</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">Geçerli olarak hiç anket yok. Lütfen sonraki anket için bekleyin.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%3$s %2$s %1$s - %6$s %5$s %4$s</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">Yanıt için süre:</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">Ocak</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">Şub.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">Mart</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">Nis.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">May.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">Haz.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">Tem.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">Ağu.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">Eyl.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">Ekim</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">Kas.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">Ara.</string>
+    <string name="Questionnaire_Notification_Button_Answer">Yanıtla</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">Devam</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">Yanıtlama</string>
+    <string name="Questionnaire_Notification_Note">Tarayıcıyı başlatın ve anket sitesini gösterin.</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d soru</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d - %2$d soru</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">Soru sayısı:</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">Yaklaşık %d dakika</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">Gerekli süre:</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- Kulaklıklardan ses çıkmadığı için, işlem zorsa analizleri aileniz ve arkadaşlarınızla yapın.</string>
+    <string name="Right_Headphones">Sağ Ünite</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_tr.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">Hesabın kimliği doğrulanamadı.</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">Kayıt iptal edildi.</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"Sunucuya şu an erişilemiyor.
+Bir süre sonra tekrar deneyin."</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"Daha fazla cihaz kaydedilemiyor.
+Gereksiz cihaz kayıtlarını kaldırın."</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">Oturum açılamadı.</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">Oturum kapatılamadı.</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">Yakındaki aygıtları kolayca kaydetmek için aygıt ayarlarından konum bilgilerini açın.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">Ağa bağlanamıyor.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">Çalıştırılamıyor.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">Yanlış kayıt numarası girildi.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">Girilen dize çok uzun.</string>
+    <string name="STRING_CAUTION_CONNECT">%s aygıtına bağlanılamadı.</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"%s aygıtına bağlanılamadı.
+Cihazla aynı ağa bağlayın ve cihazı açın."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"%s ile bağlantı kurulamıyor.
+Cihazın gücünün açık olduğunu kontrol edin."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"%s ile bağlantı kurulamıyor.
+Cihazın Bluetooth işlevinin AÇIK olduğunu doğrulayın."</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"%s aygıtına bağlanılamadı.
+Cihazla aynı ağa bağlayın."</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"%s aygıtına bağlanılamadı.
+Bir süre sonra tekrar deneyin."</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"%s aygıtına bağlanılamadı.
+Ağ durumunu kontrol ettikten sonra tekrar deneyin."</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"%s aygıtına bağlanılamadı.
+Cihaz açılsın mı?"</string>
+    <string name="STRING_CAUTION_DISCONNECT">%s aygıtıyla bağlantı kesildi.</string>
+    <string name="STRING_CAUTION_EULA">Bu uygulamayı kullanabilmek için %s öğesini kabul etmeniz gerekir.</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">Sürüm kontrol edilemedi.</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">%s okunamadı.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">Belirtilen uygulama bulunamadı.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">Aygıt bulunamadı.</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">Yakındaki aygıtları kolayca kaydetmek için aygıt ayarlarından konum bilgilerine erişime izin verin.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">Kaydedilemedi.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"Kaydedilemedi.
+Bir süre sonra tekrar deneyin."</string>
+    <string name="STRING_CAUTION_SERVER_STRING">Bağlantı kurulamadı.</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">"Bluetooth'u açamadı."</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">Wi-Fi açılamadı.</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">%s ile bağlantı kurulamadı.</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"Wi-Fi ağına bağlanmadı.
+Cihazla aynı ağa bağlayın."</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"Wi-Fi ağına bağlanmadı.
+Cihazla aynı ağa bağlayın ve cihazı açın."</string>
+    <string name="STRING_COMMON_DONE">Bitti</string>
+    <string name="STRING_COMMON_NEXT">Sonraki</string>
+    <string name="STRING_COMMON_OTHER">Diğer</string>
+    <string name="STRING_DEVICE">Cihaz</string>
+    <string name="STRING_DEVICES">Cihazlar</string>
+    <string name="STRING_IOS_LOCATION">Konum</string>
+    <string name="STRING_IOS_SETTINGS">Ayarlar</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">Bu uygulamayı kullanmaya erişim izni vermeniz gerekir.</string>
+    <string name="STRING_MSG_CANCEL_DELETE">Silme işlemi iptal edilsin mi?</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">Bilgi alınamıyor.</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">Bağlanıyor...</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">Yükleniyor...</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">Daha fazla seçim yapılamaz.</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">Lütfen biraz bekleyin.</string>
+    <string name="STRING_MSG_COMMUNICATING">İletişim kuruluyor...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">Aygıtın gücünün açık olduğunu kontrol edin.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">Cihazın gücünün açık olduğunu kontrol edin ve cihazı Bluetooth üzerinden bağlayın.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">Aygıtla aynı ağa bağlan.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">Yedekleme ve geri yükleme işlemini gerçekleştiremeyeceksiniz. Yeniden oturum açarsanız kullanılabilir hale gelecekler.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">Oturum kapatılsın ve kullanım durdurulsun mu?</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">Lütfen uygulamanın %s öğesini okuyun.</string>
+    <string name="STRING_MSG_CONFIRM_PP">Lütfen uygulamanın %s öğesini okuyun.</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">"[TBD]Ayarların yedeği ve geri yüklemesi'ni kullanmak için aşağıdaki Kullanım Koşulları'nı kabul etmeniz gerekir."</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">Silindi.</string>
+    <string name="STRING_MSG_DELETING">Siliniyor...</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">"TV'de görüntülenen kayıt numarasını girin."</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">Aygıt kaydı tamamlandı.</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">Sürüm kontrol ediliyor...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"Konum bilgileri kullanılıyorsa yakındaki aygıtları kolayca kaydedebilirsiniz.
+Konum bilgilerini açın."</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">Bilgi alınıyor...</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">Yukarıdaki içeriği okudum ve kabul ettim.</string>
+    <string name="STRING_MSG_LICENCE_APPLE">"iPad, iPhone, iPod ve iPod touch, Apple Inc.'in ABD ve diğer ülkelerde kayıtlı ticari markalarıdır. “iPhone” ticari markası Aiphone KK.'den lisansla kullanılır."</string>
+    <string name="STRING_MSG_LICENCE_BT">Bluetooth® ifadesi ve logoları Bluetooth SIG, Inc. şirketinin mülkiyetinde olup Sony Corporation bunları kendisine verilmiş lisans kapsamında kullanmaktadır.</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google ve Android, Google Inc. şirketinin ticari markalarıdır.</string>
+    <string name="STRING_MSG_LICENCE_NFC">"N Markası, NFC Forum, Inc.'in, ABD ve diğer ülkelerde ticari markası veya kayıtlı ticari markasıdır."</string>
+    <string name="STRING_MSG_LICENCE_OSAIFU_NFC">"N Markası, NFC Forum, Inc.'in, ABD ve diğer ülkelerde ticari markası veya kayıtlı ticari markasıdır."</string>
+    <string name="STRING_MSG_LOADING">Yükleniyor...</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"Konum bilgileri kullanılıyorsa yakındaki aygıtları kolayca kaydedebilirsiniz.
+Konum bilgilerine erişime izin verin."</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">"Bu işlevi kullanmak için Kullanım Koşulları'nı kabul etmeniz gerekir."</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">%s açılsın mı?</string>
+    <string name="STRING_MSG_REGIST_FINISH">Kaydedildi.</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">Aygıtı kaydetmek için [+] düğmesine basın.</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">Kaldığınız ülkeyi/bölgeyi seçin.</string>
+    <string name="STRING_MSG_SIGNOUT">Oturum kapatılsın mı?</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"Aşağıdan [Kabul ediyorum] öğesini seçerek lütfen Japonya'da bulunan Sony Home Entertainment &amp; Sound Products Inc. (“Sony”) (sorumlu) adlı şirketin uygulamayı kullanma şekliniz ile ilgili verileri (%s Gizlilik Politikamızda ayrıntılı olarak belirlenen şekilde) ürün iyileştirme ve geliştirme (yeni işlev eklenmesi veya işlevlerin değiştirilmesi yoluyla teknik ve kullanılabilirlik geliştirmeleri) amaçlı olarak kullanabileceğini onaylayın. Sony'ye bu tür bir onay vermek istemiyorsanız lütfen aşağıdaki [Kabul etmiyorum] öğesini seçin.
+Yukarıdaki onayınızı isteğiniz zaman Uygulamadaki “(3 nokta) Menüsü” > “Bu uygulama hakkında” > “Gizlilik ayarları” öğesini seçerek geri çekebilirsiniz."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">"Aşağıdaki öğeyi seçerek lütfen Japonya'da bulunan Sony Home Entertainment &amp; Sound Products Inc. (“Sony”) (sorumlu) adlı şirketin uygulamayı kullanma şekliniz ile ilgili verileri (%s Gizlilik Politikamızda ayrıntılı olarak belirlenen şekilde) ürün iyileştirme ve geliştirme (yeni işlev eklenmesi veya işlevlerin değiştirilmesi yoluyla teknik ve kullanılabilirlik geliştirmeleri) amaçlı olarak kullanabileceğini onaylayın. Sony'ye bu tür bir onay vermek istemiyorsanız lütfen aşağıdaki öğenin seçimini kaldırın."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"Aşağıdan [Kabul et ve İlerle] öğesini seçerek lütfen Japonya'da bulunan Sony Home Entertainment &amp; Sound Products Inc. (“Sony”) (sorumlu) adlı şirketin uygulamayı kullanma şekliniz ile ilgili verileri (%s Gizlilik Politikamızda ayrıntılı olarak belirlenen şekilde) ürün iyileştirme ve geliştirme (yeni işlev eklenmesi veya işlevlerin değiştirilmesi yoluyla teknik ve kullanılabilirlik geliştirmeleri) amaçlı olarak kullanabileceğini onaylayın. Sony'ye bu tür bir onay vermek istemiyorsanız lütfen aşağıdaki [Kabul etme ve ilerle] öğesini seçin.
+Yukarıdaki onayınızı isteğiniz zaman Uygulamadaki “(3 nokta) Menüsü” > “Bu uygulama hakkında” > “Gizlilik ayarları” öğesini seçerek geri çekebilirsiniz."</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">SES</string>
+    <string name="STRING_REMOTE_BTN_BACK">GERİ</string>
+    <string name="STRING_REMOTE_BTN_BLUE">MAVİ</string>
+    <string name="STRING_REMOTE_BTN_CC">"ALT YAZI/
+AÇIKLMLI"</string>
+    <string name="STRING_REMOTE_BTN_CH">KANAL</string>
+    <string name="STRING_REMOTE_BTN_DELETE">SİL</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">Digital</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"DİJİTAL/
+ANALOG"</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">GÖRÜNTÜ</string>
+    <string name="STRING_REMOTE_BTN_ENTER">GİR</string>
+    <string name="STRING_REMOTE_BTN_EXIT">ÇIKIŞ</string>
+    <string name="STRING_REMOTE_BTN_GREEN">YEŞİL</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">REHBER</string>
+    <string name="STRING_REMOTE_BTN_HELP">YARDIM</string>
+    <string name="STRING_REMOTE_BTN_HOME">BŞLNGÇ</string>
+    <string name="STRING_REMOTE_BTN_INPUT">GİRİŞ</string>
+    <string name="STRING_REMOTE_BTN_JUMP">GERİ ATLA</string>
+    <string name="STRING_REMOTE_BTN_MENU">MENÜ</string>
+    <string name="STRING_REMOTE_BTN_MUTE">SESSİZ</string>
+    <string name="STRING_REMOTE_BTN_OK">Tamam</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">SÇNKLR</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">RESİM KPL</string>
+    <string name="STRING_REMOTE_BTN_POWER">GÜÇ</string>
+    <string name="STRING_REMOTE_BTN_PROG">PROG</string>
+    <string name="STRING_REMOTE_BTN_RED">KIRMIZI</string>
+    <string name="STRING_REMOTE_BTN_RETURN">GERİ DÖN</string>
+    <string name="STRING_REMOTE_BTN_TV">TV</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">"SESLE
+GİRİŞ"</string>
+    <string name="STRING_REMOTE_BTN_VOL">SES</string>
+    <string name="STRING_REMOTE_BTN_WIDE">GENİŞ</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">SARI</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">"Bluetooth'a erişilemiyor. Bluetooth'a erişmeye izin verin."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Bluetooth KAPALI.
+Denetim merkezi'nden Bluetooth'u AÇIN."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"Denetim merkezinden Bluetooth'u açın.
+Bluetooth açılırsa Bluetooth'a erişime izin verin."</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">Bluetooth AÇIK konuma getiriliyor...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">Wi-Fi AÇIK konuma getiriliyor...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">Bluetooth aç?</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">Wi-Fi AÇIK konuma getirilsin mi?</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">Bu uygulama hakkında</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">Uygulama ayarları</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Bluetooth ayarları</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">Aygıt ayarları</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">Ayarlara</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">İşlem geçmişini gönder</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"Aygıt bulunamadı.
+Aygıtın gücünün açık olup olmadığını kontrol edin."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"Kaydediciyi uzaktan çalıştırın.
+Kayıtları bir mesafeden kaydedin ve kontrol edin!"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Bluetooth KAPALI.
+Bluetooth AÇIK."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"Wi-Fi KAPALI.
+Cihazla aynı ağa bağlayın."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"Aygıt bulunamadı.
+Cihazla aynı ağa bağlayın ve cihazı açın."</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">Kaydetmek için bir aygıt seçin.</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">Aygıt ekle</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">Kaydedildi.</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">Uzak</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">Seçili</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">Aygıtı seç</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">Yardım</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">"Bluetooth'u ayarla"</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">Wi-Fi ayarla</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">Kaydetmek için dokunun</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">"Bluetooth'u Aç"</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">"Wi-Fi'yi aç"</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">Wi-Fi ayarları</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">Diğer seçenekler</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">Bu aygıta geçmek için çift dokunun.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">Başka bir aygıta geçmek için çift dokunun.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">Genişletmek için çift dokunun.</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%2$s / %1$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">Hesap ayarları</string>
+    <string name="STRING_TEXT_ADD_DEVICE">Başka bir aygıtı kaydet</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">Kabul Et</string>
+    <string name="STRING_TEXT_COMMON_AGREE">Kabul ediyorum</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">Kabul et ve ilerle</string>
+    <string name="STRING_TEXT_COMMON_ALL">Tümü</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">İzin Ver</string>
+    <string name="STRING_TEXT_COMMON_BACK">Geri</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">İptal</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">Kayıt iptal ediliyor...</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">Kaydı iptal et</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">Kayıt iptal edildi.</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">Bu aygıtın kaydı iptal edilsin mi?</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">Kayıt iptal edilemedi.</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">Her zaman sor</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">Tekrar görüntüleme</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">Kapat</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">Daralt</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">Tamam</string>
+    <string name="STRING_TEXT_COMMON_DELETE">Sil</string>
+    <string name="STRING_TEXT_COMMON_DENY">Reddet</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">Tümünün seç. kaldır</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">Ayrıntılı Ayarlar</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">Aygıt menüsü</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">Kabul etmiyorum</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">Kabul etme ve ilerle</string>
+    <string name="STRING_TEXT_COMMON_DO">Açık</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">Kullanma</string>
+    <string name="STRING_TEXT_COMMON_DOWN">Aşağı</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">Reddet</string>
+    <string name="STRING_TEXT_COMMON_EXIT">Çıkış</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">Genişlet</string>
+    <string name="STRING_TEXT_COMMON_FAQ">Sorun giderme</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">Geribildirim</string>
+    <string name="STRING_TEXT_COMMON_FINISH">Sonlandır</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">İlet</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">Yardım ve Bilgi</string>
+    <string name="STRING_TEXT_COMMON_HIDE">Gizle</string>
+    <string name="STRING_TEXT_COMMON_INFO">Bilgi</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">Bilgi</string>
+    <string name="STRING_TEXT_COMMON_INPUT">Giriş</string>
+    <string name="STRING_TEXT_COMMON_LATER">Sonra</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">Aç</string>
+    <string name="STRING_TEXT_COMMON_LEFT">Sol</string>
+    <string name="STRING_TEXT_COMMON_MORE">Daha fazlasını gör</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">Ayrıntılı Bilgi</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">Daha fazla bilgi gör</string>
+    <string name="STRING_TEXT_COMMON_NEXT">Sonraki</string>
+    <string name="STRING_TEXT_COMMON_NO">Hayır</string>
+    <string name="STRING_TEXT_COMMON_NOTE">Not</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">Kapalı</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">Seçili değil</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">Ayarlı Değil</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">Belirtmeyin</string>
+    <string name="STRING_TEXT_COMMON_OFF">Kapalı</string>
+    <string name="STRING_TEXT_COMMON_OK">Tamam</string>
+    <string name="STRING_TEXT_COMMON_ON">Açık</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">Tarayıcıda Aç</string>
+    <string name="STRING_TEXT_COMMON_OPTION">Seçenek</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">Önceki Sayfaya Geri Dön</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">Sonraki Sayfaya Devam Et</string>
+    <string name="STRING_TEXT_COMMON_PREV">Önceki</string>
+    <string name="STRING_TEXT_COMMON_RETRY">Yeniden Dene</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">Sağ</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">Bu seçimi hatırla</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">Tümünü Seç</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">Ayarlar</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">Otomatik</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">Ayar tamamlandı</string>
+    <string name="STRING_TEXT_COMMON_SHOW">Göster</string>
+    <string name="STRING_TEXT_COMMON_SKIP">Atla</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">Kayıt iptali durdurulsun mu?</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">Resmi site</string>
+    <string name="STRING_TEXT_COMMON_TAB">Sekme</string>
+    <string name="STRING_TEXT_COMMON_TIPS">Uygun kullanımlar</string>
+    <string name="STRING_TEXT_COMMON_UP">Yukarı</string>
+    <string name="STRING_TEXT_COMMON_USE">Kullan</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">Sayfayı yüklemeyi durdur</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">Sayfayı yeniden yükle</string>
+    <string name="STRING_TEXT_COMMON_YES">Evet</string>
+    <string name="STRING_TEXT_DELETE_ALL">Tümünü Sil</string>
+    <string name="STRING_TEXT_DELETE_FAILED">Silinemedi.</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">Bu kayıtlı aygıtı sil?</string>
+    <string name="STRING_TEXT_DEVICE_INFO">Cihaz Bilgileri</string>
+    <string name="STRING_TEXT_DO_UPDATE">Güncelle</string>
+    <string name="STRING_TEXT_EDIT">Düzen</string>
+    <string name="STRING_TEXT_EULA">Son kullanıcı lisans anlaşması</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">Lisans bilgileri</string>
+    <string name="STRING_TEXT_MENU">Menü</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">Bağlantı kesildi</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">Oturum açma</string>
+    <string name="STRING_TEXT_NO_DEVICE">Hiçbir aygıt bulunamadı.</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">Aygıt bulunamıyor</string>
+    <string name="STRING_TEXT_OWN_DEVICE">Ana birim</string>
+    <string name="STRING_TEXT_POWER_OFF">Kulaklığı kapat</string>
+    <string name="STRING_TEXT_PP_SETTINGS">Gizlilik ayarları</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">"Sony'nin bu verileri kullanma şekli hakkında daha ayrıntılı bilgi buradan edinilebilir."</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">Gizlilik politikası</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">burada</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">Ürün /hizmet iyileştirme/geliştirme amaçlı işleme için rızanız:</string>
+    <string name="STRING_TEXT_RECORDER_NAME">Kaydedici</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">Aygıt</string>
+    <string name="STRING_TEXT_REGISTERING">Kaydediliyor...</string>
+    <string name="STRING_TEXT_RE_REGISTER">Yeniden Kaydet</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">Başka cihaza geç</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">Bağlı aygıtlar</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">Kayıt</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">Sürüm</string>
+    <string name="STRING_TEXT_SIGNIN">Oturum aç</string>
+    <string name="STRING_TEXT_SIGNOUT">Oturumu kapat</string>
+    <string name="STRING_TEXT_START">Başlat</string>
+    <string name="STRING_TEXT_STARTING">Başlıyor...</string>
+    <string name="STRING_TEXT_START_ASIS">Şimdi başlat</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">Uyumlu aygıt listesi</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">Bağla</string>
+    <string name="STRING_TEXT_TERM_OF_USE">Kullanım Koşulları</string>
+    <string name="STRING_TEXT_UPDATE">Güncelle</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">Bir bağlantı kurulamadığında</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">Kaydedemediğinizde</string>
+    <string name="STRING_THIS_PHONE">Bu Cep Telefonu</string>
+    <string name="STRING_TITLE_COUNTRY">Ülke/Bölge</string>
+    <string name="Setting_Android_Title">Ayarlar</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"Hesabınızda kimlik doğrulanamadı.
+Yeniden oturum açın."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"Hesap kimlik doğrulaması başarısız olduğundan ayarlar eşitlenemedi.
+Yeniden oturum açın."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">Kulak Analizi Sonuçları</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">Kayıtlı konumlar ve ayar değerleri</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">Eylemlere vb. göre ayar değerleri.</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">Yedekle</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">Aşağıdaki ayarlar hesabınıza bağlanılarak sunucuya kaydedilebilir.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">Yedeklenebilen ayarlar modele göre değişebilir.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">"Uygulama çalıştırılarak yedeklenen ayarlar da silinebilir. Ayrıca Sony Kullanım Koşulları'na göre bu işlevin yürütülmesini sonlandırdığında da otomatik silinebilirler."</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">Otomatik yazılım indirme ayarları</string>
+    <string name="SettingsTakeOver_Appeal_Link">Ayrıntılar için buraya gidin</string>
+    <string name="SettingsTakeOver_Appeal_Title">Ayarlarınızı yedekleyelim.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">Yedek tamamlandı.</string>
+    <string name="SettingsTakeOver_Button_Backup">Yedekle</string>
+    <string name="SettingsTakeOver_Button_Restore">Geri Yükle</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">Bu uygulamanın ayarını kullan</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">Sunucudaki ayarları kullanın</string>
+    <string name="SettingsTakeOver_Confirm_Backup">Bu uygulamanın ayarları sunucuda yedeklensin mi?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">Bu uygulamada sunucuda yedeklenen ayarlar geri yüklensin mi?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"Sunucuda zaten yedeklenmiş ayarlar var.
+Otomatik eşitlemeyi etkinleştirmek için aşağıdan bir ayar seçin."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Bir Sony hesabı oluşturun ve devam edin</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">Yedeklenen ayarlar silindi ve oturum kapatıldı.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">Oturumu kapatır, hesapla bağlantıyı iptal eder ve sunucuda yedeklenen bilgileri tamamen siler.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">Yedeklenen ayarlar silinsin mi?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">Ayarların otomatik eşitlemesi etkinleştirildi.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"Yedekleme başarısız oldu.
+Lütfen biraz bekleyin ve yeniden deneyin."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"Geri yükleme başarısız oldu.
+Lütfen biraz bekleyin ve yeniden deneyin."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"Geri yükleme başarısız oldu.
+Ağ bağlantısını kontrol edin ve biraz bekleyin ve yeniden deneyin."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">"Kullanım Koşulları'nı Kontrol Et"</string>
+    <string name="SettingsTakeOver_List_Title">Ayarların yedeği ve geri yüklemesi</string>
+    <string name="SettingsTakeOver_PP_Description">"Lütfen aşağıdaki [Kabul ediyorum] düğmesine basarak Sony'nin yukarıdaki amaçlar için müşteri uygulaması kullanımıyla ilgili verileri kullanabileceğini onaylayın. Bu kullanım koşullarını kabul etmiyorsanız [Kabul etmiyorum] düğmesine basın."</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">Ayarları geri yükleme</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">Geri yüklemeden ilerle</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">Ayarları geçmişte Headphones Connect ile yedeklediyseniz bu ayarları geri yükleyebilirsiniz.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">Ayrıntılar için buraya gidin</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">Ayarları Geri Yükleme</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"Yedeklenen hiç ayar yok.
+Geri yüklemeden ilerle."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">Geri yükleme tamamlandı.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">Hesap</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">Yedeklenen ayarlar</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">Şimdi yedekle</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">Etkinleştir</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">Şimdi geri yükle</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">Yedeği silin ve oturumu kapatın</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"Sunucuda yedeklenen ayarları siler.
+Uygulama içindeki ayarlar kalacaktır."</string>
+    <string name="SettingsTakeOver_Settings_Description">Oturum açtığınız hesabınıza bağlayarak bu uygulamalar ayarlarını sunucuya kaydedebilirsiniz.</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"En son ayarları yedeklemek için otomatik eşitlemeyi etkinleştirin.
+Ayarları bu hesapla oturum açtığınız tüm mobil cihazlarla eşitleyebilirsiniz."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">Bu işlevin ayarları istediğiniz zaman panonun sağ üst menüsünden değiştirilebilir.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">Otomatik Eşitleme</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">Hesap Ayarları</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Sony hesabı Ayarları</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">Yedekleniyor...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">Sunucu Güncelleme Tarihi:</string>
+    <string name="SettingsTakeOver_Settings_Status_None">Ayarların yedeğini alabilirsiniz.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">Henüz yedeği alınmamış ayarlar var.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">Yeni ayarları sunucudan geri yükleyebilirsiniz.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">Geri yükleniyor...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">Yedekleme tamamlandı.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">Eşitleniyor...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">Aygıtınız yedeklemeyi desteklemiyor.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Amazon ile Giriş Yap</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Apple ile Giriş Yap</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Facebook ile Giriş Yap</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Google ile Giriş Yap</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Sony hesabı ile Giriş Yap</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">WeChat ile Giriş Yap</string>
+    <string name="SettingsTakeOver_SignIn_Description">"Ayarları yedeklemek ve geri yüklemek için Headphones Connect'te oturum açmanız gerekir."</string>
+    <string name="SettingsTakeOver_SignIn_Split">veya</string>
+    <string name="SettingsTakeOver_SignOut_Completed">Oturumu kapatıldı.</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">Yedekleme ve geri yükleme özellikleri kullanılamaz olacak.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">Oturum kapatıldıktan sonra belirli bir süre geçerse sunucuda yedeklenen ayarlar otomatik silinir.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Sony hesabı</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">Oturum açılıyor...</string>
+    <string name="SettingsTakeOver_SigningOut">Oturum kapatılıyor...</string>
+    <string name="SmartTalkingMode_Detail">Kulaklıkları takarken konuşmaya başlayarak bir görüşmeyi başlatabilirsiniz.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"Konuşmaya başlayarak, kulaklıkları takarken sohbet edebilirsiniz. Bu işlevi deneyimlemek istiyor musunuz?
+Bunu [i] düğmesiyle yeniden çalıştırabilirsiniz."</string>
+    <string name="SmartTalkingMode_Experience_Btn">Deneyimleyin</string>
+    <string name="SmartTalkingMode_Experience_Detail1">Örneğin, “Merhaba” gibi bir şet demeyi deneyin. Kulaklıklar konuştuğunuzu algılar ve otomatik olarak görüşmeyi etkinleştiren bir koşul oluşturur.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"Ortam sesini almak için müzik duraklatıldı. Bu mod siz konuşurken devam ettirilecek ve konuşmayı bitirdikten veya kulaklıkları çalıştırdıktan sonra %s geçerse kapanacak.
+Bu ayar panoda [Sohbet için Konuş deneyimi] içinde özelleştirilebilir."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">Ortam sesini almak için müzik duraklatıldı. Mod, kulaklıklar çalıştırılarak kapatılabilir.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">Kapat</string>
+    <string name="SmartTalkingMode_Experience_Msg1">Sesinizi algılar</string>
+    <string name="SmartTalkingMode_Experience_Msg2">Sesiniz algılandı</string>
+    <string name="SmartTalkingMode_Experience_Title">Sohbet için Konuş deneyimi</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">Ortam gürültüsünü azaltırken sesleri alır.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">Sese Odaklan</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"Kulaklıklar belirtilen süre içinde sesinizi algılamazsa, Sohbet için Konuş deneyimi modu kapanır ve normal durumuna döner.
+Ayrıca, modu kulaklıkları çalıştırarak istediğiniz zaman kapatabilirsiniz."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">Hızlı</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">Standart</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">Yavaş</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">Otomatik kapatma</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">Yapma</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">Mod kapanana kadar süre</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">Yakl. 1 dk</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">Yakl. 1 sn</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">Yakl. %d sn</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">Yakl. %d dk</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">Otomatik</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">Ortam sesine göre hassasiyeti otomatik ayarlar.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">Otomatik:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">H Hassasiyeti</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">Ses algılama hassasiyeti çok düşük olduğunda bu ayarı seçin. Bir araçtayken olduğu gibi ortam sesi çok yüksekken etkilidir.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">H Hassasiyeti:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">L Hassasiyeti</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">Ses algılama hassasiyeti çok yüksek olduğunda bu ayarı seçin. Konuşmacı çok yakındayken etkilidir.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">L Hassasiyeti:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">Ses Algıl. Hassasiyeti</string>
+    <string name="SmartTalkingMode_Setting_Title">Sohbet için Konuş denym Ayar</string>
+    <string name="SmartTalkingMode_Title">Sohbet için Konuş deneyimi</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Sohbet için Konuş deneyimi etkinleştirildi</string>
+    <string name="SmartTalkingMode_TurnOn">Ayarları gerçekleştirmek için Sohbet için Konuş deneyimini etkinleştirir.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Sohbet için Konuş deneyimini etkinleştir</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"Bu ayar kulaklıklarınızdaki işlemler yoluyla değiştirilebilir.
+İşlem modu [Yardım] içinde kontrol edilebilir."</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Sohbet için Konuş deneyimi etkinleştirilsin mi?</string>
+    <string name="SongPalDownloadDialog">"Music Center uygulaması Google Play'den indirilsin mi?"</string>
+    <string name="SongPalDownloadDialog_iOS">"Music Center uygulaması App Store'den indirilsin mi?"</string>
+    <string name="SoundPosition_Preset_FL">Ön Sol</string>
+    <string name="SoundPosition_Preset_FR">Ön Sağ</string>
+    <string name="SoundPosition_Preset_Front">Ön</string>
+    <string name="SoundPosition_Preset_Off">Kapalı</string>
+    <string name="SoundPosition_Preset_RL">Arka Sol</string>
+    <string name="SoundPosition_Preset_RR">Arka Sağ</string>
+    <string name="SoundPosition_Title">Ses Konum Kontrolü</string>
+    <string name="Status_Loading_Headphones">Kulaklık listesi alınıyor.</string>
+    <string name="Switch_ToOtherDevice">Başka bir cihaza geç</string>
+    <string name="TalkBack_Button">Düğme</string>
+    <string name="TalkBack_Button_Option">Diğer seçenekler</string>
+    <string name="TalkBack_Disable">Devre Dışı Bırakıldı</string>
+    <string name="TalkBack_Switch">Geçiş Düğmesi</string>
+    <string name="Talkback_Echo_Minus">minus</string>
+    <string name="Talkback_Echo_Plus">plus</string>
+    <string name="TouchSensorControlPanel_title">Dokunmatik sensör kontrol paneli</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">Sıfırla</string>
+    <string name="Training_Custom_Title">Hızlı Ses Ayarları</string>
+    <string name="Training_Title">Hızlı Ses Ayarları</string>
+    <string name="Training_Title_Detail">"[%1$s] ve [%2$s] ayarlarını toptan değiştirebilirsiniz.
+Ayrıca, bu ayar kulaklıklardan da çalıştırılabilir."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">Arena</string>
+    <string name="VPT_Preset_Club">Kulüp</string>
+    <string name="VPT_Preset_ConcertHall">Konser Salonu</string>
+    <string name="VPT_Preset_Off">Kapalı</string>
+    <string name="VPT_Preset_OutdoorFestival">Açık Sahne</string>
+    <string name="VPT_Preset_Title">Surround (VPT)</string>
+    <string name="Vibration_Title">Gelen arama için titrşm</string>
+    <string name="VoiceData_Update_Status_Download">Ses verileri indiriliyor...</string>
+    <string name="VoiceData_Update_Status_Install">Ses verileri ayarlanıyor...</string>
+    <string name="VoiceData_Update_Status_Send">Ses verileri aktarılıyor...</string>
+    <string name="VoiceData_Update_Status_Start">%s ses verisini kulaklıklara aktarır</string>
+    <string name="VoiceData_Update_Title">Dili değiştir</string>
+    <string name="VoiceData_Updating">Lütfen bekleyin...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">Dil</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">Bildirim ve sesli kılavuz</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">Brezilya Portekizcesi</string>
+    <string name="Voice_Guidance_Elem_Chinese">Çince</string>
+    <string name="Voice_Guidance_Elem_Dutch">Felemenkçe</string>
+    <string name="Voice_Guidance_Elem_English">İngilizce</string>
+    <string name="Voice_Guidance_Elem_Finnish">Fince</string>
+    <string name="Voice_Guidance_Elem_French">Fransızca</string>
+    <string name="Voice_Guidance_Elem_German">Almanca</string>
+    <string name="Voice_Guidance_Elem_Italian">İtalyanca</string>
+    <string name="Voice_Guidance_Elem_Japanese">Japonca</string>
+    <string name="Voice_Guidance_Elem_Korean">Korece</string>
+    <string name="Voice_Guidance_Elem_Portuguese">Portekizce</string>
+    <string name="Voice_Guidance_Elem_Russian">Rusça</string>
+    <string name="Voice_Guidance_Elem_Spanish">İspanyolca</string>
+    <string name="Voice_Guidance_Elem_Swedish">İsveççe</string>
+    <string name="Voice_Guidance_Elem_Turkish">Türkçe</string>
+    <string name="Voice_Guidance_Setting">Sesli kılavuz dili</string>
+    <string name="Volume_Talkback">Ses Düzeyi</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">"Kullanmak için bu uygulamayı Google Play'de güncelleyin."</string>
+    <string name="Walkman_Placeholder_Confirm_China">Kullanmak için bu uygulamayı indirme sitesinden indirin.</string>
+    <string name="Walkman_Placeholer_Button_Transit">Git</string>
+    <string name="Walkman_Placeholer_Description">"Bu uygulamaya bağlanabilen Sony kulaklıkları zevkinize göre kişiselleştirin.
+Hep dinlediğiniz müzikler kolay kontroller sayesinde daha da keyifli."</string>
+    <string name="Walkman_Placeholer_Description_02">Kullanmak için bu uygulama yönlendirildiğiniz ekranda güncellenmelidir (indirme).</string>
+    <string name="Walkman_Placeholer_Description_03">Bu uygulama hakkında</string>
+    <string name="Walkman_Placeholer_Link">Desteklenen ürünler ve işlevler hakkında ayrıntılar için buraya gidin</string>
+    <string name="Walkman_Placeholer_SubTitle">Headphones Connect indirme sayfasına gidilsin mi?</string>
+    <string name="Welcome_EULA_PP">Bu düğmeye basmanız, belgeyi ve gizlilik politikasını onayladığınız ve içeriğini kabul ettiğiniz anlamına gelecektir.</string>
+    <string name="Welcome_EULA_PPLink">Kullanım Koşulları</string>
+    <string name="Welcome_SubTitle">"Daha fazla eğlence, daha akıllı, daha kişisel.
+Yeni kulaklığınızla yeni yaşamınıza başlayın."</string>
+    <string name="Welcome_SubTitle1">Kişisel canlı konseriniz burada başlıyor.</string>
+    <string name="Welcome_SubTitle2">Club? Arena? Konser Salonu? Veya dış mekan? Mükemmel etkinlik mekanınız parmağınızın ucunda.</string>
+    <string name="Welcome_SubTitle3">Ayarlanabilir bas, gününüze enerji katacak.</string>
+    <string name="Welcome_Title">HOŞ GELDİNİZ</string>
+    <string name="Welcome_Title1">HOŞ GELDİNİZ</string>
+    <string name="Welcome_Title2">TEK DOKUNUŞLA CANLI MÜZİK</string>
+    <string name="Welcome_Title3">DAHA FAZLA BAS MI?</string>
+    <string name="Widget_Disconnected">"Kulaklık bağlanmadı veya kayıtlı değil. Headphones Connect'i başlatın."</string>
+    <string name="Widget_EQ_Error">"Headphones Connect'ten [Ekolayzır]'ı onaylayın."</string>
+    <string name="Widget_EQ_Error_Short">"Headphones Connect'ten değiştirin."</string>
+    <string name="Widget_EULA_Disagreement">"Headphones Connect'i başlatın ve ayarları gerçekleştirin."</string>
+    <string name="Widget_Initial">Yükleniyor...</string>
+    <string name="abc_action_bar_home_description">Eve gidiş yolunu göster</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="abc_action_mode_done">Bitti</string>
+    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
+    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
+    <string name="abc_capital_off">KAPAT</string>
+    <string name="abc_capital_on">AÇ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">sil</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Üst Karakter+</string>
+    <string name="abc_menu_space_shortcut_label">boşluk</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menü+</string>
+    <string name="abc_search_hint">Ara…</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_query">Arama sorgusu</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_shareactionprovider_share_with">Şununla paylaş:</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
+    <string name="abc_toolbar_collapse_description">Daralt</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string name="common_google_play_services_update_button">Güncelle</string>
+    <string name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
+    <string name="expand_button_title">Gelişmiş</string>
+    <string name="fcm_fallback_notification_channel_label">Çeşitli</string>
+    <string name="s1">Resmi kaydet</string>
+    <string name="s2">Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?</string>
+    <string name="s3">Kabul et</string>
+    <string name="s4">Reddet</string>
+    <string name="s5">Takvim etkinliği oluştur</string>
+    <string name="s6">Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?</string>
+    <string name="s7">Test Reklamı</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">KAPALI</string>
+    <string name="v7_preference_on">AÇIK</string>
+</resources>

@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">Длинный</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">Короткий</string>
+    <string name="AR_Custom_Reset">Сброс</string>
+    <string name="AR_Custom_Title">Редактировать</string>
+    <string name="AR_Custom_Title_iOS">РЕДАКТИРОВАТЬ</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"Приложение обнаруживает ваши действия и часто посещаемые вами места, и автоматически переключает настройки наушников, например, способ восприятия окружающего звука.
+Благодаря этому достигается оптимальный музыкальный опыт в соответствии с местом, где вы слушаете музыку.
+
+Использовать эту функцию?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"Приложение обнаруживает ваши действия и автоматически настраивает, как принимать окружающий звук.
+Благодаря этому достигается оптимальный музыкальный опыт в соответствии с местом, где вы слушаете музыку.
+
+Использовать эту функцию?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">Завершена настройка Адаптивного управления звуком.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"Шумоподавление может отключиться из-за автоматического переключения на настройки, которые соответствуют обнаруженным действиям и местоположению.
+Эту настройку можно изменить при помощи [Адаптивное управление звуком] в панели управления."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"Система настроена так, чтобы выключить Шумоподавление и принимать окружающий звук в зависимости от обнаруженного поведения.
+Эти настройки можно изменить при помощи [Адаптивное управление звуком] в панели управления."</string>
+    <string name="AR_Notification_Message">Включено [%s] .</string>
+    <string name="AR_Status_Detecting">Отслеживание</string>
+    <string name="AR_Status_LongStay">Пребывание</string>
+    <string name="AR_Status_Run">Бег</string>
+    <string name="AR_Status_ShortStay">Пребывание</string>
+    <string name="AR_Status_Vehicle">Транспорт</string>
+    <string name="AR_Status_Walking">Ходьба</string>
+    <string name="AR_Title">Адаптивное управление звуком</string>
+    <string name="AR_Title_Detail">Приложение обнаруживает ваши действия и часто посещаемые вами места, и автоматически переключает настройки наушников, например, способ восприятия окружающего звука.</string>
+    <string name="AR_Title_Detail_China">Приложен. отслеж. ваши действия и перекл. [%s]</string>
+    <string name="AR_Title_Detail_EffectTone">Звук уведомления, издаваемый при переключении, можно отключить, выключив [%s].</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">Эти настройки включены, пока вы находитесь в этом местоположении, и отключено автоматическое переключение на основе действий.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">Отключено, пока вы находитесь в зарегистрированном местоположении</string>
+    <string name="ASC_Behavior_Detection">Автоматическое переключение на основе действий</string>
+    <string name="ASC_Behavior_Detection_Menu">Обнаружение действий</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"При регистрации часто посещаемых вами мест становится доступно автоматическое переключение настроек на основе этого местоположения.
+Часто посещаемые вами места могут быть легко зарегистрированы с помощью функции обучения.
+Использовать эту функцию?
+*После использования функции обучения для часто посещаемых вами мест потребуется несколько дней для регистрации."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">Местоположение не отправляется на сервер, так как функция обучения работает в автономном режиме.</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">Использовать функцию обучения</string>
+    <string name="ASC_LearningLocation">Изучение часто посещаемых вами мест</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"Функция обучения для часто посещаемых вами мест и автоматическое переключение настроек на основе местоположений Адаптивного управления звуком включены, но местоположения не могут быть обнаружены, так как невозможен доступ к Геопозиции. Если разрешено в любое время, данные о местоположении будут собираться даже тогда, когда приложение закрыто или не используется.
+
+Для использования этих функций в фоновом режиме нажмите кнопку [Настройки] и выберите [Разрешить в любом режиме] в меню [Разрешения] > [Местоположение]."</string>
+    <string name="ASC_Location_Detail">Информация о местоположении</string>
+    <string name="ASC_Location_Detail_Message">"Изучено новое местоположение.
+Если это местоположение зарегистрировано, настройки наушников могут автоматически переключаться."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">Устанавливает шумоподавление на ВЫКЛ и предустанавливает настройку, позволяющую лучше различать голоса окружающих вас людей.</string>
+    <string name="ASC_Location_Detail_Message_Other">Рекомендуемая настройка для этого местоположения доступна в виде предустановки.</string>
+    <string name="ASC_Location_Detail_Message_Station">Устанавливает шумоподавление на ВЫКЛ и предустанавливает настройку, позволяющую лучше воспринимать окружающие вас звуки.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">Изучение часто посещаемых вами мест</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">Изучено новое местоположение.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">Если это местоположение зарегистрировано, настройки наушников могут автоматически переключаться.</string>
+    <string name="ASC_Location_Detection">Автоматическое переключение на основе местоположения</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">В таких местах, как метро и туннели, где слабый GPS-прием, изучение часто посещаемых вами мест и автоматическое переключение на основе местоположения может не работать должным образом.</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">Поскольку ваше мобильное устройство не оснащено GPS, изучение часто посещаемых вами мест и автоматическое переключение на основе местоположения может не работать должным образом.</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">Существуют ограничения для обнаружения местоположения</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">Определение Геопозиции...</string>
+    <string name="ASC_Location_Empty_Message">Чтобы использовать автоматическое переключение на основе вашего местоположения, зарегистрируйте часто посещаемые вами места.</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">Включить Геопозицию</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"Функция обучения для часто посещаемых вами мест и автоматическое переключение настроек на основе местоположений Адаптивного управления звуком включены, но местоположения не могут быть обнаружены, так как отключена Геопозиция.
+
+Для правильной работы этих функций включите Геопозицию."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"Функция обучения для часто посещаемых вами мест и автоматическое переключение настроек на основе местоположений Адаптивного управления звуком включены, но местоположения не могут быть обнаружены, так как отключены Службы геолокации.
+
+Для правильной работы этих функций включите Службы геолокации.
+Выполните настройки из “Настройки” > [Конфиденциальность] > [Службы геолокации] мобильного устройства."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">Включить Геопозицию</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">Включите Службы геолокации</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">Включите Геопозицию для обнаружения часто посещаемых вами мест.</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">Включите Службы геолокации для обнаружения часто посещаемых вами мест.</string>
+    <string name="ASC_Location_Learning_Location_List">Изученное местоположение</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">Часто посещаемые вами места</string>
+    <string name="ASC_Location_Learning_Location_Select_message">Выберите местоположение, которое вы хотите зарегистрировать.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">Включена функция обучения.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"После регистрации часто посещаемых вами мест, кроме только обнаруженных ваших действий, автоматическое переключение настроек на основе этого местоположения становится доступным в Адаптивном управлении звуком. Часто посещаемые вами места могут быть легко зарегистрированы с помощью функции обучения.
+*После использования функции обучения для часто посещаемых вами мест потребуется несколько дней для регистрации."</string>
+    <string name="ASC_Location_Learning_Tips_notification">С помощью функ.обучен. можно легко зарегистр. часто посещаем. вами места.</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">Разрешить доступ к Геопозиции</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"Функция обучения для часто посещаемых вами мест и автоматическое переключение настроек на основе местоположений Адаптивного управления звуком включены, но местоположения не могут быть обнаружены, так как невозможен доступ к Геопозиции. Если разрешено в любое время, данные о местоположении будут собираться даже тогда, когда приложение закрыто или не используется.
+
+Для правильной работы этих функций разрешите доступ к Геопозиции."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"Функция обучения для часто посещаемых вами мест и автоматическое переключение настроек на основе местоположений Адаптивного управления звуком включены, но местоположения не могут быть обнаружены, так как невозможен доступ к Геопозиции.
+
+Выберите [При использовании приложения] на следующем экране, чтобы эти функции работали корректно."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"Функция обучения для часто посещаемых вами мест и автоматическое переключение настроек на основе местоположений Адаптивного управления звуком включены, но местоположения не могут быть обнаружены, так как невозможен доступ к Службам геолокации.
+
+Для использования этих функций в фоновом режиме нажмите кнопку [Настройки] и всегда разрешайте доступ из [Геопозиция]."</string>
+    <string name="ASC_Location_Permission_Tips_notification">Разрешите доступ к Геопозиции для обнаружения часто посещаемых вами мест.</string>
+    <string name="ASC_Location_Position_Set">Местоположение</string>
+    <string name="ASC_Location_Position_Set_message">Коснитесь, чтобы указать местоположение.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">Включите Точную геопозицию</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"Функция обучения для часто посещаемых вами мест и автоматическое переключение настроек на основе местоположений Адаптивного управления звуком включены, но местоположения не могут быть обнаружены, так как отключена Точная геопозиция.
+
+Для правильной работы этих функций нажмите кнопку [Настройки] и включите Точную геопозицию из [Геопозиция]."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">Включите Точную геопозицию для обнаружения часто посещаемых вами мест.</string>
+    <string name="ASC_Location_Range">Диапазон</string>
+    <string name="ASC_Location_Range_Param_Large">Большой</string>
+    <string name="ASC_Location_Range_Param_Mid">Стандартный</string>
+    <string name="ASC_Location_Range_Param_Small">Малый</string>
+    <string name="ASC_Location_Registration">Зарегистрировать местоположение</string>
+    <string name="ASC_Location_Setting">Настройки местоположения</string>
+    <string name="ASC_Location_Sound_Setting">Настройки наушников</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">Выберите настройку для переключения в этом местоположении из [Добавить/удалить пункты].</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">Не переключаться</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">Добавить/удалить пункты</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"Выберите настройку для переключения в этом местоположении.
+Настройки, которые не были выбраны, сохранят предыдущее состояние даже при вводе этого местоположения."</string>
+    <string name="ASC_Location_Switch_Setting">Метод переключения</string>
+    <string name="ASC_Location_Type_Bus">Автобусная остановка</string>
+    <string name="ASC_Location_Type_Gym">Спортзал</string>
+    <string name="ASC_Location_Type_Home">Главная страница</string>
+    <string name="ASC_Location_Type_Office">Место работы</string>
+    <string name="ASC_Location_Type_Other">Другое</string>
+    <string name="ASC_Location_Type_School">Школа</string>
+    <string name="ASC_Location_Type_Set">Категория</string>
+    <string name="ASC_Location_Type_Set_message">Выберите категорию.</string>
+    <string name="ASC_Location_Type_Train">Станция</string>
+    <string name="ASC_NotificationSound">Сигнал уведомлен. при переключении</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">Разрешить настройку уведомления.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"Хотя настройка [Переключиться с уведомления] для адаптивного управления звуком включена, уведомления не будут отображаться, так как не разрешена настройка уведомления.
+
+Для корректной работы этой функции разрешите настройку уведомления."</string>
+    <string name="ASC_NowHere">Вы находитесь в этом месте</string>
+    <string name="ASC_Others_Section">Другое</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">Зарегистрироваться из изученных местоположений</string>
+    <string name="ASC_RegisterFromMapBtn">Зарегистрироваться с карты</string>
+    <string name="ASC_RegisteredLocation">Зарегистрированные местоположения</string>
+    <string name="ASC_Status_Empty">Не переключается автоматически</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">Отключено (Вам потребуется вручную внести изменения в эквалайзер)</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*Переключение вручную</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">Отключено (из-за приоритета качества звука)</string>
+    <string name="ASC_Status_Sound_Setting_info">Статус настройки</string>
+    <string name="ASC_Supplement_A2SC_Controlled">Установка автоматически с помощью Адаптивного управления звуком.</string>
+    <string name="ASC_Supplement_Change_Behavior">Если ваше действие меняется, то настр-ка автом. изменяется с помощью Адаптивн. управл. звуком.</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">Если ваше действие и место меняются, то настр-ка автом. измен. с помощью Адапт. управл. звуком.</string>
+    <string name="ASC_Supplement_Change_Location">Если ваше место меняется, то настройка автом. изменяется с помощью Адаптивн. управлен. звуком.</string>
+    <string name="ASC_Supplement_Leave_Location">Если вы покидаете это место, возвращается к автом. настр-ке на основе Адаптивн. управлен. звуком.</string>
+    <string name="ASC_Switch_Detail_Message">Если установлено значение [Переключиться с уведомления], вы можете переключаться на эту настройку в любое время, находясь в этой геопозиции.</string>
+    <string name="ASC_Switch_Notification_After_Button">Вернуть</string>
+    <string name="ASC_Switch_Notification_After_Description">Перед переключением можно вернуться к настройке.</string>
+    <string name="ASC_Switch_Notification_After_Title">Установить на настройку %s</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">Переключиться</string>
+    <string name="ASC_Switch_Notification_Before_Description">Переключиться на настройку этой геопозиции?</string>
+    <string name="ASC_Switch_Notification_Before_Title">Положение: %s</string>
+    <string name="ASC_Switch_Type_Auto">Переключаться автоматически</string>
+    <string name="ASC_Switch_Type_Manual">Переключиться с уведомления</string>
+    <string name="ASM_Param_ASM">Окружающий звук</string>
+    <string name="ASM_Param_NC">Шумоподавление</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">Выкл</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">Включить</string>
+    <string name="ASM_Param_Street">Подавление шума ветра</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">Окружающий звук</string>
+    <string name="ASM_Simple_Param_AsmNormal">Окружающий звук - Нормал. режим</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">Окружающий звук - Нормал. режим</string>
+    <string name="ASM_Simple_Param_AsmVoice">Окружающий звук - Голосов. режим</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">Окружающий звук - Голосов. режим</string>
+    <string name="ASM_Simple_Param_Asm_forBody">Окружающий звук</string>
+    <string name="ASM_Simple_Param_Dual">Шумоподавление</string>
+    <string name="ASM_Simple_Param_Dual_forBody">Шумоподавление</string>
+    <string name="ASM_Simple_Param_NC">Шумоподавление</string>
+    <string name="ASM_Simple_Param_NC_forBody">Шумоподавление</string>
+    <string name="ASM_Simple_Param_Street">Подавление шума ветра</string>
+    <string name="ASM_Simple_Param_Street_forBody">Подавление шума ветра</string>
+    <string name="ASM_Simple_Title">Управл. окруж. звук.</string>
+    <string name="ASM_Title">Управл. окруж. звук.</string>
+    <string name="ASM_Voice">Фокус на голос</string>
+    <string name="Abort_FWUpdate">Прервать</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">Не установлено</string>
+    <string name="AppNotify_Custom_Param_Vibration">Вибрация</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">Текст в речь</string>
+    <string name="AppNotify_Custom_Title">Получ. уведом. науш.</string>
+    <string name="AppNotify_Detail">Вы можете получать в наушниках уведомл. от выбр. прилож. Для использ. ф-ции “текст в речь” в настр. Bluetooth моб. устр-ва необход. выбрать носит. аудио.</string>
+    <string name="AppNotify_NeedSetup">Выбер., какие прил. не получ. увед.</string>
+    <string name="AppNotify_Notification_Message">Вкл. [%s].</string>
+    <string name="AppNotify_Setapps">Выбрано %d приложений.</string>
+    <string name="AppNotify_Title">Получ. уведом. науш.</string>
+    <string name="AppSetting_Link">Запустите Music Center</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">Зарегистрироваться</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">Воспроизведение музыки в данный момент прекратится, так как необходимо повторное подключение к наушникам. Изменить?</string>
+    <string name="Assignable_Key_Changing_Error">Операция не удалась.</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">Изменяет функцию кнопки</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">Для использования этой функции необходимо приложение Amazon Alexa.</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">Настройте Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">Для использования этой функции завершите настройки приложения Google Assistant.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">Для использования этой функции необходимо приложение Google Assistant.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google Aссистент</string>
+    <string name="Assignable_Key_Elem_Help_Button">Подробнее</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">Операции с кнопками отключены. При этой настройке доступна операция сопряжения.</string>
+    <string name="Assignable_Key_Elem_None_Title">Не назначено</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">Операция касания будет отключена. При этой настройке доступна операция сопряжения.</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">Управление воспроизведением</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">Вы можете управлять мобильным устройством с микрофона наушников голосом.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">Функция голосовой помощи</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">Контроль громкости</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">Нельзя назначить функцию голосовой помощи как на левую, так и на правую.</string>
+    <string name="Assignable_Key_Setting_1">Измен. функц. кнопки [NC/AMBIENT]</string>
+    <string name="Assignable_Key_Setting_2">Измен. функц. кнопки с лев. стороны</string>
+    <string name="Assignable_Key_Setting_Button">Изменить функцию кнопки</string>
+    <string name="Assignable_Key_Setting_C">Измен. функц. кнопки [C]</string>
+    <string name="Assignable_Key_Setting_CUSTOM">Измен. функц. кнопки [CUSTOM]</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">Сброс</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">Вы можете изменить функцию, назначенную кнопке слева.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">Вы можете изменить функцию, назначенную кнопке справа.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">Вы можете изменить функцию, назначенную кнопке [C].</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">Вы можете изменить функцию, назначенную кнопке [CUSTOM].</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">Вы можете изменить функцию, назначенную сенсорному датчику слева.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">Вы можете изменить функцию, назначенную сенсорному датчику справа.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">Функция:</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">Метод работы:</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">Левый</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">Правый</string>
+    <string name="Assignable_Key_Setting_Edit_Title">Редактировать</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">Аудиоввод/Отмена</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">Отменить функцию голосовой помощи</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">Отменить аудиоввод</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">Голосовое уведомление</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">Аудиоввод</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">Запустить функцию голосовой помощи</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">Следующая песня</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">Воспроизведение/Пауза</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">Предыдущая песня</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">Шумоподавление/Окружающий звук/Выключено</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">Оптимизатор подавлен. шума</string>
+    <string name="Assignable_Key_Setting_Function_None">Отсутствие</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">Быстрое внимание</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">Уменьшить громкость</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">Повысить громкость</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">Аудиоввод</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">Нажмите 2 раза</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">Нажмите 2 раза и продолжайте нажимать</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">Нажмите 1 раз</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">Нажмите 1 раз и продолжайте нажимать</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">Нажмите 3 раза</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">Продолжить нажимать</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">Длинное нажатие</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">Дважды коснуться</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">Дважды коснитесь и продолжайте нажимать</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">Коснуться</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">Коснитесь и продолжайте нажимать</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">Коснуться три раза</string>
+    <string name="Assignable_Key_Setting_NC">Измен. функц. кнопки [NC]</string>
+    <string name="Assignable_Key_Setting_NCAMB">Измен. функц. кнопки [NC/AMB]</string>
+    <string name="Assignable_Key_Setting_Not_Connected">Нет соединения.</string>
+    <string name="Assignable_Key_Setting_R">Измен. функц. кнопки с прав. стороны</string>
+    <string name="Assignable_Key_Setting_SaveCheck">Редактирование не завершено. Выйти?</string>
+    <string name="Assignable_Key_Setting_Touch">Изменить функцию сенсорного датчика</string>
+    <string name="AutoPlaybackControl_Title">Пауза при снятии наушников</string>
+    <string name="AutoPowerOff_Off_Parameter">Не выключайте</string>
+    <string name="AutoPowerOff_Off_Title">Не выключайте</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">Если наушники не использовались в течение определ. времени, питание наушников откл. автоматически.</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">Выключение при снятии наушников</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">Выключение при снятии наушников</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Если после отключения Bluetooth прошло заданное время, питание наушников автоматич. отключается.</string>
+    <string name="AutoPowerOff_SelectTime_Title">Выключ. через опред. время</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1 час</string>
+    <string name="AutoPowerOff_SelectTme_30min">30 минут</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3 часа</string>
+    <string name="AutoPowerOff_SelectTme_5min">5 минут</string>
+    <string name="AutoPowerOff_Title">Автоматическ. Выкл. Питания</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">Уровень заряда батареи</string>
+    <string name="Battery_Remain_Unknown">Уровень заряда батареи неизвестен</string>
+    <string name="Button_Next">Следующая</string>
+    <string name="Button_Permission_iOS_Settings">Настройки</string>
+    <string name="Button_Prev">Предыдущая</string>
+    <string name="Codec_AAC">Подключено через AAC.</string>
+    <string name="Codec_LDAC">Подключено через LDAC.</string>
+    <string name="Codec_SBC">Подключено через SBC.</string>
+    <string name="Codec_aptX">Подключено через aptX.</string>
+    <string name="Codec_aptXHD">Подключено через aptX HD.</string>
+    <string name="Common_App_Start">Начать</string>
+    <string name="Common_Back">Назад</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">Готово</string>
+    <string name="Common_EULA">Лиценз. соглаш. с кон. польз.</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">Подробн.</string>
+    <string name="Common_Off">Выкл</string>
+    <string name="Common_On">Включить</string>
+    <string name="Common_Other">Другие</string>
+    <string name="Common_PP">Политика конфиденциальности</string>
+    <string name="Common_Pause">Пауза</string>
+    <string name="Common_Play">Воспроизведение</string>
+    <string name="Common_Start">Начать</string>
+    <string name="Common_Yes">Да</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">Чтобы изменить настройки, режим качества звука должен быть изменен на Приоритет стабильного соединения. Кроме того, наушники будут повторно подключены и прекратится воспроизведение музыки в данный момент. Изменить?</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">Воспроизведение музыки в данный момент прекратится, так как необходимо повторное подключение к наушникам. Кроме того, настройки качества звука могут стать недоступными, если они изменены на Приоритет качества звука. Изменить?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">Воспроизведение музыки в данный момент прекратится, так как необходимо повторное подключение к наушникам. Изменить?</string>
+    <string name="ConnectMode_Changing_Title_Caution">Нужно измен. режим качества звука</string>
+    <string name="ConnectMode_Changing_Title_Confirm">Изменяется режим качества звука</string>
+    <string name="ConnectMode_Connectivity_Detail">Если часто пропускается звук, выберите эту настройку.</string>
+    <string name="ConnectMode_Connectivity_Title">Приоритет стабильного соединения</string>
+    <string name="ConnectMode_Sound_Title">Приоритет качества звука</string>
+    <string name="ConnectMode_Title">Режим качества звука</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">Продукт (Sony | Headphones Connect) включает технологию распознавания активности, разработанную Sony Corporation на основе исследований, проведенных Sony Computer Science Laboratories, Inc.</string>
+    <string name="Copyright_AptX">Qualcomm является торговой маркой Qualcomm Incorporated, зарегистрированной в США и других странах, которая используется с разрешения. aptX является торговой маркой Qualcomm Technologies International, Ltd., зарегистрированной в США и других странах, которая используется с разрешения.</string>
+    <string name="Copyright_Bluetooth">Марка и логотип Bluetooth® являются собственностьюкорпорации Bluetooth SIG, Inc. и используютсякорпорацией Sony Corporation по лицензии.</string>
+    <string name="Copyright_NFC">N-метка является товарным знаком или зарегистрированным товарным знаком компании NFC Forum, Inc. в США и других странах.</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">Проверить самый последний уровень заряда батареи</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">Отображаемый уровень заряда батареи обновляется, когда наушники извлекаются из чехла для зарядки.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">Когда наушники извлекаются из чехла для зарядки, обновляется отображение уровня заряда батареи на чехле для зарядки.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">Включить отображение уровня заряда батареи на чехле для зарядки?</string>
+    <string name="Cradle_Battery">Чехол для зарядки</string>
+    <string name="Current_Volume_Talkback">Текущая громкость</string>
+    <string name="DSEEHX_AI_Param_Auto">Автоматический</string>
+    <string name="DSEEHX_AI_Param_Off">Выкл</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">Автоматический</string>
+    <string name="DSEEHX_Param_Off">Выкл</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme Вкл</string>
+    <string name="DSEE_HX_ON">DSEE HX Вкл</string>
+    <string name="DSEE_ON">DSEE Вкл</string>
+    <string name="DSEE_Param_Auto">Автоматический</string>
+    <string name="DSEE_Param_Off">Выкл</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">Звук</string>
+    <string name="Dashboard_Tab_Status">Статус</string>
+    <string name="Dashboard_Tab_System">Система</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Подключено через Bluetooth.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Не подключено через Bluetooth.</string>
+    <string name="Device_Connection_Connect">Подключить</string>
+    <string name="Device_Connection_Connect_iOS">Подключит. к сопряж. наушникам</string>
+    <string name="Device_Connection_Message1">Подключите к наушникам через Bluetooth.</string>
+    <string name="Device_Connection_Pair">Подключить к новым наушникам</string>
+    <string name="Device_Registration_Top_Msg">Регистрация новых наушников.</string>
+    <string name="Download_Latest_MDRPlugin">Для использования наушников необходима последняя версия Headphones Connect. Обновите это приложение из Google Play.</string>
+    <string name="Download_Latest_MDRPlugin_iOS">Для использования наушников необходима последняя версия Headphones Connect. Обновите это приложение из App Store.</string>
+    <string name="EBB_Indicator">Электроусилитель басов</string>
+    <string name="EBB_Param_Title">Уровень</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">Акустика</string>
+    <string name="EQ_Preset_Bass">Усиление басов</string>
+    <string name="EQ_Preset_Bright">Яркий</string>
+    <string name="EQ_Preset_Custom">Вручную</string>
+    <string name="EQ_Preset_Dance">Диско</string>
+    <string name="EQ_Preset_EDM">Электроника</string>
+    <string name="EQ_Preset_Excited">Взволнован</string>
+    <string name="EQ_Preset_Jazz">Джаз</string>
+    <string name="EQ_Preset_Mellow">Невозмутим</string>
+    <string name="EQ_Preset_Off">Выкл</string>
+    <string name="EQ_Preset_Pop">Поп</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B / Хип-хоп</string>
+    <string name="EQ_Preset_Relaxed">Расслаблен</string>
+    <string name="EQ_Preset_Rock">Рок</string>
+    <string name="EQ_Preset_Speech">Речь</string>
+    <string name="EQ_Preset_Title">Эквалайзер</string>
+    <string name="EQ_Preset_Treble">Усиление высокиx частот</string>
+    <string name="EQ_Preset_UserSetting">Пользовательский</string>
+    <string name="EQ_Preset_Vocal">Вокал</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_ru.html</string>
+    <string name="ErrMsg_CannotAccess_Server">Ошибка подключения к серверу. Проверьте состояние сетевого подключения.</string>
+    <string name="FW_Download_Param_Always">Всегда автоматически загружать</string>
+    <string name="FW_Download_Param_OnlyWiFi">Только при подключен. через Wi-Fi</string>
+    <string name="FW_Download_Title">Автоматическая загрузка ПО</string>
+    <string name="FW_EULA_Title">Условия использования</string>
+    <string name="FW_Info_Button_Resume">Продолжить</string>
+    <string name="FW_Info_Button_Start">Начать</string>
+    <string name="FW_Info_Caution">"Во время обновл. наушн. недост. для использ.
+При запуске размест. науш. и мобильн. устр. близко друг к другу."</string>
+    <string name="FW_Info_Caution_Downloading">"Загрузка будет прервана, если наушники и моб. устр-во размещ. далеко друг от друга, а питание наушников отключено.
+При прерывании загрузка может быть возобновлена."</string>
+    <string name="FW_Info_Caution_Sending">"Передача будет прерв., если наушн. и моб. устр. размещ. далеко друг от друга, а питан. наушн. откл.
+При прерыв. передача может быть возобн. с того места, где была остан."</string>
+    <string name="FW_Info_Caution_Start">Начните с размещения близко друг к другу наушников и мобильного устройства.</string>
+    <string name="FW_Info_EULA">Нажатие следующей кнопки означает, что вы ознакомились с документом согласия и согласны с его содержанием.</string>
+    <string name="FW_Info_EULALink">Условия использования</string>
+    <string name="FW_Info_Message1">Доступно новейшее программное обеспечение наушников.</string>
+    <string name="FW_Info_Message2">При нажатии кнопки [Принимаю] начинается обновление.</string>
+    <string name="FW_Info_Message3">При нажатии кнопки [OK] начинается обновление.</string>
+    <string name="FW_Info_Message_Download">При нажатии кнопки [%s] начнется подготовка к обновлению.</string>
+    <string name="FW_Info_Message_Resume">Нажатие кнопки [%s] возобновляет передачу.</string>
+    <string name="FW_Info_Message_Update">Нажатие кнопки [%s] начинает обновление.</string>
+    <string name="FW_Info_Title">информация о программном обеспечении</string>
+    <string name="FW_Info_Version">Версия</string>
+    <string name="FW_Notify_Abort">Прерванная передача программного обеспечения наушников.</string>
+    <string name="FW_Notify_Detail">Подробнее</string>
+    <string name="FW_Notify_Downloading">Загрузка новейш. программн. обеспечения наушников... (%d%%)</string>
+    <string name="FW_Notify_Msg">Доступно новейшее программное обеспечение наушников.</string>
+    <string name="FW_Notify_Sending">Передача новейш. программн. обеспечен. наушников... (%d%%)</string>
+    <string name="FW_Notify_Update">Обновите программное обеспечение наушников.</string>
+    <string name="FW_Update_Button_Transit_AppStore">Обновить из App Store</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">Обновить из Google Play</string>
+    <string name="FW_Update_Message1">Пожалуйста, подождите...</string>
+    <string name="FW_Update_Message2">"Не выключайте питание.
+Не размещайте наушники и мобильное устройство далеко друг от друга."</string>
+    <string name="FW_Update_Message3">"Перезагружается автоматически.
+Не размещайте наушники и мобильное устройство далеко друг от друга."</string>
+    <string name="FW_Update_Message_step2_1">Передача на левую часть</string>
+    <string name="FW_Update_Message_step2_2_1">Обновление левой части наушников</string>
+    <string name="FW_Update_Message_step2_2_2">"Обновление левой части наушников завершено.
+Подключение к правой части"</string>
+    <string name="FW_Update_Message_step2_2_3">Подготовка передачи на правую часть</string>
+    <string name="FW_Update_Message_step2_3">Передача на правую часть</string>
+    <string name="FW_Update_Retry_Body_Caution">"Перед обновлением программного обеспечения необходимо отключить функцию «Google Assistant».
+После того, как функция «Google Assistant» выключена, наушники автоматически перезагрузятся, и вы должны следовать всплывающей инструкции.
+После того, как программное обеспечение обновится, пожалуйста, вручную переключитесь обратно на настройки «Google Assistant»."</string>
+    <string name="FW_Update_Retry_Title_Caution">Функция «Google Assistant» должна быть выключена</string>
+    <string name="FW_Update_Status_Abort">Прерванная передача программного обеспечения наушников.</string>
+    <string name="FW_Update_Status_Download">Выполняется загрузка программного обеспечения...</string>
+    <string name="FW_Update_Status_Download_step1">Загрузка ПО... (1/3)</string>
+    <string name="FW_Update_Status_Downloading">Загрузка новейшего программного обеспечения наушников...</string>
+    <string name="FW_Update_Status_Install">Обновление...</string>
+    <string name="FW_Update_Status_Install_step3">Обновление ПО... (3/3)</string>
+    <string name="FW_Update_Status_Prepared">Обновите программное обеспечение наушников.</string>
+    <string name="FW_Update_Status_Send">Выполняется передача программного обеспечения...</string>
+    <string name="FW_Update_Status_Send_step2">Передача ПО... (2/3)</string>
+    <string name="FW_Update_Status_Sending">Передача новейшего программного обеспечения наушников...</string>
+    <string name="FW_Update_Title">Обновлен. прогр. обеспечен.</string>
+    <string name="FW_Version_Confirm_Title">%s Версия</string>
+    <string name="FW_Version_Menu_Title">%s Версия</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">ru</string>
+    <string name="GoogleAssistantIntro_Link">Настройте свой Google Assistant</string>
+    <string name="GoogleAssistantIntro_Msg">Получите мгновенный доступ к своему личному Google и многое другое. Установка занимает всего несколько минут.</string>
+    <string name="GoogleAssistantIntro_Title">Теперь оптимизировано для Google Assistant.</string>
+    <string name="Help_Information_Priority_High">Пожалуйста, проверьте здесь</string>
+    <string name="Help_Troubleshooting">Устранение неполадок</string>
+    <string name="IASetup_AnalyzeComplete_Detail">Затем отправьте эти результаты в муз. приложение, чтобы оптимизировать использование вами 360 Reality Audio.</string>
+    <string name="IASetup_AnalyzeComplete_Title">Ваши уши успешно проанализированы</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"Сделайте снимки ваших ушей для анализа.
+Прежде чем делать снимки, пожалуйста, убедитесь, что ваши уши полностью видны и проверьте следующее:
+
+- Извлеките наушники с ушей.
+- Ваши уши не покрыты волосами.
+- Снимите серьги и пирсинг."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">Проанализировать форму вашего уха</string>
+    <string name="IASetup_Analyze_Cmd_Retry">Повт. анализировать</string>
+    <string name="IASetup_Analyze_Cmd_Start">Анализировать</string>
+    <string name="IASetup_Analyze_Detail">Это займет примерно %d секунд.</string>
+    <string name="IASetup_Analyze_Label">Анализ формы уха</string>
+    <string name="IASetup_Analyze_Status_Done">Ваши уши были проанализированы</string>
+    <string name="IASetup_Analyze_Status_NotComp">Ваши уши не были проанализированы</string>
+    <string name="IASetup_Analyze_Title">Анализ ваших ушей</string>
+    <string name="IASetup_AppDetail_NotInstalled">Не установлено</string>
+    <string name="IASetup_AppDetail_NotOptimized">Не оптимизировано</string>
+    <string name="IASetup_AppDetail_Optimized">Оптимизировано</string>
+    <string name="IASetup_AppInstallConf_Title">После установки необходимо вернуться в Headphones Connect.</string>
+    <string name="IASetup_AppInstall_Detail">Настройки 360 Reality Audio завершены, когда запускается приложение после его установки. Музыкальное приложение оптимизировано для воссоздания точного звукового поля.</string>
+    <string name="IASetup_AppInstall_Detail_iOS">После установки приложения и завершения настроек 360 Reality Audio музыкальное приложение оптимизировано для воссоздания точного звукового поля.</string>
+    <string name="IASetup_AppInstall_Install">Установить и оптимизировать</string>
+    <string name="IASetup_AppInstall_Install_iOS">Установить</string>
+    <string name="IASetup_AppInstall_Title">Настр. 360 Reality Audio завершены, когда запуск. прилож.</string>
+    <string name="IASetup_AppInstall_Title_iOS">Установите это приложение на свой телефон.</string>
+    <string name="IASetup_AppIntroduction_Detail">"Для прослушивания этой захватывающей музыки вам понадобится одно из этих приложений музык. сервиса для 360 Reality Audio.
+*Плата за подписку и применимый контент варьируются в зависимости от музык. сервиса."</string>
+    <string name="IASetup_AppIntroduction_Title">Доступн. музыкальные приложения для 360 Reality Audio</string>
+    <string name="IASetup_AppLaunch_Detail">"После заверш. настр. 360 Reality Audio вы можете наслажд. воспроизв. музыки с точн. звук. полем.
+Наслажд. оптимизир. для вас 360 Reality Audio."</string>
+    <string name="IASetup_AppLaunch_Optimize">Запуск для оптимизации</string>
+    <string name="IASetup_AppLaunch_Title">Настр. 360 Reality Audio завершены, когда запуск. прилож.</string>
+    <string name="IASetup_AppList_Detail">"360 Reality Audio доступнo только из этих приложен. муз. сервиса. Пожалуйста, выберите прилож., которое вы хотите использовать.
+*Плата за подписку и применимый контент варьируются в зависимости от муз. сервиса."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">Не установлено</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">Не оптимизировано</string>
+    <string name="IASetup_AppList_Gp_Optimized">Оптимизировано</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">Не удалось обнаружить.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">Пожалуйста, не двигайте головой.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">Пожалуйста, не перемещайте смартфон.</string>
+    <string name="IASetup_CameraInstruction_Complete">Отснятое фото.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">Ваше ухо было обнаружено. Не двигайте головой.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">Обнаружение левого уха...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">Обнаружение правого уха...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">Положение теперь правильное. С этого положения медленно поверните голову вправо.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">Медленно поверните голову вправо.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">Положение теперь правильное. С этого положения медленно поверните голову влево.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">Медленно поверните голову влево.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"Сделайте снимок вашего левого уха.Пожалуйста, извлеките наушники.
+Затем, поверните голову вправо и нажмите кнопку затвора."</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"Пожалуйста, извлеките наушники.
+Затем, поверните голову вправо, чтобы ухо было в рамке, и нажмите кнопку затвора."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"Сделайте снимок вашего правого уха. Пожалуйста, извлеките наушники.
+Затем, поверните голову влево и нажмите кнопку затвора."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"Пожалуйста, извлеките наушники.
+Затем, поверните голову влево, чтобы ухо было в рамке, и нажмите кнопку затвора."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">Пожалуйста, отодвиньте камеру от головы.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">Пожалуйста, поднесите камеру ближе.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">Пожалуйста, наклоните камеру немного вниз.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"Пожалуйста, извлеките наушники.
+Затем, расположившись перед передней панелью камеры, поместите вашу голову в рамку."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">Пожалуйста, поверните камеру немного влево.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">Пожалуйста, поверните камеру немного вправо.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">Пожалуйста, наклоните камеру немного вверх.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">Пожалуйста, извлеките наушники.</string>
+    <string name="IASetup_CompletePhotograph_Detail">Начните анализировать свою форму уха.</string>
+    <string name="IASetup_CompletePhotograph_Title">Ваше правое ухо успешно захвачено</string>
+    <string name="IASetup_Confirm_NonBT_Device">Для выполнения настроек наушников нажмите кнопку [%s].</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">Для прослушивания и сравнения создающих эффект присутствия звуков 360 Reality Audio необходимо отключить следующие настройки.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">Для воспроизв. создающего эффект присутствия 360 Reality Audio в приложениях музыкальн. сервиса необходимо отключить следующие настройки.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">Отключ. и воспроиз.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">Отключ. и запустить</string>
+    <string name="IASetup_EarPhoto_Auto">Автоматическая съемка (рекомендуется)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">Автоматическая съемка</string>
+    <string name="IASetup_EarPhoto_Manual">Ручная съемка</string>
+    <string name="IASetup_FailurePhotograph_Detail">Пожалуйста, подтвердите следующее уведомление и переснимите ухо.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">Ваше левое ухо не распознано</string>
+    <string name="IASetup_FailurePhotograph_R_Title">Ваше правое ухо не распознано</string>
+    <string name="IASetup_FeatureTitle">Настройка 360 Reality Audio</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">Подтверждено</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">Продолжить без использования купона</string>
+    <string name="IASetup_FreeTrialCoupon_Start">Перейти на сайт купонов</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">Проверьте направление вашего уха и настройте положение и размер с помощью инструкции.</string>
+    <string name="IASetup_LearnMore">Узнать больше о 360 Reality Audio</string>
+    <string name="IASetup_LearnMore_AboutApp">Перейдите сюда для подр.инф. о муз.серв.</string>
+    <string name="IASetup_Link_EarPhotoSample">Положение и размер уха</string>
+    <string name="IASetup_Link_Handling_EarPhoto">Как используются ваши персональн. данные</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">Почему нам нужно сделать снимок ушей?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">Об инф., кот. будет отпр. в прил. муз. серв.</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">Убедитесь, что все ваше ухо находится в рамке, и нажмите кнопку [%s].</string>
+    <string name="IASetup_NeedToUpdateApp_Title">Требуется обновление.</string>
+    <string name="IASetup_OOBE_Title">О 360 Reality Audio</string>
+    <string name="IASetup_Optimize_Cmd_AppList">Подтвердить</string>
+    <string name="IASetup_Optimize_Cmd_Install">Установить</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">Оптимизировать</string>
+    <string name="IASetup_Optimize_Label">Оптимизировать приложения</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">Приложения 360 Reality Audio не установлены</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">Приложения 360 Reality Audio еще не оптимизированы</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">Нет оптимизированных приложений 360 Reality Audio</string>
+    <string name="IASetup_Optimize_Status_Optimized">Оптимизировано %d приложение(-я,-й)</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"На след. экране поверните передн. камеру к лицу. При обнаруж. ушей съемка выполняется автом.
+
+1. Держите моб. устройство обеими руками перед лицом.
+2. Когда лицо обнаружено, поверните голову вправо, следуя голосов. указаниям.
+3. Стойте до тех пор, пока съемка не будет выполнена автоматич."</string>
+    <string name="IASetup_PhotographEar_Title">Сделать снимок вашего левого уха</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">Снимите серьги.</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- Пожалуйста, сделайте снимок левого уха.
+- Если место съемки слишком светлое или слишком темное, измените местоположение.
+- Извлеките наушники с ушей."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- Пожалуйста, сделайте снимок правого уха.
+- Если место съемки слишком светлое или слишком темное, измените местоположение.
+- Извлеките наушники с ушей."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">Убедитесь, что ваши волосы не покрывают ваши уши.</string>
+    <string name="IASetup_Photograph_Ear_L">Левое ухо</string>
+    <string name="IASetup_Photograph_Ear_R">Правое ухо</string>
+    <string name="IASetup_Photograph_Retake">Переснять</string>
+    <string name="IASetup_Photograph_Take">Сделать снимок</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">Нормальное аудио</string>
+    <string name="IASetup_Select_NonBT_Button">Перейти к панели управления</string>
+    <string name="IASetup_SetupStart">Начать настройку</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">Завершено</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">Сделайте снимок ваших ушей для анализа.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">Ваши уши не были проанализированы</string>
+    <string name="IASetup_SetupSummary_Detail">Мы можем точно воспроизвести лучшее звуковое поле для вас, анализируя форму ваших ушей.</string>
+    <string name="IASetup_SetupSummary_Optimize">Начать этап 2</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">Оптимизировано %d приложение(-я,-й)</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">Оптимизируйте прилож. музык. сервиса, отправив результ. анализа ушей.</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">Приложения 360 Reality Audio не установлены</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">Приложения 360 Reality Audio не оптимизированы</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">Начать этап 1</string>
+    <string name="IASetup_SetupSummary_Title">Оптимизировать звуковое поле 360 Reality Audio</string>
+    <string name="IASetup_Setup_Complete">Завершено ваше звуковое поле 360 Reality Audio</string>
+    <string name="IASetup_Setup_Title">Настр-ка 360 Reality Audio</string>
+    <string name="IASetup_SoundPreview_Detail">Чтобы услышать разницу, попытайтесь прослушать музыкальный пример ниже.</string>
+    <string name="IASetup_SoundPreview_Title">Опыт применения 360 Reality Audio</string>
+    <string name="IASetup_StartAnalyze">Начать</string>
+    <string name="IASetup_SuccessPhotograph_Detail">Затем сделайте снимок вашего правого уха</string>
+    <string name="IASetup_SuccessPhotograph_Title">Ваше левое ухо успешно захвачено</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">Оптимизировать приложения</string>
+    <string name="IASetup_TipsDetail_Description">Чтобы наслаждаться впечатлением от погружения в звук в приложении музыкального сервиса 360 Reality Audio, приложения музыкального сервиса должны быть оптимизированы путем отправки результатов анализа ушей.</string>
+    <string name="IASetup_TipsDetail_Title">Настройка 360 Reality Audio все еще не завершена.</string>
+    <string name="IASetup_UpdateApp">Обновление</string>
+    <string name="IASetup_Welcome_Detail">Воспроизведение 360 Reality Audio через ваши наушники дает возможность погружения в звук так же реалистично, как и на живом представлении.</string>
+    <string name="IASetup_Welcome_Title">Вас приветствует 360 Reality Audio</string>
+    <string name="IAWM_Analyze_Cmd_Retry">Создать снова</string>
+    <string name="IAWM_Analyze_Cmd_Start">Создать</string>
+    <string name="IAWM_Analyze_Label">Создать персонализ. слуховой профиль</string>
+    <string name="IAWM_Analyze_Status_Done">Завершено</string>
+    <string name="IAWM_Analyze_Status_NotComp">Не завершено</string>
+    <string name="IAWM_Complete_Data_Title">Получение своего слухового профиля завершено</string>
+    <string name="IAWM_Confirmation_Dialog1">"Ваш слуховой профиль уже сохранен.
+Получить профиль с сервера и приступить к оптимизации приложения?"</string>
+    <string name="IAWM_Hrtf_App_Button">Начать получение</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"Не удалось получить ваш слуховой профиль.
+Проверьте подключение к сети, подождите некоторое время и повторите попытку."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"Не удалось получить свой слуховой профиль с сервера.
+Убедитесь, что на смартфоне завершено создание вашего слухового профиля, и нажмите кнопку еще раз, чтобы начать получение."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"Не удалось получить свой слуховой профиль с сервера.
+После того как вы отметили следующее, перейдите на следующий экран снова и начните получение.
+- Создание вашего слухового профиля на смартфоне завершено
+- Вы зашли в один и тот же аккаунт в 360 Spatial Sound Personalizer и Headphones Connect на этом Walkman"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">Установите приложение 360 Spatial Sound Personalizer на свой смартфон, войдите с той же учетной записью, что и этот Walkman, и, следуя инструкциям на экране, сфотографируйте свои уши.</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">Создает ваш слуховой профиль в смартфоне</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">Начать получение</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"Отсканируйте QR-код с помощью смартфона. Если не удается выполнить сканирование, найдите приложение “360 Spatial Sound Personalizer” в магазинах приложений.
+После завершения создания вашего слухового профиля этот Walkman автоматически получит его, поэтому оставайтесь на этом экране."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"Отсканируйте QR-код с помощью смартфона. Если не удается выполнить сканирование, найдите приложение “360 Spatial Sound Personalizer” в магазинах приложений.
+После завершения создания своего слухового профиля нажмите кнопку ниже и начните получение."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">Установить приложение на смартфон</string>
+    <string name="IAWM_Need_Sign_in_Description">Войдите в свою учетную запись, чтобы использовать свой слуховой профиль, который вы собираетесь создать или уже создали.</string>
+    <string name="IAWM_Need_Sign_in_Title">Необходимо войти</string>
+    <string name="IAWM_Recieve_Data_Title">Получение своего слухового профиля с сервера...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">Сфотографируйте свои уши с помощью приложения 360 Spatial Sound Personalizer и создайте свой слуховой профиль.</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">Ваш слуховой профиль уже создан.</string>
+    <string name="IAWM_SetupSummary_Description">Затем отправьте свой слуховой профиль в приложения музыкального сервиса для 360 Reality Audio, чтобы воссоздать точное звуковое поле.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">Возвращается в Walkman и отправляет ваш слуховой профиль, а затем оптимизирует приложения музыкального сервиса для 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">Отправляет ваш слуховой профиль и оптимизирует приложения музыкального сервиса для 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Title">Создание вашего слухового профиля завершено</string>
+    <string name="IAWM_Start_Recieving_Title">Возобновить получение слухового профиля.</string>
+    <string name="InformationNotification_List_Info_Empty_Title">На данный момент нет никакой информации или опросов.</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">Здесь отображается информация и опросы.</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">Здесь отображаются советы по использованию.</string>
+    <string name="InformationNotification_List_Tips_Section">Советы</string>
+    <string name="InformationNotification_List_Title">Информация</string>
+    <string name="InformationNotification_New_Talkback_1">Есть новая информация.</string>
+    <string name="InformationNotification_New_Talkback_2">Есть новый пункт.</string>
+    <string name="InformationNotification_New_Talkback_3">Это новый пункт.</string>
+    <string name="InformationToUsersLangCode">ru</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">Приложение обнаруживает ваши действия и часто посещаемые вами места, и автоматически переключает настройки наушников, например, способ восприятия окружающего звука.</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">Приложение обнаруживает ваши действия и автоматически настраивает, как принимать окружающий звук.</string>
+    <string name="InitialSetup_IASetup_Detail">Это сделано для оптимиз.звука 360 Reality Audio, чтобы вы смогли насладиться впечатл. от погруж. в звук так же реалист., как и на живом представл.</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">Начните настройку и в полной мере пользуйтесь функциями наушников.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">Перейти к панели управления</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">Настройка завершена.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">Настройки можно изменить в любое время на панели управления.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">Это последний этап настроек.</string>
+    <string name="InitialSetup_OverallSetup_Title">Настройка</string>
+    <string name="InstructionGuide_CoachMark">Чтобы комфортно пользоваться наушниками, проверьте [%s Учебное пособие].</string>
+    <string name="InstructionGuide_Menu_Title">%s Учебное пособие</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">При нажатии кнопки [OK] начинается передача.</string>
+    <string name="LanguageData_Info_Message_1">"Не выключайте питание.
+Не размещайте наушники и мобильное устройство далеко друг от друга."</string>
+    <string name="LanguageData_Info_Message_2">"Перезагружается автоматически.
+Не размещайте наушники и мобильное устройство далеко друг от друга."</string>
+    <string name="LanguageData_Restriction">"Наушн. недост. во вр. передачи. Может занять около %d мин.
+Начните с наушн. и моб. устр. близко друг к другу."</string>
+    <string name="Left_Headphones">Левая часть</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"При подключении к другим наушникам переключение невозможно.
+Отключите подключенные наушники."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">Регистрация местоположений не завершена. Закрыть?</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"Доступ к Геопозиции должен быть разрешен в любом режиме для обнаружения часто посещаемых вами мест даже в фоновом режиме.
+
+Нажмите кнопку [Настройки] и выберите [Разрешить в любом режиме] в меню [Разрешения] > [Местоположение]. Если разрешено в любое время, данные о местоположении будут собираться даже тогда, когда приложение закрыто или не используется."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">Доступ к Геопозиции из настроек мобильного устройства должен быть разрешен в любом режиме для обнаружения часто посещаемых вами мест.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">Доступ к Геопозиции из настроек мобильного устройства должен быть разрешен в любом режиме для обнаружения часто посещаемых вами мест даже в фоновом режиме.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">Доступ к Геопозиции должен быть разрешен в любом режиме для обнаружения часто посещаемых вами мест даже в фоновом режиме. Если разрешено в любое время, данные о местоположении будут собираться даже тогда, когда приложение закрыто или не используется. Подтвердите содержание на следующем экране.</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">Отменить регистрацию этого местоположения?</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">Для обнаружения часто посещаемых вами мест необходимо включить Геопозицию из настроек мобильного устройства.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"Геопозиция используется для обнаружения часто посещаемых вами мест.
+Включите Геопозицию."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"Для обнаружения часто посещаемых вами мест необходимо включить Службы геолокации.
+
+Выполните настройки из “Настройки” > [Конфиденциальность] > [Службы геолокации] мобильного устройства."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">Нет изученных местоположений, которые можно зарегистрировать.</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">Доступ к Геопозиции из настроек мобильного устройства необходим для обнаружения часто посещаемых вами мест.</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"Доступ к Геопозиции необходим для обнаружения часто посещаемых вами мест.
+Разрешить доступ к Геопозиции. Если разрешено в любое время, данные о местоположении будут собираться даже тогда, когда приложение закрыто или не используется."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"Доступ к Геопозиции необходим для обнаружения часто посещаемых вами мест.
+Выберите [При использовании приложения]."</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"Доступ к Геопозиции должен быть разрешен в любое время для обнаружения часто посещаемых вами мест даже в фоновом режиме.
+
+Нажмите кнопку [Настройки] и всегда разрешайте доступ из [Геопозиция]."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"Для обнаружения часто посещаемых вами мест необходимо включить Точную геопозицию.
+
+Нажмите кнопку [Настройки] и включите Точную геопозицию из [Геопозиция]."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"Для регистрации местоположения необходимо подключить наушники с поддержкой Адаптивного управления звуком.
+После подключения наушников выберите [%s] в верхнем правом меню панели управления и возобновите процесс регистрации."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"Для редактирования необходимо изменить режим качества звука на [Приоритет стабильного соединения].
+Кроме того, наушники будут вновь подключены, и воспроизводимая в настоящее время музыка остановится. Изменить?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"Не удается зарегистрировать больше местоположений.
+Отмените регистрацию ненужных местоложений."</string>
+    <string name="Msg_ASC_Registration_Comp">Зарегистрировано %s.</string>
+    <string name="Msg_Abort_FWUpdate">"Прервать обновление программного обеспечения?
+Если обновление прервано, вы можете возобновить его с момента остановки."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">Разрешить доступ из “Настройки” > [Headphones] > [Геопозиция] мобильного устройства.</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"Использование Геопозиции еще больше повышает точность. Также, в зависимости от местоположения, настройки наушников могут переключаться автоматически.
+Для использования этих функций в фоновом режиме необходимо всегда разрешать Геопозицию.
+
+Нажмите кнопку [Настройки] и всегда разрешайте доступ из [Геопозиция]."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"Использование геопозиции еще больше повышает точность адаптивного управления звуком.
+Нажмите кнопку [Настройки] и разрешите доступ из [Геопозиция]."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">Чтобы повысить точность aдаптивного управления звуком, рекомендуется использовать GPS. Включите GPS из настроек мобильного устройства.</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">Чтобы повысить точность aдаптивное управление звуком, рекомендуется разрешить доступ к информации о геопозиции.</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">Редактирование не завершено. Выйти?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"Если используется Геопозиция, точность обнаружения Адаптивного управления звуком повысится. Также, в зависимости от местоположения, настройки наушников могут переключаться автоматически.
+Разрешите доступ к Геопозиции."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"Если используется Геопозиция, точность Адаптивного управления звуком улучшится.
+Разрешите доступ к Геопозиции."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"Если используется Геопозиция, точность Адаптивного управления звуком улучшится.
+Разрешите доступ к Геопозиции."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"Если используется Геопозиция, точность обнаружения Адаптивного управления звуком повысится. Также, в зависимости от местоположения, настройки наушников могут переключаться автоматически.
+Выберите [При использовании приложения]."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"Если используется Геопозиция, точность обнаружения Адаптивного управления звуком повысится. Также, в зависимости от местоположения, настройки наушников могут переключаться автоматически.
+Включите настройки Геопозиции."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"Если используется Геопозиция, точность Адаптивного управления звуком улучшится.
+Включите Геопозицию."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"Включение служб геолокации еще больше повышает точность адаптивного управления звуком. Также, в зависимости от местоположения, настройки наушников могут переключаться автоматически.
+Выполните настройки из “Настройки” > [Конфиденциальность] > [Службы геолокации] мобильного устройства."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"Включение служб геолокации еще больше повышает точность адаптивного управления звуком.
+Выполните настройки из “Настройки” > [Конфиденциальность] > [Службы геолокации] мобильного устройства."</string>
+    <string name="Msg_Agree_EULAPP">Я прочитал вышеуказанное содержание и согласен.</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">Для использования этой функции должен быть одобрен доступ к уведомлениям. Выберите [%1$s] и включите настройку %2$s.</string>
+    <string name="Msg_Check_EULA">Подтвердите %s.</string>
+    <string name="Msg_Check_EULAPP">Подтвердите %1$s и %2$s.</string>
+    <string name="Msg_CompleteUpdate">Обновление программного обеспечения завершено.</string>
+    <string name="Msg_Complete_Language_Setting">Завершено изменение языка.</string>
+    <string name="Msg_ConfirmBattery_MDR">Уровень заряда батареи недостаточен. Достаточно зарядите наушники, снова подключите их и повторите попытку.</string>
+    <string name="Msg_ConfirmBattery_Mobile">Уровень заряда батареи недостаточен. Зарядите мобильное устройство и повторите попытку.</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">Для изменения настроек необходимо отменить обновление программного обеспечения. Даже если оно отменено, обновление программного обеспечения может быть выполнено снова. Изменить?</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">Обновлен. прогр. обеспеч. должно быть отменено</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">Одновременное использование эквалайзера и %s увеличивает расход заряда батареи наушников и может сократить время непрерывного воспроизведения. Изменить?</string>
+    <string name="Msg_Confirm_L_connection">"Левая часть наушников не подключена к мобильному устройству.
+Убедитесь, что включено питание левой части наушников и повторите попытку."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">Отменить изменение языка?</string>
+    <string name="Msg_Confirm_R_connection">"Правая часть наушников не подключена к мобильному устройству.
+Убедитесь, что включено питание правой части наушников и повторите попытку."</string>
+    <string name="Msg_Confirm_network_connection">Мобильное устройство не подключено к сети. Подключите к сети и повторите попытку.</string>
+    <string name="Msg_ConnectDevice">Подключение к наушникам из следующей кнопки.</string>
+    <string name="Msg_ConnectDevice_talkback">"Подключено к %s.
+Отображает панель управления."</string>
+    <string name="Msg_ConnectMode_Changing_Error">Операция не удалась.</string>
+    <string name="Msg_ConnectNewDevice">Подключить к новым наушникам</string>
+    <string name="Msg_ConnectionFailed">Ошибка подключения.</string>
+    <string name="Msg_ConnectionFailed_Internet">Невозможно отобразить контент. Проверьте подключение к интернету.</string>
+    <string name="Msg_ConnectionFailed_SRT">"Не удается подключиться к %s.
+Убедитесь, что питание устройства включено."</string>
+    <string name="Msg_DataError">Не удалось загрузить программное обеспечение.</string>
+    <string name="Msg_Disabled_Language_Setting">"Во время передачи программного обеспечения наушников нельзя изменить язык.
+Повторите попытку после завершения передачи программного обеспечения."</string>
+    <string name="Msg_DownloadFailed">Не удалось загрузить программное обеспечение.</string>
+    <string name="Msg_EmptyDevice">Нажмите кнопку [+] и зарегистрируйте устройство.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"Для обновления программного обеспечения этих наушников необходима последняя версия Headphones Connect.
+Обновите это приложение из Google Play."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"Для обновления программного обеспечения этих наушников необходима последняя версия Headphones Connect.
+Обновите это приложение из App Store."</string>
+    <string name="Msg_FWVer_unmatched">Произошел сбой обновления программного обеспечения.</string>
+    <string name="Msg_Failed_Language_Setting">Не удалось изменить язык.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">Не удается обновить программное обеспечение наушников в вашей версии iOS.</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"Пожалуйста, дайте разрешение из настроек мобильного устройства следующим образом:
+[Настройки] -> [Наушники] -> [Камера]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">Нажмите кнопку [Настройки] и разрешите доступ из [Разрешения] > [Камера].</string>
+    <string name="Msg_IASetupAllowCamera">Пожалуйста, дайте разрешение сделать снимок.</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">Пожалуйста, разрешите доступ из настроек мобильного устройства</string>
+    <string name="Msg_IASetup_AppInstallConf">После установки “%s” вернитесь в Headphones Connect и выполните настройки 360 Reality Audio.</string>
+    <string name="Msg_IASetup_AppOptimizing">Подготовка к оптимизации. Пожалуйста, подождите...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"Снимки вашего уха, снятые с использованием следующего процесса, будут отправлены на сервер Sony для анализа, с тем чтобы обеспечить вам оптимизированное звуковое поле в зависимости от формы вашего уха.
+После завершения этого анализа эти снимки будут храниться на наших серверах, не будучи связаны с вами лично.
+Такие снимки будут использоваться только для исследований, чтобы улучшить функцию анализа ваших ушей, и будут уничтожены через 30 дней."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- Мы используем снимки ваших ушей, чтобы оптимизировать звуковое поле для вас в зависимости от формы вашего уха. Мы делаем это для того, чтобы УДОВЛЕТВОРИТЬ НАШЕ ЗАКОННОЕ СТРЕМЛЕНИЕ К СОЗДАНИЮ ОПТИМИЗИРОВАННЫХ ЗВУКОВЫХ ПОЛЕЙ ДЛЯ ВАС. Мы удаляем снимки сразу же после завершения анализа.
+- Sony Home Entertainment &amp; Sound Products Inc. несет ответственность за эту обработку. Мы используем сервер в США, поддерживаемый третьей стороной. Мы используем стандартные условия договоров, утвержденные Европейской комиссией, для защиты ваших данных в США.
+- Вы можете связаться с нами по privacyoffice.seu@sony.com или написать нашему представителю написать нашему представителю, нидерландской компании Sony Europe BV, юридический адрес которой - Taurusavenue 16, 2132LS Hoofddorp, Нидерланды (если вы находитесь в ЕС), или нидерландской компании Sony Europe BV, филиал которой в Великобритании имеет свой юридический адрес: The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, Великобритания (если вы находитесь в Великобритании). Вы также можете связаться с нами в Sony Home Entertainment &amp; Sound Products Inc., по адресу Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokyo, 141-8610, Japan.
+- У вас есть права на доступ, исправление и удаление личных данных в течение всего времени их обработки. Вы также имеете право подать жалобу в орган защиты данных в стране или регионе, где вы живете, работаете или где появилась жалоба."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"App Store открывается, если “%s” не установлено или требуется обновление.
+
+Если запущено “%s”, настройки 360 Reality Audio завершены."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"Ваши наушники не подключены с помощью медийного аудио (A2DP) к этому мобильному устройству.
+
+Пожалуйста, отключите медийное аудио между наушниками и другими устройствами, а затем подключите к этому мобильному устройству."</string>
+    <string name="Msg_IASetup_ConnectCable">"Ваши наушники не подключены к мобильному устройству.
+
+Пожалуйста, подключите наушники к этому мобильному устройству."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"Обнаруживает ваше ухо и съемка выполняется автоматически.
+Если автоматическая съемка не удается несколько раз, также доступна ручная съемка."</string>
+    <string name="Msg_IASetup_General_Err">Выполнение отменено.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"Фотографии ваших ушей/головы и любая информация, которая может вас идентифицировать, не будут отправлены ни в какие музыкальн. приложения для 360 Reality Audio.
+
+Только анализируем. данные будут отправляться в музыкальные приложения для оптимизации прослушивания музыки."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">Для завершения настроек 360 Reality Audio после обновления “%s” до последней версии, вернитесь в Headphones Connect и оптимизируйте “%s”.</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"На следующем экране будут предоставлены голосовые указания. Пожалуйста, увеличьте громкость мобильного устройства, чтобы вы могли услышать указания.
+
+*Не отключайте эти наушники."</string>
+    <string name="Msg_IASetup_OpenAppInfo">Вы хотите открыть “%s” в Google Play?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">Вы хотите открыть “%s” в App Store?</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"Звук, который вы слышите в живых представлениях, может зависеть от формы головы и уха.
+
+Мы анализируем фотографии ваших ушей для вычисления данных для получения оптимального звукового поля, персонализированного для вас.
+
+Когда вы отправляете эти оптимальные результаты в приложения музыкального сервиса для 360 Reality Audio, вы можете по-настоящему окунуться в атмосферу воспроизведения музыки, создающей эффект присутствия, с помощью ваших наушников."</string>
+    <string name="Msg_IASetup_StopConfirm">Настройка 360 Reality Audio не завершена. Эту настройку можно завершить позже.</string>
+    <string name="Msg_IASetup_StopConfirm_Title">Вы хотите пропустить настройку 360 Reality Audio?</string>
+    <string name="Msg_IASetup_UnsupportedArea">Эта функция в настоящее время недоступна в вашей стране/регионе.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"Настройка 360 Reality Audio включена.
+При воспроизведении создающего эффект присутствия приложения 360 Reality Audio выключите эту настройку в приложениях музыкального сервиса."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"Сигналы уведомления и голосовой гид воспроизводятся из наушников в зависимости от режима работы и состояния.
+Некоторые важные уведомления и рекомендации не будут отключены, даже если выключена настройка."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"Сигналы уведомления и голосовой гид воспроизводятся из наушников в зависимости от режима работы и состояния.
+Некоторые важные уведомления и рекомендации не будут отключены, даже если выключена настройка.
+Кроме того, если при переключении, вызванном Адаптивным управлением звуком, отключить только сигнал уведомления, можно применить изменения в настройках Адаптивного управления звуком."</string>
+    <string name="Msg_Information_NetworkError">Невозможно подключиться к сети.</string>
+    <string name="Msg_Information_OtherError">Не удалось найти информацию.</string>
+    <string name="Msg_InstallFailed">Произошел сбой обновления программного обеспечения.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">Отменяет подключение к новому устройству.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">Чтобы подключиться к выбранному устройству, повторите попытку после отключения одного из подключенных устройств.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">Чтобы подключить новое устройство, повторите попытку после отключения одного из подключенных устройств.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">Требуется отключение подключенного в данный момент устройства</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">Отключить %s?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"Отключить %s?
+При отключении соединение с этим приложением будет отключено."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">Необходимо повторное подключение</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">Воспроизведение музыки в данный момент прекратится, так как необходимо повторное подключение к наушникам. Повторно подключиться к наушникам?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">Воспроизведение музыки в данный момент прекратится, так как необходимо повторное подключение к наушникам. Когда эта настройка включена, нельзя использовать LDAC. Повторно подключиться к наушникам?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"Отменить регистрацию %1$s?
+Чтобы снова подключиться к %1$s после отмены регистрации, отмените регистрацию %2$s из %1$s и снова выполните регистрацию устройства."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">Для обновления программного обеспечения необходимо отключить подключенное к наушникам устройство %s. Отключить и начать обновление?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">Требуется для отключения подключенного %s</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">Чтобы изменить язык, необходимо отключить подключенное к наушникам устройство %s. Отключить и изменить язык?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">Не удалось подключиться к %s.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">Не удалось отключиться от %s.</string>
+    <string name="Msg_MultiPoint_FailedToPair">Не удалось подключиться к новому устройству.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">Не удалось отменить регистрацию %s.</string>
+    <string name="Msg_MultiPoint_Info_Detail">Включив эту настройку, наушник сможет подключаться к двум устройствам одновременно. Подключенные устройства можно проверить с помощью [%s]. Когда эта настройка включена, нельзя использовать LDAC.</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">Для подключения новых устройств необходимо прервать обновление программного обеспечения. Обновление программного обеспечения может быть возобновлено, даже если оно было прервано. Подключиться?</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">Требуется прервать обновление программного обеспечения</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">Для подключения к %s необходимо прервать обновление программного обеспечения. Обновление программного обеспечения может быть возобновлено, даже если оно было прервано. Подключиться?</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">Подключение к %s завершено.</string>
+    <string name="Msg_NeedConnectDevice">Требуется подключение наушников и Bluetooth.</string>
+    <string name="Msg_OoBE_LocationPermission_After">Чтобы легко зарегистрировать наушники, разрешите доступ к информации о геопозиции из настроек мобильного устройства.</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"Используя Геопозицию, вы можете легко зарегистрировать близлежащие наушники.
+Разрешить доступ к Геопозиции."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"Используя Геопозицию, вы можете легко зарегистрировать близлежащие наушники.
+Разрешить доступ к Геопозиции."</string>
+    <string name="Msg_OoBE_LocationSetting_After">Чтобы легко зарегистрировать наушники, включите информацию о геопозиции из настроек мобильного устройства.</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"Используя Геопозицию, вы можете легко зарегистрировать близлежащие наушники.
+Включить Геопозицию."</string>
+    <string name="Msg_PairingOS_BT_Settings">Выберите наушники на экране настроек Bluetooth и подключитесь.</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">После завершения сопряжения нажмите кнопку [Назад].</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">Выберите %s на экране настроек Bluetooth и подключите.</string>
+    <string name="Msg_Permission_BLE">Мы используем это для обнаружения наших наушников с BLE.</string>
+    <string name="Msg_Permission_Location">Когда приложение отслеживает ваши действия и автоматически переключает настройки наушников, используется информация о геопозиции.</string>
+    <string name="Msg_Permission_Location02">Использование геопозиции еще больше повышает точность адаптивного управления звуком.</string>
+    <string name="Msg_PowerOff">Выключить питание наушников?</string>
+    <string name="Msg_RecommendUpdate">Для более удобного использования устройства рекомендуется обновление программного обеспечения.</string>
+    <string name="Msg_Reconnect_BT_Connection">Выполняется переключение назначения передачи программного обеспечения...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">Новые наушники</string>
+    <string name="Msg_SelectMDR_Header">Выберите наушники</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"Выберите наушники из [Bluetooth] в “Настройки” мобильного устройства и подключитесь.
+Когда соединение будет завершено, перезапустите Headphones Connect."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"Убедитесь, что питание наушников включено и выберите %s из [Bluetooth] в “Настройки” мобильного устройства и подключитесь.
+После завершения соединения перезапустите Headphones Connect."</string>
+    <string name="Msg_SendFailed">Произошел сбой передачи программного обеспечения.</string>
+    <string name="Msg_SendFailed_WF_Special">"Передача программного обеспечения остановлена на %d %%.
+Повторите попытку после размещения и удаления наушников на чехле для зарядки."</string>
+    <string name="Msg_Setting_Data_Err">Не удалось загрузить голосовые данные.</string>
+    <string name="Msg_Setting_Downloading_Failed">Не удалось загрузить голосовые данные.</string>
+    <string name="Msg_Setting_Sending_Failed">Произошел сбой передачи голосовых данных.</string>
+    <string name="Msg_Title_FWAbort">Передача программного обеспечения прервана. Проверьте следующее.</string>
+    <string name="Msg_TrainingModeSaveCheck">Редактирование не завершено. Выйти?</string>
+    <string name="Msg_Update_NeedReboot">"Пожалуйста, проверьте завершение обновления.
+
+1. Пожалуйста, повторите попытку подключения после размещения и удаления наушников на чехле для зарядки.
+2. Выберите [%1$s Версия] из меню в правом верхнем углу этого приложения. Если отображается “%2$s”, обновление завершено.
+
+Если обновление не завершено, повторите попытку."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"Проверьте завершение обновления.
+
+Выключите питание наушников, снова его включите, а затем установите соединение. Выберите [%1$s Версия] из меню в правом верхнем углу этого приложения. Если отображается “%2$s”, обновление завершено.
+
+Если обновление не завершено, повторите попытку."</string>
+    <string name="Msg_VoiceData_NeedReboot">"Убедитесь, что был изменен язык.
+
+1. Храните левый и правый наушники в чехле для зарядки, удалите их и снова подключите.
+2. Если в [%s] отображается измененный язык, процесс завершен.
+
+Если язык не был изменен, попробуйте еще раз."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"Убедитесь, что был изменен язык.
+
+Выключите питание наушников, снова его включите, а затем установите соединение. Если в [%s] отображается измененный язык, процесс завершен.
+
+Если язык не был изменен, попробуйте еще раз."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">Не удается изменить язык голосовых указаний в вашей версии iOS.</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">Выберите наушники на следующем экране. Отображение наушников может занять минуту.</string>
+    <string name="MultiPoint_AddNewDevice_Description">Откройте настр. Bluetooth на устр-ве, к которому хотите подключ., и выберите %s.</string>
+    <string name="MultiPoint_DeviceNotConnect">Не подключено.</string>
+    <string name="MultiPoint_DeviceStatus_Title">Устр-во в в наст.момент подключено</string>
+    <string name="MultiPoint_Device_Add">Подключиться к новому устройству</string>
+    <string name="MultiPoint_Header_History">Сопряжено</string>
+    <string name="MultiPoint_Header_Pairing">Подключение...</string>
+    <string name="MultiPoint_Menu_Delete">Отменить регистрацию</string>
+    <string name="MultiPoint_Menu_Disconnect">Отключить</string>
+    <string name="MultiPoint_Setting_Description">"Этот наушник можно одновременно подключить к %d устройствам.
+Чтобы переключиться между устройствами для воспроизведения музыки, остановите музыку один раз и выполните операции по воспроизведению на одном из других подключенных устройств."</string>
+    <string name="MultiPoint_Setting_Title">Управл. подкл. устройством</string>
+    <string name="MultiPoint_Status_Connecting">Подключение...</string>
+    <string name="MultiPoint_Status_Disconnecting">Отключение...</string>
+    <string name="MultiPoint_Talkback_Add_Device">Подключается к новому устройству.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">Устройство 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">Устройство 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">Устройство не подключено.</string>
+    <string name="MultiPoint_Talkback_Playing_Right">Воспроизводится аудио.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">Подключено.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">Подключение...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">Отключение...</string>
+    <string name="MultiPoint_Title">Подключ. к 2 устр-вам одноврем.</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">Кроме того, чтобы отменить оптимизацию на полпути, нажмите любую из кнопок на наушниках.</string>
+    <string name="NC_Title">Шумоподавление</string>
+    <string name="NSBluetoothAlwaysUsageDescription">Мы используем это для обнаружения наших наушников с Bluetooth.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">Мы используем это для обнаружения наших наушников с Bluetooth.</string>
+    <string name="NSCameraUsageDescription">Пожалуйста, позвольте смартфону сделать снимок ваших ушей. Мы анализируем фотографии ваших ушей для вычисления данных для получения оптимального звукового поля, персонализированного для вас.</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Для автоматического переключения настроек на основе Адаптивного управления звуком выберите [Всегда разрешать].</string>
+    <string name="NSLocationAlwaysUsageDescription">Для автоматического переключения настроек на основе Адаптивного управления звуком выберите [Всегда разрешать].</string>
+    <string name="NSLocationWhenInUseUsageDescription">Для автоматического переключения настроек на основе Адаптивного управления звуком разрешите доступ.</string>
+    <string name="NSUserTrackingUsageDescription">Мы используем эту информацию для предоставления информации о поддержке и рекламе, которые соответствуют использованию вашего устройства и интересам.</string>
+    <string name="Notification_Headphones_Connected">Соединение с %s...</string>
+    <string name="Notification_Headphones_Connected_Unknown">Соединение с наушниками...</string>
+    <string name="Notification_IASetup_NeedToComplete">Вернитесь к Headphones Connect и завершите настройки 360 Reality Audio.</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">Настр. 360 Reality Audio не заверш.</string>
+    <string name="Notification_Summary_Abort">Прерванная передача ПО.</string>
+    <string name="Notification_Summary_Downloading">Выполняется загрузка...</string>
+    <string name="Notification_Summary_FWVer_unmatched">Обновление не удалось.</string>
+    <string name="Notification_Summary_Prepared">Готово к обновлению.</string>
+    <string name="Notification_Summary_Sending">Выполняется передача...</string>
+    <string name="Notification_Summary_Update_NeedReboot">Пожалуйста, проверьте завершение обновления.</string>
+    <string name="Notification_Summary_failed">Обновление не удалось.</string>
+    <string name="Notification_Summary_updated">Обновление завершено.</string>
+    <string name="Notification_Summary_updating">Выполняется обновление...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">Выполняется изменение...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">Завершено изменение.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">Произошел сбой изменения.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">Убедитесь, что изменение было применено.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">Изменить язык голосовых указаний</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">Изменить язык голосовых указаний</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">Завершено изменение языка голосовых указаний.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">Произошел сбой изменения языка голосовых указаний.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">Убедитесь, что был изменен язык голосовых указаний.</string>
+    <string name="OPT_Baro_Title">Оптимизация атмосф. давления</string>
+    <string name="OPT_Message_Analyzing">Подавление шума оптимально адаптировано согласно вашим предпочтениям.</string>
+    <string name="OPT_Message_Baro">При изменении атмосферного давления повторите процесс.</string>
+    <string name="OPT_Message_Comp">Подавление шума оптимально адаптировано согласно вашим предпочтениям.</string>
+    <string name="OPT_Message_Personal">Оденьте, как всегда. Повт. процесс, если вы измен. способ ношения из-за смены прически и т. д.</string>
+    <string name="OPT_Personal_Done_Long">Оптимизировано</string>
+    <string name="OPT_Personal_Done_Short">Заверш.</string>
+    <string name="OPT_Personal_Initial_Long">Не оптимизировано</string>
+    <string name="OPT_Personal_Initial_Short">Перед опт.</string>
+    <string name="OPT_Personal_Title">Индивидуальная оптимизация</string>
+    <string name="OPT_Start">Начать</string>
+    <string name="OPT_Status_Analyzing">Анализируется...</string>
+    <string name="OPT_Status_Baro">Измеряется атмосферное давление...</string>
+    <string name="OPT_Status_Comp">Заверш.</string>
+    <string name="OPT_Status_Personal">Измеряется состояние ношения...</string>
+    <string name="OPT_Title">Оптимизатор подавлен. шума</string>
+    <string name="OPT_Title_iOS">Оптимизатор подавлен. шума</string>
+    <string name="OPT_atm_Long">Оптимизир. до %.1f атм</string>
+    <string name="OPT_atm_Short">%.1f атм</string>
+    <string name="OPT_detail_Baro">Начните с наушн., одетых так, как вы всегда носите. Если атм. давл. измен. из-за нахожд. в самолете и т.д., повт. процесс.</string>
+    <string name="OPT_detail_Personal_Baro">Начните с наушников, одетых так, как вы всегда носите. При измен. условия ношения и атм. давления повторите процесс.</string>
+    <string name="OoBE_COMP_Message">Подключение к наушникам завершено.</string>
+    <string name="OoBE_COMP_Title">Добавить наушники</string>
+    <string name="OoBE_Manual_Button_Label">Регистрация через настройки Bluetooth</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Bluetooth выключен.
+Включите Bluetooth из пункта управления."</string>
+    <string name="OoBE_Manual_Pair_Message">"Продолжайте нажим. кн. питания наушн. в течение прибл. 7 секунд. Когда LED наушн. поочередно мигает син. и красн. или быстро мигает син. цветом, нажм. [Далее].
+Если кн. питания отсутствует, устан. наушники в режим регистр. Bluetooth (сопряжение). Подр. инф. приведена в рук. по экспл."</string>
+    <string name="OoBE_Manual_Pair_Title">Добавить наушники</string>
+    <string name="OoBE_Message1">Наушники подключаются через Bluetooth.</string>
+    <string name="OoBE_Message2">Выберите метод подключения.</string>
+    <string name="OoBE_NFC_Button_Label">Регистр. с соедин. в одно касание (NFC)</string>
+    <string name="OoBE_NFC_Message">Поместите N-метку наушников поверх N-метки мобильного устройства и выполните операцию касания.</string>
+    <string name="OoBE_NFC_Title">Добавить наушники</string>
+    <string name="OoBE_NonBT_Button_Label">Зарегистрируйте проводные наушники из списка</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">Зарегистрируйте свои наушники, чтобы использовать 360 Reality Audio, оптимизированное согласно вашим предпочтениям.</string>
+    <string name="OoBE_Power_On_Message">"Включите питание наушников. Убедитесь, что питание включено, и нажмите кнопку [Далее].
+Обратитесь к руководству по эксплуатации наушников, чтобы узнать, как включить питание."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">Просто нажмите кнопку [%s], чтобы продолжить.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">Если у вас проводные наушники</string>
+    <string name="OoBE_Proximity_Message">Для проверки подлинности наушников поместите мобильное устройство и %s близко друг к другу.</string>
+    <string name="OoBE_SelectAcc_Message">Выберите наушники. Это может занять минуту, чтобы отобразить.</string>
+    <string name="OoBE_SelectAcc_Title">Добавить наушники</string>
+    <string name="OoBE_Title">Добавить наушники</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_ru.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_ru.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_ru.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_ru.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">[%s] автомат. отключается при остановке воспроизв. звука в течение определенного периода времени, что позволяет продлить время ожидания наушников.</string>
+    <string name="PS_Title">Реж. ожид. с э/сбер.</string>
+    <string name="PlaybackController_Title">Сейчас воспроизвод.</string>
+    <string name="PlaybackController_Unknown_Album">Неизвестный альбом</string>
+    <string name="PlaybackController_Unknown_Artist">Неизвестный артист</string>
+    <string name="PlaybackController_Unknown_TrackName">Неизвестная песня</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">Вы можете снова отобразить опрос из [%s] меню в правой верхней части экрана.</string>
+    <string name="Questionnaire_MenuItem">Опрос</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">В настоящее время опрос не проводится. Дождитесь следующего опроса.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%3$s %2$s %1$s г. - %6$s %5$s %4$s г.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">Время для ответа:</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">янв.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">фвр.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">мрт.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">апр.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">мая</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">июн.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">июл.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">авг.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">снт.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">окт.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">нбр.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">дек.</string>
+    <string name="Questionnaire_Notification_Button_Answer">Ответ</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">Продолжить</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">Не отвечать</string>
+    <string name="Questionnaire_Notification_Note">Запустите браузер и покажите сайт опроса.</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d вопросов</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d - %2$d вопросов</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">Количество вопросов:</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">Около %d минут</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">Требуемое время:</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- Поскольку голосовое аудио выводится через наушники, проводите анализ с семьей и друзьями, если операция затруднена.</string>
+    <string name="Right_Headphones">Правая часть</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_ru.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">Не удалось проверить подлинность учетной записи.</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">Регистрация отменена.</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"Сервер сейчас недоступен.
+Повторите попытку позже."</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"Не удается зарегистрировать больше устройств.
+Удалите ненужные регистрации устройств."</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">Вход не выполнен.</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">Не удалось выйти.</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">Чтобы легко зарегистрировать соседние устройства, включите информацию о геопозиции из настроек устройства.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">Невозможно подключиться к сети.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">Не удалось выполнить операцию.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">Введен неверный регистрационный номер.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">Введенная строка слишком длинная.</string>
+    <string name="STRING_CAUTION_CONNECT">Не удается подключиться к %s.</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"Не удается подключиться к %s.
+Подключитесь к той же сети, что и устройство и включите устройство."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"Не удается подключиться к %s.
+Убедитесь, что питание устройства включено."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"Не удается подключиться к %s.
+Убедитесь, что функция Bluetooth устройства включенa."</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"Не удается подключиться к %s.
+Подключитесь к той же сети, что и устройство."</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"Не удается подключиться к %s.
+Повторите попытку позже."</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"Не удается подключиться к %s.
+Повторите попытку после проверки состояния сети."</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"Не удается подключиться к %s.
+Включить устройство?"</string>
+    <string name="STRING_CAUTION_DISCONNECT">Соединение с %s отключено.</string>
+    <string name="STRING_CAUTION_EULA">Для использования этого приложения вы должны согласиться с %s.</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">Не удалось проверить версию.</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">Не удалось прочитать %s.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">Не удается найти указ. прил.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">Устройство не найдено.</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">Чтобы легко зарегистрировать соседние устройства, разрешите доступ к информации о геопозиции из настроек устройства.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">Не удалось зарегистрировать.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"Не удалось зарегистрировать.
+Повторите попытку позже."</string>
+    <string name="STRING_CAUTION_SERVER_STRING">Сбой подключения.</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">Не удалось ВКЛЮЧИТЬ Bluetooth.</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">Не удалось включить Wi-Fi.</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">Не подключено к %s.</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"Не подключено к сети Wi-Fi.
+Подключитесь к той же сети, что и устройство."</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"Не подключено к сети Wi-Fi.
+Подключитесь к той же сети, что и устройство и включите устройство."</string>
+    <string name="STRING_COMMON_DONE">Готово</string>
+    <string name="STRING_COMMON_NEXT">Далее</string>
+    <string name="STRING_COMMON_OTHER">Другие</string>
+    <string name="STRING_DEVICE">Устройство</string>
+    <string name="STRING_DEVICES">Устройства</string>
+    <string name="STRING_IOS_LOCATION">Геопозиция</string>
+    <string name="STRING_IOS_SETTINGS">Настройки</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">Для использования этого приложения вы должны разрешить доступ.</string>
+    <string name="STRING_MSG_CANCEL_DELETE">Отменить удаление?</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">Не удалось найти информацию.</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">Подключение...</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">Идет загрузка...</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">Выбор дополнительных вариантов невозможен.</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">Пожалуйста, подождите некоторое время.</string>
+    <string name="STRING_MSG_COMMUNICATING">Взаимодействие...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">Убедитесь, что питание устройства включено.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">Убедитесь, что питание устройства включено и подключите устройство через Bluetooth.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">Подключитесь к той же сети, что и устройство.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">Вы не сможете выполнить архивацию и восстановление. Они станут доступны, если вы снова войдете в систему.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">Выйти и прекратить использование?</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">Пожалуйста, прочитайте %s этого приложения.</string>
+    <string name="STRING_MSG_CONFIRM_PP">Пожалуйста, прочитайте %s этого приложения.</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">[TBD]Для использования архивации и восстановления настроек вы должны согласиться со следующими Условиями использования.</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">Удалено.</string>
+    <string name="STRING_MSG_DELETING">Удаление...</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">Введите регистрационный номер, отображающийся на экране телевизора.</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">Регистрация устройства завершена.</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">Проверка версии...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"Если используется информация о геопозиции, вы можете легко зарегистрировать соседние устройства.
+Включите информацию о геопозиции."</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">Получение информации...</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">Я прочитал вышеуказанное содержание и согласен.</string>
+    <string name="STRING_MSG_LICENCE_APPLE">iPad, iPhone, iPod и iPod touch являются торговыми марками Apple Inc., зарегистрированными в США и других странах. Торговая марка “iPhone” используется с лицензией от Aiphone KK.</string>
+    <string name="STRING_MSG_LICENCE_BT">Марка и логотип Bluetooth® являются собственностьюкорпорации Bluetooth SIG, Inc. и используютсякорпорацией Sony Corporation по лицензии.</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google и Android являются товарными знаками корпорации Google Inc.</string>
+    <string name="STRING_MSG_LICENCE_NFC">N-метка является товарным знаком или зарегистрированным товарным знаком компании NFC Forum, Inc. в США и других странах.</string>
+    <string name="STRING_MSG_LICENCE_OSAIFU_NFC">N-метка является товарным знаком или зарегистрированным товарным знаком компании NFC Forum, Inc. в США и других странах.</string>
+    <string name="STRING_MSG_LOADING">Идет загрузка...</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"Если используется информация о геопозиции, вы можете легко зарегистрировать соседние устройства.
+Разрешите доступ к информации о геопозиции."</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">Для использования этой функции вы должны согласиться с Условиями использования.</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">Включить %s?</string>
+    <string name="STRING_MSG_REGIST_FINISH">Зарегистрировано.</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">Нажмите кнопку [+] и зарегистрируйте устройство.</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">Выберите страну/регион проживания.</string>
+    <string name="STRING_MSG_SIGNOUT">Выйти?</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"Подтвердите, что компания Sony Home Entertainment &amp; Sound Products Inc. (“Sony”) (контроллер), расположенная в Японии, может использовать данные, связанные с вашим использованием приложения (как это дополнительно указано в нашей Политике конфиденциальности %s), в целях усовершенствования и развития продукта (расширение технических возможностей или простоты использования с помощью новых или модифицированных функций), выбрав [Согласиться] ниже. Если вы хотите пользоваться приложением, не давая такое согласие Sony, выберите [Не согласиться] ниже.
+Вы можете в любое время отозвать свое вышеупомянутое согласие, выбрав в Приложении “Меню (3 точки)” > “Об этом приложении” > “Настройки конфиденциальности”."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">Подтвердите, что компания Sony Home Entertainment &amp; Sound Products Inc. (“Sony”) (контроллер), расположенная в Японии, может использовать данные, связанные с вашим использованием приложения (как это дополнительно указано в нашей Политике конфиденциальности %s), в целях усовершенствования и развития продукта (расширение технических возможностей или простоты использования с помощью новых или модифицированных функций), выбрав пункт ниже. Если вы не хотите давать такое согласие Sony, пожалуйста, отмените выбор пункта ниже.</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"Подтвердите, что компания Sony Home Entertainment &amp; Sound Products Inc. (“Sony”) (контроллер), расположенная в Японии, может использовать данные, связанные с вашим использованием приложения (как это дополнительно указано в нашей Политике конфиденциальности %s), в целях усовершенствования и развития продукта (расширение технических возможностей или простоты использования с помощью новых или модифицированных функций), выбрав [Согласиться и продолжить] ниже. Если вы не хотите давать такое согласие Sony, выберите [Не согласиться и продолжить] ниже.
+Вы можете в любое время отозвать свое вышеупомянутое согласие, выбрав в Приложении “Меню (3 точки)” > “Об этом приложении” > “Настройки конфиденциальности”."</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">АУДИО</string>
+    <string name="STRING_REMOTE_BTN_BACK">НАЗАД</string>
+    <string name="STRING_REMOTE_BTN_BLUE">СИНИЙ</string>
+    <string name="STRING_REMOTE_BTN_CC">"СУБТИТР/
+СКР.ТИТР"</string>
+    <string name="STRING_REMOTE_BTN_CH">КАНАЛ</string>
+    <string name="STRING_REMOTE_BTN_DELETE">УДАЛИТЬ</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">Digital</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"ЦИФРОВ./
+АНАЛОГ."</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">ОТОБРАЖ</string>
+    <string name="STRING_REMOTE_BTN_ENTER">ВВОД</string>
+    <string name="STRING_REMOTE_BTN_EXIT">ВЫХОД</string>
+    <string name="STRING_REMOTE_BTN_GREEN">ЗЕЛЕНЫЙ</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">ГИД</string>
+    <string name="STRING_REMOTE_BTN_HELP">ПОМОЩЬ</string>
+    <string name="STRING_REMOTE_BTN_HOME">ГЛАВНАЯ</string>
+    <string name="STRING_REMOTE_BTN_INPUT">ВВОД</string>
+    <string name="STRING_REMOTE_BTN_JUMP">ПЕРЕХОД</string>
+    <string name="STRING_REMOTE_BTN_MENU">МЕНЮ</string>
+    <string name="STRING_REMOTE_BTN_MUTE">ОТКЛЮЧ.</string>
+    <string name="STRING_REMOTE_BTN_OK">OK</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">ОПЦИИ</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">ИЗОБ.OFF</string>
+    <string name="STRING_REMOTE_BTN_POWER">ПИТАНИЕ</string>
+    <string name="STRING_REMOTE_BTN_PROG">ПРОГРАМ.</string>
+    <string name="STRING_REMOTE_BTN_RED">КРАСНЫЙ</string>
+    <string name="STRING_REMOTE_BTN_RETURN">ВОЗВРАТ</string>
+    <string name="STRING_REMOTE_BTN_TV">Телевизор</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">"ГОЛОС
+ПЕЧАТАНИЕ"</string>
+    <string name="STRING_REMOTE_BTN_VOL">ГРОМК.</string>
+    <string name="STRING_REMOTE_BTN_WIDE">ШИРОК.</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">ЖЕЛТЫЙ</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">Не удается получить доступ к Bluetooth. Разрешить доступ к Bluetooth.</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Bluetooth выключен.
+Включите Bluetooth из пункта управления."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"Включите Bluetooth из пункта управления.
+Если Bluetooth включен, разрешите доступ к Bluetooth."</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">Включение Bluetooth...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">Включение Wi-Fi...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">Включить Bluetooth?</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">Включить Wi-Fi?</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">Об этом приложении</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">Настройки приложения</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Настройки Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">Настройки устройства</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">К настройкам</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">Отправить историю операций</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"Устройство не найдено.
+Убедитесь, что питание устройства включено."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"Управляйте диктофоном дистанционно.
+Записывайте и проверяйте записи на расстоянии!"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Bluetooth ВЫКЛЮЧЕН.
+ВКЛЮЧЕН Bluetooth."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"Wi-Fi ВЫКЛЮЧЕН.
+Подключитесь к той же сети, что и устройство."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"Устройство не найдено.
+Подключитесь к той же сети, что и устройство и включите устройство."</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">Выберите устройство для регистрации.</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">Добавить устр-во</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">Зарегистрировано.</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">Дист. устройство</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">Выбрано</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">Выбрать устройство</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">Справка</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">Установ. Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">Установить Wi-Fi</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">Нажать, чтобы зарегистрироваться</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">ВКЛ. Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">Включить Wi-Fi</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">Настройки Wi-Fi</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">Ещё</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">Дважды коснитесь, чтобы переключиться на это устройство.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">Дважды коснитесь, чтобы переключиться на другое устройство.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">Дважды коснитесь, чтобы развернуть.</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%2$s из %1$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">Настройки учетной записи</string>
+    <string name="STRING_TEXT_ADD_DEVICE">Зарегистрировать другое устройство</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">Принимаю</string>
+    <string name="STRING_TEXT_COMMON_AGREE">Согласиться</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">Согласиться и продолжить</string>
+    <string name="STRING_TEXT_COMMON_ALL">Все</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">Разрешить</string>
+    <string name="STRING_TEXT_COMMON_BACK">Назад</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">Отмена</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">Выполняется отмена регистрации...</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">Отменить регистрацию</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">Регистрация отменена.</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">Отменить регистрацию этого устройства?</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">Не удалось отменить регистрацию.</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">Запрос каждый раз</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">больше не показывать</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">Закрыть</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">Свернуть</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">OK</string>
+    <string name="STRING_TEXT_COMMON_DELETE">Стереть</string>
+    <string name="STRING_TEXT_COMMON_DENY">Запретить</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">Отменить выбор</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">Подробные настройки</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">Меню устройства</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">Не согласиться</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">Не согласиться и продолжить</string>
+    <string name="STRING_TEXT_COMMON_DO">Вкл.</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">Не использовать</string>
+    <string name="STRING_TEXT_COMMON_DOWN">Вниз</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">Отклонить</string>
+    <string name="STRING_TEXT_COMMON_EXIT">Выход</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">Развернуть</string>
+    <string name="STRING_TEXT_COMMON_FAQ">Устранение неполадок</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">Обратная связь</string>
+    <string name="STRING_TEXT_COMMON_FINISH">Готово</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">Вперед</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">Справка и информация</string>
+    <string name="STRING_TEXT_COMMON_HIDE">Скрыть</string>
+    <string name="STRING_TEXT_COMMON_INFO">Информация</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">Информация</string>
+    <string name="STRING_TEXT_COMMON_INPUT">Вход</string>
+    <string name="STRING_TEXT_COMMON_LATER">Позже</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">Открыть</string>
+    <string name="STRING_TEXT_COMMON_LEFT">Слева</string>
+    <string name="STRING_TEXT_COMMON_MORE">Смотреть больше</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">Подробная информация</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">См. дополнительную информацию</string>
+    <string name="STRING_TEXT_COMMON_NEXT">Далее</string>
+    <string name="STRING_TEXT_COMMON_NO">Нет</string>
+    <string name="STRING_TEXT_COMMON_NOTE">Внимание</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">Выкл.</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">Не выбрано</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">Не установлено</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">Не указывать</string>
+    <string name="STRING_TEXT_COMMON_OFF">Выкл</string>
+    <string name="STRING_TEXT_COMMON_OK">OK</string>
+    <string name="STRING_TEXT_COMMON_ON">Вкл.</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">Открыть в браузере</string>
+    <string name="STRING_TEXT_COMMON_OPTION">Опция</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">Вернуться на предыдущую страницу</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">Перейти к следующей странице</string>
+    <string name="STRING_TEXT_COMMON_PREV">Пред.</string>
+    <string name="STRING_TEXT_COMMON_RETRY">Повторная попытка</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">Справа</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">Запомнить этот выбор</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">Выбрать все</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">Настройки</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">Авто</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">Настройка завершена</string>
+    <string name="STRING_TEXT_COMMON_SHOW">Показать</string>
+    <string name="STRING_TEXT_COMMON_SKIP">Пропустить</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">Остановить отмену регистрации?</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">Официальный сайт</string>
+    <string name="STRING_TEXT_COMMON_TAB">Табуляция</string>
+    <string name="STRING_TEXT_COMMON_TIPS">Удобное использование</string>
+    <string name="STRING_TEXT_COMMON_UP">Вверх</string>
+    <string name="STRING_TEXT_COMMON_USE">Использовать</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">Остановить загрузку страницы</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">Перезагрузить страницу</string>
+    <string name="STRING_TEXT_COMMON_YES">Да</string>
+    <string name="STRING_TEXT_DELETE_ALL">Удалить все</string>
+    <string name="STRING_TEXT_DELETE_FAILED">Сбой удаления.</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">Удалить это зарегистрированное устройство?</string>
+    <string name="STRING_TEXT_DEVICE_INFO">Сведения об устройстве</string>
+    <string name="STRING_TEXT_DO_UPDATE">Обновить</string>
+    <string name="STRING_TEXT_EDIT">Редактировать</string>
+    <string name="STRING_TEXT_EULA">Лиценз. соглаш. с кон. польз.</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">Информация о лицензии</string>
+    <string name="STRING_TEXT_MENU">Меню</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">Соединение отключено</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">Не входить</string>
+    <string name="STRING_TEXT_NO_DEVICE">Устройство не найдено.</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">Если не удается найти устройство</string>
+    <string name="STRING_TEXT_OWN_DEVICE">Основной блок</string>
+    <string name="STRING_TEXT_POWER_OFF">Выключите наушник</string>
+    <string name="STRING_TEXT_PP_SETTINGS">Настройки конфиденциальности</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">Более подробную информацию о том, как Sony использует эти данные, можно найти здесь.</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">Политика конфиденциальности</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">здесь</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">Ваше согласие в целях улучшения / развития продукта / услуги:</string>
+    <string name="STRING_TEXT_RECORDER_NAME">Рекордер</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">Устройство</string>
+    <string name="STRING_TEXT_REGISTERING">Регистрация...</string>
+    <string name="STRING_TEXT_RE_REGISTER">Перерегистрировать</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">Переключить на другое устройство</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">Подсоединенное устройство</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">Регистрация</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">Версия</string>
+    <string name="STRING_TEXT_SIGNIN">Войти</string>
+    <string name="STRING_TEXT_SIGNOUT">Выйти</string>
+    <string name="STRING_TEXT_START">Начать</string>
+    <string name="STRING_TEXT_STARTING">Запуск...</string>
+    <string name="STRING_TEXT_START_ASIS">Начать сейчас</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">Список совместимых устройств</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">Подключить</string>
+    <string name="STRING_TEXT_TERM_OF_USE">Условия использования</string>
+    <string name="STRING_TEXT_UPDATE">Обновить</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">Когда невозможно установить соединение</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">Если вы не можете зарегистрироваться</string>
+    <string name="STRING_THIS_PHONE">Этот мобильный</string>
+    <string name="STRING_TITLE_COUNTRY">Страна/Регион</string>
+    <string name="Setting_Android_Title">Настройки</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"Не удалось подтвердить подлинность вашей учетной записи.
+Войдите снова."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"Не удалось синхронизировать настройки, поскольку проверка подлинности учетной записи не удалась.
+Войдите снова."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">Результаты анализа ушей</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">Зарегистрированные местоположения и значения настроек</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">Значения настройки на основе действий и т.д.</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">Архивировать</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">Следующие настройки можно сохранить на сервере, связав их с вашей учетной записью.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">Настройки, для которых можно выполнить архивацию, зависят от модели.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">При работе с приложением заархивированные настройки могут быть удалены. Также они будут автоматически удалены, если Sony прекратит предоставление этой функции на основании Условий использования.</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">Настройки автоматической загрузки ПО</string>
+    <string name="SettingsTakeOver_Appeal_Link">Дополнительные сведения см. здесь</string>
+    <string name="SettingsTakeOver_Appeal_Title">Давайте заархивируем настройки.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">Архивация завершена.</string>
+    <string name="SettingsTakeOver_Button_Backup">Архивировать</string>
+    <string name="SettingsTakeOver_Button_Restore">Восстановить</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">Использ. настр-ки этого прил.</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">Использ. настр-ки на сервере</string>
+    <string name="SettingsTakeOver_Confirm_Backup">Выполнить архивацию настроек этого приложения на сервере?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">Восстановить настройки, для которых выполнена архивация на сервере в этом приложении?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"Есть настройки, для которых уже выполнена архивация на сервере.
+Выберите настройку из следующего списка, чтобы включить автоматическую синхронизацию."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Создать учетную запись Sony и продолжить</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">Удалены заархивированные настройки и выполнен выход.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">Выполняется выход, отменяется связь с учетной записью и полностью удаляется заархивированная информация на сервере.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">Удалить заархивированные настройки?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">Включена автоматическая синхронизация настроек.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"Не удалось выполнить архивацию.
+Подождите некоторое время и повторите попытку."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"Не удалось выполнить восстановление.
+Подождите некоторое время и повторите попытку."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"Не удалось выполнить восстановление.
+Проверьте подключение к сети, подождите некоторое время и повторите попытку."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">Ознакомиться с условиями использования</string>
+    <string name="SettingsTakeOver_List_Title">Архивация и восстановление настроек</string>
+    <string name="SettingsTakeOver_PP_Description">Пожалуйста, подтвердите, что Sony сможет использовать данные, связанные с использованием приложений клиента, для указанных выше целей, нажав следующую кнопку [Согласиться]. Если вы не согласны с этими условиями использования, нажмите кнопку [Не согласиться].</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">Восстановить настройки</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">Продолжить без восстановления</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">Если вы ранее выполняли архивацию настроек с помощью Headphones Connect, вы можете восстановить эти настройки.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">Дополнительные сведения см. здесь</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">Восстановить настройки</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"Заархивированные настройки отсутствуют.
+Продолжить без восстановления."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">Восстановление завершено.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">Учетная запись</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">Настройки, для которых выполнена архивация</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">Архивировать сейчас</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">Включить</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">Восстановить сейчас</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">Удалить архивацию и выйти</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"Удаляет настройки, для которых выполнена архивация на сервере.
+Настройки в приложении останутся."</string>
+    <string name="SettingsTakeOver_Settings_Description">Вы можете сохранить эти настройки приложений на сервере, связав с учетной записью, с которой вы вошли.</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"Для архивации последних настроек включите автоматическую синхронизацию.
+Вы можете синхронизировать настройки со всеми мобильными устройствами, в которые вы вошли с этой учетной записью."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">Настройки этой функции можно изменить в правом верхнем углу панели управления в любое время.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">Автоматическая синхронизация</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">Настройка учетной записи</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Настройки учетной записи Sony</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">Выполняется архивация...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">Дата обновления сервера:</string>
+    <string name="SettingsTakeOver_Settings_Status_None">Вы можете выполнить архивацию настроек.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">Есть настройки, для которых еще не выполнялась архивация.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">Новые настройки можно восстановить с сервера.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">Выполняется восстановление...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">Архивация завершена.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">Выполняется синхронизация...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">Ваше устройство не поддерживает архивацию.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Вход с Amazon</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Вход с Apple</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Вход с Facebook</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Вход с Google</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Вход с учетной записью Sony</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">Вход с WeChat</string>
+    <string name="SettingsTakeOver_SignIn_Description">Для выполнения архивации и восстановления настроек необходимо войти в Headphones Connect.</string>
+    <string name="SettingsTakeOver_SignIn_Split">или</string>
+    <string name="SettingsTakeOver_SignOut_Completed">Выполнен выход.</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">Функции архивирования и восстановления станут недоступными.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">Заархивированные настройки на сервере удаляются автоматически, если после выхода из системы проходит определенное время.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Учетная запись Sony</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">Выполняется вход...</string>
+    <string name="SettingsTakeOver_SigningOut">Выполняется выход...</string>
+    <string name="SmartTalkingMode_Detail">Вы можете начать разговор во время ношения наушников, просто начав говорить.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"Просто начав говорить, вы можете общаться прямо в наушниках. Хотите испытать эту функцию?
+Вы можете запустить ее снова с помощью кнопки [i]."</string>
+    <string name="SmartTalkingMode_Experience_Btn">Испытайте это</string>
+    <string name="SmartTalkingMode_Experience_Detail1">Например, попробуйте сказать что-то вроде “Привет”. Наушники обнаруживают, что вы говорили и автоматически устанавливается условие, позволяющее вести беседу.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"Музыка приостановлена, чтобы воспринимать окружающий звук. Во время разговора этот режим возобновится и завершится, если после окончания разговора или использования наушников пройдет %s.
+Этот параметр можно настроить в [Общение в чате] на панели управления."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">Музыка приостановлена, чтобы воспринимать окружающий звук. Режим можно завершить при помощи наушников.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">Закрыть</string>
+    <string name="SmartTalkingMode_Experience_Msg1">Обнаруживает ваш голос</string>
+    <string name="SmartTalkingMode_Experience_Msg2">Обнаружен ваш голос</string>
+    <string name="SmartTalkingMode_Experience_Title">Опыт общения в чате</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">Воспринимает голоса, уменьшая окружающий шум.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">Фокус на голос</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"Если наушники не распознают ваш голос в течение указанного времени, режим Общение в чате завершается и возвращается в нормальное состояние.
+Кроме того, с помощью наушников режим можно завершить в любое время."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">Быстр.</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">Станд.</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">Медлен.</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">Не завершается автомат.</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">Не делать</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">Время до завершен. режима</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">Прибл. 1 м</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">Прибл. 1 с</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">Прибл. %d с</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">Прибл. %dм</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">Автоматич.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">Автоматически регулирует чувствительность в зависимости от окружающего звука.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">Автоматич.:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">Высок. чувст.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">Выберите эту настр., если чувств. распозн. голоса слишком низк. Эффект., когда окруж. звук громк., напр., когда вы находит. в автом.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">Высок. чувст.:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">Низк. чувств.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">Выберите эту настр., когда чувств. распозн. голоса слишком высока. Эффект., когда говорящий находится поблизости.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">Низк. чувств.:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">Чувст. распозн. голоса</string>
+    <string name="SmartTalkingMode_Setting_Title">Настройка Общение в чате</string>
+    <string name="SmartTalkingMode_Title">Общение в чате</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Включено Общение в чате</string>
+    <string name="SmartTalkingMode_TurnOn">Для выполнения настроек включает Общение в чате.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Включает Общение в чате</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"Эту настройку можно переключить с помощью операций на наушниках.
+Метод работы можно проверить в [Справка]."</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Включить Общение в чате?</string>
+    <string name="SongPalDownloadDialog">Вы хотите загрузить приложение Music Center от Google Play?</string>
+    <string name="SongPalDownloadDialog_iOS">Вы хотите загрузить приложение Music Center от App Store?</string>
+    <string name="SoundPosition_Preset_FL">Передний левый</string>
+    <string name="SoundPosition_Preset_FR">Передний правый</string>
+    <string name="SoundPosition_Preset_Front">Передний</string>
+    <string name="SoundPosition_Preset_Off">Выкл</string>
+    <string name="SoundPosition_Preset_RL">Задний левый</string>
+    <string name="SoundPosition_Preset_RR">Задний правый</string>
+    <string name="SoundPosition_Title">Управление положением звука</string>
+    <string name="Status_Loading_Headphones">Получение списка наушников.</string>
+    <string name="Switch_ToOtherDevice">Переключить на другое устройство</string>
+    <string name="TalkBack_Button">Кнопка</string>
+    <string name="TalkBack_Button_Option">Ещё</string>
+    <string name="TalkBack_Disable">Отключено</string>
+    <string name="TalkBack_Switch">Кнопка переключения</string>
+    <string name="Talkback_Echo_Minus">minus</string>
+    <string name="Talkback_Echo_Plus">plus</string>
+    <string name="TouchSensorControlPanel_title">Сенсорная панель управления</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">Сброс</string>
+    <string name="Training_Custom_Title">Быстрые настр. звука</string>
+    <string name="Training_Title">Быстрые настр. звука</string>
+    <string name="Training_Title_Detail">"Вы можете совместно переключать настройки [%1$s] и [%2$s].
+Кроме того, этой настройкой можно управлять из наушников."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">Арена</string>
+    <string name="VPT_Preset_Club">Клуб</string>
+    <string name="VPT_Preset_ConcertHall">Концертный зал</string>
+    <string name="VPT_Preset_Off">Выкл</string>
+    <string name="VPT_Preset_OutdoorFestival">Открытая сцена</string>
+    <string name="VPT_Preset_Title">Объемный звук (VPT)</string>
+    <string name="Vibration_Title">Вибр. при вх. звонке</string>
+    <string name="VoiceData_Update_Status_Download">Выполняется загрузка голосовых данных...</string>
+    <string name="VoiceData_Update_Status_Install">Выполняется настройка голосовых данных...</string>
+    <string name="VoiceData_Update_Status_Send">Выполняется передача голосовых данных...</string>
+    <string name="VoiceData_Update_Status_Start">Передача голосовых данных %s в наушники</string>
+    <string name="VoiceData_Update_Title">Изменить язык</string>
+    <string name="VoiceData_Updating">Пожалуйста, подождите...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">Язык</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">Уведомлен. и голосов. гид</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">Бразильск. португальский</string>
+    <string name="Voice_Guidance_Elem_Chinese">Китайский</string>
+    <string name="Voice_Guidance_Elem_Dutch">Голландский</string>
+    <string name="Voice_Guidance_Elem_English">Английский</string>
+    <string name="Voice_Guidance_Elem_Finnish">Финский</string>
+    <string name="Voice_Guidance_Elem_French">Французский</string>
+    <string name="Voice_Guidance_Elem_German">Немецкий</string>
+    <string name="Voice_Guidance_Elem_Italian">Итальянский</string>
+    <string name="Voice_Guidance_Elem_Japanese">Японский</string>
+    <string name="Voice_Guidance_Elem_Korean">Корейский</string>
+    <string name="Voice_Guidance_Elem_Portuguese">Португальский</string>
+    <string name="Voice_Guidance_Elem_Russian">Русский</string>
+    <string name="Voice_Guidance_Elem_Spanish">Испанский</string>
+    <string name="Voice_Guidance_Elem_Swedish">Шведский</string>
+    <string name="Voice_Guidance_Elem_Turkish">Турецкий</string>
+    <string name="Voice_Guidance_Setting">Язык голосовых указаний</string>
+    <string name="Volume_Talkback">Громкость</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">Для использования обновите это приложение в Google Play.</string>
+    <string name="Walkman_Placeholder_Confirm_China">Для использования загрузите это приложение с сайта загрузки.</string>
+    <string name="Walkman_Placeholer_Button_Transit">Перейти</string>
+    <string name="Walkman_Placeholer_Description">"Настройте по своему усмотрению наушники Sony с функцией привязки для приложения.
+Благодаря удобному управлению прослушивать музыку становится очень комфортно."</string>
+    <string name="Walkman_Placeholer_Description_02">Для использования это приложение должно быть обновлено (загружено) на экране, на который вас переместили.</string>
+    <string name="Walkman_Placeholer_Description_03">Об этом приложении</string>
+    <string name="Walkman_Placeholer_Link">Для получения подробной информации о поддерживаемых продуктах и функциях, перейдите сюда</string>
+    <string name="Walkman_Placeholer_SubTitle">Перейти на страницу загрузки Headphones Connect?</string>
+    <string name="Welcome_EULA_PP">Нажат. этой кнопки означ., что вы провер. документ соглас. и инф. о политике конфиденц., и согласились с ним.</string>
+    <string name="Welcome_EULA_PPLink">Условия использования</string>
+    <string name="Welcome_SubTitle">"Больше удовольствия, больше интеллекта, больше индивидуальности.
+Давайте начнем новую жизнь с новыми наушниками."</string>
+    <string name="Welcome_SubTitle1">Ваш персональный концерт в прямой трансляции начинается здесь.</string>
+    <string name="Welcome_SubTitle2">Клуб? Арена? Холл? Или даже Опенэйр? Выберите сами свою идеальную сцену!</string>
+    <string name="Welcome_SubTitle3">Управляемые басы оживляют ваш день.</string>
+    <string name="Welcome_Title">ДОБРО ПОЖАЛОВАТЬ</string>
+    <string name="Welcome_Title1">ДОБРО ПОЖАЛОВАТЬ</string>
+    <string name="Welcome_Title2">ПРЯМАЯ ТРАНСЛЯЦИЯ МУЗЫКИ ПО ОДНОМУ ЩЕЛЧКУ</string>
+    <string name="Welcome_Title3">НУЖНО БОЛЬШЕ БАСОВ?</string>
+    <string name="Widget_Disconnected">Наушники не подключены или не зарегистрированы. Запустите Headphones Connect.</string>
+    <string name="Widget_EQ_Error">Подтвердите [Эквалайзер] в Headphones Connect.</string>
+    <string name="Widget_EQ_Error_Short">Измените в Headphones Connect.</string>
+    <string name="Widget_EULA_Disagreement">Запустите Headphones Connect и выполните настройки.</string>
+    <string name="Widget_Initial">Идет загрузка...</string>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Ещё</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выберите приложение</string>
+    <string name="abc_capital_off">ВЫКЛ</string>
+    <string name="abc_capital_on">ВКЛ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Ввод</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">Пробел</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Меню +</string>
+    <string name="abc_search_hint">Введите запрос</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="expand_button_title">Дополнительно</string>
+    <string name="fcm_fallback_notification_channel_label">Другое</string>
+    <string name="s1">Сохранить изображение</string>
+    <string name="s2">Разрешить объявлению сохранить изображение в галерее?</string>
+    <string name="s3">Разрешить</string>
+    <string name="s4">Отклонить</string>
+    <string name="s5">Создать мероприятие</string>
+    <string name="s6">Разрешить объявлению создать мероприятие в календаре?</string>
+    <string name="s7">Тестовое объявление</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">ВЫКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
+</resources>

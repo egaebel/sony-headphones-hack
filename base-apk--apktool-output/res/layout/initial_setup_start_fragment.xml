@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/InitialSetup_OverallSetup_BeforeStart_Detail" style="@style/TM_L_C1_Me" />
+            <LinearLayout android:orientation="vertical" android:id="@id/setup_adaptive_sound" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AR_Title" style="@style/TSS_L_C1_Re" />
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/a_mdr_setup_func_icon_activity_recognition" style="@style/TLL_C_C2_ReStyle" />
+                    <TextView android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/asc_detail_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TSS_L_C2_Re" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/setup_immersive_audio" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_FeatureTitle" style="@style/TSS_L_C1_Re" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/a_mdr_setup_func_icon_immersive" style="@style/TLL_C_C2_ReStyle" />
+                    <TextView android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/InitialSetup_IASetup_Detail" android:layout_weight="1.0" style="@style/TSS_L_C2_Re" />
+                </LinearLayout>
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <include android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</LinearLayout>

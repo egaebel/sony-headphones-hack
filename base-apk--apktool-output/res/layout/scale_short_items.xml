@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+    <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_short" android:scaleType="fitXY" />
+</merge>

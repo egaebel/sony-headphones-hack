@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/option_menu_button" android:layout_marginStart="72.0dip" android:layout_marginEnd="12.0dip">
+        <TextView android:ellipsize="end" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TS_L_C1_Re" />
+        <TextView android:id="@id/device_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MultiPoint_Status_Connecting" android:maxLines="1" android:layout_below="@id/device_name" style="@style/TSS_L_C2_Re" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/option_menu_button" android:background="@android:color/transparent" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_2_device_multipoint_menu_selector" android:layout_centerVertical="true" android:contentDescription="@string/TalkBack_Button_Option" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    <View android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

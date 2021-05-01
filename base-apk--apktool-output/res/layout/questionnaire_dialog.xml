@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/questionnaire_dialog_side_padding" android:layout_marginRight="@dimen/questionnaire_dialog_side_padding">
+            <TextView android:id="@id/questionnaire_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/questionnaire_dialog_top_margin" style="@style/TS_C_C1_MeStyle" />
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/questionnaire_dialog_icon_width" android:layout_height="@dimen/questionnaire_dialog_icon_height" android:layout_marginTop="@dimen/questionnaire_dialog_icon_margin_top" android:layout_marginBottom="@dimen/questionnaire_dialog_icon_margin_bottom" android:src="@drawable/a_questionnaire_notification_icon" />
+            <TextView android:id="@id/questionnaire_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TS_L_C1_Re" />
+            <TextView android:id="@id/questionnaire_approximate_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/questionnaire_dialog_item_interval" style="@style/TS_L_C1_Re" />
+            <TextView android:id="@id/number_of_questions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/questionnaire_dialog_item_interval" style="@style/TS_L_C1_Re" />
+            <TextView android:id="@id/questionnaire_distribution_period" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/questionnaire_dialog_item_interval" style="@style/TS_L_C1_Re" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <View android:id="@id/separator" android:background="#1f000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <Button android:layout_gravity="center" android:id="@id/questionnaire_next" android:layout_width="@dimen/questionnaire_dialog_answer_button_width" android:layout_height="@dimen/questionnaire_dialog_answer_button_height" android:layout_marginTop="@dimen/questionnaire_dialog_answer_button_margin_top" android:layout_marginBottom="@dimen/questionnaire_dialog_answer_button_margin_bottom" android:text="@string/Questionnaire_Notification_Button_GoAhead" style="@style/AppTheme.RaisedButton" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/questionnaire_dialog_side_padding" android:layout_marginRight="@dimen/questionnaire_dialog_side_padding" android:text="@string/Questionnaire_Notification_Note" style="@style/TS_L_C1_Re" />
+    </LinearLayout>
+</LinearLayout>

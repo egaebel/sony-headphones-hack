@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TL_L_C1_MeStyle" />
+    <ImageView android:id="@id/background_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+    <TextView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TS_L_C2_Re" />
+    <LinearLayout android:gravity="center|right|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <Button android:textAppearance="@style/TSS_C_A1_MeStyle" android:gravity="center" android:id="@id/cancel" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="64.0dip" android:minHeight="0.0dip" android:text="@string/STRING_TEXT_COMMON_CANCEL" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="8.0dip" style="?android:buttonBarButtonStyle" />
+        <Button android:textAppearance="@style/TSS_C_A1_MeStyle" android:gravity="center" android:id="@id/ok" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="64.0dip" android:minHeight="0.0dip" android:text="@string/STRING_TEXT_COMMON_OK" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

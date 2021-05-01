@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/earpiece_selection_info_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/information_button_width" android:layout_height="@dimen/information_button_height" android:src="@drawable/information_button_selector" android:scaleType="fitCenter" android:layout_toRightOf="@id/title" android:layout_centerVertical="true" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" android:layout_marginEnd="16.0dip" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ESA_Title" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" style="@style/TSS_L_C1_Re" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/bottom_sheet_grip_layer_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="46.0dip" android:layout_height="19.0dip" android:src="@drawable/a_mdr_app_menu_knob" android:scaleType="fitXY" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_sheet_base" android:background="@color/ui_common_color_b2_light" android:paddingTop="@dimen/ui_bottom_sheet_list_padding_top" android:paddingBottom="@dimen/ui_bottom_sheet_list_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

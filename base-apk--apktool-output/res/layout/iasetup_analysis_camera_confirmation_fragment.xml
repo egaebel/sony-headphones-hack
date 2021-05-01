@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:maxLines="1" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sony.songpal.mdr.application.immersiveaudio.setup.view.IaSetupIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/iasetup_analysis_confirmation_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RelativeLayout android:layout_width="138.0dip" android:layout_height="152.0dip" android:layout_marginRight="18.0dip">
+                        <RelativeLayout android:id="@id/camera_R_confirm_L_ear_image" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/leftEarImg" android:layout_width="138.0dip" android:layout_height="130.0dip" android:scaleType="centerCrop" app:srcCompat="@drawable/a_mdr_immersive_picture_result_before" />
+                        </RelativeLayout>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/IASetup_Photograph_Ear_L" android:maxLines="1" android:layout_below="@id/camera_R_confirm_L_ear_image" android:layout_centerHorizontal="true" style="@style/T3S_C_C2_Re" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="138.0dip" android:layout_height="152.0dip">
+                        <RelativeLayout android:id="@id/camera_confirm_R_ear_image" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/rightEarImg" android:layout_width="138.0dip" android:layout_height="130.0dip" android:scaleType="centerCrop" app:srcCompat="@drawable/a_mdr_immersive_picture_result_before" />
+                        </RelativeLayout>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/IASetup_Photograph_Ear_R" android:maxLines="1" android:layout_below="@id/camera_confirm_R_ear_image" android:layout_centerHorizontal="true" style="@style/T3S_C_C2_Re" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:id="@id/messageText1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:maxLines="2" style="@style/T3L_L_C1_ReStyle" />
+                <TextView android:id="@id/messageText2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TSS_L_C2_Re" />
+                <TextView android:id="@id/messageText3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TSS_L_C2_Re" />
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="bottom" android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_weight="0.0">
+        <include android:id="@id/prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" android:maxLines="1" android:layout_alignParentLeft="true" layout="@layout/ui_common_flat_button_normal" />
+        <include android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:maxLines="1" android:layout_alignParentEnd="true" layout="@layout/ui_common_flat_button" />
+    </RelativeLayout>
+</LinearLayout>

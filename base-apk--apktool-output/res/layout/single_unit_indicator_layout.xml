@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/single_bt_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:importantForAccessibility="no" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.sony.songpal.mdr.view.BatteryLevelTextView android:textAppearance="@style/T3S_R_C1_BoStyle" android:id="@id/single_battery_level_text" android:layout_width="0.0dip" android:layout_height="18.0dip" android:importantForAccessibility="no" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/single_bt_icon" />
+    <com.sony.songpal.mdr.view.BatteryView android:id="@id/single_battery" android:layout_width="@dimen/battery_view_width" android:layout_height="@dimen/battery_view_height" android:importantForAccessibility="no" app:layout_constraintStart_toEndOf="@id/single_bt_icon" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

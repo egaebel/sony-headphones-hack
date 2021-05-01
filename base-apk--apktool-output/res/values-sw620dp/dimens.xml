@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="information_to_user_dialog_small_margin">18.0dip</dimen>
+    <dimen name="questionnaire_redisplay_image_margin_top">24.0dip</dimen>
+    <dimen name="questionnaire_redisplay_title_margin_top">24.0dip</dimen>
+</resources>

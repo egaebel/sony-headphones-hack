@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/freepad_layout_zone_layout" android:background="?bg_remote_freecsr_touchpad" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/freepad_layout_zone_init_image" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <jp.co.sony.vim.framework.platform.android.ui.fullcontroller.freecursor.FreePadLocusView android:layout_gravity="center" android:id="@id/freepad_layout_zone_locus_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" />
+</merge>

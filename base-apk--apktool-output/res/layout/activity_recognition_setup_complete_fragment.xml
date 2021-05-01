@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/AR_InitialSetup_SetupComplete_Detail_01" style="@style/TM_L_C1_Me" />
+            <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" app:srcCompat="@drawable/a_mdr_activity_recognition_customize_image" />
+            <TextView android:id="@id/completed_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" style="@style/TSS_L_C2_Re" />
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <include android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</LinearLayout>

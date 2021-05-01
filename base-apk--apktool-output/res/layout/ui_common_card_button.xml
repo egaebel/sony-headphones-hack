@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:foreground="?fg_common_press" android:minHeight="64.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:cardBackgroundColor="?ui_common_bg_color_card" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/TS_L_C1_Re" android:id="@id/card_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/ic_plus" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/ic_plus" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="?ic_devicelist_card_add" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

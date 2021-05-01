@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/training_mode_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/collapsed_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Training_Title" android:maxLines="1" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_marginStart="@dimen/ar_common_left_margin" android:layout_alignParentStart="true" style="@style/TSS_L_C1_Re" />
+            <ImageView android:id="@id/training_mode_information_button" android:layout_width="@dimen/information_button_width" android:layout_height="@dimen/information_button_height" android:src="@drawable/information_button_selector" android:layout_centerVertical="true" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" android:layout_toEndOf="@id/title" />
+        </RelativeLayout>
+        <Switch android:id="@id/training_mode_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/expanded_area" android:paddingBottom="@dimen/ar_contents_area_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ar_contents_area_padding" android:paddingEnd="@dimen/ar_contents_area_padding">
+        <View android:background="@color/color_border" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="74.0dip">
+            <View android:id="@id/training_mode_card_center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+            <TextView android:id="@id/ambient_controlled_card_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/ASM_Title" android:maxLines="1" android:layout_alignBottom="@id/training_mode_card_center" android:layout_marginStart="@dimen/ar_open_area_left_margin" style="@style/TSS_L_C1_Re" />
+            <TextView android:id="@id/ambient_controlled_card_parameter" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ASM_Param_NC" android:maxLines="1" android:layout_below="@id/training_mode_card_center" android:layout_alignStart="@id/ambient_controlled_card_title" style="@style/TSS_L_C2_Re" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="74.0dip">
+            <View android:id="@id/equalizer_controlled_card_center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+            <TextView android:id="@id/equalizer_controlled_card_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/EQ_Preset_Title" android:maxLines="1" android:layout_alignBottom="@id/equalizer_controlled_card_center" android:layout_marginStart="@dimen/ar_open_area_left_margin" style="@style/TSS_L_C1_Re" />
+            <TextView android:id="@id/equalizer_controlled_card_parameter" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/EQ_Preset_Off" android:maxLines="1" android:layout_below="@id/equalizer_controlled_card_center" android:layout_alignStart="@id/equalizer_controlled_card_title" style="@style/TSS_L_C2_Re" />
+            <ImageView android:id="@id/training_mode_customize_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ar_customize_button_selector" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:contentDescription="@string/STRING_TEXT_COMMON_DETAIL_SETTINGS" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

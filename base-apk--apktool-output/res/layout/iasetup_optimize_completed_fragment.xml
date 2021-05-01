@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sony.songpal.mdr.application.immersiveaudio.setup.view.IaSetupIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IASetup_Setup_Complete" android:maxLines="2" style="@style/TM_L_C1_Me" />
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+                    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="35.0dip" android:src="@drawable/a_mdr_card_opt_type2_done" style="@style/TLL_C_C2_ReStyle" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/a_mdr_card_opt_type2_personal" />
+                    <TextView android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/IASetup_SetupSummary_Analyze_Done" android:layout_weight="1.0" style="@style/TSS_L_C2_Re" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="35.0dip" android:src="@drawable/a_mdr_card_opt_type2_done" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/a_mdr_card_opt_type2_app" />
+                    <TextView android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/optimized_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/IASetup_SetupSummary_Optimize_Done" android:layout_weight="1.0" style="@style/TSS_L_C2_Re" />
+                </LinearLayout>
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <include android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</LinearLayout>

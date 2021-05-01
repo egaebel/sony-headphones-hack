@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/card_root" android:background="?ui_common_bg_color_card" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ui_card_margin_bottom" android:elevation="@dimen/ui_card_elevation_height">
+        <FrameLayout android:id="@id/inner_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/supporting_msg_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

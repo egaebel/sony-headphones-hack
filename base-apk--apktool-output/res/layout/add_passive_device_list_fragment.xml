@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/add_passive_device_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/OoBE_NonBT_DeviceList_Detail" style="@style/TS_L_C1_Re" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/passive_device_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

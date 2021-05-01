@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gs_list_type_spinner_layout_spinner_height" android:layout_marginTop="@dimen/gs_list_type_spinner_layout_spinner_margin_top" android:layout_marginBottom="@dimen/gs_list_type_spinner_layout_spinner_margin_bottom" android:layout_marginStart="@dimen/gs_list_type_spinner_layout_spinner_margin_left" android:layout_marginEnd="@dimen/gs_list_type_spinner_layout_spinner_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/gs_item_select_spinner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spinnerMode="dropdown" />
+    <View android:id="@id/spinner_underline" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="@dimen/common_cardview_spinner_underline_height" android:layout_alignBottom="@id/gs_item_select_spinner" />
+</RelativeLayout>

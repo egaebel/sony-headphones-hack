@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_layout">
+        <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/Reset_Settings_Description" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_L_C2_Re" />
+                <View android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Reset_Settings_Label_App" android:maxLines="1" android:layout_weight="1.0" style="@style/TSS_L_C1_Me" />
+                    <CheckBox android:id="@id/applicationCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:layout_width="16.0dip" android:layout_height="wrap_content" android:text="@string/Common_List_Symbol_Only" style="@style/T3S_C_C2_Re" />
+                        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/AR_Title" style="@style/T3S_L_C2_Re" />
+                    </LinearLayout>
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Appeal_Adaptive_Data" android:layout_marginStart="16.0dip" style="@style/T3S_L_C2_Re" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/applicationFunctionIaLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:layout_width="16.0dip" android:layout_height="wrap_content" android:text="@string/Common_List_Symbol_Only" style="@style/T3S_C_C2_Re" />
+                        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IASetup_FeatureTitle" style="@style/T3S_L_C2_Re" />
+                    </LinearLayout>
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Appeal_360RA_Data" android:layout_marginStart="16.0dip" style="@style/T3S_L_C2_Re" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+                    <TextView android:layout_width="16.0dip" android:layout_height="wrap_content" android:text="@string/Common_List_Symbol_Only" style="@style/T3S_C_C2_Re" />
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Appeal_FW_Download_Title" style="@style/T3S_L_C2_Re" />
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/Reset_Settings_App_Note" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/T3S_L_C2_Re" />
+                <View android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Reset_Settings_Label_MDR" android:maxLines="1" android:layout_weight="1.0" style="@style/TSS_L_C1_Me" />
+                    <CheckBox android:id="@id/headphoneCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/headphoneFunctionLinearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:id="@id/divider" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="28.0dip" android:paddingBottom="26.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+            <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/executeButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_raised_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/Reset_Button" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ui_common_card_title_min_height" android:paddingStart="@dimen/ui_common_card_title_margin_left_right" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/card_switch" android:layout_alignParentStart="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/card_title" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ui_common_card_title_margin_top_bottom" android:layout_marginBottom="@dimen/ui_common_card_title_margin_top_bottom" android:layout_weight="1.0" style="@style/TSS_L_C1_Re" />
+            <ImageView android:id="@id/info_button" android:layout_width="wrap_content" android:layout_height="@dimen/ui_common_card_title_min_height" android:src="?ic_card_btn_info" android:scaleType="centerInside" android:contentDescription="@string/STRING_TEXT_COMMON_INFO" android:paddingStart="0.0dip" android:paddingEnd="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <Switch android:id="@id/card_switch" android:layout_width="wrap_content" android:layout_height="@dimen/ui_common_card_title_min_height" android:layout_centerVertical="true" android:paddingStart="8.0dip" android:paddingEnd="@dimen/ui_common_card_title_margin_left_right" android:layout_alignParentEnd="true" />
+</RelativeLayout>

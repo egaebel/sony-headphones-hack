@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bt_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_paired_device_icon" android:layout_centerVertical="true" android:layout_marginStart="28.0dip" />
+    <RelativeLayout android:id="@id/device_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/bt_icon" android:layout_marginStart="20.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/connecting_device_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/device_management_settings" android:layout_below="@id/title" android:layout_marginEnd="6.0dip" />
+        <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/MultiPoint_DeviceStatus_Title" android:layout_marginStart="24.0dip" style="@style/TSS_L_C2_Re" />
+        <ImageView android:id="@id/device_management_settings" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/a_common_disclosure_button_normal" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

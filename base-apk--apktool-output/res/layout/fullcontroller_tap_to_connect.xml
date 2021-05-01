@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/image_text_holder_margin_bottom" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_disconnected_device" android:layout_width="@dimen/tap_to_connect_image_width" android:layout_height="@dimen/tap_to_connect_image_height" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitCenter" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/msg_connection_failed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/STRING_CAUTION_WEAR_CONNECT_DEVICE" style="@style/TSS_C_C2_Re" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_gravity="center_horizontal" android:id="@id/tap_to_connect_button" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/ui_common_raised_button" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/show_device_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</LinearLayout>

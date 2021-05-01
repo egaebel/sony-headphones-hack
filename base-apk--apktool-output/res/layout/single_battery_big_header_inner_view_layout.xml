@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/big_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.sony.songpal.mdr.view.CodecIndicatorView android:id="@id/codec_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_codec_sbc_light" />
+        <com.sony.songpal.mdr.view.UpscalingIndicatorView android:id="@id/upscaling_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_dseehx_light" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/device_icon" android:visibility="visible" android:layout_width="196.0dip" android:layout_height="196.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.sony.songpal.mdr.view.SingleUnitIndicatorView android:id="@id/single_unit_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

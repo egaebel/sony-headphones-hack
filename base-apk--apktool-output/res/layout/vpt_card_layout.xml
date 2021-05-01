@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/vpt_common_title_height" android:layout_marginLeft="@dimen/vpt_common_left_margin" android:layout_marginRight="@dimen/vpt_common_right_margin">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/VPT_Preset_Title" style="@style/TSS_L_C1_Re" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/vpt_sound_image_height">
+        <FrameLayout android:id="@id/collapsed_wave_image_mask" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/collapsed_wave_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/vpt_sound_image_side_margin" android:layout_marginRight="@dimen/vpt_sound_image_side_margin" android:scaleType="centerCrop" />
+        </FrameLayout>
+        <ImageView android:id="@id/expanded_visual_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/vpt_sound_image_side_margin" android:layout_marginRight="@dimen/vpt_sound_image_side_margin" android:scaleType="centerCrop" android:alpha="0.0" />
+        <ImageView android:id="@id/expanded_wave_image" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/vpt_sound_image_side_margin" android:layout_marginRight="@dimen/vpt_sound_image_side_margin" android:scaleType="centerCrop" android:alpha="0.0" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/vpt_common_knob_line_height" android:layout_marginStart="@dimen/vpt_common_left_margin" android:layout_marginEnd="@dimen/vpt_common_right_margin">
+        <TextView android:id="@id/preset_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/TSS_L_C2_Re" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/knob_image" android:layout_width="@dimen/vpt_common_knob_image_size" android:layout_height="@dimen/vpt_common_knob_image_size" app:srcCompat="@drawable/a_mdr_extended_area_knob_closed" />
+    </LinearLayout>
+    <com.sony.songpal.mdr.view.horizontaltextslider.HorizontalTextSlider android:id="@id/horizontal_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/horizontal_slider_top_margin" android:layout_marginBottom="@dimen/horizontal_slider_bottom_margin" android:alpha="0.0" app:indicator_image_size="@dimen/horizontal_slider_indicator_image_size" app:margin_both_text_and_indicator="@dimen/horizontal_slider_both_text_and_indicator_margin" app:normal_text_style="@style/TS_C_C2_LiStyle" app:selected_text_style="@style/T3LL_C_C1_ReStyle" app:start_margin_text="@dimen/horizontal_slider_text_margin" />
+</LinearLayout>

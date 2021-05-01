@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/supporting_view_base" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/status_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:maxLines="2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/T3S_C_C1i_ReStyle" />
+</FrameLayout>

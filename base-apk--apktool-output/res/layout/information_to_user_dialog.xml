@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/information_to_user_dialog_side_padding" android:paddingRight="@dimen/information_to_user_dialog_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/info_divider">
+        <TextView android:id="@id/common" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/information_to_user_dialog_title_margin" android:text="@string/STRING_TEXT_COMMON_INFORMATION" style="@style/TL_L_C1_ReStyle" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/information_to_user_dialog_small_margin">
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+            <FrameLayout android:id="@id/information_contents_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <EditText android:id="@id/editText" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/info_divider" android:background="@color/information_to_user_dialog_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

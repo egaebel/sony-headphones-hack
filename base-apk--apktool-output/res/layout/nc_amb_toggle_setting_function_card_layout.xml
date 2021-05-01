@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/close_knob_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:contentDescription="@string/STRING_TEXT_COMMON_COLLAPSE" app:srcCompat="@drawable/a_mdr_extended_area_knob_open" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:gravity="center_vertical" android:id="@id/noise_canceling_check" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/AMBSoundCtrlModeSelect_Elem_NC" android:paddingStart="32.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" style="@style/TSS_L_C1_Re" />
+        <CheckBox android:gravity="center_vertical" android:id="@id/ambient_sound_check" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/AMBSoundCtrlModeSelect_Elem_AMB" android:paddingStart="32.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" style="@style/TSS_L_C1_Re" />
+        <CheckBox android:gravity="center_vertical" android:id="@id/off_check" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/AMBSoundCtrlModeSelect_Elem_Off" android:paddingStart="32.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" style="@style/TSS_L_C1_Re" />
+    </LinearLayout>
+</LinearLayout>

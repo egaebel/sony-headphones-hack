@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/action_tabs" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_below="@id/toolbar_layout" android:elevation="@dimen/ui_toolbar_elevation_height" app:tabIndicatorColor="?theme_color_tab_indicator" app:tabIndicatorHeight="3.0dip" style="@style/TabLayout" />
+    <com.sony.songpal.mdr.view.layout.NonSwipeableViewPager android:id="@id/action_tab_viewpager" android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="48.0dip" android:layout_below="@id/action_tabs" />
+    <FrameLayout android:id="@id/action_footer" android:background="?theme_color_primary" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+        <TextView android:gravity="center" android:layout_gravity="start|center" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="@dimen/text_button_height" android:minWidth="@dimen/text_button_min_width" android:text="@string/STRING_TEXT_COMMON_CANCEL" android:paddingStart="@dimen/text_button_side_padding" android:paddingEnd="@dimen/text_button_side_padding" android:layout_marginStart="20.0dip" style="@style/TSS_L_A1_MeStyle" />
+        <TextView android:gravity="center" android:layout_gravity="end|center" android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="@dimen/text_button_height" android:minWidth="@dimen/text_button_min_width" android:text="@string/Common_Done" android:paddingStart="@dimen/text_button_side_padding" android:paddingEnd="@dimen/text_button_side_padding" android:layout_marginEnd="20.0dip" style="@style/TSS_R_A1_MeStyle" />
+    </FrameLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d3" android:scaleType="fitXY" android:layout_above="@id/action_footer" />
+</RelativeLayout>

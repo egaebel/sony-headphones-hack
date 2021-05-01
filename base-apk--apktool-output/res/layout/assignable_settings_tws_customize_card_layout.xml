@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/title" android:layout_centerVertical="true">
+            <Spinner android:id="@id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:id="@id/spinner_underline" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignRight="@id/spinner" />
+        </LinearLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="54.0dip" android:text="@string/Assignable_Key_Setting_Edit_Label_Function" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" style="@style/TSS_L_C1_Re" />
+    </RelativeLayout>
+    <TextView android:id="@id/summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Assignable_Key_Elem_Help_Button" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" style="@style/TSS_L_C2_Re" />
+    <TextView android:id="@id/concierge_link" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/Assignable_Key_Elem_Help_Button" android:layout_marginStart="12.0dip" style="@style/TSS_L_A1_Re" />
+    <TextView android:id="@id/gesture_and_function_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/Assignable_Key_Setting_Edit_Label_Manipulation" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/TSS_L_C1_Re" />
+    <LinearLayout android:orientation="vertical" android:id="@id/action_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

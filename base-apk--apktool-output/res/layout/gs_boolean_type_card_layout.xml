@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/info_button" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <TextView android:textAppearance="@style/TSS_L_C1_Re" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/info_button" android:focusable="true" android:layout_width="@dimen/information_button_width" android:layout_height="@dimen/information_button_height" android:src="@drawable/information_button_selector" android:layout_centerVertical="true" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" android:layout_toStartOf="@id/on_off_switch" />
+    <Switch android:id="@id/on_off_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

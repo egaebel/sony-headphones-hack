@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Switch android:id="@id/voice_focus_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_toLeftOf="@id/voice_focus_switch" android:layout_marginStart="72.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SmartTalkingMode_Setting_ASC_Title" style="@style/TS_L_C1_Re" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SmartTalkingMode_Setting_ASC_Detail" style="@style/TSS_L_C2_Re" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

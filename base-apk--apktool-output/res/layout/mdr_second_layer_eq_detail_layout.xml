@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_1" android:scaleType="fitXY" />
+        <RelativeLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="126.0dip">
+            <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/header" android:layout_width="0.0dip" android:layout_height="@dimen/eq_common_title_height" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+                <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EQ_Preset_Title" style="@style/TSS_L_C1_Re" />
+                <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon" android:background="@drawable/a_mdr_clearbass_icon_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EQ_ClearBass_Title" style="@style/T4S_L_C3_BoStyle" />
+                    <TextView android:id="@id/clearbass_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_marginStart="6.0dip" style="@style/T4S_R_C3_BoStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/graph_area" android:layout_width="fill_parent" android:layout_height="@dimen/eq_common_graph_height" android:layout_below="@id/header" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+                <com.sony.songpal.mdr.view.eqgraph.EqGraphView android:layout_gravity="center_horizontal" android:id="@id/graph" android:layout_width="@dimen/eq_common_graph_width" android:layout_height="@dimen/eq_common_graph_height" />
+            </FrameLayout>
+        </RelativeLayout>
+        <com.sony.songpal.mdr.view.horizontaltextslider.HorizontalTextSlider android:id="@id/horizontal_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/horizontal_slider_top_margin" android:layout_marginBottom="@dimen/horizontal_slider_bottom_margin" android:alpha="1.0" app:indicator_image_size="@dimen/horizontal_slider_indicator_image_size" app:margin_both_text_and_indicator="@dimen/horizontal_slider_both_text_and_indicator_margin" app:normal_text_style="@style/TS_C_C2_LiStyle" app:selected_text_style="@style/T3LL_C_C1_ReStyle" app:start_margin_text="@dimen/horizontal_slider_text_margin" />
+        <ImageView android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_2" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="start" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_left" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="end" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_right" android:scaleType="fitXY" />
+</FrameLayout>

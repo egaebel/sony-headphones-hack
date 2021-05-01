@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sony.songpal.mdr.view.layout.LinearLayoutCheckable android:gravity="center_vertical" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_with_radio_btn_height" android:baselineAligned="false" android:paddingStart="16.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:textAppearance="@style/TSS_L_C1_Re" android:textColor="@drawable/nc_asm_item_text_selector" android:id="@id/item" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="32.0dip" android:paddingEnd="0.0dip" />
+</com.sony.songpal.mdr.view.layout.LinearLayoutCheckable>

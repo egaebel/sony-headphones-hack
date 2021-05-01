@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">长</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">短</string>
+    <string name="AR_Custom_Reset">重置</string>
+    <string name="AR_Custom_Title">编辑</string>
+    <string name="AR_Custom_Title_iOS">编辑</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"应用程序会检测您的动作和经常访问的位置，并自动切换耳机设置，例如，如何收入环境声音。
+藉此可获得最佳的音乐体验，以适应您此刻听音乐的场景。
+
+使用此功能？"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"应用程序检测到您的行为，会自动调整如何收入周围的声音。
+藉此可获得最佳的音乐体验，以适应您此刻听音乐的场景。
+
+使用此功能？"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">自适应声音控制设置完成。</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"由于自动切换到适合检测出的动作和位置的设置，降噪可能会关闭。
+您可以在仪表盘的[自适应声音控制]上自定义此设置。"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"根据检测出的动作，可设置为关闭降噪，接收周围的声音。
+您可以在仪表盘的[自适应声音控制]上自定义此设置。"</string>
+    <string name="AR_Notification_Message">[%s]已启用。</string>
+    <string name="AR_Status_Detecting">正在检测</string>
+    <string name="AR_Status_LongStay">正在停留</string>
+    <string name="AR_Status_Run">正在奔跑</string>
+    <string name="AR_Status_ShortStay">正在停留</string>
+    <string name="AR_Status_Vehicle">搭乘交通工具</string>
+    <string name="AR_Status_Walking">正在步行</string>
+    <string name="AR_Title">自适应声音控制</string>
+    <string name="AR_Title_Detail">应用程序会检测您的动作和经常访问的位置，并自动切换耳机设置，例如，如何收入环境声音。</string>
+    <string name="AR_Title_Detail_China">该应用程序会检测您的行为，并切换[%s]。</string>
+    <string name="AR_Title_Detail_EffectTone">关闭[%s]可以对切换时发出的通知声音静音。</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">位于此位置时将启用这些设置，并禁用根据动作自动切换。</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">位于已注册位置时禁用</string>
+    <string name="ASC_Behavior_Detection">根据动作自动切换</string>
+    <string name="ASC_Behavior_Detection_Menu">动作检测</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"通过注册经常访问的位置，可以根据该位置自动切换设置。
+使用学习功能可以轻松注册经常访问的位置。
+是否使用此功能？
+*使用学习功能后，将需要几天才能注册经常访问的位置。"</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">由于位置学习功能离线，因此未将位置发送到服务器。</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">使用学习功能</string>
+    <string name="ASC_LearningLocation">学习经常访问的位置</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"已启用经常访问的位置的学习功能，以及根据自适应声音控制的位置自动切换设置的功能，但是由于无法访问位置，因此无法检测位置。
+
+要在后台运行这些功能，按下[设置]按钮，然后从[权限]>[位置信息]中选择[始终允许]。如果始终允许，即使关闭或未使用应用，也会收集位置数据。"</string>
+    <string name="ASC_Location_Detail">位置信息</string>
+    <string name="ASC_Location_Detail_Message">"已学习一个新位置。
+如果已注册此位置，则可自动切换耳机设置。"</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">将降噪设置为关闭，并预设为可使您更好地注意到周围人声的设置。</string>
+    <string name="ASC_Location_Detail_Message_Other">此位置的推荐设置可用作预设。</string>
+    <string name="ASC_Location_Detail_Message_Station">将降噪设置为关闭，并预设为可使您更好地注意到周围环境声音的设置。</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">学习经常访问的位置</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">已学习一个新位置。</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">如果已注册此位置，则可自动切换耳机设置。</string>
+    <string name="ASC_Location_Detection">根据位置自动切换</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">在地铁和隧道等GPS接收信号较弱的位置，学习经常访问的位置和根据位置自动切换可能无法正常运行。</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">由于您的移动设备未配备GPS，因此学习经常访问的位置和根据位置自动切换可能无法正常运行。</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">位置检测有限制</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">正在检测位置...</string>
+    <string name="ASC_Location_Empty_Message">要使用根据您的位置自动切换，请注册经常访问的位置。</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">开启位置</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"已启用经常访问的位置的学习功能，以及根据自适应声音控制的位置自动切换设置，但由于位置功能已关闭，无法检测位置。
+
+开启位置以使这些功能正常运行。"</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"已启用经常访问的位置的学习功能，以及根据自适应声音控制的位置自动切换设置，但由于位置服务已关闭，无法检测位置。
+
+开启位置服务以使这些功能正常运行。
+从移动设备的“设置”>[隐私]>[位置服务]中进行设置。"</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">开启位置</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">开启位置服务</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">开启位置以检测经常访问的位置。</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">开启位置服务以检测经常访问的位置。</string>
+    <string name="ASC_Location_Learning_Location_List">已学习位置</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">经常访问的位置</string>
+    <string name="ASC_Location_Learning_Location_Select_message">选择您要注册的位置。</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">已启用学习功能。</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"通过注册经常访问的位置，而不仅仅是检测到的动作，即可在自适应声音控制上使用基于该位置的自动切换设置功能。使用学习功能可以轻松注册经常访问的位置。
+*使用学习功能后，将需要几天才能注册经常访问的位置。"</string>
+    <string name="ASC_Location_Learning_Tips_notification">您可以使用学习功能轻松注册经常访问的位置。</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">允许访问位置</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"已启用经常访问的位置的学习功能，以及根据自适应声音控制的位置自动切换设置的功能，但是由于无法访问位置，因此无法检测位置。
+
+允许访问位置以使这些功能正常运行。如果始终允许，即使关闭或未使用应用，也会收集位置数据。"</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"已启用经常访问的位置的学习功能，以及根据自适应声音控制的位置自动切换设置的功能，但是由于无法访问位置，因此无法检测位置。
+
+在下一个屏幕中选择[使用应用程序时]，以使这些功能正常运行。"</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"已启用经常访问的位置的学习功能，以及根据自适应声音控制的位置自动切换设置的功能，但是由于无法访问位置服务，因此无法检测位置。
+
+要在后台运行这些功能，按下[设置]按钮，并始终允许从[位置]访问。"</string>
+    <string name="ASC_Location_Permission_Tips_notification">允许访问位置以检测经常访问的位置。</string>
+    <string name="ASC_Location_Position_Set">位置</string>
+    <string name="ASC_Location_Position_Set_message">点击以指定位置。</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">打开精确位置</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"已启用经常访问的位置的学习功能，以及根据自适应声音控制的位置自动切换设置，但由于精确位置已关闭，无法检测位置。
+
+要正常运行这些功能，按下[设置]按钮，然后从[位置]中打开精确位置。"</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">打开精确位置以检测经常访问的位置。</string>
+    <string name="ASC_Location_Range">范围</string>
+    <string name="ASC_Location_Range_Param_Large">大</string>
+    <string name="ASC_Location_Range_Param_Mid">标准</string>
+    <string name="ASC_Location_Range_Param_Small">小</string>
+    <string name="ASC_Location_Registration">注册位置</string>
+    <string name="ASC_Location_Setting">位置设置</string>
+    <string name="ASC_Location_Sound_Setting">耳机设置</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">从[添加/删除项目]中选择要在此位置切换使用的设置。</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">请勿切换</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">添加/删除项目</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"选择要在此位置切换的设置。
+即使您输入此位置，未选择的设置也将保持之前的状态。"</string>
+    <string name="ASC_Location_Switch_Setting">切换方法</string>
+    <string name="ASC_Location_Type_Bus">公交车站</string>
+    <string name="ASC_Location_Type_Gym">健身房</string>
+    <string name="ASC_Location_Type_Home">家</string>
+    <string name="ASC_Location_Type_Office">工作场所</string>
+    <string name="ASC_Location_Type_Other">其他</string>
+    <string name="ASC_Location_Type_School">学校</string>
+    <string name="ASC_Location_Type_Set">类别</string>
+    <string name="ASC_Location_Type_Set_message">选择一个类别。</string>
+    <string name="ASC_Location_Type_Train">车站</string>
+    <string name="ASC_NotificationSound">切换时的通知音</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">允许通知设置。</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"虽然已启用自适应声音控制的[从通知切换]设置，但由于不允许通知设置，因此不会显示通知。
+
+允许通知设置以使此功能正确运行。"</string>
+    <string name="ASC_NowHere">您在此位置</string>
+    <string name="ASC_Others_Section">其他</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">从已学习位置注册</string>
+    <string name="ASC_RegisterFromMapBtn">从地图注册</string>
+    <string name="ASC_RegisteredLocation">已注册位置</string>
+    <string name="ASC_Status_Empty">未自动切换</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">禁用（您需要手动更改均衡器）</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*手动切换</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">禁用（因为声音质量优先）</string>
+    <string name="ASC_Status_Sound_Setting_info">设置状态</string>
+    <string name="ASC_Supplement_A2SC_Controlled">通过自适应声音控制自动设置。</string>
+    <string name="ASC_Supplement_Change_Behavior">如果您的动作发生改变，设置将通过自适应声音控制自动更改。</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">如果您的动作和位置发生改变，设置将通过自适应声音控制自动更改。</string>
+    <string name="ASC_Supplement_Change_Location">如果您的位置发生改变，设置将通过自适应声音控制自动更改。</string>
+    <string name="ASC_Supplement_Leave_Location">如果离开此位置，将返回到根据自适应声音控制的自动设置。</string>
+    <string name="ASC_Switch_Detail_Message">如果设定为[从通知切换]，在此位置时，您可以随时切换到此设置。</string>
+    <string name="ASC_Switch_Notification_After_Button">恢复</string>
+    <string name="ASC_Switch_Notification_After_Description">您可以恢复到切换前的设置。</string>
+    <string name="ASC_Switch_Notification_After_Title">设定为%s设置</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">切换</string>
+    <string name="ASC_Switch_Notification_Before_Description">切换到此位置的设置？</string>
+    <string name="ASC_Switch_Notification_Before_Title">地点: %s</string>
+    <string name="ASC_Switch_Type_Auto">自动切换</string>
+    <string name="ASC_Switch_Type_Manual">从通知切换</string>
+    <string name="ASM_Param_ASM">环境声音</string>
+    <string name="ASM_Param_NC">降噪</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">关闭</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">开启</string>
+    <string name="ASM_Param_Street">风噪降低</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">环境声音</string>
+    <string name="ASM_Simple_Param_AsmNormal">环境声音 - 标准模式</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">环境声音 - 标准模式</string>
+    <string name="ASM_Simple_Param_AsmVoice">环境声音 - 语音模式</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">环境声音 - 语音模式</string>
+    <string name="ASM_Simple_Param_Asm_forBody">环境声音</string>
+    <string name="ASM_Simple_Param_Dual">降噪</string>
+    <string name="ASM_Simple_Param_Dual_forBody">降噪</string>
+    <string name="ASM_Simple_Param_NC">降噪</string>
+    <string name="ASM_Simple_Param_NC_forBody">降噪</string>
+    <string name="ASM_Simple_Param_Street">风噪降低</string>
+    <string name="ASM_Simple_Param_Street_forBody">风噪降低</string>
+    <string name="ASM_Simple_Title">环境声音控制</string>
+    <string name="ASM_Title">环境声音控制</string>
+    <string name="ASM_Voice">关注语音</string>
+    <string name="Abort_FWUpdate">放弃</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">未设置</string>
+    <string name="AppNotify_Custom_Param_Vibration">振动</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">语音合成</string>
+    <string name="AppNotify_Custom_Title">通过耳机接收通知</string>
+    <string name="AppNotify_Detail">您可在耳机上接收来自于选定应用程序的通知。如要使用语音合成功能，必须在移动设备的Bluetooth设置上选择媒体音频。</string>
+    <string name="AppNotify_NeedSetup">选择您想要接收通知的应用程序。</string>
+    <string name="AppNotify_Notification_Message">[%s]功能已启用。</string>
+    <string name="AppNotify_Setapps">选定%d应用程序。</string>
+    <string name="AppNotify_Title">通过耳机接收通知</string>
+    <string name="AppSetting_Link">启动Music Center</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">注册</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">当前播放的音乐将会停止，因为必须重新连接到耳机。是否更改？</string>
+    <string name="Assignable_Key_Changing_Error">操作失败。</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">切换按钮功能</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">Amazon Alexa应用程序是使用此功能的必要条件。</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">设置Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">完成Google Assistant应用程序设置以便使用此功能。</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">Google Assistant应用程序是使用此功能的必要条件。</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google Assistant</string>
+    <string name="Assignable_Key_Elem_Help_Button">了解更多</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">按钮操作禁用。配对操作在此设置上可用。</string>
+    <string name="Assignable_Key_Elem_None_Title">未分配</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">触控操作将禁用。配对操作在此设置上可用。</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">播放控制</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">您可通过耳机的麦克风使用语音来操作移动设备。</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">语音辅助功能</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">音量调节</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">您无法将语音辅助功能同时分配至左侧和右侧。</string>
+    <string name="Assignable_Key_Setting_1">[NC/AMBIENT]按钮的切换功能</string>
+    <string name="Assignable_Key_Setting_2">左侧按钮的切换功能</string>
+    <string name="Assignable_Key_Setting_Button">更改按钮功能</string>
+    <string name="Assignable_Key_Setting_C">[C]按钮的切换功能</string>
+    <string name="Assignable_Key_Setting_CUSTOM">[CUSTOM]按钮的切换功能</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">重置</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">你可以更改分配至左侧按钮的功能。</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">你可以更改分配至右侧按钮的功能。</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">你可以更改分配至[C]按钮的功能。</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">你可以更改分配至[CUSTOM]按钮的功能。</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">你可以更改分配至左侧触摸感应器的功能。</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">你可以更改分配至右侧触摸感应器的功能。</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">功能：</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">操作方法：</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">左</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">右</string>
+    <string name="Assignable_Key_Setting_Edit_Title">编辑</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">音频输入/取消</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">取消语音辅助功能</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">取消音频输入</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">语音通知</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">音频输入</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">启动语音辅助功能</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">下一首歌</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">播放/暂停</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">上一首歌</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">降噪/环境声音/关闭</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">降噪优化器</string>
+    <string name="Assignable_Key_Setting_Function_None">无</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">快速注意</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">调低音量</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">调高音量</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">音频输入</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">按2次</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">按2次&amp;继续按</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">按1次</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">按1次&amp;继续按</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">按3次</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">继续按</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">长按</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">双击</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">双击&amp;继续按</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">单击</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">单击&amp;继续按</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">点击三次</string>
+    <string name="Assignable_Key_Setting_NC">[NC]按钮的切换功能</string>
+    <string name="Assignable_Key_Setting_NCAMB">[NC/AMB]按钮的切换功能</string>
+    <string name="Assignable_Key_Setting_Not_Connected">未连接。</string>
+    <string name="Assignable_Key_Setting_R">右侧按钮的切换功能</string>
+    <string name="Assignable_Key_Setting_SaveCheck">编辑未完成。是否退出？</string>
+    <string name="Assignable_Key_Setting_Touch">更改触摸感应器功能</string>
+    <string name="AutoPlaybackControl_Title">当耳机取下时暂停</string>
+    <string name="AutoPowerOff_Off_Parameter">不关闭</string>
+    <string name="AutoPowerOff_Off_Title">不关闭</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">如果一段时间不佩戴，耳机电源将自动关闭。</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">当耳机取下时关闭</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">当耳机取下时关闭</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Bluetooth断开一段时间后，耳机电源自动关闭。</string>
+    <string name="AutoPowerOff_SelectTime_Title">一段时间后关闭</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1小时</string>
+    <string name="AutoPowerOff_SelectTme_30min">30分钟</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3小时</string>
+    <string name="AutoPowerOff_SelectTme_5min">5分钟</string>
+    <string name="AutoPowerOff_Title">自动断电</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">电池电量</string>
+    <string name="Battery_Remain_Unknown">电池电量未知</string>
+    <string name="Button_Next">下一</string>
+    <string name="Button_Permission_iOS_Settings">设置</string>
+    <string name="Button_Prev">上一</string>
+    <string name="Codec_AAC">已通过AAC连接。</string>
+    <string name="Codec_LDAC">已通过LDAC连接。</string>
+    <string name="Codec_SBC">已通过SBC连接。</string>
+    <string name="Codec_aptX">已通过aptX连接。</string>
+    <string name="Codec_aptXHD">已通过aptX HD连接。</string>
+    <string name="Common_App_Start">开始</string>
+    <string name="Common_Back">返回</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">完成</string>
+    <string name="Common_EULA">终端用户许可协议</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">更多信息</string>
+    <string name="Common_Off">关闭</string>
+    <string name="Common_On">开启</string>
+    <string name="Common_Other">其他</string>
+    <string name="Common_PP">隐私政策</string>
+    <string name="Common_Pause">暂停</string>
+    <string name="Common_Play">播放</string>
+    <string name="Common_Start">开始</string>
+    <string name="Common_Yes">是</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">要更改设置，必须将声音质量模式更改为稳定连接优先。此外，将重新连接耳机，并且当前播放的音乐将会停止。是否更改？</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">当前播放的音乐将会停止，因为必须重新连接到耳机。此外，如果更改为声音质量优先，可能无法使用声音质量设置。是否更改？</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">当前播放的音乐将会停止，因为必须重新连接到耳机。是否更改？</string>
+    <string name="ConnectMode_Changing_Title_Caution">必须更改声音质量模式</string>
+    <string name="ConnectMode_Changing_Title_Confirm">更改声音质量模式</string>
+    <string name="ConnectMode_Connectivity_Detail">如果声音频繁跳动，请选择此设置。</string>
+    <string name="ConnectMode_Connectivity_Title">稳定连接优先</string>
+    <string name="ConnectMode_Sound_Title">声音质量优先</string>
+    <string name="ConnectMode_Title">声音质量模式</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">本產品(Sony | Headphones Connect)包括由Sony Corporation根據Sony Computer Science Laboratories, Inc.研究研發的活動識別技術。</string>
+    <string name="Copyright_AptX">Qualcomm是Qualcomm Incorporated在美國與其他國家註冊的商標，並獲得許可使用。aptX是Qualcomm Technologies International, Ltd.在美國與其他國家註冊的商標，並獲得許可使用。</string>
+    <string name="Copyright_Bluetooth">Bluetooth®文字標記和商標為Bluetooth SIG, Inc.所擁有，Sony Corporation對於該標誌的任何用途皆獲得授權。</string>
+    <string name="Copyright_NFC">N標記為NFC Forum, Inc.在美國和其他國家的商標或註冊商標。</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">查看最新的电池电量</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">显示的电池电量在将耳机从充电保护盒上摘掉时更新。</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">将耳机从充电保护盒中取出时，充电保护盒上的电池电量显示会更新。</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">要启用充电保护盒上的电池电量显示吗？</string>
+    <string name="Cradle_Battery">充电保护盒</string>
+    <string name="Current_Volume_Talkback">当前音量</string>
+    <string name="DSEEHX_AI_Param_Auto">自动</string>
+    <string name="DSEEHX_AI_Param_Off">关闭</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">自动</string>
+    <string name="DSEEHX_Param_Off">关闭</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme开启</string>
+    <string name="DSEE_HX_ON">DSEE HX开启</string>
+    <string name="DSEE_ON">DSEE开启</string>
+    <string name="DSEE_Param_Auto">自动</string>
+    <string name="DSEE_Param_Off">关闭</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">声音</string>
+    <string name="Dashboard_Tab_Status">状态</string>
+    <string name="Dashboard_Tab_System">系统</string>
+    <string name="DeviceStatus_Bluetooth_Connected">已通过Bluetooth连接。</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">未通过Bluetooth连接。</string>
+    <string name="Device_Connection_Connect">连接</string>
+    <string name="Device_Connection_Connect_iOS">连接已配对的耳机</string>
+    <string name="Device_Connection_Message1">通过Bluetooth连接到耳机。</string>
+    <string name="Device_Connection_Pair">连接新耳机</string>
+    <string name="Device_Registration_Top_Msg">注册新耳机。</string>
+    <string name="Download_Latest_MDRPlugin">如要使用该耳机，必须使用最新版的Headphones Connect。从Google Play更新此应用程序。</string>
+    <string name="Download_Latest_MDRPlugin_iOS">如要使用该耳机，必须使用最新版的Headphones Connect。从App Store更新此应用程序。</string>
+    <string name="EBB_Indicator">电子低音增强器</string>
+    <string name="EBB_Param_Title">等级</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">原声</string>
+    <string name="EQ_Preset_Bass">低音增强</string>
+    <string name="EQ_Preset_Bright">欢快</string>
+    <string name="EQ_Preset_Custom">手动</string>
+    <string name="EQ_Preset_Dance">舞曲</string>
+    <string name="EQ_Preset_EDM">电子舞曲</string>
+    <string name="EQ_Preset_Excited">激昂</string>
+    <string name="EQ_Preset_Jazz">爵士乐</string>
+    <string name="EQ_Preset_Mellow">醇美</string>
+    <string name="EQ_Preset_Off">关闭</string>
+    <string name="EQ_Preset_Pop">流行乐</string>
+    <string name="EQ_Preset_RandB_HipHop">节奏蓝调/说唱乐</string>
+    <string name="EQ_Preset_Relaxed">放松</string>
+    <string name="EQ_Preset_Rock">摇滚乐</string>
+    <string name="EQ_Preset_Speech">演说</string>
+    <string name="EQ_Preset_Title">均衡器</string>
+    <string name="EQ_Preset_Treble">高音增强</string>
+    <string name="EQ_Preset_UserSetting">自定义</string>
+    <string name="EQ_Preset_Vocal">原声</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_zh-hans.html</string>
+    <string name="ErrMsg_CannotAccess_Server">未能连接到服务器。请检查网络连接状态。</string>
+    <string name="FW_Download_Param_Always">一直自动下载</string>
+    <string name="FW_Download_Param_OnlyWiFi">仅在通过Wi-Fi连接时</string>
+    <string name="FW_Download_Title">软件自动下载</string>
+    <string name="FW_EULA_Title">使用条款</string>
+    <string name="FW_Info_Button_Resume">重新开始</string>
+    <string name="FW_Info_Button_Start">开始</string>
+    <string name="FW_Info_Caution">"更新期间耳机不可用。
+启动时，请将耳机和移动设备放在相隔较近的位置。"</string>
+    <string name="FW_Info_Caution_Downloading">"如果耳机和移动设备分开，或耳机电源关闭，下载将中止。
+如果中止，下载可重新开始。"</string>
+    <string name="FW_Info_Caution_Sending">"如果耳机和移动设备分开，或耳机电源关闭，传输将中止。
+如果中止，传输可从中止处重新开始。"</string>
+    <string name="FW_Info_Caution_Start">从将耳机和移动设备放在相隔较近的位置开始。</string>
+    <string name="FW_Info_EULA">按下以下按钮，即表示您已经阅读许可文件，并同意接受其中的内容。</string>
+    <string name="FW_Info_EULALink">使用条款</string>
+    <string name="FW_Info_Message1">有最新款耳机软件可用。</string>
+    <string name="FW_Info_Message2">按下[接受]按钮后，开始更新。</string>
+    <string name="FW_Info_Message3">按下[确定]按钮后，开始更新。</string>
+    <string name="FW_Info_Message_Download">如果按下[%s]按钮，将开始准备更新。</string>
+    <string name="FW_Info_Message_Resume">按下[%s]按钮重新传输。</string>
+    <string name="FW_Info_Message_Update">按下[%s]按钮开始更新。</string>
+    <string name="FW_Info_Title">软件信息</string>
+    <string name="FW_Info_Version">版本</string>
+    <string name="FW_Notify_Abort">已中止耳机软件传输。</string>
+    <string name="FW_Notify_Detail">更多信息</string>
+    <string name="FW_Notify_Downloading">正在下载最新的耳机软件...(%d%%)</string>
+    <string name="FW_Notify_Msg">有最新款耳机软件可用。</string>
+    <string name="FW_Notify_Sending">正在传输最新的耳机软件...(%d%%)</string>
+    <string name="FW_Notify_Update">更新耳机软件。</string>
+    <string name="FW_Update_Button_Transit_AppStore">从App Store更新</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">从Google Play更新</string>
+    <string name="FW_Update_Message1">请稍候...</string>
+    <string name="FW_Update_Message2">"请勿切断电源。
+请勿将耳机和移动设备放置在相隔较远的位置。"</string>
+    <string name="FW_Update_Message3">"自动重启。
+请勿将耳机和移动设备放置在相隔较远的位置。"</string>
+    <string name="FW_Update_Message_step2_1">正在往左侧组件传输</string>
+    <string name="FW_Update_Message_step2_2_1">正在更新耳机左侧组件</string>
+    <string name="FW_Update_Message_step2_2_2">"耳机左侧组件更新完成。
+连接至右侧组件"</string>
+    <string name="FW_Update_Message_step2_2_3">准备往右侧组件传输</string>
+    <string name="FW_Update_Message_step2_3">正在往右侧组件传输</string>
+    <string name="FW_Update_Retry_Body_Caution">"在此之前更新软件，你必须关闭\"Google Assistant\"功能。
+一旦\"Google Assistant\"功能被关闭，耳机会自动重新启动，你需要遵循弹出指令。
+该软件已经更新完成后，请手动切换回的\"Google Assistant\"设置。"</string>
+    <string name="FW_Update_Retry_Title_Caution">“Google Assistant”功能必须关闭</string>
+    <string name="FW_Update_Status_Abort">已中止耳机软件传输。</string>
+    <string name="FW_Update_Status_Download">正在下载软件...</string>
+    <string name="FW_Update_Status_Download_step1">正在下载软件...(1/3)</string>
+    <string name="FW_Update_Status_Downloading">正在下载最新的耳机软件...</string>
+    <string name="FW_Update_Status_Install">正在更新...</string>
+    <string name="FW_Update_Status_Install_step3">正在更新软件...(3/3)</string>
+    <string name="FW_Update_Status_Prepared">更新耳机软件。</string>
+    <string name="FW_Update_Status_Send">正在传输软件...</string>
+    <string name="FW_Update_Status_Send_step2">正在传输软件...(2/3)</string>
+    <string name="FW_Update_Status_Sending">正在传输最新的耳机软件...</string>
+    <string name="FW_Update_Title">更新软件</string>
+    <string name="FW_Version_Confirm_Title">%s 版本</string>
+    <string name="FW_Version_Menu_Title">%s 版本</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">zh-cn</string>
+    <string name="GoogleAssistantIntro_Link">设置您的Google Assistant</string>
+    <string name="GoogleAssistantIntro_Msg">立即访问您的个人Google以及更多功能。设置仅需几分钟。</string>
+    <string name="GoogleAssistantIntro_Title">现已针对Google Assistant优化。</string>
+    <string name="Help_Information_Priority_High">请在此处查看</string>
+    <string name="Help_Troubleshooting">故障排除</string>
+    <string name="IASetup_AnalyzeComplete_Detail">下一步，将这些结果发送至音乐应用程序以优化您的360 Reality Audio体验。</string>
+    <string name="IASetup_AnalyzeComplete_Title">已成功分析您的耳朵</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"拍摄您的耳朵照片进行分析。
+拍照前，请确保您的耳朵完全可见并检查以下内容:
+
+- 从耳朵上取下耳机。
+- 您的耳朵没有被头发遮住。
+- 取下耳环和穿孔。"</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">分析您的耳形</string>
+    <string name="IASetup_Analyze_Cmd_Retry">重新分析</string>
+    <string name="IASetup_Analyze_Cmd_Start">分析</string>
+    <string name="IASetup_Analyze_Detail">此过程需要约%d秒。</string>
+    <string name="IASetup_Analyze_Label">分析耳形</string>
+    <string name="IASetup_Analyze_Status_Done">已分析您的耳朵</string>
+    <string name="IASetup_Analyze_Status_NotComp">未分析您的耳朵</string>
+    <string name="IASetup_Analyze_Title">分析您的耳朵</string>
+    <string name="IASetup_AppDetail_NotInstalled">未安装</string>
+    <string name="IASetup_AppDetail_NotOptimized">未优化</string>
+    <string name="IASetup_AppDetail_Optimized">已优化</string>
+    <string name="IASetup_AppInstallConf_Title">您必须在安装后返回Headphones Connect。</string>
+    <string name="IASetup_AppInstall_Detail">360 Reality Audio在应用程序安装完并启动时设置完成。音乐应用程序已优化，可再现精准音域。</string>
+    <string name="IASetup_AppInstall_Detail_iOS">在安装应用程序和完成360 Reality Audio设置后，音乐应用程序优化，再现精准音域。</string>
+    <string name="IASetup_AppInstall_Install">安装和优化</string>
+    <string name="IASetup_AppInstall_Install_iOS">安装</string>
+    <string name="IASetup_AppInstall_Title">360 Reality Audio在应用程序启动时设置完成。</string>
+    <string name="IASetup_AppInstall_Title_iOS">在您的手机上安装此应用程序。</string>
+    <string name="IASetup_AppIntroduction_Detail">"为尝试这种身临其境的音乐感受，您需要这些适用于360 Reality Audio的音乐服务应用程序中的一个。
+*订阅费和适用内容因音乐服务而异。"</string>
+    <string name="IASetup_AppIntroduction_Title">适用于360 Reality Audio的音乐应用程序</string>
+    <string name="IASetup_AppLaunch_Detail">"完成360 Reality Audio设置后，您可以播放音乐，享受精准的音域体验。
+请享受为您优化的360 Reality Audio。"</string>
+    <string name="IASetup_AppLaunch_Optimize">启动即可优化</string>
+    <string name="IASetup_AppLaunch_Title">360 Reality Audio在应用程序启动时设置完成。</string>
+    <string name="IASetup_AppList_Detail">"仅可从这些音乐服务应用程序获得360 Reality Audio。请选择希望使用的应用程序。
+*订阅费和适用内容因音乐服务而异。"</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">未安装</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">未优化</string>
+    <string name="IASetup_AppList_Gp_Optimized">已优化</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">不能侦测到。</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">请勿移动您的头部。</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">请勿移动智能手机。</string>
+    <string name="IASetup_CameraInstruction_Complete">抓拍的照片。</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">已检测到您的耳朵。请勿移动您的头部。</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">正在检测左耳...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">正在检测右耳...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">现在的位置恰当。从那个位置，请将头部慢慢向右转动。</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">请将头部慢慢向右转动。</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">现在的位置恰当。从那个位置，请将头部慢慢向左转动。</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">请将头部慢慢向左转动。</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"拍摄左耳照片。请摘下耳机。
+将头转向右侧并按下快门按钮。"</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"请摘下耳机。
+将头转向右侧，使耳朵出现在框内然后按下快门按钮。"</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"拍摄右耳照片。请摘下耳机。
+将头转向左侧并按下快门按钮。"</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"请摘下耳机。
+将头转向左侧，使耳朵出现在框内然后按下快门按钮。"</string>
+    <string name="IASetup_CameraInstruction_Position_Away">请从您的头部移走拍摄装置。</string>
+    <string name="IASetup_CameraInstruction_Position_Close">请将拍摄装置拉近一点。</string>
+    <string name="IASetup_CameraInstruction_Position_Down">请将拍摄装置向下倾斜一点。</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"请摘下耳机。
+然后正视摄像头，将您的头部置于框内。"</string>
+    <string name="IASetup_CameraInstruction_Position_Left">请将拍摄装置稍微向左旋转。</string>
+    <string name="IASetup_CameraInstruction_Position_Right">请将拍摄装置稍微向右旋转。</string>
+    <string name="IASetup_CameraInstruction_Position_Up">请将拍摄装置向上倾斜一点。</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">请摘下耳机。</string>
+    <string name="IASetup_CompletePhotograph_Detail">开始分析您的耳形。</string>
+    <string name="IASetup_CompletePhotograph_Title">已成功捕捉您的右耳</string>
+    <string name="IASetup_Confirm_NonBT_Device">请按[%s]按钮进行耳机设置。</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">要收听和比较360 Reality Audio的沉浸式声音，请关闭以下设置。</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">要在音乐服务应用程序中播放沉浸式360 Reality Audio，请关闭以下设置。</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">关闭并播放</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">关闭并开始</string>
+    <string name="IASetup_EarPhoto_Auto">自动拍摄(推荐)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">自动拍摄</string>
+    <string name="IASetup_EarPhoto_Manual">手动拍摄</string>
+    <string name="IASetup_FailurePhotograph_Detail">请确认以下注意事项并重拍耳朵照片。</string>
+    <string name="IASetup_FailurePhotograph_L_Title">未识别您的左耳</string>
+    <string name="IASetup_FailurePhotograph_R_Title">未识别您的右耳</string>
+    <string name="IASetup_FeatureTitle">360 Reality Audio设置</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">已确认</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">继续，不使用优惠券</string>
+    <string name="IASetup_FreeTrialCoupon_Start">前往优惠券网站</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">检查耳朵的方向，并按照导向调整位置和大小。</string>
+    <string name="IASetup_LearnMore">了解更多关于360 Reality Audio的信息</string>
+    <string name="IASetup_LearnMore_AboutApp">前往这里了解有关音乐服务的详细信息</string>
+    <string name="IASetup_Link_EarPhotoSample">耳朵的位置和大小</string>
+    <string name="IASetup_Link_Handling_EarPhoto">如何利用您的个人数据</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">我们为什么需要拍摄耳朵的照片？</string>
+    <string name="IASetup_Link_SendInfo_ToApp">关于要发送到音乐服务应用程序的信息</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">检查整个耳朵都在框内然后按下[%s]按钮。</string>
+    <string name="IASetup_NeedToUpdateApp_Title">须更新。</string>
+    <string name="IASetup_OOBE_Title">关于360 Reality Audio</string>
+    <string name="IASetup_Optimize_Cmd_AppList">确认</string>
+    <string name="IASetup_Optimize_Cmd_Install">安装</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">优化</string>
+    <string name="IASetup_Optimize_Label">优化应用程序</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">未安装360 Reality Audio应用程序</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">尚未优化360 Reality Audio应用程序</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">没有已优化的360 Reality Audio应用程序</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d个应用程序已优化</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"在下一画面上，将前拍摄装置转向您的脸部。当检测到您的耳朵时将自动进行拍摄。
+
+1. 双手握住移动设备，置于面前。
+2. 当检测到您的脸部时，请按照以下的语音提示将头转向右侧。
+3. 请站立不动，直到自动进行拍摄。"</string>
+    <string name="IASetup_PhotographEar_Title">拍摄左耳照片</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">取下耳饰。</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- 请拍摄左耳照片。
+- 如果拍摄环境太亮或太暗，请更换位置。
+- 取下耳朵上的耳机。"</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- 请拍摄右耳照片。
+- 如果拍摄环境太亮或太暗，请更换位置。
+- 取下耳朵上的耳机。"</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">确保您的头发没有遮住耳朵。</string>
+    <string name="IASetup_Photograph_Ear_L">左耳</string>
+    <string name="IASetup_Photograph_Ear_R">右耳</string>
+    <string name="IASetup_Photograph_Retake">重拍</string>
+    <string name="IASetup_Photograph_Take">拍照</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">普通音频</string>
+    <string name="IASetup_Select_NonBT_Button">转到仪表盘</string>
+    <string name="IASetup_SetupStart">开始设置</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">完成</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">拍摄一张您的耳朵照片进行分析。</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">未分析您的耳朵</string>
+    <string name="IASetup_SetupSummary_Detail">通过分析您耳朵的形状，我们可以为您精确地重现最佳音域。</string>
+    <string name="IASetup_SetupSummary_Optimize">开始第2步</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d个应用程序已优化</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">发送耳朵分析结果，优化音乐服务应用程序。</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">未安装360 Reality Audio应用程序</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">未优化360 Reality Audio应用程序</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">开始第1步</string>
+    <string name="IASetup_SetupSummary_Title">优化您的360 Reality Audio音域</string>
+    <string name="IASetup_Setup_Complete">360 Reality Audio音域已完成</string>
+    <string name="IASetup_Setup_Title">360 Reality Audio设置</string>
+    <string name="IASetup_SoundPreview_Detail">试听下面的示例音乐，感受其差别。</string>
+    <string name="IASetup_SoundPreview_Title">感受360 Reality Audio</string>
+    <string name="IASetup_StartAnalyze">开始</string>
+    <string name="IASetup_SuccessPhotograph_Detail">下一步，拍摄右耳照片。</string>
+    <string name="IASetup_SuccessPhotograph_Title">已成功捕捉您的左耳</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">优化应用程序</string>
+    <string name="IASetup_TipsDetail_Description">要在360 Reality Audio音乐服务应用程序上享受音频沉浸式的体验，必须通过发送耳朵分析结果来优化音乐服务应用程序。</string>
+    <string name="IASetup_TipsDetail_Title">仍未完成360 Reality Audio设置。</string>
+    <string name="IASetup_UpdateApp">更新</string>
+    <string name="IASetup_Welcome_Detail">在您的耳机上播放360 Reality Audio实现音频沉浸式的体验，可重现置身于现场演出的感觉。</string>
+    <string name="IASetup_Welcome_Title">欢迎使用360 Reality Audio</string>
+    <string name="IAWM_Analyze_Cmd_Retry">重新创建</string>
+    <string name="IAWM_Analyze_Cmd_Start">创建</string>
+    <string name="IAWM_Analyze_Label">创建个性化听力配置文件</string>
+    <string name="IAWM_Analyze_Status_Done">完成</string>
+    <string name="IAWM_Analyze_Status_NotComp">未完成</string>
+    <string name="IAWM_Complete_Data_Title">已完成听力配置文件的接收</string>
+    <string name="IAWM_Confirmation_Dialog1">"已保存您的听力配置文件。
+是否从服务器接收配置文件并继续优化应用程序？"</string>
+    <string name="IAWM_Hrtf_App_Button">开始接收</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"您的听觉档案接收失败。
+检查网络连接，请稍等并再次尝试。"</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"无法从服务器接收您的听力配置文件。
+确认已在智能手机上完成听力配置文件的创建，然后再次按按钮开始接收。"</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"无法从服务器接收您的听力配置文件。
+检查完以下各项后，请再次进入下一页面并开始接收。
+- 您在智能手机上的听觉档案已完成创建
+- 您已在此 Walkman 上使用同一账户登录 360 Spatial Sound Personalizer 和 Headphones Connect"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">在您的智能手机上安装360 Spatial Sound Personalizer应用程序，并使用与此Walkman相同的帐户登入，然后按照屏幕上的说明为您的耳朵拍照。</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">在智能手机上创建您的听力配置文件</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">开始接收</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"使用智能手机扫描二维码。如果无法执行扫描，请在应用程序商店中搜索“360 Spatial Sound Personalizer”应用程序。
+您的听觉档案完成创建后，此 Walkman 将自动接收您的听觉档案，因此请继续停留在此页面上。"</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"使用智能手机扫描二维码。如果无法执行扫描，请在应用程序商店中搜索“360 Spatial Sound Personalizer”应用程序。
+创建完您的听力配置文件后，按下面的按钮，然后开始接收。"</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">将应用程序安装到智能手机</string>
+    <string name="IAWM_Need_Sign_in_Description">登入到您的帐户以使用您将要创建或已经创建的听力配置文件。</string>
+    <string name="IAWM_Need_Sign_in_Title">需要登入</string>
+    <string name="IAWM_Recieve_Data_Title">正在从服务器接收您的听力配置文件...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">使用360 Spatial Sound Personalizer应用程序为您的耳朵拍照，并创建您的听力配置文件。</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">已创建您的听力配置文件。</string>
+    <string name="IAWM_SetupSummary_Description">接下来，将您的听力配置文件发送到360 Reality Audio的音乐服务应用程序，以重建准确的声场。</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">返回Walkman并发送您的听力配置文件，然后优化360 Reality Audio的音乐服务应用程序。</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">发送您的听力配置文件并优化360 Reality Audio的音乐服务应用程序。</string>
+    <string name="IAWM_SetupSummary_Title">您的听力配置文件已创建完成</string>
+    <string name="IAWM_Start_Recieving_Title">重新开始接收您的听觉档案。</string>
+    <string name="InformationNotification_List_Info_Empty_Title">目前没有任何信息或调查。</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">此处显示信息和调查。</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">此处显示使用提示。</string>
+    <string name="InformationNotification_List_Tips_Section">提示</string>
+    <string name="InformationNotification_List_Title">信息</string>
+    <string name="InformationNotification_New_Talkback_1">有新信息。</string>
+    <string name="InformationNotification_New_Talkback_2">有新项目。</string>
+    <string name="InformationNotification_New_Talkback_3">这是新项目。</string>
+    <string name="InformationToUsersLangCode">zh-cn</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">应用程序会检测您的动作和经常访问的位置，并自动切换耳机设置，例如，如何收入环境声音。</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">应用程序检测到您的行为，会自动调整如何收入环境声音。</string>
+    <string name="InitialSetup_IASetup_Detail">这是为了优化360 Reality Audio声音体验，让您享受音频沉浸式的体验，如置身于现场演出的感觉。</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">开始设置，充分享受耳机的功能。</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">转到仪表盘</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">设置完成。</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">这些设置可随时在仪表盘上更改。</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">这是设置的最后一步。</string>
+    <string name="InitialSetup_OverallSetup_Title">设置</string>
+    <string name="InstructionGuide_CoachMark">为舒适使用耳机，请查看[%s指南]。</string>
+    <string name="InstructionGuide_Menu_Title">%s指南</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">按下[确认]按钮后，开始传输。</string>
+    <string name="LanguageData_Info_Message_1">"请勿切断电源。
+请勿将耳机和移动设备放置在相隔较远的位置。"</string>
+    <string name="LanguageData_Info_Message_2">"自动重启。
+请勿将耳机和移动设备放置在相隔较远的位置。"</string>
+    <string name="LanguageData_Restriction">"传输过程中不可使用耳机。可能需要约%d分钟。
+从将耳机和移动设备放在相隔较近的位置开始。"</string>
+    <string name="Left_Headphones">左侧组件</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"无法在连接其他耳机时切换。
+请先断开所连的耳机。"</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">位置注册未完成。是否关闭？</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"必须始终允许访问位置才能在后台运行时也能检测经常访问的位置。
+
+按下[设置]按钮，然后从[权限]>[位置信息]中选择[始终允许]。如果始终允许，即使关闭或未使用应用，也会收集位置数据。"</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">必须始终允许从移动设备设置访问位置才能检测经常访问的位置。</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">必须始终允许从移动设备设置访问位置才能在后台运行时也能检测经常访问的位置。</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">必须始终允许访问位置才能在后台运行时也能检测经常访问的位置。如果始终允许，即使关闭或未使用应用，也会收集位置数据。在下一屏幕上确认内容。</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">是否取消此位置的注册？</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">必须从移动设备设置中打开位置才能检测经常访问的位置。</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"位置功能用于检测经常访问的位置。
+开启位置。"</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"必须开启位置服务才能检测经常访问的位置。
+
+从移动设备的“设置”>[隐私]>[位置服务]中进行设置。"</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">没有可以注册的已学习位置。</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">需要从移动设备设置访问位置才能检测经常访问的位置。</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"需要访问位置才能检测经常访问的位置。
+允许访问位置。如果始终允许，即使关闭或未使用应用，也会收集位置数据。"</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"需要访问位置才能检测经常访问的位置。
+选择[使用应用程序时]。"</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"必须始终允许访问位置才能在后台运行时也能检测经常访问的位置。
+
+按下[设置]按钮，并始终允许从[位置]访问。"</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"必须打开精确位置才能检测经常访问的位置。
+
+按下[设置]按钮，然后从[位置]中打开精确位置。"</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"要注册位置，必须连接支持自适应声音控制的耳机。
+连接耳机后，从仪表盘右上方的菜单中选择[%s]，然后继续注册流程。"</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"要进行编辑，声音质量模式必须更改为[稳定连接优先]。
+此外，耳机将重新连接，并且当前正在播放的音乐将停止。是否更改？"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"无法注册更多位置。
+取消非必要位置的注册。"</string>
+    <string name="Msg_ASC_Registration_Comp">已注册%s。</string>
+    <string name="Msg_Abort_FWUpdate">"放弃软件更新吗？
+如果放弃，您可从停止位置恢复更新。"</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">允许从移动设备的“设置” > [Headphones] > [位置]访问。</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"如果使用位置功能，动作检测准确性将得到提高。此外，根据位置，可以自动切换耳机设置。
+要在后台运行这些功能，必须始终允许使用位置。
+
+按下[设置]按钮，并始终允许从[位置]访问。"</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"使用位置可进一步提高自适应声音控制精确度。
+按[设置]按钮并允许从[位置]接入。"</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">为了增强自适应声音控制的精确度，建议使用GPS。通过移动设备设置开启GPS。</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">要提高自适应声音控制的准确性，建议允许访问位置信息。</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">编辑未完成。是否退出？</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"如果使用位置功能，自适应声音控制的动作检测准确性将得到提高。此外，根据位置，可以自动切换耳机设置。
+允许访问位置。"</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"如果使用位置功能，自适应声音控制的精确度将得到提高。
+允许访问位置。"</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"如果使用位置功能，自适应声音控制的精确度将得到提高。
+允许访问位置。"</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"如果使用位置功能，自适应声音控制的动作检测准确性将得到提高。此外，根据位置，可以自动切换耳机设置。
+选择[使用应用程序时]。"</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"如果使用位置功能，自适应声音控制的动作检测准确性将得到提高。此外，根据位置，可以自动切换耳机设置。
+开启位置设置。"</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"如果使用位置，自适应声音控制的准确性将得到提高。
+开启位置。"</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"如果已开启位置服务，自适应声音控制的动作检测准确性将得到提高。此外，根据位置，可以自动切换耳机设置。
+从移动设备的“设置”>[隐私]>[位置服务]中进行设置。"</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"开启定位服务可进一步提高自适应声音控制精确度。
+从移动设备的“设置”>[隐私]>[定位服务]进行设置。"</string>
+    <string name="Msg_Agree_EULAPP">我已阅读并同意上述内容。</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">如要使用此功能，必须允许访问通知。选择[%1$s]，启用%2$s设置。</string>
+    <string name="Msg_Check_EULA">确认%s。 </string>
+    <string name="Msg_Check_EULAPP">确认%1$s和%2$s。 </string>
+    <string name="Msg_CompleteUpdate">软件更新完成。</string>
+    <string name="Msg_Complete_Language_Setting">语言更改完成。</string>
+    <string name="Msg_ConfirmBattery_MDR">电池电量不足。为耳机充足电，重新连接，再次尝试。</string>
+    <string name="Msg_ConfirmBattery_Mobile">电池电量不足。为移动设备充电，再次尝试。</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">为变更设置，您需要取消更新软件。即使已取消更新软件，也可以再次执行软件更新。变更？</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">软件更新必须取消</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">同时使用均衡器和%s会增加耳机电池消耗，并且可能会缩短连续播放时间。是否更改？</string>
+    <string name="Msg_Confirm_L_connection">"耳机左侧组件未连接至移动设备。
+检查耳机左侧组件电源是否打开，并再次尝试。"</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">取消语言更改?</string>
+    <string name="Msg_Confirm_R_connection">"耳机右侧组件未连接至移动设备。
+检查耳机右侧组件电源是否打开，并再次尝试。"</string>
+    <string name="Msg_Confirm_network_connection">移动设备未连接至网络。连接至网络，再次尝试。</string>
+    <string name="Msg_ConnectDevice">通过以下按钮连接耳机。</string>
+    <string name="Msg_ConnectDevice_talkback">"连接到%s。
+显示仪表盘。"</string>
+    <string name="Msg_ConnectMode_Changing_Error">操作失败。</string>
+    <string name="Msg_ConnectNewDevice">连接新耳机</string>
+    <string name="Msg_ConnectionFailed">连接失败。</string>
+    <string name="Msg_ConnectionFailed_Internet">无法显示内容。检查您的互联网连接。</string>
+    <string name="Msg_ConnectionFailed_SRT">"无法连接到%s。
+请确认设备电源已开启。"</string>
+    <string name="Msg_DataError">软件下载失败。</string>
+    <string name="Msg_Disabled_Language_Setting">"耳机的软件传输过程中无法更改语言。
+软件传输结束后再次尝试。"</string>
+    <string name="Msg_DownloadFailed">软件下载失败。</string>
+    <string name="Msg_EmptyDevice">按[+]按钮并注册设备。</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"要更新此耳机的软件，必须使用最新版的Headphones Connect。
+从Google Play更新此应用程序。"</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"要更新此耳机的软件，必须使用最新版的Headphones Connect。
+从App Store更新此应用程序。"</string>
+    <string name="Msg_FWVer_unmatched">软件更新失败。</string>
+    <string name="Msg_Failed_Language_Setting">无法变更语言。</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">无法在您的iOS版本中更新耳机软件。</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"请按照以下步骤从移动设备设置中允许权限：
+[设置] -> [耳机] -> [拍摄装置]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">按下[设置]按钮，然后从[权限]>[相机]中允许访问。</string>
+    <string name="Msg_IASetupAllowCamera">请允许拍照。</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">请通过移动设备设置允许权限</string>
+    <string name="Msg_IASetup_AppInstallConf">安装“%s”后，返回Headphones Connect，并完成360 Reality Audio设置。</string>
+    <string name="Msg_IASetup_AppOptimizing">正在准备优化。请稍后...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"用以下程序拍摄的您耳朵的照片，将发送至索尼服务器进行分析，以便根据您耳朵的形状，为您提供最优音域。
+完成分析后，这些照片将保留在我们的服务器上，不与您个人相关联。
+此等照片仅用于研究改善我们耳朵分析功能，并在30天后销毁。"</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- 我们使用您耳朵的照片，根据您耳朵的形状，为您优化音域。我们这样做，是为了实现我们为您创造最优音域的合法权益。分析一经完成，我们立即弃置照片。
+- Sony Home Entertainment &amp; Sound Products Inc. 负责处理。我们使用由第三方维护的在美国的服务器。我们使用欧洲委员会批准的标准合同条款，保护您在美国的数据。
+- 通过电子邮箱privacyoffice.seu@sony.com或通过写信给我们的代表荷兰公司Sony Europe BV联系我们，其办公地址为Taurusavenue 16，2132LS Hoofddorp，the Netherlands（如果您在欧盟），也可联系荷兰公司Sony Europe BV英国分公司，其办公地址为The Privacy Office，The Heights，Brooklands，Weybridge，Surrey KT13 0XW，The United Kingdom（如果您在英国）。您也能通过以下地址联系我们：Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokyo, 141-8610, Japan。
+- 您有权接触、纠正并删除我们处理的您的个人数据。你也有权向您生活和工作所在国或产生投诉所在国或地区的数据保护当局，进行投诉。"</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"App Store在未安装“%s”或需要更新时开启。
+
+如果“%s”已启动，则360 Reality Audio设置完成。"</string>
+    <string name="Msg_IASetup_ConnectA2DP">"您的耳机未通过媒体音频(A2DP)与此移动设备连接。
+
+请断开耳机与其他设备的媒体音频，然后连接至此移动设备。"</string>
+    <string name="Msg_IASetup_ConnectCable">"您的耳机未连接至移动设备。
+
+请将耳机连接至此移动设备。"</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"当检测到您的耳朵时将自动进行拍摄。
+如果自动拍摄失败数次，则可以使用手动拍摄。"</string>
+    <string name="Msg_IASetup_General_Err">已取消处理。</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"您的耳朵/头部照片以及任何可以识别您身份的信息均不会发送至适用于360 Reality Audio的音乐应用程序。
+
+只有经过分析的数据会被发送至音乐应用程序以优化音乐聆听体验。"</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">在更新“%s”至最新版本后，完成360 Reality Audio设置，然后返回Headphones Connect并优化“%s”。</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"在下一画面上，将提供语音提示。请调高移动设备的音量，以便听到语音提示。
+
+*请勿断开此耳机。"</string>
+    <string name="Msg_IASetup_OpenAppInfo">您想在Google Play上打开“%s”吗?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">您想在App Store上打开“%s”吗?</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"您在现场演出中听到的声音可能取决于您的头部和耳朵形状。
+
+通过分析您的耳朵照片，我们计算数据，以创造个性化的最优音域。
+
+在您将这些优化结果发送至适用于360 Reality Audio的音乐服务应用程序时，您可以通过耳机沉浸般感受音乐。"</string>
+    <string name="Msg_IASetup_StopConfirm">未完成360 Reality Audio应用程序设置。您可以稍后完成此设置。</string>
+    <string name="Msg_IASetup_StopConfirm_Title">您想跳过360 Reality Audio设置吗？</string>
+    <string name="Msg_IASetup_UnsupportedArea">本功能当前在您所在的国家/地区不可用。</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"启用360 Reality Audio设置。
+在音乐服务应用程序中播放沉浸式360 Reality Audio时，请关闭此设置。"</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"根据操作和状态，在耳机中播放通知音和语音向导。
+即使将此设置设为关闭，仍然不会禁用某些重要的通知和向导。"</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"根据操作和状态，在耳机中播放通知音和语音向导。
+即使将此设置设为关闭，仍然不会禁用某些重要的通知和向导。
+此外，如果只禁用在由自适应声音控制引起的切换时发出的通知音，则可以应用自适应声音控制设置中的更改。"</string>
+    <string name="Msg_Information_NetworkError">无法连接到网络。</string>
+    <string name="Msg_Information_OtherError">无法找到信息。</string>
+    <string name="Msg_InstallFailed">软件更新失败。</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">取消与新设备连接。</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">要连接所选设备，请在断开其中一台已连接设备后再次尝试。</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">要连接新设备，请在断开其中一台已连接设备后再次尝试。</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">需要断开当前已连接设备</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">是否断开%s？</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"是否断开%s？
+如果断开，则与此应用程序的连接将被断开。"</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">需要重新连接</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">当前播放的音乐将会停止，因为必须重新连接到耳机。重新连接到耳机？</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">当前播放的音乐将会停止，因为必须重新连接到耳机。启用此设置后，将无法使用LDAC。重新连接到耳机？</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"是否取消注册%1$s？
+取消注册后要再次连接%1$s，从%1$s中取消注册%2$s，然后再次执行设备注册。"</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">要更新软件，必须断开已连接到耳机的%s。要断开并开始更新吗？</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">需要断开已连接的%s</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">要更改语言，必须断开已连接到耳机的%s。要断开并更改语言吗？</string>
+    <string name="Msg_MultiPoint_FailedToConnect">与%s连接失败。</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">与%s断开失败。</string>
+    <string name="Msg_MultiPoint_FailedToPair">与新设备连接失败。</string>
+    <string name="Msg_MultiPoint_FailedToRemove">取消%s注册失败。</string>
+    <string name="Msg_MultiPoint_Info_Detail">通过启用此设置，耳机能够同时连接到2台设备。可以从[%s]检查已连接设备。启用此设置后，将无法使用LDAC。</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">要连接新设备，必须放弃软件更新。即使放弃软件更新，也可以重新开始。连接吗？</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">需要放弃软件更新</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">要与%s连接，必须放弃软件更新。即使放弃软件更新，也可以重新开始。连接吗？</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">与%s连接完成。</string>
+    <string name="Msg_NeedConnectDevice">需要提供耳机和Bluetooth连接。</string>
+    <string name="Msg_OoBE_LocationPermission_After">允许通过移动设备设置访问位置信息，以便轻松注册耳机。</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"使用位置，您可以轻松注册附近的耳机。
+允许访问位置。"</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"使用位置，您可以轻松注册附近的耳机。
+允许访问位置。"</string>
+    <string name="Msg_OoBE_LocationSetting_After">通过移动设备设置开启位置信息，以便轻松注册耳机。</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"使用位置，您可以轻松注册附近的耳机。
+开启位置。"</string>
+    <string name="Msg_PairingOS_BT_Settings">在Bluetooth设置画面选择某一耳机，然后进行连接。</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">配对完成后，按[返回]按钮。</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">在Bluetooth设置画面选择%s，然后进行连接。</string>
+    <string name="Msg_Permission_BLE">我们用BLE来检测耳机。</string>
+    <string name="Msg_Permission_Location">当应用程序检测您的行为时会使用位置信息，并自动切换耳机设置时。</string>
+    <string name="Msg_Permission_Location02">使用位置可进一步提高自适应声音控制精确度。</string>
+    <string name="Msg_PowerOff">关闭耳机电源?</string>
+    <string name="Msg_RecommendUpdate">为了更舒适地使用本设备，建议进行软件更新。</string>
+    <string name="Msg_Reconnect_BT_Connection">正在切换软件传输目的地...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">新耳机</string>
+    <string name="Msg_SelectMDR_Header">选择耳机</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"在移动设备“设置”内的[Bluetooth]之中选择该耳机并连接。
+连接完成后，重启Headphones Connect。"</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"确认耳机电源开启，然后在移动设备的“设置”的[Bluetooth]中选择%s并连接。
+连接完成后，重启Headphones Connect。"</string>
+    <string name="Msg_SendFailed">软件传输失败。</string>
+    <string name="Msg_SendFailed_WF_Special">"软件传输停止在%d %%。
+请在充电保护盒放置并取出耳机后重试。"</string>
+    <string name="Msg_Setting_Data_Err">语音数据下载失败。</string>
+    <string name="Msg_Setting_Downloading_Failed">语音数据下载失败。</string>
+    <string name="Msg_Setting_Sending_Failed">语音数据传输失败。</string>
+    <string name="Msg_Title_FWAbort">软件传输中止。检查以下事项。</string>
+    <string name="Msg_TrainingModeSaveCheck">编辑未完成。是否退出？</string>
+    <string name="Msg_Update_NeedReboot">"请检查更新完成情况。
+
+1.请在充电保护盒放置并取出耳机后重新连接。
+2.从本应用程序右上角的菜单选择[%1$s版本]。如显示“%2$s”，则更新完成。
+
+如更新未完成，则再次尝试。"</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"请检查更新完成情况。
+
+关闭耳机电源，打开后再次连接。从本应用程序右上角的菜单选择[%1$s版本]。如显示“%2$s”，则更新完成。
+
+如更新未完成，则再次尝试。"</string>
+    <string name="Msg_VoiceData_NeedReboot">"检查语言已变更。
+
+1.在充电保护盒中存储左右侧耳机，断开并再次连接。
+2.如果已变更的语言显示在[%s]中，那么该过程已结束。
+
+如果语言尚未变更，请再次尝试。"</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"检查语言已变更。
+
+关闭耳机电源，打开后再次连接。如果已变更的语言显示在[%s]中，那么该过程已结束。
+
+如果语言尚未变更，请再次尝试。"</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">无法在您的iOS版本中更改语音向导语言。</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">在下一画面上选择一个耳机。可能需要一分钟才能显示耳机。</string>
+    <string name="MultiPoint_AddNewDevice_Description">打开您要连接设备的Bluetooth设置并选择%s。</string>
+    <string name="MultiPoint_DeviceNotConnect">未连接。</string>
+    <string name="MultiPoint_DeviceStatus_Title">当前正在连接的设备</string>
+    <string name="MultiPoint_Device_Add">连接到新设备</string>
+    <string name="MultiPoint_Header_History">已配对</string>
+    <string name="MultiPoint_Header_Pairing">正在连接...</string>
+    <string name="MultiPoint_Menu_Delete">取消注册</string>
+    <string name="MultiPoint_Menu_Disconnect">断开</string>
+    <string name="MultiPoint_Setting_Description">"该耳机可同时连接到%d个设备。
+要在设备之间切换播放音乐，请暂停音乐，然后在另一台已连接设备上执行播放操作。"</string>
+    <string name="MultiPoint_Setting_Title">管理已连接设备</string>
+    <string name="MultiPoint_Status_Connecting">正在连接...</string>
+    <string name="MultiPoint_Status_Disconnecting">正在断开...</string>
+    <string name="MultiPoint_Talkback_Add_Device">连接到新设备。</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">设备1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">设备2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">未连接任何设备。</string>
+    <string name="MultiPoint_Talkback_Playing_Right">音频已播放。</string>
+    <string name="MultiPoint_Talkback_Status_Connect">已连接。</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">正在连接...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">正在断开...</string>
+    <string name="MultiPoint_Title">同时连接到2台设备</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">此外如需中途取消优化，按下耳机上的任何按钮即可。</string>
+    <string name="NC_Title">降噪</string>
+    <string name="NSBluetoothAlwaysUsageDescription">我们藉此以Bluetooth检测耳机。</string>
+    <string name="NSBluetoothPeripheralUsageDescription">我们藉此以Bluetooth检测耳机。</string>
+    <string name="NSCameraUsageDescription">请允许您的智能手机拍摄耳朵照片。通过分析您的耳朵照片，我们计算数据，以创造个性化的最优音域。</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">要根据自适应声音控制自动切换设置，请选择[始终允许]。</string>
+    <string name="NSLocationAlwaysUsageDescription">要根据自适应声音控制自动切换设置，请选择[始终允许]。</string>
+    <string name="NSLocationWhenInUseUsageDescription">要根据自适应声音控制自动切换设置，请允许访问。</string>
+    <string name="NSUserTrackingUsageDescription">我们使用此信息，以提供符合您的设备使用情况和兴趣的支持信息和广告。</string>
+    <string name="Notification_Headphones_Connected">正在连接％s...</string>
+    <string name="Notification_Headphones_Connected_Unknown">正在连接耳机...</string>
+    <string name="Notification_IASetup_NeedToComplete">返回Headphones Connect，并完成360 Reality Audio设置。</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">未完成360 Reality Audio设置</string>
+    <string name="Notification_Summary_Abort">已中止软件传输。</string>
+    <string name="Notification_Summary_Downloading">正在下载...</string>
+    <string name="Notification_Summary_FWVer_unmatched">更新失败。</string>
+    <string name="Notification_Summary_Prepared">准备更新。</string>
+    <string name="Notification_Summary_Sending">正在传输...</string>
+    <string name="Notification_Summary_Update_NeedReboot">请检查更新完成情况。</string>
+    <string name="Notification_Summary_failed">更新失败。</string>
+    <string name="Notification_Summary_updated">更新完成。</string>
+    <string name="Notification_Summary_updating">正在更新...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">正在更改...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">更改完成。</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">更改失败。</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">检查变更是否已应用。</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">更改语音向导语言</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">更改语音向导语言</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">语音向导语言更改完成。</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">语音向导语言更改失败。</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">检查语音向导语言是否已变更。</string>
+    <string name="OPT_Baro_Title">大气压优化</string>
+    <string name="OPT_Message_Analyzing">降噪已进行最佳定制，使其适合您的品位。</string>
+    <string name="OPT_Message_Baro">如果大气压发生变化，请重新执行此过程。</string>
+    <string name="OPT_Message_Comp">降噪已进行最佳定制，使其适合您的品位。</string>
+    <string name="OPT_Message_Personal">像往常一样佩戴。如果因发型改变等情况而改变了佩戴方式，请重新执行此过程。</string>
+    <string name="OPT_Personal_Done_Long">已优化</string>
+    <string name="OPT_Personal_Done_Short">完成</string>
+    <string name="OPT_Personal_Initial_Long">未优化</string>
+    <string name="OPT_Personal_Initial_Short">优化前</string>
+    <string name="OPT_Personal_Title">个性化优化</string>
+    <string name="OPT_Start">开始</string>
+    <string name="OPT_Status_Analyzing">正在分析...</string>
+    <string name="OPT_Status_Baro">正在测量大气压...</string>
+    <string name="OPT_Status_Comp">完成</string>
+    <string name="OPT_Status_Personal">正在测量您的佩戴条件...</string>
+    <string name="OPT_Title">降噪优化器</string>
+    <string name="OPT_Title_iOS">降噪优化器</string>
+    <string name="OPT_atm_Long">优化为%.1f atm</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">像往常一样，首先戴上耳机。如果因乘坐飞机等情况导致大气压发生变化，请重新执行此过程。</string>
+    <string name="OPT_detail_Personal_Baro">像往常一样，首先戴上耳机。如果佩戴条件和大气压发生变化，请重新执行此过程。</string>
+    <string name="OoBE_COMP_Message">耳机连接完成。</string>
+    <string name="OoBE_COMP_Title">添加耳机</string>
+    <string name="OoBE_Manual_Button_Label">通过Bluetooth设置注册</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Bluetooth已关闭。
+请在控制中心中打开Bluetooth。"</string>
+    <string name="OoBE_Manual_Pair_Message">"继续按住耳机电源按钮约7秒。当耳机LED红蓝交替闪烁或者蓝色快速闪烁时，按[下一步]。
+如果没有电源按钮，将耳机设为Bluetooth设备注册(配对)模式。有关详情，请参阅说明手册。"</string>
+    <string name="OoBE_Manual_Pair_Title">添加耳机</string>
+    <string name="OoBE_Message1">通过Bluetooth连接耳机。</string>
+    <string name="OoBE_Message2">选择连接方法。</string>
+    <string name="OoBE_NFC_Button_Label">通过一触连接(NFC)注册</string>
+    <string name="OoBE_NFC_Message">将耳机上的N标记对齐移动设备上的N标记，执行触控操作。</string>
+    <string name="OoBE_NFC_Title">添加耳机</string>
+    <string name="OoBE_NonBT_Button_Label">从列表注册有线耳机</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">注册您的耳机以根据您的喜好使用360 Reality Audio。</string>
+    <string name="OoBE_Power_On_Message">"打开耳机电源。确认电源已打开并按[下一步]按钮。
+关于如何打开电源，请参阅耳机使用手册。"</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">只需点击[%s]按钮继续。</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">如果您使用有线耳机</string>
+    <string name="OoBE_Proximity_Message">将移动设备和%s彼此靠近，以便进行耳机验证。</string>
+    <string name="OoBE_SelectAcc_Message">选择一个耳机。可能需要一分钟才能显示。</string>
+    <string name="OoBE_SelectAcc_Title">添加耳机</string>
+    <string name="OoBE_Title">添加耳机</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_zh-hans.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_zh-hans.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_zh-hans.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_zh-hans.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">音频播放停止一段时间后，[%s]自动禁用，以使您可以延长耳机的待机时间。</string>
+    <string name="PS_Title">节能待机</string>
+    <string name="PlaybackController_Title">正在播放</string>
+    <string name="PlaybackController_Unknown_Album">未知专辑</string>
+    <string name="PlaybackController_Unknown_Artist">未知艺术家</string>
+    <string name="PlaybackController_Unknown_TrackName">未知歌曲</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">您可以从屏幕右上方菜单的[%s]再次显示调查。</string>
+    <string name="Questionnaire_MenuItem">调查</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">目前没有调查。请等待下一次调查。</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%1$s年%2$s月%3$s日～%4$s年%5$s月%6$s日</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">响应期间：</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">1</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">2</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">3</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">4</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">5</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">6</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">7</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">8</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">9</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">10</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">11</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">12</string>
+    <string name="Questionnaire_Notification_Button_Answer">回答</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">继续</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">不回答</string>
+    <string name="Questionnaire_Notification_Note">启动浏览器并显示调查站点。</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d个问题</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d - %2$d个问题</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">问题数量：</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">约%d分钟</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">所需时间：</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- 因为音频从耳机输出，如果操作遇到困难请与家人朋友一起分析。</string>
+    <string name="Right_Headphones">右侧组件</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_zh-hans.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">帐户身份验证失败。</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">取消注册。</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"当前无法访问服务。
+请稍后重试。"</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"无法注册更多设备。
+请删除不需要的设备注册项。"</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">登入失败。</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">无法登出。</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">通过设备设置打开位置信息，以便轻松注册附近的设备。</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">无法连接到网络。</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">无法操作。</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">输入了不正确的注册号码。</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">输入字符串太长。</string>
+    <string name="STRING_CAUTION_CONNECT">无法连接至%s。</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"无法连接至%s。
+连接至设备的同一网络并打开设备。"</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"无法连接到%s。
+请确认设备电源已开启。"</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"无法连接到%s。
+请确认设备Bluetooth功能已开启。"</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"无法连接至%s。
+连接至设备的同一网络。"</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"无法连接至%s。
+请稍后重试。"</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"无法连接至%s。
+请检查网络状态后重试。"</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"无法连接至%s。
+是否打开设备？"</string>
+    <string name="STRING_CAUTION_DISCONNECT">断开与%s的连接。</string>
+    <string name="STRING_CAUTION_EULA">您必须同意%s才能使用此应用程序。</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">无法检查版本。</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">无法读取%s。</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">无法找到指定应用程序。</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">找不到设备。</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">允许通过设备设置访问位置信息，以便轻松注册附近的设备。</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">无法注册。</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"无法注册。
+请稍后重试。"</string>
+    <string name="STRING_CAUTION_SERVER_STRING">连接失败。</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">无法打开Bluetooth。</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">无法开启WLAN。</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">未连接%s。</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"未连接到 WLAN 网络。
+连接至设备的同一网络。"</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"未连接到 WLAN 网络。
+连接至设备的同一网络并打开设备。"</string>
+    <string name="STRING_COMMON_DONE">完成</string>
+    <string name="STRING_COMMON_NEXT">下一步</string>
+    <string name="STRING_COMMON_OTHER">其他</string>
+    <string name="STRING_DEVICE">设备</string>
+    <string name="STRING_DEVICES">设备</string>
+    <string name="STRING_IOS_LOCATION">位置</string>
+    <string name="STRING_IOS_SETTINGS">设置</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">您必须允许访问才能使用此应用程序。</string>
+    <string name="STRING_MSG_CANCEL_DELETE">取消删除？</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">无法找到信息。</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">正在连接…</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">正在加载…</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">无法进行进一步选择。</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">请稍候。</string>
+    <string name="STRING_MSG_COMMUNICATING">正在通信...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">确认设备电源已开启。</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">确认设备电源开启，然后通过Bluetooth连接本机。</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">连接至设备的同一网络。</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">您将无法执行备份和还原。如果您再次登入，将可使用。</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">要登出并停止使用吗？</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">请阅读此应用程序的%s。</string>
+    <string name="STRING_MSG_CONFIRM_PP">请阅读此应用程序的%s。</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">[TBD]要使用备份和还原设置，您必须同意以下使用条款。</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">已删除。</string>
+    <string name="STRING_MSG_DELETING">正在删除…</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">输入电视机上显示的注册号。</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">完成设备注册。</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">正在检查版本...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"如果使用位置信息，您可以轻松注册附近的设备。
+开启位置信息。"</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">正在获取信息...</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">我已阅读并同意上述内容。</string>
+    <string name="STRING_MSG_LICENCE_APPLE">iPad、iPhone、iPod和iPod touch是Apple公司在美国和其它国家的注册商标。“iPhone”商标使用Aiphone KK.的许可证。</string>
+    <string name="STRING_MSG_LICENCE_BT">Bluetooth®文字标记和标志归Bluetooth® SIG, Inc.所有，Sony Corporation对此标记的使⽤是经过许可的。</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google和Android是Google Inc.的商标。</string>
+    <string name="STRING_MSG_LICENCE_NFC">N标记是NFC Forum, Inc.在美国和其他国家的商标或注册商标。</string>
+    <string name="STRING_MSG_LICENCE_OSAIFU_NFC">N标记是NFC Forum, Inc.在美国和其他国家的商标或注册商标。</string>
+    <string name="STRING_MSG_LOADING">正在加载…</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"如果使用位置信息，您可以轻松注册附近的设备。
+允许访问位置信息。"</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">要使用此功能，您必须同意使用条款。</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">是否打开%s？</string>
+    <string name="STRING_MSG_REGIST_FINISH">已注册。</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">按[+]按钮并注册设备。</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">选择您居住的国家/地区。</string>
+    <string name="STRING_MSG_SIGNOUT">是否登出？</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"请通过选择下面的[同意]，确认位于日本的Sony Home Entertainment &amp; Sound Products Inc.（“索尼”）（控制方）可以使用与您使用本应用程序相关的数据（如本隐私政策中%s的进一步规定），用于产品完善和发展（通过新功能或更改功能增强技术或可用性）之目的。如果您想使用该应用程序但不同意索尼使用您的有关使用数据，请选择下面的[不同意]。
+您可以随时在应用程序中选择“（3点）菜单”>“关于本应用程序”>“隐私设置”取消同意以上内容。"</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">请通过选择下面的选项，确认位于日本的Sony Home Entertainment &amp; Sound Products Inc.（“索尼”）（控制方）可以使用与您使用本应用程序相关的数据（如本隐私政策中%s的进一步规定），用于产品完善和发展（通过新功能或更改功能增强技术或可用性）之目的。如果您不想同意索尼使用您的有关使用数据，请不要选择以下选项。</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"请通过选择下面的[同意并继续]，确认位于日本的Sony Home Entertainment &amp; Sound Products Inc.（“索尼”）（控制方）可以使用与您使用本应用程序相关的数据（如本隐私政策中%s的进一步规定），用于产品完善和发展（通过新功能或更改功能增强技术或可用性）之目的。如果您不想同意索尼使用您的有关使用数据，请选择下面的[不同意并继续]。
+您可以随时在应用程序中选择“（3点）菜单”>“关于本应用程序”>“隐私设置”取消同意以上内容。"</string>
+    <string name="STRING_REMOTE_BTN_ACTION_MENU">快捷窗口</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">声音切换</string>
+    <string name="STRING_REMOTE_BTN_BACK">返回</string>
+    <string name="STRING_REMOTE_BTN_BLUE">蓝</string>
+    <string name="STRING_REMOTE_BTN_CC">字幕</string>
+    <string name="STRING_REMOTE_BTN_CH">频道</string>
+    <string name="STRING_REMOTE_BTN_DELETE">删除</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">Digital</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"数字/
+模拟"</string>
+    <string name="STRING_REMOTE_BTN_DISCOVER">兴趣探索</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">屏显</string>
+    <string name="STRING_REMOTE_BTN_ENTER">确定</string>
+    <string name="STRING_REMOTE_BTN_EXIT">退出</string>
+    <string name="STRING_REMOTE_BTN_GREEN">绿</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">节目指南</string>
+    <string name="STRING_REMOTE_BTN_HELP">帮助</string>
+    <string name="STRING_REMOTE_BTN_HOME">主菜单</string>
+    <string name="STRING_REMOTE_BTN_INPUT">输入选择</string>
+    <string name="STRING_REMOTE_BTN_JUMP">回看</string>
+    <string name="STRING_REMOTE_BTN_MENU">菜单</string>
+    <string name="STRING_REMOTE_BTN_MUTE">静音</string>
+    <string name="STRING_REMOTE_BTN_OK">确定</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">选项</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">图像关闭</string>
+    <string name="STRING_REMOTE_BTN_POWER">电源</string>
+    <string name="STRING_REMOTE_BTN_PROG">频道</string>
+    <string name="STRING_REMOTE_BTN_RED">红</string>
+    <string name="STRING_REMOTE_BTN_RETURN">返回</string>
+    <string name="STRING_REMOTE_BTN_SYNC_MENU">同步菜单</string>
+    <string name="STRING_REMOTE_BTN_TV">电视</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">语音</string>
+    <string name="STRING_REMOTE_BTN_VOL">音量</string>
+    <string name="STRING_REMOTE_BTN_WIDE">屏显模式</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">黄</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">无法访问Bluetooth。允许访问Bluetooth。</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Bluetooth已关闭。
+请在控制中心中打开Bluetooth。"</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"从控制中心打开Bluetooth。
+如果已打开Bluetooth，则允许访问Bluetooth。"</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">Bluetooth开启中...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">WLAN开启中...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">打开Bluetooth？</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">是否开启WLAN？</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">关于本应用程序</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">应用程序设置</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Bluetooth设置</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">设备设置</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">进入设置</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">发送操作历史</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"找不到设备。
+检查设备电源是否打开。"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"远程操作录音棒。
+远距离录音并检查录制内容！"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Bluetooth已关闭。
+打开Bluetooth。"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"WLAN已关闭。
+连接至设备的同一网络。"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"找不到设备。
+连接至设备的同一网络并打开设备。"</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">选择需注册的设备。</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">添加设备</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">已注册。</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">遥控</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">已选</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">选择设备</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">帮助</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">设置Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">设置WLAN</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">点击进行注册</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">打开Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">开启WLAN</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">WLAN设置</string>
+    <string name="STRING_SONY">索尼</string>
+    <string name="STRING_SURROUND">环绕立体声</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">更多选项</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">双击切换到此设备。</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">双击切换到另一设备。</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">双击展开。</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%1$s的%2$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">账户设定</string>
+    <string name="STRING_TEXT_ADD_DEVICE">注册另一设备</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">接受</string>
+    <string name="STRING_TEXT_COMMON_AGREE">同意</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">同意并继续</string>
+    <string name="STRING_TEXT_COMMON_ALL">全部</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">允许</string>
+    <string name="STRING_TEXT_COMMON_BACK">后退</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">取消</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">正在取消注册...</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">取消注册</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">已取消注册。</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">取消注册此设备？</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">无法取消注册。</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">每次询问</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">不再显示</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">关闭</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">折叠</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">确定</string>
+    <string name="STRING_TEXT_COMMON_DELETE">删除</string>
+    <string name="STRING_TEXT_COMMON_DENY">拒绝</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">取消全选</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">详细设置</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">设备菜单</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">不同意</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">不同意并继续</string>
+    <string name="STRING_TEXT_COMMON_DO">开</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">不使用</string>
+    <string name="STRING_TEXT_COMMON_DOWN">向下</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">拒绝</string>
+    <string name="STRING_TEXT_COMMON_EXIT">退出</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">展开</string>
+    <string name="STRING_TEXT_COMMON_FAQ">故障排除</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">反馈</string>
+    <string name="STRING_TEXT_COMMON_FINISH">结束</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">向前</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">帮助和信息</string>
+    <string name="STRING_TEXT_COMMON_HIDE">隐藏</string>
+    <string name="STRING_TEXT_COMMON_INFO">信息</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">信息</string>
+    <string name="STRING_TEXT_COMMON_INPUT">输入</string>
+    <string name="STRING_TEXT_COMMON_LATER">稍后</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">打开</string>
+    <string name="STRING_TEXT_COMMON_LEFT">向左</string>
+    <string name="STRING_TEXT_COMMON_MORE">查看更多</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">详细信息</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">查看更多信息</string>
+    <string name="STRING_TEXT_COMMON_NEXT">下一步</string>
+    <string name="STRING_TEXT_COMMON_NO">否</string>
+    <string name="STRING_TEXT_COMMON_NOTE">注意</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">关</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">未选定</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">未设定</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">不指定</string>
+    <string name="STRING_TEXT_COMMON_OFF">关闭</string>
+    <string name="STRING_TEXT_COMMON_OK">确定</string>
+    <string name="STRING_TEXT_COMMON_ON">开</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">在浏览器中打开</string>
+    <string name="STRING_TEXT_COMMON_OPTION">选项</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">返回到上一页</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">继续到下一页</string>
+    <string name="STRING_TEXT_COMMON_PREV">上一步</string>
+    <string name="STRING_TEXT_COMMON_RETRY">重试</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">向右</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">记住此选择</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">全选</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">设置</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">自动</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">设置完成</string>
+    <string name="STRING_TEXT_COMMON_SHOW">显示</string>
+    <string name="STRING_TEXT_COMMON_SKIP">跳过</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">停止取消注册？</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">官方网站</string>
+    <string name="STRING_TEXT_COMMON_TAB">选项卡</string>
+    <string name="STRING_TEXT_COMMON_TIPS">便利用途</string>
+    <string name="STRING_TEXT_COMMON_UP">向上</string>
+    <string name="STRING_TEXT_COMMON_USE">使用</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">停止加载页面</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">重新加载页面</string>
+    <string name="STRING_TEXT_COMMON_YES">是</string>
+    <string name="STRING_TEXT_DELETE_ALL">全部删除</string>
+    <string name="STRING_TEXT_DELETE_FAILED">删除失败。</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">删除此注册设备吗？</string>
+    <string name="STRING_TEXT_DEVICE_INFO">设备信息</string>
+    <string name="STRING_TEXT_DO_UPDATE">更新</string>
+    <string name="STRING_TEXT_EDIT">编辑</string>
+    <string name="STRING_TEXT_EULA">终端用户许可协议</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">许可信息</string>
+    <string name="STRING_TEXT_MENU">菜单</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">已断开连接</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">不要登入</string>
+    <string name="STRING_TEXT_NO_DEVICE">未找到设备。</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">如果无法找到设备</string>
+    <string name="STRING_TEXT_OWN_DEVICE">主机</string>
+    <string name="STRING_TEXT_POWER_OFF">关闭耳机</string>
+    <string name="STRING_TEXT_PP_SETTINGS">隐私设置</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">有关索尼如何使用此类数据的更多细节，请参见此处。</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">隐私政策</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">此处</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">您对产品/服务改进/开发目的之同意：</string>
+    <string name="STRING_TEXT_RECORDER_NAME">记录器</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">设备</string>
+    <string name="STRING_TEXT_REGISTERING">正在注册…</string>
+    <string name="STRING_TEXT_RE_REGISTER">重新注册</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">切换到另一设备</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">连接的设备</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">注册</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">版本</string>
+    <string name="STRING_TEXT_SIGNIN">登入</string>
+    <string name="STRING_TEXT_SIGNOUT">登出</string>
+    <string name="STRING_TEXT_START">开始</string>
+    <string name="STRING_TEXT_STARTING">正在启动...</string>
+    <string name="STRING_TEXT_START_ASIS">现在开始</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">兼容设备列表</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">连接</string>
+    <string name="STRING_TEXT_TERM_OF_USE">使用条款</string>
+    <string name="STRING_TEXT_UPDATE">更新</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">当无法建立连接时</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">当您无法注册时</string>
+    <string name="STRING_THIS_PHONE">此移动设备</string>
+    <string name="STRING_TITLE_COUNTRY">国家/地区</string>
+    <string name="Setting_Android_Title">设置</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"无法验证您的帐户。
+重新登入。"</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"无法同步设置，因为帐户身份验证失败。
+重新登入。"</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">耳朵分析结果</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">已注册的位置和设置值</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">根据动作等设置值。</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">备份</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">通过与您的帐户关联，可以将以下设置保存到服务器。</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">可以备份的设置因型号而异。</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">可以通过操作应用程序来删除备份设置。此外，如果索尼根据使用条款终止提供此功能，它们将被自动删除。</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">软件自动下载设置</string>
+    <string name="SettingsTakeOver_Appeal_Link">前往这里了解详细信息</string>
+    <string name="SettingsTakeOver_Appeal_Title">备份您的设置。</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">备份完成。</string>
+    <string name="SettingsTakeOver_Button_Backup">备份</string>
+    <string name="SettingsTakeOver_Button_Restore">还原</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">使用此应用程序的设置</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">使用服务器上的设置</string>
+    <string name="SettingsTakeOver_Confirm_Backup">是否将此应用程序的设置备份在服务器上？</string>
+    <string name="SettingsTakeOver_Confirm_Restore">是否还原此应用程序在服务器上的已备份设置？</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"一些设置已备份在服务器上。
+从以下选项中选择设置以启用自动同步。"</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">创建索尼帐户并继续</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">删除已备份设置并登出。</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">登出，取消与帐户的关联，并完全删除服务器上的已备份信息。</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">是否删除已备份设置？</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">已启用设置的自动同步。</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"备份失败。
+请稍等并再次尝试。"</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"还原失败。
+请稍等并再次尝试。"</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"还原失败。
+检查网络连接，请稍等并再次尝试。"</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">查看使用条款</string>
+    <string name="SettingsTakeOver_List_Title">备份和还原设置</string>
+    <string name="SettingsTakeOver_PP_Description">请按下以下[同意]按钮，确认索尼能够将与客户应用程序使用相关的数据用于上述目的。如果您不同意这些使用条件，请按下[不同意]按钮。</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">还原设置</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">不还原，继续下一步</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">如果您通过Headphones Connect备份过设置，则可以还原这些设置。</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">前往这里了解详细信息</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">还原设置</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"没有已备份设置。
+不还原，继续下一步。"</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">还原完成。</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">帐户</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">已备份设置</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">立即备份</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">启用</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">立即还原</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">删除备份并登出</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"删除服务器上的已备份设置。
+将保留应用程序内的设置。"</string>
+    <string name="SettingsTakeOver_Settings_Description">您可以通过与登入帐户关联将此应用程序设置保存到服务器中。</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"要备份最新设置，请启用自动同步。
+您可以将设置与使用此帐户登入的所有移动设备同步。"</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">可以随时从仪表盘右上方的菜单中更改此功能的设置。</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">自动同步</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">账户设置</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">索尼帐户设置</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">正在备份...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">服务器更新日期：</string>
+    <string name="SettingsTakeOver_Settings_Status_None">您可以备份设置。</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">有些设置尚未备份。</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">您可以从服务器还原新的设置。</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">正在还原...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">备份完成。</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">正在同步...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">您的设备不支持备份。</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">通过Amazon登录</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">通过Apple登录</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">通过Facebook登录</string>
+    <string name="SettingsTakeOver_SignInWith_Google">通过Google登录</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">通过索尼帐户登录</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">通过微信登录</string>
+    <string name="SettingsTakeOver_SignIn_Description">要备份和还原设置，您必须登入到Headphones Connect。</string>
+    <string name="SettingsTakeOver_SignIn_Split">或者</string>
+    <string name="SettingsTakeOver_SignOut_Completed">已登出。</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">备份和还原功能将不可用。</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">如果登出后经过了一段时间，服务器上备份的设置将自动删除。</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">索尼帐户</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">微信</string>
+    <string name="SettingsTakeOver_SigningIn">正在登入...</string>
+    <string name="SettingsTakeOver_SigningOut">正在登出...</string>
+    <string name="SmartTalkingMode_Detail">佩戴耳机时，您只要通过说话便可开启会话。</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"只要通过说话，您就可以戴着耳机进行交谈。您想体验此功能吗？
+您可以使用[i]按钮再次运行。"</string>
+    <string name="SmartTalkingMode_Experience_Btn">体验一下</string>
+    <string name="SmartTalkingMode_Experience_Detail1">例如，随便说点内容，如“您好”。耳机侦测到您在说话，自动建立会话的条件。</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"暂停音乐以接收环境声音。在您讲话时，此模式将恢复；如果您完成讲话后过了%s或操作耳机，此模式将关闭。
+可以在仪表盘的[智能免摘]上自定义此设置。"</string>
+    <string name="SmartTalkingMode_Experience_Detail3">暂停音乐以接收环境声音。可以通过操作耳机关闭此模式。</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">关闭</string>
+    <string name="SmartTalkingMode_Experience_Msg1">侦测您的声音</string>
+    <string name="SmartTalkingMode_Experience_Msg2">侦测到您的声音</string>
+    <string name="SmartTalkingMode_Experience_Title">智能免摘体验</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">在降低环境噪音的同时收入声音。</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">关注语音</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"如果耳机在指定时间内未检测到您的声音，则智能免摘模式将关闭并返回到正常状态。
+此外，可以随时通过操作耳机关闭此模式。"</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">快</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">标准</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">慢</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">不自动关闭</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">请勿超时</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">此模式关闭之前的时间</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">约1分钟</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">约1秒</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">约%d秒</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">约%d分钟</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">自动</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">根据环境声音自动调整灵敏度。</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">自动：</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">高灵敏度</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">语音检测灵敏度过低时，选择此设置。当环境声音很大时（例如在车上时）有效。</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">高灵敏度：</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">低灵敏度</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">语音检测灵敏度过高时，选择此设置。当说话人在附近时生效。</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">低灵敏度：</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">语音检测灵敏度</string>
+    <string name="SmartTalkingMode_Setting_Title">智能免摘设置</string>
+    <string name="SmartTalkingMode_Title">智能免摘</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">已启用智能免摘</string>
+    <string name="SmartTalkingMode_TurnOn">启用智能免摘以执行设置。</string>
+    <string name="SmartTalkingMode_TurnOn_Title">启用智能免摘</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"可以通过耳机上的操作切换此设置。
+可以在[帮助]中查看操作方法。"</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">要启用智能免摘吗？</string>
+    <string name="SongPalDownloadDialog">是否要从Google Play中下载Music Center应用程序？</string>
+    <string name="SongPalDownloadDialog_iOS">是否要从App Store中下载Music Center应用程序？</string>
+    <string name="SoundPosition_Preset_FL">左前方</string>
+    <string name="SoundPosition_Preset_FR">右前方</string>
+    <string name="SoundPosition_Preset_Front">前方</string>
+    <string name="SoundPosition_Preset_Off">关闭</string>
+    <string name="SoundPosition_Preset_RL">左后方</string>
+    <string name="SoundPosition_Preset_RR">右后方</string>
+    <string name="SoundPosition_Title">声音位置控制</string>
+    <string name="Status_Loading_Headphones">获得耳机清单。</string>
+    <string name="Switch_ToOtherDevice">切换到另一设备</string>
+    <string name="TalkBack_Button">按钮</string>
+    <string name="TalkBack_Button_Option">更多选项</string>
+    <string name="TalkBack_Disable">禁用</string>
+    <string name="TalkBack_Switch">切换按钮</string>
+    <string name="Talkback_Echo_Minus">减去</string>
+    <string name="Talkback_Echo_Plus">加</string>
+    <string name="TouchSensorControlPanel_title">触摸式传感器控制面板</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">重置</string>
+    <string name="Training_Custom_Title">快速声音设置</string>
+    <string name="Training_Title">快速声音设置</string>
+    <string name="Training_Title_Detail">"您可以集中切换[%1$s]和[%2$s]的设置。
+此外，您还可在耳机上操作此设置。"</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">舞台</string>
+    <string name="VPT_Preset_Club">俱乐部</string>
+    <string name="VPT_Preset_ConcertHall">音乐厅</string>
+    <string name="VPT_Preset_Off">关闭</string>
+    <string name="VPT_Preset_OutdoorFestival">露天舞台</string>
+    <string name="VPT_Preset_Title">环绕(VPT)</string>
+    <string name="Vibration_Title">来电振动</string>
+    <string name="VoiceData_Update_Status_Download">正在下载语音数据...</string>
+    <string name="VoiceData_Update_Status_Install">正在设置语音数据...</string>
+    <string name="VoiceData_Update_Status_Send">正在传输语音数据...</string>
+    <string name="VoiceData_Update_Status_Start">向耳机传输%s语音数据</string>
+    <string name="VoiceData_Update_Title">更改语言</string>
+    <string name="VoiceData_Updating">请稍候...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">语言</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">通知和语音向导</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">巴西葡萄牙语</string>
+    <string name="Voice_Guidance_Elem_Chinese">中文</string>
+    <string name="Voice_Guidance_Elem_Dutch">荷兰语</string>
+    <string name="Voice_Guidance_Elem_English">英语</string>
+    <string name="Voice_Guidance_Elem_Finnish">芬兰语</string>
+    <string name="Voice_Guidance_Elem_French">法语</string>
+    <string name="Voice_Guidance_Elem_German">德语</string>
+    <string name="Voice_Guidance_Elem_Italian">意大利语</string>
+    <string name="Voice_Guidance_Elem_Japanese">日语</string>
+    <string name="Voice_Guidance_Elem_Korean">韩语</string>
+    <string name="Voice_Guidance_Elem_Portuguese">葡萄牙语</string>
+    <string name="Voice_Guidance_Elem_Russian">俄语</string>
+    <string name="Voice_Guidance_Elem_Spanish">西班牙语</string>
+    <string name="Voice_Guidance_Elem_Swedish">瑞典语</string>
+    <string name="Voice_Guidance_Elem_Turkish">土耳其语</string>
+    <string name="Voice_Guidance_Setting">语音向导语言</string>
+    <string name="Volume_Talkback">音量</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">如需使用，请从Google Play更新此应用程序。</string>
+    <string name="Walkman_Placeholder_Confirm_China">如需使用，请从下载网站下载此应用程序。</string>
+    <string name="Walkman_Placeholer_Button_Transit">前往</string>
+    <string name="Walkman_Placeholer_Description">"请根据您的喜好自定义搭载应用程序连接功能的Sony耳机。
+通过简单控制，使每天的音乐欣赏更加充满乐趣。"</string>
+    <string name="Walkman_Placeholer_Description_02">如要使用，必须在所转至画面上更新（下载）此应用程序。</string>
+    <string name="Walkman_Placeholer_Description_03">关于此应用程序</string>
+    <string name="Walkman_Placeholer_Link">有关所支持产品和功能的详细信息，请前往这里</string>
+    <string name="Walkman_Placeholer_SubTitle">是否前往Headphones Connect下载页面？</string>
+    <string name="Welcome_EULA_PP">按下此按钮，即表示您已经阅读许可文件及隐私政策，并同意接受其中的内容。</string>
+    <string name="Welcome_EULA_PPLink">使用条款</string>
+    <string name="Welcome_SubTitle">"更有趣、更智能、更个性化。
+使用您的新耳机开始新生活。"</string>
+    <string name="Welcome_SubTitle1">您的个人现场音乐会现已启动。</string>
+    <string name="Welcome_SubTitle2">俱乐部？剧场？音乐厅？还是户外舞台？你可以自由选择自己钟爱的音乐场景。</string>
+    <string name="Welcome_SubTitle3">可调整的低音可以增强您的日常欣赏体验。</string>
+    <string name="Welcome_Title">欢迎</string>
+    <string name="Welcome_Title1">欢迎</string>
+    <string name="Welcome_Title2">一键欣赏现场音乐</string>
+    <string name="Welcome_Title3">是否需要更多的低音效果？</string>
+    <string name="Widget_Disconnected">耳机未连接或未注册。启动Headphones Connect。</string>
+    <string name="Widget_EQ_Error">通过Headphones Connect确认[均衡器]。</string>
+    <string name="Widget_EQ_Error_Short">通过Headphones Connect更改。</string>
+    <string name="Widget_EULA_Disagreement">启动Headphones Connect并执行设置。</string>
+    <string name="Widget_Initial">正在加载...</string>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享对象</string>
+    <string name="abc_shareactionprovider_share_with_application">与%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">启用</string>
+    <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_enable_title">启用 Google Play 服务</string>
+    <string name="common_google_play_services_install_button">安装</string>
+    <string name="common_google_play_services_install_text">您的设备没有安装 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_install_title">获取 Google Play 服务</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 服务的适用范围</string>
+    <string name="common_google_play_services_notification_ticker">Google Play服务出错</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
+    <string name="common_google_play_services_unsupported_text">您的设备不支持 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必须先更新 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服务</string>
+    <string name="common_google_play_services_updating_text">Google Play 服务当前正在更新，因此您无法运行%1$s。</string>
+    <string name="common_google_play_services_wear_update_text">必须使用新版 Google Play 服务。该服务很快就会自行更新。</string>
+    <string name="common_open_on_phone">在手机上打开</string>
+    <string name="common_signin_button_text">登录</string>
+    <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
+    <string name="expand_button_title">高级</string>
+    <string name="fcm_fallback_notification_channel_label">其他</string>
+    <string name="s1">保存图片</string>
+    <string name="s2">允许广告将图片存储在图库中吗？</string>
+    <string name="s3">接受</string>
+    <string name="s4">拒绝</string>
+    <string name="s5">创建日历活动</string>
+    <string name="s6">允许广告创建日历活动吗？</string>
+    <string name="s7">测试广告</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
+    <string name="v7_preference_off">关闭</string>
+    <string name="v7_preference_on">开启</string>
+</resources>

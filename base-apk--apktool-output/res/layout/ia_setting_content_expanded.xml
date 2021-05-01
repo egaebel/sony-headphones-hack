@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:id="@id/title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_FeatureTitle" android:maxLines="1" android:importantForAccessibility="yes" android:layout_marginStart="16.0dip" style="@style/TSS_L_C1_Re" />
+        <ImageButton android:id="@id/ia_setting_information_button" android:background="@android:color/transparent" android:focusable="true" android:layout_width="@dimen/information_button_width" android:layout_height="@dimen/information_button_height" android:src="@drawable/information_button_selector" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" android:importantForAccessibility="yes" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ia_setting_status_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="8.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/personal_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/a_mdr_card_opt_type2_personal" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <TextView android:id="@id/personal_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/analysis_button" android:layout_toRightOf="@id/personal_icon" android:layout_alignParentTop="true" android:importantForAccessibility="yes" style="@style/TSS_L_C1_Re" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_toLeftOf="@id/analysis_button" android:layout_toRightOf="@id/personal_icon" android:layout_below="@id/personal_title">
+                <ImageView android:id="@id/personal_done_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a_mdr_card_opt_type2_done" android:layout_centerVertical="true" />
+                <TextView android:id="@id/personal_measure_state" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/personal_done_icon" android:layout_centerVertical="true" android:importantForAccessibility="yes" style="@style/TSS_L_C2_Re" />
+            </RelativeLayout>
+            <include android:id="@id/analysis_button" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/start_button_layout" />
+        </RelativeLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="22.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <ImageView android:id="@id/app_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/a_mdr_card_opt_type2_app" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <TextView android:id="@id/app_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_Optimize_Label" android:layout_toLeftOf="@id/optimize_button" android:layout_toRightOf="@id/app_icon" android:layout_alignParentTop="true" android:importantForAccessibility="yes" style="@style/TSS_L_C1_Re" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_toLeftOf="@id/optimize_button" android:layout_toRightOf="@id/app_icon" android:layout_below="@id/app_title">
+                <ImageView android:id="@id/app_done_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a_mdr_card_opt_type2_done" android:layout_centerVertical="true" />
+                <TextView android:id="@id/app_optimize_state" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/app_done_icon" android:layout_centerVertical="true" android:importantForAccessibility="yes" style="@style/TSS_L_C2_Re" />
+            </RelativeLayout>
+            <include android:id="@id/optimize_button" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/ia_app_optimize_button_layout" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

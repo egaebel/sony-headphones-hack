@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView android:id="@id/scroll_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_divider">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/status_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/ESA_JudgementComplete_Title" style="@style/TM_L_C1_Me" />
+            <TextView android:id="@id/series_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="34.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" style="@style/TSS_C_C1_Re" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/l_earpiece_result_layout" android:layout_width="136.0dip" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/l_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_assignable_button_card_left" android:contentDescription="@string/Left_Headphones" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/l_result_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="6.0dip" />
+                    <TextView android:id="@id/l_result_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TSS_C_C2_Re" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/r_earpiece_result_layout" android:layout_width="136.0dip" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip">
+                    <ImageView android:id="@id/r_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_assignable_button_card_right" android:contentDescription="@string/Right_Headphones" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/r_result_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="6.0dip" />
+                    <TextView android:id="@id/r_result_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TSS_C_C2_Re" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView>
+    <View android:id="@id/bottom_divider" android:background="@color/ui_common_color_c4_light" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/description" />
+    <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:text="@string/ESA_JudgementComplete_Description" android:layout_above="@id/ok_button" style="@style/TSS_L_C2_Re" />
+    <include android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_marginBottom="82.0dip" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/ui_common_raised_button" />
+</RelativeLayout>

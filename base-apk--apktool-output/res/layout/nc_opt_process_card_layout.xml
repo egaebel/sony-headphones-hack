@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/a_mdr_opt_process_card" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/page_number" android:layout_width="fill_parent" android:layout_height="19.0dip" android:layout_marginTop="18.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/TSS_L_C2_Re" />
+    <TextView android:id="@id/status" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginTop="6.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/T3L_L_C1_LiStyle" />
+    <TextView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/TSS_L_C1_Re" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="8.0dip" android:progressDrawable="@drawable/nc_opt_progress" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <TextView android:gravity="center" android:layout_gravity="end" android:id="@id/button" android:paddingTop="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="14.0dip" android:minWidth="64.0dip" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="14.0dip" style="@style/TSS_C_A1_MeStyle" />
+</LinearLayout>

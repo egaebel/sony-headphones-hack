@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/AppTheme.Light" android:background="@drawable/a_widget_background" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_body" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="6.0" android:contentDescription="@string/Notification_Title">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" android:importantForAccessibility="no">
+            <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@mipmap/icon_round" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Notification_Title" android:layout_marginStart="8.0dip" style="@style/TSS_L_C1_Re" />
+        </LinearLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/initial_error_message" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/Widget_Initial" android:layout_weight="4.0" style="@style/T3S_L_C1_ReStyle" />
+    </LinearLayout>
+</LinearLayout>

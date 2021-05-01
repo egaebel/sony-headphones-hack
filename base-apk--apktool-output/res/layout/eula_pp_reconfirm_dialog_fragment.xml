@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/webview_dialog_margin_top" android:layout_marginBottom="@dimen/webview_dialog_margin_bottom">
+        <jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView android:id="@id/message_container_scroll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/webview_dialog_margin_left" android:paddingEnd="@dimen/webview_dialog_margin_right">
+                <TextView android:id="@id/subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TS_L_C1_Re" />
+                <View android:id="@id/subtitle_and_message_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/webview_dialog_margin_subtitle_and_message" />
+                <TextView android:id="@id/message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TSS_L_C1_Re" />
+            </LinearLayout>
+        </jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView>
+        <View android:id="@id/top_container_top_divider" android:background="?ui_common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/message_container_scroll" />
+        <View android:id="@id/top_container_bottom_divider" android:background="?ui_common_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/message_container_scroll" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/body_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/webview_container_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/webview_dialog_margin_left" android:paddingEnd="@dimen/webview_dialog_margin_right">
+            <FrameLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ProgressBar android:id="@id/progress" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+            <TextView android:id="@id/error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:alertDialogTheme" />
+        </RelativeLayout>
+        <View android:id="@id/webview_top_divider" android:background="?ui_common_divider_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/webview_container_scroll" />
+        <View android:id="@id/webveiw_bottom_divider" android:background="?ui_common_divider_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/webview_container_scroll" />
+    </RelativeLayout>
+</LinearLayout>

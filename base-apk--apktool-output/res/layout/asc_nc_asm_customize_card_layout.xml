@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="46.0dip"> android:id="@+id/title_switch_area"> <ImageView android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_1" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentStart="true">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ASM_Simple_Title" android:layout_marginStart="16.0dip" style="@style/TSS_L_C1_Re" />
+        </LinearLayout>
+        <Switch android:id="@id/nc_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/content_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <ImageView android:layout_gravity="bottom" android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_2" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="start" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_left" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="end" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_right" android:scaleType="fitXY" />
+</FrameLayout>

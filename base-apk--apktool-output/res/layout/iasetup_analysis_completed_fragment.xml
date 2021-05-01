@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:maxLines="1" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.sony.songpal.mdr.application.immersiveaudio.setup.view.IaSetupIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/IASetup_AnalyzeComplete_Title" android:maxLines="2" style="@style/TM_L_C1_Me" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/IASetup_AnalyzeComplete_Detail" style="@style/TSS_L_C2_Re" />
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="34.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="36.0dip" android:src="@drawable/a_mdr_card_opt_type2_done" style="@style/TLL_C_C2_ReStyle" />
+                    <ImageView android:layout_gravity="center" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/a_mdr_card_opt_type2_personal" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_SetupSummary_Analyze_Done" style="@style/TSS_L_C1_Re" />
+                        <TextView android:id="@id/link_reason_why_ear_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_Link_ReasonWhy_EarPhoto" style="@style/TSS_L_A1_ReStyle" />
+                        <TextView android:id="@id/link_handling_ear_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/IASetup_Link_Handling_EarPhoto" style="@style/TSS_L_A1_ReStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="36.0dip" android:src="@drawable/a_mdr_oobe_ico_step_2" />
+                    <ImageView android:layout_gravity="center" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/a_mdr_card_opt_type2_app" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_SetupSummary_Optimize_Intro" style="@style/TSS_L_C1_Re" />
+                        <TextView android:id="@id/link_send_info_to_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_Link_SendInfo_ToApp" style="@style/TSS_L_A1_ReStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_weight="0.0">
+        <include android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/ui_common_raised_button" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_flat_button_normal" />
+    </LinearLayout>
+</LinearLayout>

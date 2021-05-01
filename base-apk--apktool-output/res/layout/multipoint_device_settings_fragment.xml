@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_L_C2_Re" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/MultiPoint_Header_Pairing" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TS_L_C1_MeStyle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/connecting_device_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+            <TextView android:id="@id/history_device_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/MultiPoint_Header_History" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TS_L_C1_MeStyle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/history_device_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+            <View android:id="@id/scroll_adjust_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/add_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/add_device_floating_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="28.0dip" android:contentDescription="@string/MultiPoint_Talkback_Add_Device" android:layout_marginEnd="16.0dip" app:fabSize="normal" app:srcCompat="@drawable/ic_fab_add_white" />
+    </FrameLayout>
+</RelativeLayout>

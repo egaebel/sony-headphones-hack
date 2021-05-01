@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.25" />
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.25" />
+        <View android:id="@id/center_line" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.25" />
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.25" />
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="#ff9e9e9e" android:layout_width="1.0dip" android:layout_height="8.0dip" />
+</merge>

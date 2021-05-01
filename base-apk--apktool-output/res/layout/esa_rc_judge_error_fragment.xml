@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/status_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/ESA_JudgementError_Title" style="@style/TM_L_C1_Me" />
+    <ImageView android:id="@id/comp_error_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/a_mdr_esa_comparison_error" android:layout_below="@id/status_label" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/ESA_JudgementError_Description" android:layout_below="@id/comp_error_image" style="@style/TSS_L_C2_Re" />
+    <include android:id="@id/start_over_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_above="@id/finish_button" android:layout_centerHorizontal="true" layout="@layout/ui_common_raised_button" />
+    <include android:id="@id/finish_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="26.0dip" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/ui_common_raised_button" />
+</RelativeLayout>

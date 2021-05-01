@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bt_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/a_mdr_connect_icon_bt_s" />
+    <com.sony.songpal.mdr.view.BatteryView android:id="@id/battery" android:visibility="gone" android:layout_width="@dimen/battery_view_width" android:layout_height="@dimen/battery_view_height" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" />
+    <com.sony.songpal.mdr.view.CodecIndicatorView android:id="@id/codec_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_codec_sbc_light" android:layout_marginStart="4.0dip" />
+    <com.sony.songpal.mdr.view.UpscalingIndicatorView android:id="@id/upscaling_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_dseehx_light" android:layout_marginStart="4.0dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/SettingsTakeOver_Appeal_Title" android:maxLines="2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TM_L_C1_Me" />
+            <include layout="@layout/sto_backup_description" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/divider" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="28.0dip" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/executeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_raised_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/SettingsTakeOver_Appeal_Button_Backup" />
+    </LinearLayout>
+</LinearLayout>

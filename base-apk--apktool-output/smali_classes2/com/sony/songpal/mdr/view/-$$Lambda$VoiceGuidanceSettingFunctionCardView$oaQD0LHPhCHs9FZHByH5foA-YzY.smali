@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/sony/songpal/mdr/view/-$$Lambda$VoiceGuidanceSettingFunctionCardView$oaQD0LHPhCHs9FZHByH5foA-YzY;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field private final synthetic f$0:Lcom/sony/songpal/mdr/view/VoiceGuidanceSettingFunctionCardView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/sony/songpal/mdr/view/VoiceGuidanceSettingFunctionCardView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/sony/songpal/mdr/view/-$$Lambda$VoiceGuidanceSettingFunctionCardView$oaQD0LHPhCHs9FZHByH5foA-YzY;->f$0:Lcom/sony/songpal/mdr/view/VoiceGuidanceSettingFunctionCardView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/sony/songpal/mdr/view/-$$Lambda$VoiceGuidanceSettingFunctionCardView$oaQD0LHPhCHs9FZHByH5foA-YzY;->f$0:Lcom/sony/songpal/mdr/view/VoiceGuidanceSettingFunctionCardView;
+
+    invoke-static {v0, p1}, Lcom/sony/songpal/mdr/view/VoiceGuidanceSettingFunctionCardView;->lambda$oaQD0LHPhCHs9FZHByH5foA-YzY(Lcom/sony/songpal/mdr/view/VoiceGuidanceSettingFunctionCardView;Landroid/view/View;)V
+
+    return-void
+.end method

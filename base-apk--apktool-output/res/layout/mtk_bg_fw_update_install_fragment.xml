@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ui_common_toolbar" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/fw_update_common_left_margin" android:paddingRight="@dimen/fw_update_common_right_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar_layout" android:paddingStart="@dimen/fw_update_common_left_margin" android:paddingEnd="@dimen/fw_update_common_right_margin">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bg_fw_update_install_message1_top_margin" android:text="@string/FW_Update_Message1" style="@style/TM_L_C1_Me" />
+        <TextView android:id="@id/status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bg_fw_update_install_status_text_top_margin" style="@style/TM_L_C1_Me" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bg_fw_update_install_message2_top_margin" android:text="@string/FW_Update_Message3" style="@style/TSS_L_C2_Re" />
+        <TextView android:id="@id/caution_label" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TSS_L_C2_Re" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/percent_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bg_fw_update_install_percent_text_top_margin" style="@style/TM_C_C1_MeStyle" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/fw_update_progress_height" android:layout_marginTop="@dimen/fw_update_progress_top_margin" android:progressDrawable="@drawable/fw_update_progress" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+    <include android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" layout="@layout/ui_common_flat_button" />
+</RelativeLayout>

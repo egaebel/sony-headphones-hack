@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/local_settings_control" android:layout_below="@id/toolbar_layout" android:isScrollContainer="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+            <TextView android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SensitiveData" />
+            <EditText android:id="@id/sensitive_backup_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:layout_gravity="" android:id="@id/clear_edit_text_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear text" android:layout_marginStart="15.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/local_settings_control" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_above="@id/backup_restore_state">
+        <Button android:layout_gravity="center_horizontal" android:id="@id/get_local_settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GET LOCAL SETTINGS" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/save_settings_button" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/save_settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SAVE SETTINGS" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/backup_restore_state" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_above="@id/backup_restore">
+        <TextView android:id="@id/last_backup_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="last update time" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/sync_state_button" />
+        <TextView android:id="@id/backup_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="last update time" android:layout_below="@id/last_backup_time" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/sync_state_button" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/sync_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SYNC STATE" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/backup_restore" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_above="@id/server_control">
+        <Button android:layout_gravity="center_horizontal" android:id="@id/sync_settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SYNC SETTINGS" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/backup_button" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/backup_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Backup" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/restore_button" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/restore_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Restore" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/server_control" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_above="@id/ui_toggle">
+        <Button android:layout_gravity="center_horizontal" android:id="@id/sign_in_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SignIn" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/fetch_server" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/fetch_server" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fetch Server" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/push_server" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/push_server" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Push Server" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/ui_toggle" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginBottom="32.0dip" android:layout_alignParentBottom="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Auto Sync" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/auto_sync_toggle_button" />
+        <ToggleButton android:id="@id/auto_sync_toggle_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_toStartOf="@id/with_ui_text" />
+        <TextView android:id="@id/with_ui_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="With UI" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/with_ui_toggle_button" />
+        <ToggleButton android:id="@id/with_ui_toggle_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

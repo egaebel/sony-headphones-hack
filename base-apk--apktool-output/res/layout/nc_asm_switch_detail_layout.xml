@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nc_asm_expanded_bgimage" android:layout_width="fill_parent" android:layout_height="106.0dip" android:src="@drawable/nc_asm_expanded_background" android:scaleType="matrix" />
+    <ListView android:id="@id/item_area" android:layout_width="fill_parent" android:layout_height="138.0dip" android:listSelector="@drawable/nc_asm_item_background_selector" android:drawSelectorOnTop="true" android:divider="@null" android:choiceMode="singleChoice" />
+</LinearLayout>

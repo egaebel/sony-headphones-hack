@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:id="@id/top_information_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_area" android:layout_below="@id/toolbar_layout">
+        <LinearLayout android:orientation="vertical" android:id="@id/fw_update_main_area" android:paddingLeft="@dimen/fw_update_common_left_margin" android:paddingRight="@dimen/fw_update_common_right_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/fw_update_common_left_margin" android:paddingEnd="@dimen/fw_update_common_right_margin">
+            <LinearLayout android:orientation="vertical" android:id="@id/new_fw_version_area" android:paddingBottom="@dimen/fw_information_information_text_top_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mtk_bg_fw_update_detail_status_text_top_margin" style="@style/TM_L_C1_Me" />
+                <TextView android:id="@id/version_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mtk_bg_fw_update_detail_version_text_top_margin" style="@style/TSS_L_C1_Re" />
+            </LinearLayout>
+            <ScrollView android:id="@id/information_area" android:background="@color/color_fw_information_scroll_background" android:paddingLeft="@dimen/fw_information_information_area_left_padding" android:paddingTop="@dimen/fw_information_information_area_top_padding" android:paddingRight="@dimen/fw_information_information_area_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/fw_information_information_area_height" android:paddingStart="@dimen/fw_information_information_area_left_padding" android:paddingEnd="@dimen/fw_information_information_area_right_padding" android:nestedScrollingEnabled="true">
+                <TextView android:id="@id/information_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TSS_L_C2_LiStyle" />
+            </ScrollView>
+            <LinearLayout android:orientation="vertical" android:id="@id/progress_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/percent_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mtk_bg_fw_update_detail_percent_text_top_margin" style="@style/TM_C_C1_MeStyle" />
+                <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/fw_update_progress_height" android:layout_marginTop="@dimen/fw_update_progress_top_margin" android:progressDrawable="@drawable/fw_update_progress" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                <TextView android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mtk_bg_fw_update_detail_message_text_top_margin" style="@style/T3S_L_C1_ReStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/button_area" android:paddingTop="@dimen/fw_update_button_area_top_margin" android:paddingRight="@dimen/fw_update_common_button_area_right_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/fw_update_common_button_area_right_margin">
+        <include android:id="@id/abort_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/ui_common_flat_button" />
+        <include android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/abort_button" android:layout_toStartOf="@id/abort_button" layout="@layout/ui_common_flat_button_normal" />
+    </RelativeLayout>
+</RelativeLayout>

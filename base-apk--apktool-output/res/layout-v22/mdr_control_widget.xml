@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/AppTheme.Light" android:background="@drawable/a_widget_background" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_body" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="8.0" android:contentDescription="@string/Notification_Title">
+        <TextView android:gravity="center" android:id="@id/device_model_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxLines="1" android:layout_weight="1.0" style="@style/TS_C_C1_BoStyle" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+            <ImageView android:id="@id/device_thumbnail" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/a_mdr_model_list_image_default" />
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18.0dip" android:layout_marginEnd="10.0dip" layout="@layout/widget_battery_vertical" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/asc_status_area" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/asc_detected_status" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/asc_detected_status_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="18.0dip" />
+                    <TextView android:ellipsize="end" android:id="@id/asc_detected_status_text" android:layout_width="114.0dip" android:layout_height="wrap_content" android:maxLines="1" style="@style/TSS_C_C1_BoStyle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/asc_not_detected_status" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/asc_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/AR_Title" android:maxLines="1" style="@style/TSS_C_C2_Re" />
+                    <TextView android:id="@id/asc_not_detected_status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/TSS_C_C1_BoStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/eq_operation_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:id="@id/eq_error_text" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/Widget_EQ_Error_Short" android:maxLines="3" android:layout_marginHorizontal="10.0dip" style="@style/TSS_L_C2_Re" />
+                <FrameLayout android:id="@id/eq_prev" android:layout_width="56.0dip" android:layout_height="56.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_widget_eq_button_prev_normal" />
+                    <ImageView android:id="@id/eq_prev_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/Button_Prev" />
+                </FrameLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/eq_status" android:focusable="true" android:layout_width="112.0dip" android:layout_height="wrap_content">
+                    <TextView android:id="@id/eq_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EQ_Preset_Title" android:maxLines="1" style="@style/TSS_C_C2_Re" />
+                    <TextView android:id="@id/eq_preset_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TSS_C_C1_BoStyle" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/eq_forward" android:layout_width="56.0dip" android:layout_height="56.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_widget_eq_button_forward_normal" />
+                    <ImageView android:id="@id/eq_forward_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/Button_Next" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ebb_operation_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="56.0dip" android:layout_height="56.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/ebb_minus_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_widget_button_minus_normal" />
+                    <ImageView android:id="@id/ebb_minus_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/Talkback_Echo_Minus" />
+                </FrameLayout>
+                <TextView android:id="@id/ebb_level_text" android:focusable="true" android:layout_width="112.0dip" android:layout_height="wrap_content" android:maxLines="1" style="@style/TSS_C_C1_BoStyle" />
+                <FrameLayout android:layout_width="56.0dip" android:layout_height="56.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/ebb_plus_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_widget_button_plus_normal" />
+                    <ImageView android:id="@id/ebb_plus_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/Talkback_Echo_Plus" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/not_activated_layout" android:paddingTop="16.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/activation_button" android:background="@drawable/cradle_battery_activation_button_selector_light" android:focusable="true" android:clickable="true" android:layout_width="76.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:text="@string/STRING_TEXT_COMMON_SHOW" style="@style/T3S_C_C2_Re" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/activated_layout" android:paddingTop="22.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/cradle_battery_area" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.sony.songpal.mdr.view.BatteryView android:layout_gravity="center_horizontal" android:id="@id/cradle_battery" android:layout_width="@dimen/battery_view_width" android:layout_height="@dimen/battery_view_height" android:importantForAccessibility="no" />
+            <com.sony.songpal.mdr.view.BatteryLevelTextView android:textAppearance="@style/T3S_C_C1_BoStyle" android:layout_gravity="center_horizontal" android:id="@id/cradle_battery_level_text" android:layout_width="wrap_content" android:layout_height="18.0dip" android:importantForAccessibility="no" />
+        </LinearLayout>
+        <ImageView android:id="@id/information_button" android:focusable="true" android:clickable="true" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="fitCenter" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" app:layout_constraintStart_toEndOf="@id/cradle_battery_area" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

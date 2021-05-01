@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_settings_take_over_settings_state_synchronizing_01" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_settings_take_over_settings_state_synchronizing_02" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_settings_take_over_settings_state_synchronizing_03" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_settings_take_over_settings_state_synchronizing_04" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_settings_take_over_settings_state_synchronizing_05" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_settings_take_over_settings_state_synchronizing_06" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_settings_take_over_settings_state_synchronizing_07" />
+</animation-list>

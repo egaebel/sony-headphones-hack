@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/close_knob_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:contentDescription="@string/STRING_TEXT_COMMON_COLLAPSE" app:srcCompat="@drawable/a_mdr_extended_area_knob_open" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/item_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.sony.songpal.mdr.view.layout.LinearLayoutCheckable android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/download_always" android:tag="Download Always" android:background="@drawable/nc_asm_item_background_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <RadioButton android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@drawable/common_cardview_radiobutton_title_text_color_selector" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/FW_Download_Param_Always" android:layout_marginStart="32.0dip" style="@style/TSS_L_C1_Re" />
+        </com.sony.songpal.mdr.view.layout.LinearLayoutCheckable>
+        <com.sony.songpal.mdr.view.layout.LinearLayoutCheckable android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/download_only_wifi" android:tag="Download Only Wi-Fi" android:background="@drawable/nc_asm_item_background_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/download_always" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <RadioButton android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@drawable/common_cardview_radiobutton_title_text_color_selector" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/FW_Download_Param_OnlyWiFi" android:layout_marginStart="32.0dip" style="@style/TSS_L_C1_Re" />
+        </com.sony.songpal.mdr.view.layout.LinearLayoutCheckable>
+    </RelativeLayout>
+</LinearLayout>

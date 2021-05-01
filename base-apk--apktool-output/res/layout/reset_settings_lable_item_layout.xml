@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sony.songpal.mdr.view.layout.LinearLayoutCheckable android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="16.0dip" android:layout_height="wrap_content" android:text="@string/Common_List_Symbol_Only" style="@style/T3S_C_C2_Re" />
+    <TextView android:id="@id/label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/T3S_L_C2_Re" />
+</com.sony.songpal.mdr.view.layout.LinearLayoutCheckable>

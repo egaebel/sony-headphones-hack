@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="184.0dip" android:foregroundGravity="bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="bottom|center" android:layout_width="304.0dip" android:layout_height="146.0dip">
+            <ImageView android:id="@id/line2_layer" android:layout_width="304.0dip" android:layout_height="146.0dip" android:src="@drawable/a_mdr_soundposition_line2" />
+            <ImageView android:id="@id/wave_front" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="-8.5dip" android:layout_marginStart="56.0dip" />
+            <ImageView android:id="@id/wave_fr" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="-12.399994dip" android:layout_marginStart="154.0dip" />
+            <ImageView android:id="@id/human_layer" android:layout_width="304.0dip" android:layout_height="146.0dip" android:src="@drawable/a_mdr_soundposition_human" />
+            <ImageView android:id="@id/line1_layer" android:layout_width="304.0dip" android:layout_height="146.0dip" android:src="@drawable/a_mdr_soundposition_line1" />
+            <ImageView android:id="@id/wave_fl" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="10.899994dip" android:layout_marginStart="-2.399994dip" />
+            <ImageView android:id="@id/wave_off" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="28.399994dip" android:layout_marginStart="68.0dip" />
+            <ImageView android:id="@id/wave_rl" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="86.5dip" android:layout_marginStart="70.0dip" />
+            <ImageView android:id="@id/wave_rr" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="59.899994dip" android:layout_marginStart="244.0dip" />
+            <ImageView android:id="@id/button_front" android:clickable="true" android:layout_width="44.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/sound_position_button2_selector" android:layout_marginStart="69.0dip" />
+            <ImageView android:id="@id/button_fr" android:clickable="true" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/sound_position_button1_selector" android:layout_marginStart="167.0dip" />
+            <ImageView android:id="@id/button_fl" android:clickable="true" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/sound_position_button1_selector" android:layout_marginStart="11.0dip" />
+            <ImageView android:id="@id/button_off" android:clickable="true" android:layout_width="44.0dip" android:layout_height="38.0dip" android:layout_marginTop="47.0dip" android:src="@drawable/sound_position_button3_selector" android:layout_marginStart="81.0dip" />
+            <ImageView android:id="@id/button_rl" android:clickable="true" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="99.0dip" android:src="@drawable/sound_position_button1_selector" android:layout_marginStart="83.0dip" />
+            <ImageView android:id="@id/button_rr" android:clickable="true" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="73.0dip" android:src="@drawable/sound_position_button1_selector" android:layout_marginStart="257.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <TextView android:gravity="center_vertical" android:id="@id/expanded_current_value" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TSS_L_C2_Re" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/close_knob_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:contentDescription="@string/STRING_TEXT_COMMON_COLLAPSE" app:srcCompat="@drawable/a_mdr_extended_area_knob_open" />
+    </LinearLayout>
+</LinearLayout>

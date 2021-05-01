@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/questionnaire_dialog_side_padding" android:paddingRight="@dimen/questionnaire_dialog_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/questionnaire_redisplay_title_margin_top" android:text="@string/Questionnaire_HowToDisplayAgain_Description" style="@style/TM_L_C1_ReStyle" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/questionnaire_redisplay_image_margin_top" android:layout_marginBottom="@dimen/questionnaire_redisplay_image_margin_bottom" android:src="@drawable/a_questionnaire_how_to_display_again_hpc" android:scaleType="fitCenter" />
+</LinearLayout>

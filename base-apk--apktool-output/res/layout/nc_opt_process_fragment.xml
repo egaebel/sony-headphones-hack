@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.percentlayout.widget.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <ViewFlipper android:id="@id/background_image_animator" app:layout_aspectRatio="58.000004%" app:layout_widthPercent="100.0%" />
+        <ViewFlipper android:layout_gravity="bottom" android:id="@id/card_view_animator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:inAnimation="@anim/nc_opt_process_card_slide_in" android:outAnimation="@anim/nc_opt_process_card_slide_out" />
+    </androidx.percentlayout.widget.PercentFrameLayout>
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+</RelativeLayout>

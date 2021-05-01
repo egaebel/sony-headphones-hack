@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/detail_button_area" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tips_detail_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/ASC_Notification_Permission_ON_Tips_Detail_Title" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TM_L_C1_Me" />
+            <ImageView android:id="@id/tips_detail_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/a_information_notification_image_mobile_notification" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tips_detail_title" />
+            <TextView android:id="@id/tips_detail_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ASC_Notification_Permission_ON_Tips_Detail_message" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tips_detail_image" style="@style/TSS_L_C2_Re" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/detail_button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <View android:id="@id/button_divider" android:background="?ui_common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/tips_detail_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@animator/appbar_elevation" app:layout_behavior="jp.co.sony.vim.framework.platform.android.ui.fullcontroller.FixAppBarLayoutBehavior">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                <include android:id="@id/big_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin" layout="@layout/fullcontroller_big_header" />
+                <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" layout="@layout/fullcontroller_toolbar" />
+                <FrameLayout android:layout_gravity="bottom" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.tabs.TabLayout android:layout_gravity="center_horizontal" android:id="@id/tabs" android:layout_width="wrap_content" android:layout_height="@dimen/ui_tab_layout_height" app:layout_collapseMode="pin" style="@style/TabLayout" />
+                </FrameLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/full_remote_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bar_view" android:paddingTop="@dimen/bar_view_padding_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/fullcontroller_bar_view_divider" android:layout_alignParentBottom="true" android:color="@android:color/transparent" android:showDividers="middle" />
+    <ImageView android:id="@id/navigation_bar_shadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/ui_navigation_bar_height" android:src="@drawable/bg_navigation_bar_shadow" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+</RelativeLayout>

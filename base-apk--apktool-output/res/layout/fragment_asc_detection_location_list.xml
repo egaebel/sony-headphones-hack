@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/ui_common_toolbar" />
+    <TextView android:textAppearance="@style/TSS_L_C2_Re" android:id="@id/description_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/ASC_Location_Learning_Location_Select_message" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_layout" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/description_label">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/detection_place_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

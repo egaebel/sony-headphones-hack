@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:maxLines="1" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IAWM_Need_Sign_in_Title" style="@style/TM_L_C1_Re" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/IAWM_Need_Sign_in_Description" style="@style/TSS_L_C2_Re" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+                    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_hint_icon" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="18.0dip">
+                        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Appeal_Description_03" style="@style/TSS_L_C2_Re" />
+                        <TextView android:id="@id/confirmTermsOfUseLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Link_Confirm_Terms_Of_Use" style="@style/TSS_L_A1_Re" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/divider" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <include android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</LinearLayout>

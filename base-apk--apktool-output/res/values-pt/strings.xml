@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">Longo</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">Curto</string>
+    <string name="AR_Custom_Reset">Redefinir</string>
+    <string name="AR_Custom_Title">Editar</string>
+    <string name="AR_Custom_Title_iOS">EDITAR</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"A aplicação deteta as suas ações e as localizações que frequenta e altera automaticamente as definições dos auscultadores, como a integração do som ambiente.
+Deste modo, proporciona experiências musicais otimizadas para a cena onde está a ouvir música.
+
+Pretende utilizar esta função?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"A aplicação deteta as suas ações e ajusta automaticamente o modo de integração com o som ambiente.
+Deste modo, obtém experiências musicais otimizadas para a cena onde está a ouvir música.
+
+Pretende utilizar esta função?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">Configuração do Adaptive Sound Control concluída.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"A anulação de ruído poderá ser desligada devido à alteração automática das definições consoante a localização e as ações detetadas. 
+Esta definição pode ser personalizada utilizando o [Adaptive Sound Control] do painel."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"O sistema está configurado para desligar o Anulação de ruído e incluir o som ambiente dependendo do comportamento detetado. 
+Esta definição pode ser personalizada utilizando o [Adaptive Sound Control] do painel."</string>
+    <string name="AR_Notification_Message">[%s] está ativado.</string>
+    <string name="AR_Status_Detecting">Detetar</string>
+    <string name="AR_Status_LongStay">Ficar</string>
+    <string name="AR_Status_Run">Correr</string>
+    <string name="AR_Status_ShortStay">Ficar</string>
+    <string name="AR_Status_Vehicle">Transporte</string>
+    <string name="AR_Status_Walking">Caminhar</string>
+    <string name="AR_Title">Adaptive Sound Control</string>
+    <string name="AR_Title_Detail">A aplicação deteta as suas ações e as localizações que frequenta e altera automaticamente as definições dos auscultadores, como a integração do som ambiente.</string>
+    <string name="AR_Title_Detail_China">A aplic. deteta as suas ações e o [%s] é ligado.</string>
+    <string name="AR_Title_Detail_EffectTone">É possível silenciar o som de notificação de mudança desligando [%s].</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">Estas definições estão ativas enquanto estiver nesta localização e a alteração automática consoante as ações está desativada.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">Desativada enquanto estiver numa localização registada</string>
+    <string name="ASC_Behavior_Detection">Alteração automática consoante as ações</string>
+    <string name="ASC_Behavior_Detection_Menu">Deteção de ações</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"Registar as localizações que frequenta permite que as definições sejam alteradas automaticamente consoante a localização.
+Pode registar facilmente as localizações que frequenta utilizando a função de aprendizagem.
+Utilizar esta função?
+*O registo das localizações que frequenta pode demorar alguns dias após iniciar a utilização da função de aprendizagem."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">A Localização não é enviada para o servidor porque as funções de aprendizagem funcionam offline.</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">Utilizar a função de aprendizagem</string>
+    <string name="ASC_LearningLocation">Aprendizagem das localizações que frequenta</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"A função de aprendizagem das localizações que frequenta e a alteração automática das definições do Adaptive Sound Control consoante a localização estão ativas, mas não é possível detetar as localizações porque não é possível aceder à Localização.
+
+Para que estas funções funcionem de forma transparente, prima o botão [Definições] e selecione [Permitir sempre] em [Permissões] > [Localização]. Se permitir sempre a recolha de dados de localização, estes dados serão recolhidos mesmo quando a aplicação estiver fechada ou não estiver a ser usada."</string>
+    <string name="ASC_Location_Detail">Informações da localização</string>
+    <string name="ASC_Location_Detail_Message">"Foi aprendida uma nova localização.
+Se esta localização for registada, as definições dos auscultadores poderão ser alteradas automaticamente."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">Desativa a anulação de ruído e seleciona uma predefinição que permite ouvir melhor as vozes das pessoas à sua volta.</string>
+    <string name="ASC_Location_Detail_Message_Other">Está disponível uma definição recomendada para esta localização na forma de predefinição.</string>
+    <string name="ASC_Location_Detail_Message_Station">Desativa a anulação de ruído e seleciona uma predefinição que permite ouvir melhor os sons ambiente à sua volta.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">Aprendizagem das localizações que frequenta</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">Foi aprendida uma nova localização.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">Se esta localização for registada, as definições dos auscultadores poderão ser alteradas automaticamente.</string>
+    <string name="ASC_Location_Detection">Alteração automática consoante a localização</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">Em localizações como um metropolitano e túneis, onde a receção de GPS é fraca, a aprendizagem das localizações que frequenta e a alteração automática consoante a localização poderão não funcionar bem.</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">Uma vez que o seu dispositivo móvel não possui GPS, a aprendizagem das localizações que frequenta e a alteração automática consoante a localização poderão não funcionar bem.</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">A deteção da localização tem limites</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">A detetar a localização...</string>
+    <string name="ASC_Location_Empty_Message">Para utilizar a alteração automática consoante a sua localização, registe as localizações que frequenta.</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">Ativar a Localização</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"A função de aprendizagem das localizações que frequenta e a alteração automática das definições do Adaptive Sound Control consoante a localização estão ativas, mas é impossível detetar as localizações porque o acesso à Localização está desativado.
+
+Ative a Localização para que estas funções funcionem bem."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"A função de aprendizagem das localizações que frequenta e a alteração automática das definições do Adaptive Sound Control consoante a localização estão ativas, mas não é possível detetar as localizações porque os Serviços de localização estão desativados.
+
+Ative os Serviços de localização para que estas funções funcionem corretamente.
+Configure em “Definições” > [Privacidade] > [Serviços de localização] do dispositivo móvel."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">Ativar a Localização</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">Ativar os Serviços de localização</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">Ative a Localização para a deteção das localizações que frequenta.</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">Ative os Serviços de localização para a deteção das localizações que frequenta.</string>
+    <string name="ASC_Location_Learning_Location_List">Localização aprendida</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">Localizações que frequenta</string>
+    <string name="ASC_Location_Learning_Location_Select_message">Selecione uma localização que pretenda registar.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">A função de aprendizagem foi ativada.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"Registar as localizações que frequenta, além de apenas as suas ações detetadas, permite que as definições do Adaptive Sound Control sejam alteradas automaticamente consoante a localização. Pode registar facilmente as localizações que frequenta utilizando a função de aprendizagem.
+*O registo das localizações que frequenta pode demorar alguns dias após iniciar a utilização da função de aprendizagem."</string>
+    <string name="ASC_Location_Learning_Tips_notification">É fácil registar localizações que frequenta com a função de aprendizagem.</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">Permitir o acesso à Localização</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"A função de aprendizagem das localizações que frequenta e a alteração automática das definições do Adaptive Sound Control consoante a localização estão ativas, mas é impossível detetar as localizações porque não há acesso à Localização.
+
+Permita o acesso à Localização para que estas funções funcionem bem. Se permitir sempre a recolha de dados de localização, estes dados serão recolhidos mesmo quando a aplicação estiver fechada ou não estiver a ser usada."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"A função de aprendizagem das localizações que frequenta e a alteração automática das definições do Adaptive Sound Control consoante a localização estão ativas, mas é impossível detetar as localizações porque não há acesso à Localização.
+
+Selecionar [Durante a utilização da aplicação] no ecrã seguinte para fazer funcionar corretamente estas funções."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"A função de aprendizagem das localizações que frequenta e a alteração automática das definições do Adaptive Sound Control consoante a localização estão ativas, mas não é possível detetar as localizações porque não é possível aceder aos Serviços de localização.
+
+Para que estas funções funcionem de forma invisível, prima o botão [Definições] e atribua o acesso permanente em [Localização]."</string>
+    <string name="ASC_Location_Permission_Tips_notification">Permita o acesso à Localização para a deteção das localizações que frequenta.</string>
+    <string name="ASC_Location_Position_Set">Localização</string>
+    <string name="ASC_Location_Position_Set_message">Toque para especificar uma localização.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">Ative a Localização exata</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"A função de aprendizagem das localizações que frequenta e a alteração automática das definições do Adaptive Sound Control consoante a localização estão ativas, mas não é possível detetar as localizações porque o acesso à Localização exata está desativado.
+
+Para que estas funcionalidades funcionem corretamente, prima o botão [Definições] e ative a Localização exata em [Localização]."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">Ative a Localização exata para a deteção das localizações que frequenta.</string>
+    <string name="ASC_Location_Range">Alcance</string>
+    <string name="ASC_Location_Range_Param_Large">Grande</string>
+    <string name="ASC_Location_Range_Param_Mid">Normal</string>
+    <string name="ASC_Location_Range_Param_Small">Pequeno</string>
+    <string name="ASC_Location_Registration">Registar localização</string>
+    <string name="ASC_Location_Setting">Definições de localização</string>
+    <string name="ASC_Location_Sound_Setting">Definições dos auscultadores</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">Selecione a definição a utilizar nesta localização em [Adicionar/eliminar itens].</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">Não alterar</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">Adicionar/eliminar itens</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"Selecione uma definição para alterar nesta localização.
+As definições não selecionadas manterão o seu estado anterior mesmo que esteja nesta localização."</string>
+    <string name="ASC_Location_Switch_Setting">Método de mudança</string>
+    <string name="ASC_Location_Type_Bus">Paragem de autocarro</string>
+    <string name="ASC_Location_Type_Gym">Ginásio</string>
+    <string name="ASC_Location_Type_Home">Casa</string>
+    <string name="ASC_Location_Type_Office">Trabalho</string>
+    <string name="ASC_Location_Type_Other">Outra</string>
+    <string name="ASC_Location_Type_School">Escola</string>
+    <string name="ASC_Location_Type_Set">Categoria</string>
+    <string name="ASC_Location_Type_Set_message">Selecione uma categoria.</string>
+    <string name="ASC_Location_Type_Train">Estação</string>
+    <string name="ASC_NotificationSound">Som de notificação ao mudar</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">Permitir definição de notificação.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"Embora a definição [Mudar a partir de notificação] do Adaptive Sound Control esteja ativada, as notificações não serão apresentadas porque a definição de notificação não está permitida.
+
+Permita a definição de notificação para que esta função funcione corretamente."</string>
+    <string name="ASC_NowHere">Está nesta localização</string>
+    <string name="ASC_Others_Section">Outro</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">Registar a partir das localizações aprendidas</string>
+    <string name="ASC_RegisterFromMapBtn">Registar a partir do mapa</string>
+    <string name="ASC_RegisteredLocation">Localizações registadas</string>
+    <string name="ASC_Status_Empty">Não mudou automaticamente</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">Desativada (terá fazer as alterações manualmente no Equalizador)</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*A mudar manualmente</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">Desativada (devido à prioridade à qualidade do som)</string>
+    <string name="ASC_Status_Sound_Setting_info">Estado da definição</string>
+    <string name="ASC_Supplement_A2SC_Controlled">Definido automaticamente pelo Adaptive Sound Control.</string>
+    <string name="ASC_Supplement_Change_Behavior">O Adaptive Sound Control altera automaticamente a definição se a sua ação mudar.</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">O Adaptive Sound Control altera automaticamente a definição se a sua ação e a sua localização mudarem.</string>
+    <string name="ASC_Supplement_Change_Location">O Adaptive Sound Control altera automaticamente a definição se a sua localização mudar.</string>
+    <string name="ASC_Supplement_Leave_Location">Volta à definição automática com base no Adaptive Sound Control se sair desta localização.</string>
+    <string name="ASC_Switch_Detail_Message">Se definir como [Mudar a partir de notificação], pode mudar para esta definição em qualquer momento enquanto estiver nesta localização.</string>
+    <string name="ASC_Switch_Notification_After_Button">Reverter</string>
+    <string name="ASC_Switch_Notification_After_Description">Pode reverter para a definição antes de mudar.</string>
+    <string name="ASC_Switch_Notification_After_Title">Definir como definição de %s</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">Mudar</string>
+    <string name="ASC_Switch_Notification_Before_Description">Mudar para a definição desta localização?</string>
+    <string name="ASC_Switch_Notification_Before_Title">Local: %s</string>
+    <string name="ASC_Switch_Type_Auto">Mudar automaticamente</string>
+    <string name="ASC_Switch_Type_Manual">Mudar a partir de notificação</string>
+    <string name="ASM_Param_ASM">Som ambiente</string>
+    <string name="ASM_Param_NC">Anulação de ruído</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">Desligado</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">Ligado</string>
+    <string name="ASM_Param_Street">Redução de ruído do vento</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">Som ambiente</string>
+    <string name="ASM_Simple_Param_AsmNormal">Som ambiente - Modo normal</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">Som ambiente - Modo normal</string>
+    <string name="ASM_Simple_Param_AsmVoice">Som ambiente - Modo de voz</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">Som ambiente - Modo de voz</string>
+    <string name="ASM_Simple_Param_Asm_forBody">Som ambiente</string>
+    <string name="ASM_Simple_Param_Dual">Anulação de ruído</string>
+    <string name="ASM_Simple_Param_Dual_forBody">Anulação de ruído</string>
+    <string name="ASM_Simple_Param_NC">Anulação de ruído</string>
+    <string name="ASM_Simple_Param_NC_forBody">Anulação de ruído</string>
+    <string name="ASM_Simple_Param_Street">Redução de ruído do vento</string>
+    <string name="ASM_Simple_Param_Street_forBody">Redução de ruído do vento</string>
+    <string name="ASM_Simple_Title">Controlo som ambiente</string>
+    <string name="ASM_Title">Controlo som ambiente</string>
+    <string name="ASM_Voice">Foco na voz</string>
+    <string name="Abort_FWUpdate">Abortar</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">Não definido</string>
+    <string name="AppNotify_Custom_Param_Vibration">Vibração</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">Texto para discurso</string>
+    <string name="AppNotify_Custom_Title">Receber not. c/auscult.</string>
+    <string name="AppNotify_Detail">Pode receber notific. aps. selec. nos auscultadores. P/usar função de texto p/discurso, o áudio do suporte magn. deve ser selec. nas defs. Bluetooth do dispos. móvel.</string>
+    <string name="AppNotify_NeedSetup">Selec. de que aps. pretende rec. notif.</string>
+    <string name="AppNotify_Notification_Message">[%s] ativ.</string>
+    <string name="AppNotify_Setapps">Estão selecionadas %d aplicações.</string>
+    <string name="AppNotify_Title">Receber not. c/auscult.</string>
+    <string name="AppSetting_Link">Abrir o Music Center</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">Registar</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">A música que está a ser reproduzida parará porque é necessária a religação aos auscultadores. Alterar?</string>
+    <string name="Assignable_Key_Changing_Error">Operação falhou.</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">Alterações à função do botão</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">A aplicação Amazon Alexa é necessária para utilizar esta função.</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">Configure a Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">Preencha as definições da aplicação Google Assistant para utilizar esta função.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">A aplicação Google Assistant é necessária para utilizar esta função.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google Assistente</string>
+    <string name="Assignable_Key_Elem_Help_Button">Saber mais</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">As operações de botão estão desativadas. A operação de emparelhamento está disponível nesta definição.</string>
+    <string name="Assignable_Key_Elem_None_Title">Nenhum atribuído</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">A operação por toque ficará desativada. A operação de emparelhamento está disponível nesta definição.</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">Controlo da reprodução</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">Pode interagir com o telemóvel através do microfone dos auscultadores com a sua voz.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">Função de Assistente de Voz</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">Controlo do volume</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">Não pode atribuir a Função de Assistente de Voz à esquerda e direita.</string>
+    <string name="Assignable_Key_Setting_1">Alterar função botão [NC/AMBIENT]</string>
+    <string name="Assignable_Key_Setting_2">Alterar função botão lateral esquerdo</string>
+    <string name="Assignable_Key_Setting_Button">Altere a função do botão</string>
+    <string name="Assignable_Key_Setting_C">Alterar função botão [C]</string>
+    <string name="Assignable_Key_Setting_CUSTOM">Alterar função botão [CUSTOM]</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">Redefinir</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">Pode alterar a função atribuída ao botão à esquerda.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">Pode alterar a função atribuída ao botão à direita.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">Pode alterar a função atribuída ao botão [C].</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">Pode alterar a função atribuída ao botão [CUSTOM].</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">Pode alterar a função atribuída ao sensor de toque à esquerda.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">Pode alterar a função atribuída ao sensor de toque à direita.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">Função:</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">Método de operação:</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">Esquerda</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">Direita</string>
+    <string name="Assignable_Key_Setting_Edit_Title">Editar</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">Entrada de áudio/cancelar</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">Cancele a Função de Assistente de Voz</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">Cancele entrada de áudio</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">Notificação de voz</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">Entrada de áudio</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">Inicie a Função de Assistente de Voz</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">Canção seguinte</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">Reproduzir/Pausa</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">Canção anterior</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">Anulação de ruído/Som ambiente/Desligado</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">Otimizador anulação de ruído</string>
+    <string name="Assignable_Key_Setting_Function_None">Nenhum</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">Atenção rápida</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">Baixe o volume</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">Aumente o volume</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">Entrada de áudio</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">Prima 2 vezes</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">Prima 2 vezes e continue a premir</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">Prima 1 vez</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">Prima 1 vez e continue a premir</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">Prima 3 vezes</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">Continue a premir</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">Prima longamente</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">Toque duas vezes</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">Toque duas vezes e continue a premir</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">Toque</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">Toque e continue a premir</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">Toque três vezes</string>
+    <string name="Assignable_Key_Setting_NC">Alterar função botão [NC]</string>
+    <string name="Assignable_Key_Setting_NCAMB">Alterar função botão [NC/AMB]</string>
+    <string name="Assignable_Key_Setting_Not_Connected">Não ligado.</string>
+    <string name="Assignable_Key_Setting_R">Altere função do botão do lado direito</string>
+    <string name="Assignable_Key_Setting_SaveCheck">A edição não está concluída. Sair?</string>
+    <string name="Assignable_Key_Setting_Touch">Altere a função do sensor de toque</string>
+    <string name="AutoPlaybackControl_Title">Pausa ao retirar os auscultadores</string>
+    <string name="AutoPowerOff_Off_Parameter">Não desligar</string>
+    <string name="AutoPowerOff_Off_Title">Não desligar</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">Se não usar os auscultadores durante um determinado tempo, a alimentação é desligada automaticamente.</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">Desligado ao retirar os auscultadores</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">Desligado ao retirar os auscultadores</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Se tempo definido passou após Bluetooth ter sido desligado, alimentação auscultadores é automat. desligada.</string>
+    <string name="AutoPowerOff_SelectTime_Title">Desligam-se após um tempo</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1 hora</string>
+    <string name="AutoPowerOff_SelectTme_30min">30 minutos</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3 horas</string>
+    <string name="AutoPowerOff_SelectTme_5min">5 minutos</string>
+    <string name="AutoPowerOff_Title">Desligamento Automático</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">Nível da bateria</string>
+    <string name="Battery_Remain_Unknown">Nível da bateria desconhecido</string>
+    <string name="Button_Next">seguinte</string>
+    <string name="Button_Permission_iOS_Settings">Definições</string>
+    <string name="Button_Prev">anterior</string>
+    <string name="Codec_AAC">Ligado por AAC.</string>
+    <string name="Codec_LDAC">Ligado por LDAC.</string>
+    <string name="Codec_SBC">Ligado por SBC.</string>
+    <string name="Codec_aptX">Ligado por aptX.</string>
+    <string name="Codec_aptXHD">Ligado por aptX HD.</string>
+    <string name="Common_App_Start">Iniciar</string>
+    <string name="Common_Back">Retroc.</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">Concl.</string>
+    <string name="Common_EULA">Acordo de licença de utilizador final</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">Mais info</string>
+    <string name="Common_Off">Desligado</string>
+    <string name="Common_On">Ligado</string>
+    <string name="Common_Other">Outro</string>
+    <string name="Common_PP">Política de privacidade</string>
+    <string name="Common_Pause">Pausa</string>
+    <string name="Common_Play">Reproduzir</string>
+    <string name="Common_Start">Iniciar</string>
+    <string name="Common_Yes">Sim</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">Para alterar as definições, o Modo de qualidade do som deve ser alterado para Prioridade à ligação estável. Além disso, os auscultadores serão religados e a música que está a ser reproduzida parará. Alterar?</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">A música que está a ser reproduzida parará porque é necessária a religação aos auscultadores. Além disso, as definições da qualidade do som podem ficar indisponíveis se ocorreu alteração para Prioridade à qualidade do som. Alterar?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">A música que está a ser reproduzida parará porque é necessária a religação aos auscultadores. Alterar?</string>
+    <string name="ConnectMode_Changing_Title_Caution">Deve alterar o Modo qualidade som</string>
+    <string name="ConnectMode_Changing_Title_Confirm">Alterações ao Modo qualidade som</string>
+    <string name="ConnectMode_Connectivity_Detail">Se o som saltar com frequência, selecione esta definição.</string>
+    <string name="ConnectMode_Connectivity_Title">Prioridade à ligação estável</string>
+    <string name="ConnectMode_Sound_Title">Prioridade à qualidade do som</string>
+    <string name="ConnectMode_Title">Modo de qualidade do som</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">O produto (Sony | Headphones Connect) inclui a tecnologia de reconhecimento de atividade desenvolvida pela Sony Corporation, baseada em pesquisas da Sony Computer Science Laboratories, Inc.</string>
+    <string name="Copyright_AptX">Qualcomm é uma marca comercial da Qualcomm Incorporated, registada nos Estados Unidos e noutros países, utilizada com autorização. aptX é uma marca comercial da Qualcomm Technologies International, Ltd., registada nos Estados Unidos e noutros países, utilizada com autorização.</string>
+    <string name="Copyright_Bluetooth">La marca de la palabra Bluetooth® y sus logotipos son propiedad de Bluetooth SIG, Inc. y cualquier uso de los mismos por parte de Sony Corporation se realiza bajo licencia.</string>
+    <string name="Copyright_NFC">A marca N é uma marca comercial ou uma marca comercial registada da NFC Forum, Inc. nos Estados Unidos e noutros países.</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">Para verificar o nível da bateria mais atualizado</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">O nível da bateria apresentado é atualizado quando os auscultadores são removidos da caixa de carregamento.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">O indicador de nível da bateria da caixa de carregamento é atualizado quando os auscultadores são retirados da caixa de carregamento.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">Ativar o indicador de nível da bateria da caixa de carregamento?</string>
+    <string name="Cradle_Battery">Caixa de carregamento</string>
+    <string name="Current_Volume_Talkback">Volume atual</string>
+    <string name="DSEEHX_AI_Param_Auto">Auto</string>
+    <string name="DSEEHX_AI_Param_Off">Desligado</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">Auto</string>
+    <string name="DSEEHX_Param_Off">Desligado</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme ativo</string>
+    <string name="DSEE_HX_ON">DSEE HX ativo</string>
+    <string name="DSEE_ON">DSEE ativo</string>
+    <string name="DSEE_Param_Auto">Auto</string>
+    <string name="DSEE_Param_Off">Desligado</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">Som</string>
+    <string name="Dashboard_Tab_Status">Estado</string>
+    <string name="Dashboard_Tab_System">Sistema</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Ligado por Bluetooth.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Não ligado por Bluetooth.</string>
+    <string name="Device_Connection_Connect">Ligar</string>
+    <string name="Device_Connection_Connect_iOS">Ligar auscultadores emparelhados</string>
+    <string name="Device_Connection_Message1">Ligue os auscultadores através de Bluetooth.</string>
+    <string name="Device_Connection_Pair">Ligar os novos auscultadores</string>
+    <string name="Device_Registration_Top_Msg">Registar novos auscultadores.</string>
+    <string name="Download_Latest_MDRPlugin">A utilização destes auscultadores requer a versão mais recente da Headphones Connect. Atualize esta app a partir do Google Play.</string>
+    <string name="Download_Latest_MDRPlugin_iOS">A utilização destes auscultadores requer a versão mais recente da Headphones Connect. Atualize esta app a partir da App Store.</string>
+    <string name="EBB_Indicator">Reforço Eletrónico de Graves</string>
+    <string name="EBB_Param_Title">Nível</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">Acústico</string>
+    <string name="EQ_Preset_Bass">Amplif. de graves</string>
+    <string name="EQ_Preset_Bright">Brilhante</string>
+    <string name="EQ_Preset_Custom">Manual</string>
+    <string name="EQ_Preset_Dance">Dança</string>
+    <string name="EQ_Preset_EDM">EDM</string>
+    <string name="EQ_Preset_Excited">Excitado</string>
+    <string name="EQ_Preset_Jazz">Jazz</string>
+    <string name="EQ_Preset_Mellow">Suave</string>
+    <string name="EQ_Preset_Off">Desligado</string>
+    <string name="EQ_Preset_Pop">Pop</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B / Hip Hop</string>
+    <string name="EQ_Preset_Relaxed">Relaxado</string>
+    <string name="EQ_Preset_Rock">Rock</string>
+    <string name="EQ_Preset_Speech">Discurso</string>
+    <string name="EQ_Preset_Title">Equalizador</string>
+    <string name="EQ_Preset_Treble">Amplif. de agudos</string>
+    <string name="EQ_Preset_UserSetting">Pessoal</string>
+    <string name="EQ_Preset_Vocal">Vocal</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_pt.html</string>
+    <string name="ErrMsg_CannotAccess_Server">Falha ao efetuar a ligação ao servidor. Verifique o estado de ligação da rede.</string>
+    <string name="FW_Download_Param_Always">Descarregar sempre automaticamente</string>
+    <string name="FW_Download_Param_OnlyWiFi">Apenas quando ligado por Wi-Fi</string>
+    <string name="FW_Download_Title">Descarregamento automático software</string>
+    <string name="FW_EULA_Title">Termos de utilização</string>
+    <string name="FW_Info_Button_Resume">Retomar</string>
+    <string name="FW_Info_Button_Start">Iniciar</string>
+    <string name="FW_Info_Caution">"Auscultadores indisponíveis durante a atualização.
+Coloque os auscultadores perto do dispositivo móvel quando iniciar."</string>
+    <string name="FW_Info_Caution_Downloading">"O descarreg. será cancelado se os auscult. e o dispos. móvel forem afastados um do outro ou se a alimentação dos auscult. for desligada.
+Se cancelado, o descarreg. pode ser retomado."</string>
+    <string name="FW_Info_Caution_Sending">"A transf. será cancelada se os ausc. e o dispos. móvel forem afastados um do outro ou se a aliment. dos ausc. for desligada.
+Se cancelada, a transfer. pode ser retomada de onde parou."</string>
+    <string name="FW_Info_Caution_Start">Comece com o sistema de auscultadores e com o dispositivo móvel colocados perto um do outro.</string>
+    <string name="FW_Info_EULA">Se premir o botão seguinte, estará a declarar que leu o documento de consentimento e aceita o respetivo conteúdo.</string>
+    <string name="FW_Info_EULALink">Termos de utilização</string>
+    <string name="FW_Info_Message1">Está disponível o software mais recente do sistema de auscultadores.</string>
+    <string name="FW_Info_Message2">Quando o botão [Aceitar] é premido, a atualização começa.</string>
+    <string name="FW_Info_Message3">Quando o botão [OK] é premido, a atualização começa.</string>
+    <string name="FW_Info_Message_Download">Se o botão [%s] for premido, as preparações para atualização começarão.</string>
+    <string name="FW_Info_Message_Resume">Premir o botão [%s] retoma a transferência.</string>
+    <string name="FW_Info_Message_Update">Premir o botão [%s] inicia a atualização.</string>
+    <string name="FW_Info_Title">Informações sobre o software</string>
+    <string name="FW_Info_Version">Versão</string>
+    <string name="FW_Notify_Abort">Cancelada a transferência do software do sistema de auscultadores.</string>
+    <string name="FW_Notify_Detail">Mais info</string>
+    <string name="FW_Notify_Downloading">A descarregar software mais recente dos auscultadores... (%d%%)</string>
+    <string name="FW_Notify_Msg">Está disponível o software mais recente dos auscultadores.</string>
+    <string name="FW_Notify_Sending">A transferir o software mais recente dos auscultadores... (%d%%)</string>
+    <string name="FW_Notify_Update">Atualize o software do sistema de auscultadores.</string>
+    <string name="FW_Update_Button_Transit_AppStore">Atualize a partir da App Store</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">Atualize a partir do Google Play</string>
+    <string name="FW_Update_Message1">Aguarde...</string>
+    <string name="FW_Update_Message2">"Não desligue a alimentação.
+Não coloque os auscultadores muito afastados do dispositivo móvel."</string>
+    <string name="FW_Update_Message3">"Reinicia automaticamente.
+Não coloque os auscultadores muito afastados do dispositivo móvel."</string>
+    <string name="FW_Update_Message_step2_1">Transferir para a unidade esquerda</string>
+    <string name="FW_Update_Message_step2_2_1">Atualizar a unidade esquerda dos ausc</string>
+    <string name="FW_Update_Message_step2_2_2">"Atualização da unidade esquerda do sistema de auscultadores concluída.
+Ligar à unidade direita"</string>
+    <string name="FW_Update_Message_step2_2_3">Preparar transferência p/unidade direita</string>
+    <string name="FW_Update_Message_step2_3">Transferir para a unidade direita</string>
+    <string name="FW_Update_Retry_Body_Caution">"Antes de atualizar o software, deve desligar a função \"Google Assistant\".
+Assim que a função \"Google Assistant\" estiver desligada, o auscultador irá reiniciar automaticamente e terá de seguir as instruções pop up.
+Logo que o software atualize, por favor mudar manualmente para as configurações \"Google Assistant\"."</string>
+    <string name="FW_Update_Retry_Title_Caution">A função \"Google Assistant\" deve ser desligada</string>
+    <string name="FW_Update_Status_Abort">Cancelada a transferência do software do sistema de auscultadores.</string>
+    <string name="FW_Update_Status_Download">A descarregar o software...</string>
+    <string name="FW_Update_Status_Download_step1">A descarreg. software... (1/3)</string>
+    <string name="FW_Update_Status_Downloading">A descarregar o software mais recente do sistema de auscultadores...</string>
+    <string name="FW_Update_Status_Install">A atualizar...</string>
+    <string name="FW_Update_Status_Install_step3">A atualizar software... (3/3)</string>
+    <string name="FW_Update_Status_Prepared">Atualize o software do sistema de auscultadores.</string>
+    <string name="FW_Update_Status_Send">A transferir o software...</string>
+    <string name="FW_Update_Status_Send_step2">A transferir software... (2/3)</string>
+    <string name="FW_Update_Status_Sending">A transferir o software mais recente do sistema de auscultadores...</string>
+    <string name="FW_Update_Title">Atualizar software</string>
+    <string name="FW_Version_Confirm_Title">%s Versão</string>
+    <string name="FW_Version_Menu_Title">%s Versão</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">pt</string>
+    <string name="GoogleAssistantIntro_Link">Configure o seu Google Assistant</string>
+    <string name="GoogleAssistantIntro_Msg">Obtenha acesso instantâneo ao seu Google pessoal e muito mais. A instalação demora poucos minutos.</string>
+    <string name="GoogleAssistantIntro_Title">Agora otimizado para o Google Assistant.</string>
+    <string name="Help_Information_Priority_High">Verifique aqui</string>
+    <string name="Help_Troubleshooting">Solução de problemas</string>
+    <string name="IASetup_AnalyzeComplete_Detail">Em seguida, envie estes resultados para uma aplicação de música para otimizar a sua experiência do 360 Reality Audio.</string>
+    <string name="IASetup_AnalyzeComplete_Title">As orelhas foram analisadas com êxito</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"Tire fotos das suas orelhas p/análise.
+Antes de tirar fotos, certifique-se de que as orelhas estão totalmente visíveis e verifique o seguinte:
+
+- Retire o sistema de auscultadores das orelhas.
+- As suas orelhas não estão tapadas pelo cabelo.
+- Retire os brincos e os piercings."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">Analise a forma da sua orelha</string>
+    <string name="IASetup_Analyze_Cmd_Retry">Re-analisar</string>
+    <string name="IASetup_Analyze_Cmd_Start">Analisar</string>
+    <string name="IASetup_Analyze_Detail">Este procedimento demorará aproximadamente %d segundos.</string>
+    <string name="IASetup_Analyze_Label">Analisar a forma da orelha</string>
+    <string name="IASetup_Analyze_Status_Done">As orelhas foram analisadas</string>
+    <string name="IASetup_Analyze_Status_NotComp">As orelhas não foram analisadas</string>
+    <string name="IASetup_Analyze_Title">Analisar as orelhas</string>
+    <string name="IASetup_AppDetail_NotInstalled">Não instalada</string>
+    <string name="IASetup_AppDetail_NotOptimized">Não otimizada</string>
+    <string name="IASetup_AppDetail_Optimized">Otimizada</string>
+    <string name="IASetup_AppInstallConf_Title">Tem de regressar a Headphones Connect após a instalação.</string>
+    <string name="IASetup_AppInstall_Detail">Definições de 360 Reality Audio concluídas quando a aplicação é iniciada após a instalação. A aplicação de música é otimizada para recriar um campo sonoro preciso.</string>
+    <string name="IASetup_AppInstall_Detail_iOS">Após instalar a aplicação e concluir as definições de 360 Reality Audio, a aplicação de música é otimizada para recriar um campo de som exato.</string>
+    <string name="IASetup_AppInstall_Install">Instalar e otimizar</string>
+    <string name="IASetup_AppInstall_Install_iOS">Instalar</string>
+    <string name="IASetup_AppInstall_Title">Defs. 360 Reality Audio concluídas quando aplicaç. é iniciada.</string>
+    <string name="IASetup_AppInstall_Title_iOS">Instale esta aplicação no seu telefone.</string>
+    <string name="IASetup_AppIntroduction_Detail">"Para ouvir esta experiência de música envolvente, necessitará de uma destas aplicações de serviço de música para 360 Reality Audio.
+*As tarifas de subscrição e o conteúdo aplicável variam de acordo com o serviço de música."</string>
+    <string name="IASetup_AppIntroduction_Title">Aplicações de música disponíveis para o 360 Reality Audio</string>
+    <string name="IASetup_AppLaunch_Detail">"Após concluir a config. do 360 Reality Audio, pode desfrutar da reprod. de música c/campo sonoro preciso.
+Desfrute do 360 Reality Audio otimizado p/si."</string>
+    <string name="IASetup_AppLaunch_Optimize">Iniciar para otimizar</string>
+    <string name="IASetup_AppLaunch_Title">Defs. 360 Reality Audio concluídas quando aplicaç. é iniciada.</string>
+    <string name="IASetup_AppList_Detail">"O 360 Reality Audio só está disponível a partir destas aplicações de serviço de música. Selecione uma aplicação que pretende utilizar.
+*As tarifas de subscrição e o conteúdo aplicável variam de acordo com o serviço de música."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">Não instalada</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">Não otimizada</string>
+    <string name="IASetup_AppList_Gp_Optimized">Otimizada</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">Impossível detetar.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">Não mova a cabeça.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">Não mova o smartphone.</string>
+    <string name="IASetup_CameraInstruction_Complete">Foto captada.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">A orelha foi detetada. Não mova a cabeça.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">A detetar a orelha esquerda...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">A detetar a orelha direita...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">A posição está agora correta. A partir dessa posição, rode a cabeça lentamente para a direita.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">Rode a cabeça lentamente para a direita.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">A posição está agora correta. A partir dessa posição, rode a cabeça lentamente para a esquerda.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">Rode a cabeça lentamente para a esquerda.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"Tire uma fotografia da sua orelha esquerda. Retire os seus auscultadores.
+Em seguida, rode a cabeça para a direita e prima o botão do obturador."</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"Retire os seus auscultadores.
+Em seguida, rode a cabeça para a direita de modo a enquadrar a orelha e prima o botão do obturador."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"Tire uma fotografia da sua orelha direita. Retire os seus auscultadores.
+Em seguida, rode a cabeça para a esquerda e prima o botão do obturador."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"Retire os seus auscultadores.
+Em seguida, rode a cabeça para a esquerda de modo a enquadrar a orelha e prima o botão do obturador."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">Afaste a câmara da cabeça.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">Aproxime a câmara.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">Incline a câmara um pouco para baixo.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"Retire os seus auscultadores.
+Em seguida, posicione-se em frente à câmara e verifique se a sua cabeça está dentro do enquadramento."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">Rode a câmara um pouco mais para a esquerda.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">Rode a câmara um pouco mais para a direita.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">Incline a câmara um pouco para cima.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">Retire os seus auscultadores.</string>
+    <string name="IASetup_CompletePhotograph_Detail">Comece a análise da forma da orelha.</string>
+    <string name="IASetup_CompletePhotograph_Title">A orelha direita foi fotografada com êxito</string>
+    <string name="IASetup_Confirm_NonBT_Device">Prima o botão [%s] para efetuar as definições dos auscultadores.</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">Para ouvir e comparar os sons envolventes do 360 Reality Audio, as definições seguintes devem estar desligadas.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">Para utilizar o 360 Reality Audio envolvente em aplicações de serviço de música, as definições seguintes devem estar desligadas.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">Desligar e reproduzir</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">Desligar e iniciar</string>
+    <string name="IASetup_EarPhoto_Auto">Disparo automático (recomendado)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">Disparo automático</string>
+    <string name="IASetup_EarPhoto_Manual">Disparo manual</string>
+    <string name="IASetup_FailurePhotograph_Detail">Confirme a informação seguinte e repita a foto da orelha.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">A orelha esquerda não é reconhecida</string>
+    <string name="IASetup_FailurePhotograph_R_Title">A orelha direita não é reconhecida</string>
+    <string name="IASetup_FeatureTitle">Configur. do 360 Reality Audio</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">Confirmado</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">Prosseguir sem utilizar um cupão</string>
+    <string name="IASetup_FreeTrialCoupon_Start">Ir para o site do cupão</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">Verifique a direção da sua orelha e faça os ajustes da posição e tamanho utilizando o guia.</string>
+    <string name="IASetup_LearnMore">Mais inform. sobre o 360 Reality Audio</string>
+    <string name="IASetup_LearnMore_AboutApp">Aceda aqui p/detalhes do serviço de música</string>
+    <string name="IASetup_Link_EarPhotoSample">Posição e tamanho da orelha</string>
+    <string name="IASetup_Link_Handling_EarPhoto">Como são utilizados os seus dados pessoais</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">Porque necess. de uma foto das suas orelhas?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">Sobre as inf. a enviar p/aplic. serviço música</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">Certifique-se de que toda a orelha está enquadrada e prima o botão [%s].</string>
+    <string name="IASetup_NeedToUpdateApp_Title">Necessária atualização.</string>
+    <string name="IASetup_OOBE_Title">Sobre o 360 Reality Audio</string>
+    <string name="IASetup_Optimize_Cmd_AppList">Confirmar</string>
+    <string name="IASetup_Optimize_Cmd_Install">Instalar</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">Otimizar</string>
+    <string name="IASetup_Optimize_Label">Otimizar aplicações</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">As aplicações 360 Reality Audio não estão instaladas</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">As aplicações 360 Reality Audio ainda não estão otimizadas</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">Não há aplicações 360 Reality Audio otimizadas</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d aplicação(ões) otimizada(s)</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"No ecrã seguinte, volte a câmara frontal p/a cara. O disparo é automático quando as orelhas são detetadas.
+
+1. Segure o dispos. móvel c/ambas as mãos em frente da cara.
+2. Quando a cara é detetada, rode a cabeça p/a direita seguindo a orientação de voz.
+3. Fique imóvel até o disparo ser efetuado automaticamente."</string>
+    <string name="IASetup_PhotographEar_Title">Tire uma foto da sua orelha esquerda</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">Retire os brincos.</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- Tire uma foto da orelha esquerda.
+- Se o local do disparo for demasiado claro ou demasiado escuro, mude de local.
+- Retire o sistema de auscultadores da orelha."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- Tire uma foto da orelha direita.
+- Se o local do disparo for demasiado claro ou demasiado escuro, mude de local.
+- Retire o sistema de auscultadores da orelha."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">Certifique-se de que o cabelo não tapa as orelhas.</string>
+    <string name="IASetup_Photograph_Ear_L">Orelha esquerda</string>
+    <string name="IASetup_Photograph_Ear_R">Orelha direita</string>
+    <string name="IASetup_Photograph_Retake">Repita</string>
+    <string name="IASetup_Photograph_Take">Tire uma foto</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">Áudio normal</string>
+    <string name="IASetup_Select_NonBT_Button">Ir para o painel</string>
+    <string name="IASetup_SetupStart">Iniciar configuração</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">Concluído</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">Tire uma foto das suas orelhas para análise.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">As orelhas não foram analisadas</string>
+    <string name="IASetup_SetupSummary_Detail">Podemos reproduzir para si com precisão o melhor campo sonoro através da análise da forma das suas orelhas.</string>
+    <string name="IASetup_SetupSummary_Optimize">Iniciar Passo 2</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d aplicação(ões) otimizada(s)</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">Otimize a aplic. serviço de música enviando resultados da análise das orelhas.</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">As aplicações 360 Reality Audio não estão instaladas</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">As aplicações 360 Reality Audio não estão otimizadas</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">Iniciar Passo 1</string>
+    <string name="IASetup_SetupSummary_Title">Otimize o campo sonoro do 360 Reality Audio</string>
+    <string name="IASetup_Setup_Complete">Concluído o campo sonoro do 360 Reality Audio</string>
+    <string name="IASetup_Setup_Title">Config. 360 Reality Audio</string>
+    <string name="IASetup_SoundPreview_Detail">Tente a música de exemplo abaixo para ouvir a diferença.</string>
+    <string name="IASetup_SoundPreview_Title">Experiência do 360 Reality Audio</string>
+    <string name="IASetup_StartAnalyze">Iniciar</string>
+    <string name="IASetup_SuccessPhotograph_Detail">A seguir, tire uma foto da orelha direita.</string>
+    <string name="IASetup_SuccessPhotograph_Title">A orelha esquerda foi fotografada com êxito</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">Otimizar aplicações</string>
+    <string name="IASetup_TipsDetail_Description">Para desfrutar de experiências de áudio envolvente nas aplicações de serviço de música 360 Reality Audio, é necessário otimizar as aplicações de serviço de música através do envio dos resultados da análise das orelhas.</string>
+    <string name="IASetup_TipsDetail_Title">A configuração do 360 Reality Audio ainda está incompleta.</string>
+    <string name="IASetup_UpdateApp">Atualizar</string>
+    <string name="IASetup_Welcome_Detail">O uso do 360 Reality Audio no seu sistema de auscultadores oferece uma experiência de música envolvente como se estivesse num espetáculo ao vivo.</string>
+    <string name="IASetup_Welcome_Title">Bem-vindo ao 360 Reality Audio</string>
+    <string name="IAWM_Analyze_Cmd_Retry">Recriar</string>
+    <string name="IAWM_Analyze_Cmd_Start">Criar</string>
+    <string name="IAWM_Analyze_Label">Criar um perfil auditivo personalizado</string>
+    <string name="IAWM_Analyze_Status_Done">Concluído</string>
+    <string name="IAWM_Analyze_Status_NotComp">Incompleto</string>
+    <string name="IAWM_Complete_Data_Title">A receção do seu perfil auditivo foi concluída</string>
+    <string name="IAWM_Confirmation_Dialog1">"O seu perfil auditivo já foi guardado.
+Receber perfil do servidor e prosseguir para otimizar a aplicação?"</string>
+    <string name="IAWM_Hrtf_App_Button">Comece a receber</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"Ocorreu uma falha ao receber o seu perfil auditivo.
+Verifique a ligação de rede, aguarde algum tempo e tente novamente."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"Não foi possível receber o seu perfil auditivo do servidor.
+Verifique se a criação do seu perfil auditivo foi concluída no smartphone e prima novamente o botão para iniciar a receção."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"Não foi possível receber o seu perfil auditivo do servidor.
+Depois de verificar o seguinte, vá para o próximo ecrã novamente e comece a receber.
+- A criação do seu perfil auditivo no smartphone foi concluída
+- Está conectado à mesma conta na 360 Spatial Sound Personalizer e Headphones Connect neste Walkman"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">Instale a aplicação 360 Spatial Sound Personalizer no seu smartphone, inicie sessão na mesma conta deste Walkman e tire uma fotografia dos seus ouvidos seguindo as instruções no ecrã.</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">Cria o seu perfil auditivo num smartphone</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">Comece a receber</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"Digitalize o código QR com um smartphone. Se não for possível realizar a digitalização, procure a aplicação “360 Spatial Sound Personalizer” nas lojas de aplicações.
+Após terminar de criar o seu perfil auditivo, este Walkman receberá automaticamente o seu perfil auditivo, portanto, permaneça neste ecrã."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"Digitalize o código QR com um smartphone. Se não for possível realizar a digitalização, procure a aplicação “360 Spatial Sound Personalizer” nas lojas de aplicações.
+Depois de concluir a criação do seu perfil auditivo, prima o botão abaixo e inicie a receção."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">Instale a aplicação num smartphone</string>
+    <string name="IAWM_Need_Sign_in_Description">Inicie sessão na sua conta para utilizar o seu perfil auditivo que vai criar ou que já criou.</string>
+    <string name="IAWM_Need_Sign_in_Title">É necessário iniciar sessão</string>
+    <string name="IAWM_Recieve_Data_Title">A receber o seu perfil auditivo do servidor...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">Tire uma fotografia dos seus ouvidos utilizando a aplicação 360 Spatial Sound Personalizer e crie o seu perfil auditivo.</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">O seu perfil auditivo já foi criado.</string>
+    <string name="IAWM_SetupSummary_Description">Em seguida, envie o seu perfil auditivo para as aplicações de serviço de música, para que o 360 Reality Audio recrie um campo de som preciso.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">Regressa ao Walkman, envia o seu perfil auditivo e otimiza as aplicações de serviço de música para o 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">Envia o seu perfil auditivo e otimiza as aplicações de serviço de música para o 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Title">A criação do seu perfil auditivo foi concluída</string>
+    <string name="IAWM_Start_Recieving_Title">Volte a receber o seu perfil auditivo.</string>
+    <string name="InformationNotification_List_Info_Empty_Title">Não há informação ou inquéritos neste momento.</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">A informação e os inquéritos aparecem aqui.</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">As dicas de utilização aparecem aqui.</string>
+    <string name="InformationNotification_List_Tips_Section">Dicas</string>
+    <string name="InformationNotification_List_Title">Informação</string>
+    <string name="InformationNotification_New_Talkback_1">Há uma nova informação.</string>
+    <string name="InformationNotification_New_Talkback_2">Há um novo item.</string>
+    <string name="InformationNotification_New_Talkback_3">Este é um novo item.</string>
+    <string name="InformationToUsersLangCode">pt</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">A aplicação deteta as suas ações e as localizações que frequenta e altera automaticamente as definições dos auscultadores, como a integração do som ambiente.</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">A aplicação deteta as suas ações e ajusta-se automaticamente o modo de integração com o som ambiente.</string>
+    <string name="InitialSetup_IASetup_Detail">Isto destina-se a otimizar a sensação sonora do 360 Reality Audio p/criar uma experiência de música envolvente como num espetáculo ao vivo.</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">Inicie a config. e desfrute totalmente das funções do sistema de auscultadores.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">Ir para o painel</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">A configuração está concluída.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">As definições podem ser alteradas a qualquer momento no painel.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">Este é o último passo das definições.</string>
+    <string name="InitialSetup_OverallSetup_Title">Configuração</string>
+    <string name="InstructionGuide_CoachMark">Para utilizar os auscultadores confortavelmente, verifique [Tutorial do %s].</string>
+    <string name="InstructionGuide_Menu_Title">Tutorial do %s</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">Quando o botão [OK] é premido, a transferência começa.</string>
+    <string name="LanguageData_Info_Message_1">"Não desligue a alimentação.
+Não coloque os auscultadores muito afastados do dispositivo móvel."</string>
+    <string name="LanguageData_Info_Message_2">"Reinicia automaticamente.
+Não coloque os auscultadores muito afastados do dispositivo móvel."</string>
+    <string name="LanguageData_Restriction">"Sist. auscult. indisp. na transf. pode demorar cerca de %d min.
+Comece c/sist. auscult. e disp. móvel perto um do outro."</string>
+    <string name="Left_Headphones">Unidade esquerda</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"Não é possível ligar enquanto estiver ligado a outros auscultadores.
+Desligue os auscultadores ligados."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">O registo de localizações não está concluído. Fechar?</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"É necessário permitir sempre o acesso à Localização para que as localizações que frequenta possam ser detetadas de forma transparente.
+
+Prima o botão [Definições] e selecione [Permitir sempre] em [Permissões] > [Localização]. Se permitir sempre a recolha de dados de localização, estes dados serão recolhidos mesmo quando a aplicação estiver fechada ou não estiver a ser usada."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">É necessário permitir sempre o acesso à Localização nas definições do dispositivo móvel para que as localizações que frequenta possam ser detetadas.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">É necessário permitir sempre o acesso à Localização nas definições do dispositivo móvel para que as localizações que frequenta possam ser detetadas de forma transparente.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">É necessário permitir sempre o acesso à Localização para que as localizações que frequenta possam ser detetadas de forma transparente. Se permitir sempre a recolha de dados de localização, estes dados serão recolhidos mesmo quando a aplicação estiver fechada ou não estiver a ser usada. Confirme o conteúdo no próximo ecrã.</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">Cancelar o registo desta localização?</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">É necessário ativar a Localização nas definições do dispositivo móvel para a deteção das localizações que frequenta.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"A Localização é utilizada para a deteção das localizações que frequenta.
+Ative a Localização."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"É necessário ativar os Serviços de localização para a deteção das localizações que frequenta.
+
+Configure em “Definições” > [Privacidade] > [Serviços de localização] do dispositivo móvel."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">Não há localizações aprendidas que possam ser registadas.</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">É necessário permitir o acesso à Localização nas definições do dispositivo móvel para a deteção das localizações que frequenta.</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"É necessário permitir o acesso à Localização para a deteção das localizações que frequenta.
+Permita o acesso à Localização. Se permitir sempre a recolha de dados de localização, estes dados serão recolhidos mesmo quando a aplicação estiver fechada ou não estiver a ser usada."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"É necessário permitir o acesso à Localização para a deteção das localizações que frequenta.
+Selecionar [Durante a utilização da aplicação]"</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"É necessário permitir sempre o acesso à Localização para a deteção invisível das localizações que frequenta.
+
+Prima o botão [Definições] e atribua o acesso permanente em [Localização]."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"É necessário ativar a Localização exata para a deteção das localizações que frequenta.
+
+Prima o botão [Definições] e ative a Localização exata em [Localização]."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"Para registar localizações, é necessário ligar auscultadores que suportem o Adaptive Sound Control.
+Após ligar os auscultadores, selecione [%s] no menu do canto superior direito do painel e retome o processo de registo."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"Para editar, é necessário alterar o Modo de qualidade do som para [Prioridade à ligação estável].
+Além disso, os auscultadores serão ligados novamente e a reprodução da música atual será interrompida. Alterar?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"Não é possível registar mais localizações.
+Cancele os registos das localizações desnecessárias."</string>
+    <string name="Msg_ASC_Registration_Comp">Registou %s.</string>
+    <string name="Msg_Abort_FWUpdate">"Abortar atualização do software?
+Se abortou, pode retomar a atualização a partir do ponto onde foi parada."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">Permitir o acesso a partir de “Definições” > [Headphones] > [Localização] do dispositivo móvel.</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"Se utilizar a Localização, a precisão da deteção de ações melhorará. Além disso, as definições dos auscultadores serão alteradas automaticamente consoante a localização.
+Para utilizar estas funções de forma invisível, o acesso à Localização tem de estar sempre autorizado.
+
+Prima o botão [Definições] e atribua o acesso permanente em [Localização]."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"A utilização de Localização melhora ainda mais a precisão do Adaptive Sound Control.
+Prima o botão [Definições] e permita o acesso a partir de [Localização]."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">Para melhorar a precisão do Adaptive Sound Control, é recomendável utilizar o GPS. Ligue o GPS a partir das definições do dispositivo móvel.</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">Para melhorar a precisão das Adaptive Sound Control, é recomendado que permita o acesso às informações de localização.</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">A edição não está concluída. Sair?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"Se a Localização for utilizada, a precisão de deteção de ações pelo Adaptive Sound Control melhorará. Além disso, as definições dos auscultadores poderão ser alteradas automaticamente consoante a localização.
+Permita o acesso à Localização."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"Se a Localização for utilizada, a precisão do Adaptive Sound Control melhorará.
+Permita o acesso à Localização."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"Se a Localização for utilizada, a precisão do Adaptive Sound Control melhorará.
+Permita o acesso à Localização."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"Se a Localização for utilizada, a precisão de deteção de ações pelo Adaptive Sound Control melhorará. Além disso, as definições dos auscultadores poderão ser alteradas automaticamente consoante a localização.
+Selecionar [Durante a utilização da aplicação]"</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"Se a Localização for utilizada, a precisão de deteção de ações pelo Adaptive Sound Control melhorará. Além disso, as definições dos auscultadores poderão ser alteradas automaticamente consoante a localização.
+Ligue as definições de Localização."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"Se a Localização for utilizada, a precisão do Adaptive Sound Control melhorará.
+Ligue a Localização."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"Se ligar os Serviços de localização, a precisão de deteção de ações pelo Adaptive Sound Control melhorará. Além disso, as definições dos auscultadores poderão ser alteradas automaticamente consoante a localização.
+Configure em “Definições” > [Privacidade] > [Serviços de localização] do dispositivo móvel."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"Ligar os Serviços de localização melhora ainda mais a precisão do Adaptive Sound Control.
+Efetue as definições a partir de “Definições” > [Privacidade] > [Serviços de localização] do dispositivo móvel."</string>
+    <string name="Msg_Agree_EULAPP">Li os conteúdos acima e concordo.</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">O acesso às notificações deve ser aprovado para utilizar esta função. Selecione [%1$s] e ative a definição %2$s.</string>
+    <string name="Msg_Check_EULA">Confirmar %s. </string>
+    <string name="Msg_Check_EULAPP">Confirmar %1$s e %2$s. </string>
+    <string name="Msg_CompleteUpdate">A atualização do software está concluída.</string>
+    <string name="Msg_Complete_Language_Setting">Alteração de idioma concluída.</string>
+    <string name="Msg_ConfirmBattery_MDR">O nível da bateria é insuficiente. Carregue suficientemente o sistema de auscultadores, volte a ligá-lo e tente novamente.</string>
+    <string name="Msg_ConfirmBattery_Mobile">O nível da bateria é insuficiente. Carregue o dispositivo móvel e tente novamente.</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">Para alterar as definições, é necessário cancelar a atualização do software. Mesmo que seja cancelada, a atualização de software pode ser novamente efetuada. Alterar?</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">A atualização de software tem de ser cancelada</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">Utilizar simultaneamente o Equalizador e o %s aumenta o consumo da bateria dos auscultadores e pode encurtar o tempo de reprodução. Alterar?</string>
+    <string name="Msg_Confirm_L_connection">"A unid. esquerda do sistema de auscultad. não está ligada ao dispositivo móvel.
+Verifique se a alimentação da unid. esquerda do sistema de auscultad. está ligada e tente novamente."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">Cancelar a alteração de idioma?</string>
+    <string name="Msg_Confirm_R_connection">"A unidade direita do sist. de auscultadores não está ligada ao dispositivo móvel.
+Verifique se a alimentação da unidade direita do sist. de auscultadores está ligada e tente novamente."</string>
+    <string name="Msg_Confirm_network_connection">O dispositivo móvel não está ligado à rede. Ligue à rede e tente novamente.</string>
+    <string name="Msg_ConnectDevice">Ligue a uns auscultadores a partir do botão seguinte.</string>
+    <string name="Msg_ConnectDevice_talkback">"Ligado a %s.
+Apresenta o painel."</string>
+    <string name="Msg_ConnectMode_Changing_Error">Operação falhou.</string>
+    <string name="Msg_ConnectNewDevice">Ligar os novos auscultadores</string>
+    <string name="Msg_ConnectionFailed">Falha na ligação.</string>
+    <string name="Msg_ConnectionFailed_Internet">Não é possível apresentar conteúdo. Verifique a ligação à Internet.</string>
+    <string name="Msg_ConnectionFailed_SRT">"Não é possível ligar a %s.
+Verifique se a alimentação do dispositivo está ligada."</string>
+    <string name="Msg_DataError">A descarga do software falhou.</string>
+    <string name="Msg_Disabled_Language_Setting">"O idioma não pode ser alterado durante a transferência do software do sistema de auscultadores.
+Tente novamente após a transferência do software estar concluída."</string>
+    <string name="Msg_DownloadFailed">A descarga do software falhou.</string>
+    <string name="Msg_EmptyDevice">Pressione o botão [+] e registe o dispositivo.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"Para atualizar o software destes auscultadores, precisa da versão mais recente da Headphones Connect.
+Atualize esta app a partir do Google Play."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"Para atualizar o software destes auscultadores, precisa da versão mais recente da Headphones Connect.
+Atualize esta app a partir da App Store."</string>
+    <string name="Msg_FWVer_unmatched">A atualização do software falhou.</string>
+    <string name="Msg_Failed_Language_Setting">Falha ao alterar o idioma.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">Não é possível atualizar o software dos auscultadores na sua versão de iOS.</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"Permita a autorização a partir das definições do dispositivo móvel seguintes:
+[Definições] -> [Sistema de auscultadores] -> [Câmara]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">Prima o botão [Definições] e permita o acesso a partir de [Permissões] > [Câmara].</string>
+    <string name="Msg_IASetupAllowCamera">Permita a autorização para tirar uma foto.</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">Permita a autorização a partir das definições do dispositivo móvel</string>
+    <string name="Msg_IASetup_AppInstallConf">Após instalar “%s”, regresse a Headphones Connect e conclua as definições de 360 Reality Audio.</string>
+    <string name="Msg_IASetup_AppOptimizing">A preparar para otimização. Aguarde...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"As fotografias tiradas à sua orelha utilizando o seguinte processo serão enviadas para o servidor da Sony para fornecer o campo de som otimizado para si com base na forma da sua orelha.
+Após a conclusão desta análise, estas fotografias serão mantidas nos nossos servidores sem estarem associadas a si pessoalmente.
+Tais fotografias só serão utilizadas para investigação para melhorar a nossa função de análise de orelhas e serão eliminadas após 30 dias."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- Utilizamos fotografias das suas orelhas para otimizar o campo de som para si. Fazemos isto PARA CORRESPONDER AO NOSSO INTERESSE LEGÍTIMO DE CRIAÇÃO DE CAMPOS DE SOM OTIMIZADOS PARA SI. Eliminamos imediatamente as fotografias assim que a análise for concluída.
+- A Sony Home Entertainment &amp; Sound Products Inc. é responsável por este processamento. Utilizamos um servidor nos EUA, mantido por terceiros. Utilizamos cláusulas de contrato padrão aprovadas pela Comissão Europeia para proteger os seus dados nos EUA.
+- Pode contactar-nos através de privacyoffice.seu@sony.com ou escrevendo para o nosso representante, Sony Europe BV, uma empresa Holandesa, cuja morada comercial é Taurusavenue 16, 2132LS Hoofddorp, Países Baixos (se estiver na UE) ou Sony Europe BV, uma empresa Holandesa, cuja filial no RU é The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, Reino Unido (se estiver no Reino Unido). Pode também contactar-nos através de Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tóquio, 141-8610, Japão.
+- Tem o direito de aceder, corrigir e eliminar dados pessoais enquanto os processamos. Tem também o direito de apresentar queixa numa autoridade de proteção de dados no país ou região onde reside, trabalha ou onde surgir uma queixa."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"A App Store abre se “%s” não estiver instalada ou se for necessária atualização.
+
+Se “%s” for iniciada, as definições de 360 Reality Audio estão concluídas."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"O seu sistema de auscultadores não está ligado através de áudio multimédia (A2DP) com este dispositivo móvel.
+
+Desligue o áudio multimédia entre o sistema de auscultadores e outros dispositivos e, em seguida, efetue a ligação com este dispositivo móvel."</string>
+    <string name="Msg_IASetup_ConnectCable">"O sistema de auscultadores não está ligado com um dispositivo móvel.
+
+Ligue o sistema de auscultadores com este dispositivo móvel."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"Deteta a sua orelha e o disparo é automático.
+Se o disparo automático falhar várias vezes, está disponível o disparo manual."</string>
+    <string name="Msg_IASetup_General_Err">O processamento está cancelado.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"As fotos das suas orelhas/cabeça e todas as informações que o possam identificar não serão enviadas para nenhuma aplicação de música do 360 Reality Audio.
+
+Só os dados analisados serão enviados para as aplicações de música para que possa ouvir música otimizada."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">Para concluir as definições de 360 Reality Audio, após atualizar “%s” para a versão mais recente, regresse a Headphones Connect e otimize “%s”.</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"No ecrã seguinte será disponibilizada orientação por voz. Aumente o volume do dispositivo móvel para poder ouvir a orientação.
+
+*Não desligue estes auscultadores."</string>
+    <string name="Msg_IASetup_OpenAppInfo">Pretende abrir a “%s” no Google Play?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">Pretende abrir a “%s” na App Store?</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"O som que ouve nos espetáculos ao vivo pode depender da forma da cabeça e da orelha.
+
+Analisamos as fotos das suas orelhas para produzir um campo sonoro otimizado e personalizado para si.
+
+Quando enviar os resultados otimizados para aplicações de serviço de música do 360 Reality Audio, pode desfrutar de uma experiência musical envolvente com o seu sistema de auscultadores."</string>
+    <string name="Msg_IASetup_StopConfirm">A configuração do 360 Reality Audio não está concluída. Pode concluí-la mais tarde.</string>
+    <string name="Msg_IASetup_StopConfirm_Title">Pretende ignorar a configuração do 360 Reality Audio?</string>
+    <string name="Msg_IASetup_UnsupportedArea">Esta função não está disponível no seu país/região.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"A definição de 360 Reality Audio está ativada.
+Desligue esta definição quando da utilização do 360 Reality Audio envolvente em aplicações de serviço de música."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"Os sons de notificação e as indicações por voz são reproduzidos nos auscultadores dependendo da operação e do estado.
+Algumas notificações e indicações importantes não serão desativadas mesmo que a definição seja desativada."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"Os sons de notificação e as indicações por voz são reproduzidos nos auscultadores dependendo da operação e do estado.
+Algumas notificações e indicações importantes não serão desativadas mesmo que a definição seja desativada.
+Além disso, se pretender desativar apenas o som de notificação de mudança causada pelo Adaptive Sound Control, pode aplicar as alterações a partir das definições do Adaptive Sound Control."</string>
+    <string name="Msg_Information_NetworkError">Não é possível ligar à rede.</string>
+    <string name="Msg_Information_OtherError">Não é possível recuperar a informação.</string>
+    <string name="Msg_InstallFailed">A atualização do software falhou.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">Cancela a ligação ao outro dispositivo.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">Para ligar ao dispositivo selecionado, tente novamente após desligar um dos dispositivos que estão ligados.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">Para ligar outro dispositivo, tente novamente após desligar um dos dispositivos que estão ligados.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">É necessário desligar o dispositivo que está ligado</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">Desligar %s?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"Desligar %s?
+Se desligar, a ligação a esta aplicação será desligada."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">É necessário religar</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">A música que está a ser reproduzida parará porque é necessária a religação aos auscultadores. Religar aos auscultadores?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">A música que está a ser reproduzida parará porque é necessária a religação aos auscultadores. Não é possível utilizar o LDAC quando esta definição está ativada. Religar aos auscultadores?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"Cancelar o registo de %1$s?
+Para ligar novamente a %1$s após cancelar o registo, cancele o registo de %2$s a partir de %1$s e registe novamente o dispositivo."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">Para atualizar o software, é necessário desligar o %s ligado aos auscultadores. Desligar e iniciar a atualização?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">É necessário desligar o %s ligado</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">Para alterar o idioma, é necessário desligar o %s ligado aos auscultadores. Desligar e alterar o idioma?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">A ligação a %s falhou.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">O corte da ligação a %s falhou.</string>
+    <string name="Msg_MultiPoint_FailedToPair">A ligação a outro dispositivo falhou.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">O cancelamento do registo de %s falhou.</string>
+    <string name="Msg_MultiPoint_Info_Detail">Se ativar esta função, os auscultadores poderão ser ligados a dois dispositivos em simultâneo. Pode verificar os dispositivos ligados em [%s]. Não é possível utilizar o LDAC quando esta definição está ativada.</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">Para ligar novos dispositivos, é necessário abortar a atualização do software. A atualização do software pode ser retomada mesmo que seja abortada. Ligar?</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">A atualização de software tem de ser abortada</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">Para ligar o %s, é necessário abortar a atualização do software. A atualização do software pode ser retomada mesmo que seja abortada. Ligar?</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">A ligação a %s está estabelecida.</string>
+    <string name="Msg_NeedConnectDevice">É necessária ligação dos auscultadores e Bluetooth.</string>
+    <string name="Msg_OoBE_LocationPermission_After">Permita o acesso às informações de localização a partir das definições do dispositivo móvel para registar os auscultadores facilmente.</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"Pode registar facilmente auscultadores próximos com a Localização.
+Permita o acesso à Localização."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"Pode registar facilmente auscultadores próximos com a Localização.
+Permita o acesso à Localização."</string>
+    <string name="Msg_OoBE_LocationSetting_After">Ligue as informações de localização a partir das definições do dispositivo móvel para registar os auscultadores facilmente.</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"Pode registar facilmente auscultadores próximos com a Localização.
+Ative a Localização."</string>
+    <string name="Msg_PairingOS_BT_Settings">Selecione uns auscultadores a partir do ecrã Configurações Bluetooth e efetue a ligação.</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">Quando o emparelhamento estiver concluído, prima o botão [Retroc.].</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">Selecione %s no ecrã de configuração Bluetooth e estabeleça a ligação.</string>
+    <string name="Msg_Permission_BLE">Utilizamos isto para detetar os nossos auscultadores com BLE.</string>
+    <string name="Msg_Permission_Location">As informações de localização são utilizadas quando a aplicação deteta as suas ações e liga automaticamente as definições dos auscultadores.</string>
+    <string name="Msg_Permission_Location02">A utilização de Localização melhora ainda mais a precisão do Adaptive Sound Control.</string>
+    <string name="Msg_PowerOff">Desligar os auscultadores?</string>
+    <string name="Msg_RecommendUpdate">Para utilizar o dispositivo de forma mais confortável, recomendamos atualização de software.</string>
+    <string name="Msg_Reconnect_BT_Connection">A mudar destino de transferência de software...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">Novos auscultadores</string>
+    <string name="Msg_SelectMDR_Header">Selecione auscultadores</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"Selecione os auscultadores a partir de [Bluetooth] das “Definições” do dispositivo móvel e faça a ligação.
+Quando a ligação estiver concluída, reinicie o Headphones Connect."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"Verifique se a alimentação dos auscultadores está ligada e selecione %s em [Bluetooth] nas “Definições” do dispositivo móvel e estabeleça a ligação.
+Quando a ligação estiver concluída, reinicie Headphones Connect."</string>
+    <string name="Msg_SendFailed">A transferência do software falhou.</string>
+    <string name="Msg_SendFailed_WF_Special">"Transferência de software parada a %d %%.
+Tente novamente após colocar e remover os auscultadores da caixa de carregamento."</string>
+    <string name="Msg_Setting_Data_Err">A descarga dos dados de voz falhou.</string>
+    <string name="Msg_Setting_Downloading_Failed">A descarga dos dados de voz falhou.</string>
+    <string name="Msg_Setting_Sending_Failed">A transferência dos dados de voz falhou.</string>
+    <string name="Msg_Title_FWAbort">Transferência do software cancelada. Verifique o seguinte.</string>
+    <string name="Msg_TrainingModeSaveCheck">A edição não está concluída. Sair?</string>
+    <string name="Msg_Update_NeedReboot">"Verifique a conclusão da atualização.
+
+1. Tente ligar novamente após colocar e remover os auscultadores da caixa de carregamento.
+2. Selecione [%1$s Versão] a partir do menu no canto superior direito desta aplicação. Se “%2$s” for apresentado, a atualização está concluída.
+
+Se a atualização estiver incompleta, tente novamente."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"Verifique a conclusão da atualização.
+
+Desligue os auscultadores, volte a ligá-los e estabeleça a ligação. Selecione [%1$s Versão] a partir do menu no canto superior direito desta aplicação. Se “%2$s” for apresentado, a atualização está concluída.
+
+Se a atualização estiver incompleta, tente novamente."</string>
+    <string name="Msg_VoiceData_NeedReboot">"Certifique-se de que o idioma foi alterado.
+
+1. Armazene os auscultadores esquerdo e direito na caixa de carregamento, remova-os e volte a ligá-los.
+2. Se o idioma alterado for apresentado em [%s], o processo está concluído.
+
+Se o idioma não for alterado, tente novamente."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"Certifique-se de que o idioma foi alterado.
+
+Desligue os auscultadores, volte a ligá-los e estabeleça a ligação. Se o idioma alterado for apresentado em [%s], o processo está concluído.
+
+Se o idioma não for alterado, tente novamente."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">Não é possível alterar o idioma das indicações por voz na sua versão de iOS.</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">Selecione um auscultador no ecrã seguinte. O auscultador pode demorar um minuto a aparecer.</string>
+    <string name="MultiPoint_AddNewDevice_Description">Abra as definições de Bluetooth no dispositivo que pretende ligar e selecione %s.</string>
+    <string name="MultiPoint_DeviceNotConnect">Não ligado.</string>
+    <string name="MultiPoint_DeviceStatus_Title">Dispositivo a ser ligado</string>
+    <string name="MultiPoint_Device_Add">Ligar a outro dispositivo</string>
+    <string name="MultiPoint_Header_History">Emparelhado</string>
+    <string name="MultiPoint_Header_Pairing">A ligar...</string>
+    <string name="MultiPoint_Menu_Delete">Cancelar o registo</string>
+    <string name="MultiPoint_Menu_Disconnect">Desligar</string>
+    <string name="MultiPoint_Setting_Description">"Estes auscultadores podem estar ligados a %d dispositivos em simultâneo.
+Para mudar de dispositivo para reproduzir música, pare a música uma vez e execute as operações de reprodução num dos outros dispositivos ligados."</string>
+    <string name="MultiPoint_Setting_Title">Gerir o dispositivo ligado</string>
+    <string name="MultiPoint_Status_Connecting">A ligar...</string>
+    <string name="MultiPoint_Status_Disconnecting">A desligar...</string>
+    <string name="MultiPoint_Talkback_Add_Device">Liga a outro dispositivo.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">Dispositivo 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">Dispositivo 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">Nenhum dispositivo ligado.</string>
+    <string name="MultiPoint_Talkback_Playing_Right">O áudio é reproduzido.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">Ligado.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">A ligar...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">A desligar...</string>
+    <string name="MultiPoint_Title">Ligar a 2 dispositiv. em simultâneo</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">Além disso, para cancelar a otimização a meio, prima qualquer botão dos auscultadores.</string>
+    <string name="NC_Title">Anulação de ruído</string>
+    <string name="NSBluetoothAlwaysUsageDescription">Utilizamos isto para detetar os nossos auscultadores com Bluetooth.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">Utilizamos isto para detetar os nossos auscultadores com Bluetooth.</string>
+    <string name="NSCameraUsageDescription">Permita que o smartphone tire uma foto das suas orelhas. Analisamos as fotos das suas orelhas para produzir um campo sonoro otimizado e personalizado para si.</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Para que as definições sejam alteradas automaticamente com base no Adaptive Sound Control, selecione [Permitir sempre].</string>
+    <string name="NSLocationAlwaysUsageDescription">Para que as definições sejam alteradas automaticamente com base no Adaptive Sound Control, selecione [Permitir sempre].</string>
+    <string name="NSLocationWhenInUseUsageDescription">Para que as definições sejam alteradas automaticamente com base no Adaptive Sound Control, permita o acesso.</string>
+    <string name="NSUserTrackingUsageDescription">Usamos esta informação para fornecer informações de suporte e apresentar anúncios que correspondam aos seus interesses e à utilização do seu dispositivo.</string>
+    <string name="Notification_Headphones_Connected">A ligar a %s...</string>
+    <string name="Notification_Headphones_Connected_Unknown">A ligar aos auscultadores...</string>
+    <string name="Notification_IASetup_NeedToComplete">Regresse a Headphones Connect e conclua as definições de 360 Reality Audio.</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">Def. 360 Reality Audio incompleta</string>
+    <string name="Notification_Summary_Abort">Cancelada transf. do software.</string>
+    <string name="Notification_Summary_Downloading">A descarregar...</string>
+    <string name="Notification_Summary_FWVer_unmatched">A atualização falhou.</string>
+    <string name="Notification_Summary_Prepared">Preparado para atualizar.</string>
+    <string name="Notification_Summary_Sending">A transferir...</string>
+    <string name="Notification_Summary_Update_NeedReboot">Verifique a conclusão da atualização.</string>
+    <string name="Notification_Summary_failed">A atualização falhou.</string>
+    <string name="Notification_Summary_updated">Atualização concluída.</string>
+    <string name="Notification_Summary_updating">A atualizar...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">A alterar...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">Alteração concluída.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">A alteração falhou.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">Verifique se a alteração foi aplicada.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">Alterar o idioma das indicações por voz</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">Alterar o idioma das indicações por voz</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">Alteração do idioma das indicações por voz concluída.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">A alteração do idioma das indicações por voz falhou.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">Verifique se o idioma das indicações por voz foi alterado.</string>
+    <string name="OPT_Baro_Title">Otimização pressão atmosférica</string>
+    <string name="OPT_Message_Analyzing">A anulação de ruído é ajustada de forma otimizada de acordo com os seus requisitos.</string>
+    <string name="OPT_Message_Baro">Se a pressão atmosférica se alterar, refaça o procedimento.</string>
+    <string name="OPT_Message_Comp">A anulação de ruído é ajustada de forma otimizada de acordo com os seus requisitos.</string>
+    <string name="OPT_Message_Personal">Use como sempre. Refaça procedimento se alterar o modo de usar, como mudança do penteado, etc.</string>
+    <string name="OPT_Personal_Done_Long">Otimizado</string>
+    <string name="OPT_Personal_Done_Short">Concluir</string>
+    <string name="OPT_Personal_Initial_Long">Não otimizado</string>
+    <string name="OPT_Personal_Initial_Short">Antes otim.</string>
+    <string name="OPT_Personal_Title">Otimização pessoal</string>
+    <string name="OPT_Start">Iniciar</string>
+    <string name="OPT_Status_Analyzing">A analisar...</string>
+    <string name="OPT_Status_Baro">A medir a pressão atmosférica...</string>
+    <string name="OPT_Status_Comp">Concluir</string>
+    <string name="OPT_Status_Personal">A medir a condição de audição...</string>
+    <string name="OPT_Title">Otimizador anulação de ruído</string>
+    <string name="OPT_Title_iOS">Otimizador anulação de ruído</string>
+    <string name="OPT_atm_Long">Otimizado para %.1f atm</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">Comece c/os auscultad. antigos c/o sempre faz. Se a pressão atmosf. alterar devido a estar num avião, etc., refaça procedimento.</string>
+    <string name="OPT_detail_Personal_Baro">Comece c/os auscultadores antigos c/o sempre faz. Se a condição audição e a pressão atmosf. alterarem, refaça o procedimento.</string>
+    <string name="OoBE_COMP_Message">A ligação dos auscultadores foi estabelecida.</string>
+    <string name="OoBE_COMP_Title">Adicionar auscultadores</string>
+    <string name="OoBE_Manual_Button_Label">Registe através das definições de Bluetooth</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"O Bluetooth está desligado.
+Ligue o Bluetooth a partir da Central de controlo."</string>
+    <string name="OoBE_Manual_Pair_Message">"Prima o botão de ligar cerca de 7 segundos. Quando o LED piscar alternadamente a azul e vermelho ou rapidamente a azul, prima [Seguinte].
+Se não existir botão de ligar, coloque os auscultadores no modo de registo (emparelhar) de dispositivo Bluetooth. Consulte o manual de instruções para saber mais."</string>
+    <string name="OoBE_Manual_Pair_Title">Adicionar auscultadores</string>
+    <string name="OoBE_Message1">Liga os auscultadores através de Bluetooth.</string>
+    <string name="OoBE_Message2">Selecione um método de ligação.</string>
+    <string name="OoBE_NFC_Button_Label">Registe com Conecte-se com um só toque (NFC)</string>
+    <string name="OoBE_NFC_Message">Posicione a Marca N nos auscultadores sobre a Marca N no dispositivo móvel e efetue a operação de toque.</string>
+    <string name="OoBE_NFC_Title">Adicionar auscultadores</string>
+    <string name="OoBE_NonBT_Button_Label">Registe um sistema de auscultadores com fios a partir da lista</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">Registe o seu sistema de auscultadores para utilizar o 360 Reality Audio otimizado de acordo com os seus requisitos.</string>
+    <string name="OoBE_Power_On_Message">"Ligue a alimentação dos auscultadores. Confirme que a alimentação está ligada e prima o botão [Seguinte].
+Consulte o manual de instruções dos auscultadores para saber como ligar a alimentação."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">Basta tocar no botão [%s] para continuar.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">Se o seu sistema de auscultadores estiver ligado com fio</string>
+    <string name="OoBE_Proximity_Message">Coloque o dispositivo móvel e os %s próximos um do outro para autenticar os auscultadores.</string>
+    <string name="OoBE_SelectAcc_Message">Selecione um auscultador. A indicação pode demorar um minuto.</string>
+    <string name="OoBE_SelectAcc_Title">Adicionar auscultadores</string>
+    <string name="OoBE_Title">Adicionar auscultadores</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_pt.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_pt.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_pt.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_pt.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">[%s] é automaticamente desativado quando a reprodução de áudio é parada durante um período de tempo, permitindo aumentar o tempo de espera dos auscultadores.</string>
+    <string name="PS_Title">Espera c/econ. energia</string>
+    <string name="PlaybackController_Title">Em reprodução</string>
+    <string name="PlaybackController_Unknown_Album">Álbum desconhecido</string>
+    <string name="PlaybackController_Unknown_Artist">Artista desconhecido</string>
+    <string name="PlaybackController_Unknown_TrackName">Canção desconhecida</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">Pode aceder novamente ao inquérito a partir de [%s] no menu do canto superior direito do ecrã.</string>
+    <string name="Questionnaire_MenuItem">Inquérito</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">Não há um inquérito neste momento. Aguarde pelo próximo inquérito.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%3$s de %2$s de %1$s - %6$s de %5$s de %4$s</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">Período para resposta:</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">jan.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">fev.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">mar.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">abr.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">mai.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">jun.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">jul.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">ago.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">set.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">out.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">nov.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">dez.</string>
+    <string name="Questionnaire_Notification_Button_Answer">Responder</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">Continuar</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">Não responder</string>
+    <string name="Questionnaire_Notification_Note">Abra o navegador e aceda ao site do inquérito.</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d perguntas</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d - %2$d perguntas</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">Número de perguntas:</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">Cerca de %d minutos</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">Tempo necessário:</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- Uma vez que a voz é emitida pelos auscultadores, efetue análises com familiares e amigos se a utilização for difícil.</string>
+    <string name="Right_Headphones">Unidade direita</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_pt.html</string>
+    <string name="STRING_COMMON_NEXT">Seguinte</string>
+    <string name="STRING_DEVICE">Dispositivo</string>
+    <string name="STRING_DEVICES">Dispositivos</string>
+    <string name="STRING_IOS_LOCATION">Localização</string>
+    <string name="STRING_IOS_SETTINGS">Definições</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">Definições detalhadas</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">Informação detalhada</string>
+    <string name="STRING_TEXT_COMMON_OFF">Desligado</string>
+    <string name="STRING_TEXT_POWER_OFF">Desligar o auscultador</string>
+    <string name="STRING_THIS_PHONE">Este telemóvel</string>
+    <string name="Setting_Android_Title">Definições</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"A autenticação da conta falhou.
+Inicie sessão novamente."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"Não foi possível sincronizar as definições porque a autenticação da conta falhou.
+Inicie sessão novamente."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">Resultados da análise das orelhas</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">Localizações registadas e valores de definições</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">Valores de definição baseados em ações, etc.</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">Salvaguardar</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">Pode guardar as seguintes definições no servidor se estabelecer a ligação à sua conta.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">As definições que podem ser salvaguardadas dependem do modelo.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">A app permite eliminar as definições salvaguardadas. A eliminação será automática se a Sony cessar a função ao abrigo dos Termos de utilização.</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">Definições de Descarregamento automático software</string>
+    <string name="SettingsTakeOver_Appeal_Link">Veja os detalhes aqui</string>
+    <string name="SettingsTakeOver_Appeal_Title">Vamos salvaguardar as suas definições.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">Salvaguarda concluída.</string>
+    <string name="SettingsTakeOver_Button_Backup">Salvaguardar</string>
+    <string name="SettingsTakeOver_Button_Restore">Repor</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">Usar definições desta aplicação</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">Usar definições do servidor</string>
+    <string name="SettingsTakeOver_Confirm_Backup">Salvaguardar as definições desta aplicação no servidor?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">Repor nesta aplicação as definições salvaguardadas no servidor?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"Há definições que já foram salvaguardadas no servidor.
+Selecione uma definição entre as seguintes para ativar a sincronização automática."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Criar uma conta Sony e continuar</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">As definições salvaguardadas foram eliminadas e a sessão foi terminada.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">Termina a sessão, cancela a ligação à conta e elimina totalmente as informações salvaguardadas no servidor.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">Eliminar as definições salvaguardadas?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">Ativou a sincronização automática das definições.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"A salvaguarda falhou.
+Aguarde algum tempo e tente novamente."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"A reposição falhou.
+Aguarde algum tempo e tente novamente."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"A reposição falhou.
+Verifique a ligação de rede, aguarde algum tempo e tente novamente."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">Consulte os Termos de utilização</string>
+    <string name="SettingsTakeOver_List_Title">Salvaguardar e repor as definições</string>
+    <string name="SettingsTakeOver_PP_Description">Prima o botão [Concordar] abaixo para confirmar que aceita que a Sony utilize os dados relacionados com a utilização da aplicação por parte do cliente com as finalidades descritas acima. Se não concordar com estas condições de utilização, prima o botão [Discordar].</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">Repor definições</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">Prosseguir sem repor</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">Se tiver salvaguardado as definições com a aplicação Headphones Connect anteriormente, pode repor essas definições.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">Veja os detalhes aqui</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">Repor definições</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"Não há definições salvaguardadas.
+Prossiga sem repor."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">Reposição concluída.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">Conta</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">Definições que estão salvaguardadas</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">Salvaguardar agora</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">Ativar</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">Repor agora</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">Eliminar esta salvaguarda e terminar a sessão</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"Elimina as definições salvaguardadas no servidor.
+As definições existentes na aplicação permanecerão."</string>
+    <string name="SettingsTakeOver_Settings_Description">Pode guardar as definições desta aplicação no servidor se estabelecer a ligação à conta em que iniciou sessão.</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"Para salvaguardar as definições mais recentes, ative a sincronização automática.
+Pode sincronizar as definições com todos os dispositivos móveis em que inicia sessão nesta conta."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">As definições desta função podem ser alteradas a partir do menu do canto superior direito do painel em qualquer momento.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">Sincronização automática</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">Definição de conta</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Definições da conta Sony</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">A salvaguardar...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">Data da atualização do servidor:</string>
+    <string name="SettingsTakeOver_Settings_Status_None">Pode salvaguardar as definições.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">Há definições que ainda não foram salvaguardadas.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">Pode repor as novas definições a partir do servidor.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">A repor...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">A salvaguarda está concluída.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">A sincronizar...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">O seu dispositivo não permite salvaguardar.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Iniciar sessão com a Amazon</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Iniciar sessão com a Apple</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Iniciar sessão com o Facebook</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Iniciar sessão com o Google</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Iniciar sessão com a conta Sony</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">Iniciar sessão com o WeChat</string>
+    <string name="SettingsTakeOver_SignIn_Description">Para salvaguardar e repor as definições, é necessário iniciar sessão na aplicação Headphones Connect.</string>
+    <string name="SettingsTakeOver_SignIn_Split">ou</string>
+    <string name="SettingsTakeOver_SignOut_Completed">Sessão terminada.</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">As funções de salvaguardar e repor ficarão indisponíveis.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">As definições salvaguardadas no servidor são eliminadas automaticamente se decorrer um certo tempo após terminar a sessão.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Conta Sony</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">A iniciar sessão...</string>
+    <string name="SettingsTakeOver_SigningOut">A terminar a sessão...</string>
+    <string name="SmartTalkingMode_Detail">Pode iniciar uma conversa enquanto usa os auscultadores, bastando começar a falar.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"Basta começar a falar para conversar enquanto utiliza os auscultadores. Gostaria de experimentar esta função?
+Pode executá-la novamente com o botão [i]."</string>
+    <string name="SmartTalkingMode_Experience_Btn">Experimente-a</string>
+    <string name="SmartTalkingMode_Experience_Detail1">Por exemplo, tente dizer algo como “Olá”. Os auscultadores detetam que falou e automaticamente estabelecem condições que permitem a conversação.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"A música foi colocada em pausa para poder ouvir o som ambiente. O sistema manterá este modo enquanto estiver a falar e sairá do modo %s após acabar de falar ou se interagir com os auscultadores.
+Esta definição pode ser personalizada em [Experiência Falar-para-conversar] no painel."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">A música foi colocada em pausa para poder ouvir o som ambiente. Pode sair do modo interagindo com os auscultadores.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">Fechar</string>
+    <string name="SmartTalkingMode_Experience_Msg1">Deteta a sua voz</string>
+    <string name="SmartTalkingMode_Experience_Msg2">Detetou a sua voz</string>
+    <string name="SmartTalkingMode_Experience_Title">Experiência Falar-para-conversar</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">Capta as vozes enquanto reduz o som ambiente.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">Foco na voz</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"Se os auscultadores não detetarem a sua voz durante um certo tempo, saem do modo Experiência Falar-para-conversar e voltam ao estado normal.
+Pode sempre sair do modo quando desejar, interagindo com os auscultadores."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">Rápida</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">Normal</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">Lenta</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">Não sair automaticamente</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">Sem</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">Tempo até sair do modo</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">Aprox. 1 m</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">Aprox. 1 s</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">Aprox. %d s</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">Aprox. %d m</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">Automática</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">Ajusta automaticamente a sensibilidade em função do som ambiente.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">Automática:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">Alta sensibi.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">Selecione esta definição se a sensibilidade da deteção de voz for muito baixa. Eficaz quando o som ambiente é alto, como num veículo.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">Alta sensibi.:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">Baixa sensibi.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">Selecione esta definição quando a sensibilidade da deteção de voz for muito alta. Eficaz quando a pessoa que fala está perto.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">Baixa sensibi.:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">Sensibil. da det. de voz</string>
+    <string name="SmartTalkingMode_Setting_Title">Defin. de Falar-para-conversar</string>
+    <string name="SmartTalkingMode_Title">Experiência Falar-para-conversar</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Experiência Falar-para-conversar ativada</string>
+    <string name="SmartTalkingMode_TurnOn">Ativa a Experiência Falar-para-conversar para configurar definições.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Ativa a Experiência Falar-para-conversar</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"Pode alterar esta definição através de operações nos auscultadores.
+Pode ver o método de operação na [Ajuda]."</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Ativar a Experiência Falar-para-conversar?</string>
+    <string name="SongPalDownloadDialog">Quer transferir a aplicação Music Center a partir do Google Play?</string>
+    <string name="SongPalDownloadDialog_iOS">Quer transferir a aplicação Music Center a partir do App Store?</string>
+    <string name="SoundPosition_Preset_FL">Frente esquerda</string>
+    <string name="SoundPosition_Preset_FR">Frente direita</string>
+    <string name="SoundPosition_Preset_Front">Frente</string>
+    <string name="SoundPosition_Preset_Off">Desligado</string>
+    <string name="SoundPosition_Preset_RL">Traseira esquerda</string>
+    <string name="SoundPosition_Preset_RR">Traseira direita</string>
+    <string name="SoundPosition_Title">Controlo da posição do som</string>
+    <string name="Status_Loading_Headphones">A obter lista de auscultadores.</string>
+    <string name="Switch_ToOtherDevice">Trocar para outro dispositivo</string>
+    <string name="TalkBack_Button">Botão</string>
+    <string name="TalkBack_Button_Option">Mais opções</string>
+    <string name="TalkBack_Disable">Desativado</string>
+    <string name="TalkBack_Switch">Botão de comutação</string>
+    <string name="Talkback_Echo_Minus">minus</string>
+    <string name="Talkback_Echo_Plus">plus</string>
+    <string name="TouchSensorControlPanel_title">Painel de controlo com sensor tátil</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">Redefinir</string>
+    <string name="Training_Custom_Title">Definições som rápido</string>
+    <string name="Training_Title">Definições som rápido</string>
+    <string name="Training_Title_Detail">"Pode trocar coletivamente as definições de [%1$s] e [%2$s].
+Além disso, esta configuração pode ser realizada através dos auscultadores."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">Arena</string>
+    <string name="VPT_Preset_Club">Discoteca</string>
+    <string name="VPT_Preset_ConcertHall">Sala de concertos</string>
+    <string name="VPT_Preset_Off">Desligado</string>
+    <string name="VPT_Preset_OutdoorFestival">Palco exterior</string>
+    <string name="VPT_Preset_Title">Surround (VPT)</string>
+    <string name="Vibration_Title">Vibração p/chams. rec.</string>
+    <string name="VoiceData_Update_Status_Download">A descarregar os dados de voz...</string>
+    <string name="VoiceData_Update_Status_Install">A configurar os dados de voz...</string>
+    <string name="VoiceData_Update_Status_Send">A transferir os dados de voz...</string>
+    <string name="VoiceData_Update_Status_Start">Transfere os dados de voz em %s para os auscultadores</string>
+    <string name="VoiceData_Update_Title">Escolher idioma</string>
+    <string name="VoiceData_Updating">Aguarde...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">Idioma</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">Guia de voz e notificação</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">Português do Brasil</string>
+    <string name="Voice_Guidance_Elem_Chinese">Chinês</string>
+    <string name="Voice_Guidance_Elem_Dutch">Neerlandês</string>
+    <string name="Voice_Guidance_Elem_English">Inglês</string>
+    <string name="Voice_Guidance_Elem_Finnish">Finlandês</string>
+    <string name="Voice_Guidance_Elem_French">Francês</string>
+    <string name="Voice_Guidance_Elem_German">Alemão</string>
+    <string name="Voice_Guidance_Elem_Italian">Italiano</string>
+    <string name="Voice_Guidance_Elem_Japanese">Japonês</string>
+    <string name="Voice_Guidance_Elem_Korean">Coreano</string>
+    <string name="Voice_Guidance_Elem_Portuguese">Português</string>
+    <string name="Voice_Guidance_Elem_Russian">Russo</string>
+    <string name="Voice_Guidance_Elem_Spanish">Espanhol</string>
+    <string name="Voice_Guidance_Elem_Swedish">Sueco</string>
+    <string name="Voice_Guidance_Elem_Turkish">Turco</string>
+    <string name="Voice_Guidance_Setting">Idioma das indicações por voz</string>
+    <string name="Volume_Talkback">Volume</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">Para utilizar, atualize esta app no Google Play.</string>
+    <string name="Walkman_Placeholder_Confirm_China">Para utilizar, transfira esta app a partir do site de transferência.</string>
+    <string name="Walkman_Placeholer_Button_Transit">Ir</string>
+    <string name="Walkman_Placeholer_Description">"Personalize os auscultadores Sony conforme preferir com uma função de ligação para esta aplicação.
+A música que ouve todos os dias torna-se ainda mais agradável com controlos fáceis."</string>
+    <string name="Walkman_Placeholer_Description_02">Para utilizar, é necessário atualizar (transferir) esta app no ecrã para o qual é reencaminhado.</string>
+    <string name="Walkman_Placeholer_Description_03">Acerca desta app</string>
+    <string name="Walkman_Placeholer_Link">Para saber mais sobre as funções e os produtos suportados, vá aqui</string>
+    <string name="Walkman_Placeholer_SubTitle">Ir para a página de transferência da Headphones Connect?</string>
+    <string name="Welcome_EULA_PP">Se premir este botão, estará a declarar que leu o documento de consentimento e a política de privacidade e que os aceita.</string>
+    <string name="Welcome_EULA_PPLink">Termos de utilização</string>
+    <string name="Welcome_SubTitle">"Mais divertido, mais inteligente, mais pessoal.
+Comece a sua nova vida com novos auscultadores."</string>
+    <string name="Welcome_SubTitle1">O seu concerto pessoal ao vivo começa aqui.</string>
+    <string name="Welcome_SubTitle2">Discoteca? Estádio? Sala de concertos? Ou até no exterior? O seu local preferido ao seu comando.</string>
+    <string name="Welcome_SubTitle3">Os graves controláveis dão energia ao seu dia.</string>
+    <string name="Welcome_Title">BEM-VINDO(A)</string>
+    <string name="Welcome_Title1">BEM-VINDO(A)</string>
+    <string name="Welcome_Title2">MÚSICA AO VIVO COM UM GESTO</string>
+    <string name="Welcome_Title3">PRECISA DE MAIS GRAVES?</string>
+    <string name="Widget_Disconnected">Os auscultadores não estão ligados ou não estão registados. Inicie a Headphones Connect.</string>
+    <string name="Widget_EQ_Error">Confirme o [Equalizador] a partir da Headphones Connect.</string>
+    <string name="Widget_EQ_Error_Short">Altere a partir da Headphones Connect.</string>
+    <string name="Widget_EULA_Disagreement">Inicie a Headphones Connect e configure as definições.</string>
+    <string name="Widget_Initial">A carregar...</string>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecionar um app</string>
+    <string name="abc_capital_off">DESATIVADO</string>
+    <string name="abc_capital_on">ATIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">espaço</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pesquisar…</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="app_name">Headphones</string>
+    <string name="expand_button_title">Avançado</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">DESATIVADO</string>
+    <string name="v7_preference_on">ATIVADO</string>
+</resources>

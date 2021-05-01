@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_01" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_02" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_03" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_04" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_05" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_06" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_07" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_08" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_09" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_running_10" />
+</animation-list>

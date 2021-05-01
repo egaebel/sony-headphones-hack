@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/welcome_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/welcome_scroll_view" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/welcome_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/welcome_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/welcome_image" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/welcome_left_right_margin" android:layout_marginEnd="@dimen/welcome_left_right_margin" style="@style/TL_C_C1_Me" />
+            <TextView android:id="@id/welcome_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_text2_margin_top" android:layout_below="@id/welcome_text1" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/welcome_left_right_margin" android:layout_marginEnd="@dimen/welcome_left_right_margin" style="@style/TSS_C_C2_Re" />
+        </RelativeLayout>
+    </ScrollView>
+    <View android:id="@id/webveiw_bottom_divider" android:background="?ui_common_divider_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <jp.co.sony.vim.framework.platform.android.ui.InlineLinkingTextView android:layout_gravity="center_horizontal" android:id="@id/eula_pp_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_eula_pp_message_margin_top" android:layout_marginStart="@dimen/welcome_left_right_margin" android:layout_marginEnd="@dimen/welcome_left_right_margin" style="@style/T3S_C_C2_Re" />
+    <CheckBox android:textSize="@dimen/ui_common_font_size_SS" android:textColor="?ui_common_welcome_agree_checkbox_text" android:layout_gravity="center_horizontal" android:id="@id/agree_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_agree_checkbox_margin_top" android:text="@string/STRING_MSG_I_AGREE_TO_START" android:layout_marginStart="@dimen/welcome_left_right_margin" android:layout_marginEnd="@dimen/welcome_left_right_margin" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/accept_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_button_margin_top" android:layout_marginBottom="@dimen/welcome_button_margin_bottom" android:layout_marginStart="@dimen/welcome_left_right_margin" android:layout_marginEnd="@dimen/welcome_left_right_margin">
+        <include android:id="@id/accept_button" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+    <ImageView android:id="@id/navigation_bar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/ui_navigation_bar_height" android:src="@drawable/bg_navigation_bar_shadow" android:scaleType="fitXY" />
+</LinearLayout>

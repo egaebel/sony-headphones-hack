@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="190.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:gravity="center_vertical" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Assignable_Key_Setting_Touch" android:paddingStart="8.0dip" style="@style/TSS_L_C1_Re" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/item_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_layout">
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_side_key_area" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/left_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_assignable_button_card_left" />
+            <TextView android:gravity="center_vertical" android:id="@id/left_preset_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="32.0dip" style="@style/TSS_L_C2_Re" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/right_side_key_area" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/left_side_key_area" android:paddingStart="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/right_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_assignable_button_card_right" />
+            <TextView android:gravity="center_vertical" android:id="@id/right_preset_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="32.0dip" style="@style/TSS_L_C2_Re" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/assignable_settings_customize_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ar_customize_button_selector" android:scaleType="fitCenter" android:layout_below="@id/item_area" android:contentDescription="@string/STRING_TEXT_COMMON_DETAIL_SETTINGS" android:layout_alignParentEnd="true" />
+</RelativeLayout>

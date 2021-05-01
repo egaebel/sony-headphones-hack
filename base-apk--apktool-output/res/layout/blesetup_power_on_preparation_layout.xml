@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pairing_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a_mdr_oobe_img_pairing_manual" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/oobe_pairing_addheadphone_button_right_margin">
+        <include android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/ui_common_flat_button" />
+    </RelativeLayout>
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_area" android:layout_below="@id/pairing_image" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oobe_pairing_description_text_top_margin" android:text="@string/OoBE_Power_On_Message" android:layout_marginStart="@dimen/oobe_pairing_description_text_left_margin" android:layout_marginEnd="@dimen/oobe_pairing_description_text_right_margin" style="@style/TSS_L_C2_Re" />
+            <TextView android:id="@id/power_on_message_non_bt_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oobe_pairing_description_text_left_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/oobe_pairing_description_text_right_margin" android:text="@string/OoBE_Power_On_Message_NonBT_Label" style="@style/TSS_L_C1_BoStyle" />
+            <TextView android:id="@id/power_on_message_non_bt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oobe_pairing_description_text_left_margin" android:layout_marginRight="@dimen/oobe_pairing_description_text_right_margin" style="@style/TSS_L_C2_Re" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.percentlayout.widget.PercentRelativeLayout>

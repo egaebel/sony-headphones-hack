@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/accessibility_detail_area" android:background="@color/ui_common_bg_color_card_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top" android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_1" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/eq_common_title_height" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EQ_Preset_Title" style="@style/TSS_L_C1_Re" />
+            <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/clearbass_area" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ListView android:id="@id/preset_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:divider="@null" android:choiceMode="singleChoice" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_2" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="start" android:id="@id/left_mask" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_left" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="end" android:id="@id/right_mask" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_right" android:scaleType="fitXY" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_1" android:scaleType="fitXY" />
+    <View android:id="@id/card_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_2" android:scaleType="fitXY" />
+</merge>

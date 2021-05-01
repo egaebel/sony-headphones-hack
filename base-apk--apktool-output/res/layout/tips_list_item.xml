@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/background_area" android:background="#ffff3b30" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/left_remove_icon" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/a_information_notification_icon_remove" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/right_remove_icon" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/a_information_notification_icon_remove" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView android:id="@id/foreground_area" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?ui_common_color_B1" app:cardCornerRadius="0.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/tips_arrival_state" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/a_information_notification_icon_new_arrival" android:contentDescription="@string/InformationNotification_New_Talkback_3" app:layout_constraintBottom_toBottomOf="@id/tips_icon" app:layout_constraintEnd_toStartOf="@id/tips_icon" app:layout_constraintTop_toTopOf="@id/tips_icon" />
+            <ImageView android:id="@id/tips_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="26.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:id="@id/tips_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tips_icon" app:layout_constraintTop_toTopOf="parent" style="@style/TS_L_C1_BoStyle" />
+            <TextView android:id="@id/tips_arrival_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/tips_title" app:layout_constraintStart_toStartOf="@id/tips_title" app:layout_constraintTop_toBottomOf="@id/tips_title" style="@style/TSS_L_C2_Re" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

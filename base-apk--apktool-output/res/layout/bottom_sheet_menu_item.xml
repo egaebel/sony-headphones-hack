@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:id="@id/title" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/ui_bottom_sheet_item_height" android:paddingStart="0.0dip" android:paddingEnd="@dimen/ui_bottom_sheet_item_padding_end" style="@style/TSS_L_C1_Me"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

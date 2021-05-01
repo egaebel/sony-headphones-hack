@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:id="@id/messageText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:maxLines="2" style="@style/TM_L_C1_Me" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a_settings_take_over_image_enable_auto_sync" android:adjustViewBounds="true" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/SettingsTakeOver_Settings_Description_AutoSync" style="@style/TSS_L_C2_Re" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingTop="28.0dip" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_weight="0.0">
+        <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/okButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_raised_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/SettingsTakeOver_Settings_Button_Enable" />
+        <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_flat_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/STRING_TEXT_COMMON_LATER" style="@style/AppTheme.FlatButtonNormal" />
+    </LinearLayout>
+</LinearLayout>

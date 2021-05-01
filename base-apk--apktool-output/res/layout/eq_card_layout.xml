@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/eq_common_left_margin" android:layout_marginRight="@dimen/eq_common_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/eq_common_title_height" android:layout_marginStart="@dimen/eq_common_left_margin" android:layout_marginEnd="@dimen/eq_common_right_margin">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EQ_Preset_Title" style="@style/TSS_L_C1_Re" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon" android:background="@drawable/a_mdr_clearbass_icon_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EQ_ClearBass_Title" style="@style/T4S_L_C3_BoStyle" />
+            <TextView android:id="@id/clearbass_value" android:layout_width="@dimen/eq_clear_bass_text_width" android:layout_height="wrap_content" android:text="" style="@style/T4S_R_C3_BoStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/graph_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.sony.songpal.mdr.view.eqgraph.EqGraphView android:layout_gravity="center" android:id="@id/graph" android:layout_width="@dimen/eq_common_graph_width" android:layout_height="@dimen/eq_common_graph_height" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/eq_common_knob_line_height" android:layout_marginStart="@dimen/eq_common_right_margin" android:layout_marginEnd="@dimen/eq_common_left_margin">
+        <TextView android:id="@id/preset_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/TSS_L_C2_Re" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/knob_image" android:layout_width="@dimen/eq_common_knob_image_size" android:layout_height="@dimen/eq_common_knob_image_size" app:srcCompat="@drawable/a_mdr_extended_area_knob_closed" />
+    </LinearLayout>
+    <com.sony.songpal.mdr.view.horizontaltextslider.HorizontalTextSlider android:id="@id/horizontal_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/horizontal_slider_top_margin" android:layout_marginBottom="@dimen/horizontal_slider_bottom_margin" android:alpha="0.0" app:indicator_image_size="@dimen/horizontal_slider_indicator_image_size" app:margin_both_text_and_indicator="@dimen/horizontal_slider_both_text_and_indicator_margin" app:normal_text_style="@style/TS_C_C2_LiStyle" app:selected_text_style="@style/T3LL_C_C1_ReStyle" app:start_margin_text="@dimen/horizontal_slider_text_margin" />
+    <ImageView android:layout_gravity="right" android:id="@id/customize_button" android:layout_width="@dimen/eq_custom_button_image_size" android:layout_height="@dimen/eq_custom_button_image_size" android:layout_marginTop="@dimen/eq_custom_button_margin" android:layout_marginRight="@dimen/eq_custom_button_margin" android:layout_marginBottom="@dimen/eq_custom_button_margin" android:src="@drawable/ar_customize_button_selector" />
+</LinearLayout>

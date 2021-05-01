@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="?ui_common_color_C4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/tips_item_list_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/tips_item_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/tips_no_information_area" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a_information_notification_tips_empty" android:adjustViewBounds="true" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" android:text="@string/InformationNotification_List_Tips_Empty_Title" style="@style/T17_C_C1_MeStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/Msg_Reset_Factory_Title" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TL_L_C1_MeStyle" />
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/a_mdr_connect_mode_bt_disconnection" />
+    <TextView android:id="@id/descriptionSub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/Msg_Reset_Factory_Confirmation" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TS_L_C2_Re" />
+</LinearLayout>

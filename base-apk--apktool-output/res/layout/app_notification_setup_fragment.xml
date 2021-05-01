@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <ListView android:id="@android:id/list" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/list_divider" android:layout_below="@id/toolbar_layout" android:footerDividersEnabled="false" />
+    <FrameLayout android:id="@android:id/empty" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_below="@id/toolbar_layout" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="126.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SmartTalkingMode_Title" android:layout_marginStart="16.0dip" style="@style/TSS_L_C1_Re" />
+        <ImageView android:id="@id/smart_talking_information_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/information_button_width" android:layout_height="@dimen/information_button_height" android:src="@drawable/information_button_selector" android:scaleType="fitCenter" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Switch android:id="@id/smart_talking_mode_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/smart_talking_mode_customize_button" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/ar_customize_button_selector" android:contentDescription="@string/STRING_TEXT_COMMON_DETAIL_SETTINGS" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

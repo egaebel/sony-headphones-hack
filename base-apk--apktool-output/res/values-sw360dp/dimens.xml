@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="SoundSliderClearBassScaleLineMarginRight">7.6999817dip</dimen>
+    <dimen name="SoundSliderHeight">250.0dip</dimen>
+    <dimen name="SoundSliderWidth">340.0dip</dimen>
+    <dimen name="preference_category_padding_start">56.0dip</dimen>
+</resources>

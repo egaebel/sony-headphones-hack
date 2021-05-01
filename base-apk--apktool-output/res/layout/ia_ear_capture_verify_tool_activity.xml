@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sony.songpal.mdr.application.immersiveaudio.setup.earcapture.TextureViewForVerifyTool android:id="@id/textureView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:background="#aa000000" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/executeButton" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="execute" />
+        <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="20.0dip">
+                <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@android:style/Widget.ProgressBar.Horizontal" />
+                <TextView android:textColor="#ffffffff" android:id="@id/progressTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textColor="#ffffffff" android:id="@id/elapsedTimeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <TextView android:textColor="#ffffffff" android:id="@id/remainingTimeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <TextView android:textColor="#ffffffff" android:id="@id/fileNameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_buttons_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="?ui_common_bg_color_remote_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_buttons_container_view" android:layout_below="@id/top_buttons_container_view">
+        <ImageView android:id="@id/outside_flick_down" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?ic_remote_freecsr_scroll_arrow_down" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/dpad_area_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/outside_flick_up" android:layout_below="@id/outside_flick_down" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <jp.co.sony.vim.framework.platform.android.ui.fullcontroller.simpleremote.DpadAreaView android:id="@id/dpad_area_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/outside_flick_up" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?ic_remote_freecsr_scroll_arrow_up" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/bottom_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?ic_remote_freecsr_scroll_arrow_up" android:layout_alignTop="@id/outside_flick_up" android:layout_alignBottom="@id/outside_flick_up" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/bottom_buttons_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</merge>

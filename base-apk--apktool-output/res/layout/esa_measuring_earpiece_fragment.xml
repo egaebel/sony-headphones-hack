@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a_mdr_esa_running" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/status_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="20.0dip" android:maxLines="2" style="@style/T3L_L_C1_LiStyle" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/ESA_Running_Description" android:maxLines="3" style="@style/TSS_L_C1_Re" />
+        <ProgressBar android:id="@id/esa_measure_progress_bar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="8.0dip" android:progressDrawable="@drawable/nc_opt_progress" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <include android:layout_gravity="end" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="14.0dip" layout="@layout/ui_common_flat_button" />
+    </LinearLayout>
+</RelativeLayout>

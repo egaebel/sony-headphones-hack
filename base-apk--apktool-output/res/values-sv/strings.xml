@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">Lång</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">Kort</string>
+    <string name="AR_Custom_Reset">Återställ</string>
+    <string name="AR_Custom_Title">Redigera</string>
+    <string name="AR_Custom_Title_iOS">REDIGERA</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"Appen detekterar dina aktiviteter och platser du ofta besöker, och justerar automatiskt inställningarna för hörlurarna som t.ex. hur ljudet i omgivningen ska tas in.
+Genom detta uppnås optimal musikupplevelse för att passa i den miljö som du lyssnar på musik.
+
+Använd denna funktion?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"Appen identifierar dina handlingar och justerar automatiskt hur ljudet i omgivningen ska tas in.
+Genom detta uppnås optimal musikupplevelse för att passa i den miljö som du lyssnar på musik.
+
+Använd denna funktion?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">Inställning av anpassningsbar ljudkontroll genomförd.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"Det kan hända att brusreducering stängs av på grund av automatisk justering av inställningar som är lämpliga för identifierade aktiviteter och platsen.
+Inställningen kan anpassas med hjälp av [Anpassningsbar ljudkontroll] på instrumentpanelen."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"Systemet är konfigurerat för att stänga av Brusreducering och ta in ljudet i omgivningen beroende på identifierat beteende.
+Inställningen kan anpassas med hjälp av [Anpassningsbar ljudkontroll] på instrumentpanelen."</string>
+    <string name="AR_Notification_Message">[%s] är aktiverat.</string>
+    <string name="AR_Status_Detecting">Detektering</string>
+    <string name="AR_Status_LongStay">Stannar</string>
+    <string name="AR_Status_Run">Springer</string>
+    <string name="AR_Status_ShortStay">Stannar</string>
+    <string name="AR_Status_Vehicle">Transport</string>
+    <string name="AR_Status_Walking">Promenerar</string>
+    <string name="AR_Title">Anpassningsbar ljudkontroll</string>
+    <string name="AR_Title_Detail">Appen detekterar dina aktiviteter och platser du ofta besöker, och justerar automatiskt inställningarna för hörlurarna som t.ex. hur ljudet i omgivningen ska tas in.</string>
+    <string name="AR_Title_Detail_China">Appen detekt. dina aktiviteter och [%s] aktiveras.</string>
+    <string name="AR_Title_Detail_EffectTone">Noteringsljudet som hörs vid växling kan stängas av genom att stänga av [%s].</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">Dessa inställningar aktiveras när du befinner dig på denna plats och funktionen, justerar automatiskt baserat på aktiviteter, inaktiveras.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">Inaktiverad när du befinner dig på en registrerad plats</string>
+    <string name="ASC_Behavior_Detection">Justerar automatiskt baserat på aktiviteter</string>
+    <string name="ASC_Behavior_Detection_Menu">Identifiering av aktiviteter</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"Genom att registrera platserna du ofta besöker, blir automatisk justering av inställningarna baserat på den platsen tillgänglig.
+Platser du ofta besöker kan enkelt registreras genom att använda inlärningsfunktionen.
+Använd denna funktion?
+*Det tar flera dagar att registrera platser du ofta besöker efter att du använt inlärningsfunktionen."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">Platsen skickas inte till servern eftersom platsinlärningsfunktionen är offline.</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">Använd inlärningsfunktionen</string>
+    <string name="ASC_LearningLocation">Inlärning av platser du ofta besöker</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"Inlärningsfunktion för platser du ofta besöker och automatisk justering av inställningar baserat på platser för anpassningsbar ljudkontroll är aktiverade, men det går inte att identifiera platser eftersom det inte går att komma åt Plats.
+
+För att använda dessa funktioner i bakgrunden trycker du på knappen [Inställningar] och väljer [Tillåt alltid] från [Behörigheter] > [Plats]. Om du går med på det vid alla tillfällen kommer platsdata att inhämtas även när appen är stängd eller inte används."</string>
+    <string name="ASC_Location_Detail">Platsinformation</string>
+    <string name="ASC_Location_Detail_Message">"En ny plats är inlärd.
+Om denna plats har registrerats går det att justera inställningarna för hörlurarna automatiskt."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">Ställer in brusreducering till AV och förinställer en inställning så att du lättare kan höra rösterna runt omkring dig.</string>
+    <string name="ASC_Location_Detail_Message_Other">En rekommenderad inställning för denna plats finns som förinställning.</string>
+    <string name="ASC_Location_Detail_Message_Station">Ställer in brusreducering till AV och förinställer en inställning så att du lättare kan höra ljudet i omgivningen.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">Inlärning av platser du ofta besöker</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">En ny plats är inlärd.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">Om denna plats är registrerad går det att justera inställningarna för hörlurarna automatiskt.</string>
+    <string name="ASC_Location_Detection">Justerar automatiskt baserat på plats</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">På platser som t.ex. i tunnelbanan och i tunnlar, där GPS-mottagningen är svag, kan det hända att funktionerna, inlärning av platser du ofta besöker och justerar automatiskt baserat på plats, inte fungerar som de ska.</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">Eftersom din mobila enhet inte är utrustad med GPS, kan det hända att funktionerna, inlärning av platser du ofta besöker och justerar automatiskt baserat på plats, inte fungerar som de ska.</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">Det finns begränsningar för platsidentifiering</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">Identifierar plats...</string>
+    <string name="ASC_Location_Empty_Message">Registrera platser du ofta besöker, för att använda automatisk justering baserat på din plats.</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">Aktivera Plats</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"Inlärningsfunktion för platser du ofta besöker och automatisk justering av inställningar baserat på platser för anpassningsbar ljudkontroll är aktiverade, men det går inte att identifiera platser eftersom Plats är avaktiverad.
+
+Aktivera Plats för att dessa funktioner ska fungera på rätt sätt."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"Inlärningsfunktion för platser du ofta besöker och automatisk justering av inställningar baserat på platser för anpassningsbar ljudkontroll är aktiverade, men det går inte att identifiera platser eftersom Platstjänster är avaktiverad.
+
+Aktivera Platstjänster för att dessa funktioner ska fungera på rätt sätt.
+Utför inställningar under ”Inställningar” > [Integritetsskydd] > [Platstjänster] för den mobila enheten."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">Aktivera Plats</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">Aktivera Platstjänster</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">Aktivera Plats för att identifiera platser du ofta besöker.</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">Aktivera Platstjänster för att identifiera platser du ofta besöker.</string>
+    <string name="ASC_Location_Learning_Location_List">Inlärd plats</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">Platser du ofta besöker</string>
+    <string name="ASC_Location_Learning_Location_Select_message">Välj en plats du vill registrera.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">Aktivera inlärningsfunktionen.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"Genom att registrera de platser du ofta besöker förutom bara de identifierade aktiviteterna blir automatisk justering av inställningar baserat på den platsen tillgänglig för anpassningsbar ljudkontroll. Det är enkelt att registrera platser du ofta besöker med hjälp av inlärningsfunktionen.
+*Det tar flera dagar att registrera platser du ofta besöker efter att du använt inlärningsfunktionen."</string>
+    <string name="ASC_Location_Learning_Tips_notification">Du kan enkelt registrera platser du ofta besöker gen. att anv. inlärningsfunktionen.</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">Tillåt åtkomst till Plats</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"Inlärningsfunktion för platser du ofta besöker och automatisk justering av inställningar baserat på platser för anpassningsbar ljudkontroll är aktiverade, men det går inte att identifiera platser eftersom Plats är avaktiverad.
+
+Tillåt åtkomst till Plats för att dessa funktioner ska fungera på rätt sätt. Om du går med på det vid alla tillfällen kommer platsdata att inhämtas även när appen är stängd eller inte används."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"Inlärningsfunktion för platser du ofta besöker och automatisk justering av inställningar baserat på platser för anpassningsbar ljudkontroll är aktiverade, men det går inte att identifiera platser eftersom Plats är avaktiverad.
+
+Välj [När appen används] på nästa skärm för att aktivera de här funktionerna."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"Inlärningsfunktion för platser du ofta besöker och automatisk justering av inställningar baserat på platser för anpassningsbar ljudkontroll är aktiverade, men det går inte att identifiera platser eftersom det inte går att komma åt Platstjänster.
+
+För att använda dessa funktioner i bakgrunden trycker du på knappen [Inställningar] och tillåter alltid åtkomst från [Plats]."</string>
+    <string name="ASC_Location_Permission_Tips_notification">Tillåt åtkomst till Plats för att identifiera platser du ofta besöker.</string>
+    <string name="ASC_Location_Position_Set">Plats</string>
+    <string name="ASC_Location_Position_Set_message">Tryck för att ange en plats.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">Aktivera Exakt platsinformation</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"Inlärningsfunktion för platser du ofta besöker och automatisk justering av inställningar baserat på platser för anpassningsbar ljudkontroll är aktiverade, men det går inte att identifiera platser eftersom Exakt platsinformation är avaktiverad.
+
+För att dessa funktioner ska fungera ordentligt trycker du på knappen [Inställningar] och aktiverar Exakt platsinformation från [Plats]."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">Aktivera Exakt platsinformation för att identifiera platser du ofta besöker.</string>
+    <string name="ASC_Location_Range">Intervall</string>
+    <string name="ASC_Location_Range_Param_Large">Stor</string>
+    <string name="ASC_Location_Range_Param_Mid">Normal</string>
+    <string name="ASC_Location_Range_Param_Small">Liten</string>
+    <string name="ASC_Location_Registration">Registrera plats</string>
+    <string name="ASC_Location_Setting">Platsinställningar</string>
+    <string name="ASC_Location_Sound_Setting">Hörlursinställningar</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">Välj den inställning du vill justera till för denna plats under [Lägg till/radera alternativ].</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">Justera inte</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">Lägg till/radera alternativ</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"Välj en inställning att växla till för denna plats.
+Inställningar som inte valts behåller tidigare status även om du anger denna plats."</string>
+    <string name="ASC_Location_Switch_Setting">Byt metod</string>
+    <string name="ASC_Location_Type_Bus">Busshållplats</string>
+    <string name="ASC_Location_Type_Gym">Gym</string>
+    <string name="ASC_Location_Type_Home">Hem</string>
+    <string name="ASC_Location_Type_Office">Arbetsplats</string>
+    <string name="ASC_Location_Type_Other">Övrigt</string>
+    <string name="ASC_Location_Type_School">Skola</string>
+    <string name="ASC_Location_Type_Set">Kategori</string>
+    <string name="ASC_Location_Type_Set_message">Välj en kategori.</string>
+    <string name="ASC_Location_Type_Train">Station</string>
+    <string name="ASC_NotificationSound">Noteringsljud vid växling</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">Tillåt meddelandeinställning.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"Även om inställningen [Byt från meddelande] för Anpassningsbar ljudkontroll är aktiverad kommer inte meddelanden att visas eftersom meddelandeinställningen inte är tillåten.
+
+Tillåt meddelandeinställningen för att få denna funktion att fungera korrekt."</string>
+    <string name="ASC_NowHere">Du befinner dig vid denna plats</string>
+    <string name="ASC_Others_Section">Övrigt</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">Registrera från inlärda platser</string>
+    <string name="ASC_RegisterFromMapBtn">Registrera från karta</string>
+    <string name="ASC_RegisteredLocation">Registrerade platser</string>
+    <string name="ASC_Status_Empty">Har inte justerats automatiskt</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">Inaktiverad (du måste manuellt utföra ändringar på equalizern)</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*Justerar manuellt</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">Inaktiverad (på grund av prioritet för ljudkvalitet)</string>
+    <string name="ASC_Status_Sound_Setting_info">Inställningsstatus</string>
+    <string name="ASC_Supplement_A2SC_Controlled">Ställ in automatiskt via anpassningsbar ljudkontroll.</string>
+    <string name="ASC_Supplement_Change_Behavior">Inställningen ändras automatiskt via anpassningsbar ljudkontroll om din aktivitet ändras.</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">Inställningen ändras automatiskt via anpassningsbar ljudkontroll om din aktivitet och plats ändras.</string>
+    <string name="ASC_Supplement_Change_Location">Inställningen ändras automatiskt via anpassningsbar ljudkontroll om din plats ändras.</string>
+    <string name="ASC_Supplement_Leave_Location">Återgår till automatisk inställning baserat på anpassningsbar ljudkontroll om du lämnar denna plats.</string>
+    <string name="ASC_Switch_Detail_Message">Om [Byt från meddelande] är inställt kan du byta till den här inställningen när du vill när du är på denna plats.</string>
+    <string name="ASC_Switch_Notification_After_Button">Återgå</string>
+    <string name="ASC_Switch_Notification_After_Description">Du kan återgå till inställningen innan bytet.</string>
+    <string name="ASC_Switch_Notification_After_Title">Använd inställning %s</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">Byt</string>
+    <string name="ASC_Switch_Notification_Before_Description">Byta till inställningen för denna plats?</string>
+    <string name="ASC_Switch_Notification_Before_Title">Plats: %s</string>
+    <string name="ASC_Switch_Type_Auto">Byt automatiskt</string>
+    <string name="ASC_Switch_Type_Manual">Byt från meddelande</string>
+    <string name="ASM_Param_ASM">Omgivningsljud</string>
+    <string name="ASM_Param_NC">Brusreducering</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">Av</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">På</string>
+    <string name="ASM_Param_Street">Vindbrusreducering</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">Omgivningsljud</string>
+    <string name="ASM_Simple_Param_AsmNormal">Omgivningsljud - Normalt läge</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">Omgivningsljud - Normalt läge</string>
+    <string name="ASM_Simple_Param_AsmVoice">Omgivningsljud - Röstläge</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">Omgivningsljud - Röstläge</string>
+    <string name="ASM_Simple_Param_Asm_forBody">Omgivningsljud</string>
+    <string name="ASM_Simple_Param_Dual">Brusreducering</string>
+    <string name="ASM_Simple_Param_Dual_forBody">Brusreducering</string>
+    <string name="ASM_Simple_Param_NC">Brusreducering</string>
+    <string name="ASM_Simple_Param_NC_forBody">Brusreducering</string>
+    <string name="ASM_Simple_Param_Street">Vindbrusreducering</string>
+    <string name="ASM_Simple_Param_Street_forBody">Vindbrusreducering</string>
+    <string name="ASM_Simple_Title">Kon. av omgivningsljud</string>
+    <string name="ASM_Title">Kon. av omgivningsljud</string>
+    <string name="ASM_Voice">Fokus på röst</string>
+    <string name="Abort_FWUpdate">Avbryt</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">Ej inställd</string>
+    <string name="AppNotify_Custom_Param_Vibration">Vibration</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">Talsyntes</string>
+    <string name="AppNotify_Custom_Title">Få medd. i hörlurar</string>
+    <string name="AppNotify_Detail">Du kan ta emot meddelanden från de valda appar i hörlurarna. Ljud från mediet måste väljas i Bluetooth-inställningarna på mobilen för att använda talsyntesfunktionen.</string>
+    <string name="AppNotify_NeedSetup">Välj vilka appmeddelanden du vill få.</string>
+    <string name="AppNotify_Notification_Message">[%s] aktivt.</string>
+    <string name="AppNotify_Setapps">%d appar har valts.</string>
+    <string name="AppNotify_Title">Få medd. i hörlurar</string>
+    <string name="AppSetting_Link">Starta Music Center</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">Registrera</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">Den musik som nu spelas kommer att stoppas eftersom det är nödvändigt att återansluta hörlurarna. Ändra?</string>
+    <string name="Assignable_Key_Changing_Error">Funktionen misslyckades.</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">Ändra knappens funktion</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">Amazon Alexa-appen krävs för att använda denna funktion.</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">Ställa in Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">Genomför inställningarna för Google Assistant-appen för att använda denna funktion.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">Google Assistant-appen krävs för att använda denna funktion.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google Assistent</string>
+    <string name="Assignable_Key_Elem_Help_Button">Lär dig mer</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">Knappfunktionen är inaktiverad. Ihopparningsfunktionen är tillgänglig med denna inställning.</string>
+    <string name="Assignable_Key_Elem_None_Title">Ingen tilldelad</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">Pekfunktionen kommer att inaktiveras. Ihopparningsfunktionen är tillgänglig med denna inställning.</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">Uppspelningskontroll</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">Du kan manövrera den mobila enheten med din röst via hörlurarnas mikrofon.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">Röstassistansfunktion</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">Volymkontroll</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">Du kan inte tilldela röstassistansfunktionen till både vänster och höger.</string>
+    <string name="Assignable_Key_Setting_1">Ändra funk. för [NC/AMBIENT]-knapp</string>
+    <string name="Assignable_Key_Setting_2">Ändra funktion för knapp på vänster sida</string>
+    <string name="Assignable_Key_Setting_Button">Ändra knappfunktionen</string>
+    <string name="Assignable_Key_Setting_C">Ändra funk. för [C]-knapp</string>
+    <string name="Assignable_Key_Setting_CUSTOM">Ändra funk. för [CUSTOM]-knapp</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">Återställ</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">Du kan ändra funktionen som tilldelats knappen till vänster.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">Du kan ändra funktionen som tilldelats knappen till höger.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">Du kan ändra funktionen som tilldelats [C]-knappen.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">Du kan ändra funktionen som tilldelats [CUSTOM]-knappen.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">Du kan ändra funktionen som tilldelats peksensorn till vänster.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">Du kan ändra funktionen som tilldelats peksensorn till höger.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">Funktion:</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">Funktionsmetod:</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">Vänster</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">Höger</string>
+    <string name="Assignable_Key_Setting_Edit_Title">Redigera</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">Ljudingång/avbryt</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">Avbryt röstassistansfunktionen</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">Avbryt ljudingång</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">Röstmeddelande</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">Ljudingång</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">Starta röstassistansfunktionen</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">Nästa låt</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">Spela upp/paus</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">Föregående låt</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">Brusreducering/omgivningsljud/av</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">Brusreduceringsoptimering</string>
+    <string name="Assignable_Key_Setting_Function_None">Ingen</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">Snabbuppmärksamma</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">Sänk volymen</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">Höj volymen</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">Ljudingång</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">Tryck 2 gånger</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">Tryck 2 gånger och fortsätt att trycka</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">Tryck 1 gång</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">Tryck 1 gång och fortsätt att trycka</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">Tryck 3 gånger</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">Fortsätt att trycka</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">Tryck länge</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">Dubbeltryck</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">Dubbeltryck och fortsätt att trycka</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">Tryck</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">Tryck och fortsätt att trycka</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">Trippeltryck</string>
+    <string name="Assignable_Key_Setting_NC">Ändra funk. för [NC]-knapp</string>
+    <string name="Assignable_Key_Setting_NCAMB">Ändra funk. för [NC/AMB]-knapp</string>
+    <string name="Assignable_Key_Setting_Not_Connected">Ej ansluten.</string>
+    <string name="Assignable_Key_Setting_R">Ändra funktion för knapp på höger sida</string>
+    <string name="Assignable_Key_Setting_SaveCheck">Redigering är inte slutförd. Avsluta?</string>
+    <string name="Assignable_Key_Setting_Touch">Ändra peksensorfunktionen</string>
+    <string name="AutoPlaybackControl_Title">Pausar när hörlurarna tas av</string>
+    <string name="AutoPowerOff_Off_Parameter">Stäng inte av</string>
+    <string name="AutoPowerOff_Off_Title">Stäng inte av</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">Strömmen till hörlurarna stängs av automatiskt om de inte bärs under en viss tid.</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">Stängs av när hörlurarnas tas av</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">Stängs av när hörlurarnas tas av</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Om angiven tid har passerat efter att Bluetooth kopplats från slås strömmen till hörlurarna automatiskt av.</string>
+    <string name="AutoPowerOff_SelectTime_Title">Stäng av efter en viss tid</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1 timma</string>
+    <string name="AutoPowerOff_SelectTme_30min">30 minuter</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3 timmar</string>
+    <string name="AutoPowerOff_SelectTme_5min">5 minuter</string>
+    <string name="AutoPowerOff_Title">Automatisk Avstängning</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">Batterinivå</string>
+    <string name="Battery_Remain_Unknown">Batterinivå okänd</string>
+    <string name="Button_Next">Nästa</string>
+    <string name="Button_Permission_iOS_Settings">Inställningar</string>
+    <string name="Button_Prev">Föregående</string>
+    <string name="Codec_AAC">Ansluten via AAC.</string>
+    <string name="Codec_LDAC">Ansluten via LDAC.</string>
+    <string name="Codec_SBC">Ansluten via SBC.</string>
+    <string name="Codec_aptX">Ansluten via aptX.</string>
+    <string name="Codec_aptXHD">Ansluten via aptX HD.</string>
+    <string name="Common_App_Start">Starta</string>
+    <string name="Common_Back">Tillbaka</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">Klar</string>
+    <string name="Common_EULA">LICENSAVTAL FÖR SLUTANVÄNDARE</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">Mer info</string>
+    <string name="Common_Off">Av</string>
+    <string name="Common_On">På</string>
+    <string name="Common_Other">Övrigt</string>
+    <string name="Common_PP">Sekretesspolicy</string>
+    <string name="Common_Pause">Paus</string>
+    <string name="Common_Play">Spela upp</string>
+    <string name="Common_Start">Starta</string>
+    <string name="Common_Yes">Ja</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">För att ändra inställningar måste ljudkvalitetsläget bytas till Prioritet för stabil uppkoppling. Dessutom kommer hörlurarna att återanslutas och den musik som nu spelas att stoppas. Ändra?</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">Den musik som nu spelas kommer att stoppas eftersom det är nödvändigt att återansluta hörlurarna. Ljudkvalitetssinställningarna kan dessutom bli otillgängliga om de ändras till Prioritet för ljudkvalitet. Ändra?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">Den musik som nu spelas kommer att stoppas eftersom det är nödvändigt att återansluta hörlurarna. Ändra?</string>
+    <string name="ConnectMode_Changing_Title_Caution">Måste byta ljudkvalitetsläge</string>
+    <string name="ConnectMode_Changing_Title_Confirm">Byter ljudkvalitetsläge</string>
+    <string name="ConnectMode_Connectivity_Detail">Om ljudet bryts ofta ska denna inställning väljas.</string>
+    <string name="ConnectMode_Connectivity_Title">Prioritet för stabil uppkoppling</string>
+    <string name="ConnectMode_Sound_Title">Prioritet för ljudkvalitet</string>
+    <string name="ConnectMode_Title">Ljudkvalitetsläge</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">Produkten (Sony | Headphones Connect) innehåller den teknik för aktivitetsidentifiering som utvecklats av Sony Corporation, baserat på forskning utförd av Sony Computer Science Laboratories, Inc.</string>
+    <string name="Copyright_AptX">Qualcomm är ett varumärke som tillhör Qualcomm Incorporated, registrerat i USA och andra länder, och används med tillstånd. aptX är ett varumärke som tillhör Qualcomm Technologies International, Ltd., registrerat i USA och andra länder, och används med tillstånd.</string>
+    <string name="Copyright_Bluetooth">Varumärket Bluetooth® och dess logotyper tillhör Bluetooth SIG, Inc. och all användning av dessa märken av Sony Corporation är licensierad.</string>
+    <string name="Copyright_NFC">N-märket är ett varumärke eller ett registrerat varumärke som tillhör NFC Forum, Inc. i USA och i andra länder.</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">Kontrollera den mest uppdaterade batterinivån</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">Batterinivån som visas uppdateras när hörlurarna plockas ut ur laddningsväskan.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">Visning av batterinivå för laddningsväskan uppdateras när hörlurarna plockas bort från laddningsväskan.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">Möjliggör visning av batterinivå för laddningsväskan?</string>
+    <string name="Cradle_Battery">Laddningsväska</string>
+    <string name="Current_Volume_Talkback">Aktuell volym</string>
+    <string name="DSEEHX_AI_Param_Auto">Auto</string>
+    <string name="DSEEHX_AI_Param_Off">Av</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">Auto</string>
+    <string name="DSEEHX_Param_Off">Av</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme på</string>
+    <string name="DSEE_HX_ON">DSEE HX på</string>
+    <string name="DSEE_ON">DSEE på</string>
+    <string name="DSEE_Param_Auto">Auto</string>
+    <string name="DSEE_Param_Off">Av</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">Ljud</string>
+    <string name="Dashboard_Tab_Status">Status</string>
+    <string name="Dashboard_Tab_System">System</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Ansluten via Bluetooth.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Ej ansluten via Bluetooth.</string>
+    <string name="Device_Connection_Connect">Anslut</string>
+    <string name="Device_Connection_Connect_iOS">Anslut till ihopparade hörlurar</string>
+    <string name="Device_Connection_Message1">Anslut till hörlurarna via Bluetooth.</string>
+    <string name="Device_Connection_Pair">Anslut till de nya hörlurarna</string>
+    <string name="Device_Registration_Top_Msg">Registrera nya hörlurar.</string>
+    <string name="Download_Latest_MDRPlugin">Den senaste versionen av Headphones Connect krävs för att använda dessa hörlurar. Uppdatera denna app i Google Play.</string>
+    <string name="Download_Latest_MDRPlugin_iOS">Den senaste versionen av Headphones Connect krävs för att använda dessa hörlurar. Uppdatera denna app i App Store.</string>
+    <string name="EBB_Indicator">Elbasförstärkare</string>
+    <string name="EBB_Param_Title">Nivå</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">Akustiskt</string>
+    <string name="EQ_Preset_Bass">Bass Boost</string>
+    <string name="EQ_Preset_Bright">Ljus</string>
+    <string name="EQ_Preset_Custom">Manuell</string>
+    <string name="EQ_Preset_Dance">Dansmusik</string>
+    <string name="EQ_Preset_EDM">EDM</string>
+    <string name="EQ_Preset_Excited">Upprymd</string>
+    <string name="EQ_Preset_Jazz">Jazz</string>
+    <string name="EQ_Preset_Mellow">Mjuk</string>
+    <string name="EQ_Preset_Off">Av</string>
+    <string name="EQ_Preset_Pop">Pop</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B/Hiphop</string>
+    <string name="EQ_Preset_Relaxed">Avslappnad</string>
+    <string name="EQ_Preset_Rock">Rock</string>
+    <string name="EQ_Preset_Speech">Tal</string>
+    <string name="EQ_Preset_Title">Equalizer</string>
+    <string name="EQ_Preset_Treble">Treble Boost</string>
+    <string name="EQ_Preset_UserSetting">Anpassad</string>
+    <string name="EQ_Preset_Vocal">Sång</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_sv.html</string>
+    <string name="ErrMsg_CannotAccess_Server">Kunde inte ansluta till server. Kontrollera status för nätverksanslutning.</string>
+    <string name="FW_Download_Param_Always">Hämta alltid automatiskt</string>
+    <string name="FW_Download_Param_OnlyWiFi">Endast vid anslutning via Wi-Fi</string>
+    <string name="FW_Download_Title">Automatisk hämtning av programvara</string>
+    <string name="FW_EULA_Title">Användningsvillkor</string>
+    <string name="FW_Info_Button_Resume">Återuppta</string>
+    <string name="FW_Info_Button_Start">Starta</string>
+    <string name="FW_Info_Caution">"Hörlurar går inte att använda under uppdatering.
+Placera hörlurar och mobil enhet i närheten av varandra i början."</string>
+    <string name="FW_Info_Caution_Downloading">"Hämt. kommer att avbrytas om hörlurarna och den mobila enheten placeras långt ifrån varandra eller om strömmen till hörlurarna stängs av.
+Hämt. kan återupptas om den avbryts."</string>
+    <string name="FW_Info_Caution_Sending">"Överf. kommer att avbr. om hörlurar och mobil enhet placeras långt ifrån varandra eller om ström till hörlurarna stängs av.
+Hämt. kan återup. från där den stoppades, om den avbryts."</string>
+    <string name="FW_Info_Caution_Start">Börja med att placera hörlurarna och den mobila enheten i närheten av varandra.</string>
+    <string name="FW_Info_EULA">Genom att trycka på följ. knapp medger du till att ha kontrollerat dokumentet om medgivande och godkänner innehållet.</string>
+    <string name="FW_Info_EULALink">Användningsvillkor</string>
+    <string name="FW_Info_Message1">Den senaste programvaran för hörlurarna är tillgänglig.</string>
+    <string name="FW_Info_Message2">När du trycker på knappen [Godkänn] startar uppdateringen.</string>
+    <string name="FW_Info_Message3">När du trycker på knappen [OK] startar uppdateringen.</string>
+    <string name="FW_Info_Message_Download">Om du trycker på [%s]-knappen kommer förberedelser för uppdatering starta.</string>
+    <string name="FW_Info_Message_Resume">Genom att trycka på [%s]-knappen återupptas överföringen.</string>
+    <string name="FW_Info_Message_Update">Genom att trycka på [%s]-knappen startar uppdateringen.</string>
+    <string name="FW_Info_Title">Software Information</string>
+    <string name="FW_Info_Version">Version</string>
+    <string name="FW_Notify_Abort">Överföring av programvara till hörlurar avbröts.</string>
+    <string name="FW_Notify_Detail">Mer info</string>
+    <string name="FW_Notify_Downloading">Hämtar den senaste programvaran för hörlurarna... (%d%%)</string>
+    <string name="FW_Notify_Msg">Den senaste programvaran för hörlurarna är tillgänglig.</string>
+    <string name="FW_Notify_Sending">Överför den senaste programvaran för hörlurarna... (%d%%)</string>
+    <string name="FW_Notify_Update">Uppdatera programvaran för hörlurarna.</string>
+    <string name="FW_Update_Button_Transit_AppStore">Uppdatera i App Store</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">Uppdatera i Google Play</string>
+    <string name="FW_Update_Message1">Vänligen vänta...</string>
+    <string name="FW_Update_Message2">"Stäng inte av strömbrytaren.
+Placera inte hörlurarna och den mobila enheten på långt avstånd från varandra."</string>
+    <string name="FW_Update_Message3">"Startar om automatiskt.
+Placera inte hörlurarna och den mobila enheten på långt avstånd från varandra."</string>
+    <string name="FW_Update_Message_step2_1">Överför till vänstra enheten</string>
+    <string name="FW_Update_Message_step2_2_1">Uppdaterar hörlurarnas vänstra enhet</string>
+    <string name="FW_Update_Message_step2_2_2">"Uppdatering av hörlurarnas vänstra enhet är slutförd.
+Ansluter till den högra enheten"</string>
+    <string name="FW_Update_Message_step2_2_3">Förbereder överf. till den högra enheten</string>
+    <string name="FW_Update_Message_step2_3">Överför till den högra enheten</string>
+    <string name="FW_Update_Retry_Body_Caution">"Innan du uppdaterar programvaran måste du stänga av \"Google Assistant\" -funktion.
+När \"Google Assistant\" -funktionen är avstängd, kommer hörlurarna automatiskt om och du måste följa pop up instruktion.
+Efter programmet har uppdaterat du manuellt växla tillbaka på \"Google Assistant\" inställningar."</string>
+    <string name="FW_Update_Retry_Title_Caution">\"Google Assistant\" -funktionen måste vara avstängd</string>
+    <string name="FW_Update_Status_Abort">Överföring av programvara för hörlurarna avbröts.</string>
+    <string name="FW_Update_Status_Download">Laddar ner programvaran...</string>
+    <string name="FW_Update_Status_Download_step1">Hämtar programvara... (1/3)</string>
+    <string name="FW_Update_Status_Downloading">Hämtar den senaste programvaran för hörlurarna...</string>
+    <string name="FW_Update_Status_Install">Uppdaterar...</string>
+    <string name="FW_Update_Status_Install_step3">Uppd. programvara... (3/3)</string>
+    <string name="FW_Update_Status_Prepared">Uppdatera programvaran för hörlurarna.</string>
+    <string name="FW_Update_Status_Send">Överför programvaran...</string>
+    <string name="FW_Update_Status_Send_step2">Överför programvara... (2/3)</string>
+    <string name="FW_Update_Status_Sending">Överför den senaste programvaran för hörlurarna...</string>
+    <string name="FW_Update_Title">Uppdatera programvara</string>
+    <string name="FW_Version_Confirm_Title">%s Version</string>
+    <string name="FW_Version_Menu_Title">%s Version</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">sv</string>
+    <string name="GoogleAssistantIntro_Link">Ställa in Google Assistant</string>
+    <string name="GoogleAssistantIntro_Msg">Få direktåtkomst till ditt eget personliga Google m.m. Det tar bara några minuter att ställa in.</string>
+    <string name="GoogleAssistantIntro_Title">Nu optimerad för Google Assistant.</string>
+    <string name="Help_Information_Priority_High">Klicka här</string>
+    <string name="Help_Troubleshooting">Felsökning</string>
+    <string name="IASetup_AnalyzeComplete_Detail">Skicka sedan resultaten till en musikapp för att optimera din 360 Reality Audio-upplevelse.</string>
+    <string name="IASetup_AnalyzeComplete_Title">Analysen av dina öron har lyckats</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"Ta foton av dina öron för analys.
+Innan du tar foton bör du se till att öronen är fullt synliga och kontrollera följande:
+
+- Ta bort hörlurarna från öronen.
+- Håret inte täcker över öronen.
+- Ta bort örhängen och piercingar."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">Analysera formen på dina öron</string>
+    <string name="IASetup_Analyze_Cmd_Retry">Analysera igen</string>
+    <string name="IASetup_Analyze_Cmd_Start">Analysera</string>
+    <string name="IASetup_Analyze_Detail">Det tar cirka %d sekunder.</string>
+    <string name="IASetup_Analyze_Label">Analysera formen på örat</string>
+    <string name="IASetup_Analyze_Status_Done">Dina öron har analyserats</string>
+    <string name="IASetup_Analyze_Status_NotComp">Dina öron har inte analyserats</string>
+    <string name="IASetup_Analyze_Title">Analyserar dina öron</string>
+    <string name="IASetup_AppDetail_NotInstalled">Ej installerad</string>
+    <string name="IASetup_AppDetail_NotOptimized">Ej optimerad</string>
+    <string name="IASetup_AppDetail_Optimized">Optimerad</string>
+    <string name="IASetup_AppInstallConf_Title">Du måste återgå till Headphones Connect efter installationen.</string>
+    <string name="IASetup_AppInstall_Detail">360 Reality Audio-inställningar är slutförda när appen startas efter att den installerats. Musikappen optimeras för att återskapa ett korrekt ljudfält.</string>
+    <string name="IASetup_AppInstall_Detail_iOS">När appen installerats och inställningarna för 360 Reality Audio har slutförts, är musikappen optimerad för att återskapa ett exakt ljudfält.</string>
+    <string name="IASetup_AppInstall_Install">Installera och optimera</string>
+    <string name="IASetup_AppInstall_Install_iOS">Installera</string>
+    <string name="IASetup_AppInstall_Title">360 Reality Audio-inställningar är slutförda när appen startas.</string>
+    <string name="IASetup_AppInstall_Title_iOS">Installera denna app på din telefon.</string>
+    <string name="IASetup_AppIntroduction_Detail">"För att lyssna på denna omslutande musikupplevelse behöver du en av dessa musiktjänstappar för 360 Reality Audio.
+*Prenumerationsavgifter och tillämpligt innehåll kan skilja sig åt beroende på musiktjänsten."</string>
+    <string name="IASetup_AppIntroduction_Title">Tillgängliga musikappar för 360 Reality Audio</string>
+    <string name="IASetup_AppLaunch_Detail">"Efter att du gnmf. inst. av 360 Reality Audio kan du lyssna på musik som spelas upp med exakt ljudfält.
+Lyssna på 360 Reality Audio som optim. för dig."</string>
+    <string name="IASetup_AppLaunch_Optimize">Starta för att optimera</string>
+    <string name="IASetup_AppLaunch_Title">360 Reality Audio-inställningar är slutförda när appen startas.</string>
+    <string name="IASetup_AppList_Detail">"360 Reality Audio är endast tillgängligt via dessa musiktjänstappar. Välj en app som du vill använda.
+*Prenumerationsavgifter och tillämpligt innehåll kan skilja sig åt beroende på musiktjänsten."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">Ej installerad</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">Ej optimerad</string>
+    <string name="IASetup_AppList_Gp_Optimized">Optimerad</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">Kunde inte identifiera.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">Rör inte huvudet.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">Rör inte din smartphone.</string>
+    <string name="IASetup_CameraInstruction_Complete">Taget foto.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">Ditt öra har identifierats. Rör inte huvudet.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">Identifierar vänster öra...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">Identifierar höger öra...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">Positionen är nu korrekt. Från den positionen vrider du långsamt huvudet till höger.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">Vrid huvudet långsamt till höger.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">Positionen är nu korrekt. Från den positionen vrider du långsamt huvudet till vänster.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">Vrid huvudet långsamt till vänster.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"Ta ett foto av ditt vänstra öra. Ta av dig dina hörlurar.
+Vrid huvudet till höger och tryck på avtryckaren."</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"Ta av dig dina hörlurar.
+Vrid huvudet till höger så att ditt öra befinner sig i ramen och tryck på avtryckaren."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"Ta ett foto av ditt högra öra. Ta av dig dina hörlurar.
+Vrid huvudet till vänster och tryck på avtryckaren."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"Ta av dig dina hörlurar.
+Vrid huvudet till vänster så att ditt öra befinner sig i ramen och tryck på avtryckaren."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">Vänligen flytta kameran längre bort från huvudet.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">Vänligen flytta kameran närmare.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">Vänligen luta ner kameran lite.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"Ta av dig dina hörlurar.
+Stå sedan framför kameran och placera huvudet inom ramen."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">Vänligen rotera kameran lite åt vänster.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">Vänligen rotera kameran lite åt höger.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">Vänligen luta upp kameran lite.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">Ta av dig dina hörlurar.</string>
+    <string name="IASetup_CompletePhotograph_Detail">Börja analysera formen på ditt öra.</string>
+    <string name="IASetup_CompletePhotograph_Title">Fotograferingen av ditt högra öra har lyckats</string>
+    <string name="IASetup_Confirm_NonBT_Device">Tryck på knappen [%s] för att utföra hörlursinställningar.</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">För att lyssna på och jämföra omgivande ljud från 360 Reality Audio måste följande inställningar stängas av.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">För att spela omgivande 360 Reality Audio på musiktjänstappar måste följande inställningar stängas av.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">Stäng av och spela</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">Stäng av och starta</string>
+    <string name="IASetup_EarPhoto_Auto">Automatisk tagning (rekommenderas)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">Automatisk tagning</string>
+    <string name="IASetup_EarPhoto_Manual">Manuell tagning</string>
+    <string name="IASetup_FailurePhotograph_Detail">Bekräfta följande meddelande och ta ett nytt foto av ditt öra.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">Ditt vänstra öra identifieras inte</string>
+    <string name="IASetup_FailurePhotograph_R_Title">Ditt högra öra identifieras inte</string>
+    <string name="IASetup_FeatureTitle">Inställning av 360 Reality Audio</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">Bekräftad</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">Fortsätt utan att använda en kupong</string>
+    <string name="IASetup_FreeTrialCoupon_Start">Gå till kupongsidan</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">Kontrollera örats riktning och justera position och storlek med hjälp av guiden.</string>
+    <string name="IASetup_LearnMore">Få reda på mer om 360 Reality Audio</string>
+    <string name="IASetup_LearnMore_AboutApp">Gå hit för information om musiktjänsten</string>
+    <string name="IASetup_Link_EarPhotoSample">Örats position och storlek</string>
+    <string name="IASetup_Link_Handling_EarPhoto">Hur din personliga data används</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">Varför måste vi ta ett foto på dina öron?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">Om info att skicka till musiktjänstappen</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">Se till så att hela örat befinner sig i ramen och tryck på [%s]-knappen.</string>
+    <string name="IASetup_NeedToUpdateApp_Title">Uppdatering krävs.</string>
+    <string name="IASetup_OOBE_Title">Om 360 Reality Audio</string>
+    <string name="IASetup_Optimize_Cmd_AppList">Bekräfta</string>
+    <string name="IASetup_Optimize_Cmd_Install">Installera</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">Optimera</string>
+    <string name="IASetup_Optimize_Label">Optimera appar</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">360 Reality Audio-appar har inte installerats</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">360 Reality Audio-appar har inte optimerats än</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">Det finns inga optimerade 360 Reality Audio-appar</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d applikation/applikationer har optimerats</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"På nästa skärm vrider du frontkameran mot ditt ansikte. Tagning sker automatiskt när dina öron identifieras.
+
+1. Håll din mobila enhet med båda händerna framför ansiktet.
+2. När ansiktet identifieras, vrider du huvudet till höger enligt röstvägledningen.
+3. Stå stilla tills tagningen utförs automatiskt."</string>
+    <string name="IASetup_PhotographEar_Title">Ta ett foto av ditt vänstra öra</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">Avlägsna örhängen.</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- Ta ett foto på ditt vänstra öra.
+- Flytta dig om platsen där fotot tas är för ljus eller för mörk.
+- Ta bort hörlurarna från dina öron."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- Ta ett foto på ditt högra öra.
+- Flytta dig om platsen där fotot tas är för ljus eller för mörk.
+- Ta bort hörlurarna från dina öron."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">Se till att håret inte täcker över öronen.</string>
+    <string name="IASetup_Photograph_Ear_L">Vänster öra</string>
+    <string name="IASetup_Photograph_Ear_R">Höger öra</string>
+    <string name="IASetup_Photograph_Retake">Ta igen</string>
+    <string name="IASetup_Photograph_Take">Ta ett foto</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">Normalt ljud</string>
+    <string name="IASetup_Select_NonBT_Button">Gå till instrumentpanelen</string>
+    <string name="IASetup_SetupStart">Starta inställningen</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">Genomförd</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">Ta ett foto av dina öron för analys.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">Dina öron har inte analyserats</string>
+    <string name="IASetup_SetupSummary_Detail">Vi kan exakt återge det bästa ljudfältet för dig genom att analysera formen på dina öron.</string>
+    <string name="IASetup_SetupSummary_Optimize">Starta steg 2</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d app/appar har optimerats</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">Optimera musiktjänstappen genom att skicka resultat av öronanalys.</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">360 Reality Audio-appar har inte installerats</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">360 Reality Audio-appar har inte optimerats</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">Starta steg 1</string>
+    <string name="IASetup_SetupSummary_Title">Optimera ljudfältet för 360 Reality Audio</string>
+    <string name="IASetup_Setup_Complete">Ljudfältet för 360 Reality Audio har slutförts</string>
+    <string name="IASetup_Setup_Title">Inst. av 360 Reality Audio</string>
+    <string name="IASetup_SoundPreview_Detail">Lyssna på testmusiken nedan för att höra skillnaden.</string>
+    <string name="IASetup_SoundPreview_Title">Upplev 360 Reality Audio</string>
+    <string name="IASetup_StartAnalyze">Starta</string>
+    <string name="IASetup_SuccessPhotograph_Detail">Ta därefter ett foto av ditt högra öra.</string>
+    <string name="IASetup_SuccessPhotograph_Title">Fotograf. av ditt vänstra öra har lyckats</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">Optimera appar</string>
+    <string name="IASetup_TipsDetail_Description">För att njuta av en omslutande ljudupplevelse i musiktjänstappar för 360 Reality Audio, måste musiktjänstappar optimeras genom att skicka resultat av öronanalys.</string>
+    <string name="IASetup_TipsDetail_Title">Inställning för 360 Reality Audio är fortfarande inte slutförd.</string>
+    <string name="IASetup_UpdateApp">Uppdatera</string>
+    <string name="IASetup_Welcome_Detail">Genom att spela 360 Reality Audio i dina hörlurar aktiveras en omslutande ljudupplevelse lika verklig som att befinna sig på ett liveframträdande.</string>
+    <string name="IASetup_Welcome_Title">Välkommen till 360 Reality Audio</string>
+    <string name="IAWM_Analyze_Cmd_Retry">Skapa igen</string>
+    <string name="IAWM_Analyze_Cmd_Start">Skapa</string>
+    <string name="IAWM_Analyze_Label">Skapa en specialanpassad hörselprofil</string>
+    <string name="IAWM_Analyze_Status_Done">Genomförd</string>
+    <string name="IAWM_Analyze_Status_NotComp">Ofullständigt</string>
+    <string name="IAWM_Complete_Data_Title">Din hörselprofil har tagits emot</string>
+    <string name="IAWM_Confirmation_Dialog1">"Din hörselprofil har redan sparats.
+Ta emot profil från servern och fortsätt för att optimera appen?"</string>
+    <string name="IAWM_Hrtf_App_Button">Börja ta emot</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"Mottagandet av din hörselprofil misslyckades.
+Kontrollera nätverksanslutningen och vänta en stund och försök sedan igen."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"Kunde inte ta emot din hörselprofil från servern.
+Kontrollera att du skapat din hörselprofil på din smartphone och tryck på knappen igen för att starta mottagningen."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"Kunde inte ta emot din hörselprofil från servern.
+När du har kontrollerat följande, gå till nästa skärm igen och börja ta emot.
+- Skapandet av din hörselprofil på din smartphone har slutförts
+- Du är inloggad på samma konto på 360 Spatial Sound Personalizer och Headphones Connect på denna Walkman"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">Installera appen 360 Spatial Sound Personalizer på din smartphone, logga in med samma konto som för din Walkman och ta ett foto av dina öron genom att följa instruktioner på skärmen.</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">Skapar din hörselprofil på en smartphone</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">Börja ta emot</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"Skanna QR-koden med en smartphone. Om det inte går att skanna söker du efter appen ”360 Spatial Sound Personalizer” i appbutikerna.
+När du har skapat din hörselprofil kommer denna Walkman automatiskt att ta emot din hörselprofil, så stanna kvar på den här skärmen."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"Skanna QR-koden med en smartphone. Om det inte går att skanna söker du efter appen ”360 Spatial Sound Personalizer” i appbutikerna.
+När du har skapat din hörselprofil kan du trycka på knappen nedan för att starta mottagningen."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">Installera appen på en smartphone</string>
+    <string name="IAWM_Need_Sign_in_Description">Logga in på ditt konto för att använda din hörselprofil som du håller på att skapa eller redan har skapat.</string>
+    <string name="IAWM_Need_Sign_in_Title">Inloggning krävs</string>
+    <string name="IAWM_Recieve_Data_Title">Tar emot din hörselprofil från servern...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">Ta ett foto av dina öron genom att använda appen 360 Spatial Sound Personalizer och skapa din hörselprofil.</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">Din hörselprofil har redan skapats.</string>
+    <string name="IAWM_SetupSummary_Description">Skicka därefter din hörselprofil till musiktjänstapparna för 360 Reality Audio för att återskapa ett exakt ljudfält.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">Återgår till din Walkman och skickar din hörselprofil och optimerar sedan musiktjänstappar för 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">Skickar din hörselprofil och optimerar musiktjänstapparna för 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Title">Din hörselprofil har skapats</string>
+    <string name="IAWM_Start_Recieving_Title">Starta om mottagandet av din hörselprofil.</string>
+    <string name="InformationNotification_List_Info_Empty_Title">Det finns för närvarande ingen information och inga undersökningar.</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">Information och undersökningar visas här.</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">Användningstips visas här.</string>
+    <string name="InformationNotification_List_Tips_Section">Tips</string>
+    <string name="InformationNotification_List_Title">Information</string>
+    <string name="InformationNotification_New_Talkback_1">Det finns ny information.</string>
+    <string name="InformationNotification_New_Talkback_2">Det finns en ny post.</string>
+    <string name="InformationNotification_New_Talkback_3">Detta är en ny post.</string>
+    <string name="InformationToUsersLangCode">sv</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">Appen detekterar dina aktiviteter och platser du ofta besöker, och justerar automatiskt inställningarna för hörlurarna som t.ex. hur ljudet i omgivningen ska tas in.</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">Appen identifierar dina handlingar och justerar automatiskt hur ljudet i omgivningen ska tas in.</string>
+    <string name="InitialSetup_IASetup_Detail">Detta för att optimera 360 Reality Audio-ljudupplevelsen för att du ska kunna njuta av en omslutande ljudupplevelse lika verklig som ett liveframträdande.</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">Starta inställningen och använd hörlurarnas funktioner fullt ut.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">Gå till instrumentpanelen</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">Inställningen är slutförd.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">Inställningen kan när som helst ändras på instrumentpanelen.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">Detta är sista steget av inställningen.</string>
+    <string name="InitialSetup_OverallSetup_Title">Inställning</string>
+    <string name="InstructionGuide_CoachMark">För att använda hörlurarna på ett bekvämt sätt se [%s handledning].</string>
+    <string name="InstructionGuide_Menu_Title">%s handledning</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">När du trycker på knappen [OK] startar överföringen.</string>
+    <string name="LanguageData_Info_Message_1">"Stäng inte av strömbrytaren.
+Placera inte hörlurarna och den mobila enheten på långt avstånd från varandra."</string>
+    <string name="LanguageData_Info_Message_2">"Startar om automatiskt.
+Placera inte hörlurarna och den mobila enheten på långt avstånd från varandra."</string>
+    <string name="LanguageData_Restriction">"Hörlurar går ej att anv. under överf. Kan ta cirka %d min.
+Börja med att placera hörl. och mob. i närheten av varandra."</string>
+    <string name="Left_Headphones">Vänster enhet</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"Kan inte växla vid anslutning till andra hörlurar.
+Koppla från anslutna hörlurar."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">Registrering av platser är inte genomförd. Stäng?</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"Åtkomst till Plats måste alltid tillåtas för att identifiera platser du ofta besöker även i bakgrunden.
+
+Tryck på knappen [Inställningar] och välj [Tillåt alltid] från [Behörigheter] > [Plats]. Om du går med på det vid alla tillfällen kommer platsdata att inhämtas även när appen är stängd eller inte används."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">Åtkomst till Plats från inställningarna för den mobila enheten måste alltid tillåtas för att identifiera platser du ofta besöker.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">Åtkomst till Plats från inställningarna för den mobila enheten måste alltid tillåtas för att identifiera platser du ofta besöker även i bakgrunden.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">Åtkomst till Plats måste alltid tillåtas för att identifiera platser du ofta besöker även i bakgrunden. Om du går med på det vid alla tillfällen kommer platsdata att inhämtas även när appen är stängd eller inte används. Bekräfta innehållet på nästa sida.</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">Avbryt registrering av denna plats?</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">Plats måste aktiveras från inställningarna för den mobila enheten för att identifiera platser du ofta besöker.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"Plats används för att identifiera platser du ofta besöker.
+Aktivera Plats."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"Platstjänster måste aktiveras för att identifiera platser du ofta besöker.
+
+Utför inställningar under ”Inställningar” > [Integritetsskydd] > [Platstjänster] för den mobila enheten."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">Det finns inga inlärda platser som kan registreras.</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">Åtkomst till Plats från inställningarna för den mobila enheten krävs för att identifiera platser du ofta besöker.</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"Åtkomst till Plats krävs för att identifiera platser du ofta besöker.
+Tillåt åtkomst till Plats. Om du går med på det vid alla tillfällen kommer platsdata att inhämtas även när appen är stängd eller inte används."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"Åtkomst till Plats krävs för att identifiera platser du ofta besöker.
+Välj [När appen används]."</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"Åtkomst till Plats måste alltid tillåtas för att identifiera platser du ofta besöker även i bakgrunden.
+
+Tryck på knappen [Inställningar] och tillåt alltid åtkomst från [Plats]."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"Exakt platsinformation måste aktiveras för att identifiera platser du ofta besöker.
+
+Tryck på knappen [Inställningar] och aktivera Exakt platsinformation från [Plats]."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"För att registrera platser måste hörlurar med stöd för anpassningsbar ljudkontroll anslutas.
+När hörlurarna har anslutits väljer du [%s] i menyn längst upp till höger på instrumentpanelen och återupptar registreringsförfarandet."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"För att redigera måste ljudkvalitetsläget ändras till [Prioritet för stabil uppkoppling].
+Dessutom ansluts hörlurarna igen och den musik som spelas upp stoppas. Ändra?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"Det går inte att registrera flera platser.
+Avbryt registreringar av onödiga platser."</string>
+    <string name="Msg_ASC_Registration_Comp">%s registrerad.</string>
+    <string name="Msg_Abort_FWUpdate">"Avbryt uppdatering av programvara?
+Om den avbryts kan du återuppta uppdateringen från den plats där den stoppades."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">bevilja åtkomst via den mobila enhetens ”Inställningar” > [Headphones] > [Plats].</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"Om Plats används kommer exaktheten för åtgärdsidentifiering av anpassningsbar ljudkontroll att förbättras. Det går också, beroende på platsen, att justera inställningarna för hörlurarna automatiskt. För att använda dessa funktioner i bakgrunden måste Plats alltid vara tillåten.
+
+Tryck på knappen [Inställningar] och tillåt alltid åtkomst från [Plats]."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"Genom att använda plats förstärks precisionen för anpassningsbar ljudkontroll.
+Tryck på knappen [Inställningar] och tillåt åtkomst från [Plats]."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">För att förstärka precisionen för Anpassningsbar ljudkontroll bör du använda GPS. Aktivera GPS från inställningarna för din mobila enhet.</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">För att göra Anpassningsbar ljudkontroll mer exakta rekommenderas det att åtkomst till platsinformationen beviljas.</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">Redigering är inte slutförd. Avsluta?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"Om Plats används kommer exaktheten för åtgärdsidentifiering av anpassningsbar ljudkontroll att förbättras. Det går också, beroende på platsen, att justera inställningarna för hörlurarna automatiskt.
+Tillåt åtkomst till Plats."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"Om Plats används kommer exaktheten för anpassningsbar ljudkontroll att förbättras.
+Tillåt åtkomst till Plats."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"Om Plats används kommer exaktheten för anpassningsbar ljudkontroll att förbättras.
+Tillåt åtkomst till Plats."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"Om Plats används kommer exaktheten för åtgärdsidentifiering av anpassningsbar ljudkontroll att förbättras. Det går också, beroende på platsen, att justera inställningarna för hörlurarna automatiskt.
+Välj [När appen används]."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"Om Plats används kommer exaktheten för åtgärdsidentifiering av anpassningsbar ljudkontroll att förbättras. Det går också, beroende på platsen, att justera inställningarna för hörlurarna automatiskt.
+Aktivera Platsinställningar."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"Om Plats används kommer exaktheten för anpassningsbar ljudkontroll att förbättras.
+Aktivera Plats."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"Genom att slå på platstjänster kommer exaktheten för åtgärdsidentifiering av anpassningsbar ljudkontroll att förbättras. Det går också, beroende på platsen, att justera inställningarna för hörlurarna automatiskt.
+Utför inställningar under ”Inställningar” > [Integritetsskydd] > [Platstjänster] för den mobila enheten."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"Genom att slå på platstjänster förstärks precisionen för anpassningsbar ljudkontroll.
+Utför inställningar under ”Inställningar” > [Integritetsskydd] > [Platstjänster] för den mobila enheten."</string>
+    <string name="Msg_Agree_EULAPP">Jag har läst innehållet ovan och godkänner.</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">Åtkomst till meddelanden måste ges för att denna funktion ska kunna användas. Välj [%1$s] och aktivera inställningen %2$s.</string>
+    <string name="Msg_Check_EULA">Bekräfta %s. </string>
+    <string name="Msg_Check_EULAPP">Bekräfta %1$s och %2$s. </string>
+    <string name="Msg_CompleteUpdate">Uppdatering av programvara genomförd.</string>
+    <string name="Msg_Complete_Language_Setting">Ändring av språk genomförd.</string>
+    <string name="Msg_ConfirmBattery_MDR">Batterinivån är inte tillräckligt hög. Ladda hörlurarna tillräckligt, anslut och försök igen.</string>
+    <string name="Msg_ConfirmBattery_Mobile">Batterinivån är inte tillräckligt hög. Ladda den mobila enheten och försök igen.</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">För att ändra inställningar måste du avbryta uppdatering av programvara. Uppdatering av programvara kan utföras igen även om den avbryts. Ändra?</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">Uppdatering av programvara måste avbrytas</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">Samtidig användning av equalizer och %s ökar hörlurarnas batterikonsumtion och kan förkorta kontinuerlig uppspelningstid. Ändra?</string>
+    <string name="Msg_Confirm_L_connection">"Hörlurarnas vänstra enhet är inte ansluten till den mobila enheten.
+Kontrollera att hörlurarnas vänstra enhet är påslagen och försök igen."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">Avbryt ändring av språk?</string>
+    <string name="Msg_Confirm_R_connection">"Hörlurarnas högra enhet är inte ansluten till den mobila enheten.
+Kontrollera att hörlurarnas högra enhet är påslagen och försök igen."</string>
+    <string name="Msg_Confirm_network_connection">Den mobila enheten är inte ansluten till nätverket. Anslut till nätverket och försök igen.</string>
+    <string name="Msg_ConnectDevice">Anslut till hörlurar via följande knapp.</string>
+    <string name="Msg_ConnectDevice_talkback">"Ansluten till %s.
+Instrumentpanelen visas."</string>
+    <string name="Msg_ConnectMode_Changing_Error">Funktionen misslyckades.</string>
+    <string name="Msg_ConnectNewDevice">Anslut till de nya hörlurarna</string>
+    <string name="Msg_ConnectionFailed">Anslutning misslyckades.</string>
+    <string name="Msg_ConnectionFailed_Internet">Kan inte visa innehåll. Kontrollera Internetanslutningen.</string>
+    <string name="Msg_ConnectionFailed_SRT">"Kan inte ansluta till %s.
+Kontrollera så att enhetens ström är på."</string>
+    <string name="Msg_DataError">Nerladdning av programvara misslyckades.</string>
+    <string name="Msg_Disabled_Language_Setting">"Det går inte att ändra språk vid överföring av programvara för hörlurarna.
+Försök igen när överföringen av programvara är slutförd."</string>
+    <string name="Msg_DownloadFailed">Nerladdning av programvara misslyckades.</string>
+    <string name="Msg_EmptyDevice">Tryck på [+]-knappen och registrera enheten.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"För att uppdatera programvaran för dessa hörlurar krävs den senaste versionen av Headphones Connect.
+Uppdatera denna app i Google Play."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"För att uppdatera programvaran för dessa hörlurar krävs den senaste versionen av Headphones Connect.
+Uppdatera denna app i App Store."</string>
+    <string name="Msg_FWVer_unmatched">Uppdatering av programvara misslyckades.</string>
+    <string name="Msg_Failed_Language_Setting">Kunde inte ändra språk.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">Kan inte uppdatera programvaran för dina hörlurar i din iOS-version.</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"Tillåt åtkomst från den mobila enhetens inställningar enligt följande:
+[Inställningar] -> [Hörlurar] -> [Kamera]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">Tryck på knappen [Inställningar] och tillåt åtkomst från [Behörigheter] > [Kamera].</string>
+    <string name="Msg_IASetupAllowCamera">Tillåt åtkomst för att ta ett foto.</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">Tillåt åtkomst från den mobila enhetens inställningar</string>
+    <string name="Msg_IASetup_AppInstallConf">Återgå till Headphones Connect när ”%s” installerats och slutför inställningar för 360 Reality Audio.</string>
+    <string name="Msg_IASetup_AppOptimizing">Förbereder för optimering. Vänta...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"Bilder som tagits av ditt öra genom att använda följande förfarande skickas till Sonys server för analys, för att tillhandahålla optimerat ljudfält för dig baserat på formen på ditt öra.
+När denna analys genomförts kommer bilderna att behållas på våra servrar utan att de är kopplade till dig personligen.
+Sådana bilder kommer endast att användas i forskningssyfte för att förbättra öronanalysfunktionen och kommer att kasseras efter 30 dagar."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- Vi använder bilder av dina öron för att optimera ljudfältet för dig, baserat på formen på ditt öra. Vi gör detta för att UPPFYLLA VÅRT LEGITIMA INTRESSE ATT SKAPA ETT OPTIMERAT LJUDFÄLT FÖR DIG. Vi kasserar omedelbart bilderna när analysen är slutförd.
+- Sony Home Entertainment &amp; Sound Products Inc. är ansvarigt för detta förfarande. Vi använder en server i USA, som hanteras av en tredje part. Vi använder kontraktsklausuler av standardformat som godkänts av EU-kommissionen för att skydda din personliga information i USA.
+- Du kan kontakta oss på privacyoffice.seu@sony.com eller genom att skriva till vår representant, Sony Europe BV, ett holländskt företag, vars företagsadress är Taurusavenue 16, 2132LS Hoofddorp, Nederländerna (om du befinner dig i EU), eller Sony Europe BV, ett holländskt företag, vars adress i Storbritannien är The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, Storbritannien (om du befinner dig i Storbritannien). Du kan också kontakta oss på Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokyo, 141-8610, Japan. 
+- Du har rätt att komma åt, korrigera och radera personlig information så länge vi hanterar den. Du har också rätt att klaga inför en dataskyddsmyndighet i det land eller den region där du bor, arbetar eller där klagomålet uppstår."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"App Store öppnas om ”%s” inte har installerats eller om uppdatering krävs.
+
+Om ”%s” startas, har 360 Reality Audio-inställningar slutförts."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"Dina hörlurar är inte anslutna via medialjudet (A2DP) med denna mobila enhet.
+
+Koppla från medialjudet mellan dina hörlurar och andra enheter och anslut sedan med denna mobila enhet."</string>
+    <string name="Msg_IASetup_ConnectCable">"Dina hörlurar är inte anslutna med en mobil enhet.
+
+Anslut hörlurarna med denna mobila enhet."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"Identifierar ditt öra och tagning utförs automatiskt.
+Om automatisk tagning misslyckas flera gånger går det också att använda manuell tagning."</string>
+    <string name="Msg_IASetup_General_Err">Bearbetningen avbryts.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"Fotona av dina öron/ditt huvud och eventuell annan information som kan identifiera dig kommer inte att skickas till musikappar för 360 Reality Audio.
+
+Endast den analyserade datan kommer att skickas till musikapparna för att lyssna på optimerad musik."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">Återgå till Headphones Connect och optimera ”%s”, när ”%s” uppdaterats, för att slutföra inställningar för 360 Reality Audio.</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"På nästa skärm ges röstvägledning. Höj volymen på din mobila enhet så att du hör vägledningen.
+
+*Koppla inte från hörlurarna."</string>
+    <string name="Msg_IASetup_OpenAppInfo">Vill du öppna ”%s” i Google Play?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">Vill du öppna ”%s” i App Store?</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"Det ljud du hör vid liveframträdandet kan bero på formen på ditt huvud och dina öron.
+
+Vi analyserar fotona av dina öron för att beräkna data och producera ett optimalt ljudfält specialanpassat efter dig.
+
+När du skickar dessa optimerade resultat till musiktjänstappar för 360 Reality Audio, kan du njuta av en omslutande musikupplevelse i dina hörlurar."</string>
+    <string name="Msg_IASetup_StopConfirm">Inställningen av 360 Reality Audio har inte slutförts. Du kan slutföra denna inställning senare.</string>
+    <string name="Msg_IASetup_StopConfirm_Title">Vill du hoppa över inställningen av 360 Reality Audio?</string>
+    <string name="Msg_IASetup_UnsupportedArea">Denna funktion är inte tillgänglig i ditt land/region.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"Inställningen för 360 Reality Audio har aktiverats.
+Stäng av denna inställning när du spelar omgivande 360 Reality Audio på musiktjänstappar."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"Noteringsljud och röstguidning spelas från hörlurarna beroende på funktion och status.
+Vissa viktiga noteringar och guidning kommer inte att avaktiveras även om inställningen är inställd på av."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"Noteringsljud och röstguidning spelas från hörlurarna beroende på funktion och status.
+Vissa viktiga noteringar och guidning kommer inte att avaktiveras även om inställningen är av.
+Vid växling som orsakas av anpassningsbar ljudkontroll kan du dessutom tillämpa ändringar från inställningarna av anpassningsbar ljudkontroll, om du endast vill avaktivera noteringsljudet."</string>
+    <string name="Msg_Information_NetworkError">Kan inte ansluta till nätverk.</string>
+    <string name="Msg_Information_OtherError">Kunde inte hämta information.</string>
+    <string name="Msg_InstallFailed">Uppdatering av programvara misslyckades.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">Avbryter anslutning till den nya enheten.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">För att ansluta till vald enhet kan du försöka igen efter att du kopplat från en av de anslutna enheterna.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">För att ansluta en ny enhet kan du försöka igen efter att du kopplat från en av de anslutna enheterna.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">Frånkoppling av ansluten enhet krävs</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">Koppla från %s?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"Koppla från %s?
+Vid frånkoppling kommer anslutning med denna app att kopplas från."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">Återanslutning krävs</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">Den musik som nu spelas kommer att stoppas eftersom det är nödvändigt att återansluta hörlurarna. Återanslut till hörlurarna?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">Den musik som nu spelas kommer att stoppas eftersom det är nödvändigt att återansluta hörlurarna. Det går inte att använda LDAC när denna inställning är aktiverad. Återanslut till hörlurarna?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"Avbryt registrering av %1$s?
+För att ansluta till %1$s igen efter att registreringen avbrutits, avbryter du registreringen av %2$s från %1$s, och utför enhetsregistrering igen."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">För att uppdatera programvaran måste %s som är ansluten till hörlurarna kopplas från. Koppla från och starta uppdatering?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">Krävs för frånkoppling av ansluten %s</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">För att ändra språk måste %s som är ansluten till hörlurarna kopplas från. Koppla från och ändra språk?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">Anslutning med %s misslyckades.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">Frånkoppling med %s misslyckades.</string>
+    <string name="Msg_MultiPoint_FailedToPair">Anslutning till en ny enhet misslyckades.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">Avbruten registrering av %s misslyckades.</string>
+    <string name="Msg_MultiPoint_Info_Detail">Genom att aktivera denna inställning kan hörlurarna anslutas till två enheter samtidigt. Det går att kontrollera anslutna enheter via [%s]. Det går inte att använda LDAC när denna inställning är aktiverad.</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">För att ansluta nya enheter måste du avbryta uppdatering av programvara. Uppdatering av programvara kan återupptas även om den avbryts. Anslut?</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">Krävs för att avbryta uppdatering av programvara</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">För att ansluta med %s måste du avbryta uppdatering av programvara. Uppdatering av programvara kan återupptas även om den avbryts. Anslut?</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">Anslutning till %s upprättad.</string>
+    <string name="Msg_NeedConnectDevice">Hörlurs- och Bluetooth-anslutning krävs.</string>
+    <string name="Msg_OoBE_LocationPermission_After">Tillåt åtkomst till platsinformation från inställningarna på din mobila enhet för att enkelt registrera hörlurarna.</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"Du kan enkelt registrera hörlurar i närheten genom att använda Plats.
+Tillåt åtkomst till Plats."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"Du kan enkelt registrera hörlurar i närheten genom att använda Plats.
+Tillåt åtkomst till Plats."</string>
+    <string name="Msg_OoBE_LocationSetting_After">Aktivera platsinformation från inställningarna på din mobila enhet för att enkelt registrera hörlurarna.</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"Du kan enkelt registrera hörlurar i närheten genom att använda Plats.
+Aktivera Plats."</string>
+    <string name="Msg_PairingOS_BT_Settings">Välj hörlurar på skärmen för Bluetooth-inställningar och anslut.</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">Tryck på [Tillbaka]-knappen när ihopparning genomförts.</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">Välj %s på skärmen för Bluetooth-inställning och anslut.</string>
+    <string name="Msg_Permission_BLE">Vi använder detta för att identifiera våra hörlurar med BLE.</string>
+    <string name="Msg_Permission_Location">Platsinformationen används när appen detekterar dina aktiviteter och byter hörlurarnas inställningar automatiskt.</string>
+    <string name="Msg_Permission_Location02">Genom att använda plats förstärks precisionen för anpassningsbar ljudkontroll.</string>
+    <string name="Msg_PowerOff">Stäng av strömbrytaren till hörlurarna?</string>
+    <string name="Msg_RecommendUpdate">Programvaruuppdatering rekommenderas för att använda enheten på ett smidigare sätt.</string>
+    <string name="Msg_Reconnect_BT_Connection">Byt destination för överföring av programvara...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">Nya hörlurar</string>
+    <string name="Msg_SelectMDR_Header">Välj hörlurar</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"Välj hörlurarna under [Bluetooth] för den mobila enhetens ”Inställningar” och anslut.
+Starta Headphones Connect igen när anslutningen är slutförd."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"Kontrollera att strömmen till hörlurarna är påslagen och välj %s för [Bluetooth] under ”Inställningar” på den mobila enheten och anslut.
+Starta om Headphones Connect, när anslutningen är upprättad."</string>
+    <string name="Msg_SendFailed">Överföring av programvara misslyckades.</string>
+    <string name="Msg_SendFailed_WF_Special">"Överföring av programvara stoppades vid %d %%.
+Försök igen efter att du placerat och tagit bort hörlurarna från laddningsväskan."</string>
+    <string name="Msg_Setting_Data_Err">Nerladdning av röstdata misslyckades.</string>
+    <string name="Msg_Setting_Downloading_Failed">Nerladdning av röstdata misslyckades.</string>
+    <string name="Msg_Setting_Sending_Failed">Överföring av röstdata misslyckades.</string>
+    <string name="Msg_Title_FWAbort">Överföring av programvara avbröts. Kontrollera följande.</string>
+    <string name="Msg_TrainingModeSaveCheck">Redigering är inte slutförd. Avsluta?</string>
+    <string name="Msg_Update_NeedReboot">"Kontrollera att uppdateringen slutförts.
+
+1. Försök att ansluta igen efter att du placerat och tagit bort hörlurarna från laddningsväskan.
+2. Välj [%1$s Version] i menyn längst upp till höger i denna app. Om ”%2$s” visas har uppdateringen slutförts.
+
+Försök igen om uppdateringen inte har slutförts."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"Kontrollera att uppdateringen slutförts.
+
+Stäng av strömmen till hörlurarna, slå sedan på den igen och upprätta därefter anslutningen. Välj [%1$s Version] i menyn längst upp till höger i denna app. Om ”%2$s” visas har uppdateringen slutförts.
+
+Försök igen om uppdateringen inte har slutförts."</string>
+    <string name="Msg_VoiceData_NeedReboot">"Kontrollera att ändring av språk har genomförts.
+
+1. Förvara både vänster och höger hörlurar i laddningsfodralet, ta ur dem och anslut dem sedan igen.
+2. Om det språk du ändrar till visas på [%s], är processen genomförd.
+
+Om språket inte är ändrat, kan du försöka igen."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"Kontrollera att ändring av språk har genomförts.
+
+Stäng av strömmen till hörlurarna, slå sedan på den igen och upprätta därefter anslutningen. Om det språk du ändrar till visas på [%s], är processen genomförd.
+
+Om språket inte är ändrat, kan du försöka igen."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">Kan inte ändra röstvägledningsspråket i din iOS-version.</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">Välj en hörlur från nästa skärm. Det kan ta en minut att visa hörlurarna.</string>
+    <string name="MultiPoint_AddNewDevice_Description">Öppna Bluetooth-inställningar med den enhet du vill ansluta och välj %s.</string>
+    <string name="MultiPoint_DeviceNotConnect">Ej ansluten.</string>
+    <string name="MultiPoint_DeviceStatus_Title">Enhet som är ansluten</string>
+    <string name="MultiPoint_Device_Add">Anslut till ny enhet</string>
+    <string name="MultiPoint_Header_History">Ihopparad</string>
+    <string name="MultiPoint_Header_Pairing">Ansluter...</string>
+    <string name="MultiPoint_Menu_Delete">Avbryt registrering</string>
+    <string name="MultiPoint_Menu_Disconnect">Koppla från</string>
+    <string name="MultiPoint_Setting_Description">"Dessa hörlurar går att ansluta samtidigt till %d enheter.
+För att växla mellan enheter att spela upp musik på, stoppar du musiken en gång och utför uppspelningsåtgärder på en av de andra anslutna enheterna."</string>
+    <string name="MultiPoint_Setting_Title">Hantera ansluten enhet</string>
+    <string name="MultiPoint_Status_Connecting">Ansluter...</string>
+    <string name="MultiPoint_Status_Disconnecting">Kopplar från...</string>
+    <string name="MultiPoint_Talkback_Add_Device">Ansluter till en ny enhet.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">Enhet 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">Enhet 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">Ingen enhet är ansluten.</string>
+    <string name="MultiPoint_Talkback_Playing_Right">Ljud spelas upp.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">Ansluten.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">Ansluter...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">Kopplar från...</string>
+    <string name="MultiPoint_Title">Anslut till 2 enheter samtidigt</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">Tryck på valfri knapp på hörlurarna för att avbryta optimeringen halvvägs.</string>
+    <string name="NC_Title">Brusreducering</string>
+    <string name="NSBluetoothAlwaysUsageDescription">Vi använder detta för att identifiera våra hörlurar med Bluetooth.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">Vi använder detta för att identifiera våra hörlurar med Bluetooth.</string>
+    <string name="NSCameraUsageDescription">Låt din smartphone ta ett foto av dina öron. Vi analyserar fotona av dina öron för att beräkna data och producera ett optimalt ljudfält specialanpassat efter dig.</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Välj [Tillåt alltid] för att automatiskt justera inställningar baserat på anpassningsbar ljudkontroll.</string>
+    <string name="NSLocationAlwaysUsageDescription">Välj [Tillåt alltid] för att automatiskt justera inställningar baserat på anpassningsbar ljudkontroll.</string>
+    <string name="NSLocationWhenInUseUsageDescription">Tillåt åtkomst för att automatiskt justera inställningar baserat på anpassningsbar ljudkontroll.</string>
+    <string name="NSUserTrackingUsageDescription">Vi använder de här uppgifterna för att tillhandahålla supportinformation och annonser som matchar din enhetsanvändning och dina intressen.</string>
+    <string name="Notification_Headphones_Connected">Ansluter till %s...</string>
+    <string name="Notification_Headphones_Connected_Unknown">Ansluter till hörlurarna...</string>
+    <string name="Notification_IASetup_NeedToComplete">Återgå till Headphones Connect och slutför inställningar för 360 Reality Audio.</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">Inst. för 360 Reality Audio ej slutförd</string>
+    <string name="Notification_Summary_Abort">Överf. av programvara avbröts.</string>
+    <string name="Notification_Summary_Downloading">Hämtar...</string>
+    <string name="Notification_Summary_FWVer_unmatched">Uppdatering misslyckades.</string>
+    <string name="Notification_Summary_Prepared">Redo för uppdatering.</string>
+    <string name="Notification_Summary_Sending">Överför...</string>
+    <string name="Notification_Summary_Update_NeedReboot">Kontrollera att uppdateringen slutförts.</string>
+    <string name="Notification_Summary_failed">Uppdatering misslyckades.</string>
+    <string name="Notification_Summary_updated">Uppdateringen genomförd.</string>
+    <string name="Notification_Summary_updating">Uppdaterar...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">Ändrar...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">Ändring genomförd.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">Ändring misslyckades.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">Kontrollera så att ändringen har tillämpats.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">Ändra språk för röstguidning</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">Ändra språk för röstguidning</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">Ändring av språk för röstguidning genomförd.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">Ändring av språk för röstguidning misslyckades.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">Kontrollera så att röstvägledningsspråket har ändrats.</string>
+    <string name="OPT_Baro_Title">Atmosfärtrycksoptimering</string>
+    <string name="OPT_Message_Analyzing">Brusreduceringen är optimalt skräddarsydd efter din smak.</string>
+    <string name="OPT_Message_Baro">Gör om processen om atmosfärtrycket förändras.</string>
+    <string name="OPT_Message_Comp">Brusreduceringen är optimalt skräddarsydd efter din smak.</string>
+    <string name="OPT_Message_Personal">Använd som alltid. Gör om process om du ändrar sättet du har hörlurarna p.g.a. ändrad frisyr el. dyl.</string>
+    <string name="OPT_Personal_Done_Long">Optimerat</string>
+    <string name="OPT_Personal_Done_Short">Slutför</string>
+    <string name="OPT_Personal_Initial_Long">Inte optimerat</string>
+    <string name="OPT_Personal_Initial_Short">Före optim.</string>
+    <string name="OPT_Personal_Title">Personlig optimering</string>
+    <string name="OPT_Start">Starta</string>
+    <string name="OPT_Status_Analyzing">Analyserar...</string>
+    <string name="OPT_Status_Baro">Mäter atmosfärtrycket...</string>
+    <string name="OPT_Status_Comp">Slutför</string>
+    <string name="OPT_Status_Personal">Mäter dina användningsförhållanden...</string>
+    <string name="OPT_Title">Brusreduceringsoptimering</string>
+    <string name="OPT_Title_iOS">Brusreduceringsoptimering</string>
+    <string name="OPT_atm_Long">Optimerad till %.1f atm</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">Börja med hörlurarna som du brukar ha dem på huvudet. Gör om processen om atm.trycket ändras för att du är i ett flygplan el. dyl.</string>
+    <string name="OPT_detail_Personal_Baro">Börja med hörlurarna som du brukar ha dem på huvudet. Gör om processen om användn.förhåll. och atmosfärtryck förändras.</string>
+    <string name="OoBE_COMP_Message">Anslutning till hörlurarna upprättad.</string>
+    <string name="OoBE_COMP_Title">Lägg till hörlurar</string>
+    <string name="OoBE_Manual_Button_Label">Registrera genom Bluetooth-inställningar</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Bluetooth är AV.
+Slå PÅ Bluetooth via kontrollcenter."</string>
+    <string name="OoBE_Manual_Pair_Message">"Håll strömbrytaren på hörlurarna intryckt i ungefär 7 sekunder. När hörlurarnas LED-lampa blinkar alternativt blå och röd, eller blinkar snabbt blå, trycker du på [Nästa].
+Ställ in hörlurarna till registreringsläge (ihopparning) för Bluetooth-enhet om det saknas strömbrytare. Se bruksanvisningen för mer information."</string>
+    <string name="OoBE_Manual_Pair_Title">Lägg till hörlurar</string>
+    <string name="OoBE_Message1">Ansluter hörlurarna via Bluetooth.</string>
+    <string name="OoBE_Message2">Välj en anslutningsmetod.</string>
+    <string name="OoBE_NFC_Button_Label">Registrera med One touch-anslutn. (NFC)</string>
+    <string name="OoBE_NFC_Message">Placera hörlurarnas N-märke över N-märket på den mobila enheten och anslut via touch-funktionen.</string>
+    <string name="OoBE_NFC_Title">Lägg till hörlurar</string>
+    <string name="OoBE_NonBT_Button_Label">Registrera trådbundna hörlurar från listan</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">Registrera dina hörlurar för att använda 360 Reality Audio optimerat efter din smak.</string>
+    <string name="OoBE_Power_On_Message">"Starta hörlurarna. Kontrollera att strömmen är på och tryck på knappen [Nästa].
+Se hörlurarnas bruksanvisning för att se hur de startas."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">Tryck bara på knappen [%s] för att fortsätta.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">Om dina hörlurar är trådbundna</string>
+    <string name="OoBE_Proximity_Message">Placera den mobila enheten och %s i närheten av varandra för att verifiera hörlurarna.</string>
+    <string name="OoBE_SelectAcc_Message">Välj en hörlur. Det kan ta en minut att visa.</string>
+    <string name="OoBE_SelectAcc_Title">Lägg till hörlurar</string>
+    <string name="OoBE_Title">Lägg till hörlurar</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_sv.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_sv.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_sv.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_sv.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">[%s] är automatiskt deaktiverat när ljuduppspelningen har stoppats en viss tid så att dina hörlurars standbytid förlängs.</string>
+    <string name="PS_Title">Standby (strömspar)</string>
+    <string name="PlaybackController_Title">Spelar nu</string>
+    <string name="PlaybackController_Unknown_Album">Album okänt</string>
+    <string name="PlaybackController_Unknown_Artist">Artist okänd</string>
+    <string name="PlaybackController_Unknown_TrackName">Låt okänd</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">Du kan visa undersökningen igen från [%s] i menyn högst upp till höger på skärmen.</string>
+    <string name="Questionnaire_MenuItem">Undersökning</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">Det finns för närvarande ingen undersökning. Vänta tills nästa undersökning visas.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%3$s %2$s %1$s - %6$s %5$s %4$s</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">Svarsperiod:</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">jan.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">feb.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">mar.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">apr.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">maj</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">jun.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">jul.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">aug.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">sep.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">okt.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">nov.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">dec.</string>
+    <string name="Questionnaire_Notification_Button_Answer">Svara</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">Fortsätt</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">Svara inte</string>
+    <string name="Questionnaire_Notification_Note">Starta webbläsaren och visa undersökningssidan.</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d frågor</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d - %2$d frågor</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">Antal frågor:</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">Cirka %d minuter</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">Tid som krävs:</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- Eftersom rösten matas ut från hörlurarna kan analys utföras med din familj och din vänner om det är svårt att manövrera.</string>
+    <string name="Right_Headphones">Höger enhet</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_sv.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">Kontoverifiering misslyckades.</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">Registreringen avbröts.</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"Servern är för tillfället inte tillgänglig.
+Försök igen senare."</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"Kan inte registrera fler enheter.
+Ta bort onödiga enhetsregistreringar."</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">Kunde inte logga in.</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">Kunde inte logga ut.</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">Aktivera platsinformation från inställningarna för din mobila enhet för att enkelt registrera enheter i närheten.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">Kan inte ansluta till nätverk.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">Fungerade inte.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">Felaktig registreringsnummer angavs.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">Den inmatade strängen är för lång.</string>
+    <string name="STRING_CAUTION_CONNECT">Det går inte att ansluta till %s.</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"Det går inte att ansluta till %s.
+Anslut till samma nätverk som enheten och slå på enheten."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"Kan inte ansluta till %s.
+Kontrollera så att enhetens ström är på."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"Kan inte ansluta till %s.
+Kontrollera så att enhetens Bluetooth-funktion är PÅ."</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"Det går inte att ansluta till %s.
+Anslut till samma nätverk som enheten."</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"Det går inte att ansluta till %s.
+Försök igen senare."</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"Det går inte att ansluta till %s.
+Kontrollera nätverksstatus och försök igen."</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"Det går inte att ansluta till %s.
+Vill du slå på enheten?"</string>
+    <string name="STRING_CAUTION_DISCONNECT">Frånkopplad från %s.</string>
+    <string name="STRING_CAUTION_EULA">Du måste godkänna %s för att kunna använda denna applikation.</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">Kunde inte kontrollera versionen.</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">Kunde inte läsa %s.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">Kan inte hitta specificerat program.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">Enhet hittades inte.</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">Tillåt åtkomst till platsinformation från inställningarna för din mobila enhet för att enkelt registrera enheter i närheten.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">Kunde inte registrera.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"Kunde inte registrera.
+Försök igen senare."</string>
+    <string name="STRING_CAUTION_SERVER_STRING">Anslutningen misslyckades.</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">Kunde inte slå PÅ Bluetooth.</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">Kunde inte aktivera Wi-Fi.</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">Ej ansluten till %s.</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"Ej ansluten till Wi-Fi-nätverk.
+Anslut till samma nätverk som enheten."</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"Ej ansluten till Wi-Fi-nätverk.
+Anslut till samma nätverk som enheten och slå på enheten."</string>
+    <string name="STRING_COMMON_DONE">Klar</string>
+    <string name="STRING_COMMON_NEXT">Nästa</string>
+    <string name="STRING_COMMON_OTHER">Övrigt</string>
+    <string name="STRING_DEVICE">Enhet</string>
+    <string name="STRING_DEVICES">Enheter</string>
+    <string name="STRING_IOS_LOCATION">Plats</string>
+    <string name="STRING_IOS_SETTINGS">Inställningar</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">Du måste tillåta åtkomst för att kunna använda denna applikation.</string>
+    <string name="STRING_MSG_CANCEL_DELETE">Avbryta raderingen?</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">Kunde inte hämta information.</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">Ansluter...</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">Läser in...</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">Inga ytterligare markeringar kan göras.</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">Vänta en stund.</string>
+    <string name="STRING_MSG_COMMUNICATING">Kommunicerar...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">Se till så att enhetens ström är på.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">Kontrollera så att enhetens ström är på och anslut enheten via Bluetooth.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">Anslut till samma nätverk som enheten.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">Du kommer inte att kunna utföra säkerhetskopiering och återställning. De blir tillgängliga om du loggar in igen.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">Logga ut och sluta använda?</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">Läs igenom %s för denna applikation.</string>
+    <string name="STRING_MSG_CONFIRM_PP">Läs igenom %s för denna applikation.</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">[TBD]För att använda säkerhetskopiering och återställning av inställningar, måste du godkänna följande användningsvillkor.</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">Raderad.</string>
+    <string name="STRING_MSG_DELETING">Radering pågår...</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">Ange registreringsnumret som visas på TV:n.</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">Registreringen av enhet är slutförd.</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">Kontrollerar versionen...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"Om platsinformation används kan du enkelt registrera enheter i närheten.
+Aktivera platsinformation."</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">Hämtar information...</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">Jag har läst innehållet ovan och godkänner.</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google och Android är varumärken som tillhör Google Inc.</string>
+    <string name="STRING_MSG_LOADING">Läser in...</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"Om platsinformation används kan du enkelt registrera enheter i närheten.
+Tillåt åtkomst till platsinformation."</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">För att använda denna funktion måste du godkänna användningsvillkoren.</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">Vill du slå på %s?</string>
+    <string name="STRING_MSG_REGIST_FINISH">Registrerad.</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">Tryck på [+]-knappen och registrera enheten.</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">Välj det land/område där du bor.</string>
+    <string name="STRING_MSG_SIGNOUT">Logga ut?</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"Bekräfta att Sony Home Entertainment &amp; Sound Products Inc. (”Sony”) (den personuppgiftsansvarige) som befinner sig i Japan kan använda uppgifter som rör din användning av applikationen (så som vidare anges i vår Sekretesspolicy %s) för ändamål som rör förbättring och utveckling av produkter (tekniska eller användningsrelaterade förbättringar genom nya eller ändrade funktioner) genom att väja [Godkänner] nedan. Om du inte vill ge ett sådant samtycke till Sony, kan du välja [Godkänner inte] nedan.
+Du kan när som helst dra tillbaka ditt medgivande ovan genom att välja ”(3 punkter) Meny” > ”Om denna app” > ”Sekretessinställningar” i Applikationen."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">Bekräfta att Sony Home Entertainment &amp; Sound Products Inc. (”Sony”) (den personuppgiftsansvarige) som befinner sig i Japan kan använda uppgifter som rör din användning av applikationen (så som vidare anges i vår Sekretesspolicy %s) för ändamål som rör förbättring och utveckling av produkter (tekniska eller användningsrelaterade förbättringar genom nya eller ändrade funktioner) genom att markera alternativet nedan. Om du inte vill ge ett sådant samtycke till Sony, kan du avmarkera alternativet nedan.</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"Bekräfta att Sony Home Entertainment &amp; Sound Products Inc. (”Sony”) (den personuppgiftsansvarige) som befinner sig i Japan kan använda uppgifter som rör din användning av applikationen (så som vidare anges i vår Sekretesspolicy %s) för ändamål som rör förbättring och utveckling av produkter (tekniska eller användningsrelaterade förbättringar genom nya eller ändrade funktioner) genom att väja [Godkänner och fortsätt] nedan. Om du inte vill ge ett sådant samtycke till Sony, kan du välja [Godkänner inte och fortsätt] nedan.
+Du kan när som helst dra tillbaka ditt medgivande ovan genom att välja ”(3 punkter) Meny” > ”Om denna app” > ”Sekretessinställningar” i Applikationen."</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">LJUD</string>
+    <string name="STRING_REMOTE_BTN_BACK">TILLBAKA</string>
+    <string name="STRING_REMOTE_BTN_BLUE">BLÅ</string>
+    <string name="STRING_REMOTE_BTN_CC">"UNDERTEXT/
+CC"</string>
+    <string name="STRING_REMOTE_BTN_CH">CH</string>
+    <string name="STRING_REMOTE_BTN_DELETE">RADERA</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">Digital</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"DIGITAL/
+ANALOG"</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">VISA</string>
+    <string name="STRING_REMOTE_BTN_ENTER">RETUR</string>
+    <string name="STRING_REMOTE_BTN_EXIT">AVSLUTA</string>
+    <string name="STRING_REMOTE_BTN_GREEN">GRÖN</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">GUIDE</string>
+    <string name="STRING_REMOTE_BTN_HELP">HJÄLP</string>
+    <string name="STRING_REMOTE_BTN_HOME">HEM</string>
+    <string name="STRING_REMOTE_BTN_INPUT">INGÅNG</string>
+    <string name="STRING_REMOTE_BTN_JUMP">HOPPA</string>
+    <string name="STRING_REMOTE_BTN_MENU">MENY</string>
+    <string name="STRING_REMOTE_BTN_MUTE">LJUD AV</string>
+    <string name="STRING_REMOTE_BTN_OK">OK</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">ALTERNTV</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">BILD AV</string>
+    <string name="STRING_REMOTE_BTN_POWER">STRÖM</string>
+    <string name="STRING_REMOTE_BTN_PROG">PROG</string>
+    <string name="STRING_REMOTE_BTN_RED">RÖD</string>
+    <string name="STRING_REMOTE_BTN_RETURN">RETURN</string>
+    <string name="STRING_REMOTE_BTN_TV">TV</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">"RÖST-
+SKRIVNING"</string>
+    <string name="STRING_REMOTE_BTN_VOL">VOL</string>
+    <string name="STRING_REMOTE_BTN_WIDE">BRED</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">GUL</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">Kan inte komma åt Bluetooth. Tillåt åtkomst till Bluetooth.</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Bluetooth är AV.
+Slå PÅ Bluetooth via kontrollcenter."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"Aktivera Bluetooth från kontrollcenter.
+Tillåt åtkomst till Bluetooth om Bluetooth aktiveras."</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">Slå PÅ Bluetooth...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">Slå PÅ Wi-Fi...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">Slå på Bluetooth?</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">Slå PÅ Wi-Fi?</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">Om denna app</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">Appinställningar</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Bluetooth-inställn.</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">Enhetsinställningar</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">Till inställningar</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">Skicka funktionshistorik</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"Enhet hittades inte.
+Se till så att enhetens ström är på."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"Fjärrstyrning av inspelaren.
+Spela in och kontrollera inspelningar på distans!"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Bluetooth är AV.
+Slå PÅ Bluetooth."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"Wi-Fi är AV.
+Anslut till samma nätverk som enheten."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"Enhet hittades inte.
+Anslut till samma nätverk som enheten och slå på enheten."</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">Välj en enhet att registrera.</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">Lägg till enhet</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">Registrerad.</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">Fjärrkontroll</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">Vald</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">Välj enhet</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">Hjälp</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">Ställ in Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">Ställ in Wi-Fi</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">Tryck för att registrera</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">Slå På Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">Aktivera Wi-Fi</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">Wi-Fi-inställningar</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">Fler alternativ</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">Dubbelklicka för att växla till denna enhet.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">Dubbelklicka för att växla till en annan enhet.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">Dubbelklicka för att utöka.</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%2$s av %1$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">Kontoinställningar</string>
+    <string name="STRING_TEXT_ADD_DEVICE">Registrera en annan enhet</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">Acceptera</string>
+    <string name="STRING_TEXT_COMMON_AGREE">Godkänner</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">Godkänner och fortsätt</string>
+    <string name="STRING_TEXT_COMMON_ALL">Alla</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">Tillåt</string>
+    <string name="STRING_TEXT_COMMON_BACK">Tillbaka</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">Avbryt</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">Registrering avbryts...</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">Avbryt registrering</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">Registrering avbruten.</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">Avbryt registrering av denna enhet?</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">Kunde inte avbryta registrering.</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">Fråga varje gång</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">Visa inte igen</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">Stäng</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">Dra ihop</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">OK</string>
+    <string name="STRING_TEXT_COMMON_DELETE">Radera</string>
+    <string name="STRING_TEXT_COMMON_DENY">Neka</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">Avmarkera alla</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">Detaljerade inställningar</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">Enhetsmeny</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">Godkänner inte</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">Godkänner inte och fortsätt</string>
+    <string name="STRING_TEXT_COMMON_DO">På</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">Använd inte</string>
+    <string name="STRING_TEXT_COMMON_DOWN">Ned</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">Avböj</string>
+    <string name="STRING_TEXT_COMMON_EXIT">Avsluta</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">Utöka</string>
+    <string name="STRING_TEXT_COMMON_FAQ">Felsökning</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">Feedback</string>
+    <string name="STRING_TEXT_COMMON_FINISH">Avsluta</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">Framåt</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">Hjälp och information</string>
+    <string name="STRING_TEXT_COMMON_HIDE">Göm</string>
+    <string name="STRING_TEXT_COMMON_INFO">Information</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">Information</string>
+    <string name="STRING_TEXT_COMMON_INPUT">Ingång</string>
+    <string name="STRING_TEXT_COMMON_LATER">Senare</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">Öppna</string>
+    <string name="STRING_TEXT_COMMON_LEFT">Vänster</string>
+    <string name="STRING_TEXT_COMMON_MORE">Se mer</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">Detaljerad information</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">Se mer information</string>
+    <string name="STRING_TEXT_COMMON_NEXT">Nästa</string>
+    <string name="STRING_TEXT_COMMON_NO">Nej</string>
+    <string name="STRING_TEXT_COMMON_NOTE">Observera</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">Av</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">Ej markerad</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">Inte inställt</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">Ange inte</string>
+    <string name="STRING_TEXT_COMMON_OFF">Av</string>
+    <string name="STRING_TEXT_COMMON_OK">OK</string>
+    <string name="STRING_TEXT_COMMON_ON">På</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">Öppna i webbläsare</string>
+    <string name="STRING_TEXT_COMMON_OPTION">Alternativ</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">Återgå till föregående sida</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">Fortsätt till nästa sida</string>
+    <string name="STRING_TEXT_COMMON_PREV">Föreg.</string>
+    <string name="STRING_TEXT_COMMON_RETRY">Försök igen</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">Höger</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">Kom ihåg detta val</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">Markera alla</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">Inställningar</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">Auto</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">Inställning slutförd</string>
+    <string name="STRING_TEXT_COMMON_SHOW">Visa</string>
+    <string name="STRING_TEXT_COMMON_SKIP">Hoppa</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">Stoppa avbrytning av registrering?</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">Officiell hemsida</string>
+    <string name="STRING_TEXT_COMMON_TAB">Flik</string>
+    <string name="STRING_TEXT_COMMON_TIPS">Smidig användning</string>
+    <string name="STRING_TEXT_COMMON_UP">Upp</string>
+    <string name="STRING_TEXT_COMMON_USE">Använd</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">Sluta ladda sida</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">Ladda om sida</string>
+    <string name="STRING_TEXT_COMMON_YES">Ja</string>
+    <string name="STRING_TEXT_DELETE_ALL">Radera alla</string>
+    <string name="STRING_TEXT_DELETE_FAILED">Det gick inte att ta bort.</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">Vill du ta bort den registrerade enheten?</string>
+    <string name="STRING_TEXT_DEVICE_INFO">Enhetsinformation</string>
+    <string name="STRING_TEXT_DO_UPDATE">Uppdatera</string>
+    <string name="STRING_TEXT_EDIT">Redigera</string>
+    <string name="STRING_TEXT_EULA">Licensavtal för slutanvändare</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">Licensinformation</string>
+    <string name="STRING_TEXT_MENU">Meny</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">Frånkopplad</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">Logga inte in</string>
+    <string name="STRING_TEXT_NO_DEVICE">Inga enheter hittades.</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">Om enheten inte kan hittas</string>
+    <string name="STRING_TEXT_OWN_DEVICE">Huvudenhet</string>
+    <string name="STRING_TEXT_POWER_OFF">Stäng av hörlur</string>
+    <string name="STRING_TEXT_PP_SETTINGS">Sekretessinställningar</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">Mer information om hur Sony använder sådana uppgifter finns här.</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">Sekretesspolicy</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">här</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">Ditt samtycke för ändamål som för förbättring/utveckling av av produkter/tjänster:</string>
+    <string name="STRING_TEXT_RECORDER_NAME">Inspelare</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">Enhet</string>
+    <string name="STRING_TEXT_REGISTERING">Registrerar...</string>
+    <string name="STRING_TEXT_RE_REGISTER">Omregistrera</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">Växla till annan enhet</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">Sammankopplade enheter</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">Registrering</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">Version</string>
+    <string name="STRING_TEXT_SIGNIN">Logga in</string>
+    <string name="STRING_TEXT_SIGNOUT">Logga ut</string>
+    <string name="STRING_TEXT_START">Starta</string>
+    <string name="STRING_TEXT_STARTING">Startar...</string>
+    <string name="STRING_TEXT_START_ASIS">Starta nu</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">Lista över kompatibla enheter</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">Anslut</string>
+    <string name="STRING_TEXT_TERM_OF_USE">Användningsvillkor</string>
+    <string name="STRING_TEXT_UPDATE">Uppdatera</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">När en anslutning inte kan upprättas</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">När du inte kan registrera</string>
+    <string name="STRING_THIS_PHONE">Denna mobil</string>
+    <string name="STRING_TITLE_COUNTRY">Land/område</string>
+    <string name="Setting_Android_Title">Inställningar</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"Kunde inte verifiera ditt konto.
+Logga in igen."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"Kunde inte synkronisera inställningar eftersom verifiering av kontot misslyckades.
+Logga in igen."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">Resultat av öronanalys</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">Registrerade platser och inställningsvärden</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">Inställningsvärden baserat på aktiviteter osv.</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">Säkerhetskopiera</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">Följande inställningar går att spara på servern genom att länka med ditt konto.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">Inställningar som går att säkerhetskopiera varierar efter modell.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">Säkerhetskopierade inställningar går att radera genom att manövrera appen. De raderas också automatiskt om Sony avslutar bestämmelserna för denna funktion baserat på Användningsvillkoren.</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">Inställningar för automatisk hämtning av programvara</string>
+    <string name="SettingsTakeOver_Appeal_Link">Här finns mer information</string>
+    <string name="SettingsTakeOver_Appeal_Title">Låt oss säkerhetskopiera dina inställningar.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">Säkerhetskopiering genomförd.</string>
+    <string name="SettingsTakeOver_Button_Backup">Säkerhetskopiera</string>
+    <string name="SettingsTakeOver_Button_Restore">Återställa</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">Använd inställningarna i appen</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">Använd inställn. på servern</string>
+    <string name="SettingsTakeOver_Confirm_Backup">Säkerhetskopiera inställningarna i denna app på servern?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">Återställ inställningarna som säkerhetskopierats på servern i denna app?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"Det finns inställningar som redan har säkerhetskopierats på servern.
+Välj en inställning bland följande för att aktivera automatisk synkronisering."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Skapa ett Sony-konto och fortsätt</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">Säkerhetskopierade inställningar raderade och utloggad.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">Loggar ut, avbryter länken med kontot och raderar säkerhetskopierad information helt från servern.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">Radera säkerhetskopierade inställningar?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">Aktivera automatisk synkronisering av inställningar.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"Säkerhetskopiering misslyckades.
+Vänta en stund och försök igen."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"Återställning misslyckades.
+Vänta en stund och försök igen."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"Återställning misslyckades.
+Kontrollera nätverksanslutningen och vänta en stund och försök sedan igen."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">Kontrollera användningsvillkoren</string>
+    <string name="SettingsTakeOver_List_Title">Säkerhetskopiering och återställning av inställningar</string>
+    <string name="SettingsTakeOver_PP_Description">Bekräfta att Sony kommer att kunna använda information som relaterar till användningen av kundtillämpningar av ovanstående anledningar genom att trycka på följande [Godkänner]-knapp. Om du inte godkänner dessa användningsvillkor trycker du på [Godkänner inte]-knappen.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">Återställa inställningar</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">Fortsätt utan att återställa</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">Om du tidigare har säkerhetskopierat inställningar med Headphones Connect går det att återställa dessa inställningar.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">Här finns mer information</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">Återställa inställningar</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"Det fanns inga säkerhetskopierade inställningar.
+Fortsätt utan att återställa."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">Återställning genomförd.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">Konto</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">Inställningar som säkerhetskopierats</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">Säkerhetskopiera nu</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">Aktivera</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">Återställ nu</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">Radera säkerhetskopieringen och logga ut</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">Raderar inställningar som säkerhetskopieras på servern. Inställningar i appen finns kvar.</string>
+    <string name="SettingsTakeOver_Settings_Description">Du kan spara dessa appinställningar på servern genom att länka med kontot du loggade in med.</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"Aktivera automatisk synkronisering för att säkerhetskopiera de senaste inställningarna.
+Du kan synkronisera inställningarna med alla mobila enheter som du är inloggad på med detta konto."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">Inställningarna för denna funktion går, när du vill, att justera i menyn längst upp till höger på instrumentpanelen.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">Automatisk synkronisering</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">Kontoinställning</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Inställningar för Sony-konto</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">Säkerhetskopierar...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">Datum för serveruppdatering:</string>
+    <string name="SettingsTakeOver_Settings_Status_None">Du kan säkerhetskopiera inställningarna.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">Det finns inställningar som ännu inte säkerhetskopierats.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">Du kan återställa nya inställningar från servern.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">Återställer...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">Säkerhetskopiering är genomförd.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">Synkroniserar...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">Din enhet har inte stöd för säkerhetskopiering.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Logga in med Amazon</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Logga in med Apple</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Logga in med Facebook</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Logga in med Google</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Logga in med Sony-konto</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">Logga in med WeChat</string>
+    <string name="SettingsTakeOver_SignIn_Description">För att säkerhetskopiera och återställa inställningar måste du vara inloggad på Headphones Connect.</string>
+    <string name="SettingsTakeOver_SignIn_Split">eller</string>
+    <string name="SettingsTakeOver_SignOut_Completed">Utloggad.</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">Funktioner för säkerhetskopiering och återställning går inte att välja.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">Inställningar som säkerhetskopierats på servern raderas automatiskt om en viss tid passerar efter att du loggat ut.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Sony-konto</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">Loggar in...</string>
+    <string name="SettingsTakeOver_SigningOut">Loggar ut...</string>
+    <string name="SmartTalkingMode_Detail">Du kan starta en konversation när du bär hörlurarna genom att bara börja prata.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"Du kan konversera samtidigt som du har på dig hörlurarna bara genom att börja tala. Vill du använda denna funktion?
+Du kan använda den igen med hjälp av [i]-knappen."</string>
+    <string name="SmartTalkingMode_Experience_Btn">Upplev det</string>
+    <string name="SmartTalkingMode_Experience_Detail1">Säg t.ex. ”Hej”. Hörlurarna identifierar din röst och upprättar automatiskt ett läge som tillåter konversation.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"Musiken pausad för att höra ljudet i omgivningen. Detta läge återupptas när du talar och avslutas om %s passerar efter att du slutat tala eller du manövrerat hörlurarna.
+Det går att anpassa denna inställning under [Tala-i-chatt] på instrumentpanelen."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">Musiken pausad för att höra ljudet i omgivningen. Läget avslutas om du manövrerar hörlurarna.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">Stäng</string>
+    <string name="SmartTalkingMode_Experience_Msg1">Identifierar din röst</string>
+    <string name="SmartTalkingMode_Experience_Msg2">Din röst identifierad</string>
+    <string name="SmartTalkingMode_Experience_Title">Tala-i-chatt-upplevelse</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">Tar in röster samtidigt som bruset i omgivningen reduceras.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">Fokus på röst</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"Om hörlurarna inte identifierar din röst under en viss tid avslutas läget Tala-i-chatt och återgår till normalt läge.
+Det går också att avsluta läget när som helst genom att manövrera hörlurarna."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">Snabb</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">Standard</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">Långsam</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">Avslutas inte automatiskt</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">Utför inte</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">Tid tills läget avslutas</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">Ca. 1 min</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">Ca. 1 sek</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">Ca. %d sek</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">Ca. %d min</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">Automatiskt</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">Justerar känsligheten automatiskt baserat på ljudet i omgivningen.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">Automatiskt:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">H-känslighet</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">Välj denna inställning när känsligheten i röstigenkänning är för låg. Effektiv när ljudet i omgivningen är för högt, som när du befinner dig i en bil.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">H-känslighet:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">L-känslighet</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">Välj denna inställning när röstigenkänningskänsligheten är för hög. Effektivt när den som pratar befinner sig i närheten.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">L-känslighet:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">Känslighet röstigenkän.</string>
+    <string name="SmartTalkingMode_Setting_Title">Tala-i-chatt-inställning</string>
+    <string name="SmartTalkingMode_Title">Tala-i-chatt</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Aktivera Tala-i-chatt</string>
+    <string name="SmartTalkingMode_TurnOn">Aktiverar tala-i-chatt för att utföra inställningar.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Aktiverar tala-i-chatt</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"Det går att justera denna inställning genom att manövrera dina hörlurar.
+Kontrollera funktionsmetoden under [Hjälp]."</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Aktivera Tala-i-chatt?</string>
+    <string name="SongPalDownloadDialog">Vill du hämta Music Center-programmet från Google Play?</string>
+    <string name="SongPalDownloadDialog_iOS">Vill du hämta Music Center-programmet från App Store?</string>
+    <string name="SoundPosition_Preset_FL">Framsida vänster</string>
+    <string name="SoundPosition_Preset_FR">Framsida höger</string>
+    <string name="SoundPosition_Preset_Front">Framsida</string>
+    <string name="SoundPosition_Preset_Off">Av</string>
+    <string name="SoundPosition_Preset_RL">Baksida vänster</string>
+    <string name="SoundPosition_Preset_RR">Baksida höger</string>
+    <string name="SoundPosition_Title">Kontroll av ljudposition</string>
+    <string name="Status_Loading_Headphones">Hämtar listan över hörlurar.</string>
+    <string name="Switch_ToOtherDevice">Växla till en annan enhet</string>
+    <string name="TalkBack_Button">Knapp</string>
+    <string name="TalkBack_Button_Option">Fler alternativ</string>
+    <string name="TalkBack_Disable">Inaktiverad</string>
+    <string name="TalkBack_Switch">Växla knapp</string>
+    <string name="Talkback_Echo_Minus">minus</string>
+    <string name="Talkback_Echo_Plus">plus</string>
+    <string name="TouchSensorControlPanel_title">Beröringssensorinstrumentpanel</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">Återställ</string>
+    <string name="Training_Custom_Title">Snabbljudinställningar</string>
+    <string name="Training_Title">Snabbljudinställningar</string>
+    <string name="Training_Title_Detail">"Du kan enhetligt ändra inställningarna för [%1$s] och [%2$s].
+Denna inställning kan dessutom manövreras via hörlurarna."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">Arena</string>
+    <string name="VPT_Preset_Club">Klubb</string>
+    <string name="VPT_Preset_ConcertHall">Konserthall</string>
+    <string name="VPT_Preset_Off">Av</string>
+    <string name="VPT_Preset_OutdoorFestival">Utomhusscen</string>
+    <string name="VPT_Preset_Title">Surround (VPT)</string>
+    <string name="Vibration_Title">Vibrat. för ank. samtal</string>
+    <string name="VoiceData_Update_Status_Download">Laddar ner röstdata...</string>
+    <string name="VoiceData_Update_Status_Install">Ställer in röstdata...</string>
+    <string name="VoiceData_Update_Status_Send">Överför röstdata...</string>
+    <string name="VoiceData_Update_Status_Start">Överför %s röstdata till hörlurar</string>
+    <string name="VoiceData_Update_Title">Ändra språk</string>
+    <string name="VoiceData_Updating">Vänligen vänta...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">Språk</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">Noteringar och röstguidning</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">Portugisiska (Brasilien)</string>
+    <string name="Voice_Guidance_Elem_Chinese">Kinesiska</string>
+    <string name="Voice_Guidance_Elem_Dutch">Holländska</string>
+    <string name="Voice_Guidance_Elem_English">Engelska</string>
+    <string name="Voice_Guidance_Elem_Finnish">Finska</string>
+    <string name="Voice_Guidance_Elem_French">Franska</string>
+    <string name="Voice_Guidance_Elem_German">Tyska</string>
+    <string name="Voice_Guidance_Elem_Italian">Italienska</string>
+    <string name="Voice_Guidance_Elem_Japanese">Japanska</string>
+    <string name="Voice_Guidance_Elem_Korean">Koreanska</string>
+    <string name="Voice_Guidance_Elem_Portuguese">Portugisiska</string>
+    <string name="Voice_Guidance_Elem_Russian">Ryska</string>
+    <string name="Voice_Guidance_Elem_Spanish">Spanska</string>
+    <string name="Voice_Guidance_Elem_Swedish">Svenska</string>
+    <string name="Voice_Guidance_Elem_Turkish">Turkiska</string>
+    <string name="Voice_Guidance_Setting">Språk för röstguidning</string>
+    <string name="Volume_Talkback">Volym</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">För användning, uppdatera denna app i Google Play.</string>
+    <string name="Walkman_Placeholder_Confirm_China">För användning, ladda ner denna app från sidan för nerladdning.</string>
+    <string name="Walkman_Placeholer_Button_Transit">Gå</string>
+    <string name="Walkman_Placeholer_Description">"Anpassa Sony-hörlurar som du vill ha dem med en länkfunktion för den här appen.
+Den dagliga musiken blir ännu mer njutbar med enkla kontroller."</string>
+    <string name="Walkman_Placeholer_Description_02">Denna app måste uppdateras (laddas ner) på skärmen du överförs till, för användning.</string>
+    <string name="Walkman_Placeholer_Description_03">Om denna app</string>
+    <string name="Walkman_Placeholer_Link">Mer information om produkter och funktioner som stöds finns här</string>
+    <string name="Walkman_Placeholer_SubTitle">Gå till nedladdningssidan för Headphones Connect?</string>
+    <string name="Welcome_EULA_PP">Genom att trycka på knappen medger du till att ha kontrollerat dokumentet och sekretesspolicyn och godkänner innehållet.</string>
+    <string name="Welcome_EULA_PPLink">Användningsvillkor</string>
+    <string name="Welcome_SubTitle">"Roligare, smartare, personligare.
+Låt oss starta ditt nya liv med dina nya hörlurar."</string>
+    <string name="Welcome_SubTitle1">Din personliga livekonsert börjar här.</string>
+    <string name="Welcome_SubTitle2">Klubb? Arena? Teater? Eller kanske utomhus? Den perfekta spelningen sker på ditt kommando.</string>
+    <string name="Welcome_SubTitle3">Den justerbara basen förstärker din dag.</string>
+    <string name="Welcome_Title">VÄLKOMMEN</string>
+    <string name="Welcome_Title1">VÄLKOMMEN</string>
+    <string name="Welcome_Title2">LIVEMUSIK MED ETT TRYCK</string>
+    <string name="Welcome_Title3">VILL DU HA STARKARE BAS?</string>
+    <string name="Widget_Disconnected">Hörlurarna är inte anslutna eller inte registrerade. Starta Headphones Connect.</string>
+    <string name="Widget_EQ_Error">Bekräfta [Equalizer] i Headphones Connect.</string>
+    <string name="Widget_EQ_Error_Short">Ändra i Headphones Connect.</string>
+    <string name="Widget_EULA_Disagreement">Starta Headphones Connect och ställ in.</string>
+    <string name="Widget_Initial">Läser in...</string>
+    <string name="abc_action_bar_home_description">Navigera hem</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klar</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">Aktivera</string>
+    <string name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
+    <string name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
+    <string name="common_google_play_services_install_button">Installera</string>
+    <string name="common_google_play_services_install_text">%1$s kan inte köras utan Google Play-tjänsterna, som saknas på enheten.</string>
+    <string name="common_google_play_services_install_title">Hämta Google Play-tjänster</string>
+    <string name="common_google_play_services_notification_channel_name">Tillgänglighet för Google Plays tjänster</string>
+    <string name="common_google_play_services_notification_ticker">Fel på Google Play-tjänster</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten.</string>
+    <string name="common_google_play_services_update_button">Uppdatera</string>
+    <string name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
+    <string name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
+    <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="common_google_play_services_wear_update_text">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
+    <string name="common_open_on_phone">Öppna på mobilen</string>
+    <string name="common_signin_button_text">Logga in</string>
+    <string name="common_signin_button_text_long">Logga in med Google</string>
+    <string name="expand_button_title">Avancerat</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
+    <string name="s1">Spara bild</string>
+    <string name="s2">Tillåter du att annonsen sparar bilden i Bildgalleriet?</string>
+    <string name="s3">Godkänn</string>
+    <string name="s4">Godkänn inte</string>
+    <string name="s5">Skapa kalenderhändelse</string>
+    <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
+    <string name="s7">Testannons</string>
+    <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">AV</string>
+    <string name="v7_preference_on">PÅ</string>
+</resources>

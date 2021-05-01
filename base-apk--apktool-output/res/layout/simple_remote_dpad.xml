@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/dpad_area_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?bg_remote_simpleflick_dpad" />
+    <jp.co.sony.vim.framework.platform.android.ui.fullcontroller.simpleremote.SimpleLocusView android:layout_gravity="center" android:id="@id/simple_layout_zone_locus_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="25.0dip" android:layout_marginBottom="25.0dip" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+    <ImageView android:id="@id/tap_effect" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?ic_remote_simpleflick_tap_effect" />
+</merge>

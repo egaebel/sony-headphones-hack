@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/ui_common_toolbar" />
+    <TextView android:id="@id/description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/ASC_Location_Type_Set_message" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_layout" style="@style/TSS_L_C2_Re" />
+    <ScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="24.0dip" app:layout_constraintBottom_toTopOf="@id/manual_location_type_next_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/description">
+        <RadioGroup android:id="@id/manual_location_type_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+    </ScrollView>
+    <include android:id="@id/manual_location_type_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" layout="@layout/ui_common_flat_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

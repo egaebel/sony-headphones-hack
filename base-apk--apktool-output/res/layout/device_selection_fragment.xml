@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?ui_common_bg_color_card_screen" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_layout_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/device_list_recycler_view" android:paddingBottom="@dimen/device_selection_padding_bottom_with_fab_button" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/device_list_empty_text_only" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <jp.co.sony.vim.framework.platform.android.ui.InlineLinkingTextView android:id="@id/empty_message_text_only" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_C_C2_Re" />
+        </RelativeLayout>
+        <ScrollView android:id="@id/device_list_empty_with_image" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/empty_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+                <jp.co.sony.vim.framework.platform.android.ui.InlineLinkingTextView android:id="@id/empty_message_with_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/empty_image" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_C_C2_Re" />
+            </RelativeLayout>
+        </ScrollView>
+        <include android:layout_gravity="center_horizontal" android:id="@id/custom_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/ui_common_raised_button" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/setup_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/add_device_floating_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true" android:contentDescription="@string/STRING_TEXT_ADD_DEVICE" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:fabSize="normal" app:srcCompat="@drawable/ic_fab_add_white" />
+</RelativeLayout>

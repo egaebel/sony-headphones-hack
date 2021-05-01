@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appsettings>
+    <item key="ASC_IsASCEnabled" value="false" />
+    <item key="ASC_IsActivityRecognitionEnabled" value="true" />
+    <item key="ASC_IsLocationDetectionEnabled" value="false" />
+    <item key="AutoNcASM_IsEnabled" value="false" />
+    <item key="PushNotification_Received_MessageId" value="" />
+    <item key="AdId" value="" />
+    <item key="ASC_IsNotificationSoundEnabled" value="true" />
+</appsettings>

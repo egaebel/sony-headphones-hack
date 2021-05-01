@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:eqview="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <RelativeLayout android:id="@id/custom_ui_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_layout">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/preset_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <TextView android:id="@id/preset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" style="@style/T3LL_L_C1_ReStyle" />
+                <com.sony.songpal.mdr.view.customeq.EqSliderPanelView android:layout_gravity="center_horizontal" android:id="@id/eq_slider_panel" android:layout_width="@dimen/SoundSliderWidth" android:layout_height="@dimen/SoundSliderHeight" android:layout_marginTop="8.0dip" eqview:eq_gravity="center_horizontal" eqview:eqview_height="@dimen/SoundSliderHeight" eqview:eqview_marginTop="0.0dip" eqview:eqview_paddingLeft="27.0dip" eqview:eqview_paddingRight="20.0dip" eqview:eqview_paddingTop="0.0dip" eqview:eqview_width="@dimen/SoundSliderWidth" />
+            </LinearLayout>
+            <View android:id="@id/divider" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/preset_area" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/clearbass_area" android:layout_width="@dimen/SoundSliderWidth" android:layout_height="72.0dip" android:layout_below="@id/divider" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/clearbass_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/a_mdr_clearbass_icon_logo" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <SeekBar android:id="@id/seekbar_eq_clearbass" android:background="@null" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:max="20" android:progress="10" android:progressDrawable="@drawable/a_mdr_clearbass_slider_selector" android:thumb="@drawable/a_mdr_clearbass_slider_knob" android:thumbOffset="20.0dip" android:splitTrack="false" />
+                    <LinearLayout android:paddingLeft="17.0dip" android:paddingRight="24.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_long" android:scaleType="fitXY" />
+                        <include layout="@layout/scale_short_items" />
+                        <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/SoundSliderClearBassScaleLineMarginRight" android:src="@drawable/a_mdr_clearbass_scale_long" android:scaleType="fitXY" />
+                        <include layout="@layout/scale_short_items" />
+                        <ImageView android:layout_width="5.0dip" android:layout_height="12.0dip" android:src="@drawable/a_mdr_clearbass_scale_long" android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="20.0dip">
+                        <TextView android:id="@id/scale_minimum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" style="@style/T4S_C_C1_LiStyle" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerInParent="true" style="@style/T4S_C_C1_LiStyle" />
+                        <TextView android:id="@id/scale_maximum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/T4S_C_C1_LiStyle" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

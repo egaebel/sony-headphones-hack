@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/device_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/discovered_devices_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TS_L_C1_Re" android:id="@id/select_device_for_registration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+            <RelativeLayout android:id="@id/discovering_progress_layout" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/device_list_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/custom_add_devices_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

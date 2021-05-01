@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ascLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ascIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/AR_Title" style="@style/TSS_L_C2_MeStyle" />
+            <TextView android:id="@id/ascDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TSS_L_C2_MeStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/iaLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_information_notification_settings_take_over_icon_immersive" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IASetup_FeatureTitle" style="@style/TSS_L_C2_MeStyle" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Appeal_360RA_Data" style="@style/TSS_L_C2_MeStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fwAutoUpdateLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_information_notification_settings_take_over_icon_settings" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Appeal_FW_Download_Title" style="@style/TSS_L_C2_MeStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

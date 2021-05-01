@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.sony.songpal.mdr.view.CodecIndicatorView android:id="@id/codec_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_codec_sbc_light" />
+        <com.sony.songpal.mdr.view.UpscalingIndicatorView android:id="@id/upscaling_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_dseehx_light" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <com.sony.songpal.mdr.view.SingleUnitIndicatorView android:id="@id/single_unit_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    <com.sony.songpal.mdr.view.LRUnitIndicatorView android:id="@id/left_right_unit_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    <com.sony.songpal.mdr.view.CradleIndicatorView android:id="@id/cradle_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+</LinearLayout>

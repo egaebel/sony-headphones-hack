@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/place_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:foreground="?fg_common_press" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardUseCompatPadding="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.gms.maps.MapView android:id="@id/map_view" android:visibility="invisible" android:layout_width="120.0dip" android:layout_height="92.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:liteMode="true" app:mapType="normal" />
+            <ImageView android:layout_width="52.0dip" android:layout_height="52.0dip" app:layout_constraintEnd_toEndOf="@id/map_view" app:layout_constraintStart_toStartOf="@id/map_view" app:layout_constraintTop_toTopOf="@id/map_view" app:srcCompat="@drawable/a_asc_location_type_on_map_other" />
+            <TextView android:textAppearance="@style/TS_L_C1_Re" android:ellipsize="end" android:id="@id/place_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/ASC_Location_Learning_Location_Name_Default" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/map_view" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

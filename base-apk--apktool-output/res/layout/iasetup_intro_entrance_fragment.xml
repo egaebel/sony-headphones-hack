@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+                <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" app:srcCompat="@drawable/a_mdr_immersive_introduce_image" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/IASetup_Welcome_Title" android:maxLines="2" style="@style/TL_C_C1_ReStyle" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IASetup_Welcome_Detail" style="@style/TSS_C_C2_ReStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_weight="0.0">
+        <include android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/ui_common_raised_button" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_flat_button_normal" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/remote_scroll_bar_bg_image" android:background="?btn_remote_sidebar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/free_cursor_scroll_bar_icon_margin_vertical" android:src="?ic_remote_freecsr_scroll_arrow_up" />
+        <ImageView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/free_cursor_scroll_bar_icon_margin_vertical" android:src="?ic_remote_freecsr_scroll_arrow_down" />
+    </FrameLayout>
+</merge>

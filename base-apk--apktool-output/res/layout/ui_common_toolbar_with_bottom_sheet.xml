@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" android:elevation="@dimen/ui_toolbar_elevation_height" app:popupTheme="@style/PopupMenuStyle" app:theme="@style/ToolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:id="@id/toolbar_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="264.0dip" android:maxLines="1" android:layout_centerVertical="true" style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+        <ImageView android:id="@id/bottom_sheet_button" android:visibility="invisible" android:layout_width="@dimen/ui_action_icon_size" android:layout_height="@dimen/ui_action_icon_size" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="@string/STRING_TALKBACK_BUTTON_OPTION" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

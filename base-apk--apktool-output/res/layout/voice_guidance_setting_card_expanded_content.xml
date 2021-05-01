@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/close_knob_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:contentDescription="@string/STRING_TEXT_COMMON_COLLAPSE" app:srcCompat="@drawable/a_mdr_extended_area_knob_open" />
+    </LinearLayout>
+    <TextView android:textColor="@drawable/common_cardview_spinner_title_text_color_selector" android:id="@id/language_select_spinner_title" android:layout_width="wrap_content" android:layout_height="@dimen/voice_guidance_setting_subject_text_height" android:layout_marginTop="@dimen/voice_guidance_setting_expanded_content_margin_top" android:layout_marginStart="@dimen/voice_guidance_setting_subject_text_margin_left" android:layout_marginEnd="@dimen/voice_guidance_setting_subject_text_margin_right" style="@style/TSS_L_C1_Re" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/voice_guidance_setting_spinner_margin_top" android:layout_marginBottom="@dimen/voice_guidance_setting_spinner_margin_bottom" android:layout_marginStart="@dimen/voice_guidance_setting_spinner_margin_left" android:layout_marginEnd="@dimen/voice_guidance_setting_spinner_margin_right">
+        <Spinner android:id="@id/language_select_spinner" android:layout_width="fill_parent" android:layout_height="@dimen/voice_guidance_setting_spinner_height" android:spinnerMode="dialog" />
+        <View android:id="@id/language_select_spinner_underline" android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="@dimen/common_cardview_spinner_underline_height" android:layout_alignBottom="@id/language_select_spinner" />
+    </RelativeLayout>
+</LinearLayout>

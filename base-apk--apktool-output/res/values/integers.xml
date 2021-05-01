@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="ar_animation_duration_per_frame">100</integer>
+    <integer name="ar_animation_frame_max_capacity">69</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12211000</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="human_duration_01">3667</integer>
+    <integer name="human_duration_02">83</integer>
+    <integer name="human_duration_03">167</integer>
+    <integer name="menu_order_small">100</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>

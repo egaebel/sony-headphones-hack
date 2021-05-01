@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_01" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_02" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_03" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_04" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_05" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_06" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_07" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_08" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_09" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_10" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_11" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_12" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_13" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_14" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_15" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_16" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_17" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_18" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_19" />
+    <item android:duration="@integer/ar_animation_duration_per_frame" android:drawable="@drawable/a_mdr_activity_recognition_status_vehicle_20" />
+</animation-list>

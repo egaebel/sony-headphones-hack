@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="bottom|center" android:id="@id/fixed_pane" android:layout_width="fill_parent" android:layout_height="222.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/IASetup_AppIntroduction_Title" android:maxLines="2" style="@style/TM_L_C1_Me" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/spapp_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IASetup_AppIntroduction_Detail" style="@style/TSS_C_C1_Re" />
+                <TextView android:id="@id/learn_more_about_app" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/IASetup_LearnMore_AboutApp" style="@style/TSS_C_A1_ReStyle" />
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <include android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/ui_common_raised_button" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_flat_button_normal" />
+    </LinearLayout>
+</LinearLayout>

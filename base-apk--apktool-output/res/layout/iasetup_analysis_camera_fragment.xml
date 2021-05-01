@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/textureView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/faceGuideFrameImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/operationMsgArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+        <ImageView android:id="@id/captureModeViewInAutoMode" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="38.0dip" android:src="@drawable/a_mdr_immersive_picture_guide_auto" android:scaleType="fitXY" />
+        <ImageView android:id="@id/operationStepImageViewInAutoMode" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="38.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="8.0dip" />
+        <TextView android:id="@id/guideTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TSS_L_C1i_ReStyle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/manualModeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_alignParentBottom="true">
+        <Button android:id="@id/captureButton" android:background="@drawable/ia_shooting_button_selector" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.sony.songpal.mdr.application.immersiveaudio.setup.earcapture.DebugView android:id="@id/debugView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/debugLayout" android:background="#dd000000" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="@dimen/ui_navigation_bar_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="32.0sp" android:textColor="#ffffffff" android:id="@id/debugProcessFailedTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="32.0sp" android:textColor="#ffffffff" android:id="@id/debugErrorTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

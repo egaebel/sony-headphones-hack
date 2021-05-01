@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" android:maxLines="1" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="72.0dip" android:layout_height="54.0dip" app:srcCompat="@drawable/a_mdr_immersive_picture_result_fail_image" />
+                <TextView android:id="@id/failure_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/TM_C_C1_MeStyle" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IASetup_FailurePhotograph_Detail" style="@style/TM_C_C1_MeStyle" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                    <ImageView android:layout_width="48.0dip" android:layout_height="56.0dip" app:srcCompat="@drawable/a_mdr_immersive_picture_result_fail_accessories" />
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/IASetup_PhotographErr_Auto_Earrings" android:layout_weight="1.0" style="@style/TSS_L_C2_Re" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                    <ImageView android:layout_width="48.0dip" android:layout_height="60.0dip" app:srcCompat="@drawable/a_mdr_immersive_picture_result_fail_hair" />
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/IASetup_PhotographErr_Auto_Hair" android:layout_weight="1.0" style="@style/TSS_L_C2_Re" />
+                </LinearLayout>
+                <TextView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" style="@style/TSS_L_C2_Re" />
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <include android:id="@id/retake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_raised_button" />
+    </RelativeLayout>
+</LinearLayout>

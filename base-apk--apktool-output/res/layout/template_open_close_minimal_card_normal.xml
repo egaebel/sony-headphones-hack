@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ui_common_card_header_min_height">
+        <include android:id="@id/title_area" layout="@layout/ui_common_card_title_normal" />
+    </LinearLayout>
+    <include android:id="@id/open_close_button" layout="@layout/ui_common_card_open_close_button" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingBottom="@dimen/ui_common_card_content_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ui_common_card_content_margin_left_right" android:paddingEnd="@dimen/ui_common_card_content_margin_left_right" />
+</LinearLayout>

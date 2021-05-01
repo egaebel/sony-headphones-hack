@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView android:id="@id/scroll_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_divider">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/status_measuring_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/ESA_ExecutionComplete_Title" style="@style/TM_L_C1_Me" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <RelativeLayout android:id="@id/l_earpiece_result_layout" android:layout_width="136.0dip" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/l_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_assignable_button_card_left" android:layout_centerHorizontal="true" android:contentDescription="@string/Left_Headphones" />
+                    <ImageView android:id="@id/l_earpiece_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/a_mdr_esa_complete_o" android:layout_below="@id/l_icon" android:layout_centerHorizontal="true" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/l_result_check_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/a_mdr_esa_complete_result_ok_" android:layout_toRightOf="@id/l_icon" />
+                    <TextView android:gravity="center|top" android:id="@id/l_result_detail" android:layout_width="fill_parent" android:layout_height="44.0dip" android:maxLines="3" android:layout_below="@id/l_earpiece_icon" style="@style/T3S_C_C1_MeStyle" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/r_earpiece_result_layout" android:layout_width="136.0dip" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_toRightOf="@id/l_earpiece_result_layout">
+                    <ImageView android:id="@id/r_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_mdr_assignable_button_card_right" android:layout_centerHorizontal="true" android:contentDescription="@string/Right_Headphones" />
+                    <ImageView android:id="@id/r_earpiece_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/a_mdr_esa_complete_o" android:layout_below="@id/r_icon" android:layout_centerHorizontal="true" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/r_result_check_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/a_mdr_esa_complete_result_ok_" android:layout_toRightOf="@id/r_icon" />
+                    <TextView android:gravity="center|top" android:id="@id/r_result_detail" android:layout_width="fill_parent" android:layout_height="44.0dip" android:maxLines="3" android:layout_below="@id/r_earpiece_icon" style="@style/T3S_C_C1_MeStyle" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerScrollView>
+    <View android:id="@id/bottom_divider" android:background="@color/ui_common_color_c4_light" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="18.0dip" android:layout_above="@id/description_measuring_result" />
+    <TextView android:id="@id/description_measuring_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_above="@id/restart_measuring_button" style="@style/TSS_L_C2_Re" />
+    <include android:id="@id/restart_measuring_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" android:layout_above="@id/ok_button" android:layout_centerHorizontal="true" layout="@layout/ui_common_raised_button" />
+    <include android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/ui_common_raised_button" />
+</RelativeLayout>

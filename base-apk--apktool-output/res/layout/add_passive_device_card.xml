@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardUseCompatPadding="true">
+        <FrameLayout android:id="@id/device_selection_card" android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="118.0dip" android:foreground="?fg_common_press">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/add_passive_device_image" android:background="?color_device_image_bg" android:layout_width="147.0dip" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:scaleType="fitCenter" android:layout_marginStart="4.0dip" />
+                <TextView android:textAppearance="@style/TM_L_C1_Re" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/add_passive_device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:maxLines="2" android:layout_alignParentTop="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="-11.0dip" android:layout_toEndOf="@id/add_passive_device_image" />
+                <TextView android:textAppearance="@style/T2S_L_A1_Li" android:layout_gravity="center_vertical" android:id="@id/add_passive_device_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/STRING_REMOTE_TEXT_TAP_TO_REGSITER" android:layout_below="@id/add_passive_device_name" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/add_passive_device_image" />
+                <TextView android:textAppearance="@style/T2S_L_C1_Li" android:layout_gravity="center_vertical" android:id="@id/add_passive_device_selected" android:background="?shape_device_selection_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/STRING_REMOTE_TEXT_SELECTED_ITEM" android:layout_below="@id/add_passive_device_name" android:paddingStart="1.5dip" android:paddingEnd="1.5dip" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/add_passive_device_image" />
+            </RelativeLayout>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

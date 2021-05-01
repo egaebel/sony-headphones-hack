@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.AppTheme.Dark" parent="@style/Base.v28.AppTheme.Dark" />
+    <style name="Base.AppTheme.Light" parent="@style/Base.v28.AppTheme.Light" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V28.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V28.Theme.AppCompat.Light" />
+    <style name="BottomSheetDialogTheme" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?theme_color_navigation_bar</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">?theme_color_navigation_bar_divider</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.v28.AppTheme.Dark" parent="@style/Base.v23.AppTheme.Dark">
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">?theme_color_navigation_bar_divider</item>
+    </style>
+    <style name="Base.v28.AppTheme.Light" parent="@style/Base.v23.AppTheme.Light">
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">?theme_color_navigation_bar_divider</item>
+    </style>
+</resources>

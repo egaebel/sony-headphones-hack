@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/knob_area" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <TextView android:textAppearance="@style/TSS_L_C2_Re" android:id="@id/preset" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/close_knob_button" />
+        <ImageView android:id="@id/close_knob_button" android:layout_width="@dimen/vpt_common_knob_image_size" android:layout_height="@dimen/vpt_common_knob_image_size" android:src="@drawable/a_mdr_extended_area_knob_open" android:contentDescription="@string/STRING_TEXT_COMMON_COLLAPSE" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/preset_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:layout_below="@id/knob_area" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/header_text" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/TS_L_C1_Re" />
+    <RelativeLayout android:id="@id/buttons_layout" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginEnd="4.0dip">
+        <include android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" layout="@layout/ui_common_flat_button" />
+    </RelativeLayout>
+    <View android:id="@id/top_divider" android:background="?ui_common_divider_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/header_text" />
+    <RelativeLayout android:id="@id/body_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/buttons_layout" android:layout_below="@id/header_text" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <jp.co.sony.vim.framework.platform.android.ui.appsettings.webview.DividerWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progress" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+        <TextView android:id="@id/error_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/TSS_C_C1_Re" />
+    </RelativeLayout>
+    <View android:id="@id/bottom_divider" android:background="?ui_common_divider_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/buttons_layout" />
+</RelativeLayout>

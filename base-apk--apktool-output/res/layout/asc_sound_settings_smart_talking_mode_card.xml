@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?ui_common_bg_color_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_1" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SmartTalkingMode_Title" android:layout_marginStart="16.0dip" style="@style/TSS_L_C1_Re" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Switch android:id="@id/asc_sound_setting_smart_talking_mode_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:background="?ui_common_bg_color_card_screen" android:layout_width="fill_parent" android:layout_height="4.0dip" android:src="@drawable/a_mdr_shadow_d1_2" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="start" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_left" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="end" android:layout_width="8.0dip" android:layout_height="fill_parent" android:src="@drawable/a_mdr_activity_recognition_mask_right" android:scaleType="fitXY" />
+</FrameLayout>

@@ -1,0 +1,34 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: base.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- mp3
+- res/raw/params_5as.zip
+- res/raw/region_map_eula.json
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  publicsuffixes.gz: '8'
+  error_prone/Annotations.gwt.xml: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '7040150'
+  versionName: 7.4.1

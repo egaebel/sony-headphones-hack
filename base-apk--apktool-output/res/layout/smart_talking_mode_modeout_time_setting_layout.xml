@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/SmartTalkingMode_Setting_ModeOutTime_Title" android:layout_marginStart="72.0dip" android:layout_marginEnd="16.0dip" style="@style/TS_L_C1_Re" />
+    <TextView android:id="@id/mode_out_param" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/SmartTalkingMode_Setting_ModeOutTime_Option1" android:layout_marginStart="72.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_L_C2_Re" />
+    <View android:background="@color/ui_common_color_c4_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/register_device_via_bt" layout="@layout/ui_common_icon_card_button" />
+        <include android:id="@id/register_device_via_nfc" layout="@layout/ui_common_icon_card_button" />
+        <include android:id="@id/register_passive_device" android:visibility="gone" layout="@layout/ui_common_icon_card_button" />
+    </LinearLayout>
+</FrameLayout>

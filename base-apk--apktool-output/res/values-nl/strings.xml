@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">Lang</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">Kort</string>
+    <string name="AR_Custom_Reset">Opnieuw instel.</string>
+    <string name="AR_Custom_Title">Bewerken</string>
+    <string name="AR_Custom_Title_iOS">BEWERKEN</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"De applicatie detecteert uw acties en de locaties die u regelmatig bezoekt, en schakelt automatisch de instellingen van de hoofdtelefoon, zoals de manier waarop het omgevingsgeluid wordt ingenomen.
+Dit zorgt voor optimale muziekervaringen die overeen komen met de scène waarin u naar muziek luistert.
+
+Wilt u deze functie gebruiken?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"De applicatie detecteert uw acties en past de manier waarop het omgevingsgeluid wordt ingenomen automatisch aan.
+Dit zorgt voor een optimale muziekervaring die overeen komt met de scène waarin u naar muziek luistert.
+
+Wilt u deze functie gebruiken?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">Instelling van Adaptieve geluidsregeling voltooid.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"Ruisonderdrukking wordt mogelijk uitgeschakeld omwille van de automatische schakeling naar instellingen die passen bij de gedetecteerde acties en de locatie.
+Deze instelling kan worden aangepast door middel van [Adaptieve geluidsregeling] via het dashboard."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"Het systeem is ingesteld om Ruisonderdrukking uit te schakelen en het omgevingsgeluid door te laten afhankelijk van het gedetecteerde gedrag.
+Deze instelling kan worden aangepast door middel van [Adaptieve geluidsregeling] via het dashboard."</string>
+    <string name="AR_Notification_Message">[%s] is geactiveerd.</string>
+    <string name="AR_Status_Detecting">Detecteren</string>
+    <string name="AR_Status_LongStay">Stilstaan</string>
+    <string name="AR_Status_Run">Rennen</string>
+    <string name="AR_Status_ShortStay">Stilstaan</string>
+    <string name="AR_Status_Vehicle">Vervoer</string>
+    <string name="AR_Status_Walking">Wandelen</string>
+    <string name="AR_Title">Adaptieve geluidsregeling</string>
+    <string name="AR_Title_Detail">De applicatie detecteert uw acties en de locaties die u regelmatig bezoekt, en schakelt automatisch de instellingen van de hoofdtelefoon, zoals de manier waarop het omgevingsgeluid wordt ingenomen.</string>
+    <string name="AR_Title_Detail_China">Applic. detect. uw handelingen, [%s] wordt gewijz.</string>
+    <string name="AR_Title_Detail_EffectTone">Het notificatiegeluid voortgebracht bij het omschakelen kan worden gedempt door [%s] uit te schakelen.</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">Deze instellingen zijn ingeschakeld terwijl u op deze locatie bent en de automatische schakeling op basis van acties is uitgeschakeld.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">Uitgeschakeld terwijl u op een geregistreerde locatie bent</string>
+    <string name="ASC_Behavior_Detection">Automatische schakeling op basis van acties</string>
+    <string name="ASC_Behavior_Detection_Menu">Detectie van acties</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"Door de locaties die u regelmatig bezoekt te registreren, wordt de automatische schakeling van instellingen op basis van die locatie mogelijk.
+Locaties die u regelmatig bezoekt kunt u gemakkelijk registreren met behulp van de leerfunctie.
+Wilt u deze functie gebruiken?
+*Het zal meerdere dagen duren na het gebruiken van de leerfunctie om de Locaties die u regelmatig bezoekt te registreren."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">De locatie is niet verzonden naar de server aangezien de leerfuncties voor locaties offline zijn.</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">De leerfunctie gebruiken</string>
+    <string name="ASC_LearningLocation">Het leren van locaties die u regelmatig bezoekt</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"De leerfunctie voor locaties die u regelmatig bezoekt en de automatische schakeling van instellingen op basis van locaties van Adaptieve geluidsregeling zijn ingeschakeld, maar locaties kunnen niet worden gedetecteerd aangezien er geen toegang is tot Locatie.
+
+Om deze functies op de achtergrond te laten werken, drukt u op de [Instellingen]-knop, en selecteert u [Altijd toestaan] vanuit [Toestemmingen] > [Locatie]. Indien altijd toegestaan, worden locatiegegevens verzameld, zelfs wanneer de app is gesloten of niet in gebruik is."</string>
+    <string name="ASC_Location_Detail">Informatie over locatie</string>
+    <string name="ASC_Location_Detail_Message">"Nieuwe locatie geleerd.
+Als deze locatie geregistreerd wordt, kunnen de instellingen van de hoofdtelefoon automatisch worden geschakeld."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">Stelt ruisonderdrukking in op UIT en stelt vooraf in op een instelling die ervoor zorgt dat u beter de stemmen van mensen rondom u opmerkt.</string>
+    <string name="ASC_Location_Detail_Message_Other">Een aanbevolen instelling voor deze locatie is beschikbaar als voorkeur.</string>
+    <string name="ASC_Location_Detail_Message_Station">Stelt ruisonderdrukking in op UIT en stelt vooraf in op een instelling die ervoor zorgt dat u beter de omgevingsgeluiden rondom u opmerkt.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">Het leren van locaties die u regelmatig bezoekt</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">Nieuwe locatie geleerd.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">Als deze locatie geregistreerd wordt, kunnen de instellingen van de hoofdtelefoon automatisch worden geschakeld.</string>
+    <string name="ASC_Location_Detection">Automatische schakeling op basis van locatie</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">Op locaties zoals de metro en tunnels, waar GPS-bereik zwak is, werkt het leren van locaties die u regelmatig bezoekt en de automatische schakeling op basis van locatie mogelijk niet naar behoren.</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">Aangezien uw mobiele apparaat niet uitgerust is met GPS, werkt het leren van locaties die u regelmatig bezoekt en de automatische schakeling op basis van locatie mogelijk niet naar behoren.</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">Er zijn beperkingen op locatiedetectie</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">Bezig met detecteren van Locatie...</string>
+    <string name="ASC_Location_Empty_Message">Om automatische schakeling op basis van uw locatie te gebruiken, registreert u locaties die u regelmatig bezoekt.</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">Locatie inschakelen</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"De leerfunctie voor locaties die u regelmatig bezoekt en de automatische schakeling van instellingen op basis van locaties van Adaptieve geluidsregeling zijn ingeschakeld, maar locaties kunnen niet worden gedetecteerd aangezien Locatie uitgeschakeld is.
+
+Schakel Locatie in zodat deze functies correct werken."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"De leerfunctie voor locaties die u regelmatig bezoekt en de automatische schakeling van instellingen op basis van locaties van Adaptieve geluidsregeling zijn ingeschakeld, maar locaties kunnen niet worden gedetecteerd aangezien Locatievoorzieningen uitgeschakeld is.
+
+Schakel Locatievoorzieningen in zodat deze functies correct werken.
+Voer de instellingen uit vanuit \"Instellingen\" > [Privacy] > [Locatievoorzieningen] van het mobiele apparaat."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">Locatie inschakelen</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">Locatievoorzieningen inschakelen</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">Schakel Locatie in om de locaties die u regelmatig bezoekt te detecteren.</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">Schakel Locatievoorzieningen in om locaties die u regelmatig bezoekt te detecteren.</string>
+    <string name="ASC_Location_Learning_Location_List">Geleerde locatie</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">Locaties die u regelmatig bezoekt</string>
+    <string name="ASC_Location_Learning_Location_Select_message">Selecteer een locatie die u wilt registreren.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">De leerfunctie is ingeschakeld.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"Door, behalve het gewoon detecteren van uw acties, de locaties die u regelmatig bezoekt te registreren, wordt de automat. schakeling van instellingen op basis van die locatie mogelijk in Adaptieve geluidsregeling. Locaties die u regelmatig bezoekt kunt u gemakkelijk registreren met behulp van de leerfunctie.
+*Het zal meerdere dagen duren na het gebruiken van de leerfunctie om de Locaties die u regelmatig bezoekt te registreren."</string>
+    <string name="ASC_Location_Learning_Tips_notification">U kunt locaties die u regelmatig bezoekt eenvoudig registreren via de leerfunctie.</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">Toegang tot Locatie toestaan</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"De leerfunctie voor locaties die u regelmatig bezoekt en de automatische schakeling van instellingen op basis van locaties van Adaptieve geluidsregeling zijn ingeschakeld, maar locaties kunnen niet worden gedetecteerd aangezien er geen toegang is tot Locatie. Indien altijd toegestaan, worden locatiegegevens verzameld, zelfs wanneer de app is gesloten of niet in gebruik is.
+
+Sta toegang tot Locatie toe zodat deze functies correct werken."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"De leerfunctie voor locaties die u regelmatig bezoekt en de automatische schakeling van instellingen op basis van locaties van Adaptieve geluidsregeling zijn ingeschakeld, maar locaties kunnen niet worden gedetecteerd aangezien er geen toegang is tot Locatie.
+
+Selecteer [Bij gebruik van app] op het volgende scherm om deze functies correct te laten werken."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"De leerfunctie voor locaties die u regelmatig bezoekt en de automatische schakeling van instellingen op basis van locaties van Adaptieve geluidsregeling zijn ingeschakeld, maar locaties kunnen niet worden gedetecteerd aangezien er geen toegang is tot Locatievoorzieningen.
+
+Om deze functies op de achtergrond te laten werken, drukt u op de [Instellingen]-knop, en staat u toegang vanuit [Locatie] altijd toe."</string>
+    <string name="ASC_Location_Permission_Tips_notification">Sta toegang tot Locatie toe om de locaties die u regelmatig bezoekt te detecteren.</string>
+    <string name="ASC_Location_Position_Set">Locatie</string>
+    <string name="ASC_Location_Position_Set_message">Tik om een locatie op te geven.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">Exacte locatie inschakelen</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"De leerfunctie voor locaties die u regelmatig bezoekt en de automatische schakeling van instellingen op basis van locaties van Adaptieve geluidsregeling zijn ingeschakeld, maar locaties kunnen niet worden gedetecteerd aangezien Exacte locatie uitgeschakeld is.
+
+Om deze functies naar behoren te doen werken, drukt u op de [Instellingen]-knop en schakelt u Exacte locatie vanuit [Locatie] in."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">Schakel Exacte locatie in om de locaties die u regelmatig bezoekt te detecteren.</string>
+    <string name="ASC_Location_Range">Bereik</string>
+    <string name="ASC_Location_Range_Param_Large">Groot</string>
+    <string name="ASC_Location_Range_Param_Mid">Standaard</string>
+    <string name="ASC_Location_Range_Param_Small">Klein</string>
+    <string name="ASC_Location_Registration">Locatie registreren</string>
+    <string name="ASC_Location_Setting">Locatie-instellingen</string>
+    <string name="ASC_Location_Sound_Setting">Hoofdtelefooninstellingen</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">Selecteer de instelling om naar te schakelen op deze locatie vanaf [Items toevoegen/verwijderen].</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">Niet schakelen</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">Items toevoegen/verwijderen</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"Selecteer een instelling om op deze locatie te schakelen.
+De instellingen die nog niet geselecteerd werden, behouden de vorige staat zelfs als u deze locatie betreedt."</string>
+    <string name="ASC_Location_Switch_Setting">Schakelmethode</string>
+    <string name="ASC_Location_Type_Bus">Bushalte</string>
+    <string name="ASC_Location_Type_Gym">Fitnesscentrum</string>
+    <string name="ASC_Location_Type_Home">Thuis</string>
+    <string name="ASC_Location_Type_Office">Werkplek</string>
+    <string name="ASC_Location_Type_Other">Overige</string>
+    <string name="ASC_Location_Type_School">School</string>
+    <string name="ASC_Location_Type_Set">Categorie</string>
+    <string name="ASC_Location_Type_Set_message">Selecteer een categorie.</string>
+    <string name="ASC_Location_Type_Train">Station</string>
+    <string name="ASC_NotificationSound">Meldingstoon bij het omschakelen</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">Instelling voor melding toestaan.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"Hoewel de [Schakelen vanuit de melding]-instelling van Adaptieve geluidsregeling ingeschakeld is, worden meldingen niet weergegeven aangezien de instelling voor melding niet is toegestaan.
+
+Sta de instelling voor melding toe om deze functie juist te doen werken."</string>
+    <string name="ASC_NowHere">U bevindt zich op deze locatie</string>
+    <string name="ASC_Others_Section">Overige</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">Registreren vanuit geleerde locaties</string>
+    <string name="ASC_RegisterFromMapBtn">Registreren vanaf kaart</string>
+    <string name="ASC_RegisteredLocation">Geregistreerde locaties</string>
+    <string name="ASC_Status_Empty">Werd niet automatisch geschakeld</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">Uitgeschakeld (u zult de Equalizer handmatig moeten wijzigen)</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*Handmatig schakelen</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">Uitgeschakeld (wegens voorkeur voor geluidskwaliteit)</string>
+    <string name="ASC_Status_Sound_Setting_info">Status van instelling</string>
+    <string name="ASC_Supplement_A2SC_Controlled">Automatisch instellen via Adaptieve geluidsregeling.</string>
+    <string name="ASC_Supplement_Change_Behavior">De instelling verandert automatisch via Adaptieve geluidsregeling als uw actie verandert.</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">De instelling verandert automatisch via Adaptieve geluidsregeling als uw actie en locatie veranderen.</string>
+    <string name="ASC_Supplement_Change_Location">De instelling verandert automatisch via Adaptieve geluidsregeling als uw locatie verandert.</string>
+    <string name="ASC_Supplement_Leave_Location">Keert terug naar de automatische instelling op basis van Adaptieve geluidsregeling als u deze locatie verlaat.</string>
+    <string name="ASC_Switch_Detail_Message">Indien ingesteld op [Schakelen vanuit de melding], kunt u om het even wanneer schakelen naar deze instelling terwijl u zich in deze locatie bevindt.</string>
+    <string name="ASC_Switch_Notification_After_Button">Herstellen</string>
+    <string name="ASC_Switch_Notification_After_Description">U kunt de instelling van voor de schakeling herstellen.</string>
+    <string name="ASC_Switch_Notification_After_Title">Ingesteld op de %s-instelling</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">Schakelen</string>
+    <string name="ASC_Switch_Notification_Before_Description">Wilt u naar de instelling van deze locatie schakelen?</string>
+    <string name="ASC_Switch_Notification_Before_Title">Plaats: %s</string>
+    <string name="ASC_Switch_Type_Auto">Automatisch schakelen</string>
+    <string name="ASC_Switch_Type_Manual">Schakelen vanuit de melding</string>
+    <string name="ASM_Param_ASM">Omgevingsgeluid</string>
+    <string name="ASM_Param_NC">Ruisonderdrukking</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">Uit</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">Aan</string>
+    <string name="ASM_Param_Street">Onderdrukking van windruis</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">Omgevingsgeluid</string>
+    <string name="ASM_Simple_Param_AsmNormal">Omgevingsgeluid - normale modus</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">Omgevingsgeluid - normale modus</string>
+    <string name="ASM_Simple_Param_AsmVoice">Omgevingsgeluid - stemmodus</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">Omgevingsgeluid - stemmodus</string>
+    <string name="ASM_Simple_Param_Asm_forBody">Omgevingsgeluid</string>
+    <string name="ASM_Simple_Param_Dual">Ruisonderdrukking</string>
+    <string name="ASM_Simple_Param_Dual_forBody">Ruisonderdrukking</string>
+    <string name="ASM_Simple_Param_NC">Ruisonderdrukking</string>
+    <string name="ASM_Simple_Param_NC_forBody">Ruisonderdrukking</string>
+    <string name="ASM_Simple_Param_Street">Onderdrukking van windruis</string>
+    <string name="ASM_Simple_Param_Street_forBody">Onderdrukking van windruis</string>
+    <string name="ASM_Simple_Title">Ctrl omgevingsgeluid</string>
+    <string name="ASM_Title">Ctrl omgevingsgeluid</string>
+    <string name="ASM_Voice">Focus op stem</string>
+    <string name="Abort_FWUpdate">Afbreken</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">Niet ingesteld</string>
+    <string name="AppNotify_Custom_Param_Vibration">Trilling</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">Tekst-naar-spraak</string>
+    <string name="AppNotify_Custom_Title">Melding. hoofdtelef.</string>
+    <string name="AppNotify_Detail">Vanaf gesel. applic. meldingen op hoofdtel. ontvangen. Om tekst-naar-spraak-functie te gebruiken, audio van media geselect. in Bluetooth-instell. van mobiele apparaat.</string>
+    <string name="AppNotify_NeedSetup">Selecteer applicaties voor meldingen.</string>
+    <string name="AppNotify_Notification_Message">[%s] ingesch</string>
+    <string name="AppNotify_Setapps">%d applicaties geselecteerd.</string>
+    <string name="AppNotify_Title">Melding. hoofdtelef.</string>
+    <string name="AppSetting_Link">Music Center starten</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">Registreren</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">De momenteel afgespeelde muziek zal stoppen aangezien u de verbinding met de hoofdtelefoon opnieuw moet uitvoeren. Wilt u de wijziging uitvoeren?</string>
+    <string name="Assignable_Key_Changing_Error">De bewerking is mislukt.</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">Wijzigt de functie van de knop</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">U dient over de Amazon Alexa-applicatie te beschikken om deze functie te gebruiken.</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">Amazon Alexa configureren</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">Voltooi de instellingen van de Google Assistant-applicatie om deze functie te gebruiken.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">U dient over de Google Assistant-applicatie te beschikken om deze functie te gebruiken.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google Assistent</string>
+    <string name="Assignable_Key_Elem_Help_Button">Meer informatie</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">De knopbedieningen zijn uitgeschakeld. De koppelingsbediening is beschikbaar met deze instelling.</string>
+    <string name="Assignable_Key_Elem_None_Title">Niets toegewezen</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">De aanraakbediening zal worden uitgeschakeld. De koppelingsbediening is beschikbaar met deze instelling.</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">Afspeelbediening</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">U kunt het mobiele apparaat vanaf de microfoon van de hoofdtelefoon met behulp van uw stem bedienen.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">Spraakassistentiefunctie</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">Volumebediening</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">U kunt de Spraakassistentiefunctie niet aan zowel links als rechts toewijzen.</string>
+    <string name="Assignable_Key_Setting_1">Functie [NC/AMBIENT]-knop wijzigen</string>
+    <string name="Assignable_Key_Setting_2">De functie van de linkerknop wijzigen</string>
+    <string name="Assignable_Key_Setting_Button">De knopfunctie wijzigen</string>
+    <string name="Assignable_Key_Setting_C">Functie [C]-knop wijzigen</string>
+    <string name="Assignable_Key_Setting_CUSTOM">Functie [CUSTOM]-knop wijzigen</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">Opnieuw instel.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">U kunt de functie wijzigen die toegewezen is aan de knop links.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">U kunt de functie wijzigen die toegewezen is aan de knop rechts.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">U kunt de functie wijzigen die toegewezen is aan de [C]-knop.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">U kunt de functie wijzigen die toegewezen is aan de [CUSTOM]-knop.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">U kunt de functie wijzigen die toegewezen is aan de aanraaksensor links.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">U kunt de functie wijzigen die toegewezen is aan de aanraaksensor rechts.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">Functie:</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">Bewerkingsmethode:</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">Links</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">Rechts</string>
+    <string name="Assignable_Key_Setting_Edit_Title">Bewerken</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">Audio-invoer/annuleren</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">Spraakassistentiefunctie annuleren</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">Audio-invoer annuleren</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">Spraakmelding</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">Audio-invoer</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">Spraakassistentiefunctie starten</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">Volgend nummer</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">Afspelen/pauzeren</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">Vorig nummer</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">Ruisonderdrukking/omgevingsgeluid/uit</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">Optimalisatie ruisonderdrukk.</string>
+    <string name="Assignable_Key_Setting_Function_None">Geen</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">Snelle aandacht</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">Volume verlagen</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">Volume verhogen</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">Audio-invoer</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">2 maal drukken</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">2 maal drukken en ingedrukt houden</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">1 maal drukken</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">1 maal drukken en ingedrukt houden</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">3 maal drukken</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">Ingedrukt houden</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">Lang drukken</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">Dubbeltikken</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">Dubbeltikken en ingedrukt houden</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">Tikken</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">Tikken en ingedrukt houden</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">Driemaal tikken</string>
+    <string name="Assignable_Key_Setting_NC">Functie [NC]-knop wijzigen</string>
+    <string name="Assignable_Key_Setting_NCAMB">Functie [NC/AMB]-knop wijzigen</string>
+    <string name="Assignable_Key_Setting_Not_Connected">Niet verbonden.</string>
+    <string name="Assignable_Key_Setting_R">De functie van de rechterknop wijzigen</string>
+    <string name="Assignable_Key_Setting_SaveCheck">De bewerking is niet voltooid. Wilt u afsluiten?</string>
+    <string name="Assignable_Key_Setting_Touch">De aanraaksensorfunctie wijzigen</string>
+    <string name="AutoPlaybackControl_Title">Pauzeert bij afnemen hoofdtelefoon</string>
+    <string name="AutoPowerOff_Off_Parameter">Niet uitschakelen</string>
+    <string name="AutoPowerOff_Off_Title">Niet uitschakelen</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">Indien niet gedragen gedurende een bepaalde tijd, wordt de hoofdtelefoon automatisch uitgeschakeld.</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">Uit bij afnemen van de hoofdtelefoon</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">Uit bij afnemen van de hoofdtelefoon</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Als opgegeven tijd verstreken is na verbreking Bluetooth-verbinding, hoofdtelefoon automatisch uitgeschakeld.</string>
+    <string name="AutoPowerOff_SelectTime_Title">Na bepaalde tijd uitschakelen</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1 uur</string>
+    <string name="AutoPowerOff_SelectTme_30min">30 minuten</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3 uur</string>
+    <string name="AutoPowerOff_SelectTme_5min">5 minuten</string>
+    <string name="AutoPowerOff_Title">Automatisch Uitschakelen</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">Accuniveau</string>
+    <string name="Battery_Remain_Unknown">Accuniveau onbekend</string>
+    <string name="Button_Next">Volgend</string>
+    <string name="Button_Permission_iOS_Settings">Instellingen</string>
+    <string name="Button_Prev">Vorig</string>
+    <string name="Codec_AAC">Via AAC verbonden.</string>
+    <string name="Codec_LDAC">Via LDAC verbonden.</string>
+    <string name="Codec_SBC">Via SBC verbonden.</string>
+    <string name="Codec_aptX">Via aptX verbonden.</string>
+    <string name="Codec_aptXHD">Via aptX HD verbonden.</string>
+    <string name="Common_App_Start">Starten</string>
+    <string name="Common_Back">Terug</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">Gereed</string>
+    <string name="Common_EULA">Eindgebruikerovereenkomst</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">Meer info.</string>
+    <string name="Common_Off">Uit</string>
+    <string name="Common_On">Aan</string>
+    <string name="Common_Other">Overige</string>
+    <string name="Common_PP">Privacybeleid</string>
+    <string name="Common_Pause">Pauzeren</string>
+    <string name="Common_Play">Afspelen</string>
+    <string name="Common_Start">Starten</string>
+    <string name="Common_Yes">Ja</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">Om de instellingen te wijzigen, dient de geluidskwaliteitmodus naar Voorkeur voor stabiele verbinding te worden gewijzigd. Bovendien wordt de verbinding met de hoofdtelefoon opnieuw uitgevoerd en de momenteel afgespeelde muziek gestopt. Wilt u de wijziging uitvoeren?</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">De momenteel afgespeelde muziek zal stoppen aangezien u de verbinding met de hoofdtelefoon opnieuw moet uitvoeren. Bovendien worden de instellingen van de geluidskwaliteit mogelijk onbruikbaar als u naar Voorkeur voor geluidskwaliteit wijzigt. Wijziging uitvoeren?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">De momenteel afgespeelde muziek zal stoppen aangezien u de verbinding met de hoofdtelefoon opnieuw moet uitvoeren. Wilt u de wijziging uitvoeren?</string>
+    <string name="ConnectMode_Changing_Title_Caution">Geluidskwal.mod. moet w. gewijzigd</string>
+    <string name="ConnectMode_Changing_Title_Confirm">Wijzigt de geluidskwaliteitmodus</string>
+    <string name="ConnectMode_Connectivity_Detail">Selecteer deze instelling als het geluid regelmatig hapert.</string>
+    <string name="ConnectMode_Connectivity_Title">Voorkeur voor stabiele verbinding</string>
+    <string name="ConnectMode_Sound_Title">Voorkeur voor geluidskwaliteit</string>
+    <string name="ConnectMode_Title">Geluidskwaliteitmodus</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">Het product (Sony | Headphones Connect) bevat de door Sony Corporation ontwikkelde technologie om activiteit te herkennen die gebaseerd is op onderzoek dat verricht is door Sony Computer Science Laboratories, Inc.</string>
+    <string name="Copyright_AptX">Qualcomm is een handelsmerk van Qualcomm Incorporated, gedeponeerd in de Verenigde Staten en andere landen, en wordt gebruikt met toestemming. aptX is een handelsmerk van Qualcomm Technologies International, Ltd., gedeponeerd in de Verenigde Staten en andere landen, en wordt gebruikt met toestemming.</string>
+    <string name="Copyright_Bluetooth">"Het woordmerk en de logo's van Bluetooth® zijn het eigendom van Bluetooth SIG, Inc. en Sony Corporation gebruikt deze items onder licentie."</string>
+    <string name="Copyright_NFC">De N-markering is een handelsmerk of gedeponeerd handelsmerk van NFC Forum, Inc. in de Verenigde Staten en andere landen.</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">Het meest actuele accuniveau controleren</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">Het weergegeven accuniveau wordt geüpdatet bij het verwijderen van de hoofdtelefoon uit de lader.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">De weergave van het accuniveau van de lader wordt bijgewerkt bij het verwijderen van de hoofdtelefoon uit de lader.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">Wilt u de weergave van het accuniveau van de lader inschakelen?</string>
+    <string name="Cradle_Battery">Lader</string>
+    <string name="Current_Volume_Talkback">Huidig volume</string>
+    <string name="DSEEHX_AI_Param_Auto">Automatisch</string>
+    <string name="DSEEHX_AI_Param_Off">Uit</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">Automatisch</string>
+    <string name="DSEEHX_Param_Off">Uit</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme aan</string>
+    <string name="DSEE_HX_ON">DSEE HX aan</string>
+    <string name="DSEE_ON">DSEE aan</string>
+    <string name="DSEE_Param_Auto">Automatisch</string>
+    <string name="DSEE_Param_Off">Uit</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">Geluid</string>
+    <string name="Dashboard_Tab_Status">Status</string>
+    <string name="Dashboard_Tab_System">Systeem</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Verbonden via Bluetooth.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Niet verbonden via Bluetooth.</string>
+    <string name="Device_Connection_Connect">Verbinden</string>
+    <string name="Device_Connection_Connect_iOS">Met gekoppelde hoofdtelef. verbind.</string>
+    <string name="Device_Connection_Message1">Verbind met de hoofdtelefoon via Bluetooth.</string>
+    <string name="Device_Connection_Pair">Met nieuwe hoofdtelef. verbinden</string>
+    <string name="Device_Registration_Top_Msg">Registratie van een nieuwe hoofdtelefoon.</string>
+    <string name="Download_Latest_MDRPlugin">Nieuwste versie Headphones Connect nodig om deze hoofdtelefoon te gebruiken. Update deze applicatie vanaf Google Play.</string>
+    <string name="Download_Latest_MDRPlugin_iOS">Nieuwste versie Headphones Connect nodig om deze hoofdtelefoon te gebruiken. Update deze applicatie vanaf de App Store.</string>
+    <string name="EBB_Indicator">Electro Bass Booster</string>
+    <string name="EBB_Param_Title">Niveau</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">Akoestisch</string>
+    <string name="EQ_Preset_Bass">Bas verhogen</string>
+    <string name="EQ_Preset_Bright">Levendig</string>
+    <string name="EQ_Preset_Custom">Manueel</string>
+    <string name="EQ_Preset_Dance">Dance</string>
+    <string name="EQ_Preset_EDM">EDM</string>
+    <string name="EQ_Preset_Excited">Enthousiast</string>
+    <string name="EQ_Preset_Jazz">Jazz</string>
+    <string name="EQ_Preset_Mellow">Aangenaam</string>
+    <string name="EQ_Preset_Off">Uit</string>
+    <string name="EQ_Preset_Pop">Pop</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B / Hip Hop</string>
+    <string name="EQ_Preset_Relaxed">Ontspannen</string>
+    <string name="EQ_Preset_Rock">Rock</string>
+    <string name="EQ_Preset_Speech">Spraak</string>
+    <string name="EQ_Preset_Title">Equalizer</string>
+    <string name="EQ_Preset_Treble">Treble verhogen</string>
+    <string name="EQ_Preset_UserSetting">Custom</string>
+    <string name="EQ_Preset_Vocal">Stem</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_nl.html</string>
+    <string name="ErrMsg_CannotAccess_Server">De verbinding met de server is mislukt. Controleer de netwerkverbindingsstatus.</string>
+    <string name="FW_Download_Param_Always">Steeds automatisch downloaden</string>
+    <string name="FW_Download_Param_OnlyWiFi">Alleen bij verbinding via Wi-Fi</string>
+    <string name="FW_Download_Title">Automatisch downloaden van software</string>
+    <string name="FW_EULA_Title">Gebruiksvoorwaarden</string>
+    <string name="FW_Info_Button_Resume">Hervatten</string>
+    <string name="FW_Info_Button_Start">Starten</string>
+    <string name="FW_Info_Caution">"Hoofdtelefoon niet beschikb. voor gebruik tijdens bijwerken.
+Plaats hoofdtel. en mob. apparaat dicht bij elkaar bij start."</string>
+    <string name="FW_Info_Caution_Downloading">"Downloaden afgebroken als hoofdtelefoon en mobiele apparaat van elkaar verwijderd worden of hoofdtelefoon uitgeschakeld.
+Indien afgebroken, kan het downloaden worden hervat."</string>
+    <string name="FW_Info_Caution_Sending">"Overdracht afgebroken als hoofdtelefoon en mob. appar. van elkaar verwijderd of hoofdtelefoon uitgeschakeld.
+Indien afgebroken, kan overdracht worden hervat vanaf waar gestopt werd."</string>
+    <string name="FW_Info_Caution_Start">Start met de hoofdtelefoon en het mobiele apparaat op geringe afstand van elkaar.</string>
+    <string name="FW_Info_EULA">Indrukken van de volgende knop bepaalt dat u instemmingsdocument heeft gecontroleerd en instemt met de inhoud ervan.</string>
+    <string name="FW_Info_EULALink">Gebruiksvoorwaarden</string>
+    <string name="FW_Info_Message1">De laatste hoofdtelefoonsoftware is beschikbaar.</string>
+    <string name="FW_Info_Message2">[Accepteren]-knop om de update te starten.</string>
+    <string name="FW_Info_Message3">[OK]-knop om de update te starten.</string>
+    <string name="FW_Info_Message_Download">Als de [%s]-knop ingedrukt wordt, gaan de voorbereidingen van het bijwerken van start.</string>
+    <string name="FW_Info_Message_Resume">Druk op de [%s]-knop om de overdracht te hervatten.</string>
+    <string name="FW_Info_Message_Update">Druk op de [%s]-knop om het bijwerken te starten.</string>
+    <string name="FW_Info_Title">software Informatie</string>
+    <string name="FW_Info_Version">Versie</string>
+    <string name="FW_Notify_Abort">Afgebroken softwareoverdracht van hoofdtelefoon.</string>
+    <string name="FW_Notify_Detail">Meer informatie</string>
+    <string name="FW_Notify_Downloading">Downloaden van de laatste hoofdtelefoonsoftware... (%d%%)</string>
+    <string name="FW_Notify_Msg">De laatste hoofdtelefoonsoftware is beschikbaar.</string>
+    <string name="FW_Notify_Sending">Overdragen van de laatste hoofdtelefoonsoftware... (%d%%)</string>
+    <string name="FW_Notify_Update">Werk de hoofdtelefoonsoftware bij.</string>
+    <string name="FW_Update_Button_Transit_AppStore">Vanaf de App Store updaten</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">Vanaf Google Play updaten</string>
+    <string name="FW_Update_Message1">Even geduld...</string>
+    <string name="FW_Update_Message2">"Schakel het apparaat niet uit.
+Verwijder de hoofdtelefoon en het mobiele apparaat niet van elkaar."</string>
+    <string name="FW_Update_Message3">"Start automatisch opnieuw op.
+Verwijder de hoofdtelefoon en het mobiele apparaat niet van elkaar."</string>
+    <string name="FW_Update_Message_step2_1">Overdracht naar de linkereenheid</string>
+    <string name="FW_Update_Message_step2_2_1">Bijwerking linkereenheid hoofdtelefoon</string>
+    <string name="FW_Update_Message_step2_2_2">"Bijwerking van de linkereenheid van de hoofdtelefoon voltooid.
+Verbinding met de rechtereenheid"</string>
+    <string name="FW_Update_Message_step2_2_3">Overdracht naar rechtereenh. Voorber</string>
+    <string name="FW_Update_Message_step2_3">Overdracht naar de rechtereenheid</string>
+    <string name="FW_Update_Retry_Body_Caution">"Voorafgaand aan het bijwerken van de software moet u de functie \"Google Assistant\" uitschakelen.
+Zodra de functie \"Google Assistant\" is uitgeschakeld, wordt de hoofdtelefoon automatisch geherstart en dient u de pop-up instructies te volgen.
+Nadat de software is bijgewerkt kunt u handmatig terug inschakelen in de \"Google Assistant\" instellingen."</string>
+    <string name="FW_Update_Retry_Title_Caution">\"Google Assistant\" functie moet worden uitgeschakeld</string>
+    <string name="FW_Update_Status_Abort">Afgebroken softwareoverdracht van hoofdtelefoon.</string>
+    <string name="FW_Update_Status_Download">Bezig met downloaden van de software...</string>
+    <string name="FW_Update_Status_Download_step1">Software downloaden... (1/3)</string>
+    <string name="FW_Update_Status_Downloading">Downloaden van de laatste hoofdtelefoonsoftware...</string>
+    <string name="FW_Update_Status_Install">Bezig met updaten...</string>
+    <string name="FW_Update_Status_Install_step3">Software bijwerken... (3/3)</string>
+    <string name="FW_Update_Status_Prepared">Werk de hoofdtelefoonsoftware bij.</string>
+    <string name="FW_Update_Status_Send">Bezig met overdragen van de software...</string>
+    <string name="FW_Update_Status_Send_step2">Software overdragen... (2/3)</string>
+    <string name="FW_Update_Status_Sending">Overdragen van de laatste hoofdtelefoonsoftware...</string>
+    <string name="FW_Update_Title">Software-update</string>
+    <string name="FW_Version_Confirm_Title">%s Versie</string>
+    <string name="FW_Version_Menu_Title">%s Versie</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">nl</string>
+    <string name="GoogleAssistantIntro_Link">Uw Google Assistant configureren</string>
+    <string name="GoogleAssistantIntro_Msg">Krijg onmiddellijke toegang tot uw eigen, persoonlijke Google en meer. De configuratie duurt slechts een paar minuten.</string>
+    <string name="GoogleAssistantIntro_Title">Nu geoptimaliseerd voor Google Assistant.</string>
+    <string name="Help_Information_Priority_High">Raadpleeg hier</string>
+    <string name="Help_Troubleshooting">Probleemoplossing</string>
+    <string name="IASetup_AnalyzeComplete_Detail">Verzend vervolgens deze resultaten naar een muziekapplicatie om uw 360 Reality Audio-ervaring te optimaliseren.</string>
+    <string name="IASetup_AnalyzeComplete_Title">Uw oren zijn met succes geanalyseerd</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"Maak foto's van uw oren voor analyse.
+Voordat u de foto's maakt, moet u er voor zorgen dat uw oren volledig zichtbaar zijn en het volgende controleren:
+
+- Verwijder de hoofdtelefoon van uw oren.
+- Uw oren zijn niet bedekt door haar.
+- Verwijder oorbellen en piercings."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">Uw oorvorm analyseren</string>
+    <string name="IASetup_Analyze_Cmd_Retry">Opnieuw analyseren</string>
+    <string name="IASetup_Analyze_Cmd_Start">Analyseren</string>
+    <string name="IASetup_Analyze_Detail">Dit zal ongeveer %d seconden in beslag nemen.</string>
+    <string name="IASetup_Analyze_Label">Oorvorm analyseren</string>
+    <string name="IASetup_Analyze_Status_Done">Uw oren zijn geanalyseerd</string>
+    <string name="IASetup_Analyze_Status_NotComp">Uw oren zijn niet geanalyseerd</string>
+    <string name="IASetup_Analyze_Title">Uw oren worden geanalyseerd</string>
+    <string name="IASetup_AppDetail_NotInstalled">Niet geïnstalleerd</string>
+    <string name="IASetup_AppDetail_NotOptimized">Niet geoptimaliseerd</string>
+    <string name="IASetup_AppDetail_Optimized">Geoptimaliseerd</string>
+    <string name="IASetup_AppInstallConf_Title">U moet terug naar Headphones Connect gaan na de installatie.</string>
+    <string name="IASetup_AppInstall_Detail">De 360 Reality Audio-instellingen zijn voltooid wanneer de applicatie wordt gestart na de installatie ervan. De muziekapplicatie is geoptimaliseerd om een nauwkeurig geluidsveld te reproduceren.</string>
+    <string name="IASetup_AppInstall_Detail_iOS">Na de installatie van de applicatie en voltooiing van de 360 Reality Audio-instellingen, is de muziekapplicatie geoptimaliseerd om een nauwkeurig geluidsveld te reproduceren.</string>
+    <string name="IASetup_AppInstall_Install">Installeren en optimaliseren</string>
+    <string name="IASetup_AppInstall_Install_iOS">Installeren</string>
+    <string name="IASetup_AppInstall_Title">360 Reality Audio-instellingen voltooid wanneer appl. gestart.</string>
+    <string name="IASetup_AppInstall_Title_iOS">Installeer deze applicatie op uw telefoon.</string>
+    <string name="IASetup_AppIntroduction_Detail">"Om naar deze immersieve muziekervaring te luisteren, moet u over een van deze muziekserviceapplicaties voor 360 Reality Audio beschikken.
+*Abonnementskosten en toepasbare inhoud variëren naargelang de muziekservice."</string>
+    <string name="IASetup_AppIntroduction_Title">Beschikbare muziekapplicaties voor 360 Reality Audio</string>
+    <string name="IASetup_AppLaunch_Detail">"Na voltooiing 360 Reality Audio-config. kunt u van muziekweerg. met nauwkeurige geluidsveld genieten.
+Geniet van voor u geoptimal. 360 Reality Audio."</string>
+    <string name="IASetup_AppLaunch_Optimize">Starten om te optimaliseren</string>
+    <string name="IASetup_AppLaunch_Title">360 Reality Audio-instellingen voltooid wanneer appl. gestart.</string>
+    <string name="IASetup_AppList_Detail">"360 Reality Audio is alleen beschikbaar vanuit deze muziekserviceapplicaties. Selecteer een applicatie die u wenst te gebruiken.
+*Abonnementskosten en toepasbare inhoud variëren naargelang de muziekservice."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">Niet geïnstalleerd</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">Niet geoptimaliseerd</string>
+    <string name="IASetup_AppList_Gp_Optimized">Geoptimaliseerd</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">Kon niet herkennen.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">Beweeg uw hoofd niet.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">Beweeg de smartphone niet.</string>
+    <string name="IASetup_CameraInstruction_Complete">Foto gemaakt.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">Uw oor is gedetecteerd. Beweeg uw hoofd niet.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">Linkeroor wordt gedetecteerd...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">Rechteroor wordt gedetecteerd...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">De positie is nu juist. Vanaf deze positie draait u uw hoofd langzaam naar rechts.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">Draai uw hoofd langzaam naar rechts.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">De positie is nu juist. Vanaf deze positie draait u uw hoofd langzaam naar links.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">Draai uw hoofd langzaam naar links.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"Maak een foto van uw linkeroor. Verwijder uw hoofdtelefoon.
+Draai uw hoofd naar rechts en druk op de ontspanknop."</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"Verwijder uw hoofdtelefoon.
+Draai uw hoofd naar rechts zodat uw oor in het kader is en druk op de ontspanknop."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"Maak een foto van uw rechteroor. Verwijder uw hoofdtelefoon.
+Draai uw hoofd naar links en druk op de ontspanknop."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"Verwijder uw hoofdtelefoon.
+Draai uw hoofd naar links zodat uw oor in het kader is en druk op de ontspanknop."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">Gelieve de camera verder van uw hoofd vandaan te verplaatsen.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">Gelieve de camera dichterbij te brengen.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">Kantel de camera een beetje omlaag.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"Verwijder uw hoofdtelefoon.
+Plaats dan uw hoofd binnen het kader terwijl u naar de voorkant van de camera kijkt."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">Roteer de camera een beetje naar links.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">Roteer de camera een beetje naar rechts.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">Kantel de camera een beetje omhoog.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">Verwijder uw hoofdtelefoon.</string>
+    <string name="IASetup_CompletePhotograph_Detail">Start met de analyse van uw oorvorm.</string>
+    <string name="IASetup_CompletePhotograph_Title">Uw rechteroor is met succes vastgelegd</string>
+    <string name="IASetup_Confirm_NonBT_Device">Druk op de [%s]-knop om de instellingen van de hoofdtelefoon uit te voeren.</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">Om naar de immersieve geluiden te luisteren van 360 Reality Audio en deze te vergelijken, moeten de volgende instellingen uitgeschakeld zijn.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">Om immersieve 360 Reality Audio op muziekserviceapplicaties af te spelen, moeten de volgende instellingen uitgeschakeld zijn.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">Uitschakel. en afspel.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">Uitschakel. en starten</string>
+    <string name="IASetup_EarPhoto_Auto">Automatische opname (aanbevolen)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">Automatische opname</string>
+    <string name="IASetup_EarPhoto_Manual">Handmatige opname</string>
+    <string name="IASetup_FailurePhotograph_Detail">Bevestig de volgende opmerking en maak een nieuwe foto van uw oor.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">Uw linkeroor wordt niet herkend</string>
+    <string name="IASetup_FailurePhotograph_R_Title">Uw rechteroor wordt niet herkend</string>
+    <string name="IASetup_FeatureTitle">360 Reality Audio-configuratie</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">Bevestigd</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">Doorgaan zonder een coupon te gebruiken</string>
+    <string name="IASetup_FreeTrialCoupon_Start">Naar couponsite gaan</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">Controleer de oriëntatie van uw oor en pas de positie en de grootte aan met behulp van de gids.</string>
+    <string name="IASetup_LearnMore">Meer weten over 360 Reality Audio</string>
+    <string name="IASetup_LearnMore_AboutApp">Ga hier voor details over de muziekservice</string>
+    <string name="IASetup_Link_EarPhotoSample">Positie en grootte van het oor</string>
+    <string name="IASetup_Link_Handling_EarPhoto">Hoe uw persoonl. gegevens worden gebruikt</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">Waarom we een foto van uw oren maken?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">Over naar muz.serv.app. te verzenden info.</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">Contoleer of uw hele oor in het kader is en druk op de [%s]-knop.</string>
+    <string name="IASetup_NeedToUpdateApp_Title">Update vereist.</string>
+    <string name="IASetup_OOBE_Title">Over 360 Reality Audio</string>
+    <string name="IASetup_Optimize_Cmd_AppList">Bevestigen</string>
+    <string name="IASetup_Optimize_Cmd_Install">Installeren</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">Optimaliseren</string>
+    <string name="IASetup_Optimize_Label">Applicaties optimaliseren</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">360 Reality Audio-applicaties zijn niet geïnstalleerd</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">360 Reality Audio-applicaties zijn nog niet geoptimaliseerd</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">Er zijn geen geoptimaliseerde 360 Reality Audio-applicaties</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d applicatie(s) is/zijn geoptimaliseerd</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"Draai op volgende scherm de cam. aan voorzijde naar uw gezicht. Opname automat. uitgevoerd wanneer oren gedetecteerd.
+
+1. Houd mob. appar. met beide handen voor gezicht vast.
+2. Als gezicht gedetect., draai hoofd naar rechts in overeenstemming met stembegeleiding.
+3. Blijf stil tot opname autom. uitgevoerd."</string>
+    <string name="IASetup_PhotographEar_Title">Een foto van uw linkeroor maken</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">Verwijder de oorbellen.</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- Maak een foto van uw linkeroor.
+- Als de opnamelocatie te helder of te donker is, verander van locatie.
+- Verwijder de hoofdtelefoon van uw oor."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- Maak een foto van uw rechteroor.
+- Als de opnamelocatie te helder of te donker is, verander van locatie.
+- Verwijder de hoofdtelefoon van uw oor."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">Zorg ervoor dat uw haar uw oren niet bedekt.</string>
+    <string name="IASetup_Photograph_Ear_L">Linkeroor</string>
+    <string name="IASetup_Photograph_Ear_R">Rechteroor</string>
+    <string name="IASetup_Photograph_Retake">Nieuwe foto</string>
+    <string name="IASetup_Photograph_Take">Een foto maken</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">Normale audio</string>
+    <string name="IASetup_Select_NonBT_Button">Naar het dashboard gaan</string>
+    <string name="IASetup_SetupStart">Configuratie starten</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">Voltooid</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">Maak een foto van uw oren voor analyse.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">Uw oren zijn niet geanalyseerd</string>
+    <string name="IASetup_SetupSummary_Detail">We kunnen het beste geluidsveld nauwkeurig voor u reproduceren door de vorm van uw oren te analyseren.</string>
+    <string name="IASetup_SetupSummary_Optimize">Stap 2 starten</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d applicatie(s) is/zijn geoptimaliseerd</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">Optimaliseer muziekserviceapplicatie door ooranalyseresultaten te verzenden.</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">360 Reality Audio-applicaties zijn niet geïnstalleerd</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">360 Reality Audio-applicaties zijn niet geoptimaliseerd</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">Stap 1 starten</string>
+    <string name="IASetup_SetupSummary_Title">Optimaliseer uw 360 Reality Audio-geluidsveld</string>
+    <string name="IASetup_Setup_Complete">Uw 360 Reality Audio-geluidsveld is voltooid</string>
+    <string name="IASetup_Setup_Title">360 Reality Audio-configur.</string>
+    <string name="IASetup_SoundPreview_Detail">Probeer het muziekvoorbeeld onderaan om het verschil te horen.</string>
+    <string name="IASetup_SoundPreview_Title">Ervaar 360 Reality Audio</string>
+    <string name="IASetup_StartAnalyze">Starten</string>
+    <string name="IASetup_SuccessPhotograph_Detail">Maak vervolgens een foto van uw rechteroor.</string>
+    <string name="IASetup_SuccessPhotograph_Title">Uw linkeroor is met succes vastgelegd</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">Applicaties optimaliseren</string>
+    <string name="IASetup_TipsDetail_Description">Om van ervaringen van audio-immersie te genieten in 360 Reality Audio-muziekserviceapplicaties, moeten de muziekserviceapplicaties geoptimaliseerd worden door ooranalyseresultaten te verzenden.</string>
+    <string name="IASetup_TipsDetail_Title">De 360 Reality Audio-instelling is nog steeds niet voltooid.</string>
+    <string name="IASetup_UpdateApp">Updaten</string>
+    <string name="IASetup_Welcome_Detail">Het afspelen van 360 Reality Audio op uw hoofdtelefoon zorgt voor een immersieve audio-ervaring die zo werkelijk is als een live optreden.</string>
+    <string name="IASetup_Welcome_Title">Welkom op 360 Reality Audio</string>
+    <string name="IAWM_Analyze_Cmd_Retry">Creëer opnieuw</string>
+    <string name="IAWM_Analyze_Cmd_Start">Creëer</string>
+    <string name="IAWM_Analyze_Label">Een persoonlijk gehoorprofiel aanmaken</string>
+    <string name="IAWM_Analyze_Status_Done">Voltooid</string>
+    <string name="IAWM_Analyze_Status_NotComp">Onvoltooid</string>
+    <string name="IAWM_Complete_Data_Title">Het ontvangen van uw gehoorprofiel is voltooid</string>
+    <string name="IAWM_Confirmation_Dialog1">"Uw gehoorprofiel is al opgeslagen.
+Wilt u het profiel van de server ontvangen en doorgaan met de optimalisatie van de applicatie?"</string>
+    <string name="IAWM_Hrtf_App_Button">Begin met ontvangen</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"Ontvangst van uw luisterprofiel is mislukt.
+Controleer deze netwerkverbinding en wacht even en probeer het opnieuw."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"Kon uw gehoorprofiel niet van de server ontvangen.
+Bevestig dat het aanmaken van uw gehoorprofiel voltooid is op de smartphone en druk opnieuw op de knop om het ontvangen te starten."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"Kon uw gehoorprofiel niet van de server ontvangen.
+Nadat u het volgende gecontroleerd hebt, gaat u nogmaals naar het volgende scherm en begint u met ontvangen.
+- De creatie van uw luisterprofiel op de smartphone is voltooid
+- U bent op deze Walkman op hetzelfde account aangemeld bij zowel 360 Spatial Sound Personalizer als Headphones Connect"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">Installeer de 360 Spatial Sound Personalizer-applicatie op uw smartphone, meld aan met dezelfde account als die van deze Walkman, en maak een foto van uw oren door de instructies op het scherm te volgen.</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">Maakt uw gehoorprofiel aan op een smartphone</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">Begin met ontvangen</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"Scan de QR-code met een smartphone. Als u niet kunt scannen, dan zoekt u naar de \"360 Spatial Sound Personalizer\"-applicatie in applicatiewinkels.
+Na het afronden van de creatie van uw luisterprofiel ontvangt deze Walkman uw luisterprofiel automatisch, dus blijf op dit scherm."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"Scan de QR-code met een smartphone. Als u niet kunt scannen, dan zoekt u naar de \"360 Spatial Sound Personalizer\"-applicatie in applicatiewinkels.
+Nadat het aanmaken van uw gehoorprofiel voltooid is, drukt u op de knop onderaan, en start het ontvangen."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">De applicatie op een smartphone installeren</string>
+    <string name="IAWM_Need_Sign_in_Description">Meld aan bij uw account om uw gehoorprofiel te gebruiken dat u op het punt staat aan te maken of reeds heeft aangemaakt.</string>
+    <string name="IAWM_Need_Sign_in_Title">Aanmelden vereist</string>
+    <string name="IAWM_Recieve_Data_Title">Bezig met ontvangen van uw gehoorprofiel van de server...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">Maak een foto van uw oren met behulp van de 360 Spatial Sound Personalizer-applicatie en maak uw gehoorprofiel aan.</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">Uw gehoorprofiel is al aangemaakt.</string>
+    <string name="IAWM_SetupSummary_Description">Verzend vervolgens uw gehoorprofiel naar de muziekserviceapplicaties voor 360 Reality Audio om een nauwkeurig geluidsveld te reproduceren.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">Gaat terug naar de Walkman en verzendt uw gehoorprofiel, en optimaliseert vervolgens de muziekserviceapplicaties voor 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">Verzendt uw gehoorprofiel en optimaliseert de muziekserviceapplicaties voor 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Title">Het aanmaken van uw gehoorprofiel is voltooid</string>
+    <string name="IAWM_Start_Recieving_Title">Begin opnieuw met het ontvangen van uw luisterprofiel.</string>
+    <string name="InformationNotification_List_Info_Empty_Title">Momenteel is er geen informatie of zijn er geen enquêtes.</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">Informatie en enquêtes worden hier weergegeven.</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">Gebruikstips worden hier weergegeven.</string>
+    <string name="InformationNotification_List_Tips_Section">Tips</string>
+    <string name="InformationNotification_List_Title">Informatie</string>
+    <string name="InformationNotification_New_Talkback_1">Er is nieuwe informatie.</string>
+    <string name="InformationNotification_New_Talkback_2">Er is een nieuw item.</string>
+    <string name="InformationNotification_New_Talkback_3">Dit is een nieuw item.</string>
+    <string name="InformationToUsersLangCode">nl</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">De applicatie detecteert uw acties en de locaties die u regelmatig bezoekt en schakelt automatisch de instellingen van de hoofdtelefoon, zoals de manier waarop het omgevingsgeluid wordt ingenomen.</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">De applicatie detecteert uw acties en past de manier waarop het omgevingsgeluid wordt ingenomen automatisch aan.</string>
+    <string name="InitialSetup_IASetup_Detail">Dit is om de 360 Reality Audio-geluidservaring te optimaliseren om van een ervaring van audio-immersie te genieten die zo werkelijk is als live optreden.</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">Start de configuratie en geniet volop van de functies van de hoofdtelefoon.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">Naar het dashboard gaan</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">Configuratie is voltooid.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">De instellingen kunnen om het even wanneer op het dashboard worden gewijzigd.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">Dit is de laatste stap van de instellingen.</string>
+    <string name="InitialSetup_OverallSetup_Title">Configuratie</string>
+    <string name="InstructionGuide_CoachMark">Om de hoofdtelefoon comfortabel te gebruiken, raadpleegt u de [Zelfstudie voor de %s].</string>
+    <string name="InstructionGuide_Menu_Title">Zelfstudie voor de %s</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">[OK]-knop om de overdracht te starten.</string>
+    <string name="LanguageData_Info_Message_1">"Schakel het apparaat niet uit.
+Verwijder de hoofdtelefoon en het mobiele apparaat niet van elkaar."</string>
+    <string name="LanguageData_Info_Message_2">"Start automatisch opnieuw op.
+Verwijder de hoofdtelefoon en het mobiele apparaat niet van elkaar."</string>
+    <string name="LanguageData_Restriction">"Hoofdtel. nt beschikb. tdns overdracht. Kan ong. %d min dur.
+Start met hoofdtel.+mob. appar. op geringe afst. van elk."</string>
+    <string name="Left_Headphones">Linkereenheid</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"Kan niet overschakelen tijdens een verbinding met een andere hoofdtelefoon.
+Verbreek de verbinding met de verbonden hoofdtelefoon."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">De registratie van locaties is niet voltooid. Wilt u sluiten?</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"Toegang tot Locatie dient altijd te worden toegestaan om de locaties die u regelmatig bezoekt te detecteren, zelfs op de achtergrond.
+
+Druk op de [Instellingen]-knop en selecteer [Altijd toestaan] vanuit [Toestemmingen] > [Locatie]. Indien altijd toegestaan, worden locatiegegevens verzameld, zelfs wanneer de app is gesloten of niet in gebruik is."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">Toegang tot Locatie vanuit de instellingen van het mobiele apparaat dient altijd te worden toegestaan om de locaties die u regelmatig bezoekt te detecteren.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">Toegang tot Locatie vanuit de instellingen van het mobiele apparaat dient altijd te worden toegestaan om de locaties die u regelmatig bezoekt te detecteren, zelfs op de achtergrond.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">Toegang tot Locatie dient altijd te worden toegestaan om de locaties die u regelmatig bezoekt te detecteren, zelfs op de achtergrond. Indien altijd toegestaan, worden locatiegegevens verzameld, zelfs wanneer de app is gesloten of niet in gebruik is. Bevestig de inhoud op het volgende scherm.</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">Wilt u de registratie van deze locatie annuleren?</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">Locatie moet ingeschakeld zijn vanuit de instellingen van het mobiele apparaat om de locaties die u regelmatig bezoekt te detecteren.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"Locatie wordt gebruikt om de locaties die u regelmatig bezoekt te detecteren.
+Schakel Locatie in."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"Locatievoorzieningen moeten ingeschakeld zijn om de locaties die u regelmatig bezoekt te detecteren.
+
+Voer de instellingen uit vanuit \"Instellingen\" > [Privacy] > [Locatievoorzieningen] van het mobiele apparaat."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">Er zijn geen geleerde locaties die u kunt registreren.</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">Toegang tot Locatie vanuit de instellingen van het mobiele apparaat is vereist om de locaties die u regelmatig bezoekt te detecteren.</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"Toegang tot Locatie is vereist om de locaties die u regelmatig bezoekt te detecteren.
+Sta toegang tot Locatie toe. Indien altijd toegestaan, worden locatiegegevens verzameld, zelfs wanneer de app is gesloten of niet in gebruik is."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"Toegang tot Locatie is vereist om de locaties die u regelmatig bezoekt te detecteren.
+Selecteer [Bij gebruik van app]."</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"Toegang tot Locatie dient altijd te worden toegestaan om de locaties die u regelmatig bezoekt te detecteren, zelfs op de achtergrond.
+
+Druk op de [Instellingen]-knop en sta toegang vanuit [Locatie] altijd toe."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"Exacte locatie moet ingeschakeld zijn om de locaties die u regelmatig bezoekt te detecteren.
+
+Druk op de [Instellingen]-knop en schakel Exacte locatie vanuit [Locatie] in."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"Om locaties te registreren, dient een hoofdtelefoon die Adaptieve geluidsregeling ondersteunt verbonden te zijn.
+Nadat er een verbinding tot stand gebracht is met de hoofdtelefoon, selecteert u [%s] vanuit het menu rechtsboven van het dashboard, en hervat u het registratieproces."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"Om te bewerken, moet de Geluidskwaliteitmodus naar [Voorkeur voor stabiele verbinding] worden gewijzigd.
+Bovendien wordt de hoofdtelefoon opnieuw verbonden en zal de huidig weergegeven muziek stoppen. Wilt u wijzigen?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"Kan geen extra locaties registreren.
+Annuleer de registratie van overbodige locaties."</string>
+    <string name="Msg_ASC_Registration_Comp">%s geregistreerd.</string>
+    <string name="Msg_Abort_FWUpdate">"Wilt u de software-update afbreken?
+Indien afgebroken, kunt u de update vanaf het stoppunt hervatten."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">Sta toegang tot het mobiele apparaat vanaf \"Instellingen\" > [Headphones] > [Locatie] toe.</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"Bij gebruik van Locatie wordt de nauwkeurigheid van de detectie van acties verbeterd. Afhankelijk van de locatie kunnen de instellingen van de hoofdtelefoon ook automatisch worden geschakeld.
+Om deze functies op de achtergrond te laten werken dient Locatie altijd te worden toegestaan.
+
+Druk op de [Instellingen]-knop en sta toegang vanuit [Locatie] altijd toe."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"Locatie gebruiken verhoogt nog meer de nauwkeurigheid van de Adaptieve geluidsregeling.
+Druk op de [Instellingen]-knop en sta de toegang vanuit [Locatie] toe."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">Om de nauwkeurigheid van de adaptieve geluidsregeling te verbeteren, is het aangeraden om GPS te gebruiken. Schakel GPS IN vanuit de instellingen van het mobiele apparaat.</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">Om de nauwkeurigheid van de adaptieve geluidsregeling te verbeteren, is het aangeraden om toegang tot locatiegegevens toe te staan.</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">De bewerking is niet voltooid. Wilt u afsluiten?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"Bij gebruik van Locatie wordt de nauwkeurigheid van de detectie van acties door Adaptieve geluidsregeling verbeterd. Afhankelijk van de locatie kunnen de instellingen van de hoofdtelefoon ook automatisch worden geschakeld.
+Sta toegang tot Locatie toe."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"Bij gebruik van Locatie wordt de nauwkeurigheid van Adaptieve geluidsregeling verbeterd.
+Sta de toegang tot Locatie toe."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"Bij gebruik van Locatie wordt de nauwkeurigheid van Adaptieve geluidsregeling verbeterd.
+Sta de toegang tot Locatie toe."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"Bij gebruik van Locatie wordt de nauwkeurigheid van de detectie van acties door Adaptieve geluidsregeling verbeterd. Afhankelijk van de locatie kunnen de instellingen van de hoofdtelefoon ook automatisch worden geschakeld.
+Selecteer [Bij gebruik van app]."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"Bij gebruik van Locatie wordt de nauwkeurigheid van de detectie van acties door Adaptieve geluidsregeling verbeterd. Afhankelijk van de locatie kunnen de instellingen van de hoofdtelefoon ook automatisch worden geschakeld.
+Schakel Locatie-instellingen in."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"Bij gebruik van Locatie wordt de nauwkeurigheid van Adaptieve geluidsregeling verbeterd.
+Schakel Locatie IN."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"Bij inschakeling van Locatievoorzieningen wordt de nauwkeurigheid van de detectie van acties door Adaptieve geluidsregeling verbeterd. Afhankelijk van de locatie kunnen de instellingen van de hoofdtelefoon ook automatisch worden geschakeld.
+Voer de instellingen uit vanuit \"Instellingen\" > [Privacy] > [Locatievoorzieningen] van het mobiele apparaat."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"Het inschakelen van Locatievoorzieningen verhoogt nog meer de nauwkeurigheid van de Adaptieve geluidsregeling.
+Voer de instellingen uit vanuit \"Instellingen\" > [Privacy] > [Locatievoorzieningen] van het mobiele apparaat."</string>
+    <string name="Msg_Agree_EULAPP">Ik heb bovenstaande inhoud gelezen en ben akkoord.</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">U dient de toegang tot meldingen goed te keuren om deze functie te gebruiken. Selecteer [%1$s] en activeer de %2$s-instelling.</string>
+    <string name="Msg_Check_EULA">Bevestig %s.</string>
+    <string name="Msg_Check_EULAPP">Bevestig de %1$s en het %2$s.</string>
+    <string name="Msg_CompleteUpdate">Het bijwerken van de software is voltooid.</string>
+    <string name="Msg_Complete_Language_Setting">De taalwijziging is voltooid.</string>
+    <string name="Msg_ConfirmBattery_MDR">Het accuniveau is onvoldoende. Laad de hoofdtelefoon voldoende op, verbind hem en probeer het opnieuw.</string>
+    <string name="Msg_ConfirmBattery_Mobile">Het accuniveau is onvoldoende. Laad het mobiele apparaat en probeer het opnieuw.</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">Om de instellingen te wijzigen, dient u de update van de software te annuleren. Zelfs in geval van annulering, kan de software-update opnieuw worden uitgevoerd. Wenst u ze te wijzigen?</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">De software-update moet worden geannuleerd</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">De Equalizer en %s tegelijk gebruiken verhoogt het verbruik van de accu van de hoofdtelefoon en kan de continue afspeeltijd verkorten. Wilt u wijzigen?</string>
+    <string name="Msg_Confirm_L_connection">"De linkereenheid van de hoofdtelefoon is niet verbonden met het mobiele apparaat.
+Controleer of de linkereenheid van de hoofdtelefoon ingeschakeld is en probeer het opnieuw."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">Wilt u de taalwijziging annuleren?</string>
+    <string name="Msg_Confirm_R_connection">"De rechtereenheid van de hoofdtelefoon is niet verbonden met het mobiele apparaat.
+Controleer of de rechtereenheid van de hoofdtelefoon ingeschakeld is en probeer het opnieuw."</string>
+    <string name="Msg_Confirm_network_connection">Het mobiele apparaat is niet verbonden met het netwerk. Breng verbinding tot stand met netwerk en probeer opnieuw.</string>
+    <string name="Msg_ConnectDevice">Verbind met een hoofdtelefoon met behulp van de volgende knop.</string>
+    <string name="Msg_ConnectDevice_talkback">"Verbonden met %s.
+Geeft het dashboard weer."</string>
+    <string name="Msg_ConnectMode_Changing_Error">De bewerking is mislukt.</string>
+    <string name="Msg_ConnectNewDevice">Met nieuwe hoofdtelef. verbinden</string>
+    <string name="Msg_ConnectionFailed">Verbinding mislukt.</string>
+    <string name="Msg_ConnectionFailed_Internet">Kan de inhoud niet weergeven. Controleer uw internetverbinding.</string>
+    <string name="Msg_ConnectionFailed_SRT">"Kan geen verbinding tot stand brengen met %s.
+Controleer of het apparaat ingeschakeld is."</string>
+    <string name="Msg_DataError">Het downloaden van de software is mislukt.</string>
+    <string name="Msg_Disabled_Language_Setting">"De taal kan niet worden gewijzigd tijdens de softwareoverdracht van de hoofdtelefoon.
+Probeer het opnieuw nadat de softwareoverdracht voltooid is."</string>
+    <string name="Msg_DownloadFailed">Het downloaden van de software is mislukt.</string>
+    <string name="Msg_EmptyDevice">Druk op de knop [+] en registreer het apparaat.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"Om de software van deze hoofdtelefoon te updaten, dient u over de meest recente versie van Headphones Connect te beschikken.
+Update deze applicatie vanaf Google Play."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"Om de software van deze hoofdtelefoon te updaten, dient u over de meest recente versie van Headphones Connect te beschikken.
+Update deze applicatie vanaf de App Store."</string>
+    <string name="Msg_FWVer_unmatched">Het bijwerken van de software is mislukt.</string>
+    <string name="Msg_Failed_Language_Setting">De wijziging van de taal is mislukt.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">Kan de software van de hoofdtelefoon niet bijwerken in uw iOS-versie.</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"Sta de toestemming toe vanuit de instellingen van het mobiele apparaat als volgt:
+[Instellingen] -> [Hoofdtelefoon] -> [Camera]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">Druk op de [Instellingen]-knop en sta toegang vanuit [Toestemmingen] > [Camera] toe.</string>
+    <string name="Msg_IASetupAllowCamera">Sta de toestemming toe om een foto te maken.</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">Sta de toestemming toe vanuit de instellingen van het mobiele apparaat</string>
+    <string name="Msg_IASetup_AppInstallConf">Na de installatie van \"%s\", gaat u terug naar Headphones Connect, en voltooit u de 360 Reality Audio-instellingen.</string>
+    <string name="Msg_IASetup_AppOptimizing">Voorbereiding voor optimalisatie. Even geduld...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"De foto's die gemaakt zijn van uw oor met behulp van het volgende proces worden naar Sony's server gezonden voor analyse om voor u een geoptimaliseerd geluidsveld te bieden gebaseerd op de vorm van uw oor.
+Na de voltooiing van deze analyse, worden deze foto's op onze servers bewaard zonder deze met u persoonlijk in verband te brengen.
+Zulke foto's worden enkel voor onderzoek gebruikt om onze ooranalysefunctie te verbeteren, en worden na 30 dagen vernietigd."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- We gebruiken foto's van uw oren om het geluidsveld voor u te optimaliseren, gebaseerd op de vorm van uw oor. We doen dit OM ONS RECHTMATIG BELANG TE WAARBORGEN BIJ HET AANMAKEN VAN GEOPTIMALISEERDE GELUIDSVELDEN VOOR U. We verwijderen de foto's onmiddellijk wanneer de analyse voltooid is.
+- Sony Home Entertainment &amp; Sound Products Inc. is verantwoordelijk voor deze verwerking. We gebruiken een server in de Verenigde Staten, onderhouden door een derde. We gebruiken modelcontractbepalingen die door de Europese Commissie goedgekeurd zijn om uw gegevens in de Verenigde Staten te beschermen.
+- Neem contact met ons op via privacyoffice.seu@sony.com of door onze vertegenwoordiger te schrijven, Sony Europe BV, een Nederlands bedrijf, gevestigd te Taurusavenue 16, 2132LS Hoofddorp, Nederland (als u zich in de EU bevindt), of Sony Europe BV, een Nederlands bedrijf, waarvan het filiaal in het Verenigd Koninkrijk gevestigd is te The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, Verenigd Koninkrijk (als u zich in het Verenigd Koninkrijk bevindt). U kunt ook contact met ons opnemen op het adres Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokio, 141-8610, Japan.
+- U heeft rechten om toegang te verkrijgen tot persoonlijke gegevens, om die te corrigeren en te wissen, zolang wij die verwerken. U heeft bovendien het recht klacht in te dienen bij een gegevensbeschermingsautoriteit in het land of de regio waar u woont, werkt of waar een klacht ontstaat."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"De App Store wordt geopend als \"%s\" niet geïnstalleerd is of als een update vereist is.
+
+Als \"%s\" gestart is, zijn de 360 Reality Audio-instellingen voltooid."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"Uw hoofdtelefoon is niet verbonden via media-audio (A2DP) met dit mobiele apparaat.
+
+Verbreek de media-audio-verbinding tussen uw hoofdtelefoon en andere apparaten, en breng vervolgens een verbinding tot stand met dit mobiele apparaat."</string>
+    <string name="Msg_IASetup_ConnectCable">"Uw hoofdtelefoon is niet verbonden met een mobiel apparaat.
+
+Verbind de hoofdtelefoon met dit mobiele apparaat."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"Detecteert uw oor en de opname wordt automatisch uitgevoerd.
+Als de automatische opname meerdere malen faalt, is de handmatige opname ook beschikbaar."</string>
+    <string name="Msg_IASetup_General_Err">De verwerking is geannuleerd.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"De foto's van uw oren/hoofd en alle informatie waardoor u kunt worden herkend wordt naar geen enkele muziekapplicatie voor 360 Reality Audio verzonden.
+
+Alleen de geanalyseerde gegevens worden naar de muziekapplicaties verzonden voor een geoptimaliseerde muziekbeluistering."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">Om de 360 Reality Audio-instellingen te voltooien, nadat \"%s\" naar haar laatste versie geüpdatet is, gaat u terug naar Headphones Connect, en optimaliseert u \"%s\".</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"Op het volgende scherm wordt er stembegeleiding verstrekt. Verhoog het volume van het mobiele apparaat zodat u de begeleiding kunt horen.
+
+*Verbreek de verbinding met deze hoofdtelefoon niet."</string>
+    <string name="Msg_IASetup_OpenAppInfo">Wilt u \"%s\" op Google Play openen?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">Wilt u \"%s\" op de App Store openen?</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"Het geluid dat u bij live optredens hoort kan van de vorm van uw hoofd en oren afhangen.
+
+We analyseren de foto's van uw oren om gegevens te berekenen om een optimaal geluidsveld te produceren dat op u afgestemd is.
+
+Wanneer u deze geoptimaliseerde resultaten naar muziekserviceapplicaties voor 360 Reality Audio verzendt, kunt u van een immersieve muziekervaring genieten met uw hoofdtelefoon."</string>
+    <string name="Msg_IASetup_StopConfirm">De 360 Reality Audio-configuratie is niet voltooid. U kunt deze configuratie later voltooien.</string>
+    <string name="Msg_IASetup_StopConfirm_Title">Wilt u de 360 Reality Audio-configuratie overslaan?</string>
+    <string name="Msg_IASetup_UnsupportedArea">Deze functie is momenteel niet beschikbaar in uw land/regio.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"De 360 Reality Audio-instelling is ingeschakeld.
+Schakel deze instelling uit bij het afspelen van immersieve 360 Reality Audio op muziekserviceapplicaties."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"Meldingstonen en spraakbegeleiding worden afgespeeld vanaf de hoofdtelefoon afhankelijk van de bediening en de status.
+Sommige belangrijke meldingen en de begeleiding worden niet uitgeschakeld zelfs als de instelling op uit ingesteld is."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"Meldingstonen en spraakbegeleiding worden afgespeeld vanaf de hoofdtelefoon afhankelijk van de bediening en de status.
+Sommige belangrijke meldingen en de begeleiding worden niet uitgeschakeld zelfs als de instelling op uit ingesteld is.
+Bovendien, als u alleen de meldingstoon bij het omschakelen die wordt veroorzaakt door de Adaptieve geluidsregeling wilt uitschakelen, dan kunt u de wijzigingen toepassen vanuit de instellingen van de Adaptieve geluidsregeling."</string>
+    <string name="Msg_Information_NetworkError">Kan geen verbinding maken met het netwerk.</string>
+    <string name="Msg_Information_OtherError">Ophalen van de informatie is mislukt.</string>
+    <string name="Msg_InstallFailed">Het bijwerken van de software is mislukt.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">Annuleert de verbinding met het nieuwe apparaat.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">Om een verbinding met het geselecteerde apparaat tot stand te brengen, probeert u het opnieuw nadat u de verbinding van een van de verbonden apparaten heeft verbroken.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">Om een nieuw apparaat te verbinden, probeert u het opnieuw nadat u de verbinding van een van de verbonden apparaten heeft verbroken.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">Verbreken van verbinding met het huidig verbonden apparaat is vereist</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">Wilt u de verbinding met %s verbreken?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"Wilt u de verbinding met %s verbreken?
+Bij verbreking van de verbinding wordt de verbinding met deze applicatie verbroken."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">Opnieuw verbinden is vereist</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">De momenteel afgespeelde muziek zal stoppen aangezien u de verbinding met de hoofdtelefoon opnieuw moet uitvoeren. Wilt u opnieuw verbinden met de hoofdtelefoon?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">De momenteel afgespeelde muziek zal stoppen aangezien u de verbinding met de hoofdtelefoon opnieuw moet uitvoeren. LDAC kan niet worden gebruikt wanneer deze instelling ingeschakeld is. Wilt u opnieuw verbinden met de hoofdtelefoon?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"Wilt u de registratie van %1$s annuleren?
+Om opnieuw een verbinding met %1$s tot stand te brengen na de annulering van de registratie, annuleert u de registratie van %2$s vanuit %1$s, en voert u de registratie van het apparaat opnieuw uit."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">Om de software te updaten, dient de verbinding van %s met de hoofdtelefoon verbroken te worden. Wilt u de verbinding verbreken en de update starten?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">Verbreken van verbonden %s is vereist</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">Om de taal te wijzigen, dient de verbinding van %s met de hoofdtelefoon verbroken te worden. Wilt u de verbinding verbreken en de taal wijzigen?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">De verbinding met %s is mislukt.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">Het verbreken van de verbinding met %s is mislukt.</string>
+    <string name="Msg_MultiPoint_FailedToPair">De verbinding met een nieuw apparaat is mislukt.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">De annulering van de registratie van %s is mislukt.</string>
+    <string name="Msg_MultiPoint_Info_Detail">Door deze instelling in te schakelen, zal de hoofdtelefoon in staat zijn een verbinding tot stand te brengen met twee apparaten tegelijk. Verbonden apparaten kunt u controleren vanuit [%s]. LDAC kan niet worden gebruikt wanneer deze instelling ingeschakeld is.</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">Om nieuwe apparaten te verbinden, dient u de update van de software af te breken. Zelfs in geval van afbreking, kan de software-update worden hervat. Wenst u te verbinden?</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">Het afbreken van de software-update is vereist</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">Om te verbinden met %s, dient u de update van de software af te breken. Zelfs in geval van afbreking, kan de software-update worden hervat. Wenst u te verbinden?</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">De verbinding met %s is voltooid.</string>
+    <string name="Msg_NeedConnectDevice">Hoofdtelefoon en Bluetooth-verbinding vereist.</string>
+    <string name="Msg_OoBE_LocationPermission_After">Sta toegang tot locatiegegevens toe vanuit de instellingen van het mobiele apparaat om een hoofdtelefoon eenvoudig te registreren.</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"Met behulp van Locatie kunt u een nabijgelegen hoofdtelefoon eenvoudig registreren.
+Sta toegang tot Locatie toe."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"Met behulp van Locatie kunt u een nabijgelegen hoofdtelefoon eenvoudig registreren.
+Sta toegang tot Locatie toe."</string>
+    <string name="Msg_OoBE_LocationSetting_After">Schakel locatiegegevens in vanuit de instellingen van het mobiele apparaat om een hoofdtelefoon eenvoudig te registreren.</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"Met behulp van Locatie kunt u een nabijgelegen hoofdtelefoon eenvoudig registreren.
+Schakel Locatie in."</string>
+    <string name="Msg_PairingOS_BT_Settings">Selecteer een hoofdtelefoon vanaf het scherm van de Bluetooth-instellingen en breng een verbinding tot stand.</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">Wanneer de koppeling voltooid is, drukt u op de [Terug]-knop.</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">Selecteer %s vanuit het Bluetooth-instellingenscherm en breng een verbinding tot stand.</string>
+    <string name="Msg_Permission_BLE">We gebruiken dit om onze hoofdtelefoon met BLE te detecteren.</string>
+    <string name="Msg_Permission_Location">De locatiegegevens worden gebruikt wanneer de applicatie uw handelingen detecteert en de instellingen van de hoofdtelefoon worden automatisch geschakeld.</string>
+    <string name="Msg_Permission_Location02">Locatie gebruiken verhoogt nog meer de nauwkeurigheid van de Adaptieve geluidsregeling.</string>
+    <string name="Msg_PowerOff">Wilt u de hoofdtelefoon uitschakelen?</string>
+    <string name="Msg_RecommendUpdate">Om dit apparaat comfortabeler te gebruiken, is een software-update aanbevolen.</string>
+    <string name="Msg_Reconnect_BT_Connection">Bezig met wisselen van de bestemming voor de software-overdracht...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">Nieuwe hoofdtelefoon</string>
+    <string name="Msg_SelectMDR_Header">Hoofdtelefoon selecteren</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"Selecteer de hoofdtelefoon vanuit [Bluetooth] in de \"Instellingen\" van het mobiele apparaat en breng de verbinding tot stand.
+Als de verbinding voltooid is, start u Headphones Connect opnieuw op."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"Controleer of de hoofdtelefoon ingeschakeld is en selecteer %s vanuit [Bluetooth] in de \"Instellingen\" van het mobiele apparaat en breng de verbinding tot stand.
+Als de verbinding voltooid is, start u Headphones Connect opnieuw op."</string>
+    <string name="Msg_SendFailed">De software-overdracht is mislukt.</string>
+    <string name="Msg_SendFailed_WF_Special">"De softwareoverdracht is gestopt op %d %%.
+Probeer het opnieuw nadat u de hoofdtelefoon in de lader plaatst en ervan verwijdert."</string>
+    <string name="Msg_Setting_Data_Err">Het downloaden van de spraakgegevens is mislukt.</string>
+    <string name="Msg_Setting_Downloading_Failed">Het downloaden van de spraakgegevens is mislukt.</string>
+    <string name="Msg_Setting_Sending_Failed">De spraakgegevens-overdracht is mislukt.</string>
+    <string name="Msg_Title_FWAbort">Softwareoverdracht verbroken. Controleer het volgende.</string>
+    <string name="Msg_TrainingModeSaveCheck">De bewerking is niet voltooid. Wilt u afsluiten?</string>
+    <string name="Msg_Update_NeedReboot">"Controleer de voltooiing van de update.
+
+1. Probeer opnieuw te verbinden nadat u de hoofdtelefoon in de lader plaatst en ervan verwijdert.
+2. Selecteer [%1$s Versie] vanuit het menu in de rechterbovenhoek van deze applicatie. Als \"%2$s\" wordt weergegeven, is de update voltooid.
+
+Als de update onvoltooid is, probeert u het opnieuw."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"Controleer de voltooiing van de update.
+
+Schakel de hoofdtelefoon uit, schakel hem opnieuw in, en breng vervolgens de verbinding tot stand. Selecteer [%1$s Versie] vanuit het menu in de rechterbovenhoek van deze applicatie. Als \"%2$s\" wordt weergegeven, is de update voltooid.
+
+Als de update onvoltooid is, probeert u het opnieuw."</string>
+    <string name="Msg_VoiceData_NeedReboot">"Controleer of de taal gewijzigd is.
+
+1. Berg zowel de linker- als de rechteroorschelp op in de lader, verwijder ze en verbind ze opnieuw.
+2. Als de gewijzigde taal in [%s] wordt weergegeven, dan is het proces voltooid.
+
+Als de taal niet gewijzigd is, probeert u het opnieuw."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"Controleer of de taal gewijzigd is.
+
+Schakel de hoofdtelefoon uit, schakel hem opnieuw in, en breng vervolgens de verbinding tot stand. Als de gewijzigde taal in [%s] wordt weergegeven, dan is het proces voltooid.
+
+Als de taal niet gewijzigd is, probeert u het opnieuw."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">Kan de spraakbegeleidingstaal niet wijzigen in uw iOS-versie.</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">Selecteer een hoofdtelefoon op het volgende scherm. Het kan tot een minuut duren om de hoofdtelefoon weer te geven.</string>
+    <string name="MultiPoint_AddNewDevice_Description">Open de Bluetooth-instellingen met het apparaat dat u wilt verbinden en selecteer %s.</string>
+    <string name="MultiPoint_DeviceNotConnect">Niet verbonden.</string>
+    <string name="MultiPoint_DeviceStatus_Title">Momenteel verbonden apparaat</string>
+    <string name="MultiPoint_Device_Add">Met nieuw apparaat verbinden</string>
+    <string name="MultiPoint_Header_History">Gekoppeld</string>
+    <string name="MultiPoint_Header_Pairing">Bezig met verbinden...</string>
+    <string name="MultiPoint_Menu_Delete">Registratie annuleren</string>
+    <string name="MultiPoint_Menu_Disconnect">Verbinding verbreken</string>
+    <string name="MultiPoint_Setting_Description">"Deze hoofdtelefoon kan tegelijkertijd verbonden worden met %d apparaten.
+Om te schakelen tussen apparaten om muziek af te spelen, stopt u de muziek eenmaal, en voert u de afspeelbedieningen uit op een van de andere verbonden apparaten."</string>
+    <string name="MultiPoint_Setting_Title">Verbonden apparaat beheren</string>
+    <string name="MultiPoint_Status_Connecting">Verbinden...</string>
+    <string name="MultiPoint_Status_Disconnecting">Verb. verbreken...</string>
+    <string name="MultiPoint_Talkback_Add_Device">Brengt een verbinding tot stand met een nieuw apparaat.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">Apparaat 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">Apparaat 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">Er is geen apparaat aangesloten.</string>
+    <string name="MultiPoint_Talkback_Playing_Right">Audio wordt weergegeven.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">Verbonden.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">Bezig met verbinden...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">Verbinding verbreken...</string>
+    <string name="MultiPoint_Title">Met 2 apparaten tegelijk verbinden</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">Bovendien, om de optimalisatie halverwege te annuleren, drukt u op een van de knoppen op de hoofdtelefoon.</string>
+    <string name="NC_Title">Ruisonderdrukking</string>
+    <string name="NSBluetoothAlwaysUsageDescription">We gebruiken dit om onze hoofdtelefoon met Bluetooth te detecteren.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">We gebruiken dit om onze hoofdtelefoon met Bluetooth te detecteren.</string>
+    <string name="NSCameraUsageDescription">"Sta uw smartphone toe een foto van uw oren te maken. We analyseren de foto's van uw oren om gegevens te berekenen om een optimaal geluidsveld te produceren dat op u afgestemd is."</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Om de instellingen automatisch te schakelen op basis van Adaptieve geluidsregeling, selecteer [Sta altijd toe].</string>
+    <string name="NSLocationAlwaysUsageDescription">Om de instellingen automatisch te schakelen op basis van Adaptieve geluidsregeling, selecteer [Sta altijd toe].</string>
+    <string name="NSLocationWhenInUseUsageDescription">Om de instellingen automatisch te schakelen op basis van Adaptieve geluidsregeling, sta toegang toe.</string>
+    <string name="NSUserTrackingUsageDescription">We gebruiken deze gegevens om ondersteunende informatie en advertenties te bieden die aansluiten bij uw apparaatgebruik en interesses.</string>
+    <string name="Notification_Headphones_Connected">Bezig verbinding te maken met %s...</string>
+    <string name="Notification_Headphones_Connected_Unknown">Bezig verbinding te maken met de hoofdtelefoon...</string>
+    <string name="Notification_IASetup_NeedToComplete">Ga terug naar Headphones Connect en voltooi de 360 Reality Audio-instellingen.</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">360 Reality Audio-inst. niet voltooid</string>
+    <string name="Notification_Summary_Abort">Afgebroken softwareoverdracht</string>
+    <string name="Notification_Summary_Downloading">Downloaden...</string>
+    <string name="Notification_Summary_FWVer_unmatched">Het bijwerken is mislukt.</string>
+    <string name="Notification_Summary_Prepared">Klaar om bij te werken.</string>
+    <string name="Notification_Summary_Sending">Overdragen...</string>
+    <string name="Notification_Summary_Update_NeedReboot">Controleer de voltooiing van de update.</string>
+    <string name="Notification_Summary_failed">Het bijwerken is mislukt.</string>
+    <string name="Notification_Summary_updated">Het bijwerken is voltooid.</string>
+    <string name="Notification_Summary_updating">Bezig met bijwerken...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">Bezig met wijzigen...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">De wijziging is voltooid.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">De wijziging is mislukt.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">Controleer of de wijziging toegepast werd.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">Spraakbegeleidingstaal wijzigen</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">Spraakbegeleidingstaal wijzigen</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">De wijziging van de spraakbegeleidingstaal is voltooid.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">De wijziging van de spraakbegeleidingstaal is mislukt.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">Controleer of de spraakbegeleidingstaal gewijzigd werd.</string>
+    <string name="OPT_Baro_Title">Optimalisatie atmosferische druk</string>
+    <string name="OPT_Message_Analyzing">De ruisonderdrukking is optimaal op uw voorkeur afgestemd.</string>
+    <string name="OPT_Message_Baro">Als de atmosferische druk verandert, voert u de handeling opnieuw uit.</string>
+    <string name="OPT_Message_Comp">De ruisonderdrukking is optimaal op uw voorkeur afgestemd.</string>
+    <string name="OPT_Message_Personal">Draag zoals gewoonl. Voer handel. opn. uit als manier v. dragen verand. wegens bv. verand. haarstijl.</string>
+    <string name="OPT_Personal_Done_Long">Geoptimaliseerd</string>
+    <string name="OPT_Personal_Done_Short">Voltooid</string>
+    <string name="OPT_Personal_Initial_Long">Niet geoptimaliseerd</string>
+    <string name="OPT_Personal_Initial_Short">Vóór optim.</string>
+    <string name="OPT_Personal_Title">Persoonlijke optimalisatie</string>
+    <string name="OPT_Start">Start</string>
+    <string name="OPT_Status_Analyzing">Bezig met analyseren...</string>
+    <string name="OPT_Status_Baro">Bezig met meten atmosferische druk...</string>
+    <string name="OPT_Status_Comp">Voltooid</string>
+    <string name="OPT_Status_Personal">Meten van omstandigheden bij dragen...</string>
+    <string name="OPT_Title">Optimalisatie ruisonderdrukk.</string>
+    <string name="OPT_Title_iOS">Optimalisatie ruisonderdrukk.</string>
+    <string name="OPT_atm_Long">Geoptimalis. tot %.1f atm</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">Draag de hoofdtelefoon zoals gewoonlijk. Als atm. druk verandert omdat u bv. op een vliegtuig bent, voert u handeling opnieuw uit.</string>
+    <string name="OPT_detail_Personal_Baro">Draag de hoofdtel. zoals gewoonlijk. Als de omstandigh. bij dragen en de atm. druk veranderen, voert u de handeling opnieuw uit.</string>
+    <string name="OoBE_COMP_Message">De verbinding met de hoofdtelefoon is voltooid.</string>
+    <string name="OoBE_COMP_Title">Hoofdtelefoon toevoegen</string>
+    <string name="OoBE_Manual_Button_Label">Registratie met Bluetooth-instellingen</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Bluetooth is UIT.
+Schakel Bluetooth IN vanuit het bedieningspaneel."</string>
+    <string name="OoBE_Manual_Pair_Message">"Houd aan/uit-knop hoofdtelefoon gedurende ong. 7 s ingedrukt. Als LED van hoofdtel. afwisselend blauw en rood knippert, of snel blauw knipp., drukt u op [Volgende]-knop.
+Als er geen aan/uit-knop is, stelt u hoofdtel. in op modus Bluetooth-apparaat registreren (koppeling). Instructiehandleiding voor details."</string>
+    <string name="OoBE_Manual_Pair_Title">Hoofdtelefoon toevoegen</string>
+    <string name="OoBE_Message1">Verbindt de hoofdtelefoon via Bluetooth.</string>
+    <string name="OoBE_Message2">Selecteer een verbindingsmethode.</string>
+    <string name="OoBE_NFC_Button_Label">Registratie met One-touch connection (NFC)</string>
+    <string name="OoBE_NFC_Message">Plaats de N-markering op de hoofdtelefoon over de N-markering op het mobiele apparaat en voer de aanraakbediening uit.</string>
+    <string name="OoBE_NFC_Title">Hoofdtelefoon toevoegen</string>
+    <string name="OoBE_NonBT_Button_Label">Een bekabelde hoofdtelefoon vanuit de lijst registreren</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">Registreer uw hoofdtelefoon om 360 Reality Audio te gebruiken die geoptimaliseerd is naar uw smaak.</string>
+    <string name="OoBE_Power_On_Message">"Schakel de hoofdtelefoon in. Bevestig dat hij ingeschakeld is en druk op de [Volgende]-knop.
+Raadpleeg de handleiding van de hoofdtelefoon over hoe u hem moet inschakelen."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">Tik gewoon op de [%s]-knop om verder te gaan.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">Als uw hoofdtelefoon bekabeld is</string>
+    <string name="OoBE_Proximity_Message">Plaats het mobiele apparaat en %s dicht bij elkaar om de hoofdtelefoon te verifiëren.</string>
+    <string name="OoBE_SelectAcc_Message">Selecteer een hoofdtelefoon. Het kan tot een minuut duren om weer te geven.</string>
+    <string name="OoBE_SelectAcc_Title">Hoofdtelefoon toevoegen</string>
+    <string name="OoBE_Title">Hoofdtelefoon toevoegen</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_nl.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_nl.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_nl.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_nl.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">[%s] wordt automatisch uitgeschakeld wanneer audioweergave gedurende een bepaalde duur gestopt is. Zorgt voor verlenging van stand-byduur van hoofdtelefoon.</string>
+    <string name="PS_Title">Stand-by + energ.besp</string>
+    <string name="PlaybackController_Title">Huidig onderdeel</string>
+    <string name="PlaybackController_Unknown_Album">Onbekend album</string>
+    <string name="PlaybackController_Unknown_Artist">Onbekende artiest</string>
+    <string name="PlaybackController_Unknown_TrackName">Onbekend nummer</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">U kunt de enquête opnieuw weergeven vanuit [%s] van het menu bovenaan rechts van het scherm.</string>
+    <string name="Questionnaire_MenuItem">Enquête</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">Er is momenteel geen enquête. Wacht op de volgende enquête.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%3$s %2$s %1$s - %6$s %5$s %4$s</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">Antwoordtermijn:</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">jan.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">feb.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">mrt.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">apr.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">mei</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">jun.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">jul.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">aug.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">sept.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">okt.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">nov.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">dec.</string>
+    <string name="Questionnaire_Notification_Button_Answer">Antwoorden</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">Doorgaan</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">Niet antwoorden</string>
+    <string name="Questionnaire_Notification_Note">Browser starten en enquête-site weergeven.</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d vragen</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d - %2$d vragen</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">Aantal vragen:</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">Ongeveer %d minuten</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">Vereiste tijd:</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- Aangezien spraakaudio vanuit de hoofdtelefoon wordt uitgevoerd, voert u de analyses best met uw familie of vrienden uit als de handeling moeilijk is.</string>
+    <string name="Right_Headphones">Rechtereenheid</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_nl.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">De accountverificatie is mislukt.</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">Registratie geannuleerd.</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"Geen toegang tot de server.
+Probeer het later nog een keer."</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"Kan geen extra apparaten registreren.
+Verwijder onnodige apparaatregistraties."</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">Aanmelden is mislukt.</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">Kon niet afmelden.</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">Schakel locatiegegevens in vanuit de instellingen van het apparaat om apparaten in de buurt eenvoudig te registreren.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">Kan geen verbinding maken met het netwerk.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">Kon niet bedienen.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">Onjuist registratienummer ingevoerd.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">De invoerreeks is te lang.</string>
+    <string name="STRING_CAUTION_CONNECT">Verbinding maken met %s is mislukt.</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"Verbinding maken met %s is mislukt.
+Verbind met hetzelfde netwerk als het apparaat en schakel het apparaat in."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"Kan geen verbinding tot stand brengen met %s.
+Controleer of het apparaat ingeschakeld is."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"Kan geen verbinding tot stand brengen met %s.
+Controleer of de Bluetooth-functie van het apparaat AAN is."</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"Verbinding maken met %s is mislukt.
+Verbind met hetzelfde netwerk als het apparaat."</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"Verbinding maken met %s is mislukt.
+Probeer het later nog een keer."</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"Verbinding maken met %s is mislukt.
+Probeer het nog een keer na het controleren van de netwerkstatus."</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"Verbinding maken met %s is mislukt.
+Wilt u het apparaat inschakelen?"</string>
+    <string name="STRING_CAUTION_DISCONNECT">Verbinding met %s verbroken.</string>
+    <string name="STRING_CAUTION_EULA">U dient de %s te aanvaarden om deze applicatie te gebruiken.</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">Kon de versie niet controleren.</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">Kon de %s niet lezen.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">Opgegeven app. niet gevonden.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">Apparaat niet gevonden.</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">Sta toegang tot locatiegegevens toe vanuit de instellingen van het apparaat om apparaten in de buurt eenvoudig te registreren.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">Kon niet registreren.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"Kon niet registreren.
+Probeer het later nog een keer."</string>
+    <string name="STRING_CAUTION_SERVER_STRING">Verbinding maken mislukt.</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">Kon Bluetooth niet INSCHAKELEN.</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">Inschakelen van Wi-Fi is mislukt.</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">Niet verbonden met %s.</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"Niet verbonden met Wi-Fi-netwerk.
+Verbind met hetzelfde netwerk als het apparaat."</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"Niet verbonden met Wi-Fi-netwerk.
+Verbind met hetzelfde netwerk als het apparaat en schakel het apparaat in."</string>
+    <string name="STRING_COMMON_DONE">Gereed</string>
+    <string name="STRING_COMMON_NEXT">Volgende</string>
+    <string name="STRING_COMMON_OTHER">Overige</string>
+    <string name="STRING_DEVICE">Apparaat</string>
+    <string name="STRING_DEVICES">Apparaten</string>
+    <string name="STRING_IOS_LOCATION">Locatie</string>
+    <string name="STRING_IOS_SETTINGS">Instellingen</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">U dient de toegang toe te staan om deze applicatie te gebruiken.</string>
+    <string name="STRING_MSG_CANCEL_DELETE">Wilt u het wissen annuleren?</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">Ophalen van de informatie is mislukt.</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">Verbinden...</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">Bezig met laden...</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">Er zijn geen selecties meer mogelijk.</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">Wacht even.</string>
+    <string name="STRING_MSG_COMMUNICATING">Bezig met communiceren...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">Controleer of het apparaat ingeschakeld is.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">Controleer of het apparaat ingeschakeld is en breng via Bluetooth een verbinding tot stand met het apparaat.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">Verbind met hetzelfde netwerk als het apparaat.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">Back-up en terugzetting zult u niet meer kunnen gebruiken. Ze worden beschikbaar als u opnieuw aanmeldt.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">Wilt u afmelden en het gebruik stopzetten?</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">Lees de/het %s van deze applicatie.</string>
+    <string name="STRING_MSG_CONFIRM_PP">Lees de/het %s van deze applicatie.</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">[TBD]Om back-up en terugzetting van instellingen te gebruiken, dient u de volgende gebruiksvoorwaarden te aanvaarden.</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">Verwijderd.</string>
+    <string name="STRING_MSG_DELETING">Bezig met wissen...</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">Voer het registratienummer in dat op de tv wordt weergegeven.</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">Apparaatregistratie is voltooid.</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">Bezig met controleren van versie...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"Bij gebruik van locatiegegevens kunt u apparaten in de buurt eenvoudig registreren.
+Schakel locatiegegevens in."</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">Bezig met ophalen van informatie...</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">Ik heb bovenstaande inhoud gelezen en ben akkoord.</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google en Android zijn handelsmerken van Google Inc.</string>
+    <string name="STRING_MSG_LOADING">Bezig met laden...</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"Bij gebruik van locatiegegevens kunt u apparaten in de buurt eenvoudig registreren.
+Sta toegang tot locatiegegevens toe."</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">Om deze functie te gebruiken, dient u de gebruiksvoorwaarden te aanvaarden.</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">Wilt u %s inschakelen?</string>
+    <string name="STRING_MSG_REGIST_FINISH">Geregistreerd.</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">Druk op de knop [+] en registreer het apparaat.</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">Selecteer uw land/regio van verblijf.</string>
+    <string name="STRING_MSG_SIGNOUT">Wilt u afmelden?</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"Bevestig dat Sony Home Entertainment &amp; Sound Products Inc. (\"Sony\") (de verantwoordelijke) gevestigd in Japan gegevens mag gebr. mbt uw gebr. van applicatie (zoals nader gespecificeerd in ons Privacybeleid %s) voor de doeleinden van verbetering en ontwikkeling van producten (verbeteringen van technische aard of in bruikbaarheid dankzij nieuwe of gewijzigde functies) door [Aanvaarden] onderaan te select. Als u van appl. wilt genieten zonder Sony deze toestemming te geven, selecteer [Niet aanvaarden] onderaan.
+U kunt te allen tijde uw bovenstaande toestemming intrekken door \"(3 punten) Menu\" > \"Over deze applicatie\" > \"Privacy-instellingen\" in de Toepassing te selecteren."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">Bevestig dat Sony Home Entertainment &amp; Sound Products Inc. (\"Sony\") (de verantwoordelijke) gevestigd in Japan gegevens mag gebruiken mbt uw gebruik van de applicatie (zoals nader gespecificeerd in ons Privacybeleid %s) voor de doeleinden van verbetering en ontwikkeling van producten (verbeteringen van technische aard of in bruikbaarheid dankzij nieuwe of gewijzigde functies) door het item onderaan te selecteren. Als u Sony deze toestemming niet wilt geven, hef de selectie van het item onderaan op.</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"Bevestig dat Sony Home Entertainment &amp; Sound Products Inc. (\"Sony\") (de verantwoordelijke) gevestigd in Japan gegevens mag gebr. mbt uw gebr. van applicatie (zoals nader gespecificeerd in ons Privacybeleid %s) voor de doeleinden van verbetering en ontwikkeling van producten (verbeteringen van technische aard of in bruikbaarheid dankzij nieuwe of gewijzigde functies) door [Aanvaarden en doorgaan] onderaan te select. Als u Sony deze toestemming niet wilt geven, selecteer [Niet aanvaarden en doorgaan] onderaan.
+U kunt te allen tijde uw bovenstaande toestemming intrekken door \"(3 punten) Menu\" > \"Over deze applicatie\" > \"Privacy-instellingen\" in de Toepassing te selecteren."</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">AUDIO</string>
+    <string name="STRING_REMOTE_BTN_BACK">TERUG</string>
+    <string name="STRING_REMOTE_BTN_BLUE">BLAUW</string>
+    <string name="STRING_REMOTE_BTN_CC">"ONDERT./
+BIJSCHRIF."</string>
+    <string name="STRING_REMOTE_BTN_CH">KANAAL</string>
+    <string name="STRING_REMOTE_BTN_DELETE">WISSEN</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">Digital</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"DIGITAAL/
+ANALOOG"</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">WEERGAV.</string>
+    <string name="STRING_REMOTE_BTN_ENTER">INVOEREN</string>
+    <string name="STRING_REMOTE_BTN_EXIT">VERLATEN</string>
+    <string name="STRING_REMOTE_BTN_GREEN">GROEN</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">GIDS</string>
+    <string name="STRING_REMOTE_BTN_HELP">HELP</string>
+    <string name="STRING_REMOTE_BTN_HOME">START</string>
+    <string name="STRING_REMOTE_BTN_INPUT">INVOER</string>
+    <string name="STRING_REMOTE_BTN_JUMP">JUMP</string>
+    <string name="STRING_REMOTE_BTN_MENU">MENU</string>
+    <string name="STRING_REMOTE_BTN_MUTE">DEMPEN</string>
+    <string name="STRING_REMOTE_BTN_OK">OK</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">OPTIES</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">BEELD UIT</string>
+    <string name="STRING_REMOTE_BTN_POWER">AAN/UIT</string>
+    <string name="STRING_REMOTE_BTN_PROG">PROG</string>
+    <string name="STRING_REMOTE_BTN_RED">ROOD</string>
+    <string name="STRING_REMOTE_BTN_RETURN">TERUG</string>
+    <string name="STRING_REMOTE_BTN_TV">Televisie</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">"SPRAAK-
+TYPEN"</string>
+    <string name="STRING_REMOTE_BTN_VOL">VOLUME</string>
+    <string name="STRING_REMOTE_BTN_WIDE">BREED</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">GEEL</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">Kan geen toegang verkrijgen tot Bluetooth. Sta toegang tot Bluetooth toe.</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Bluetooth is UIT.
+Schakel Bluetooth IN vanuit het bedieningspaneel."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"Schakel Bluetooth in vanuit het bedieningspaneel.
+Als Bluetooth ingeschakeld is, sta toegang tot Bluetooth toe."</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">Bluetooth aan het INSCHAKELEN...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">Wi-Fi aan het INSCHAKELEN...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">Wilt u Bluetooth inschakelen?</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">Wilt u Wi-Fi INSCHAKELEN?</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">Over deze applicatie</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">Applicatie-instellingen</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Bluetooth-instelling.</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">Apparaat-instellingen</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">Naar instellingen</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">Bedieningsgeschiedenis zenden</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"Apparaat niet gevonden.
+Controleer of de voeding van het apparaat ingeschakeld is."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"Bedien de recorder op afstand.
+Neem op en controleer de opnamen op afstand!"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Bluetooth is UIT.
+Schakel Bluetooth IN."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"Wi-Fi is UIT.
+Verbind met hetzelfde netwerk als het apparaat."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"Apparaat niet gevonden.
+Verbind met hetzelfde netwerk als het apparaat en schakel het apparaat in."</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">Selecteer een apparaat om te registreren.</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">Apparaat toevoegen</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">Geregistreerd.</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">Afstandsbediening</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">Geselecteerd</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">Apparaatselectie</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">Help</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">Bluetooth instellen</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">Wi-Fi instellen</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">Tik erop om te registreren</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">Bluetooth INSCHAK.</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">Wi-Fi inschakelen</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">Wi-Fi-instellingen</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">Meer opties</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">Dubbeltik om naar dit apparaat over te schakelen.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">Dubbeltik om naar een ander apparaat over te schakelen.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">Dubbeltik om uit te vouwen.</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%2$s van %1$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">Account-instellingen</string>
+    <string name="STRING_TEXT_ADD_DEVICE">Een ander apparaat registreren</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">Accepteren</string>
+    <string name="STRING_TEXT_COMMON_AGREE">Aanvaarden</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">Aanvaarden en doorgaan</string>
+    <string name="STRING_TEXT_COMMON_ALL">Alle</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">Toestaan</string>
+    <string name="STRING_TEXT_COMMON_BACK">Terug</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">Annuleren</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">De registratie wordt geannuleerd...</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">Registratie annuleren</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">Registratie geannuleerd.</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">Wilt u de registratie van dit apparaat annuleren?</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">De registratie kon niet worden geannuleerd.</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">Iedere keer vragen</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">niet meer weergeven</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">Sluiten</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">Samenvouwen</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">OK</string>
+    <string name="STRING_TEXT_COMMON_DELETE">Verwijderen</string>
+    <string name="STRING_TEXT_COMMON_DENY">Weigeren</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">Alles deselecteren</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">Gedetailleerde instellingen</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">Apparaatmenu</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">Niet aanvaarden</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">Niet aanvaarden en doorgaan</string>
+    <string name="STRING_TEXT_COMMON_DO">Aan</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">Niet gebruiken</string>
+    <string name="STRING_TEXT_COMMON_DOWN">Omlaag</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">Afwijzen</string>
+    <string name="STRING_TEXT_COMMON_EXIT">Afsluiten</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">Uitvouwen</string>
+    <string name="STRING_TEXT_COMMON_FAQ">Probleemoplossing</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">Feedback</string>
+    <string name="STRING_TEXT_COMMON_FINISH">Voltooien</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">Vooruit</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">Help en informatie</string>
+    <string name="STRING_TEXT_COMMON_HIDE">Verbergen</string>
+    <string name="STRING_TEXT_COMMON_INFO">Informatie</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">Informatie</string>
+    <string name="STRING_TEXT_COMMON_INPUT">Ingang</string>
+    <string name="STRING_TEXT_COMMON_LATER">Later</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">Openen</string>
+    <string name="STRING_TEXT_COMMON_LEFT">Links</string>
+    <string name="STRING_TEXT_COMMON_MORE">Meer zien</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">Gedetailleerde informatie</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">Meer informatie bekijken</string>
+    <string name="STRING_TEXT_COMMON_NEXT">Volgende</string>
+    <string name="STRING_TEXT_COMMON_NO">Nee</string>
+    <string name="STRING_TEXT_COMMON_NOTE">Opmerking</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">Uit</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">Niet geselecteerd</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">Niet ingesteld</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">Niet opgeven</string>
+    <string name="STRING_TEXT_COMMON_OFF">Uit</string>
+    <string name="STRING_TEXT_COMMON_OK">OK</string>
+    <string name="STRING_TEXT_COMMON_ON">Aan</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">Openen in browser</string>
+    <string name="STRING_TEXT_COMMON_OPTION">Optie</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">Naar vorige pagina teruggaan</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">Naar volgende pagina doorgaan</string>
+    <string name="STRING_TEXT_COMMON_PREV">Vorige</string>
+    <string name="STRING_TEXT_COMMON_RETRY">Opnieuw proberen</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">Rechts</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">Deze selectie onthouden</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">Alles selecteren</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">Instellingen</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">Automatisch</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">Instelling voltooid</string>
+    <string name="STRING_TEXT_COMMON_SHOW">Weergeven</string>
+    <string name="STRING_TEXT_COMMON_SKIP">Overslaan</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">Wilt u het annuleren van de registratie stoppen?</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">Officiële site</string>
+    <string name="STRING_TEXT_COMMON_TAB">Tabblad</string>
+    <string name="STRING_TEXT_COMMON_TIPS">Handige toepassingen</string>
+    <string name="STRING_TEXT_COMMON_UP">Omhoog</string>
+    <string name="STRING_TEXT_COMMON_USE">Gebruiken</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">Stoppen met het laden van de pagina</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">Pagina herladen</string>
+    <string name="STRING_TEXT_COMMON_YES">Ja</string>
+    <string name="STRING_TEXT_DELETE_ALL">Alles wissen</string>
+    <string name="STRING_TEXT_DELETE_FAILED">Verwijderen mislukt.</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">Dit geregistreerde apparaat wissen?</string>
+    <string name="STRING_TEXT_DEVICE_INFO">Apparaatinformatie</string>
+    <string name="STRING_TEXT_DO_UPDATE">Bijwerken</string>
+    <string name="STRING_TEXT_EDIT">Bewerken</string>
+    <string name="STRING_TEXT_EULA">Eindgebruikerovereenkomst</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">Licentie-informatie</string>
+    <string name="STRING_TEXT_MENU">Menu</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">Verbinding verbroken</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">Niet aanmelden</string>
+    <string name="STRING_TEXT_NO_DEVICE">Geen apparaat gevonden.</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">Als het apparaat onvindbaar is</string>
+    <string name="STRING_TEXT_OWN_DEVICE">Hoofdeenheid</string>
+    <string name="STRING_TEXT_POWER_OFF">Schakel de hoofdtelefoon uit</string>
+    <string name="STRING_TEXT_PP_SETTINGS">Privacy-instellingen</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">Meer details over hoe Sony zulke gegevens gebruikt kunt u hier vinden.</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">Privacybeleid</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">hier</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">Uw toestemming voor doeleinden van verbetering/ontwikkeling van product/services:</string>
+    <string name="STRING_TEXT_RECORDER_NAME">Recorder</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">Apparaat</string>
+    <string name="STRING_TEXT_REGISTERING">Bezig met registreren...</string>
+    <string name="STRING_TEXT_RE_REGISTER">Opnieuw registreren</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">Naar ander apparaat overschakelen</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">Verbonden apparaat</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">Registratie</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">Versie</string>
+    <string name="STRING_TEXT_SIGNIN">Aanmelden</string>
+    <string name="STRING_TEXT_SIGNOUT">Afmelden</string>
+    <string name="STRING_TEXT_START">Starten</string>
+    <string name="STRING_TEXT_STARTING">Bezig met starten...</string>
+    <string name="STRING_TEXT_START_ASIS">Nu initialiseren</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">Lijst met compatibele apparaten</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">Verbinden</string>
+    <string name="STRING_TEXT_TERM_OF_USE">Gebruiksvoorwaarden</string>
+    <string name="STRING_TEXT_UPDATE">Bijwerken</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">Wanneer een verbinding niet tot stand kan worden gebracht</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">Als registreren niet lukt</string>
+    <string name="STRING_THIS_PHONE">Deze mobiel</string>
+    <string name="STRING_TITLE_COUNTRY">Land/regio</string>
+    <string name="Setting_Android_Title">Instellingen</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"De verificatie van uw account is mislukt.
+Meld opnieuw aan."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"Kon de instellingen niet synchroniseren aangezien de accountverificatie mislukt is.
+Meld opnieuw aan."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">Ooranalyseresultaten</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">Geregistreerde locaties en instellingswaarden</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">Instelwaarden op basis van acties enz.</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">Back-up maken</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">U kunt de volgende instellingen op de server opslaan door uw account te koppelen.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">De instellingen waarvan u een back-up kunt maken variëren naargelang het model.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">Instellingen waarvan een back-up is gemaakt kunnen verwijderd worden door de applicatie te bedienen. Ook zullen ze automatisch worden verwijderd als Sony het aanbieden van deze functie stopzet overeenkomstig de Gebruiksvoorwaarden.</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">Instellingen voor het automatisch downloaden van software</string>
+    <string name="SettingsTakeOver_Appeal_Link">Ga hier voor details</string>
+    <string name="SettingsTakeOver_Appeal_Title">Laten we een back-up maken van uw instellingen.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">Het maken van een back-up is voltooid.</string>
+    <string name="SettingsTakeOver_Button_Backup">Back-up maken</string>
+    <string name="SettingsTakeOver_Button_Restore">Terugzetten</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">Instellingen deze app. gebruik.</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">Instellingen op server gebruik.</string>
+    <string name="SettingsTakeOver_Confirm_Backup">Wilt u een back-up op de server maken van de instellingen van deze applicatie?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">Wilt u de instellingen waarvan een back-up op de server is gemaakt op deze applicatie terugzetten?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"Er zijn instellingen waarvan een back-up reeds gemaakt is op de server.
+Selecteer een instelling vanuit de volgende om automatische synchronisatie in te schakelen."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Een Sony-account aanmaken en doorgaan</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">De instellingen waarvan een back-up is gemaakt zijn verwijderd en u bent afgemeld.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">Meldt af, annuleert de koppeling met de account, en verwijdert volledig de informatie waarvan een back-up op de server is gemaakt.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">Wilt u de instellingen waarvan een back-up is gemaakt verwijderen?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">De automatische synchronisatie van instellingen is ingeschakeld.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"Het maken van een back-up is mislukt.
+Wacht even en probeer het opnieuw."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"Het terugzetten is mislukt.
+Wacht even en probeer het opnieuw."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"Het terugzetten is mislukt.
+Controleer deze netwerkverbinding en wacht even en probeer het opnieuw."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">De Gebruiksvoorwaarden controleren</string>
+    <string name="SettingsTakeOver_List_Title">Back-up en terugzetting van instellingen</string>
+    <string name="SettingsTakeOver_PP_Description">Bevestig dat Sony gebruik zal mogen maken van gegevens met betrekking tot het gebruik van de applicatie door de klant voor de eerdergenoemde doeleinden door op de volgende [Aanvaarden]-knop te drukken. Als u niet akkoord gaat met deze gebruiksvoorwaarden, drukt u op de [Niet aanvaarden]-knop.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">Instellingen terugzetten</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">Doorgaan zonder terug te zetten</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">Als u in het verleden met behulp van Headphones Connect een back-up heeft gemaakt van instellingen, dan kunt u deze instellingen terugzetten.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">Ga hier voor details</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">Instellingen terugzetten</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"Er waren geen instellingen waarvan een back-up werd gemaakt.
+Doorgaan zonder terug te zetten."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">De terugzetting is voltooid.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">Account</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">Instellingen waarvan een back-up is gemaakt</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">Nu een back-up maken</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">Inschakelen</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">Nu terugzetten</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">De back-up verwijderen en afmelden</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"Verwijdert de instellingen waarvan een back-up op de server is gemaakt.
+De instellingen binnen de applicatie zullen blijven."</string>
+    <string name="SettingsTakeOver_Settings_Description">U kunt de instellingen van deze applicatie op de server opslaan door een koppeling te maken met de account waarmee u zich heeft aangemeld.</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"Om een back-up te maken van de meest recente instellingen, moet u automatische synchronisatie inschakelen.
+U kunt de instellingen synchroniseren met alle mobiele apparaten waarmee u met deze account bent aangemeld."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">De instellingen van deze functie kunnen om het even wanneer worden gewijzigd vanuit het menu rechtsboven van het dashboard.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">Automatische synchronisatie</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">Accountinstelling</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Sony-accountinstellingen</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">Bezig met het maken van een back-up...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">Bijwerkingsdatum van de server:</string>
+    <string name="SettingsTakeOver_Settings_Status_None">U kunt een back-up maken van de instellingen.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">Er zijn instellingen waarvan nog geen back-up is gemaakt.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">U kunt de nieuwe instellingen vanaf de server terugzetten.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">Bezig met terugzetten...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">Het maken van een back-up is voltooid.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">Bezig met synchroniseren...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">Uw apparaat ondersteunt geen back-ups.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Log in met Amazon</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Log in met Apple</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Log in met Facebook</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Log in met Google</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Log in met Sony-account</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">Log in met WeChat</string>
+    <string name="SettingsTakeOver_SignIn_Description">Om een back-up te maken van instellingen en die terug te zetten, moet u aangemeld zijn bij Headphones Connect.</string>
+    <string name="SettingsTakeOver_SignIn_Split">of</string>
+    <string name="SettingsTakeOver_SignOut_Completed">Afgemeld.</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">De functies om een back-up te maken en terugzetten worden onbruikbaar.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">Instellingen waarvan een back-up op de server is gemaakt, worden automatisch verwijderd als een bepaalde duur voorbijgaat na het afmelden.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Sony-account</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">Bezig met aanmelden...</string>
+    <string name="SettingsTakeOver_SigningOut">Bezig met afmelden...</string>
+    <string name="SmartTalkingMode_Detail">U kunt een conversatie beginnen terwijl u de hoofdtelefoon draagt door gewoon te beginnen praten.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"Door gewoon te beginnen praten, kunt u een conversatie voeren terwijl u de hoofdtelefoon draagt. Zou u graag deze functie willen uitproberen?
+U kunt deze opnieuw uitvoeren met behulp van de [i]-knop."</string>
+    <string name="SmartTalkingMode_Experience_Btn">Uitproberen</string>
+    <string name="SmartTalkingMode_Experience_Detail1">Probeer bijvoorbeeld iets zoals \"Hallo\" te zeggen. De hoofdtelefoon detecteert dat u gesproken heeft en creëert automatisch een toestand die in staat stelt gesprekken te voeren.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"De muziek is gepauzeerd om het omgevingsgeluid in te nemen. Deze modus wordt hervat terwijl u aan het spreken bent en wordt gesloten na %s nadat u gestopt bent met praten of als u de hoofdtelefoon heeft bedient.
+Deze instelling kan worden aangepast in [Spreek-om-te-chatten] via het dashboard."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">De muziek is gepauzeerd om het omgevingsgeluid in te nemen. De modus kan worden gesloten door de hoofdtelefoon te bedienen.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">Sluiten</string>
+    <string name="SmartTalkingMode_Experience_Msg1">Detecteert uw stem</string>
+    <string name="SmartTalkingMode_Experience_Msg2">Detecteerde uw stem</string>
+    <string name="SmartTalkingMode_Experience_Title">Spreek-om-te-chatten-ervaring</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">Neemt stemmen in terwijl omgevingsruis wordt onderdrukt.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">Focus op stem</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"Als de hoofdtelefoon gedurende de opgegeven tijd uw stem niet detecteert, wordt de Spreek-om-te-chatten-modus gesloten en keert deze terug naar de normale toestand.
+De modus kan bovendien op elk moment worden gesloten door de hoofdtelefoon te bedienen."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">Snel</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">Standrd</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">Traag</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">Niet automatisch sluiten</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">Vermijd een</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">Tijd tot sluiten van de modus</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">Ong. 1 min</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">Ong. 1 s</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">Ong. %d s</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">Ong. %d min</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">Automatisch</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">Past de gevoeligheid automatisch aan op basis van het omgevingsgeluid.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">Automatisch:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">H. gevoeligh.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">Selecteer deze instelling wanneer stemdetectiegevoeligheid te laag. Effectief als omgevingsgeluid te luid is zoals wanneer u in voertuig zit.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">H. gevoeligh.:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">L. gevoeligh.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">Selecteer deze instelling wanneer de stemdetectiegevoeligheid te hoog is. Effectief wanneer de spreker dichtbij is.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">L. gevoeligh.:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">Stemdetectiegevoeligh.</string>
+    <string name="SmartTalkingMode_Setting_Title">Spreek-om-te-chatten-instell.</string>
+    <string name="SmartTalkingMode_Title">Spreek-om-te-chatten</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Spreek-om-te-chatten ingeschakeld</string>
+    <string name="SmartTalkingMode_TurnOn">Schakelt Spreek-om-te-chatten in om instellingen uit te voeren.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Schakelt Spreek-om-te-chatten in</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"Deze instelling kan worden geschakeld met behulp van bedieningen op uw hoofdtelefoon.
+De bedieningsmethode kan worden gecontroleerd in [Help]."</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Wilt u Spreek-om-te-chatten inschakelen?</string>
+    <string name="SongPalDownloadDialog">Wenst u de Music Center-app vanaf Google Play te downloaden?</string>
+    <string name="SongPalDownloadDialog_iOS">Wenst u de Music Center-app vanaf App Store te downloaden?</string>
+    <string name="SoundPosition_Preset_FL">Linksvoor</string>
+    <string name="SoundPosition_Preset_FR">Rechtsvoor</string>
+    <string name="SoundPosition_Preset_Front">Voor</string>
+    <string name="SoundPosition_Preset_Off">Uit</string>
+    <string name="SoundPosition_Preset_RL">Linksachter</string>
+    <string name="SoundPosition_Preset_RR">Rechtsachter</string>
+    <string name="SoundPosition_Title">Controle van geluidspositie</string>
+    <string name="Status_Loading_Headphones">Lijst met hoofdtelefoons aan het ophalen.</string>
+    <string name="Switch_ToOtherDevice">Naar ander apparaat overschakelen</string>
+    <string name="TalkBack_Button">Knop</string>
+    <string name="TalkBack_Button_Option">Meer opties</string>
+    <string name="TalkBack_Disable">Uitgeschakeld</string>
+    <string name="TalkBack_Switch">Omschakelknop</string>
+    <string name="Talkback_Echo_Minus">minus</string>
+    <string name="Talkback_Echo_Plus">plus</string>
+    <string name="TouchSensorControlPanel_title">Bedieningspaneel met aanraaksensor</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">Opnieuw instel.</string>
+    <string name="Training_Custom_Title">Snelle geluidsinstell.</string>
+    <string name="Training_Title">Snelle geluidsinstell.</string>
+    <string name="Training_Title_Detail">"U kunt de instellingen van [%1$s] en [%2$s] collectief schakelen.
+Bovendien kunt u deze instelling vanaf de hoofdtelefoon bedienen."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">Arena</string>
+    <string name="VPT_Preset_Club">Club</string>
+    <string name="VPT_Preset_ConcertHall">Concert Hall</string>
+    <string name="VPT_Preset_Off">Uit</string>
+    <string name="VPT_Preset_OutdoorFestival">Outdoor Stage</string>
+    <string name="VPT_Preset_Title">Surround (VPT)</string>
+    <string name="Vibration_Title">Trill. binnenk. gesprek</string>
+    <string name="VoiceData_Update_Status_Download">Bezig met downloaden van de spraakgegevens...</string>
+    <string name="VoiceData_Update_Status_Install">Bezig met instellen van de spraakgegevens...</string>
+    <string name="VoiceData_Update_Status_Send">Bezig met overdragen van de spraakgegevens...</string>
+    <string name="VoiceData_Update_Status_Start">Draagt de spraakgegevens in het %s over naar de hoofdtelefoon</string>
+    <string name="VoiceData_Update_Title">Taal wijzigen</string>
+    <string name="VoiceData_Updating">Even geduld...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">Taal</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">Melding en spraakgids</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">Braziliaans-Portugees</string>
+    <string name="Voice_Guidance_Elem_Chinese">Chinees</string>
+    <string name="Voice_Guidance_Elem_Dutch">Nederlands</string>
+    <string name="Voice_Guidance_Elem_English">Engels</string>
+    <string name="Voice_Guidance_Elem_Finnish">Fins</string>
+    <string name="Voice_Guidance_Elem_French">Frans</string>
+    <string name="Voice_Guidance_Elem_German">Duits</string>
+    <string name="Voice_Guidance_Elem_Italian">Italiaans</string>
+    <string name="Voice_Guidance_Elem_Japanese">Japans</string>
+    <string name="Voice_Guidance_Elem_Korean">Koreaans</string>
+    <string name="Voice_Guidance_Elem_Portuguese">Portugees</string>
+    <string name="Voice_Guidance_Elem_Russian">Russisch</string>
+    <string name="Voice_Guidance_Elem_Spanish">Spaans</string>
+    <string name="Voice_Guidance_Elem_Swedish">Zweeds</string>
+    <string name="Voice_Guidance_Elem_Turkish">Turks</string>
+    <string name="Voice_Guidance_Setting">Spraakbegeleidingstaal</string>
+    <string name="Volume_Talkback">Volume</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">Om deze te gebruiken, updatet u deze applicatie op Google Play.</string>
+    <string name="Walkman_Placeholder_Confirm_China">Om deze te gebruiken, downloadt u deze applicatie vanaf de downloadsite.</string>
+    <string name="Walkman_Placeholer_Button_Transit">Gaan</string>
+    <string name="Walkman_Placeholer_Description">"Pas de Sony headphones naar wens aan met een verbindingsfunctie voor deze toepassing.
+Eenvoudige bediening zorgt ervoor dat u nog meer van uw dagelijkse muziek kunt genieten."</string>
+    <string name="Walkman_Placeholer_Description_02">Om deze applicatie te gebruiken, moet u haar updaten (downloaden) op het scherm waarnaar u wordt geleid.</string>
+    <string name="Walkman_Placeholer_Description_03">Over deze applicatie</string>
+    <string name="Walkman_Placeholer_Link">Voor details over ondersteunde producten en functies, ga hier</string>
+    <string name="Walkman_Placeholer_SubTitle">Wilt u naar de downloadpagina van Headphones Connect gaan?</string>
+    <string name="Welcome_EULA_PP">Indrukken van deze knop bepaalt dat u het instemmingsdocument en privacybeleid heeft gecontroleerd en er mee instemt.</string>
+    <string name="Welcome_EULA_PPLink">Gebruiksvoorwaarden</string>
+    <string name="Welcome_SubTitle">"Meer plezier, intelligenter en persoonlijker.
+Start uw nieuwe leven met uw nieuwe hoofdtelefoon."</string>
+    <string name="Welcome_SubTitle1">Uw persoonlijke live concert begint hier.</string>
+    <string name="Welcome_SubTitle2">Club? Arena? Concertzaal? Of zelfs buiten? De ideale locatie staat voor u klaar.</string>
+    <string name="Welcome_SubTitle3">De regelbare bas geeft uw dag een boost.</string>
+    <string name="Welcome_Title">WELKOM</string>
+    <string name="Welcome_Title1">WELKOM</string>
+    <string name="Welcome_Title2">LIVE MUZIEK MET SLECHTS ÉÉN VEEG</string>
+    <string name="Welcome_Title3">WILT U MEER BAS?</string>
+    <string name="Widget_Disconnected">De hoofdtelefoon is niet verbonden of niet geregistreerd. Start Headphones Connect.</string>
+    <string name="Widget_EQ_Error">Bevestig [Equalizer] vanuit Headphones Connect.</string>
+    <string name="Widget_EQ_Error_Short">Wijzig vanuit Headphones Connect.</string>
+    <string name="Widget_EULA_Disagreement">Start Headphones Connect en voer de instellingen uit.</string>
+    <string name="Widget_Initial">Bezig met laden...</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Functie +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">spatie</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">Inschakelen</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services inschakelen</string>
+    <string name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_channel_name">Beschikbaarheid van Google Play-services</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string name="common_google_play_services_update_button">Updaten</string>
+    <string name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string name="expand_button_title">Geavanceerd</string>
+    <string name="fcm_fallback_notification_channel_label">Overige</string>
+    <string name="s1">Afbeelding opslaan</string>
+    <string name="s2">Advertentie toestaan om afbeelding op te slaan in fotogalerij?</string>
+    <string name="s3">Accepteren</string>
+    <string name="s4">Weigeren</string>
+    <string name="s5">Agenda-afspraak maken</string>
+    <string name="s6">Advertentie toestaan om een agenda-afspraak te maken?</string>
+    <string name="s7">Testadvertentie</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">UIT</string>
+    <string name="v7_preference_on">AAN</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:background="@drawable/a_mdr_clearbass_icon_frame" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/EQ_ClearBass_Title" style="@style/T4S_L_C3_BoStyle" />
+    <TextView android:id="@id/clearbass_value" android:layout_width="@dimen/eq_clear_bass_text_width" android:layout_height="wrap_content" style="@style/T4S_R_C3_BoStyle" />
+</LinearLayout>

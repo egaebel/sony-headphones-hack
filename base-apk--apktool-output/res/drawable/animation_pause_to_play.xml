@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_18" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_17" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_16" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_15" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_14" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_13" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_12" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_11" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_10" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_09" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_08" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_07" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_06" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_05" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_04" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_03" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_02" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_01" />
+    <item android:duration="20" android:drawable="@drawable/a_mdr_playback_button_play_pause_00" />
+</animation-list>

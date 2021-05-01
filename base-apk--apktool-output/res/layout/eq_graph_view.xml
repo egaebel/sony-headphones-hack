@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/line_area" android:layout_width="270.0dip" android:layout_height="60.0dip" android:layout_marginTop="5.0dip" android:layout_marginEnd="12.0dip">
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.5" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.5" />
+        <View android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <com.sony.songpal.mdr.view.eqgraph.LevelScaleView android:id="@id/scale" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginEnd="2.0dip" />
+    <TextView android:id="@id/maximum_level_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" style="@style/T4S_R_C1_LiStyle" />
+    <TextView android:id="@id/center_level_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" style="@style/T4S_R_C1_LiStyle" />
+    <TextView android:id="@id/minimum_level_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" style="@style/T4S_R_C1_LiStyle" />
+    <Space android:id="@id/band_area_end_margin" android:layout_width="30.0dip" android:layout_height="0.0dip" />
+</merge>

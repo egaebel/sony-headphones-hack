@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/App_full_name" style="@style/TM_L_C1_Me" />
+    <TextView android:id="@id/copy_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/Copyright" style="@style/TSS_L_C2_Re" />
+    <ImageView android:id="@id/image1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/a_mdr_activity_recognition_logo" />
+    <TextView android:id="@id/license_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</LinearLayout>

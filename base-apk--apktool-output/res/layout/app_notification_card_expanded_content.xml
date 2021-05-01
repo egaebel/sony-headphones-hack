@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:id="@id/expanded_message1" android:layout_width="0.0dip" android:layout_height="38.0dip" android:maxLines="2" android:layout_alignParentTop="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="38.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/TSS_L_C2_Re" />
+    <ImageButton android:id="@id/custom_icon" android:background="@drawable/ar_customize_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <TextView android:id="@id/expanded_message2" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/AppNotify_Detail" android:layout_below="@id/expanded_message1" android:layout_alignParentBottom="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/custom_icon" android:layout_alignParentStart="true" style="@style/T3S_L_C2_ReStyle" />
+</RelativeLayout>

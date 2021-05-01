@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/card_ui_container_view" android:background="?ui_common_bg_color_card_screen" android:paddingTop="@dimen/ui_card_list_margin_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:nestedScrollingEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

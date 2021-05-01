@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sony.songpal.mdr.view.layout.LinearLayoutCheckable android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_type_element_content" android:background="@drawable/nc_asm_item_background_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/gs_list_type_radiobutton_layout_margin_left" android:paddingEnd="@dimen/gs_list_type_radiobutton_layout_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio_button" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/list_type_element_text" android:paddingTop="@dimen/gs_item_padding_vertical" android:paddingBottom="@dimen/gs_item_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/gs_list_type_radiobutton_layout_text_margin_left">
+        <TextView android:id="@id/list_type_element_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TSS_L_C1_Re" />
+        <TextView android:id="@id/list_type_element_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gs_list_type_radiobutton_layout_summary_margin_top" android:maxLines="3" style="@style/T3S_L_C2_ReStyle" />
+        <TextView android:id="@id/list_type_element_concierge_link" android:paddingBottom="@dimen/gs_item_padding_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minWidth="48.0dip" style="@style/T3S_L_A1_ReStyle" />
+    </LinearLayout>
+</com.sony.songpal.mdr.view.layout.LinearLayoutCheckable>

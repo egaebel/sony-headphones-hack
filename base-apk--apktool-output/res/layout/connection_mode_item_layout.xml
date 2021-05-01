@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sony.songpal.mdr.view.layout.LinearLayoutCheckable android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/nc_asm_item_background_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio_button" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="32.0dip">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TSS_L_C1_Re" />
+        <TextView android:id="@id/detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="3" style="@style/T3S_L_C2_ReStyle" />
+    </LinearLayout>
+</com.sony.songpal.mdr.view.layout.LinearLayoutCheckable>

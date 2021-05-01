@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="46.0dip" android:paddingStart="16.0dip" android:paddingEnd="0.0dip" style="@style/TSS_L_C1_Re" />
+    <TextView android:gravity="start|center" android:id="@id/title_parameter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="46.0dip" android:maxLines="1" android:layout_marginStart="6.0dip" style="@style/TSS_L_C2_Re" />
+    <ImageView android:layout_gravity="start|center" android:id="@id/information_button" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/information_button_width" android:layout_height="@dimen/information_button_height" android:src="@drawable/information_button_selector" android:scaleType="fitCenter" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" android:layout_marginEnd="20.0dip" />
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/title_accessory_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/open_button" android:background="@drawable/a_mdr_soundposition_extended_area_background" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <TextView android:gravity="start|center" android:id="@id/open_button_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="0.0dip" style="@style/TSS_L_C2_Re" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_mdr_extended_area_knob_closed" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <Space android:id="@id/collapsed_contents_area_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <ImageView android:id="@id/expanded_contents_area_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/a_mdr_soundposition_extended_area_background" android:scaleType="fitXY" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <View android:id="@id/foreground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

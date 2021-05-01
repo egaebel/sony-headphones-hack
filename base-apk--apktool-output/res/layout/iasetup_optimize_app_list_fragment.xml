@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/browselistparent" android:background="@color/ui_common_color_b1_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_layout">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sony.songpal.mdr.application.immersiveaudio.setup.view.IaSetupIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip">
+                <TextView android:id="@id/descriptionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IASetup_AppList_Detail" style="@style/TSS_L_C2_Re" />
+                <TextView android:id="@id/learnMoreAboutAppText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/IASetup_LearnMore_AboutApp" style="@style/TSS_C_A1_ReStyle" />
+            </LinearLayout>
+            <com.sony.songpal.mdr.application.immersiveaudio.setup.view.FullSizeExpandableListView android:id="@id/spAppListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" android:divider="@null" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

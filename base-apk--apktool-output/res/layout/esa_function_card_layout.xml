@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/ESA_Title" android:maxLines="1" style="@style/TSS_L_C1_Re" />
+        <ImageView android:id="@id/earpiece_selection_info_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/information_button_width" android:layout_height="@dimen/information_button_height" android:src="@drawable/information_button_selector" android:scaleType="fitCenter" android:contentDescription="@string/STRING_TEXT_COMMON_MOREINFO" />
+    </LinearLayout>
+    <TextView android:id="@id/earpiece_series_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="8.0dip" android:maxLines="1" android:layout_below="@id/title_layout" style="@style/TSS_L_C1_Re" />
+    <ImageView android:id="@id/earpiece_selection_custom_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ar_customize_button_selector" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/STRING_TEXT_COMMON_DETAIL_SETTINGS" android:layout_marginEnd="8.0dip" />
+</RelativeLayout>

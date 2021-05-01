@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TS_L_C1_Re" android:id="@id/text_wifi_off" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+    <RelativeLayout android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/text_wifi_off">
+        <FrameLayout android:id="@id/btn_turn_on_wifi_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <include android:id="@id/btn_turn_on_wifi" layout="@layout/ui_common_raised_button" />
+        </FrameLayout>
+        <ProgressBar android:id="@id/progress_turn_on_wifi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+    </RelativeLayout>
+</RelativeLayout>

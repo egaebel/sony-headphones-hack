@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/collapsing_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/big_header_height">
+        <FrameLayout android:id="@id/collapsing_custom_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/collapsing_custom_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/a_mdr_activity_recognition_mode_running_selected" />
+    <item android:drawable="@drawable/a_mdr_activity_recognition_mode_running_unselected" />
+</selector>

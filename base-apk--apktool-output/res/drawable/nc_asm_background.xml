@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/nc_asm_bg_background" android:drawable="@drawable/a_mdr_card_asm_type1_background_01" />
+    <item android:id="@id/nc_asm_bg_other" android:drawable="@drawable/a_mdr_card_asm_type1_other_01" />
+    <item android:id="@id/nc_asm_bg_voice" android:drawable="@drawable/a_mdr_card_asm_type1_voice_01" />
+    <item android:id="@id/nc_asm_bg_human" android:drawable="@drawable/a_mdr_card_asm_type1_human" />
+</layer-list>

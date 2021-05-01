@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/indicate_sound" android:visibility="invisible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/a_mdr_paired_device_playing_indicator" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/indicate_sound">
+        <TextView android:id="@id/device_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TS_L_C1_BoStyle" />
+        <TextView android:ellipsize="end" android:id="@id/device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/TS_L_C1_BoStyle" />
+    </LinearLayout>
+</RelativeLayout>

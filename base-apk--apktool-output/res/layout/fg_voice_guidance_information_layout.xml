@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/voice_guidance_information_main_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/voice_guidance_update_common_left_margin" android:paddingEnd="@dimen/voice_guidance_update_common_right_margin">
+        <TextView android:id="@id/message1_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/voice_guidance_information_message1_text_top_margin" android:layout_alignParentTop="true" style="@style/TM_L_C1_Me" />
+        <TextView android:id="@id/message2_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/voice_guidance_information_message2_text_top_margin" android:layout_below="@id/message1_text" style="@style/T3S_L_C2_ReStyle" />
+        <TextView android:id="@id/message4_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/voice_guidance_information_message4_text_top_margin" android:text="@string/LanguageData_Info_Message" android:layout_below="@id/message2_text" style="@style/T3S_L_C2_ReStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="0.0dip" android:paddingEnd="@dimen/voice_guidance_update_common_button_area_right_margin">
+        <include android:id="@id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/ui_common_flat_button" />
+        <include android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ok_button" android:layout_toStartOf="@id/ok_button" layout="@layout/ui_common_flat_button_normal" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">길게</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">짧게</string>
+    <string name="AR_Custom_Reset">재설정</string>
+    <string name="AR_Custom_Title">편집</string>
+    <string name="AR_Custom_Title_iOS">편집</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"앱은 동작 및 자주 가는 위치를 감지하고, 주변 사운드를 받아들이는 방법과 같은 헤드폰 설정을 자동으로 전환합니다.
+이를 통해 음악을 듣고 있는 상황에 맞는 최적의 환경이 제공됩니다.
+
+이 기능을 사용하시겠습니까?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"앱이 귀하의 동작을 감지하여 주변 사운드를 가져오는 방법을 자동으로 조정합니다.
+이를 통해 음악을 듣고 있는 상황에 맞는 최적의 여건이 조성됩니다.
+
+이 기능을 사용하시겠습니까?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">적응형 사운드 제어의 설정이 완료되었습니다.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"감지된 동작 및 위치에 적합한 설정으로 자동 전환되므로 노이즈 캔슬링이 꺼질 수 있습니다.
+이 설정은 대시보드의 [적응형 사운드 제어]를 사용하여 맞춤 설정할 수 있습니다."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"검출되는 행동에 따라서는 노이즈 캔슬링이 비활성화되고, 주변 사운드를 가져오도록 설정되어 있습니다.
+이 설정은 대시보드의 [적응형 사운드 제어]에서 맞춤 설정할 수 있습니다."</string>
+    <string name="AR_Notification_Message">[%s]이(가) 활성화됩니다.</string>
+    <string name="AR_Status_Detecting">감지 중</string>
+    <string name="AR_Status_LongStay">정지 상태</string>
+    <string name="AR_Status_Run">뛰는 중</string>
+    <string name="AR_Status_ShortStay">정지 상태</string>
+    <string name="AR_Status_Vehicle">차량 이동</string>
+    <string name="AR_Status_Walking">걷는 중</string>
+    <string name="AR_Title">적응형 사운드 제어</string>
+    <string name="AR_Title_Detail">앱은 동작 및 자주 가는 위치를 감지하고, 주변 사운드를 받아들이는 방법과 같은 헤드폰 설정을 자동으로 전환합니다.</string>
+    <string name="AR_Title_Detail_China">앱에서 사용자 동작을 감지하고 [%s]가 전환됩니다.</string>
+    <string name="AR_Title_Detail_EffectTone">[%s]를 끄면 전환 시 들리는 알림음이 음소거될 수 있습니다.</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">이 위치에 있는 동안에는 이러한 설정이 활성화되며 동작을 기반으로 자동 전환이 비활성화됩니다.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">등록된 위치에 있는 동안 비활성화됨</string>
+    <string name="ASC_Behavior_Detection">동작을 기반으로 자동 전환</string>
+    <string name="ASC_Behavior_Detection_Menu">동작 감지</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"자주 가는 위치를 등록하면 그 위치를 기반으로 설정 자동 전환을 사용할 수 있습니다.
+학습 기능을 사용하면 자주 가는 위치를 쉽게 등록할 수 있습니다.
+이 기능을 사용하시겠습니까?
+*자주 가는 위치는 학습 기능을 사용하고 며칠이 지난 후 등록됩니다."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">위치 학습은 오프라인으로 작동하므로 위치가 서버로 전송되지 않습니다.</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">학습 기능 사용</string>
+    <string name="ASC_LearningLocation">자주 가는 위치 학습</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"적응형 사운드 제어의 위치를 기반으로 자주 가는 위치의 학습 기능 및 설정 자동 전환이 활성화되지만, 위치에 액세스할 수 없으므로 위치를 감지할 수 없습니다.
+
+이러한 기능을 백그라운드에서 작동하려면 [설정] 버튼을 누르고 [권한] > [위치]에서 [항상 허용]을 선택하십시오. 항상 허용을 선택하시면, 앱이 닫혀 있거나 사용되지 않을 때에도 위치 정보가 수집됩니다."</string>
+    <string name="ASC_Location_Detail">위치 정보</string>
+    <string name="ASC_Location_Detail_Message">"새 위치가 학습되었습니다.
+이 위치를 등록하면 헤드폰 설정을 자동으로 전환할 수 있습니다."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">노이즈 캔슬링을 끔으로 설정하고 주변 사람들의 음성을 더 잘 들을 수 있는 설정으로 사전 설정합니다.</string>
+    <string name="ASC_Location_Detail_Message_Other">이 위치에 대한 권장 설정을 사전 설정으로 사용할 수 있습니다.</string>
+    <string name="ASC_Location_Detail_Message_Station">노이즈 캔슬링을 끔으로 설정하고 주변 사운드를 더 잘 들을 수 있는 설정으로 사전 설정합니다.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">자주 가는 위치 학습</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">새 위치가 학습되었습니다.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">이 위치를 등록하면 헤드폰 설정을 자동으로 전환할 수 있습니다.</string>
+    <string name="ASC_Location_Detection">위치를 기반으로 자동 전환</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">지하철이나 터널 같이 GPS 수신이 약한 위치에서는 자주 가는 위치 학습 및 위치를 기반으로 자동 전환이 제대로 작동하지 않을 수 있습니다.</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">모바일 장치에 GPS가 장착되어 있지 않으므로 자주 가는 위치 학습 및 위치를 기반으로 자동 전환이 제대로 작동하지 않을 수 있습니다.</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">위치 감지에 제한이 있음</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">위치 감지 중...</string>
+    <string name="ASC_Location_Empty_Message">위치를 기반으로 하는 자동 전환을 사용하려면 자주 가는 위치를 등록하십시오.</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">위치 켜기</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"적응형 사운드 제어의 위치를 기반으로 자주 가는 위치의 학습 기능 및 설정 자동 전환이 활성화되지만, 위치가 꺼져 있으므로 위치를 감지할 수 없습니다.
+
+이러한 기능이 정확히 작동하도록 하려면 위치를 켜십시오."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"적응형 사운드 제어의 위치를 기반으로 자주 가는 위치의 학습 기능 및 설정 자동 전환이 활성화되지만, 위치가 꺼져 있으므로 위치를 감지할 수 없습니다.
+
+이러한 기능이 정확히 작동하도록 하려면 위치 서비스를 켜십시오.
+모바일 장치의 \"설정\" > [개인 정보 보호] > [위치 서비스]에서 설정하십시오."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">위치 켜기</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">위치 서비스 켜기</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">자주 가는 위치를 감지하려면 위치를 켜십시오.</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">자주 가는 위치를 감지하려면 위치 서비스를 켜십시오.</string>
+    <string name="ASC_Location_Learning_Location_List">학습된 위치</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">자주 가는 위치</string>
+    <string name="ASC_Location_Learning_Location_Select_message">등록할 위치를 선택하십시오.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">학습 기능이 활성화되었습니다.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"동작 감지만이 아니라 자주 가는 위치를 등록함으로써 적응형 사운드 제어에서 해당 위치를 기반으로 설정 자동 전환을 사용할 수 있습니다. 학습 기능을 사용하면 자주 가는 위치를 쉽게 등록할 수 있습니다.
+*자주 가는 위치는 학습 기능을 사용하고 며칠이 지난 후 등록됩니다."</string>
+    <string name="ASC_Location_Learning_Tips_notification">학습 기능을 사용하여 자주 가는 위치를 쉽게 등록할 수 있습니다.</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">위치에 대한 액세스 허용</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"적응형 사운드 제어의 위치를 기반으로 자주 가는 위치의 학습 기능 및 설정 자동 전환이 활성화되지만, 위치에 액세스할 수 없으므로 위치를 감지할 수 없습니다.
+
+이러한 기능이 정확히 작동하도록 하려면 위치에 대한 액세스를 허용하십시오. 항상 허용을 선택하시면, 앱이 닫혀 있거나 사용되지 않을 때에도 위치 정보가 수집됩니다."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"적응형 사운드 제어의 위치를 기반으로 자주 가는 위치의 학습 기능 및 설정 자동 전환이 활성화되지만, 위치에 액세스할 수 없으므로 위치를 감지할 수 없습니다.
+
+이러한 기능이 정확히 작동하도록 하려면 다음 화면에서 [앱을 사용하는 동안]을 선택하십시오."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"적응형 사운드 제어의 위치를 기반으로 자주 가는 위치의 학습 기능 및 설정 자동 전환이 활성화되지만, 위치 서비스에 액세스할 수 없으므로 위치를 감지할 수 없습니다.
+
+이러한 기능을 백그라운드에서 작동하려면 [설정] 버튼을 누르고 [위치]에서의 액세스를 항상 허용하십시오."</string>
+    <string name="ASC_Location_Permission_Tips_notification">자주 가는 위치를 감지하려면 위치에 대한 액세스를 허용하십시오.</string>
+    <string name="ASC_Location_Position_Set">위치</string>
+    <string name="ASC_Location_Position_Set_message">탭하여 위치를 지정하십시오.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">정확한 위치 켜기</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"적응형 사운드 제어의 위치를 기반으로 자주 가는 위치의 학습 기능 및 설정 자동 전환이 활성화되지만, 정확한 위치가 꺼져 있으므로 위치를 감지할 수 없습니다.
+
+이러한 기능이 제대로 작동하도록 하려면 [설정] 버튼을 누르고 [위치]에서 정확한 위치를 켜십시오."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">자주 가는 위치를 감지하려면 정확한 위치를 켜십시오.</string>
+    <string name="ASC_Location_Range">범위</string>
+    <string name="ASC_Location_Range_Param_Large">큼</string>
+    <string name="ASC_Location_Range_Param_Mid">표준</string>
+    <string name="ASC_Location_Range_Param_Small">작음</string>
+    <string name="ASC_Location_Registration">위치 등록</string>
+    <string name="ASC_Location_Setting">위치 설정</string>
+    <string name="ASC_Location_Sound_Setting">헤드폰 설정</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">이 위치에서 전환할 설정을 [항목 추가/삭제]에서 선택하십시오.</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">전환하지 않음</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">항목 추가/삭제</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"이 위치에서 전환하려면 설정을 선택하십시오.
+이 위치에 들어가더라도 선택되지 않은 설정은 이전 상태를 유지합니다."</string>
+    <string name="ASC_Location_Switch_Setting">전환 방법</string>
+    <string name="ASC_Location_Type_Bus">버스정류장</string>
+    <string name="ASC_Location_Type_Gym">헬스장</string>
+    <string name="ASC_Location_Type_Home">집</string>
+    <string name="ASC_Location_Type_Office">직장</string>
+    <string name="ASC_Location_Type_Other">기타</string>
+    <string name="ASC_Location_Type_School">학교</string>
+    <string name="ASC_Location_Type_Set">범주</string>
+    <string name="ASC_Location_Type_Set_message">범주를 선택하십시오.</string>
+    <string name="ASC_Location_Type_Train">역</string>
+    <string name="ASC_NotificationSound">전환 시 알림 톤</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">알림 설정을 허용하십시오.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"적응형 사운드 제어의 [알림에서 전환] 설정이 활성화되더라도 알림 설정이 허용되지 않기 때문에 알림이 표시되지 않습니다.
+
+이 기능을 올바르게 작동하려면 알림 설정을 허용하십시오."</string>
+    <string name="ASC_NowHere">이 위치에 있음</string>
+    <string name="ASC_Others_Section">기타</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">학습된 위치에서 등록</string>
+    <string name="ASC_RegisterFromMapBtn">지도에서 등록</string>
+    <string name="ASC_RegisteredLocation">등록된 위치</string>
+    <string name="ASC_Status_Empty">자동으로 전환되지 않았음</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">비활성화됨(이퀄라이저를 수동으로 변경해야 함)</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*수동으로 전환</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">비활성화됨(음질 우선 때문)</string>
+    <string name="ASC_Status_Sound_Setting_info">설정 상태</string>
+    <string name="ASC_Supplement_A2SC_Controlled">적응형 사운드 제어에 의해 자동으로 설정되었습니다.</string>
+    <string name="ASC_Supplement_Change_Behavior">동작이 바뀌면 적응형 사운드 제어에 의해 설정이 자동으로 변경됩니다.</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">동작 및 위치가 바뀌면 적응형 사운드 제어에 의해 설정이 자동으로 변경됩니다.</string>
+    <string name="ASC_Supplement_Change_Location">위치가 바뀌면 적응형 사운드 제어에 의해 설정이 자동으로 변경됩니다.</string>
+    <string name="ASC_Supplement_Leave_Location">이 위치를 떠나면 적응형 사운드 제어를 기반으로 자동 설정으로 돌아갑니다.</string>
+    <string name="ASC_Switch_Detail_Message">[알림에서 전환]으로 설정한 경우, 이 위치에 있는 동안 언제든지 이 설정으로 전환할 수 있습니다.</string>
+    <string name="ASC_Switch_Notification_After_Button">되돌리기</string>
+    <string name="ASC_Switch_Notification_After_Description">전환 전의 설정으로 되돌릴 수 있습니다.</string>
+    <string name="ASC_Switch_Notification_After_Title">%s 설정으로 지정</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">전환</string>
+    <string name="ASC_Switch_Notification_Before_Description">이 위치의 설정으로 전환하시겠습니까?</string>
+    <string name="ASC_Switch_Notification_Before_Title">장소: %s</string>
+    <string name="ASC_Switch_Type_Auto">자동으로 전환</string>
+    <string name="ASC_Switch_Type_Manual">알림에서 전환</string>
+    <string name="ASM_Param_ASM">주변 사운드</string>
+    <string name="ASM_Param_NC">노이즈 캔슬링</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">끄기</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">켬</string>
+    <string name="ASM_Param_Street">윈드 노이즈 감소</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">주변 사운드</string>
+    <string name="ASM_Simple_Param_AsmNormal">주변 사운드 - 표준 모드</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">주변 사운드 - 표준 모드</string>
+    <string name="ASM_Simple_Param_AsmVoice">주변 사운드 - 음성 모드</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">주변 사운드 - 음성 모드</string>
+    <string name="ASM_Simple_Param_Asm_forBody">주변 사운드</string>
+    <string name="ASM_Simple_Param_Dual">노이즈 캔슬링</string>
+    <string name="ASM_Simple_Param_Dual_forBody">노이즈 캔슬링</string>
+    <string name="ASM_Simple_Param_NC">노이즈 캔슬링</string>
+    <string name="ASM_Simple_Param_NC_forBody">노이즈 캔슬링</string>
+    <string name="ASM_Simple_Param_Street">윈드 노이즈 감소</string>
+    <string name="ASM_Simple_Param_Street_forBody">윈드 노이즈 감소</string>
+    <string name="ASM_Simple_Title">주변 소리 제어</string>
+    <string name="ASM_Title">주변 소리 제어</string>
+    <string name="ASM_Voice">음성에 집중</string>
+    <string name="Abort_FWUpdate">취소</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">설정되지 않음</string>
+    <string name="AppNotify_Custom_Param_Vibration">진동</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">텍스트 음성 변환</string>
+    <string name="AppNotify_Custom_Title">헤드폰으로 알림 받기</string>
+    <string name="AppNotify_Detail">선택한 앱으로부터 헤드폰에서 알림을 받을 수 있습니다. 텍스트 음성 변환 기능을 사용하려면 모바일 장치의 Bluetooth 설정에서 미디어의 오디오를 선택해야 합니다.</string>
+    <string name="AppNotify_NeedSetup">알림을 받을 앱을 선택하십시오.</string>
+    <string name="AppNotify_Notification_Message">[%s]가 활성화됩니다</string>
+    <string name="AppNotify_Setapps">%d개 앱을 선택했습니다.</string>
+    <string name="AppNotify_Title">헤드폰으로 알림 받기</string>
+    <string name="AppSetting_Link">Music Center 시작</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">등록</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">헤드폰에 다시 연결해야 하므로 현재 재생 중인 음악이 중지됩니다. 변경하시겠습니까?</string>
+    <string name="Assignable_Key_Changing_Error">작동에 실패했습니다.</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">버튼의 기능 변경</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">이 기능을 사용하려면 Amazon Alexa 앱이 필요합니다.</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">Amazon Alexa 설정</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">이 기능을 사용하려면 Google Assistant 앱 설정을 완료하십시오.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">이 기능을 사용하려면 Google Assistant 앱이 필요합니다.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google 어시스턴트</string>
+    <string name="Assignable_Key_Elem_Help_Button">자세히 알아보기</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">버튼 조작이 비활성화됩니다. 이 설정에서도 페어링 조작은 사용할 수 있습니다.</string>
+    <string name="Assignable_Key_Elem_None_Title">할당된 기능 없음</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">터치 조작이 비활성화됩니다. 이 설정에서도 페어링 조작은 사용할 수 있습니다.</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">재생 제어</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">헤드폰의 마이크에서 음성으로 모바일 장치를 조작 할 수 있습니다.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">음성 지원 기능</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">볼륨 제어</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">왼쪽과 오른쪽에 모두 음성 지원 기능을 할당할 수는 없습니다.</string>
+    <string name="Assignable_Key_Setting_1">[NC/AMBIENT] 버튼의 기능 변경</string>
+    <string name="Assignable_Key_Setting_2">왼쪽 버튼의 기능 변경</string>
+    <string name="Assignable_Key_Setting_Button">버튼 기능 변경</string>
+    <string name="Assignable_Key_Setting_C">[C] 버튼의 기능 변경</string>
+    <string name="Assignable_Key_Setting_CUSTOM">[CUSTOM] 버튼의 기능 변경</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">재설정</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">왼쪽 버튼에 할당된 기능을 변경할 수 있습니다.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">오른쪽 버튼에 할당된 기능을 변경할 수 있습니다.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">[C] 버튼에 할당된 기능을 변경할 수 있습니다.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">[CUSTOM] 버튼에 할당된 기능을 변경할 수 있습니다.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">왼쪽 터치 센서에 할당된 기능을 변경할 수 있습니다.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">오른쪽 터치 센서에 할당된 기능을 변경할 수 있습니다.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">기능:</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">작동 방법:</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">왼쪽</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">오른쪽</string>
+    <string name="Assignable_Key_Setting_Edit_Title">편집</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">오디오 입력/취소</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">음성 지원 기능 취소</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">오디오 입력 취소</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">음성 알림</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">오디오 입력</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">음성 지원 기능 시작</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">다음 곡</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">재생/일시 중지</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">이전 곡</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">노이즈 캔슬링/주변 사운드/끔</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">노이즈 캔슬링 최적화 도구</string>
+    <string name="Assignable_Key_Setting_Function_None">없음</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">퀵 어텐션</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">볼륨 내리기</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">볼륨 올리기</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">오디오 입력</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">2번 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">2번 누르고 계속 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">1번 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">1번 누르고 계속 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">3번 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">계속 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">길게 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">두 번 탭</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">두 번 탭하고 계속 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">탭</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">탭하고 계속 누름</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">세 번 탭</string>
+    <string name="Assignable_Key_Setting_NC">[NC] 버튼의 기능 변경</string>
+    <string name="Assignable_Key_Setting_NCAMB">[NC/AMB] 버튼의 기능 변경</string>
+    <string name="Assignable_Key_Setting_Not_Connected">연결되지 않았습니다.</string>
+    <string name="Assignable_Key_Setting_R">오른쪽 버튼의 기능 변경</string>
+    <string name="Assignable_Key_Setting_SaveCheck">편집이 완료되지 않았습니다. 종료하시겠습니까?</string>
+    <string name="Assignable_Key_Setting_Touch">터치 센서 기능 변경</string>
+    <string name="AutoPlaybackControl_Title">헤드폰을 끌 때 일시 정지</string>
+    <string name="AutoPowerOff_Off_Parameter">끄지 않음</string>
+    <string name="AutoPowerOff_Off_Title">끄지 않음</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">헤드폰을 일정 시간 장착하지 않으면 전원이 자동으로 꺼집니다.</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">헤드폰을 벗을 때 끄기</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">헤드폰을 벗을 때 끄기</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Bluetooth의 연결을 끊은 후 지정된 시간이 지나면 헤드폰의 전원이 자동으로 꺼집니다.</string>
+    <string name="AutoPowerOff_SelectTime_Title">특정 시간 후 끄기</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1시간</string>
+    <string name="AutoPowerOff_SelectTme_30min">30분</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3시간</string>
+    <string name="AutoPowerOff_SelectTme_5min">5분</string>
+    <string name="AutoPowerOff_Title">자동 전원 끄기</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">배터리 잔량</string>
+    <string name="Battery_Remain_Unknown">배터리 잔량을 알 수 없음</string>
+    <string name="Button_Next">다음</string>
+    <string name="Button_Permission_iOS_Settings">설정</string>
+    <string name="Button_Prev">이전</string>
+    <string name="Codec_AAC">AAC를 통해 연결되었습니다.</string>
+    <string name="Codec_LDAC">LDAC를 통해 연결되었습니다.</string>
+    <string name="Codec_SBC">SBC를 통해 연결되었습니다.</string>
+    <string name="Codec_aptX">aptX를 통해 연결되었습니다.</string>
+    <string name="Codec_aptXHD">aptX HD를 통해 연결되었습니다.</string>
+    <string name="Common_App_Start">시작</string>
+    <string name="Common_Back">뒤로</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">완료</string>
+    <string name="Common_EULA">최종 사용자 사용권 계약</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">추가 정보</string>
+    <string name="Common_Off">끄기</string>
+    <string name="Common_On">켬</string>
+    <string name="Common_Other">기타</string>
+    <string name="Common_PP">개인정보취급 방침</string>
+    <string name="Common_Pause">일시 중지</string>
+    <string name="Common_Play">재생</string>
+    <string name="Common_Start">시작</string>
+    <string name="Common_Yes">예</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">설정을 변경하려면 음질 모드를 안정적인 연결 우선 으로 변경해야 합니다. 또한 헤드폰이 다시 연결되고 현재 재생 중인 음악이 중지됩니다. 변경하시겠습니까?</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">헤드폰에 다시 연결해야 하므로 현재 재생 중인 음악이 중지됩니다. 또한 음질 우선으로 변경한 경우 음질 설정을 사용하지 못하게 될 수 있습니다. 변경하시겠습니까?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">헤드폰에 다시 연결해야 하므로 현재 재생 중인 음악이 중지됩니다. 변경하시겠습니까?</string>
+    <string name="ConnectMode_Changing_Title_Caution">음질 모드를 변경해야 함</string>
+    <string name="ConnectMode_Changing_Title_Confirm">음질 모드 변경</string>
+    <string name="ConnectMode_Connectivity_Detail">사운드 건너뛰기가 자주 발생하면 이 설정을 선택하십시오.</string>
+    <string name="ConnectMode_Connectivity_Title">안정적인 연결 우선</string>
+    <string name="ConnectMode_Sound_Title">음질 우선</string>
+    <string name="ConnectMode_Title">음질 모드</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">본 제품(Sony | Headphones Connect)은 Sony Computer Science Laboratories, Inc.의 연구를 기반으로 Sony Corporation에서 개발한 활동 인지 기술을 통합합니다.</string>
+    <string name="Copyright_AptX">Qualcomm은 미국 및 기타 국가에 등록되고 인가 받은 Qualcomm Incorporated의 상표입니다. aptX는 미국 및 기타 국가에 등록되고 인가 받은 Qualcomm Technologies International, Ltd.의 상표입니다.</string>
+    <string name="Copyright_Bluetooth">BLUETOOTH® 워드마크 및 로고는 Bluetooth SIG, Inc.의 소유이며Sony Corporation은 적법한 사용권한을 가지고 있습니다.</string>
+    <string name="Copyright_NFC">N 마크는 미국 및 기타 국가에서 NFC Forum, Inc.의 상표 또는 등록 상표입니다.</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">최신 배터리 잔량을 확인하려면</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">충전 케이스에서 헤드폰을 제거하면 표시되는 배터리 잔량이 업데이트됩니다.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">충전 케이스에서 헤드폰을 분리하면 충전 케이스의 배터리 잔량 표시가 업데이트됩니다.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">충전 케이스의 배터리 잔량 표시를 활성화하시겠습니까?</string>
+    <string name="Cradle_Battery">충전 케이스</string>
+    <string name="Current_Volume_Talkback">현재 볼륨</string>
+    <string name="DSEEHX_AI_Param_Auto">자동</string>
+    <string name="DSEEHX_AI_Param_Off">끄기</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">자동</string>
+    <string name="DSEEHX_Param_Off">끄기</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme 켬</string>
+    <string name="DSEE_HX_ON">DSEE HX 켬</string>
+    <string name="DSEE_ON">DSEE 켬</string>
+    <string name="DSEE_Param_Auto">자동</string>
+    <string name="DSEE_Param_Off">끄기</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">사운드</string>
+    <string name="Dashboard_Tab_Status">상태</string>
+    <string name="Dashboard_Tab_System">시스템</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Bluetooth를 통해 연결됨.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Bluetooth를 통해 연결되지 않음.</string>
+    <string name="Device_Connection_Connect">연결</string>
+    <string name="Device_Connection_Connect_iOS">페어링된 헤드폰에 연결</string>
+    <string name="Device_Connection_Message1">Bluetooth를 통해 헤드폰에 연결합니다.</string>
+    <string name="Device_Connection_Pair">새 헤드폰에 연결</string>
+    <string name="Device_Registration_Top_Msg">새 헤드폰을 등록하십시오.</string>
+    <string name="Download_Latest_MDRPlugin">이 헤드폰을 사용하려면 Headphones Connect의 최신 버전이 필요합니다. Google Play에서 이 앱을 업데이트하십시오.</string>
+    <string name="Download_Latest_MDRPlugin_iOS">이 헤드폰을 사용하려면 Headphones Connect의 최신 버전이 필요합니다. App Store에서 이 앱을 업데이트하십시오.</string>
+    <string name="EBB_Indicator">일렉트로 베이스 부스터</string>
+    <string name="EBB_Param_Title">레벨</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">어쿠스틱</string>
+    <string name="EQ_Preset_Bass">베이스 부스트</string>
+    <string name="EQ_Preset_Bright">밝음</string>
+    <string name="EQ_Preset_Custom">수동</string>
+    <string name="EQ_Preset_Dance">댄스</string>
+    <string name="EQ_Preset_EDM">EDM</string>
+    <string name="EQ_Preset_Excited">신남</string>
+    <string name="EQ_Preset_Jazz">재즈</string>
+    <string name="EQ_Preset_Mellow">부드러움</string>
+    <string name="EQ_Preset_Off">끄기</string>
+    <string name="EQ_Preset_Pop">팝</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B / 힙합</string>
+    <string name="EQ_Preset_Relaxed">편안함</string>
+    <string name="EQ_Preset_Rock">록</string>
+    <string name="EQ_Preset_Speech">스피치</string>
+    <string name="EQ_Preset_Title">이퀄라이저</string>
+    <string name="EQ_Preset_Treble">트레블 부스트</string>
+    <string name="EQ_Preset_UserSetting">커스텀</string>
+    <string name="EQ_Preset_Vocal">보컬</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_ko.html</string>
+    <string name="ErrMsg_CannotAccess_Server">서버 연결에 실패했습니다. 네트워크 연결 상태를 확인하십시오.</string>
+    <string name="FW_Download_Param_Always">항상 자동으로 다운로드</string>
+    <string name="FW_Download_Param_OnlyWiFi">Wi-Fi를 통해 연결된 경우에만</string>
+    <string name="FW_Download_Title">소프트웨어 자동 다운로드</string>
+    <string name="FW_EULA_Title">사용 약관</string>
+    <string name="FW_Info_Button_Resume">다시 시작</string>
+    <string name="FW_Info_Button_Start">시작</string>
+    <string name="FW_Info_Caution">"업데이트 중에는 헤드폰을 사용할 수 없습니다.
+시작 시 헤드폰과 모바일 장치를 서로 가까이 두십시오."</string>
+    <string name="FW_Info_Caution_Downloading">"헤드폰과 모바일 장치가 서로 떨어져 있거나 헤드폰의 전원이 꺼져 있는 경우 다운로드가 중단됩니다.
+중단된 경우 다운로드를 다시 시작할 수 있습니다."</string>
+    <string name="FW_Info_Caution_Sending">"헤드폰과 모바일 장치가 서로 떨어져 있거나 헤드폰의 전원이 꺼져 있는 경우 전송이 중단됩니다.
+중단된 경우, 중단된 곳부터 전송을 다시 시작할 수 있습니다."</string>
+    <string name="FW_Info_Caution_Start">헤드폰과 모바일 장치 세트를 서로 가까이 두고 시작하십시오.</string>
+    <string name="FW_Info_EULA">다음 버튼을 누르면 귀하는 승낙 문서를 확인했고 그 내용에 동의했음을 의미합니다.</string>
+    <string name="FW_Info_EULALink">사용 약관</string>
+    <string name="FW_Info_Message1">최신 헤드폰 소프트웨어를 사용할 수 있습니다.</string>
+    <string name="FW_Info_Message2">[동의] 버튼을 누르면 업데이트가 시작됩니다.</string>
+    <string name="FW_Info_Message3">[확인] 버튼을 누르면 업데이트가 시작됩니다.</string>
+    <string name="FW_Info_Message_Download">[%s] 버튼을 누르면 업데이트 준비가 시작됩니다.</string>
+    <string name="FW_Info_Message_Resume">[%s] 버튼을 누르면 전송이 다시 시작됩니다.</string>
+    <string name="FW_Info_Message_Update">[%s] 버튼을 누르면 업데이트가 시작됩니다.</string>
+    <string name="FW_Info_Title">소프트웨어 정보</string>
+    <string name="FW_Info_Version">버전</string>
+    <string name="FW_Notify_Abort">헤드폰의 소프트웨어 전송이 중단되었습니다.</string>
+    <string name="FW_Notify_Detail">추가 정보</string>
+    <string name="FW_Notify_Downloading">최신 헤드폰 소프트웨어 다운로드 중...(%d%%)</string>
+    <string name="FW_Notify_Msg">최신 헤드폰 소프트웨어를 사용할 수 있습니다.</string>
+    <string name="FW_Notify_Sending">최신 헤드폰 소프트웨어 전송 중...(%d%%)</string>
+    <string name="FW_Notify_Update">헤드폰 소프트웨어를 업데이트하십시오.</string>
+    <string name="FW_Update_Button_Transit_AppStore">App Store에서 업데이트</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">Google Play에서 업데이트</string>
+    <string name="FW_Update_Message1">기다려 주십시오...</string>
+    <string name="FW_Update_Message2">"전원을 끄지 마십시오.
+헤드폰과 모바일 장치를 서로 멀리 떨어뜨려 놓지 마십시오."</string>
+    <string name="FW_Update_Message3">"자동으로 다시 시작합니다.
+헤드폰과 모바일 장치를 서로 멀리 떨어뜨려 놓지 마십시오."</string>
+    <string name="FW_Update_Message_step2_1">왼쪽 유닛으로 전송 중</string>
+    <string name="FW_Update_Message_step2_2_1">헤드폰의 왼쪽 유닛 업데이트 중</string>
+    <string name="FW_Update_Message_step2_2_2">"헤드폰의 왼쪽 유닛 업데이트가 완료되었습니다.
+오른쪽 유닛에 연결 중"</string>
+    <string name="FW_Update_Message_step2_2_3">오른쪽 유닛으로 전송 준비 중</string>
+    <string name="FW_Update_Message_step2_3">오른쪽 유닛으로 전송 중</string>
+    <string name="FW_Update_Retry_Body_Caution">"소프트웨어를 업데이트하기 전에, \"Google Assistant\" 설정 해제가 필요합니다.
+\"Google Assistant\" 설정 해제후, 헤드폰이 자동으로 다시 합니다. 이후 팝업 지시를 따라주십시요.
+소프트웨어 업데이트 이후, \"Google Assistant\" 설정을 수동으로 다시 전환해주십시요."</string>
+    <string name="FW_Update_Retry_Title_Caution">\"Google Assistant\" 설정 해제가 필요합니다.</string>
+    <string name="FW_Update_Status_Abort">헤드폰의 소프트웨어 전송이 중단되었습니다.</string>
+    <string name="FW_Update_Status_Download">소프트웨어 다운로드 중...</string>
+    <string name="FW_Update_Status_Download_step1">소프트웨어 다운로드 중...(1/3)</string>
+    <string name="FW_Update_Status_Downloading">최신 헤드폰 소프트웨어 다운로드 중...</string>
+    <string name="FW_Update_Status_Install">업데이트 중...</string>
+    <string name="FW_Update_Status_Install_step3">소프트웨어 업데이트 중...(3/3)</string>
+    <string name="FW_Update_Status_Prepared">헤드폰 소프트웨어를 업데이트하십시오.</string>
+    <string name="FW_Update_Status_Send">소프트웨어 전송 중...</string>
+    <string name="FW_Update_Status_Send_step2">소프트웨어 전송 중...(2/3)</string>
+    <string name="FW_Update_Status_Sending">최신 헤드폰 소프트웨어 전송 중...</string>
+    <string name="FW_Update_Title">소프트웨어 업데이트</string>
+    <string name="FW_Version_Confirm_Title">%s 버전</string>
+    <string name="FW_Version_Menu_Title">%s 버전</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">ko</string>
+    <string name="GoogleAssistantIntro_Link">Google Assistant 설정</string>
+    <string name="GoogleAssistantIntro_Msg">개인용 Google 등에 즉시 액세스할 수 있습니다. 설정은 몇 분 정도면 완료됩니다.</string>
+    <string name="GoogleAssistantIntro_Title">이제 Google Assistant에 맞게 최적화되었습니다.</string>
+    <string name="Help_Information_Priority_High">여기를 확인하여 주십시오</string>
+    <string name="Help_Troubleshooting">문제 해결</string>
+    <string name="IASetup_AnalyzeComplete_Detail">이제 360 Reality Audio 환경을 최적화할 수 있도록 이 결과를 음악 앱으로 전송합니다.</string>
+    <string name="IASetup_AnalyzeComplete_Title">귀의 분석이 완료되었습니다</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"분석을 위해 양쪽 귀를 촬영합니다.
+촬영하기 전에 양쪽 귀 전체가 보이게 하고 다음 사항을 확인하십시오.
+
+- 귀에서 헤드폰을 빼십시오.
+- 머리카락이 귀를 덮지 않게 하십시오.
+- 귀걸이와 피어싱을 빼십시오."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">귀 모양 분석</string>
+    <string name="IASetup_Analyze_Cmd_Retry">다시 분석</string>
+    <string name="IASetup_Analyze_Cmd_Start">분석</string>
+    <string name="IASetup_Analyze_Detail">약 %d초 정도 걸립니다.</string>
+    <string name="IASetup_Analyze_Label">귀 모양 분석</string>
+    <string name="IASetup_Analyze_Status_Done">귀를 분석했습니다</string>
+    <string name="IASetup_Analyze_Status_NotComp">귀를 분석하지 못했습니다</string>
+    <string name="IASetup_Analyze_Title">귀 분석 중</string>
+    <string name="IASetup_AppDetail_NotInstalled">설치되지 않음</string>
+    <string name="IASetup_AppDetail_NotOptimized">최적화되지 않음</string>
+    <string name="IASetup_AppDetail_Optimized">최적화됨</string>
+    <string name="IASetup_AppInstallConf_Title">설치 후 Headphones Connect로 돌아가야 합니다.</string>
+    <string name="IASetup_AppInstall_Detail">앱을 설치한 후 시작하면 360 Reality Audio 설정이 완료됩니다. 음악 앱이 최적화되어 정확한 음장이 다시 생성됩니다.</string>
+    <string name="IASetup_AppInstall_Detail_iOS">앱을 설치하고 360 Reality Audio 설정을 완료하면 음악 앱이 최적화되어 정확한 음장이 다시 생성됩니다.</string>
+    <string name="IASetup_AppInstall_Install">설치 및 최적화</string>
+    <string name="IASetup_AppInstall_Install_iOS">설치</string>
+    <string name="IASetup_AppInstall_Title">앱을 시작하면 360 Reality Audio 설정이 완료됩니다.</string>
+    <string name="IASetup_AppInstall_Title_iOS">스마트폰에 이 앱을 설치합니다.</string>
+    <string name="IASetup_AppIntroduction_Detail">"몰입감 넘치는 음악 청취 경험을 즐기려면 다음과 같은 360 Reality Audio용 음악 서비스 앱 중 하나가 필요합니다.
+*구독료 및 적용 가능한 콘텐츠는 음악 서비스에 따라 달라집니다."</string>
+    <string name="IASetup_AppIntroduction_Title">사용 가능한 360 Reality Audio용 음악 앱</string>
+    <string name="IASetup_AppLaunch_Detail">"360 Reality Audio 설정이 완료되면 정확한 음장으로 음악 재생을 즐기실 수 있습니다.
+귀하에게 맞게 최적화된 360 Reality Audio를 즐기십시오."</string>
+    <string name="IASetup_AppLaunch_Optimize">최적화를 위해 실행</string>
+    <string name="IASetup_AppLaunch_Title">앱을 시작하면 360 Reality Audio 설정이 완료됩니다.</string>
+    <string name="IASetup_AppList_Detail">"이러한 음악 서비스 앱에서만 360 Reality Audio를 사용할 수 있습니다. 사용하고자 하는 앱을 선택하십시오.
+*구독료 및 적용 가능한 콘텐츠는 음악 서비스에 따라 달라집니다."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">설치되지 않음</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">최적화되지 않음</string>
+    <string name="IASetup_AppList_Gp_Optimized">최적화됨</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">감지할 수 없음.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">머리를 움직이지 마세요.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">스마트폰을 움직이지 마세요.</string>
+    <string name="IASetup_CameraInstruction_Complete">캡처된 사진.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">귀가 감지되었습니다. 머리를 움직이지 마세요.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">왼쪽 귀 감지 중...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">오른쪽 귀 감지 중...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">현재 위치가 정확합니다. 이 위치에서 고개를 천천히 오른쪽으로 돌리세요.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">고개를 천천히 오른쪽으로 돌리세요.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">현재 위치가 정확합니다. 이 위치에서 고개를 천천히 왼쪽으로 돌리세요.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">고개를 천천히 왼쪽으로 돌리세요.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"왼쪽 귀를 촬영하십시오. 헤드폰을 제거하십시오.
+그 다음, 고개를 오른쪽으로 돌리고 셔터 버튼을 누르십시오."</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"헤드폰을 제거하십시오.
+그 다음, 귀가 프레임에 들어오도록 고개를 오른쪽으로 돌리고 셔터 버튼을 누르십시오."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"오른쪽 귀를 촬영하십시오. 헤드폰을 제거하십시오.
+그 다음, 고개를 왼쪽으로 돌리고 셔터 버튼을 누르십시오."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"헤드폰을 제거하십시오.
+그 다음, 귀가 프레임에 들어오도록 고개를 왼쪽으로 돌리고 셔터 버튼을 누르십시오."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">카메라를 머리에서 좀 멀어지게 하십시오.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">카메라를 가까이 가져오십시오.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">카메라를 약간 아래로 기울이십시오.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"헤드폰을 제거하십시오.
+그 다음, 카메라를 바라보고 얼굴이 프레임 안에 들어오도록 하세요."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">카메라를 약간 왼쪽으로 회전하십시오.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">카메라를 약간 오른쪽으로 회전하십시오.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">카메라를 약간 위로 기울이십시오.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">헤드폰을 제거하십시오.</string>
+    <string name="IASetup_CompletePhotograph_Detail">귀 모양 분석을 시작합니다.</string>
+    <string name="IASetup_CompletePhotograph_Title">오른쪽 귀를 촬영했습니다</string>
+    <string name="IASetup_Confirm_NonBT_Device">헤드폰 설정을 수행하려면 [%s] 버튼을 누르십시오.</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">360 Reality Audio의 몰입감 넘치는 사운드를 청취 및 비교하려면 다음 설정을 꺼야 합니다.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">음악 서비스 앱에서 몰입감 넘치는 360 Reality Audio를 재생하려면 다음 설정을 꺼야 합니다.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">끄고 재생</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">끄고 시작</string>
+    <string name="IASetup_EarPhoto_Auto">자동 촬영(권장)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">자동 촬영</string>
+    <string name="IASetup_EarPhoto_Manual">수동 촬영</string>
+    <string name="IASetup_FailurePhotograph_Detail">다음 내용을 확인하고 귀를 다시 촬영하십시오.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">왼쪽 귀가 인식되지 않습니다</string>
+    <string name="IASetup_FailurePhotograph_R_Title">오른쪽 귀가 인식되지 않습니다</string>
+    <string name="IASetup_FeatureTitle">360 Reality Audio 설정</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">확인됨</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">쿠폰을 사용하지 않고 계속 진행</string>
+    <string name="IASetup_FreeTrialCoupon_Start">쿠폰 사이트로 이동</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">귀의 방향을 확인하고 가이드에 따라 위치와 크기를 조정하십시오.</string>
+    <string name="IASetup_LearnMore">360 Reality Audio에 대해 자세히 알아보기</string>
+    <string name="IASetup_LearnMore_AboutApp">음악 서비스 상세 정보는 여기로 이동</string>
+    <string name="IASetup_Link_EarPhotoSample">귀의 위치 및 크기</string>
+    <string name="IASetup_Link_Handling_EarPhoto">개인 데이터가 사용되는 방식</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">귀의 촬영이 필요한 이유는 무엇입니까?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">음악 서비스 앱으로 전송되는 정보 소개</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">전체 귀가 프레임에 들어오는지 확인하고 [%s] 버튼을 누르십시오.</string>
+    <string name="IASetup_NeedToUpdateApp_Title">업데이트 필요.</string>
+    <string name="IASetup_OOBE_Title">360 Reality Audio 정보</string>
+    <string name="IASetup_Optimize_Cmd_AppList">확인</string>
+    <string name="IASetup_Optimize_Cmd_Install">설치</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">최적화</string>
+    <string name="IASetup_Optimize_Label">앱 최적화</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">360 Reality Audio 앱이 설치되지 않았습니다</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">360 Reality Audio 앱이 아직 최적화되지 않았습니다</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">최적화된 360 Reality Audio 앱이 없습니다.</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d개 애플리케이션이 최적화되었습니다</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"다음 화면에서 전면 카메라가 얼굴을 향하게 합니다. 귀가 감지되면 자동으로 촬영이 수행됩니다.
+
+1. 얼굴 앞에서 양손으로 모바일 장치를 잡습니다.
+2. 얼굴이 감지되면 음성 안내에 따라 고개를 오른쪽으로 돌립니다.
+3. 자동으로 촬영이 수행될 때까지 움직이지 않습니다."</string>
+    <string name="IASetup_PhotographEar_Title">왼쪽 귀 촬영</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">귀걸이를 빼십시오.</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- 왼쪽 귀를 촬영하십시오.
+- 촬영 장소가 너무 밝거나 너무 어두우면 장소를 변경하십시오.
+- 귀에서 헤드폰을 빼십시오."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- 오른쪽 귀를 촬영하십시오.
+- 촬영 장소가 너무 밝거나 너무 어두우면 장소를 변경하십시오.
+- 귀에서 헤드폰을 빼십시오."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">머리카락이 귀를 덮지 않게 하십시오.</string>
+    <string name="IASetup_Photograph_Ear_L">왼쪽 귀</string>
+    <string name="IASetup_Photograph_Ear_R">오른쪽 귀</string>
+    <string name="IASetup_Photograph_Retake">다시 촬영</string>
+    <string name="IASetup_Photograph_Take">촬영</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">일반 오디오</string>
+    <string name="IASetup_Select_NonBT_Button">대시보드로 이동</string>
+    <string name="IASetup_SetupStart">설정 시작</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">완료됨</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">분석을 위해 귀를 촬영합니다.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">귀를 분석하지 못했습니다</string>
+    <string name="IASetup_SetupSummary_Detail">귀하의 귀 모양을 분석하여 최고의 음장을 정확히 재생할 수 있습니다.</string>
+    <string name="IASetup_SetupSummary_Optimize">시작 단계 2</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d개 앱이 최적화되었습니다</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">귀 분석 결과를 전송하여 음악 서비스 앱을 최적화합니다.</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">360 Reality Audio 앱이 설치되지 않았습니다</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">360 Reality Audio 앱이 최적화되지 않았습니다</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">시작 단계 1</string>
+    <string name="IASetup_SetupSummary_Title">360 Reality Audio 음장 최적화</string>
+    <string name="IASetup_Setup_Complete">360 Reality Audio 음장 완료됨</string>
+    <string name="IASetup_Setup_Title">360 Reality Audio 설정</string>
+    <string name="IASetup_SoundPreview_Detail">아래의 샘플을 듣고 차이를 비교해 보십시오.</string>
+    <string name="IASetup_SoundPreview_Title">360 Reality Audio 경험</string>
+    <string name="IASetup_StartAnalyze">시작</string>
+    <string name="IASetup_SuccessPhotograph_Detail">이제 오른쪽 귀를 촬영하십시오.</string>
+    <string name="IASetup_SuccessPhotograph_Title">왼쪽 귀를 촬영했습니다</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">앱 최적화</string>
+    <string name="IASetup_TipsDetail_Description">360 Reality Audio 음악 서비스 앱에서 몰입감 넘치는 현장감을 즐기려면 귀 분석 결과를 전송하여 음악 서비스 앱을 최적화해야 합니다.</string>
+    <string name="IASetup_TipsDetail_Title">360 Reality Audio 설정이 아직 완료되지 않았습니다.</string>
+    <string name="IASetup_UpdateApp">업데이트</string>
+    <string name="IASetup_Welcome_Detail">이 헤드폰에서 360 Reality Audio를 재생하면 라이브 공연과 같은 몰입감 넘치는 현장감을 경험할 수 있습니다.</string>
+    <string name="IASetup_Welcome_Title">360 Reality Audio 시작</string>
+    <string name="IAWM_Analyze_Cmd_Retry">재생성</string>
+    <string name="IAWM_Analyze_Cmd_Start">생성</string>
+    <string name="IAWM_Analyze_Label">맞춤화된 청각 프로필 만들기</string>
+    <string name="IAWM_Analyze_Status_Done">완료됨</string>
+    <string name="IAWM_Analyze_Status_NotComp">미완료</string>
+    <string name="IAWM_Complete_Data_Title">청각 프로필 수신이 완료되었습니다</string>
+    <string name="IAWM_Confirmation_Dialog1">"청각 프로필이 이미 저장되었습니다.
+서버에서 프로필을 수신하고 앱 최적화를 진행하시겠습니까?"</string>
+    <string name="IAWM_Hrtf_App_Button">수신 시작</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"청력 프로필 수신에 실패했습니다.
+네트워크 연결을 확인하고 잠시 기다린 후 다시 시도하십시오."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"서버에서 청각 프로필을 수신할 수 없습니다.
+스마트폰에서 청각 프로필 만들기가 완료되었는지 확인하고 버튼을 다시 눌러 수신을 시작하십시오."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"서버에서 청각 프로필을 수신할 수 없습니다.
+다음 사항 확인 후, 다음 화면으로 이동하여 수신을 시작하십시오.
+- 스마트폰에서 청력 프로필 생성이 완료되었습니다
+- 이 Walkman의 360 Spatial Sound Personalizer 및 Headphones Connect 에서 동일한 계정으로 로그인되어 있습니다"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">스마트폰에 360 Spatial Sound Personalizer 앱을 설치하고, 이 Walkman의 계정과 같은 계정으로 로그인하고, 화면의 안내에 따라 귀의 사진을 찍으십시오.</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">스마트폰에서 청각 프로필을 만듭니다</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">수신 시작</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"스마트폰으로 QR 코드를 스캔합니다. 스캔할 수 없는 경우 앱 스토어에서 \"360 Spatial Sound Personalizer\" 앱을 검색합니다.
+청력 프로필 생성이 완료되면 이 Walkman 는 청력 프로필을 자동으로 수신하므로 이 화면에 그대로 머무르십시오."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"스마트폰으로 QR 코드를 스캔합니다. 스캔할 수 없는 경우 앱 스토어에서 \"360 Spatial Sound Personalizer\" 앱을 검색합니다.
+청각 프로필 만들기가 완료되면 아래의 버튼을 누르고 수신을 시작합니다."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">스마트폰에 앱 설치</string>
+    <string name="IAWM_Need_Sign_in_Description">곧 만들려고 하거나 이미 만든 청각 프로필을 사용하려면 계정에 로그인하십시오.</string>
+    <string name="IAWM_Need_Sign_in_Title">로그인 필요</string>
+    <string name="IAWM_Recieve_Data_Title">서버에서 청각 프로필 수신 중...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">360 Spatial Sound Personalizer 앱을 사용하여 귀의 사진을 찍고 청각 프로필을 만드십시오.</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">청각 프로필이 이미 만들어졌습니다.</string>
+    <string name="IAWM_SetupSummary_Description">이제 청각 프로필을 360 Reality Audio용 음악 서비스 앱으로 전송하여 정확한 음장을 다시 생성합니다.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">Walkman으로 돌아가서 청각 프로필을 전송한 다음, 360 Reality Audio용 음악 서비스 앱을 최적화합니다.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">청각 프로필을 전송하고 360 Reality Audio용 음악 서비스 앱을 최적화합니다.</string>
+    <string name="IAWM_SetupSummary_Title">청각 프로필 만들기가 완료되었습니다</string>
+    <string name="IAWM_Start_Recieving_Title">청력 프로필 수신 재시작</string>
+    <string name="InformationNotification_List_Info_Empty_Title">지금은 정보 또는 설문 조사가 없습니다.</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">정보 및 설문 조사가 여기에 표시됩니다.</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">사용 팁이 여기에 표시됩니다.</string>
+    <string name="InformationNotification_List_Tips_Section">팁</string>
+    <string name="InformationNotification_List_Title">정보</string>
+    <string name="InformationNotification_New_Talkback_1">새 정보가 있습니다.</string>
+    <string name="InformationNotification_New_Talkback_2">새 항목이 있습니다.</string>
+    <string name="InformationNotification_New_Talkback_3">새 항목입니다.</string>
+    <string name="InformationToUsersLangCode">ko</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">앱은 동작 및 자주 가는 위치를 감지하고, 주변 사운드를 받아들이는 방법과 같은 헤드폰 설정을 자동으로 전환합니다.</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">앱이 귀하의 동작을 감지하여 주변 사운드를 가져오는 방법을 자동으로 조정합니다.</string>
+    <string name="InitialSetup_IASetup_Detail">이렇게 하면 라이브 공연과 같은 몰입감 넘치는 현장감을 즐길 수 있도록 360 Reality Audio 사운드 환경이 최적화됩니다.</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">설정을 시작하고 헤드폰의 기능을 맘껏 즐기십시오.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">대시보드로 이동</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">설정이 완료되었습니다.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">대시보드에서 언제든지 설정을 변경할 수 있습니다.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">이것이 설정의 마지막 단계입니다.</string>
+    <string name="InitialSetup_OverallSetup_Title">설정</string>
+    <string name="InstructionGuide_CoachMark">헤드폰을 편안하게 사용하려면 [%s 자습서]를 확인하십시오.</string>
+    <string name="InstructionGuide_Menu_Title">%s 자습서</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">[확인] 버튼을 누르면 전송이 시작됩니다.</string>
+    <string name="LanguageData_Info_Message_1">"전원을 끄지 마십시오.
+헤드폰과 모바일 장치를 서로 멀리 떨어뜨려 놓지 마십시오."</string>
+    <string name="LanguageData_Info_Message_2">"자동으로 다시 시작합니다.
+헤드폰과 모바일 장치를 서로 멀리 떨어뜨려 놓지 마십시오."</string>
+    <string name="LanguageData_Restriction">"전송 중에는 헤드폰을 사용할 수 없습니다. %d분 정도 걸릴 수 있습니다.
+헤드폰과 모바일을 서로 가까이 두고 시작하십시오."</string>
+    <string name="Left_Headphones">왼쪽 유닛</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"다른 헤드폰에 연결되어 있는 동안에는 전환할 수 없습니다.
+연결된 헤드폰을 분리하십시오."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">위치의 등록이 완료되지 않았습니다. 닫으시겠습니까?</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"백그라운드에서도 자주 가는 위치를 감지하려면 위치에 대한 액세스를 항상 허용해야 합니다.
+
+[설정] 버튼을 누르고 [권한] > [위치]에서 [항상 허용]을 선택하십시오. 항상 허용을 선택하시면, 앱이 닫혀 있거나 사용되지 않을 때에도 위치 정보가 수집됩니다."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">자주 가는 위치를 감지하려면 모바일 장치 설정에서 위치에 대한 액세스를 항상 허용해야 합니다.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">백그라운드에서도 자주 가는 위치를 감지하려면 모바일 장치 설정에서 위치에 대한 액세스를 항상 허용해야 합니다.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">백그라운드에서도 자주 가는 위치를 감지하려면 위치에 대한 액세스를 항상 허용해야 합니다. 항상 허용을 선택하시면, 앱이 닫혀 있거나 사용되지 않을 때에도 위치 정보가 수집됩니다. 다음 화면에서 내용을 확인하세요.</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">이 위치의 등록을 취소하시겠습니까?</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">자주 가는 위치를 감지하려면 모바일 장치 설정에서 위치를 켜야 합니다.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"자주 가는 위치를 감지하기 위해 위치가 사용됩니다.
+위치를 켜십시오."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"자주 가는 위치를 감지하려면 위치 서비스를 켜야 합니다.
+
+모바일 장치의 \"설정\" > [개인 정보 보호] > [위치 서비스]에서 설정하십시오."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">등록할 수 있는 학습된 위치가 없습니다.</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">자주 가는 위치를 감지하려면 모바일 장치 설정에서 위치에 대한 액세스가 필요합니다.</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"자주 가는 위치를 감지하려면 위치에 대한 액세스가 필요합니다.
+위치에 대한 액세스를 허용하십시오. 항상 허용을 선택하시면, 앱이 닫혀 있거나 사용되지 않을 때에도 위치 정보가 수집됩니다."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"자주 가는 위치를 감지하려면 위치에 대한 액세스가 필요합니다.
+[앱을 사용하는 동안]을 선택하십시오."</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"백그라운드에서도 자주 가는 위치를 감지하려면 위치에 대한 액세스를 항상 허용해야 합니다.
+
+[설정] 버튼을 누르고 [위치]에서의 액세스를 항상 허용하십시오."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"자주 가는 위치를 감지하려면 정확한 위치를 켜야 합니다.
+
+[설정] 버튼을 누르고 [위치]에서 정확한 위치를 켜십시오."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"위치를 등록하려면 적응형 사운드 제어를 지원하는 헤드폰을 연결해야 합니다.
+헤드폰을 연결한 후 대시보드의 오른쪽 상단 메뉴에서 [%s]를 선택하고 등록 프로세스를 다시 시작하십시오."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"편집하려면 음질 모드를 [안정적인 연결 우선]으로 변경해야 합니다.
+또한 헤드폰이 다시 연결되고 현재 재생 중인 음악이 중지됩니다. 변경하시겠습니까?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"위치를 더 이상 등록할 수 없습니다.
+불필요한 위치의 등록을 취소하십시오."</string>
+    <string name="Msg_ASC_Registration_Comp">%s이(가) 등록되었습니다.</string>
+    <string name="Msg_Abort_FWUpdate">"소프트웨어 업데이트를 취소하시겠습니까?
+취소할 경우 정지 지점부터 업데이트를 다시 시작할 수 있습니다."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">모바일 장치의 \"설정\" > [Headphones] > [위치]에서 액세스를 허용하십시오.</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"위치를 사용하는 경우 동작 감지 정확성이 향상됩니다. 또한 위치에 따라 헤드폰 설정이 자동으로 전환될 수 있습니다.
+이러한 기능을 백그라운드에서 작동하려면 위치를 항상 허용해야 합니다.
+
+[설정] 버튼을 누르고 [위치]에서의 액세스를 항상 허용하십시오."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"위치를 사용하면 적응형 사운드 제어의 정밀도가 더욱 향상됩니다.
+[설정] 버튼을 누르고 [위치]에서의 액세스를 허용하십시오."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">적응형 사운드 제어의 정확성을 높이려면 GPS를 사용하는 것이 좋습니다. 모바일 장치 설정에서 GPS를 켜십시오.</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">적응형 사운드 제어의 정확성을 높이려면 위치 정보에 대한 액세스를 허용하는 것이 좋습니다.</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">편집이 완료되지 않았습니다. 종료하시겠습니까?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"위치를 사용하는 경우 적응형 사운드 제어의 동작 감지 정확성이 향상됩니다. 또한 위치에 따라 헤드폰 설정이 자동으로 전환될 수 있습니다.
+위치에 대한 액세스를 허용하십시오."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"위치를 사용하는 경우 적응형 사운드 제어의 정확성이 향상됩니다.
+위치에 대한 액세스를 허용하십시오."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"위치를 사용하는 경우 적응형 사운드 제어의 정확성이 향상됩니다.
+위치에 대한 액세스를 허용하십시오."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"위치를 사용하는 경우 적응형 사운드 제어의 동작 감지 정확성이 향상됩니다. 또한 위치에 따라 헤드폰 설정이 자동으로 전환될 수 있습니다.
+[앱을 사용하는 동안]을 선택하십시오."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"위치를 사용하는 경우 적응형 사운드 제어의 동작 감지 정확성이 향상됩니다. 또한 위치에 따라 헤드폰 설정이 자동으로 전환될 수 있습니다.
+위치 설정을 켜십시오."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"위치를 사용하는 경우 적응형 사운드 제어의 정확성이 향상됩니다.
+위치를 켜십시오."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"위치 서비스를 켜는 경우 적응형 사운드 제어의 동작 감지 정확성이 향상됩니다. 또한 위치에 따라 헤드폰 설정이 자동으로 전환될 수 있습니다.
+모바일 장치의 \"설정\" > [개인 정보 보호] > [위치 서비스]에서 설정하십시오."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"위치 서비스를 켜면 적응형 사운드 제어의 정밀도가 더욱 향상됩니다.
+모바일 장치의 \"설정\" > [개인 정보 보호] > [위치 서비스]에서 설정을 수행하십시오."</string>
+    <string name="Msg_Agree_EULAPP">위 내용을 읽었으며 동의합니다.</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">이 기능을 사용하려면 알림에 대한 액세스가 승인되어야 합니다. [%1$s]을 선택하고 %2$s 설정을 활성화하십시오.</string>
+    <string name="Msg_Check_EULA">%s을(를) 확인하십시오.</string>
+    <string name="Msg_Check_EULAPP">%1$s 및 %2$s을 확인하십시오.</string>
+    <string name="Msg_CompleteUpdate">소프트웨어 업데이트 완료.</string>
+    <string name="Msg_Complete_Language_Setting">언어 변경 완료.</string>
+    <string name="Msg_ConfirmBattery_MDR">배터리 잔량이 부족합니다. 헤드폰을 충분히 충전한 후 다시 연결하고 다시 시도하십시오.</string>
+    <string name="Msg_ConfirmBattery_Mobile">배터리 잔량이 부족합니다. 모바일 장치를 충전한 후 다시 시도하십시오.</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">설정을 변경하려면 소프트웨어 업데이트를 취소해야 합니다. 취소하더라도 소프트웨어 업데이트가 다시 수행될 수 있습니다. 변경하시겠습니까?</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">소프트웨어 업데이트를 취소해야 합니다</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">%s 및 이퀄라이저를 동시에 사용하면 헤드폰 배터리가 빨리 소모되고 연속 재생 시간이 단축될 수 있습니다. 변경하시겠습니까?</string>
+    <string name="Msg_Confirm_L_connection">"헤드폰의 왼쪽 유닛이 모바일 장치에 연결되지 않았습니다.
+헤드폰의 왼쪽 유닛 전원이 켜져 있는지 확인하고 다시 시도하십시오."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">언어 변경을 취소하시겠습니까?</string>
+    <string name="Msg_Confirm_R_connection">"헤드폰의 오른쪽 유닛이 모바일 장치에 연결되지 않았습니다.
+헤드폰의 오른쪽 유닛 전원이 켜져 있는지 확인하고 다시 시도하십시오."</string>
+    <string name="Msg_Confirm_network_connection">모바일 장치가 네트워크에 연결되지 않았습니다. 네트워크에 연결하고 다시 시도하십시오.</string>
+    <string name="Msg_ConnectDevice">다음 버튼으로 헤드폰에 연결하십시오.</string>
+    <string name="Msg_ConnectDevice_talkback">"%s에 연결되었습니다.
+대시보드를 표시합니다."</string>
+    <string name="Msg_ConnectMode_Changing_Error">작동에 실패했습니다.</string>
+    <string name="Msg_ConnectNewDevice">새 헤드폰에 연결</string>
+    <string name="Msg_ConnectionFailed">연결에 실패했습니다.</string>
+    <string name="Msg_ConnectionFailed_Internet">내용을 표시할 수 없습니다. 인터넷 연결을 확인하십시오.</string>
+    <string name="Msg_ConnectionFailed_SRT">"%s에 연결할 수 없습니다.
+장치의 전원이 켜져 있는지 확인하십시오."</string>
+    <string name="Msg_DataError">소프트웨어 다운로드 실패.</string>
+    <string name="Msg_Disabled_Language_Setting">"헤드폰의 소프트웨어 전송 중에는 언어를 변경할 수 없습니다.
+소프트웨어 전송이 완료된 후 다시 시도하십시오."</string>
+    <string name="Msg_DownloadFailed">소프트웨어 다운로드 실패.</string>
+    <string name="Msg_EmptyDevice">[+] 버튼을 누르고 장치를 등록하십시오.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"이 헤드폰의 소프트웨어를 업데이트하려면 Headphones Connect의 최신 버전이 필요합니다.
+Google Play에서 이 앱을 업데이트하십시오."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"이 헤드폰의 소프트웨어를 업데이트하려면 Headphones Connect의 최신 버전이 필요합니다.
+App Store에서 이 앱을 업데이트하십시오."</string>
+    <string name="Msg_FWVer_unmatched">소프트웨어 업데이트 실패.</string>
+    <string name="Msg_Failed_Language_Setting">언어를 변경하지 못했습니다.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">귀하의 iOS 버전에서는 헤드폰의 소프트웨어를 업데이트할 수 없습니다.</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"다음을 통해 모바일 장치 설정에서 권한을 허용하십시오.
+[설정] -> [헤드폰] -> [카메라]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">[설정] 버튼을 누르고 [권한] > [카메라]에서 액세스를 허용하십시오.</string>
+    <string name="Msg_IASetupAllowCamera">사진 촬영 권한을 허용하십시오.</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">모바일 장치 설정에서 권한을 허용하십시오</string>
+    <string name="Msg_IASetup_AppInstallConf">\"%s\"을(를) 설치한 후 Headphones Connect로 돌아가서 360 Reality Audio 설정을 완료하십시오.</string>
+    <string name="Msg_IASetup_AppOptimizing">최적화 준비 중. 기다려 주십시오...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"다음 절차에 따라 촬영한 귀의 사진은 귀의 모양을 기반으로 귀하에게 맞는 최적화된 음장을 제공할 수 있도록 분석을 위해 Sony 서버로 전송됩니다.
+이 분석이 완료되면 이러한 사진은 귀하와 개인적으로 연결되지 않은 채 서버에 유지 관리됩니다.
+해당 사진은 귀 분석 기능을 개선하기 위한 연구에만 사용되며 30일 이후 삭제됩니다."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- 당사에서는 귀하의 귀 모양을 기반으로 음장을 최적화하기 위해 귀의 사진을 사용합니다. 당사에서는 귀하에게 맞는 최적화된 음장을 생성하려는 합법적인 관심을 충족하기 위해 이를 수행합니다. 분석이 완료되면 사진을 즉시 삭제합니다.
+- Sony Home Entertainment &amp; Sound Products Inc.에서 이 프로세싱을 책임지고 있습니다. 서버는 미국에 있으며 타사에서 유지 관리합니다. 미국에 있는 귀하의 데이터를 보호하기 위해 European Commission에서 승인한 표준 계약 조항을 사용합니다.
+- privacyoffice.seu@sony.com으로 당사에 연락할 수도 있고, EU 거주 사용자인 경우 당사 대표부인 네덜란드 회사 Sony Europe BV(Taurusavenue 16, 2132LS Hoofddorp, the Netherlands)로, 영국 거주 사용자인 경우 영국 지사(The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, The United Kingdom)로 서신을 보내 연락할 수도 있습니다. Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokyo, 141-8610, Japan으로 연락할 수도 있습니다.
+- 귀하는 당사에서 귀하의 데이터를 처리하는 동안 해당 데이터를 액세스, 수정 및 삭제할 권리를 보유합니다. 또한 귀하는 귀하가 거주하거나 일하거나 불만 사항이 발생하는 국가 또는 지역의 데이터 보호 기관에 불만을 제기할 권리를 보유합니다."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"\"%s\"이(가) 설치되지 않았거나 업데이트가 필요한 경우 App Store가 열립니다.
+
+\"%s\"이(가) 시작되면 360 Reality Audio 설정이 완료됩니다."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"헤드폰이 미디어 오디오(A2DP)를 통해 이 모바일 장치와 연결되지 않았습니다.
+
+헤드폰과 기타 장치 간 미디어 오디오의 연결을 해제한 후 이 모바일 장치와 연결하십시오."</string>
+    <string name="Msg_IASetup_ConnectCable">"헤드폰이 모바일 장치와 연결되지 않았습니다.
+
+헤드폰을 이 모바일 장치와 연결하십시오."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"귀가 감지되며 촬영이 자동으로 수행됩니다.
+자동 촬영이 여러 번 실패하면 수동 촬영을 이용할 수도 있습니다."</string>
+    <string name="Msg_IASetup_General_Err">처리가 취소되었습니다.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"귀/머리의 사진 및 귀하를 식별할 수 있는 정보는 360 Reality Audio용 음악 앱으로 전송되지 않습니다.
+
+최적화된 음악 감상을 위해 분석된 데이터만 음악 앱으로 전송됩니다."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">360 Reality Audio 설정을 완료하려면 \"%s\"을(를) 최신 버전으로 업데이트한 후 Headphones Connect로 돌아가서 \"%s\"을(를) 최적화하십시오.</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"다음 화면에서 음성 안내가 제공됩니다. 안내를 들을 수 있도록 모바일 장치의 볼륨을 높이십시오.
+
+*이 헤드폰의 연결을 해제하지 마십시오."</string>
+    <string name="Msg_IASetup_OpenAppInfo">Google Play에서 \"%s\" 앱을 여시겠습니까?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">App Store에서 \"%s\" 앱을 여시겠습니까?</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"라이브 공연에서 듣는 사운드는 머리와 귀의 모양에 따라 달라질 수 있습니다.
+
+귀하에게 맞춤화된 최적의 음장을 생성하는 데이터를 계산하기 위해 귀하의 귀 사진을 분석합니다.
+
+이렇게 최적화된 결과를 360 Reality Audio용 음악 서비스 앱으로 전송하면 헤드폰을 통해 몰입감 넘치는 음악을 감상하실 수 있습니다."</string>
+    <string name="Msg_IASetup_StopConfirm">360 Reality Audio 설정이 완료되지 않았습니다. 나중에 이 설정을 완료할 수 있습니다.</string>
+    <string name="Msg_IASetup_StopConfirm_Title">360 Reality Audio 설정을 건너뛰시겠습니까?</string>
+    <string name="Msg_IASetup_UnsupportedArea">귀하의 국가/지역에서는 현재 이 기능을 사용할 수 없습니다.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"360 Reality Audio 설정이 활성화됩니다.
+음악 서비스 앱에서 몰입감 넘치는 360 Reality Audio를 재생할 때 이 설정을 끄십시오."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"작동 및 상태에 따라 알림 톤과 음성 지침이 헤드폰에서 재생됩니다.
+설정이 꺼져 있어도 일부 중요한 알림과 지침은 비활성화되지 않습니다."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"작동 및 상태에 따라 알림 톤과 음성 지침이 헤드폰에서 재생됩니다.
+설정이 꺼져 있어도 일부 중요한 알림과 지침은 비활성화되지 않습니다.
+또한 적응형 사운드 제어로 인한 전환 시 알림 톤만 비활성화하는 경우, 적응형 사운드 제어 설정의 변경 사항을 적용할 수 있습니다."</string>
+    <string name="Msg_Information_NetworkError">네트워크를 연결할 수 없습니다.</string>
+    <string name="Msg_Information_OtherError">정보를 검색할 수 없습니다.</string>
+    <string name="Msg_InstallFailed">소프트웨어 업데이트 실패.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">새 장치에 대한 연결을 취소합니다.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">선택한 장치에 연결하려면 연결된 장치 중 하나의 연결을 해제한 후 다시 시도하십시오.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">새 장치를 연결하려면 연결된 장치 중 하나의 연결을 해제한 후 다시 시도하십시오.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">현재 연결된 장치의 연결 해제 필요</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">%s 연결을 해제하시겠습니까?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"%s 연결을 해제하시겠습니까?
+연결을 해제할 경우 이 앱의 연결도 해제됩니다."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">다시 연결 필요</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">헤드폰에 다시 연결해야 하므로 현재 재생 중인 음악이 중지됩니다. 헤드폰에 다시 연결하시겠습니까?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">헤드폰에 다시 연결해야 하므로 현재 재생 중인 음악이 중지됩니다. 이 설정이 활성화된 상태에서는 LDAC를 사용할 수 없습니다. 헤드폰에 다시 연결하시겠습니까?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"%1$s의 등록을 취소하시겠습니까?
+등록을 취소한 후 다시 %1$s에 연결하려면 %1$s에서 %2$s의 등록을 취소하고 장치 등록을 다시 수행하십시오."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">소프트웨어를 업데이트하려면 헤드폰에 연결된 %s의 연결을 해제해야 합니다. 연결을 해제하고 업데이트를 시작하시겠습니까?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">연결된 %s의 연결 해제 필요</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">언어를 변경하려면 헤드폰에 연결된 %s의 연결을 해제해야 합니다. 연결을 해제하고 언어를 변경하시겠습니까?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">%s 연결에 실패했습니다.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">%s 연결 해제에 실패했습니다.</string>
+    <string name="Msg_MultiPoint_FailedToPair">새 장치 연결에 실패했습니다.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">%s 등록 취소에 실패했습니다.</string>
+    <string name="Msg_MultiPoint_Info_Detail">이 설정을 활성화하면 헤드폰을 두 개의 장치에 동시에 연결할 수 있습니다. 연결된 장치는 [%s]에서 확인할 수 있습니다. 이 설정이 활성화된 상태에서는 LDAC를 사용할 수 없습니다.</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">새 장치를 연결하려면 소프트웨어 업데이트를 중단해야 합니다. 소프트웨어 업데이트가 중단되더라도 다시 시작할 수 있습니다. 연결하시겠습니까?</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">소프트웨어 업데이트 취소 필요</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">%s에 연결하려면 소프트웨어 업데이트를 중단해야 합니다. 소프트웨어 업데이트가 중단되더라도 다시 시작할 수 있습니다. 연결하시겠습니까?</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">%s에 대한 연결이 완료되었습니다.</string>
+    <string name="Msg_NeedConnectDevice">헤드폰 및 Bluetooth 연결이 필요합니다.</string>
+    <string name="Msg_OoBE_LocationPermission_After">헤드폰을 손쉽게 등록하려면 모바일 장치 설정에서 위치 정보 액세스를 허용하십시오.</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"위치를 사용하여 근처 헤드폰을 손쉽게 등록할 수 있습니다.
+위치에 대한 액세스를 허용하십시오."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"위치를 사용하여 근처 헤드폰을 손쉽게 등록할 수 있습니다.
+위치에 대한 액세스를 허용하십시오."</string>
+    <string name="Msg_OoBE_LocationSetting_After">헤드폰을 손쉽게 등록하려면 모바일 장치 설정에서 위치 정보를 켜십시오.</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"위치를 사용하여 근처 헤드폰을 손쉽게 등록할 수 있습니다.
+위치를 켜십시오."</string>
+    <string name="Msg_PairingOS_BT_Settings">Bluetooth 설정 화면에서 헤드폰을 선택하고 연결하십시오.</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">페어링이 완료되면 [뒤로] 버튼을 누르십시오.</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">Bluetooth 설정 화면에서 %s을(를) 선택하고 연결하십시오.</string>
+    <string name="Msg_Permission_BLE">BLE로 헤드폰을 탐지하는 데 이것을 사용합니다.</string>
+    <string name="Msg_Permission_Location">앱이 사용자의 동작을 감지하고 자동으로 헤드폰 설정을 전환할 때 위치 정보가 사용됩니다.</string>
+    <string name="Msg_Permission_Location02">위치를 사용하면 적응형 사운드 제어의 정밀도가 더욱 향상됩니다.</string>
+    <string name="Msg_PowerOff">헤드폰의 전원을 끄시겠습니까?</string>
+    <string name="Msg_RecommendUpdate">이 장치를 좀 더 편안하게 사용하기 위해서, 소프트웨어 업데이트를 권장합니다.</string>
+    <string name="Msg_Reconnect_BT_Connection">소프트웨어 전송 대상 전환 중...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">새 헤드폰</string>
+    <string name="Msg_SelectMDR_Header">헤드폰 선택</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"모바일 장치의 \"설정\"에 있는 [Bluetooth]에서 헤드폰을 선택하고 연결하십시오.
+연결이 완료되면 Headphones Connect를 다시 시작하십시오."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"헤드폰의 전원이 켜져 있는지 확인한 다음, 모바일 장치의 \"설정\"으로 이동하여 [Bluetooth]에서 %s을(를) 선택하고 연결하십시오.
+연결이 완료되면 Headphones Connect를 다시 시작하십시오."</string>
+    <string name="Msg_SendFailed">소프트웨어 전송 실패.</string>
+    <string name="Msg_SendFailed_WF_Special">"소프트웨어 전송이 %d %%에 중지되었습니다.
+충전 케이스에 헤드폰을 올려놓고 제거한 후 다시 시도하십시오."</string>
+    <string name="Msg_Setting_Data_Err">음성 데이터 다운로드 실패.</string>
+    <string name="Msg_Setting_Downloading_Failed">음성 데이터 다운로드 실패.</string>
+    <string name="Msg_Setting_Sending_Failed">음성 데이터 전송 실패.</string>
+    <string name="Msg_Title_FWAbort">소프트웨어 전송이 중단되었습니다. 다음을 확인하십시오.</string>
+    <string name="Msg_TrainingModeSaveCheck">편집이 완료되지 않았습니다. 종료하시겠습니까?</string>
+    <string name="Msg_Update_NeedReboot">"업데이트 완료를 확인하십시오.
+
+1. 충전 케이스에 헤드폰을 올려놓고 제거한 후 연결을 다시 시도하십시오.
+2. 이 앱의 오른쪽 상단에 있는 메뉴에서 [%1$s 버전]을 선택하십시오. \"%2$s\"이(가) 표시되면 업데이트가 완료된 것입니다.
+
+업데이트가 완료되지 않았으면 다시 시도하십시오."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"업데이트 완료를 확인하십시오.
+
+헤드폰의 전원을 껐다가 다시 켠 다음 연결을 설정하십시오. 이 앱의 오른쪽 상단에 있는 메뉴에서 [%1$s 버전]을 선택하십시오. \"%2$s\"이(가) 표시되면 업데이트가 완료된 것입니다.
+
+업데이트가 완료되지 않았으면 다시 시도하십시오."</string>
+    <string name="Msg_VoiceData_NeedReboot">"언어가 변경되었는지 확인하십시오.
+
+1. 왼쪽과 오른쪽 헤드폰을 충전 케이스에 놓았다가 분리한 후 다시 연결합니다.
+2. [%s]에 변경된 언어가 표시되면 프로세스가 완료됩니다.
+
+아직 언어가 변경되지 않았으면 다시 시도하십시오."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"언어가 변경되었는지 확인하십시오.
+
+헤드폰의 전원을 껐다가 다시 켠 다음 연결을 설정하십시오. [%s]에 변경된 언어가 표시되면 프로세스가 완료됩니다.
+
+언어가 변경되지 않았으면 다시 시도하십시오."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">귀하의 iOS 버전에서는 음성 지침 언어를 변경할 수 없습니다.</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">다음 화면에서 헤드폰을 선택하십시오. 헤드폰을 표시하는 데 1분 정도 걸릴 수 있습니다.</string>
+    <string name="MultiPoint_AddNewDevice_Description">연결하려는 장치에서 Bluetooth 설정을 열고 %s을(를) 선택하십시오.</string>
+    <string name="MultiPoint_DeviceNotConnect">연결되지 않았습니다.</string>
+    <string name="MultiPoint_DeviceStatus_Title">현재 연결 중인 장치</string>
+    <string name="MultiPoint_Device_Add">새 장치에 연결</string>
+    <string name="MultiPoint_Header_History">페어링됨</string>
+    <string name="MultiPoint_Header_Pairing">연결 중...</string>
+    <string name="MultiPoint_Menu_Delete">등록 취소</string>
+    <string name="MultiPoint_Menu_Disconnect">연결 해제</string>
+    <string name="MultiPoint_Setting_Description">"이 헤드폰은 동시에 %d개 장치에 연결할 수 있습니다.
+음악을 재생할 장치를 전환하려면 일단 음악을 중지하고, 연결된 다른 장치 중 하나에서 재생 작업을 수행하십시오."</string>
+    <string name="MultiPoint_Setting_Title">연결된 장치 관리</string>
+    <string name="MultiPoint_Status_Connecting">연결 중...</string>
+    <string name="MultiPoint_Status_Disconnecting">연결 해제 중...</string>
+    <string name="MultiPoint_Talkback_Add_Device">새 장치에 연결합니다.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">장치 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">장치 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">연결된 장치가 없습니다.</string>
+    <string name="MultiPoint_Talkback_Playing_Right">오디오가 재생됩니다.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">연결되었습니다.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">연결 중...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">연결 해제 중...</string>
+    <string name="MultiPoint_Title">동시에 2개 장치에 연결</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">또한 최적화를 중간에 취소하려면 헤드폰에서 아무 버튼이나 누르십시오.</string>
+    <string name="NC_Title">노이즈 캔슬링</string>
+    <string name="NSBluetoothAlwaysUsageDescription">Bluetooth로 헤드폰을 탐지하는 데 이것을 사용합니다.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">Bluetooth로 헤드폰을 탐지하는 데 이것을 사용합니다.</string>
+    <string name="NSCameraUsageDescription">스마트폰에서 귀를 촬영하도록 허용하십시오. 귀하에게 맞춤화된 최적의 음장을 생성하는 데이터를 계산하기 위해 귀하의 귀 사진을 분석합니다.</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">적응형 사운드 제어를 기반으로 설정을 자동으로 전환하려면 [항상 허용]을 선택하십시오.</string>
+    <string name="NSLocationAlwaysUsageDescription">적응형 사운드 제어를 기반으로 설정을 자동으로 전환하려면 [항상 허용]을 선택하십시오.</string>
+    <string name="NSLocationWhenInUseUsageDescription">적응형 사운드 제어를 기반으로 설정을 자동으로 전환하려면 액세스를 허용하십시오.</string>
+    <string name="NSUserTrackingUsageDescription">당사는 이 정보를 사용하여 장치 사용 및 관심사와 일치하는 지원 정보와 광고를 제공합니다.</string>
+    <string name="Notification_Headphones_Connected">%s과(와) 연결 중...</string>
+    <string name="Notification_Headphones_Connected_Unknown">헤드폰과 연결 중...</string>
+    <string name="Notification_IASetup_NeedToComplete">Headphones Connect로 돌아가서 360 Reality Audio 설정을 완료하십시오.</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">360 Reality Audio 설정이 완료되지 않음</string>
+    <string name="Notification_Summary_Abort">소프트웨어 전송이 중단되었습니다.</string>
+    <string name="Notification_Summary_Downloading">다운로드 중...</string>
+    <string name="Notification_Summary_FWVer_unmatched">업데이트 실패.</string>
+    <string name="Notification_Summary_Prepared">업데이트할 준비가 되었습니다.</string>
+    <string name="Notification_Summary_Sending">전송 중...</string>
+    <string name="Notification_Summary_Update_NeedReboot">업데이트 완료를 확인하십시오.</string>
+    <string name="Notification_Summary_failed">업데이트 실패.</string>
+    <string name="Notification_Summary_updated">업데이트 완료.</string>
+    <string name="Notification_Summary_updating">업데이트 중...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">변경 중...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">변경 완료.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">변경 실패.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">변경 사항이 적용되었는지 확인하십시오.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">음성 지침 언어 변경</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">음성 지침 언어 변경</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">음성 지침 언어 변경 완료.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">음성 지침 언어 변경 실패.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">음성 지침 언어가 변경되었는지 확인하십시오.</string>
+    <string name="OPT_Baro_Title">대기압 최적화</string>
+    <string name="OPT_Message_Analyzing">노이즈 취소는 개인 취향에 맞게 최적으로 조정됩니다.</string>
+    <string name="OPT_Message_Baro">대기압이 변경되면 프로세스를 다시 실행하십시오.</string>
+    <string name="OPT_Message_Comp">노이즈 취소는 개인 취향에 맞게 최적으로 조정됩니다.</string>
+    <string name="OPT_Message_Personal">평상시처럼 착용하십시오. 헤어스타일 변경 등으로 착용 방식이 변경되면 프로세스를 다시 실행하십시오.</string>
+    <string name="OPT_Personal_Done_Long">최적화됨</string>
+    <string name="OPT_Personal_Done_Short">완료</string>
+    <string name="OPT_Personal_Initial_Long">최적화되지 않음</string>
+    <string name="OPT_Personal_Initial_Short">최적화 이전</string>
+    <string name="OPT_Personal_Title">개인 최적화</string>
+    <string name="OPT_Start">시작</string>
+    <string name="OPT_Status_Analyzing">분석 중...</string>
+    <string name="OPT_Status_Baro">대기압 측정 증...</string>
+    <string name="OPT_Status_Comp">완료</string>
+    <string name="OPT_Status_Personal">착용 조건 측정 중...</string>
+    <string name="OPT_Title">노이즈 캔슬링 최적화 도구</string>
+    <string name="OPT_Title_iOS">노이즈 취소 최적화 도구</string>
+    <string name="OPT_atm_Long">%.1f atm에 최적화됨</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">평상시처럼 헤드폰을 착용한 상태로 시작하십시오. 비행기 탑승 등으로 대기압이 변경되면 프로세스를 다시 실행하십시오.</string>
+    <string name="OPT_detail_Personal_Baro">평상시처럼 헤드폰을 착용한 상태로 시작하십시오. 착용 조건과 대기압이 변경되면 프로세스를 다시 실행하십시오.</string>
+    <string name="OoBE_COMP_Message">헤드폰 연결 완료.</string>
+    <string name="OoBE_COMP_Title">헤드폰 추가</string>
+    <string name="OoBE_Manual_Button_Label">Bluetooth 설정을 통해 등록</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Bluetooth가 꺼졌습니다.
+제어 센터에서 Bluetooth를 켜십시오."</string>
+    <string name="OoBE_Manual_Pair_Message">"헤드폰의 전원 버튼을 약 7초간 계속 누르십시오. 헤드폰의 LED가 파란색과 빨간색으로 번갈아 깜박이거나 파란색으로 빠르게 깜박이면 [다음]을 누르십시오.
+전원 버튼이 없는 경우 헤드폰을 Bluetooth 장치 등록(페어링) 모드로 설정하십시오. 자세한 내용은 사용 설명서를 참조하십시오."</string>
+    <string name="OoBE_Manual_Pair_Title">헤드폰 추가</string>
+    <string name="OoBE_Message1">Bluetooth를 통해 헤드폰을 연결합니다.</string>
+    <string name="OoBE_Message2">연결 방법을 선택하십시오.</string>
+    <string name="OoBE_NFC_Button_Label">원터치 연결(NFC)로 등록</string>
+    <string name="OoBE_NFC_Message">헤드폰의 N 표시를 모바일 장치의 N 표시 위에 겹쳐 두고 터치 작업을 수행하십시오.</string>
+    <string name="OoBE_NFC_Title">헤드폰 추가</string>
+    <string name="OoBE_NonBT_Button_Label">목록에서 유선 헤드폰 등록</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">취향에 맞게 360 Reality Audio를 사용하려면 헤드폰을 등록하십시오.</string>
+    <string name="OoBE_Power_On_Message">"헤드폰의 전원을 켭니다. 전원이 켜졌는지 확인하고 [다음] 버튼을 누릅니다.
+전원을 켜는 방법은 헤드폰 사용 설명서를 참조하십시오."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">[%s] 버튼을 눌러 계속 진행하십시오.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">헤드폰이 유선인 경우</string>
+    <string name="OoBE_Proximity_Message">모바일 장치와 %s을(를) 가까이 두고 헤드폰을 인증하십시오.</string>
+    <string name="OoBE_SelectAcc_Message">헤드폰을 선택하십시오. 표시하는 데 1분 정도 걸릴 수 있습니다.</string>
+    <string name="OoBE_SelectAcc_Title">헤드폰 추가</string>
+    <string name="OoBE_Title">헤드폰 추가</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_ko.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_ko.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_ko.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_ko.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">일정 기간 오디오 재생이 중지되면 [%s]가 자동으로 중지되어, 헤드폰의 대기 시간을 연장하도록 허용합니다.</string>
+    <string name="PS_Title">절전 상태로 대기</string>
+    <string name="PlaybackController_Title">지금 재생 중</string>
+    <string name="PlaybackController_Unknown_Album">알 수 없는 앨범</string>
+    <string name="PlaybackController_Unknown_Artist">알 수 없는 아티스트</string>
+    <string name="PlaybackController_Unknown_TrackName">알 수 없는 곡</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">화면의 오른쪽 상단에 있는 메뉴의 [%s]에서 설문 조사를 다시 표시할 수 있습니다.</string>
+    <string name="Questionnaire_MenuItem">설문 조사</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">현재 설문 조사가 없습니다. 다음 설문 조사를 기다려 주십시오.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%1$s년 %2$s월 %3$s일～%4$s년 %5$s월 %6$s일</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">응답 기간:</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">1</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">2</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">3</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">4</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">5</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">6</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">7</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">8</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">9</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">10</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">11</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">12</string>
+    <string name="Questionnaire_Notification_Button_Answer">대답</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">진행</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">대답하지 않음</string>
+    <string name="Questionnaire_Notification_Note">브라우저를 시작하여 설문 조사 사이트를 표시하십시오.</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d개 질문</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d~%2$d개 질문</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">질문의 수:</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">약 %d분</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">필요한 시간:</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- 헤드폰에서 음성 오디오가 출력되므로 작업이 어려울 경우 가족 및 친구들과 함께 분석을 수행하십시오.</string>
+    <string name="Right_Headphones">오른쪽 유닛</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_ko.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">계정 인증에 실패했습니다.</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">등록이 취소되었습니다.</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"현재 서버에 액세스할 수 없습니다.
+잠시 후 다시 시도하십시오."</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"장치를 더 이상 등록할 수 없습니다.
+불필요한 장치 등록을 제거하십시오."</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">로그인에 실패했습니다.</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">로그아웃할 수 없습니다.</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">근처에 있는 장치를 손쉽게 등록하려면 장치 설정에서 위치 정보를 켜십시오.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">네트워크를 연결할 수 없습니다.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">작동할 수 없습니다.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">잘못된 등록 번호를 입력했습니다.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">입력 문자열이 너무 깁니다.</string>
+    <string name="STRING_CAUTION_CONNECT">%s에 연결할 수 없습니다.</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"%s에 연결할 수 없습니다.
+장치와 동일한 네트워크에 연결하고 장치를 켜십시오."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"%s에 연결할 수 없습니다.
+장치의 전원이 켜져 있는지 확인하십시오."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"%s에 연결할 수 없습니다.
+장치의 Bluetooth 기능이 켜져 있는지 확인하십시오."</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"%s에 연결할 수 없습니다.
+장치와 동일한 네트워크에 연결하십시오."</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"%s에 연결할 수 없습니다.
+잠시 후 다시 시도하십시오."</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"%s에 연결할 수 없습니다.
+네트워크 상태를 확인한 후 다시 시도하십시오."</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"%s에 연결할 수 없습니다.
+장치를 켜시겠습니까?"</string>
+    <string name="STRING_CAUTION_DISCONNECT">%s에서 연결이 끊어졌습니다.</string>
+    <string name="STRING_CAUTION_EULA">이 애플리케이션을 사용하려면 %s에 동의해야 합니다.</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">버전을 확인할 수 없습니다.</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">%s 내용을 읽을 수 없습니다.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">지정된 애플리케이션을 찾을 수 없습니다.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">장치를 찾을 수 없습니다.</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">근처에 있는 장치를 손쉽게 등록하려면 장치 설정에서 위치 정보 액세스를 허용하십시오.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">등록할 수 없습니다.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"등록할 수 없습니다.
+잠시 후 다시 시도하십시오."</string>
+    <string name="STRING_CAUTION_SERVER_STRING">연결에 실패했습니다.</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">Bluetooth를 켤 수 없습니다.</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">Wi-Fi 켜기에 실패했습니다.</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">%s에 연결되지 않았습니다.</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"Wi-Fi 네트워크에 연결되지 않았습니다.
+장치와 동일한 네트워크에 연결하십시오."</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"Wi-Fi 네트워크에 연결되지 않았습니다.
+장치와 동일한 네트워크에 연결하고 장치를 켜십시오."</string>
+    <string name="STRING_COMMON_DONE">완료</string>
+    <string name="STRING_COMMON_NEXT">다음</string>
+    <string name="STRING_COMMON_OTHER">기타</string>
+    <string name="STRING_DEVICE">장치</string>
+    <string name="STRING_DEVICES">장치</string>
+    <string name="STRING_IOS_LOCATION">위치</string>
+    <string name="STRING_IOS_SETTINGS">설정</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">이 애플리케이션을 사용하려면 액세스를 허용해야 합니다.</string>
+    <string name="STRING_MSG_CANCEL_DELETE">삭제를 취소하시겠습니까?</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">정보를 검색할 수 없습니다.</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">연결 중...</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">로드 중...</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">더 이상 선택할 수 없습니다.</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">잠시 기다려 주십시오.</string>
+    <string name="STRING_MSG_COMMUNICATING">통신 중...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">장치의 전원이 켜져 있는지 확인하십시오.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">장치의 전원이 켜져 있는지 확인하고 Bluetooth를 통해 장치를 연결하십시오.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">장치와 동일한 네트워크에 연결하십시오.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">백업 및 복원을 수행하지 못하게 됩니다. 다시 로그인하면 사용할 수 있게 됩니다.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">로그아웃하고 사용을 중지하시겠습니까?</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">이 애플리케이션의 %s 내용을 읽어보십시오.</string>
+    <string name="STRING_MSG_CONFIRM_PP">이 애플리케이션의 %s 내용을 읽어보십시오.</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">[TBD]설정 백업 및 복원을 사용하려면 다음의 사용 약관에 동의해야 합니다.</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">삭제되었습니다.</string>
+    <string name="STRING_MSG_DELETING">삭제 중...</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">TV에 표시되는 등록 번호를 입력하십시오.</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">장치 등록이 완료되었습니다.</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">버전 확인 중...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"위치 정보를 사용하면 근처에 있는 장치를 손쉽게 등록할 수 있습니다.
+위치 정보를 켜십시오."</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">정보를 가져오는 중...</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">위 내용을 읽었으며 동의합니다.</string>
+    <string name="STRING_MSG_LICENCE_APPLE">iPad, iPhone, iPod 및 iPod touch는 미국 및 기타 국가에 등록된 Apple Inc.의 상표입니다. \"iPhone\" 상표는 Aiphone KK.의 허가를 받아 사용됩니다.</string>
+    <string name="STRING_MSG_LICENCE_BT">BLUETOOTH® 워드마크 및 로고는 Bluetooth SIG, Inc.의 소유이며Sony Corporation은 적법한 사용권한을 가지고 있습니다.</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google 및 Android는 Google Inc.의 상표입니다.</string>
+    <string name="STRING_MSG_LICENCE_NFC">N 마크는 미국 및 기타 국가에서 NFC Forum, Inc.의 상표 또는 등록 상표입니다.</string>
+    <string name="STRING_MSG_LICENCE_OSAIFU_NFC">N 마크는 미국 및 기타 국가에서 NFC Forum, Inc.의 상표 또는 등록 상표입니다.</string>
+    <string name="STRING_MSG_LOADING">로드 중...</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"위치 정보를 사용하면 근처에 있는 장치를 손쉽게 등록할 수 있습니다.
+위치 정보 액세스를 허용하십시오."</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">이 기능을 사용하려면 사용 약관에 동의해야 합니다.</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">%s을(를) 켜시겠습니까?</string>
+    <string name="STRING_MSG_REGIST_FINISH">등록되었습니다.</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">[+] 버튼을 누르고 장치를 등록하십시오.</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">거주하는 국가/지역을 선택하십시오.</string>
+    <string name="STRING_MSG_SIGNOUT">로그아웃하시겠습니까?</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"아래의 [동의]를 선택하여, 일본에 위치한 Sony Home Entertainment &amp; Sound Products Inc.(\"Sony\")(감독기관)가 제품 개선과 개발(새 기능 또는 개정된 기능을 통해 기술 또는 사용 편이성 향상)을 목적으로 귀하의 응용 프로그램 사용과 관련된 데이터(%s 개인정보취급 방침에 자세히 지정되어 있음)를 사용할 수 있음을 확인하여 주십시오. Sony에 대해 이러한 사용을 허용하지 않으려면 아래의 [비동의]를 선택하십시오.
+응용 프로그램에서 \"(...) 메뉴\" > \"이 앱의 정보\" > \"개인정보취급방침 설정\"을 선택하여 언제든지 위의 동의를 철회할 수 있습니다."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">아래의 항목을 선택하여, 일본에 위치한 Sony Home Entertainment &amp; Sound Products Inc.(\"Sony\")(감독기관)가 제품 개선과 개발(새 기능 또는 개정된 기능을 통해 기술 또는 사용 편이성 향상)을 목적으로 귀하의 응용 프로그램 사용과 관련된 데이터(%s 개인정보취급 방침에 자세히 지정되어 있음)를 사용할 수 있음을 확인하여 주십시오. Sony에 대해 이러한 사용을 허용하지 않으려면 아래 항목의 선택을 취소하여 주십시오.</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"아래의 [동의 후 진행]을 선택하여, 일본에 위치한 Sony Home Entertainment &amp; Sound Products Inc.(\"Sony\")(감독기관)가 제품 개선과 개발(새 기능 또는 개정된 기능을 통해 기술 또는 사용 편이성 향상)을 목적으로 귀하의 응용 프로그램 사용과 관련된 데이터(%s 개인정보취급 방침에 자세히 지정되어 있음)를 사용할 수 있음을 확인하여 주십시오. Sony에 대해 이러한 사용을 허용하지 않으려면 아래의 [비동의 후 진행]을 선택하십시오.
+응용 프로그램에서 \"(...) 메뉴\" > \"이 앱의 정보\" > \"개인정보취급방침 설정\"을 선택하여 언제든지 위의 동의를 철회할 수 있습니다."</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">오디오</string>
+    <string name="STRING_REMOTE_BTN_BACK">뒤로</string>
+    <string name="STRING_REMOTE_BTN_BLUE">파랑</string>
+    <string name="STRING_REMOTE_BTN_CC">"자막/
+폐쇄자막"</string>
+    <string name="STRING_REMOTE_BTN_CH">채널</string>
+    <string name="STRING_REMOTE_BTN_DELETE">삭제</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">디지털</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"디지털/
+아날로그"</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">표시</string>
+    <string name="STRING_REMOTE_BTN_ENTER">확인</string>
+    <string name="STRING_REMOTE_BTN_EXIT">종료</string>
+    <string name="STRING_REMOTE_BTN_GREEN">녹색</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">가이드</string>
+    <string name="STRING_REMOTE_BTN_HELP">도움말</string>
+    <string name="STRING_REMOTE_BTN_HOME">홈</string>
+    <string name="STRING_REMOTE_BTN_INPUT">입력</string>
+    <string name="STRING_REMOTE_BTN_JUMP">점프</string>
+    <string name="STRING_REMOTE_BTN_MENU">메뉴</string>
+    <string name="STRING_REMOTE_BTN_MUTE">음소거</string>
+    <string name="STRING_REMOTE_BTN_OK">확인</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">옵션</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">화면 끔</string>
+    <string name="STRING_REMOTE_BTN_POWER">전원</string>
+    <string name="STRING_REMOTE_BTN_PROG">프로그램</string>
+    <string name="STRING_REMOTE_BTN_RED">빨강</string>
+    <string name="STRING_REMOTE_BTN_RETURN">돌아가기</string>
+    <string name="STRING_REMOTE_BTN_TV">TV</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">"음성
+입력"</string>
+    <string name="STRING_REMOTE_BTN_VOL">볼륨</string>
+    <string name="STRING_REMOTE_BTN_WIDE">와이드</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">노랑</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">Bluetooth에 액세스할 수 없습니다. Bluetooth에 대한 액세스를 허용하십시오.</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Bluetooth가 꺼졌습니다.
+제어 센터에서 Bluetooth를 켜십시오."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"제어 센터에서 Bluetooth를 켜십시오.
+Bluetooth가 켜지면 Bluetooth에 대한 액세스를 허용하십시오."</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">Bluetooth 켜는 중...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">Wi-Fi 켜는 중...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">Bluetooth를 켜시겠습니까?</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">Wi-Fi를 켜시겠습니까?</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">이 앱의 정보</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">앱 설정</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Bluetooth 설정</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">장치 설정</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">설정으로</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">작동 기록 보내기</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"장치를 찾을 수 없습니다.
+장치의 전원이 켜졌는지 확인하십시오."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"레코더를 원격으로 작동합니다.
+녹화 및 녹화 내용 점검을 원격에서 수행합니다!"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Bluetooth가 꺼졌습니다.
+Bluetooth를 켜십시오."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"Wi-Fi가 꺼졌습니다.
+장치와 동일한 네트워크에 연결하십시오."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"장치를 찾을 수 없습니다.
+장치와 동일한 네트워크에 연결하고 장치를 켜십시오."</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">등록할 장치를 선택하십시오.</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">장치 추가</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">등록되었습니다.</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">원격</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">선택됨</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">장치 선택</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">도움말</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">Bluetooth 설정</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">Wi-Fi 설정</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">눌러서 등록</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">Bluetooth 켜기</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">Wi-Fi 켜기</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">Wi-Fi 설정</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">옵션 더보기</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">이 장치를 전환하려면 두 번 누르십시오.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">다른 장치로 전환하려면 두 번 누르십시오.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">확장하려면 두 번 누르십시오.</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%2$s/%1$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">계정 설정</string>
+    <string name="STRING_TEXT_ADD_DEVICE">다른 장치 등록</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">승인</string>
+    <string name="STRING_TEXT_COMMON_AGREE">동의</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">동의 후 진행</string>
+    <string name="STRING_TEXT_COMMON_ALL">모두</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">허용</string>
+    <string name="STRING_TEXT_COMMON_BACK">뒤로</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">취소</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">등록 취소 중...</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">등록 취소</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">등록이 취소되었습니다.</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">이 장치의 등록을 취소하시겠습니까?</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">등록을 취소할 수 없습니다.</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">항상 물어보기</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">다시 표시하지 않음</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">닫기</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">축소</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">확인</string>
+    <string name="STRING_TEXT_COMMON_DELETE">삭제</string>
+    <string name="STRING_TEXT_COMMON_DENY">거부</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">모두 선택 취소</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">자세한 설정</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">장치 메뉴</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">비동의</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">비동의 후 진행</string>
+    <string name="STRING_TEXT_COMMON_DO">켬</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">사용하지 않음</string>
+    <string name="STRING_TEXT_COMMON_DOWN">아래</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">거절</string>
+    <string name="STRING_TEXT_COMMON_EXIT">종료</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">확장</string>
+    <string name="STRING_TEXT_COMMON_FAQ">문제 해결</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">피드백</string>
+    <string name="STRING_TEXT_COMMON_FINISH">마침</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">전달</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">도움말 및 정보</string>
+    <string name="STRING_TEXT_COMMON_HIDE">숨기기</string>
+    <string name="STRING_TEXT_COMMON_INFO">정보</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">정보</string>
+    <string name="STRING_TEXT_COMMON_INPUT">입력</string>
+    <string name="STRING_TEXT_COMMON_LATER">나중에</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">열기</string>
+    <string name="STRING_TEXT_COMMON_LEFT">왼쪽</string>
+    <string name="STRING_TEXT_COMMON_MORE">더 보기</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">자세한 정보</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">정보 더 보기</string>
+    <string name="STRING_TEXT_COMMON_NEXT">다음</string>
+    <string name="STRING_TEXT_COMMON_NO">아니요</string>
+    <string name="STRING_TEXT_COMMON_NOTE">참고</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">끔</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">선택되지 않음</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">설정되지 않음</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">지정하지 않음</string>
+    <string name="STRING_TEXT_COMMON_OFF">끄기</string>
+    <string name="STRING_TEXT_COMMON_OK">확인</string>
+    <string name="STRING_TEXT_COMMON_ON">켬</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">브라우저에서 열기</string>
+    <string name="STRING_TEXT_COMMON_OPTION">옵션</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">이전 페이지로 돌아가기</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">다음 페이지로 이동</string>
+    <string name="STRING_TEXT_COMMON_PREV">이전</string>
+    <string name="STRING_TEXT_COMMON_RETRY">재시도</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">오른쪽</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">이 선택 기억하기</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">모두 선택</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">설정</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">자동</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">설정 완료</string>
+    <string name="STRING_TEXT_COMMON_SHOW">표시</string>
+    <string name="STRING_TEXT_COMMON_SKIP">건너뛰기</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">등록 취소를 중지하시겠습니까?</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">공식 사이트</string>
+    <string name="STRING_TEXT_COMMON_TAB">탭</string>
+    <string name="STRING_TEXT_COMMON_TIPS">편리한 사용</string>
+    <string name="STRING_TEXT_COMMON_UP">위</string>
+    <string name="STRING_TEXT_COMMON_USE">사용</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">페이지 로드 중지</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">페이지 다시 로드</string>
+    <string name="STRING_TEXT_COMMON_YES">예</string>
+    <string name="STRING_TEXT_DELETE_ALL">모두 삭제</string>
+    <string name="STRING_TEXT_DELETE_FAILED">삭제에 실패했습니다.</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">이 등록된 장치를 삭제하시겠습니까?</string>
+    <string name="STRING_TEXT_DEVICE_INFO">장치 정보</string>
+    <string name="STRING_TEXT_DO_UPDATE">업데이트</string>
+    <string name="STRING_TEXT_EDIT">편집</string>
+    <string name="STRING_TEXT_EULA">최종 사용자 사용권 계약</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">라이선스 정보</string>
+    <string name="STRING_TEXT_MENU">메뉴</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">연결 끊김</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">로그인하지 않음</string>
+    <string name="STRING_TEXT_NO_DEVICE">발견된 장치가 없습니다.</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">장치를 찾을 수 없는 경우</string>
+    <string name="STRING_TEXT_OWN_DEVICE">본체</string>
+    <string name="STRING_TEXT_POWER_OFF">헤드폰 끄기</string>
+    <string name="STRING_TEXT_PP_SETTINGS">개인정보취급방침 설정</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">Sony가 그러한 데이터를 사용하는 방식에 대한 자세한 내용은 여기에서 찾을 수 있습니다.</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">개인정보취급 방침</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">여기</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">제품/서비스 개선/개발 목적에 대한 귀하의 동의:</string>
+    <string name="STRING_TEXT_RECORDER_NAME">녹화 장치</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">장치</string>
+    <string name="STRING_TEXT_REGISTERING">등록 중...</string>
+    <string name="STRING_TEXT_RE_REGISTER">다시 등록</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">다른 장치로 전환</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">연결된 장치</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">등록</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">버전</string>
+    <string name="STRING_TEXT_SIGNIN">로그인</string>
+    <string name="STRING_TEXT_SIGNOUT">로그아웃</string>
+    <string name="STRING_TEXT_START">시작</string>
+    <string name="STRING_TEXT_STARTING">시작 중...</string>
+    <string name="STRING_TEXT_START_ASIS">지금 시작</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">호환 장치 목록</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">연결</string>
+    <string name="STRING_TEXT_TERM_OF_USE">사용 약관</string>
+    <string name="STRING_TEXT_UPDATE">업데이트</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">연결할 수 없는 경우</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">등록할 수 없는 경우</string>
+    <string name="STRING_THIS_PHONE">이 모바일</string>
+    <string name="STRING_TITLE_COUNTRY">국가/지역</string>
+    <string name="Setting_Android_Title">설정</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"계정 인증에 실패했습니다.
+다시 로그인하십시오."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"계정 인증에 실패했으므로 설정을 동기화할 수 없습니다.
+다시 로그인하십시오."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">귀 분석 결과</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">등록된 위치 및 설정값</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">동작 등을 기반으로 값 설정</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">백업</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">다음 설정을 계정과 연결하여 서버에 저장할 수 있습니다.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">백업 가능한 설정은 모델에 따라 다릅니다.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">백업된 설정은 앱을 조작하여 삭제할 수 있습니다. 또한 Sony가 사용 약관을 기반으로 기능 제공을 종료하면 자동으로 삭제됩니다.</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">소프트웨어 자동 다운로드 설정</string>
+    <string name="SettingsTakeOver_Appeal_Link">자세한 내용은 여기 참조</string>
+    <string name="SettingsTakeOver_Appeal_Title">설정을 백업하십시오.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">백업이 완료되었습니다.</string>
+    <string name="SettingsTakeOver_Button_Backup">백업</string>
+    <string name="SettingsTakeOver_Button_Restore">복원</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">이 앱의 설정 사용</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">서버의 설정 사용</string>
+    <string name="SettingsTakeOver_Confirm_Backup">이 앱의 설정을 서버에 백업하시겠습니까?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">서버에 백업된 설정을 이 앱에서 복원하시겠습니까?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"이미 서버에 백업된 설정이 있습니다.
+자동 동기화를 활성화하려면 다음에서 설정을 선택하십시오."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Sony 계정을 만든 후 계속</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">백업된 설정을 삭제하고 로그아웃했습니다.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">로그아웃하고, 계정과의 연결을 취소하고, 서버에 백업된 정보를 완전히 삭제합니다.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">백업된 설정을 삭제하시겠습니까?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">설정의 자동 동기화가 활성화되었습니다.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"백업에 실패했습니다.
+잠시 기다렸다가 다시 시도하십시오."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"복원에 실패했습니다.
+잠시 기다렸다가 다시 시도하십시오."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"복원에 실패했습니다.
+네트워크 연결을 확인하고 잠시 기다린 후 다시 시도하십시오."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">사용 약관 확인</string>
+    <string name="SettingsTakeOver_List_Title">설정 백업 및 복원</string>
+    <string name="SettingsTakeOver_PP_Description">다음의 [동의] 버튼을 눌러 Sony가 위의 목적으로 고객 애플리케이션 사용과 관련된 데이터를 사용할 수 있음을 확인하여 주십시오. 이러한 사용 조건에 동의하지 않으시면 [비동의] 버튼을 누르십시오.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">설정 복원</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">복원 없이 진행</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">전에 Headphones Connect로 설정을 백업한 경우 이러한 설정을 복원할 수 있습니다.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">자세한 내용은 여기 참조</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">설정 복원</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"백업된 설정이 없습니다.
+복원 없이 진행됩니다."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">복원이 완료되었습니다.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">계정</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">백업된 설정</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">지금 백업</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">활성화</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">지금 복원</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">백업을 삭제한 후 로그아웃</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"서버에 백업된 설정을 삭제합니다.
+앱 내의 설정은 유지됩니다."</string>
+    <string name="SettingsTakeOver_Settings_Description">로그인한 계정과 연결하여 이 앱 설정을 서버에 저장할 수 있습니다.</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"최신 설정을 백업하려면 자동 동기화를 활성화하십시오.
+이 계정으로 로그인하는 모든 모바일 장치에서 설정을 동기화할 수 있습니다."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">대시보드의 오른쪽 상단 메뉴에서 언제든지 이 기능의 설정을 변경할 수 있습니다.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">자동 동기화</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">계정 설정</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Sony 계정 설정</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">백업 중...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">서버 업데이트 날짜:</string>
+    <string name="SettingsTakeOver_Settings_Status_None">설정을 백업할 수 있습니다.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">아직 백업되지 않은 설정이 있습니다.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">서버에서 새로운 설정을 복원할 수 있습니다.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">복원 중...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">백업이 완료되었습니다.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">동기화 중...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">장치에서 백업을 지원하지 않습니다.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Amazon으로 로그인</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Apple로 로그인</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Facebook으로 로그인</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Google로 로그인</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Sony 계정으로 로그인</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">WeChat으로 로그인</string>
+    <string name="SettingsTakeOver_SignIn_Description">설정을 백업 및 복원하려면 Headphones Connect에 로그인해야 합니다.</string>
+    <string name="SettingsTakeOver_SignIn_Split">또는</string>
+    <string name="SettingsTakeOver_SignOut_Completed">로그아웃되었습니다.</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">백업 및 복원 기능을 사용할 수 없게 됩니다.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">로그아웃 후 일정 기간이 지나면 서버에 백업된 설정이 자동으로 삭제됩니다.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Sony 계정</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">로그인 중...</string>
+    <string name="SettingsTakeOver_SigningOut">로그아웃 중...</string>
+    <string name="SmartTalkingMode_Detail">헤드폰을 쓰고 있는 동안 단순히 말을 시작함으로써 대화를 시작할 수 있습니다.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"말을 시작하기만 하면 헤드폰을 쓴 상태에서 대화할 수 있습니다. 이 기능을 경험해 보시겠습니까?
+[i] 버튼을 눌러 다시 실행할 수 있습니다."</string>
+    <string name="SmartTalkingMode_Experience_Btn">경험해보기</string>
+    <string name="SmartTalkingMode_Experience_Detail1">예를 들면 \"안녕\" 같은 말을 해보십시오. 헤드폰은 음성을 감지하여 대화가 가능한 상태를 자동으로 설정합니다.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"주변 사운드를 받아들이기 위해 음악을 일시 정지했습니다. 이 모드는 말하는 동안 계속 지속되며, 말을 끝내고 %s초가 경과하거나, 헤드폰을 조작하면 종료됩니다.
+이 설정은 대시보드의 [Speak-to-Chat]에서 맞춤 설정할 수 있습니다."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">주변 사운드를 받아들이기 위해 음악을 일시 중지했습니다. 이 모드는 헤드폰을 조작하여 닫을 수 있습니다.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">닫기</string>
+    <string name="SmartTalkingMode_Experience_Msg1">음성 감지</string>
+    <string name="SmartTalkingMode_Experience_Msg2">음성 감지됨</string>
+    <string name="SmartTalkingMode_Experience_Title">Speak-to-Chat 경험</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">주변 노이즈를 줄이면서 음성을 받아들입니다.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">음성에 집중</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"헤드폰이 일정 기간 음성을 감지하지 못하면 Speak-to-Chat 모드가 종료되고 일반 모드로 전환됩니다.
+또한 언제든 헤드폰을 조작하여 Speak-to-Chat 모드를 종료할 수 있습니다."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">빠름</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">표준</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">느림</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">자동으로 닫지 않음</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">하지 않음</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">모드가 닫힐 때까지의 시간</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">약 1분</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">약 1초</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">약 %d초</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">약 %d분</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">자동</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">주변 사운드를 기반으로 감도를 자동으로 조정합니다.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">자동:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">높은 감도</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">음성 감지 감도가 너무 낮은 경우 이 설정을 선택하십시오. 차량에 있을 때와 같이 주변 사운드가 클 때 효과적입니다.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">높은 감도:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">낮은 감도</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">음성 감지 감도가 너무 높은 경우 이 설정을 선택하십시오. 스피커가 가까이 있을 때 효과적입니다.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">낮은 감도:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">음성 감지 감도</string>
+    <string name="SmartTalkingMode_Setting_Title">Speak-to-Chat 설정</string>
+    <string name="SmartTalkingMode_Title">Speak-to-Chat</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Speak-to-Chat 활성화됨</string>
+    <string name="SmartTalkingMode_TurnOn">설정하기 위해 Speak-to-Chat을 활성화합니다.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Speak-to-Chat 활성화</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"헤드폰에서 조작하여 이 설정을 전환할 수 있습니다.
+[도움말]에서 조작 방법을 확인할 수 있습니다."</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Speak-to-Chat을 활성화하시겠습니까?</string>
+    <string name="SongPalDownloadDialog">Google Play에서 Music Center 앱을 다운로드하시겠어요?</string>
+    <string name="SongPalDownloadDialog_iOS">App Store에서 Music Center 앱을 다운로드하시겠어요?</string>
+    <string name="SoundPosition_Preset_FL">전면 왼쪽</string>
+    <string name="SoundPosition_Preset_FR">전면 오른쪽</string>
+    <string name="SoundPosition_Preset_Front">전면</string>
+    <string name="SoundPosition_Preset_Off">끄기</string>
+    <string name="SoundPosition_Preset_RL">후면 왼쪽</string>
+    <string name="SoundPosition_Preset_RR">후면 오른쪽</string>
+    <string name="SoundPosition_Title">사운드 위치 제어</string>
+    <string name="Status_Loading_Headphones">헤드폰 목록 가져오는 중.</string>
+    <string name="Switch_ToOtherDevice">다른 장치로 전환</string>
+    <string name="TalkBack_Button">버튼</string>
+    <string name="TalkBack_Button_Option">옵션 더보기</string>
+    <string name="TalkBack_Disable">비활성화됨</string>
+    <string name="TalkBack_Switch">전환 버튼</string>
+    <string name="Talkback_Echo_Minus">마이너스</string>
+    <string name="Talkback_Echo_Plus">프라스</string>
+    <string name="TouchSensorControlPanel_title">터치 센서 제어 패널</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">재설정</string>
+    <string name="Training_Custom_Title">퀵 사운드 설정</string>
+    <string name="Training_Title">퀵 사운드 설정</string>
+    <string name="Training_Title_Detail">"[%1$s] 및 [%2$s]의 설정을 전체적으로 전환할 수 있습니다.
+나아가, 이 설정을 헤드폰에서 작동할 수 있습니다."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">무대</string>
+    <string name="VPT_Preset_Club">클럽</string>
+    <string name="VPT_Preset_ConcertHall">콘서트홀</string>
+    <string name="VPT_Preset_Off">끄기</string>
+    <string name="VPT_Preset_OutdoorFestival">실외 무대</string>
+    <string name="VPT_Preset_Title">서라운드(VPT)</string>
+    <string name="Vibration_Title">수신 통화에 대한 진동</string>
+    <string name="VoiceData_Update_Status_Download">음성 데이터 다운로드 중...</string>
+    <string name="VoiceData_Update_Status_Install">음성 데이터 설정 중...</string>
+    <string name="VoiceData_Update_Status_Send">음성 데이터 전송 중...</string>
+    <string name="VoiceData_Update_Status_Start">%s 음성 데이터를 헤드폰으로 전송</string>
+    <string name="VoiceData_Update_Title">언어 변경</string>
+    <string name="VoiceData_Updating">기다려 주십시오...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">언어</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">알림 및 음성 가이드</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">포르투갈어(브라질)</string>
+    <string name="Voice_Guidance_Elem_Chinese">중국어</string>
+    <string name="Voice_Guidance_Elem_Dutch">네덜란드어</string>
+    <string name="Voice_Guidance_Elem_English">영어</string>
+    <string name="Voice_Guidance_Elem_Finnish">핀란드어</string>
+    <string name="Voice_Guidance_Elem_French">프랑스어</string>
+    <string name="Voice_Guidance_Elem_German">독일어</string>
+    <string name="Voice_Guidance_Elem_Italian">이탈리아어</string>
+    <string name="Voice_Guidance_Elem_Japanese">일본어</string>
+    <string name="Voice_Guidance_Elem_Korean">한국어</string>
+    <string name="Voice_Guidance_Elem_Portuguese">포르투갈어</string>
+    <string name="Voice_Guidance_Elem_Russian">러시아어</string>
+    <string name="Voice_Guidance_Elem_Spanish">스페인어</string>
+    <string name="Voice_Guidance_Elem_Swedish">스웨덴어</string>
+    <string name="Voice_Guidance_Elem_Turkish">터키어</string>
+    <string name="Voice_Guidance_Setting">음성 지침 언어</string>
+    <string name="Volume_Talkback">볼륨</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">사용하려면 Google Play에서 이 앱을 업데이트하십시오.</string>
+    <string name="Walkman_Placeholder_Confirm_China">사용하려면 다운로드 사이트에서 이 앱을 다운로드하십시오.</string>
+    <string name="Walkman_Placeholer_Button_Transit">이동</string>
+    <string name="Walkman_Placeholer_Description">"본인의 취향에 따라 이 앱에 대한 연결 기능과 함께 Sony 헤드폰을 사용자 정의하십시오.
+일상 음악은 쉬운 컨트롤로 더욱 즐겁게 감상할 수 있습니다."</string>
+    <string name="Walkman_Placeholer_Description_02">사용하려면 전송되는 화면에서 이 앱을 업데이트(다운로드)해야 합니다.</string>
+    <string name="Walkman_Placeholer_Description_03">이 앱 정보</string>
+    <string name="Walkman_Placeholer_Link">지원되는 제품 및 기능에 대해 자세히 알아보려면 여기로 이동</string>
+    <string name="Walkman_Placeholer_SubTitle">Headphones Connect 다운로드 페이지로 이동하시겠습니까?</string>
+    <string name="Welcome_EULA_PP">이 버튼을 누르면 귀하는 승낙 문서 및 개인정보보호정책을 확인했고 그 내용에 동의했음을 의미합니다.</string>
+    <string name="Welcome_EULA_PPLink">사용 약관</string>
+    <string name="Welcome_SubTitle">"더 재미있고 더 스마트하며 더 개인화되었습니다.
+새 헤드폰으로 새로운 삶을 시작하십시오."</string>
+    <string name="Welcome_SubTitle1">라이브 콘서트가 여기에서 시작됩니다.</string>
+    <string name="Welcome_SubTitle2">클럽, 무대, 콘서트홀 또는 야외 무대까지 무엇이든 원하는 장소로 설정할 수 있습니다.</string>
+    <string name="Welcome_SubTitle3">베이스를 자유롭게 컨트롤하세요.</string>
+    <string name="Welcome_Title">환영합니다</string>
+    <string name="Welcome_Title1">환영합니다</string>
+    <string name="Welcome_Title2">손가락 한번으로 라이브 뮤직을 시작하세요.</string>
+    <string name="Welcome_Title3">베이스가 더 필요하십니까?</string>
+    <string name="Widget_Disconnected">헤드폰이 연결 또는 등록되지 않았습니다. Headphones Connect를 시작하십시오.</string>
+    <string name="Widget_EQ_Error">Headphones Connect에서 [이퀄라이저]를 확인합니다.</string>
+    <string name="Widget_EQ_Error_Short">Headphones Connect에서 변경합니다.</string>
+    <string name="Widget_EULA_Disagreement">Headphones Connect를 시작하고 설정을 수행하십시오.</string>
+    <string name="Widget_Initial">로드 중...</string>
+    <string name="abc_action_bar_home_description">홈으로 이동</string>
+    <string name="abc_action_bar_up_description">위로 이동</string>
+    <string name="abc_action_menu_overflow_description">추가 옵션</string>
+    <string name="abc_action_mode_done">완료</string>
+    <string name="abc_activity_chooser_view_see_all">전체 보기</string>
+    <string name="abc_activitychooserview_choose_application">앱 선택</string>
+    <string name="abc_capital_off">사용 중지</string>
+    <string name="abc_capital_on">사용</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">스페이스바</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">검색...</string>
+    <string name="abc_searchview_description_clear">검색어 삭제</string>
+    <string name="abc_searchview_description_query">검색어</string>
+    <string name="abc_searchview_description_search">검색</string>
+    <string name="abc_searchview_description_submit">검색어 보내기</string>
+    <string name="abc_searchview_description_voice">음성 검색</string>
+    <string name="abc_shareactionprovider_share_with">공유 대상:</string>
+    <string name="abc_shareactionprovider_share_with_application">%s과(와) 공유</string>
+    <string name="abc_toolbar_collapse_description">접기</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">사용 설정</string>
+    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
+    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_install_button">설치</string>
+    <string name="common_google_play_services_install_text">기기에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 서비스 사용 가능 여부</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
+    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s은(는) Google Play 서비스 없이는 실행되지 않으나, 기기에서 Google Play 서비스를 지원하지 않습니다.</string>
+    <string name="common_google_play_services_update_button">업데이트</string>
+    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
+    <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_wear_update_text">새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다.</string>
+    <string name="common_open_on_phone">스마트폰에서 열기</string>
+    <string name="common_signin_button_text">로그인</string>
+    <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
+    <string name="expand_button_title">고급</string>
+    <string name="fcm_fallback_notification_channel_label">기타</string>
+    <string name="s1">이미지 저장</string>
+    <string name="s2">광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?</string>
+    <string name="s3">동의</string>
+    <string name="s4">거부</string>
+    <string name="s5">캘린더 일정 만들기</string>
+    <string name="s6">광고에서 캘린더 일정을 만들도록 허용하시겠습니까?</string>
+    <string name="s7">테스트 광고</string>
+    <string name="search_menu_title">검색</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">사용 안함</string>
+    <string name="v7_preference_on">사용</string>
+</resources>

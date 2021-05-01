@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pairing_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a_mdr_oobe_img_pairing_nfc" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oobe_pairing_description_text_left_margin" android:layout_marginTop="@dimen/oobe_pairing_description_text_top_margin" android:layout_marginRight="@dimen/oobe_pairing_description_text_right_margin" android:text="@string/OoBE_NFC_Message" android:layout_below="@id/pairing_image" android:layout_marginStart="@dimen/oobe_pairing_description_text_left_margin" android:layout_marginEnd="@dimen/oobe_pairing_description_text_right_margin" style="@style/TSS_L_C2_Re" />
+</androidx.percentlayout.widget.PercentRelativeLayout>

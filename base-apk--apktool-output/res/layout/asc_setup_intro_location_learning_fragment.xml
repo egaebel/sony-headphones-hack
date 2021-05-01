@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" app:srcCompat="@drawable/a_asc_initial_location_learning_image" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ASC_InitialSetup_LearningLocation_Introduction_Detail" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_L_C2_Re" />
+            <View android:background="?ui_common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginEnd="32.0dip" app:layout_constraintEnd_toStartOf="@id/info_msg" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/a_mdr_privacy_icon" />
+                <TextView android:id="@id/info_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload" android:layout_marginStart="72.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TSS_L_C2_MeStyle" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/button_area_divider" android:background="?ui_common_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <include android:layout_gravity="center_horizontal" android:id="@id/btn_turn_on_location_learning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="8.0dip" layout="@layout/ui_common_raised_button" />
+        <include android:layout_gravity="center_horizontal" android:id="@id/btn_turn_off_location_learning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" layout="@layout/ui_common_flat_button_normal" />
+    </LinearLayout>
+</LinearLayout>

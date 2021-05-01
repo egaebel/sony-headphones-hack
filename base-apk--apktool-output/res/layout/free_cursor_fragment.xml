@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color_remote_btn_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="top" android:id="@id/top_buttons_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/free_cursor_container_view" android:background="?ui_common_bg_color_remote_btn" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <jp.co.sony.vim.framework.platform.android.ui.fullcontroller.freecursor.FreePadView android:id="@id/freePadView" android:background="?bg_remote_freecsr_touchpad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/free_cursor_margin_vertical" android:layout_marginBottom="@dimen/free_cursor_margin_vertical" android:layout_marginStart="@dimen/free_cursor_margin_horizontal" android:layout_toStartOf="@id/scrollBarView" />
+        <jp.co.sony.vim.framework.platform.android.ui.fullcontroller.freecursor.ScrollBarView android:id="@id/scrollBarView" android:layout_width="@dimen/free_cursor_scroll_bar_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/free_cursor_margin_vertical" android:layout_marginBottom="@dimen/free_cursor_margin_vertical" android:layout_marginStart="@dimen/free_cursor_margin_horizontal" android:layout_marginEnd="@dimen/free_cursor_margin_horizontal" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/bottom_border" android:layout_width="fill_parent" android:layout_height="@dimen/free_cursor_margin_vertical" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_buttons_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">Longue</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">Courte</string>
+    <string name="AR_Custom_Reset">Réinitialiser</string>
+    <string name="AR_Custom_Title">Modifier</string>
+    <string name="AR_Custom_Title_iOS">MODIFIER</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"L'application détecte vos actions et les endroits que vous fréquentez, et commute automatiquement les réglages du casque, par exemple la manière de prendre le son ambiant.
+Cela permet de réussir des expériences musicales optimales afin de correspondre à la scène dans laquelle vous écoutez la musique.
+
+Voulez-vous utiliser cette fonction ?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"L'application détecte vos actions et ajuste automatiquement la manière de prendre le son ambiant.
+Cela permet de réussir des expériences musicales optimales afin de correspondre à la scène dans laquelle vous écoutez la musique.
+
+Voulez-vous utiliser cette fonction ?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">Le réglage du Contrôle adaptatif du son est terminé.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"La Réduction du bruit risque de se désactiver en raison de la commutation automatique vers des réglages qui correspondent aux actions détectées et à l'endroit.
+Ce réglage peut être personnalisé à l'aide du [Contrôle adaptatif du son] du tableau de bord."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"Le système est configuré pour désactiver le Réduction du bruit et recueillir le son ambiant en fonction du comportement détecté.
+Ce paramètre peut être personnalisé à partir du [Contrôle adaptatif du son] du tableau de bord."</string>
+    <string name="AR_Notification_Message">[%s] est activé.</string>
+    <string name="AR_Status_Detecting">Détection en cours</string>
+    <string name="AR_Status_LongStay">"À l'arrêt"</string>
+    <string name="AR_Status_Run">Course</string>
+    <string name="AR_Status_ShortStay">"À l'arrêt"</string>
+    <string name="AR_Status_Vehicle">Transport</string>
+    <string name="AR_Status_Walking">Marche</string>
+    <string name="AR_Title">Contrôle adaptatif du son</string>
+    <string name="AR_Title_Detail">"L'application détecte vos actions et les endroits que vous fréquentez, et commute automatiquement les réglages du casque, par exemple la manière de prendre le son ambiant."</string>
+    <string name="AR_Title_Detail_China">"L'applic. détecte vos actions et [%s] est commuté."</string>
+    <string name="AR_Title_Detail_EffectTone">Le son de notification émis lors de la commutation peut être mis en sourdine en désactivant [%s].</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">Ces réglages sont activés pendant que vous êtes à cet endroit et la commutation automatique en fonction des actions est désactivée.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">Désactivé pdt que vous êtes à un endroit enregistré</string>
+    <string name="ASC_Behavior_Detection">Commutation automatique en fonction des actions</string>
+    <string name="ASC_Behavior_Detection_Menu">Détection des actions</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"En enregistrant les endroits que vous fréquentez, la commutation automatique des réglages en fonction de cet endroit devient disponible.
+Les endroits que vous fréquentez peuvent facilement être enregistrés à l'aide de la fonction d'apprentissage.
+Voulez-vous utiliser cette fonction ?
+*Enregistrer les endroits que vous fréquentez durera plusieurs jours après l'utilisation de la fonction d'apprentissage."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">"L'endroit n'est pas envoyé au serveur étant donné que les fonctions d'apprentissage des endroits sont hors ligne."</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">"Utiliser la fonction d'apprentissage"</string>
+    <string name="ASC_LearningLocation">Apprentissage des endroits que vous fréquentez</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"La fonction d'apprentissage pour les endroits que vous fréquentez et la commutation automatique des réglages en fonction des endroits du Contrôle adaptatif du son sont activées, mais les endroits ne peuvent être détectés étant donné que Position ne peut être accédée. En cas d'autorisation permanente, les données de localisation seront collectées même lorsque l'application est fermée ou n'est pas utilisée.
+
+Pour utiliser ces fonctions en arrière-plan, appuyez sur le bouton [Réglages], et sélectionnez [Toujours autoriser] à partir de [Autorisations] > [Localisation]."</string>
+    <string name="ASC_Location_Detail">Informations endroit</string>
+    <string name="ASC_Location_Detail_Message">"Un nouvel endroit a été appris.
+Si cet endroit est enregistré, les réglages du casque pourront être commutés automatiquement."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">Définit la réduction du bruit sur DÉSACTIVÉ et prérègle sur un réglage qui vous permet de mieux remarquer les voix des personnes autour de vous.</string>
+    <string name="ASC_Location_Detail_Message_Other">Un réglage recommandé pour cet endroit est disponible en tant que préréglage.</string>
+    <string name="ASC_Location_Detail_Message_Station">Définit la réduction du bruit sur DÉSACTIVÉ et prérègle sur un réglage qui vous permet de mieux remarquer les sons ambiants autour de vous.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">Apprentissage des endroits que vous fréquentez</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">Un nouvel endroit a été appris.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">Si cet endroit est enregistré, les réglages du casque pourront être commutés automatiquement.</string>
+    <string name="ASC_Location_Detection">"Commutation automatique en fonction de l'endroit"</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">"Dans des endroits tels que le métro ou des tunnels, où la réception du GPS est faible, l'apprentissage des endroits que vous fréquentez et la commutation automatique en fonction de l'endroit risquent de ne pas fonctionner correctement."</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">"Étant donné que votre appareil mobile n'est pas équipé du GPS, l'apprentissage des endroits que vous fréquentez et la commutation automatique en fonction de l'endroit risquent de ne pas fonctionner correctement."</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">"Il y a des limites à la détection d'emplacement"</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">Détection de Position en cours...</string>
+    <string name="ASC_Location_Empty_Message">"Pour utiliser la commutation automatique en fonction de l'endroit où vous vous trouvez, enregistrez les endroits que vous fréquentez."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">Activer Position</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"La fonction d'apprentissage pour les endroits que vous fréquentez et la commutation automatique des réglages en fonction des endroits du Contrôle adaptatif du son sont activées, mais les endroits ne peuvent être détectés étant donné que Position est désactivée.
+
+Activez Position pour faire fonctionner correctement ces fonctions."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"La fonction d'apprentissage pour les endroits que vous fréquentez et la commutation automatique des réglages en fonction des endroits du Contrôle adaptatif du son sont activées, mais les endroits ne peuvent être détectés étant donné que le Service de localisation est désactivé.
+
+Activez le Service de localisation pour faire fonctionner correctement ces fonctions.
+Effectuez les réglages à partir de « Réglages » > [Confidentialité] > [Service de localisation] du périphérique mobile."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">Activer Position</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">Activer le Service de localisation</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">Activez Position pour détecter les endroits que vous fréquentez.</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">Activez le Service de localisation pour détecter les endroits que vous fréquentez.</string>
+    <string name="ASC_Location_Learning_Location_List">Endroit appris</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">Les endroits que vous fréquentez</string>
+    <string name="ASC_Location_Learning_Location_Select_message">Sélectionnez un endroit que vous voulez enregistrer.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">"La fonction d'apprentissage a été activée."</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"En plus de vos actions détectées, en enregistrant les endroits que vous fréquentez, la commutation automatique des réglages en fonction de cet endroit devient disponible dans le Contrôle adaptatif du son. Les endroits que vous fréquentez peuvent facilement être enregistrés à l'aide de la fonction d'apprentissage.
+*Enregistrer les endroits que vous fréquentez durera plusieurs jours après l'utilisation de la fonction d'apprentissage."</string>
+    <string name="ASC_Location_Learning_Tips_notification">"Enregistrez aisément les endroits que vous fréquentez en utilis. la fnct d'apprentiss."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">"Autoriser l'accès à Position"</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"La fonction d'apprentissage pour les endroits que vous fréquentez et la commutation automatique des réglages en fonction des endroits du Contrôle adaptatif du son sont activées, mais les endroits ne peuvent être détectés étant donné que Position ne peut être accédée. En cas d'autorisation permanente, les données de localisation seront collectées même lorsque l'application est fermée ou n'est pas utilisée.
+
+Autorisez l'accès à Position pour faire fonctionner correctement ces fonctions."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"La fonction d'apprentissage pour les endroits que vous fréquentez et la commutation automatique des réglages en fonction des endroits du Contrôle adaptatif du son sont activées, mais les endroits ne peuvent être détectés étant donné que Position ne peut être accédée.
+
+Sélectionnez [Lorsque l'app est active] sur l'écran suivant pour rendre ces fonctions opérationnelles."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"La fonction d'apprentissage pour les endroits que vous fréquentez et la commutation automatique des réglages en fonction des endroits du Contrôle adaptatif du son sont activées, mais les endroits ne peuvent être détectés étant donné que le Service de localisation ne peut être accédé.
+
+Pour utiliser ces fonctions en arrière-plan, appuyez sur le bouton [Réglages], et autorisez toujours l'accès à partir de [Position]."</string>
+    <string name="ASC_Location_Permission_Tips_notification">"Autorisez l'accès à Position pour détecter les endroits que vous fréquentez."</string>
+    <string name="ASC_Location_Position_Set">Endroit</string>
+    <string name="ASC_Location_Position_Set_message">Tapez pour spécifier un endroit.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">Activer Position exacte</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"La fonction d'apprentissage pour les endroits que vous fréquentez et la commutation automatique des réglages en fonction des endroits du Contrôle adaptatif du son sont activées, mais les endroits ne peuvent être détectés étant donné que Position exacte est désactivée.
+
+Afin que ces fonctionnalités puissent fonctionner correctement, appuyez sur le bouton [Réglages] et activez Position exacte à partir de [Position]."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">Activez Position exacte pour détecter les endroits que vous fréquentez.</string>
+    <string name="ASC_Location_Range">Gamme</string>
+    <string name="ASC_Location_Range_Param_Large">Grande</string>
+    <string name="ASC_Location_Range_Param_Mid">Standard</string>
+    <string name="ASC_Location_Range_Param_Small">Petite</string>
+    <string name="ASC_Location_Registration">Enregistrer endroit</string>
+    <string name="ASC_Location_Setting">"Réglages d'endroit"</string>
+    <string name="ASC_Location_Sound_Setting">Réglages du casque</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">"Sélectionnez le réglage sur lequel commuter à cet endroit à partir d'[Ajouter/supprimer des éléments]."</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">Ne pas commuter</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">Ajouter/supprimer des éléments</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"Sélectionnez un réglage pour commuter à cet endroit.
+Les réglages qui n'ont pas été sélectionnés garderont l'état antérieur même si vous entrez dans cet endroit."</string>
+    <string name="ASC_Location_Switch_Setting">Méthode de commutation</string>
+    <string name="ASC_Location_Type_Bus">Arrêt de bus</string>
+    <string name="ASC_Location_Type_Gym">Salle de sport</string>
+    <string name="ASC_Location_Type_Home">À la maison</string>
+    <string name="ASC_Location_Type_Office">Lieu de travail</string>
+    <string name="ASC_Location_Type_Other">Autre</string>
+    <string name="ASC_Location_Type_School">École</string>
+    <string name="ASC_Location_Type_Set">Catégorie</string>
+    <string name="ASC_Location_Type_Set_message">Sélectionnez une catégorie.</string>
+    <string name="ASC_Location_Type_Train">Gare</string>
+    <string name="ASC_NotificationSound">Tonalité notification lors de commutation</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">Autoriser le réglage de notification.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"Bien que le réglage [Commuter à partir de la notification] du Contrôle adaptatif du son soit activé, les notifications ne s'afficheront pas étant donné que le réglage de notification n'est pas autorisé.
+
+Autorisez le réglage de notification afin de faire fonctionner correctement cette fonction."</string>
+    <string name="ASC_NowHere">Vous vous trouvez à cet endroit</string>
+    <string name="ASC_Others_Section">Autre</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">"Enregistrer à partir d'endroits appris"</string>
+    <string name="ASC_RegisterFromMapBtn">Enregistrer à partir de la carte</string>
+    <string name="ASC_RegisteredLocation">Endroits enregistrés</string>
+    <string name="ASC_Status_Empty">"N'a pas commuté automatiquement"</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">"Désactivé (vous devrez effectuer manuellement les changements de l'Égaliseur)"</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*Commutation manuelle</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">Désactivé (en raison de la priorité à la qualité sonore)</string>
+    <string name="ASC_Status_Sound_Setting_info">État du réglage</string>
+    <string name="ASC_Supplement_A2SC_Controlled">"Définir automatiquement à l'aide du Contrôle adaptatif du son."</string>
+    <string name="ASC_Supplement_Change_Behavior">"Le réglage change automatiquement à l'aide du Contrôle adaptatif du son si votre action change."</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">"Le régl. change automatiquement à l'aide du Contrôle adaptatif du son si votre action et endroit changent."</string>
+    <string name="ASC_Supplement_Change_Location">"Le réglage change automatiquement à l'aide du Contrôle adaptatif du son si votre endroit change."</string>
+    <string name="ASC_Supplement_Leave_Location">Retourne au réglage automatique en fonction du Contrôle adaptatif du son si vous quittez cet endroit.</string>
+    <string name="ASC_Switch_Detail_Message">Si réglé sur [Commuter à partir de la notification], vous pouvez commuter sur ce réglage à tout moment pendant que vous êtes à cet endroit.</string>
+    <string name="ASC_Switch_Notification_After_Button">Rétablir</string>
+    <string name="ASC_Switch_Notification_After_Description">Vous pouvez rétablir le réglage antérieur à la commutation.</string>
+    <string name="ASC_Switch_Notification_After_Title">Défini sur le réglage %s</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">Commuter</string>
+    <string name="ASC_Switch_Notification_Before_Description">Voulez-vous commuter au réglage de cet endroit ?</string>
+    <string name="ASC_Switch_Notification_Before_Title">Endroit: %s</string>
+    <string name="ASC_Switch_Type_Auto">Commuter automatiquement</string>
+    <string name="ASC_Switch_Type_Manual">Commuter à partir de la notification</string>
+    <string name="ASM_Param_ASM">Son ambiant</string>
+    <string name="ASM_Param_NC">Réduction du bruit</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">Désactivé</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">Activé</string>
+    <string name="ASM_Param_Street">Réduction du bruit du vent</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">Son ambiant</string>
+    <string name="ASM_Simple_Param_AsmNormal">Son ambiant - mode normal</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">Son ambiant - mode normal</string>
+    <string name="ASM_Simple_Param_AsmVoice">Son ambiant - mode vocal</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">Son ambiant - mode vocal</string>
+    <string name="ASM_Simple_Param_Asm_forBody">Son ambiant</string>
+    <string name="ASM_Simple_Param_Dual">Réduction du bruit</string>
+    <string name="ASM_Simple_Param_Dual_forBody">Réduction du bruit</string>
+    <string name="ASM_Simple_Param_NC">Réduction du bruit</string>
+    <string name="ASM_Simple_Param_NC_forBody">Réduction du bruit</string>
+    <string name="ASM_Simple_Param_Street">Réduction du bruit du vent</string>
+    <string name="ASM_Simple_Param_Street_forBody">Réduction du bruit du vent</string>
+    <string name="ASM_Simple_Title">Contrôle son ambiant</string>
+    <string name="ASM_Title">Contrôle son ambiant</string>
+    <string name="ASM_Voice">Concentration sur la voix</string>
+    <string name="Abort_FWUpdate">Abandonner</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">Non réglé</string>
+    <string name="AppNotify_Custom_Param_Vibration">Vibration</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">Synthèse vocale</string>
+    <string name="AppNotify_Custom_Title">Notifications casque</string>
+    <string name="AppNotify_Detail">"Réception de notifications sur casque à partir des appli. sélectionnées. Pour la synthèse vocale, l'audio du média doit être sélect. dans régl. Bluetooth du périph. mobile."</string>
+    <string name="AppNotify_NeedSetup">Sélect. applications pour notifications.</string>
+    <string name="AppNotify_Notification_Message">[%s] activé.</string>
+    <string name="AppNotify_Setapps">%d applications sélectionnées.</string>
+    <string name="AppNotify_Title">Notifications casque</string>
+    <string name="AppSetting_Link">Démarrer Music Center</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">Enregistrer</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">La musique lue actuellement sera interrompue, car une reconnexion du casque est nécessaire. Voulez-vous effectuer le changement ?</string>
+    <string name="Assignable_Key_Changing_Error">"L'opération a échoué."</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">Change la fonction du bouton</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">"L'application Amazon Alexa est nécessaire pour utiliser cette fonction."</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">Configurer Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">"Complétez les réglages de l'application Google Assistant pour utiliser cette fonction."</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">"L'application Google Assistant est nécessaire pour utiliser cette fonction."</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Assistant Google</string>
+    <string name="Assignable_Key_Elem_Help_Button">En savoir plus</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">"Les opérations par bouton sont désactivées. L'opération de jumelage est disponible pour ce réglage."</string>
+    <string name="Assignable_Key_Elem_None_Title">"Aucune n'a été attribuée"</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">"L'opération tactile sera désactivée. L'opération de jumelage est disponible pour ce réglage."</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">Commande de lecture</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">Vous pouvez utiliser ce périphérique mobile à partir du microphone du casque par la voix.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">"Fonction d'assistance vocale"</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">Commande du volume</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">"Vous ne pouvez pas attribuer la Fonction d'assistance vocale à la fois à gauche et à droite."</string>
+    <string name="Assignable_Key_Setting_1">Chang. fnct du bouton [NC/AMBIENT]</string>
+    <string name="Assignable_Key_Setting_2">Chang. fonction du bouton de gauche</string>
+    <string name="Assignable_Key_Setting_Button">Modifier la fonction du bouton</string>
+    <string name="Assignable_Key_Setting_C">Chang. fnct du bouton [C]</string>
+    <string name="Assignable_Key_Setting_CUSTOM">Chang. fnct du bouton [CUSTOM]</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">Réinitialiser</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">Vous pouvez modifier la fonction attribuée au bouton à gauche.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">Vous pouvez modifier la fonction attribuée au bouton à droite.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">Vous pouvez modifier la fonction attribuée au bouton [C].</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">Vous pouvez modifier la fonction attribuée au bouton [CUSTOM].</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">Vous pouvez modifier la fonction attribuée au capteur tactile à gauche.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">Vous pouvez modifier la fonction attribuée au capteur tactile à droite.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">Fonction :</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">Méthode de fonctionnement :</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">Gauche</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">Droite</string>
+    <string name="Assignable_Key_Setting_Edit_Title">Modifier</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">Entrée audio/annuler</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">"Annuler la Fonction d'assistance vocale"</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">"Annuler l'entrée audio"</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">Notification vocale</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">Entrée audio</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">"Exécuter la Fonction d'assistance vocale"</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">Morceau suivant</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">Lire/pause</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">Morceau précédent</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">Réduction du bruit/son ambiant/désactivé</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">Optimiseur antibruit</string>
+    <string name="Assignable_Key_Setting_Function_None">Aucune</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">Attention rapide</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">Baisser le volume</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">Augmenter le volume</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">Entrée audio</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">Appuyer 2 fois</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">Appuyer 2 fois et pression continue</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">Appuyer 1 fois</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">Appuyer 1 fois et pression continue</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">Appuyer 3 fois</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">Pression continue</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">Appuyer longuement</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">Taper deux fois</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">Taper deux fois et pression continue</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">Taper</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">Taper et pression continue</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">Taper trois fois</string>
+    <string name="Assignable_Key_Setting_NC">Chang. fnct du bouton [NC]</string>
+    <string name="Assignable_Key_Setting_NCAMB">Chang. fnct du bouton [NC/AMB]</string>
+    <string name="Assignable_Key_Setting_Not_Connected">Non connecté.</string>
+    <string name="Assignable_Key_Setting_R">Chang. fonction du bouton de droite</string>
+    <string name="Assignable_Key_Setting_SaveCheck">La modification est incomplète. Voulez-vous quitter ?</string>
+    <string name="Assignable_Key_Setting_Touch">Modifier la fonction du capteur tactile</string>
+    <string name="AutoPlaybackControl_Title">"S'interrompt en retirant le casque"</string>
+    <string name="AutoPowerOff_Off_Parameter">Ne pas éteindre</string>
+    <string name="AutoPowerOff_Off_Title">Ne pas éteindre</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">"Si vous ne le portez pas pendant un certain temps, le casque s'éteint automatiquement."</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">Se désactive en retirant le casque</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">Se désactive en retirant le casque</string>
+    <string name="AutoPowerOff_SelectTime_Detail">"Si un temps spécifié s'écoule après la déconnexion du Bluetooth, le casque s'éteint automatiquement."</string>
+    <string name="AutoPowerOff_SelectTime_Title">Éteindre après un moment</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1 heure</string>
+    <string name="AutoPowerOff_SelectTme_30min">30 minutes</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3 heures</string>
+    <string name="AutoPowerOff_SelectTme_5min">5 minutes</string>
+    <string name="AutoPowerOff_Title">Éteindre Automatiquement</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">Niveau de la batterie</string>
+    <string name="Battery_Remain_Unknown">Niveau de la batterie inconnu</string>
+    <string name="Button_Next">suivant</string>
+    <string name="Button_Permission_iOS_Settings">Réglages</string>
+    <string name="Button_Prev">précédent</string>
+    <string name="Codec_AAC">Connecté par AAC.</string>
+    <string name="Codec_LDAC">Connecté par LDAC.</string>
+    <string name="Codec_SBC">Connecté par SBC.</string>
+    <string name="Codec_aptX">Connecté par aptX.</string>
+    <string name="Codec_aptXHD">Connecté par aptX HD.</string>
+    <string name="Common_App_Start">Démarrer</string>
+    <string name="Common_Back">Arrière</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">Terminé</string>
+    <string name="Common_EULA">Accord licence utilisateur final</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">Plus</string>
+    <string name="Common_Off">Désactivé</string>
+    <string name="Common_On">Activé</string>
+    <string name="Common_Other">Autre</string>
+    <string name="Common_PP">Politique de confidentialité</string>
+    <string name="Common_Pause">Pause</string>
+    <string name="Common_Play">Lire</string>
+    <string name="Common_Start">Démarrer</string>
+    <string name="Common_Yes">Oui</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">"Pour modifier les réglages, le mode de qualité sonore doit être changé en Priorité à la connexion stable. De plus, le casque se reconnectera et la musique lue actuellement s'arrêtera. Voulez-vous effectuer le changement ?"</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">La musique lue actuellement sera interrompue, car une reconnexion du casque est nécessaire. En outre, les réglages de la qualité sonore peuvent devenir indisponibles en cas de changement en Priorité à la qualité sonore. Voulez-vous effectuer le changement ?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">La musique lue actuellement sera interrompue, car une reconnexion du casque est nécessaire. Voulez-vous effectuer le changement ?</string>
+    <string name="ConnectMode_Changing_Title_Caution">Mode qualité sonore doit être changé</string>
+    <string name="ConnectMode_Changing_Title_Confirm">Modifie le mode de qualité sonore</string>
+    <string name="ConnectMode_Connectivity_Detail">Si le son saute fréquemment, sélectionnez ce réglage.</string>
+    <string name="ConnectMode_Connectivity_Title">Priorité à la connexion stable</string>
+    <string name="ConnectMode_Sound_Title">Priorité à la qualité sonore</string>
+    <string name="ConnectMode_Title">Mode de qualité sonore</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">"Le produit (Sony | Headphones Connect) intègre la technologie de reconnaissance d'activité mise au point par Sony Corporation qui repose sur la recherche de Sony Computer Science Laboratories, Inc."</string>
+    <string name="Copyright_AptX">"Qualcomm est une marque commerciale de Qualcomm Incorporated, déposée aux États-Unis et dans d'autres pays, qui est utilisée avec son autorisation. aptX est une marque commerciale de Qualcomm Technologies International, Ltd., déposée aux États-Unis et dans d'autres pays, qui est utilisée avec son autorisation."</string>
+    <string name="Copyright_Bluetooth">La marque Bluetooth® et les logos appartiennent à Bluetooth SIG, Inc. et sont utilisés sous license uniquement par Sony Corporation.</string>
+    <string name="Copyright_NFC">"Le repère N-Mark est une marque commerciale ou une marque déposée de NFC Forum, Inc. aux États-Unis et dans d'autres pays."</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">Vérification du niveau de la batterie le plus à jour</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">Le niveau de la batterie affiché est mis à jour lors du retrait du casque du boîtier de chargement.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">"L'affichage du niveau de la batterie du boîtier de chargement se met à jour lors du retrait du casque du boîtier de chargement."</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">"Voulez-vous activer l'affichage du niveau de la batterie du boîtier de chargement ?"</string>
+    <string name="Cradle_Battery">Boîtier de chargement</string>
+    <string name="Current_Volume_Talkback">Volume actuel</string>
+    <string name="DSEEHX_AI_Param_Auto">Automatique</string>
+    <string name="DSEEHX_AI_Param_Off">Désactivé</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">Automatique</string>
+    <string name="DSEEHX_Param_Off">Désactivé</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme activé</string>
+    <string name="DSEE_HX_ON">DSEE HX activé</string>
+    <string name="DSEE_ON">DSEE activé</string>
+    <string name="DSEE_Param_Auto">Automatique</string>
+    <string name="DSEE_Param_Off">Désactivé</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">Son</string>
+    <string name="Dashboard_Tab_Status">État</string>
+    <string name="Dashboard_Tab_System">Système</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Connecté par Bluetooth.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Pas connecté par Bluetooth.</string>
+    <string name="Device_Connection_Connect">Connecter</string>
+    <string name="Device_Connection_Connect_iOS">Connecter au casque jumelé</string>
+    <string name="Device_Connection_Message1">Établissez la connexion avec le casque par Bluetooth.</string>
+    <string name="Device_Connection_Pair">Connecter au nouveau casque</string>
+    <string name="Device_Registration_Top_Msg">Enregistrer un nouveau casque.</string>
+    <string name="Download_Latest_MDRPlugin">La dernière version de Headphones Connect est nécessaire pour utiliser ce casque. Mettez cette application à jour à partir de Google Play.</string>
+    <string name="Download_Latest_MDRPlugin_iOS">"La dernière version de Headphones Connect est nécessaire pour utiliser ce casque. Mettez cette application à jour à partir de l'App Store."</string>
+    <string name="EBB_Indicator">Amplificateur de basses électronique</string>
+    <string name="EBB_Param_Title">Niveau</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">Acoustique</string>
+    <string name="EQ_Preset_Bass">Augment. graves</string>
+    <string name="EQ_Preset_Bright">Vif</string>
+    <string name="EQ_Preset_Custom">Manuel</string>
+    <string name="EQ_Preset_Dance">Dance</string>
+    <string name="EQ_Preset_EDM">EDM</string>
+    <string name="EQ_Preset_Excited">Enthousiaste</string>
+    <string name="EQ_Preset_Jazz">Jazz</string>
+    <string name="EQ_Preset_Mellow">Calme</string>
+    <string name="EQ_Preset_Off">Désactivé</string>
+    <string name="EQ_Preset_Pop">Pop</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B / Hip Hop</string>
+    <string name="EQ_Preset_Relaxed">Décontracté</string>
+    <string name="EQ_Preset_Rock">Rock</string>
+    <string name="EQ_Preset_Speech">Discours</string>
+    <string name="EQ_Preset_Title">Égaliseur</string>
+    <string name="EQ_Preset_Treble">Augment. aigus</string>
+    <string name="EQ_Preset_UserSetting">Personnalisé</string>
+    <string name="EQ_Preset_Vocal">Chant</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_fr.html</string>
+    <string name="ErrMsg_CannotAccess_Server">"Échec de connexion au serveur. Vérifiez l'état de la connexion réseau."</string>
+    <string name="FW_Download_Param_Always">Toujours télécharger automatiquement</string>
+    <string name="FW_Download_Param_OnlyWiFi">"Uniquem. lors d'une connexion Wi-Fi"</string>
+    <string name="FW_Download_Title">Téléchargement automatique logiciels</string>
+    <string name="FW_EULA_Title">"Conditions d'utilisation"</string>
+    <string name="FW_Info_Button_Resume">Reprendre</string>
+    <string name="FW_Info_Button_Start">Démarrer</string>
+    <string name="FW_Info_Caution">"Le casque ne pourra pas être utilisé pdt la m.à.j.
+Rapprochez casque et app. mob. l'un de l'autre lorsque cela démarre."</string>
+    <string name="FW_Info_Caution_Downloading">"Le téléchargement sera abandonné si le casque et l'appareil mobile sont éloignés ou si le casque est mis hors tension.
+En cas d'abandon, le téléchargement peut être repris."</string>
+    <string name="FW_Info_Caution_Sending">"Le transfert sera abandonné si le casque et l'appareil mobile sont éloignés ou si le casque est mis hors tension.
+En cas d'abandon, transfert peut être repris à partir de là où il a été arrêté."</string>
+    <string name="FW_Info_Caution_Start">"Démarrez en maintenant le casque et l'appareil mobile rapprochés."</string>
+    <string name="FW_Info_EULA">Appuyer sur le bouton suivant établit que vous avez vérifié le document de consentement et approuvé son contenu.</string>
+    <string name="FW_Info_EULALink">"Conditions d'utilisation"</string>
+    <string name="FW_Info_Message1">Le plus récent logiciel du casque est disponible.</string>
+    <string name="FW_Info_Message2">Bouton [Accepter] pour démarrer la mise à jour.</string>
+    <string name="FW_Info_Message3">Bouton [OK] pour démarrer la mise à jour.</string>
+    <string name="FW_Info_Message_Download">En cas de pression sur le bouton [%s], les préparations de la mise à jour démarreront.</string>
+    <string name="FW_Info_Message_Resume">Appuyer sur le bouton [%s] causera une reprise du transfert.</string>
+    <string name="FW_Info_Message_Update">Appuyer sur le bouton [%s] causera une reprise de la mise à jour.</string>
+    <string name="FW_Info_Title">Informations sur le logiciel</string>
+    <string name="FW_Info_Version">Version</string>
+    <string name="FW_Notify_Abort">Transfert du logiciel du casque abandonné.</string>
+    <string name="FW_Notify_Detail">Plus</string>
+    <string name="FW_Notify_Downloading">Téléchargement du plus récent logiciel casque en cours... (%d%%)</string>
+    <string name="FW_Notify_Msg">Le plus récent logiciel du casque est disponible.</string>
+    <string name="FW_Notify_Sending">Transfert du plus récent logiciel du casque en cours... (%d%%)</string>
+    <string name="FW_Notify_Update">Mettez à jour le logiciel du casque.</string>
+    <string name="FW_Update_Button_Transit_AppStore">"M. à jour à partir de l'App Store"</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">M. à jour à part. de Google Play</string>
+    <string name="FW_Update_Message1">Veuillez patienter...</string>
+    <string name="FW_Update_Message2">"Ne mettez pas hors tension.
+N'éloignez pas le casque et l'appareil mobile l'un de l'autre."</string>
+    <string name="FW_Update_Message3">"Redémarre automatiquement.
+N'éloignez pas le casque et l'appareil mobile l'un de l'autre."</string>
+    <string name="FW_Update_Message_step2_1">"Transfert vers l'unité gauche en cours"</string>
+    <string name="FW_Update_Message_step2_2_1">"Mise à jour de l'unité gauche du casque"</string>
+    <string name="FW_Update_Message_step2_2_2">"Mise à jour de l'unité gauche du casque terminée.
+Connexion à l'unité droite en cours"</string>
+    <string name="FW_Update_Message_step2_2_3">Préparation du transfert vers unité droite</string>
+    <string name="FW_Update_Message_step2_3">"Transfert vers l'unité droite en cours"</string>
+    <string name="FW_Update_Retry_Body_Caution">"Avant la mise à jour du logiciel, vous devez désactiver la fonction « Google Assistant ».
+Une fois la fonction « Google Assistant » désactivée, le casque redémarrera automatiquement et vous devrez suivre les instructions de pop-up.
+Une fois le logiciel mis à jour, activez de nouveau la fonction « Google Assistant »."</string>
+    <string name="FW_Update_Retry_Title_Caution">Fonction « Google Assistant » doit être désactivée</string>
+    <string name="FW_Update_Status_Abort">Transfert du logiciel du casque abandonné.</string>
+    <string name="FW_Update_Status_Download">Téléchargement du logiciel en cours...</string>
+    <string name="FW_Update_Status_Download_step1">Téléchargem. logiciel... (1/3)</string>
+    <string name="FW_Update_Status_Downloading">Téléchargement du plus récent logiciel du casque en cours...</string>
+    <string name="FW_Update_Status_Install">Mise à jour en cours...</string>
+    <string name="FW_Update_Status_Install_step3">Mise à jour du logiciel... (3/3)</string>
+    <string name="FW_Update_Status_Prepared">Mettez à jour le logiciel du casque.</string>
+    <string name="FW_Update_Status_Send">Transfert du logiciel en cours...</string>
+    <string name="FW_Update_Status_Send_step2">Transfert du logiciel... (2/3)</string>
+    <string name="FW_Update_Status_Sending">Transfert du plus récent logiciel du casque en cours...</string>
+    <string name="FW_Update_Title">Mise à jour de logiciel</string>
+    <string name="FW_Version_Confirm_Title">%s Version</string>
+    <string name="FW_Version_Menu_Title">%s Version</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">fr</string>
+    <string name="GoogleAssistantIntro_Link">Configurer votre Google Assistant</string>
+    <string name="GoogleAssistantIntro_Msg">Obtenez un accès instantané à votre Google personnel et bien plus. La configuration ne prend que quelques minutes.</string>
+    <string name="GoogleAssistantIntro_Title">Désormais optimisé pour Google Assistant.</string>
+    <string name="Help_Information_Priority_High">Veuillez vérifier ici</string>
+    <string name="Help_Troubleshooting">Dépannage</string>
+    <string name="IASetup_AnalyzeComplete_Detail">Ensuite, envoyez ces résultats à une application de musique pour optimiser votre expérience du 360 Reality Audio.</string>
+    <string name="IASetup_AnalyzeComplete_Title">Vos oreilles ont été analysées avec succès</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"Prenez photos de vos oreilles pour analyse.
+Avant de prendre photos, veuillez vous en assurer que vos oreilles sont entièrement visibles et vérifiez ce qui suit :
+
+- Casque retiré de vos oreilles.
+- Oreilles non recouvertes par cheveux.
+- Boucles d'oreille et piercings retirés."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">Analyser la forme de votre oreille</string>
+    <string name="IASetup_Analyze_Cmd_Retry">Réanalyser</string>
+    <string name="IASetup_Analyze_Cmd_Start">Analyser</string>
+    <string name="IASetup_Analyze_Detail">Cela prendra environ %d secondes.</string>
+    <string name="IASetup_Analyze_Label">"Analyser la forme de l'oreille"</string>
+    <string name="IASetup_Analyze_Status_Done">Vos oreilles ont été analysées</string>
+    <string name="IASetup_Analyze_Status_NotComp">"Vos oreilles n'ont pas été analysées"</string>
+    <string name="IASetup_Analyze_Title">Analyse de vos oreilles en cours</string>
+    <string name="IASetup_AppDetail_NotInstalled">Non installée</string>
+    <string name="IASetup_AppDetail_NotOptimized">Non optimisée</string>
+    <string name="IASetup_AppDetail_Optimized">Optimisée</string>
+    <string name="IASetup_AppInstallConf_Title">"Vous devez revenir à Headphones Connect après l'installation."</string>
+    <string name="IASetup_AppInstall_Detail">"Les réglages 360 Reality Audio seront complétés lors de l'exécution de l'application après son installation. L'application de musique est optimisée pour recréer un champ sonore précis."</string>
+    <string name="IASetup_AppInstall_Detail_iOS">"Une fois l'application installée et les réglages 360 Reality Audio terminés, l'application musicale est optimisée pour recréer un champ sonore précis."</string>
+    <string name="IASetup_AppInstall_Install">Installer et optimiser</string>
+    <string name="IASetup_AppInstall_Install_iOS">Installer</string>
+    <string name="IASetup_AppInstall_Title">"Régl. 360 Reality Audio complétés lors d'exécution application."</string>
+    <string name="IASetup_AppInstall_Title_iOS">Installez cette application sur votre téléphone.</string>
+    <string name="IASetup_AppIntroduction_Detail">"Pour écouter cette expérience musicale immersive, vous devez disposer d'une de ces applications de service de musique pour 360 Reality Audio.
+*Les frais d'abonnement et le contenu applicable varient selon le service de musique."</string>
+    <string name="IASetup_AppIntroduction_Title">Applications de musique disponibles pour 360 Reality Audio</string>
+    <string name="IASetup_AppLaunch_Detail">"Une fois conf. 360 Reality Audio terminée, profiter de lecture mus. avec champ sonore précis.
+Veuillez profiter du 360 Reality Audio optimisé pour vous."</string>
+    <string name="IASetup_AppLaunch_Optimize">Exécuter pour optimiser</string>
+    <string name="IASetup_AppLaunch_Title">"Régl. 360 Reality Audio complétés lors d'exécution application."</string>
+    <string name="IASetup_AppList_Detail">"360 Reality Audio est uniquement disponible à partir de ces applications de service de musique. Veuillez sélectionner l'applic. que vous souhaitez utiliser.
+*Les frais d'abonn. et le contenu applicable varient selon le serv. de musique."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">Non installée</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">Non optimisée</string>
+    <string name="IASetup_AppList_Gp_Optimized">Optimisée</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">Détection impossible.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">Veuillez ne pas bouger la tête.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">Veuillez ne pas bouger le smartphone.</string>
+    <string name="IASetup_CameraInstruction_Complete">Photo saisie.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">Votre oreille a été détectée. Ne bougez pas la tête.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">"Détection de l'oreille gauche en cours..."</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">"Détection de l'oreille droite en cours..."</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">La position est à présent correcte. De cette position, tournez lentement la tête vers la droite.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">Tournez lentement la tête vers la droite.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">La position est à présent correcte. De cette position, tournez lentement la tête vers la gauche.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">Tournez lentement la tête vers la gauche.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">"Prenez une photo de votre oreille gauche. Veuillez retirer votre casque.
+Puis face à l'avant de l'appareil photo, tournez la tête vers la droite et appuyez sur le bouton de l'obturateur."</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"Veuillez retirer votre casque.
+Puis face à l'avant de l'appareil photo, tournez la tête vers la droite afin que votre oreille se trouve dans le cadre et appuyez sur le bouton de l'obturateur."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">"Prenez une photo de votre oreille droite. Veuillez retirer votre casque.
+Puis face à l'avant de l'appareil photo, tournez la tête vers la gauche et appuyez sur le bouton de l'obturateur."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"Veuillez retirer votre casque.
+Puis face à l'avant de l'appareil photo, tournez la tête vers la gauche afin que votre oreille se trouve dans le cadre et appuyez sur le bouton de l'obturateur."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">Veuillez éloigner la caméra de votre tête.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">Veuillez rapprocher la caméra.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">Veuillez incliner la caméra légèrement vers le bas.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"Veuillez retirer votre casque.
+Puis face à l'avant de l'appareil photo, placez votre tête dans le cadre."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">Veuillez faire pivoter la caméra un peu vers la gauche.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">Veuillez faire pivoter la caméra un peu vers la droite.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">Veuillez incliner la caméra légèrement vers le haut.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">Veuillez retirer votre casque.</string>
+    <string name="IASetup_CompletePhotograph_Detail">Démarrez analyse de la forme de votre oreille.</string>
+    <string name="IASetup_CompletePhotograph_Title">Votre oreille droite a été capturée avec succès</string>
+    <string name="IASetup_Confirm_NonBT_Device">Appuyez sur le bouton [%s] pour effectuer les réglages du casque.</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">Pour écouter et comparer les sons immersifs du 360 Reality Audio, les réglages suivants doivent être désactivés.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">Pour lire du 360 Reality Audio immersif dans les applications de service de musique, les réglages suivants doivent être désactivés.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">Désactiver et lire</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">Désactiver+démarrer</string>
+    <string name="IASetup_EarPhoto_Auto">Prise de vue automatique (recommandé)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">Prise de vue automatique</string>
+    <string name="IASetup_EarPhoto_Manual">Prise de vue manuelle</string>
+    <string name="IASetup_FailurePhotograph_Detail">Confirmez la remarque suivante et reprenez votre oreille.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">"Votre oreille gauche n'est pas reconnue"</string>
+    <string name="IASetup_FailurePhotograph_R_Title">"Votre oreille droite n'est pas reconnue"</string>
+    <string name="IASetup_FeatureTitle">Configurat. 360 Reality Audio</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">Confirmé</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">Continuer sans utiliser de coupon</string>
+    <string name="IASetup_FreeTrialCoupon_Start">Accéder au site du coupon</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">"Vérifiez l'orientation de votre oreille et effectuez les ajustements de position et de taille en vous servant du guide."</string>
+    <string name="IASetup_LearnMore">Plus à propos du 360 Reality Audio</string>
+    <string name="IASetup_LearnMore_AboutApp">Allez ici pour détails sur service de musique</string>
+    <string name="IASetup_Link_EarPhotoSample">"Position et taille de l'oreille"</string>
+    <string name="IASetup_Link_Handling_EarPhoto">"Méthode d'utilis. de vos données personnelles"</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">Pourquoi prendre une photo de vos oreilles ?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">À propos infos à envoy. à appli serv. musiq.</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">Vérifiez que votre oreille entière se trouve dans le cadre et appuyez sur le bouton [%s].</string>
+    <string name="IASetup_NeedToUpdateApp_Title">Mise à jour nécessaire.</string>
+    <string name="IASetup_OOBE_Title">À propos 360 Reality Audio</string>
+    <string name="IASetup_Optimize_Cmd_AppList">Confirmer</string>
+    <string name="IASetup_Optimize_Cmd_Install">Installer</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">Optimiser</string>
+    <string name="IASetup_Optimize_Label">Optimiser les applications</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">Les applications 360 Reality Audio ne sont pas installées</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">Applications 360 Reality Audio pas encore optimiséees</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">"Il n'y a aucune application 360 Reality Audio optimisée"</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d application(s) est/sont optimisée(s)</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"Écran suivant, tournez caméra frontale vers votre visage. La prise de vue s'effectue autom. lorsqu'oreilles détectées.
+
+1. Tenez appar. mobile à deux mains en face de visage.
+2. Lors de détection visage, tournez tête vers droite en suivant guidage vocal.
+3. Restez immob. jusqu'à ce que prise de vue soit effectuée autom."</string>
+    <string name="IASetup_PhotographEar_Title">Prendre une photo de votre oreille gauche</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">"Enlevez les boucles d'oreilles."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- Veuillez prendre une photo de votre oreille gauche.
+- Si l'endroit de la prise de vue est trop éclairé ou trop sombre, changez d'endroit.
+- Retirez le casque de votre oreille."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- Veuillez prendre une photo de votre oreille droite.
+- Si l'endroit de la prise de vue est trop éclairé ou trop sombre, changez d'endroit.
+- Retirez le casque de votre oreille."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">Veuillez vous en assurer que vos cheveux ne recouvrent pas vos oreilles.</string>
+    <string name="IASetup_Photograph_Ear_L">Oreille gauche</string>
+    <string name="IASetup_Photograph_Ear_R">Oreille droite</string>
+    <string name="IASetup_Photograph_Retake">Reprendre</string>
+    <string name="IASetup_Photograph_Take">Prendre une photo</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">Audio normal</string>
+    <string name="IASetup_Select_NonBT_Button">Accéder au tableau de bord</string>
+    <string name="IASetup_SetupStart">Démarrer la configuration</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">Terminé</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">Prenez une photo de vos oreilles pour une analyse.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">"Vos oreilles n'ont pas été analysées"</string>
+    <string name="IASetup_SetupSummary_Detail">Nous pouvons reproduire avec précision le champ sonore qui vous corresp. le mieux en analysant forme de vos oreilles.</string>
+    <string name="IASetup_SetupSummary_Optimize">"Démarrer l'étape 2"</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d application(s) est/sont optimisée(s)</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">"Optimisez l'appl. de serv. mus. en envoyant résult. d'analyse de vos oreilles."</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">Les applications 360 Reality Audio ne sont pas installées</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">Les applications 360 Reality Audio ne sont pas optimisées</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">"Démarrer l'étape 1"</string>
+    <string name="IASetup_SetupSummary_Title">Optimisez votre champ sonore 360 Reality Audio</string>
+    <string name="IASetup_Setup_Complete">Votre champ sonore 360 Reality Audio est terminé</string>
+    <string name="IASetup_Setup_Title">Configur. 360 Reality Audio</string>
+    <string name="IASetup_SoundPreview_Detail">"Essayez l'échantillon musical ci-dessous pour entendre la différence."</string>
+    <string name="IASetup_SoundPreview_Title">Vivre le 360 Reality Audio</string>
+    <string name="IASetup_StartAnalyze">Démarrer</string>
+    <string name="IASetup_SuccessPhotograph_Detail">Ensuite, prenez photo de votre oreille droite.</string>
+    <string name="IASetup_SuccessPhotograph_Title">Oreille gauche a été capturée avec succès</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">Optimiser les applications</string>
+    <string name="IASetup_TipsDetail_Description">"Pour profiter des expériences d'immersion audio dans des applications de service de musique pour 360 Reality Audio, les applications de service de musique doivent être optimisées en envoyant les résultats d'analyse de vos oreilles."</string>
+    <string name="IASetup_TipsDetail_Title">"Le réglage 360 Reality Audio n'est toujours pas terminé."</string>
+    <string name="IASetup_UpdateApp">Mettre à jour</string>
+    <string name="IASetup_Welcome_Detail">"La lecture du 360 Reality Audio sur votre casque permet de vivre une immersion audio aussi vraie qu'un spectacle en direct."</string>
+    <string name="IASetup_Welcome_Title">Bienvenue au 360 Reality Audio</string>
+    <string name="IAWM_Analyze_Cmd_Retry">Recréer</string>
+    <string name="IAWM_Analyze_Cmd_Start">Créer</string>
+    <string name="IAWM_Analyze_Label">Créer un profil auditif personnalisé</string>
+    <string name="IAWM_Analyze_Status_Done">Terminé</string>
+    <string name="IAWM_Analyze_Status_NotComp">Incomplet</string>
+    <string name="IAWM_Complete_Data_Title">La réception de votre profil auditif est terminée</string>
+    <string name="IAWM_Confirmation_Dialog1">"Votre profil auditif a déjà été sauvegardé.
+Voulez-vous recevoir le profil à partir du serveur et passer à l'optimisation de l'application ?"</string>
+    <string name="IAWM_Hrtf_App_Button">Commencer à recevoir</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"La réception de votre profil auditif a échoué.
+Vérifiez la connexion réseau et patientez un moment et essayez de nouveau."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"Impossible de recevoir votre profil auditif à partir du serveur.
+Confirmez que la création de votre profil auditif est terminée sur le smartphone et appuyez de nouveau sur le bouton pour démarrer la réception."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"Impossible de recevoir votre profil auditif à partir du serveur.
+Une fois que vous avez vérifié les éléments suivants, retournez à l'écran suivant et commencez à recevoir.
+- La création de votre profil auditif sur smartphone est terminée
+- Vous êtes connecté au même compte sur 360 Spatial Sound Personalizer et Headphones Connect sur ce Walkman"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">"Installez l'application 360 Spatial Sound Personalizer sur votre smartphone, connectez-vous avec le même compte que celui de ce Walkman, et prenez une photo de vos oreilles en suivant les indications à l'écran."</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">Crée votre profil auditif sur un smartphone</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">Commencer à recevoir</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"Analysez le code QR à l'aide d'un smartphone. Si l'analyse ne peut être exécutée, recherchez l'application « 360 Spatial Sound Personalizer » dans les magasins d'applications.
+Une fois la création de votre profil auditif terminée, ce Walkman recevra automatiquement votre profil auditif. Veuillez donc rester sur cet écran."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"Analysez le code QR à l'aide d'un smartphone. Si l'analyse ne peut être exécutée, recherchez l'application « 360 Spatial Sound Personalizer » dans les magasins d'applications.
+Une fois la création de votre profil auditif terminée, appuyez sur le bouton ci-dessous, et démarrez la réception."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">"Installer l'application sur un smartphone"</string>
+    <string name="IAWM_Need_Sign_in_Description">Connectez-vous à votre compte pour utiliser votre profil auditif que vous êtes sur le point de créer ou que vous avez déjà créé.</string>
+    <string name="IAWM_Need_Sign_in_Title">Connexion nécessaire</string>
+    <string name="IAWM_Recieve_Data_Title">Réception de votre profil auditif à partir du serveur en cours...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">"Prenez une photo de vos oreilles en utilisant l'application 360 Spatial Sound Personalizer et créez un profil auditif."</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">Votre profil auditif a déjà été créé.</string>
+    <string name="IAWM_SetupSummary_Description">Ensuite, envoyez votre profil auditif aux applications de service de musique pour 360 Reality Audio pour recréer un champ sonore précis.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">Revient au Walkman et envoie votre profil auditif, puis optimise les applications de service de musique pour 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">Envoie votre profil auditif et optimise les applications de service de musique pour 360 Reality Audio.</string>
+    <string name="IAWM_SetupSummary_Title">La création de votre profil auditif est terminée</string>
+    <string name="IAWM_Start_Recieving_Title">Recommencez à recevoir votre profil auditif.</string>
+    <string name="InformationNotification_List_Info_Empty_Title">"Il n'y a pas d'informations ni d'enquêtes pour le moment."</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">"Les informations et les enquêtes s'affichent ici."</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">"Les conseils d'utilisation s'affichent ici."</string>
+    <string name="InformationNotification_List_Tips_Section">Conseils</string>
+    <string name="InformationNotification_List_Title">Informations</string>
+    <string name="InformationNotification_New_Talkback_1">Il y a de nouvelles informations.</string>
+    <string name="InformationNotification_New_Talkback_2">Il y a un nouvel élément.</string>
+    <string name="InformationNotification_New_Talkback_3">Ceci est un nouvel élément.</string>
+    <string name="InformationToUsersLangCode">fr</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">"L'application détecte vos actions et les endroits que vous fréquentez et commute automatiquement les réglages du casque, par exemple la manière de prendre le son ambiant."</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">"L'application détecte vos actions et ajuste automatiquement la manière de prendre le son ambiant."</string>
+    <string name="InitialSetup_IASetup_Detail">"Cela permet d'optim. l'expérience sonore 360 Reality Audio pour que vous puissiez profiter de l'exp. d'immers. audio aussi vraie qu'un spectacle en direct."</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">Démarrez la configuration et profitez pleinement des fonctions du casque.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">Accéder au tableau de bord</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">La configuration est terminée.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">Les réglages peuvent être modifiés à tout moment sur le tableau de bord.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">Voici la dernière étape des réglages.</string>
+    <string name="InitialSetup_OverallSetup_Title">Configuration</string>
+    <string name="InstructionGuide_CoachMark">Pour utiliser confortablement le casque, consultez le [Didacticiel du %s].</string>
+    <string name="InstructionGuide_Menu_Title">Didacticiel du %s</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">Bouton [OK] pour démarrer le transfert.</string>
+    <string name="LanguageData_Info_Message_1">"Ne mettez pas hors tension.
+N'éloignez pas le casque et l'appareil mobile l'un de l'autre."</string>
+    <string name="LanguageData_Info_Message_2">"Redémarre automatiquement.
+N'éloignez pas le casque et l'appareil mobile l'un de l'autre."</string>
+    <string name="LanguageData_Restriction">"Casque n'est pas dispo. pdt transfert. Peut dur. env. %d min.
+Démarr. en maintenant casque et appar. mob. rapprochés."</string>
+    <string name="Left_Headphones">Unité de gauche</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"Impossible de changer tant que la connexion à un autre casque est en cours.
+Déconnectez le casque connecté."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">"L'enregistrement des endroits n'est pas terminé. Voulez-vous fermer ?"</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"L'accès à Position doit être autorisé en permanence pour détecter même en arrière-plan les endroits que vous fréquentez.
+
+Appuyez sur le bouton [Réglages] et sélectionnez [Toujours autoriser] à partir de [Autorisations] > [Localisation]. En cas d'autorisation permanente, les données de localisation seront collectées même lorsque l'application est fermée ou n'est pas utilisée."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">"L'accès à Position à partir des réglages du périphérique mobile doit être autorisé en permanence pour détecter les endroits que vous fréquentez."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">"L'accès à Position à partir des réglages du périphérique mobile doit être autorisé en permanence pour détecter même en arrière-plan les endroits que vous fréquentez."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">"L'accès à Position doit être autorisé en permanence pour détecter même en arrière-plan les endroits que vous fréquentez. En cas d'autorisation permanente, les données de localisation seront collectées même lorsque l'application est fermée ou n'est pas utilisée. Confirmez le contenu sur l'écran suivant."</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">"Voulez-vous annuler l'enregistrement de cet endroit ?"</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">Position doit être activée à partir des réglages du périphérique mobile pour détecter les endroits que vous fréquentez.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"Position est utilisée pour détecter les endroits que vous fréquentez.
+Activez Position."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"Service de localisation doit être activé pour détecter les endroits que vous fréquentez.
+
+Effectuez les réglages à partir de « Réglages » > [Confidentialité] > [Service de localisation] du périphérique mobile."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">"Il n'y pas d'endroits appris qui peuvent être enregistrés."</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">"L'accès à Position à partir des réglages du périphérique mobile est nécessaire pour détecter les endroits que vous fréquentez."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"L'accès à Position est nécessaire pour détecter les endroits que vous fréquentez.
+Autorisez l'accès à Position. En cas d'autorisation permanente, les données de localisation seront collectées même lorsque l'application est fermée ou n'est pas utilisée."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"L'accès à Position est nécessaire pour détecter les endroits que vous fréquentez.
+Sélectionnez [Lorsque l'app est active]."</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"L'accès à Position doit être autorisé en permanence pour détecter même en arrière-plan les endroits que vous fréquentez.
+
+Appuyez sur le bouton [Réglages] et autorisez toujours l'accès à partir de [Position]."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"Position exacte doit être activée pour détecter les endroits que vous fréquentez.
+
+Appuyez sur le bouton [Réglages] et activez Position exacte à partir de [Position]."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"Pour enregistrer des endroits, un casque qui prend en charge le Contrôle adaptatif du son doit être connecté.
+Une fois la connexion du casque effectuée, sélectionnez [%s] à partir du menu supérieur droit du tableau de bord, et reprenez le processus d'enregistrement."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"Pour modifier, le Mode de qualité sonore doit être changé en [Priorité à la connexion stable].
+De plus, le casque se reconnectera et la musique en cours de lecture s'arrêtera. Voulez-vous le changer ?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"Impossible d'enregistrer des endroits supplémentaires.
+Annulez les enregistrements d'endroits superflus."</string>
+    <string name="Msg_ASC_Registration_Comp">%s enregistré(e).</string>
+    <string name="Msg_Abort_FWUpdate">"Voulez-vous abandonner la mise à jour logicielle ?
+En cas d'abandon, vous pouvez reprendre la mise à jour à partir de l'endroit où elle a été arrêtée."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">"Autorisez l'accès à partir de « Réglages » > [Headphones] > [Position] du périphérique mobile."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"L'utilisation de Position améliore la précision de détection d'action. En outre, en fonction de l'endroit, les réglages du casque peuvent être commutés automatiquement.
+Pour utiliser ces fonctions en arrière-plan, Position doit être autorisée en permanence.
+
+Appuyez sur le bouton [Réglages] et autorisez toujours l'accès à partir de [Position]."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"L'utilisation de la Position améliore encore plus la précision du Contrôle adaptatif du son.
+Appuyez sur le bouton [Réglages] et autorisez l'accès à partir de [Position]."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">"Afin d'améliorer la précision du contrôle adaptatif du son, il est recommandé d'utiliser le GPS. ACTIVEZ le GPS à partir des réglages de l'appareil mobile."</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">"Afin d'améliorer la précision des contrôle adaptatif du son, il est recommandé d'autoriser l'accès aux informations de position."</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">La modification est incomplète. Voulez-vous quitter ?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"L'utilisation de Position améliore la précision de détection d'action du Contrôle adaptatif du son. En outre, en fonction de l'endroit, les réglages du casque peuvent être commutés automatiquement.
+Autorisez l'accès à Position."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"Si vous utilisez Position, la précision du Contrôle adaptatif du son sera améliorée.
+Autorisez l'accès à Position."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"Si vous utilisez Position, la précision du Contrôle adaptatif du son sera améliorée.
+Autorisez l'accès à Position."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"L'utilisation de Position améliore la précision de détection d'action du Contrôle adaptatif du son. En outre, en fonction de l'endroit, les réglages du casque peuvent être commutés automatiquement.
+Sélectionnez [Lorsque l'app est active]."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"L'utilisation de Position améliore la précision de détection d'action du Contrôle adaptatif du son. En outre, en fonction de l'endroit, les réglages du casque peuvent être commutés automatiquement.
+Activez les réglages de Position."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"Si vous utilisez Position, la précision du Contrôle adaptatif du son sera améliorée.
+ACTIVEZ la Position."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"L'activation du Service de localisation améliore la précision de détection d'action du Contrôle adaptatif du son. En outre, en fonction de l'endroit, les réglages du casque peuvent être commutés automatiquement.
+Effectuez les réglages à partir de « Réglages » > [Confidentialité] > [Service de localisation] du périphérique mobile."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"L'activation du Service de localisation améliore encore plus la précision du Contrôle adaptatif du son.
+Effectuez les réglages à partir de « Réglages » > [Confidentialité] > [Service de localisation] du périphérique mobile."</string>
+    <string name="Msg_Agree_EULAPP">"J'ai lu le contenu ci-dessus et donne mon accord."</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">"L'accès aux notifications doit être autorisé pour utiliser cette fonction. Sélectionnez [%1$s] et activez le réglage %2$s."</string>
+    <string name="Msg_Check_EULA">Confirmer %s. </string>
+    <string name="Msg_Check_EULAPP">"Confirmer l'%1$s et la %2$s."</string>
+    <string name="Msg_CompleteUpdate">La mise à jour du logiciel est terminée.</string>
+    <string name="Msg_Complete_Language_Setting">Le changement de langue est terminé.</string>
+    <string name="Msg_ConfirmBattery_MDR">Le niveau de la batterie est insuffisant. Chargez suffisamment le casque, reconnectez-le et essayez de nouveau.</string>
+    <string name="Msg_ConfirmBattery_Mobile">"Le niveau de la batterie est insuffisant. Chargez l'appareil mobile et essayez de nouveau."</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">"Pour modifier les réglages, il est nécessaire d'annuler la mise à jour du logiciel. Même en cas d'annulation, la mise à jour du logiciel peut être effectuée de nouveau. Voulez-vous les modifier ?"</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">La mise à jour du logiciel doit être annulée</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">"Une utilisation simultanée de l'Égaliseur et %s augmente la consommation de la batterie du casque et pourrait raccourcir le temps de lecture continue. Voulez-vous effectuer le changement ?"</string>
+    <string name="Msg_Confirm_L_connection">"L'unité gauche du casque n'est pas connectée à l'appareil mobile.
+Vérifiez que l'unité gauche du casque est sous tension et essayez de nouveau."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">Voulez-vous annuler le changement de langue ?</string>
+    <string name="Msg_Confirm_R_connection">"L'unité droite du casque n'est pas connectée à l'appareil mobile.
+Vérifiez que l'unité droite du casque est sous tension et essayez de nouveau."</string>
+    <string name="Msg_Confirm_network_connection">"L'appareil mobile n'est pas connecté au réseau. Connectez-le au réseau et essayez de nouveau."</string>
+    <string name="Msg_ConnectDevice">"Établissez la connexion à un casque à l'aide du bouton suivant."</string>
+    <string name="Msg_ConnectDevice_talkback">"Connecté à %s.
+Affiche le tableau de bord."</string>
+    <string name="Msg_ConnectMode_Changing_Error">"L'opération a échoué."</string>
+    <string name="Msg_ConnectNewDevice">Connecter au nouveau casque</string>
+    <string name="Msg_ConnectionFailed">Échec de la connexion.</string>
+    <string name="Msg_ConnectionFailed_Internet">"Impossible d'afficher le contenu. Vérifiez votre connexion à Internet."</string>
+    <string name="Msg_ConnectionFailed_SRT">"Impossible de se connecter à %s.
+Vérifiez que le périphérique est allumé."</string>
+    <string name="Msg_DataError">Le téléchargement du logiciel a échoué.</string>
+    <string name="Msg_Disabled_Language_Setting">"La langue ne peut être modifiée pendant le transfert de logiciel du casque.
+Veuillez essayer à nouveau une fois le transfert de logiciel terminé."</string>
+    <string name="Msg_DownloadFailed">Le téléchargement du logiciel a échoué.</string>
+    <string name="Msg_EmptyDevice">Appuyez sur le bouton [+] et enregistrez le périphérique.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"Pour mettre à jour le logiciel de ce casque, la version la plus récente de Headphones Connect est nécessaire.
+Mettez cette application à jour à partir de Google Play."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"Pour mettre à jour le logiciel de ce casque, la version la plus récente de Headphones Connect est nécessaire.
+Mettez cette application à jour à partir de l'App Store."</string>
+    <string name="Msg_FWVer_unmatched">La mise à jour du logiciel a échoué.</string>
+    <string name="Msg_Failed_Language_Setting">La modification de la langue a échoué.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">"Impossible de mettre à jour le logiciel du casque dans votre version d'iOS."</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"Veuillez accorder l'autorisation à partir des réglages de l'appareil mobile de la manière suivante :
+[Réglages] -> [Casque] -> [Caméra]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">"Appuyez sur le bouton [Réglages] et autorisez l'accès à partir de [Autorisations] > [Appareil photo]."</string>
+    <string name="Msg_IASetupAllowCamera">"Veuillez accorder l'autorisation de prendre une photo."</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">"Veuillez accorder l'autorisation à partir des réglages de l'appareil mobile"</string>
+    <string name="Msg_IASetup_AppInstallConf">"Une fois l'installation de « %s » effectuée, revenez à Headphones Connect et terminez les réglages 360 Reality Audio."</string>
+    <string name="Msg_IASetup_AppOptimizing">"Préparation pour l'optimisation en cours. Veuillez patienter..."</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"Les photos prises de votre oreille à l'aide du processus suivant seront envoyées vers le serveur de Sony afin de vous offrir un champ sonore optimisé pour vous en fonction de la forme de votre oreille.
+Une fois cette analyse terminée, ces photos resteront sur nos serveurs sans être associées à vous personnellement.
+De telles photos seront utilisées uniquement à des fins de recherche pour améliorer notre fonction d'analyse d'oreille, et seront détruites au bout de 30 jours."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- Nous utilisons des photos de vos oreilles afin d'optimiser le champ sonore pour vous, en fonction de la forme de votre oreille. Nous effectuons cela POUR RÉPONDRE À NOTRE INTÉRÊT LÉGITIME DE CRÉATION DE CHAMPS SONORES OPTIMISÉS POUR VOUS. Nous éliminons les photos immédiatement lorsque l'analyse est terminée.
+- Sony Home Entertainment &amp; Sound Products Inc. est responsable de ce traitement. Nous utilisons un serveur aux États-Unis, maintenu par un tiers. Nous utilisons des clauses contractuelles standard approuvées par la Commission européenne pour la protection de vos données aux États-Unis.
+- Vous pouvez nous contacter à l'adresse privacyoffice.seu@sony.com ou en vous adressant par écrit à notre représentant, Sony Europe BV, une société néerlandaise, dont l'adresse commerciale est Taurusavenue 16, 2132LS Hoofddorp, Pays-Bas (si vous vous trouvez dans l'Union européenne), ou Sony Europe BV, une société néerlandaise, dont la filiale au Royaume-Uni a son adresse commerciale à The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, Royaume-Uni (si vous vous trouvez au Royaume-Uni). Vous pouvez également nous contacter à l'adresse Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokyo, 141-8610, Japon.
+- Vous disposez de droits d'accès, de correction et d'effacement de données personnelles aussi longtemps que nous les traitons. Vous disposez également d'un droit de plainte auprès d'une autorité de protection de données dans le pays ou la région où vous habitez, travaillez, ou encore là où une plainte a été déposée."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"L'App Store s'ouvre si « %s » n'est pas installée ou si une mise à jour est nécessaire.
+
+Si « %s » est exécutée, les réglages 360 Reality Audio sont terminés."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"Votre casque n'est pas connecté par audio multimédia (A2DP) avec cet appareil mobile.
+
+Veuillez déconnecter l'audio multimédia entre votre casque et les autres appareils, et connectez-vous ensuite avec cet appareil mobile."</string>
+    <string name="Msg_IASetup_ConnectCable">"Votre casque n'est pas connecté avec cet appareil mobile.
+
+Veuillez connecter le casque avec cet appareil mobile."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"Détecte votre oreille et la prise de vue s'effectue automatiquement.
+Si la prise de vue automatique rate plusieurs fois, la prise de vue manuelle est également disponible."</string>
+    <string name="Msg_IASetup_General_Err">Le traitement est annulé.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"Les photos de vos oreilles/votre tête et toute information qui peut vous identifier ne seront pas envoyées aux applications de musique pour le 360 Reality Audio.
+
+Uniquement les données analysées seront envoyées aux applications de musique pour une écoute musicale optimisée."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">Pour terminer les réglages 360 Reality Audio, après avoir mis à jour « %s » à sa dernière version, revenez à Headphones Connect et optimisez « %s ».</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"À l'écran suivant, un guidage vocal sera fourni. Veuillez augmenter le volume de l'appareil mobile afin que vous puissiez entendre le guidage.
+
+*Ne déconnectez pas ce casque."</string>
+    <string name="Msg_IASetup_OpenAppInfo">Voulez-vous ouvrir « %s » sur Google Play ?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">"Voulez-vous ouvrir « %s » sur l'App Store ?"</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"Le son que vous entendez lors de spectacles en direct peut dépendre de la forme de votre tête et de vos oreilles.
+
+Nous analysons les photos de vos oreilles afin de calculer les données pour produire un champ sonore optimal personnalisé pour vous.
+
+Lorsque vous envoyez ces résultats optimisés aux applications de service de musique pour 360 Reality Audio, vous pouvez profiter d'une expérience musicale immersive avec votre casque."</string>
+    <string name="Msg_IASetup_StopConfirm">"La configuration du 360 Reality Audio n'est pas terminée. Vous pouvez terminer cette configuration plus tard."</string>
+    <string name="Msg_IASetup_StopConfirm_Title">Voulez-vous ignorer la configuration du 360 Reality Audio ?</string>
+    <string name="Msg_IASetup_UnsupportedArea">Cette fonction est actuellement indisponible dans votre pays/région.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"Le réglage 360 Reality Audio est activé.
+Désactivez ce réglage lorsque vous lisez du 360 Reality Audio immersif dans les applications de service de musique."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"Des tonalités de notification et le guidage vocal sont lus à partir du casque selon l'opération et l'état.
+Certaines notifications importantes et le guidage ne seront pas désactivés même si le réglage est réglé sur désactivé."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"Des tonalités de notification et le guidage vocal sont lus à partir du casque selon l'opération et l'état.
+Certaines notifications importantes et le guidage ne seront pas désactivés même si le réglage est réglé sur désactivé.
+Aussi, si vous voulez désactiver uniquement la tonalité de notification lors de la commutation causée par le Contrôle adaptatif du son, vous pouvez appliquer les changements à partir des réglages du Contrôle adaptatif du son."</string>
+    <string name="Msg_Information_NetworkError">Impossible de se connecter au réseau.</string>
+    <string name="Msg_Information_OtherError">Incapable de récupérer les informations.</string>
+    <string name="Msg_InstallFailed">La mise à jour du logiciel a échoué.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">Annule la connexion au nouvel appareil.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">"Pour connecter à l'appareil sélectionné, essayez de nouveau après avoir déconnecté un des appareils connectés."</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">Pour connecter un nouvel appareil, essayez de nouveau après avoir déconnecté un des appareils connectés.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">"Déconnexion nécessaire de l'appareil actuellement connecté"</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">Voulez-vous déconnecter %s ?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"Voulez-vous déconnecter %s ?
+En cas de déconnexion, la connexion avec cette application sera déconnectée."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">La reconnexion est nécessaire</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">La musique lue actuellement sera interrompue, car une reconnexion du casque est nécessaire. Voulez-vous vous reconnecter au casque ?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">La musique lue actuellement sera interrompue, car une reconnexion du casque est nécessaire. LDAC ne pourra pas être utilisé lorsque ce réglage est activé. Voulez-vous vous reconnecter au casque ?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"Voulez-vous annuler l'enregistrement de %1$s ?
+Pour vous connecter de nouveau à %1$s après avoir annulé l'enregistrement, annulez l'enregistrement de %2$s à partir de %1$s et effectuez de nouveau l'enregistrement d'appareil."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">Pour mettre à jour le logiciel, le %s connecté au casque doit être déconnecté. Voulez-vous le déconnecter et démarrer la mise à jour ?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">Déconnexion nécessaire du %s connecté</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">Pour modifier la langue, le %s connecté au casque doit être déconnecté. Voulez-vous le déconnecter et modifier la langue ?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">Échec de la connexion avec %s.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">Échec de la déconnexion avec %s.</string>
+    <string name="Msg_MultiPoint_FailedToPair">Échec de la connexion à un nouvel appareil.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">"Échec de l'annulation de l'enregistrement de %s."</string>
+    <string name="Msg_MultiPoint_Info_Detail">"En activant ce réglage, le casque pourra se connecter simultanément à deux appareils. Vérifiez les appareils connectés à partir d'[%s]. LDAC ne pourra pas être utilisé lorsque ce réglage est activé."</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">"Pour connecter de nouveaux appareils, il est nécessaire d'abandonner la mise à jour du logiciel. Même en cas d'abandon, la mise à jour du logiciel peut être reprise. Voulez-vous effectuer la connexion ?"</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">Abandon nécessaire de la mise à jour du logiciel</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">"Pour se connecter avec %s, il est nécessaire d'abandonner la mise à jour du logiciel. Même en cas d'abandon, la mise à jour du logiciel peut être reprise. Voulez-vous effectuer la connexion ?"</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">Connexion à %s terminée.</string>
+    <string name="Msg_NeedConnectDevice">Casque et connexion Bluetooth exigés.</string>
+    <string name="Msg_OoBE_LocationPermission_After">"Autorisez l'accès aux informations de position à partir des réglages de l'appareil mobile pour enregistrer aisément votre casque."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"En utilisant Position, vous pouvez enregistrer aisément un casque à proximité.
+Autorisez l'accès à Position."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"En utilisant Position, vous pouvez enregistrer aisément un casque à proximité.
+Autorisez l'accès à Position."</string>
+    <string name="Msg_OoBE_LocationSetting_After">"Activez les informations de position à partir des réglages de l'appareil mobile pour enregistrer aisément votre casque."</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"En utilisant Position, vous pouvez enregistrer aisément un casque à proximité.
+Activez Position."</string>
+    <string name="Msg_PairingOS_BT_Settings">"Sélectionnez un casque à partir de l'écran des réglages Bluetooth et établissez la connexion."</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">Lorsque le jumelage est terminé, appuyez sur le bouton [Arrière].</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">"Sélectionnez %s à l'écran de réglage Bluetooth et connectez-vous."</string>
+    <string name="Msg_Permission_BLE">Nous utilisons cela pour détecter notre casque par le biais de BLE.</string>
+    <string name="Msg_Permission_Location">"Les informations de position sont utilisées lorsque l'application détecte vos actions et commute automatiquement les réglages du casque."</string>
+    <string name="Msg_Permission_Location02">"L'utilisation de la Position améliore encore plus la précision du Contrôle adaptatif du son."</string>
+    <string name="Msg_PowerOff">Voulez-vous mettre le casque hors tension ?</string>
+    <string name="Msg_RecommendUpdate">"Afin d'utiliser cet appareil de manière plus confortable, il est recommandé de mettre à jour le logiciel."</string>
+    <string name="Msg_Reconnect_BT_Connection">Changement en cours de la destination de transfert du logiciel...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">Nouveau casque</string>
+    <string name="Msg_SelectMDR_Header">Sélectionner un casque</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"Sélectionnez le casque à partir de [Bluetooth] dans les « Réglages » du périphérique mobile et connectez-vous.
+Une fois la connexion établie, redémarrez Headphones Connect."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"Vérifiez que le casque est allumé et sélectionnez %s à partir de [Bluetooth] dans les « Réglages » de l'appareil mobile et connectez-vous.
+Une fois la connexion établie, redémarrez Headphones Connect."</string>
+    <string name="Msg_SendFailed">Le transfert du logiciel a échoué.</string>
+    <string name="Msg_SendFailed_WF_Special">"Le transfert du logiciel s'est arrêté à %d %%.
+Veuillez réessayer après avoir inséré et retiré le casque du boîtier de chargement."</string>
+    <string name="Msg_Setting_Data_Err">Le téléchargement des données vocales a échoué.</string>
+    <string name="Msg_Setting_Downloading_Failed">Le téléchargement des données vocales a échoué.</string>
+    <string name="Msg_Setting_Sending_Failed">Le transfert des données vocales a échoué.</string>
+    <string name="Msg_Title_FWAbort">Abandon du transfert du logiciel. Vérifiez ce qui suit.</string>
+    <string name="Msg_TrainingModeSaveCheck">La modification est incomplète. Voulez-vous quitter ?</string>
+    <string name="Msg_Update_NeedReboot">"Veuillez vérifier que la mise à jour est terminée.
+
+1. Veuillez tenter de vous reconnecter après avoir inséré et retiré le casque du boîtier de chargement.
+2. Sélectionnez [%1$s Version] dans le menu du coin droit supérieur de cette application. Si « %2$s » s'affiche, la mise à jour est terminée.
+
+Si la mise à jour est incomplète, réessayez."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"Vérifiez que la mise à jour est terminée.
+
+Mettez le casque hors tension, puis mettez-le de nouveau sous tension, et établissez ensuite la connexion. Sélectionnez [%1$s Version] dans le menu du coin droit supérieur de cette application. Si « %2$s » s'affiche, la mise à jour est terminée.
+
+Si la mise à jour est incomplète, réessayez."</string>
+    <string name="Msg_VoiceData_NeedReboot">"Vérifiez que la langue a été modifiée.
+
+1. Rangez à la fois l'écouteur gauche et droit dans le boîtier de chargement, enlevez-les et connectez-les de nouveau.
+2. Si la langue modifiée s'affiche dans [%s], le processus est terminé.
+
+Si la langue n'a pas été modifiée, essayez de nouveau."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"Vérifiez que la langue a été modifiée.
+
+Mettez le casque hors tension, puis mettez-le de nouveau sous tension, et établissez ensuite la connexion. Si la langue modifiée s'affiche dans [%s], le processus est terminé.
+
+Si la langue n'a pas été modifiée, essayez de nouveau."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">"Impossible de changer la langue du guidage vocal dans votre version d'iOS."</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">"Sélectionnez un casque à partir de l'écran suivant. Cela peut durer une minute pour afficher le casque."</string>
+    <string name="MultiPoint_AddNewDevice_Description">"Ouvrez les réglages Bluetooth avec l'appareil à connecter et sélectionnez %s."</string>
+    <string name="MultiPoint_DeviceNotConnect">Non connecté.</string>
+    <string name="MultiPoint_DeviceStatus_Title">Appareil actuell. en cours de connex.</string>
+    <string name="MultiPoint_Device_Add">Connecter à un nouvel appareil</string>
+    <string name="MultiPoint_Header_History">Jumelé</string>
+    <string name="MultiPoint_Header_Pairing">Connexion en cours...</string>
+    <string name="MultiPoint_Menu_Delete">"Annuler l'enregistrement"</string>
+    <string name="MultiPoint_Menu_Disconnect">Déconnecter</string>
+    <string name="MultiPoint_Setting_Description">"Ce casque peut être connecté simultanément à %d appareils.
+Pour commuter entre les appareils pour lire de la musique, arrêtez une fois la musique et effectuez les opérations de lecture de l'un des autres appareils connectés."</string>
+    <string name="MultiPoint_Setting_Title">"Gérer l'appareil connecté"</string>
+    <string name="MultiPoint_Status_Connecting">Connexion...</string>
+    <string name="MultiPoint_Status_Disconnecting">Déconnexion...</string>
+    <string name="MultiPoint_Talkback_Add_Device">Se connecte à un nouvel appareil.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">Appareil 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">Appareil 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">"Aucun appareil n'est connecté."</string>
+    <string name="MultiPoint_Talkback_Playing_Right">Lecture audio en cours.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">Connecté.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">Connexion en cours...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">Déconnexion en cours...</string>
+    <string name="MultiPoint_Title">Connecter simultaném. à 2 appareils</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">"Aussi, pour annuler l'optimisation à mi-chemin, appuyez sur un des boutons du casque."</string>
+    <string name="NC_Title">Réduction du bruit</string>
+    <string name="NSBluetoothAlwaysUsageDescription">Nous utilisons cela pour détecter notre casque par le biais de Bluetooth.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">Nous utilisons cela pour détecter notre casque par le biais de Bluetooth.</string>
+    <string name="NSCameraUsageDescription">Veuillez autoriser votre smartphone à prendre une photo de vos oreilles. Nous analysons les photos de vos oreilles afin de calculer les données pour produire un champ sonore optimal personnalisé pour vous.</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Pour commuter automatiquement les réglages en fonction du Contrôle adaptatif du son, sélectionnez [Toujours autoriser].</string>
+    <string name="NSLocationAlwaysUsageDescription">Pour commuter automatiquement les réglages en fonction du Contrôle adaptatif du son, sélectionnez [Toujours autoriser].</string>
+    <string name="NSLocationWhenInUseUsageDescription">"Pour commuter automatiquement les réglages en fonction du Contrôle adaptatif du son, autorisez l'accès."</string>
+    <string name="NSUserTrackingUsageDescription">"Nous utilisons ces informations afin de fournir des informations d'assistance et des publicités qui correspondent à votre utilisation de l'appareil et à vos centres d'intérêt."</string>
+    <string name="Notification_Headphones_Connected">Connexion à %s en cours...</string>
+    <string name="Notification_Headphones_Connected_Unknown">Connexion au casque en cours...</string>
+    <string name="Notification_IASetup_NeedToComplete">Revenez à Headphones Connect et terminez les réglages 360 Reality Audio.</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">Régl. 360 Reality Audio non terminé</string>
+    <string name="Notification_Summary_Abort">Transfert logiciel abandonné.</string>
+    <string name="Notification_Summary_Downloading">Téléchargement en cours...</string>
+    <string name="Notification_Summary_FWVer_unmatched">La mise à jour a échoué.</string>
+    <string name="Notification_Summary_Prepared">Prêt à mettre à jour.</string>
+    <string name="Notification_Summary_Sending">Transfert en cours...</string>
+    <string name="Notification_Summary_Update_NeedReboot">Veuillez vérifier que la mise à jour est terminée.</string>
+    <string name="Notification_Summary_failed">La mise à jour a échoué.</string>
+    <string name="Notification_Summary_updated">Mise à jour terminée.</string>
+    <string name="Notification_Summary_updating">Mise à jour en cours...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">Changement en cours...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">Le changement est terminé.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">Le changement a échoué.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">Vérifiez que la modification a été appliquée.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">Changer la langue du guidage vocal</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">Changer la langue du guidage vocal</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">Le changement de la langue du guidage vocal est terminé.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">Le changement de la langue du guidage vocal a échoué.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">Vérifiez que la langue du guidage vocal a été modifiée.</string>
+    <string name="OPT_Baro_Title">Optimisation pression atmosphér.</string>
+    <string name="OPT_Message_Analyzing">"L'antibruit est parfaitement adapté à votre préférence."</string>
+    <string name="OPT_Message_Baro">Si la pression atmosphérique change, refaites le processus.</string>
+    <string name="OPT_Message_Comp">"L'antibruit est parfaitement adapté à votre préférence."</string>
+    <string name="OPT_Message_Personal">"Portez comme d'habit. Refaites process. si chang. man. de porter à cause de, p. ex., chngmnt coiffur."</string>
+    <string name="OPT_Personal_Done_Long">Optimisé</string>
+    <string name="OPT_Personal_Done_Short">Terminé</string>
+    <string name="OPT_Personal_Initial_Long">Non optimisé</string>
+    <string name="OPT_Personal_Initial_Short">Avant optim</string>
+    <string name="OPT_Personal_Title">Optimisation personnelle</string>
+    <string name="OPT_Start">Démarr.</string>
+    <string name="OPT_Status_Analyzing">Analyse en cours...</string>
+    <string name="OPT_Status_Baro">Mesure de la pression atmosphérique...</string>
+    <string name="OPT_Status_Comp">Terminé</string>
+    <string name="OPT_Status_Personal">Mesure conditions de port du casque...</string>
+    <string name="OPT_Title">Optimiseur antibruit</string>
+    <string name="OPT_Title_iOS">Optimiseur antibruit</string>
+    <string name="OPT_atm_Long">Optimisé à %.1f atm</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">"Commencez par porter le casque comme d'habitude. Si la press. atm. change parce que p. ex. dans un avion, refaites le processus."</string>
+    <string name="OPT_detail_Personal_Baro">"Commencez par porter le casque comme d'habitude. Si les conditions de port et la press. atmosph. changent, refaites le processus."</string>
+    <string name="OoBE_COMP_Message">La connexion au casque est terminée.</string>
+    <string name="OoBE_COMP_Title">Ajouter un casque</string>
+    <string name="OoBE_Manual_Button_Label">Enregistrer dans les réglages du Bluetooth</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Le Bluetooth est DÉSACTIVÉ.
+ACTIVEZ le Bluetooth à partir du centre de contrôle."</string>
+    <string name="OoBE_Manual_Pair_Message">"Maintenez bouton d'alim. casque enfoncé pdt env. 7 secondes. Lorsque LED casque clignote alternativement en bleu et rouge, ou clignote rapidement en bleu, appuyez sur [Suivant].
+Si pas de bouton d'alim., réglez casque sur mode d'enr. d'app. Bluetooth (jumelage). Mode d'emploi pour + de renseignem."</string>
+    <string name="OoBE_Manual_Pair_Title">Ajouter un casque</string>
+    <string name="OoBE_Message1">Connecte le casque par Bluetooth.</string>
+    <string name="OoBE_Message2">Sélectionnez une méthode de connexion.</string>
+    <string name="OoBE_NFC_Button_Label">Enregistrer par Connexion par simple contact (NFC)</string>
+    <string name="OoBE_NFC_Message">"Positionnez le repère N sur le casque au-dessus du repère N sur le périphérique mobile et effectuez l'opération tactile."</string>
+    <string name="OoBE_NFC_Title">Ajouter un casque</string>
+    <string name="OoBE_NonBT_Button_Label">Enregistrer un casque câblé de la liste</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">"Enregistrez votre casque afin d'utiliser le 360 Reality Audio optimisé à votre goût."</string>
+    <string name="OoBE_Power_On_Message">"Mettez le casque sous tension. Confirmez qu'il est sous tension et appuyez sur le bouton [Suivant].
+Consultez le mode d'emploi du casque concernant la mise sous tension."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">Tapez simplement sur le bouton [%s] pour continuer.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">Si votre casque est câblé</string>
+    <string name="OoBE_Proximity_Message">"Rapprochez l'appareil mobile et %s l'un de l'autre pour authentifier le casque."</string>
+    <string name="OoBE_SelectAcc_Message">"Sélectionnez un casque. Cela peut durer une minute pour s'afficher."</string>
+    <string name="OoBE_SelectAcc_Title">Ajouter un casque</string>
+    <string name="OoBE_Title">Ajouter un casque</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_fr.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_fr.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_fr.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_fr.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">[%s] se désactive automatiquement lorsque la lecture audio est arrêtée pendant un certain temps, vous permettant de prolonger la durée de veille du casque.</string>
+    <string name="PS_Title">"Veille + écon. d'énerg."</string>
+    <string name="PlaybackController_Title">"À l'écoute"</string>
+    <string name="PlaybackController_Unknown_Album">Album inconnu</string>
+    <string name="PlaybackController_Unknown_Artist">Artiste inconnu</string>
+    <string name="PlaybackController_Unknown_TrackName">Morceau inconnu</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">"Vous pouvez afficher de nouveau l'enquête à partir de [%s] du menu dans la partie supérieure droite de l'écran."</string>
+    <string name="Questionnaire_MenuItem">Enquête</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">"Aucune enquête n'est actuellement disponible. Veuillez patienter jusqu'à la prochaine enquête."</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%3$s %2$s %1$s - %6$s %5$s %4$s</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">Délai pour répondre :</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">janv.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">févr.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">mars</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">avr.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">mai</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">juin</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">juil.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">août</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">sept.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">oct.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">nov.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">déc.</string>
+    <string name="Questionnaire_Notification_Button_Answer">Répondre</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">Continuer</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">Ne pas répondre</string>
+    <string name="Questionnaire_Notification_Note">"Démarrez le navigateur et affichez le site de l'enquête."</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d questions</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d - %2$d questions</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">Nombre de questions :</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">Environ %d minutes</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">Temps nécessaire :</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">"- Étant donné que l'audio vocal est émis à partir du casque, effectuez les analyses avec votre famille et des amis si l'opération s'avère difficile."</string>
+    <string name="Right_Headphones">Unité de droite</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_fr.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">"Échec de l'authentification du compte."</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">"L'enregistrement a été annulé."</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"Le serveur est inaccessible pour l'instant.
+Réessayez après un certain temps."</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"Impossible d'enregistrer plus d'appareils.
+Éliminez les enregistrements d'appareils superflus."</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">Échec de la connexion.</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">Impossible de se déconnecter.</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">"Activez les informations de position à partir des réglages de l'appareil pour enregistrer aisément des appareils à proximité."</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">Impossible de se connecter au réseau.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">Impossible de commander.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">"Numéro d'enregistrement incorrect saisi."</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">"La saisie d'entrée est trop longue."</string>
+    <string name="STRING_CAUTION_CONNECT">Impossible de se connecter à %s.</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"Impossible de se connecter à %s.
+Effectuez la connexion avec le même réseau que le périphérique et allumez le périphérique."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"Impossible de se connecter à %s.
+Vérifiez que le périphérique est allumé."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"Impossible de se connecter à %s.
+Vérifiez que la fonction Bluetooth du périphérique est ACTIVÉE."</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"Impossible de se connecter à %s.
+Effectuez la connexion avec le même réseau que le périphérique."</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"Impossible de se connecter à %s.
+Réessayez après un certain temps."</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"Impossible de se connecter à %s.
+Réessayez après avoir vérifié l'état du réseau."</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"Impossible de se connecter à %s.
+Voulez-vous allumer le périphérique ?"</string>
+    <string name="STRING_CAUTION_DISCONNECT">Déconnecté de %s.</string>
+    <string name="STRING_CAUTION_EULA">"Vous devez accepter l'%s pour utiliser cette application."</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">Impossible de vérifier la version.</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">"Impossible de lire l'%s."</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">App spécifiée introuvable.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">Périphérique introuvable.</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">"Autorisez l'accès aux informations de position à partir des réglages de l'appareil pour enregistrer aisément des appareils à proximité."</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">"Impossible d'enregistrer."</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"Impossible d'enregistrer.
+Réessayez après un certain temps."</string>
+    <string name="STRING_CAUTION_SERVER_STRING">Échec de la connexion.</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">"Impossible d'ACTIVER le Bluetooth."</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">"Échec de l'activation du Wi-Fi."</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">Non connecté à %s.</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"Connexion au réseau Wi-Fi non établie.
+Effectuez la connexion avec le même réseau que le périphérique."</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"Connexion au réseau Wi-Fi non établie.
+Effectuez la connexion avec le même réseau que le périphérique et allumez le périphérique."</string>
+    <string name="STRING_COMMON_DONE">Terminé</string>
+    <string name="STRING_COMMON_NEXT">Suivant</string>
+    <string name="STRING_COMMON_OTHER">Autre</string>
+    <string name="STRING_DEVICE">Appareil</string>
+    <string name="STRING_DEVICES">Appareils</string>
+    <string name="STRING_IOS_LOCATION">Position</string>
+    <string name="STRING_IOS_SETTINGS">Réglages</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">"Vous devez autoriser l'accès pour utiliser cette application."</string>
+    <string name="STRING_MSG_CANCEL_DELETE">Voulez-vous annuler la suppression ?</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">Incapable de récupérer les informations.</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">Connexion...</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">Chargement en cours...</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">"Aucune autre sélection n'est possible."</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">Veuillez patienter quelques instants.</string>
+    <string name="STRING_MSG_COMMUNICATING">Communication en cours...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">Vérifiez que le périphérique est allumé.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">Vérifiez que le périphérique est allumé et connectez le périphérique par Bluetooth.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">Effectuez la connexion avec le même réseau que le périphérique.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">Vous ne pourrez plus effectuer la sauvegarde et la restauration. Elles seront disponibles si vous vous connectez de nouveau.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">"Voulez-vous vous déconnecter et arrêter l'utilisation ?"</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">"Veuillez lire l'/les %s de cette application."</string>
+    <string name="STRING_MSG_CONFIRM_PP">"Veuillez lire l'/les %s de cette application."</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">"[TBD]Pour utiliser la sauvegarde et la restauration de réglages, vous devez accepter les conditions d'utilisation suivantes."</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">Supprimé.</string>
+    <string name="STRING_MSG_DELETING">Suppression en cours...</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">"Saisissez le numéro d'enregistrement affiché sur le téléviseur."</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">"L'enregistrement du périphérique est terminé."</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">Vérification de la version en cours...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"En cas d'utilisation des informations de position, vous pouvez aisément enregistrer des appareils à proximité.
+Activez les informations de position."</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">"Acquisition d'informations..."</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">"J'ai lu le contenu ci-dessus et donne mon accord."</string>
+    <string name="STRING_MSG_LICENCE_APPLE">"iPad, iPhone, iPod et iPod touch sont des marques commerciales d'Apple Inc., déposées aux États-Unis et dans d'autres pays. La marque commerciale « iPhone » est utilisée avec une licence d'Aiphone KK."</string>
+    <string name="STRING_MSG_LICENCE_BT">La marque Bluetooth® et les logos appartiennent à Bluetooth SIG, Inc. et sont utilisés sous license uniquement par Sony Corporation.</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google et Android sont des marques commerciales de Google Inc.</string>
+    <string name="STRING_MSG_LICENCE_NFC">"Le repère N-Mark est une marque commerciale ou une marque déposée de NFC Forum, Inc. aux États-Unis et dans d'autres pays."</string>
+    <string name="STRING_MSG_LICENCE_OSAIFU_NFC">"Le repère N-Mark est une marque commerciale ou une marque déposée de NFC Forum, Inc. aux États-Unis et dans d'autres pays."</string>
+    <string name="STRING_MSG_LOADING">Chargement en cours...</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"En cas d'utilisation des informations de position, vous pouvez aisément enregistrer des appareils à proximité.
+Autorisez l'accès aux informations de position."</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">"Pour utiliser cette fonction, vous devez accepter les conditions d'utilisation."</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">Voulez-vous allumer %s ?</string>
+    <string name="STRING_MSG_REGIST_FINISH">Enregistré.</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">Appuyez sur le bouton [+] et enregistrez le périphérique.</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">Sélectionnez votre pays/région de résidence.</string>
+    <string name="STRING_MSG_SIGNOUT">Voulez-vous vous déconnecter ?</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"Confirmer que Sony Home Entertainment &amp; Sound Products Inc. ( « SONY ») (le responsable) établie au Japon pt utiliser données relatives à utilisation d'application (tel que spécifié plus en détail dans notre Politique de confidentialité %s) aux fins d'amélioration et de mise au point de produits (optimisations techniques ou d'utilisation par l'intermédiaire de fonctions nouvelles ou modifiées) en sél. [Accepter] ci-dessous. Si vous voulez profiter de cette appl. sans accorder consentement à Sony, sélectionner [Ne pas accepter] ci-dessous.
+Vous pouvez retirer votre consentement ci-dessus à tout moment en sélectionnant « (3 points) Menu » > « À propos de cette application » > « Réglages de confidentialité » dans l'Application."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">"Confirmer que Sony Home Entertainment &amp; Sound Products Inc. ( « SONY ») (le responsable) établie au Japon peut utiliser les données relatives à votre utilisation de l'application (tel que spécifié plus en détail dans notre Politique de confidentialité %s) aux fins d'amélioration et de mise au point de produits (optimisations techniques ou d'utilisation par l'intermédiaire de fonctions nouvelles ou modifiées) en sél. l'élément ci-dessous. Si vous ne voulez pas accorder votre consentement à Sony, veuillez désélectionner l'élément ci-dessous."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"Confirmer que Sony Home Entertainment &amp; Sound Products Inc. ( « SONY ») (le responsable) établie au Japon pt utiliser données relatives à utilis. d'application (tel que spécifié plus en détail dans notre Politique de confidentialité %s) aux fins d'amélioration et de mise au point de produits (optimisations techniques ou d'utilisation par l'intermédiaire de fonctions nouvelles ou modifiées) en sél. [Accepter et continuer] ci-dessous. Si vous ne voulez pas accorder consentement à Sony, sélectionner [Ne pas accepter et continuer] ci-dessous.
+Vous pouvez retirer votre consentement ci-dessus à tout moment en sélectionnant « (3 points) Menu » > « À propos de cette application » > « Réglages de confidentialité » dans l'Application."</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">AUDIO</string>
+    <string name="STRING_REMOTE_BTN_BACK">RETOUR</string>
+    <string name="STRING_REMOTE_BTN_BLUE">BLEU</string>
+    <string name="STRING_REMOTE_BTN_CC">"SS-TITR./
+LÉGENDES"</string>
+    <string name="STRING_REMOTE_BTN_CH">CHAÎNE</string>
+    <string name="STRING_REMOTE_BTN_DELETE">EFFACER</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">Digital</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"NUMÉR./
+ANALOG."</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">AFFICHER</string>
+    <string name="STRING_REMOTE_BTN_ENTER">SAISIR</string>
+    <string name="STRING_REMOTE_BTN_EXIT">QUITTER</string>
+    <string name="STRING_REMOTE_BTN_GREEN">VERT</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">GUIDE</string>
+    <string name="STRING_REMOTE_BTN_HELP">AIDE</string>
+    <string name="STRING_REMOTE_BTN_HOME">ACCUEIL</string>
+    <string name="STRING_REMOTE_BTN_INPUT">ENTRÉE</string>
+    <string name="STRING_REMOTE_BTN_JUMP">ALTERNER</string>
+    <string name="STRING_REMOTE_BTN_MENU">MENU</string>
+    <string name="STRING_REMOTE_BTN_MUTE">SOURDINE</string>
+    <string name="STRING_REMOTE_BTN_OK">OK</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">OPTIONS</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">SANS IMG</string>
+    <string name="STRING_REMOTE_BTN_POWER">ALIMENT.</string>
+    <string name="STRING_REMOTE_BTN_PROG">PROG</string>
+    <string name="STRING_REMOTE_BTN_RED">ROUGE</string>
+    <string name="STRING_REMOTE_BTN_RETURN">RETOUR</string>
+    <string name="STRING_REMOTE_BTN_TV">Téléviseur</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">"SAISIE
+VOCALE"</string>
+    <string name="STRING_REMOTE_BTN_VOL">VOLUME</string>
+    <string name="STRING_REMOTE_BTN_WIDE">ÉCR.LARG.</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">JAUNE</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">"Impossible d'accéder au Bluetooth. Autorisez l'accès au Bluetooth."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Le Bluetooth est DÉSACTIVÉ.
+ACTIVEZ le Bluetooth à partir du centre de contrôle."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"Activez le Bluetooth à partir du centre de contrôle.
+Si le Bluetooth est activé, autorisez l'accès au Bluetooth."</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">ACTIVATION du Bluetooth...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">ACTIVATION du Wi-Fi...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">Voulez-vous activer le Bluetooth ?</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">Voulez-vous ACTIVER le Wi-Fi ?</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">À propos de cette application</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">"Réglages d'application"</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Réglages Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">Réglages de périphérique</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">À réglages</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">"Envoyer l'historique des opérations"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"Périphérique introuvable.
+Vérifiez que l'alimentation du périphérique est allumée."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"Faites fonctionner l'enregistreur à distance.
+Enregistrez et vérifiez les enregistrements à distance !"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Le Bluetooth est DÉSACTIVÉ.
+ACTIVEZ le Bluetooth."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"Le Wi-Fi est DÉSACTIVÉ.
+Effectuez la connexion avec le même réseau que le périphérique."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"Périphérique introuvable.
+Effectuez la connexion avec le même réseau que le périphérique et allumez le périphérique."</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">"Sélectionnez un périphérique pour l'enregistrer."</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">Ajouter périphérique</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">Enregistré.</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">Télécommande</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">Sélectionné</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">Sélection du périphérique</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">Aide</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">Régler le Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">Régler le Wi-Fi</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">Tapotez pour enregistrer</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">ACTIVER le Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">Activer le Wi-Fi</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">Réglages du Wi-Fi</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">"Plus d'options"</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">Tapez deux fois pour passer sur cet appareil.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">Tapez deux fois pour passer sur un autre appareil.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">Tapez deux fois pour développer.</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%2$s de %1$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">Réglages de compte</string>
+    <string name="STRING_TEXT_ADD_DEVICE">Enregistrer un autre appareil</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">Accepter</string>
+    <string name="STRING_TEXT_COMMON_AGREE">Accepter</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">Accepter et continuer</string>
+    <string name="STRING_TEXT_COMMON_ALL">Tous</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">Autoriser</string>
+    <string name="STRING_TEXT_COMMON_BACK">Retour</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">Annuler</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">"Annulation d'enregistrement en cours..."</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">"Annuler l'enregistrement"</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">Enregistrement annulé.</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">"Voulez-vous annuler l'enregistrement de ce périphérique ?"</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">"Annulation d'enregistrement impossible."</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">Demander à chaque fois</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">ne plus afficher</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">Fermer</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">Réduire</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">OK</string>
+    <string name="STRING_TEXT_COMMON_DELETE">Supprimer</string>
+    <string name="STRING_TEXT_COMMON_DENY">Refuser</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">Désélectionner tout</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">Réglages détaillés</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">"Menu de l'appareil"</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">Ne pas accepter</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">Ne pas accepter et continuer</string>
+    <string name="STRING_TEXT_COMMON_DO">Oui</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">Ne pas utiliser</string>
+    <string name="STRING_TEXT_COMMON_DOWN">Bas</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">Refuser</string>
+    <string name="STRING_TEXT_COMMON_EXIT">Quitter</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">Développer</string>
+    <string name="STRING_TEXT_COMMON_FAQ">Dépannage</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">Commentaires</string>
+    <string name="STRING_TEXT_COMMON_FINISH">Terminer</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">Suivant</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">Aide et informations</string>
+    <string name="STRING_TEXT_COMMON_HIDE">Masquer</string>
+    <string name="STRING_TEXT_COMMON_INFO">Informations</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">Informations</string>
+    <string name="STRING_TEXT_COMMON_INPUT">Entrée</string>
+    <string name="STRING_TEXT_COMMON_LATER">Plus tard</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">Ouvrir</string>
+    <string name="STRING_TEXT_COMMON_LEFT">Gauche</string>
+    <string name="STRING_TEXT_COMMON_MORE">En savoir plus</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">Informations détaillées</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">"Afficher plus d'informations"</string>
+    <string name="STRING_TEXT_COMMON_NEXT">Suivant</string>
+    <string name="STRING_TEXT_COMMON_NO">Non</string>
+    <string name="STRING_TEXT_COMMON_NOTE">Remarque</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">Non</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">Non sélectionné</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">Non réglé</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">Ne pas spécifier</string>
+    <string name="STRING_TEXT_COMMON_OFF">Désactivé</string>
+    <string name="STRING_TEXT_COMMON_OK">OK</string>
+    <string name="STRING_TEXT_COMMON_ON">Oui</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">Ouvrir dans le navigateur</string>
+    <string name="STRING_TEXT_COMMON_OPTION">Option</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">Revenir à la page précédente</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">Passer à la page suivante</string>
+    <string name="STRING_TEXT_COMMON_PREV">Précédent</string>
+    <string name="STRING_TEXT_COMMON_RETRY">Recommencer</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">Droite</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">Retenir cette sélection</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">Tout sélectionner</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">Réglages</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">Auto</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">Réglage terminé</string>
+    <string name="STRING_TEXT_COMMON_SHOW">Afficher</string>
+    <string name="STRING_TEXT_COMMON_SKIP">Sauter</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">"Voulez-vous arrêter l'annulation de l'enregistrement ?"</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">Site officiel</string>
+    <string name="STRING_TEXT_COMMON_TAB">Onglet</string>
+    <string name="STRING_TEXT_COMMON_TIPS">Utilisations pratiques</string>
+    <string name="STRING_TEXT_COMMON_UP">Haut</string>
+    <string name="STRING_TEXT_COMMON_USE">Utiliser</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">Arrêter le chargement de la page</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">Recharger la page</string>
+    <string name="STRING_TEXT_COMMON_YES">Oui</string>
+    <string name="STRING_TEXT_DELETE_ALL">Tout supprimer</string>
+    <string name="STRING_TEXT_DELETE_FAILED">Échec de la suppression.</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">Supprimer cet appareil enregistré ?</string>
+    <string name="STRING_TEXT_DEVICE_INFO">Informations de périphérique</string>
+    <string name="STRING_TEXT_DO_UPDATE">M. à J.</string>
+    <string name="STRING_TEXT_EDIT">Modifier</string>
+    <string name="STRING_TEXT_EULA">Accord licence utilisateur final</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">Informations sur la licence</string>
+    <string name="STRING_TEXT_MENU">Menu</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">Déconnecté</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">Ne pas se connecter</string>
+    <string name="STRING_TEXT_NO_DEVICE">Aucun appareil trouvé.</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">Si le périphérique est introuvable</string>
+    <string name="STRING_TEXT_OWN_DEVICE">Unité principale</string>
+    <string name="STRING_TEXT_POWER_OFF">Mettez le casque hors tension</string>
+    <string name="STRING_TEXT_PP_SETTINGS">Réglages de confidentialité</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">Plus de détails concernant la manière dont Sony utilise de telles données peuvent être trouvés ici.</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">Politique de confidentialité</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">ici</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">"Votre consentement aux fins d'amélioration/mise au point de produits/services :"</string>
+    <string name="STRING_TEXT_RECORDER_NAME">Enregistreur</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">Appareil</string>
+    <string name="STRING_TEXT_REGISTERING">Enregistrement en cours...</string>
+    <string name="STRING_TEXT_RE_REGISTER">Enregistr. à nouveau</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">Changer de périphérique</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">Périphérique connecté</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">Enregistrement</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">Version</string>
+    <string name="STRING_TEXT_SIGNIN">Se connecter</string>
+    <string name="STRING_TEXT_SIGNOUT">Se déconnecter</string>
+    <string name="STRING_TEXT_START">Démarrer</string>
+    <string name="STRING_TEXT_STARTING">Démarrage en cours...</string>
+    <string name="STRING_TEXT_START_ASIS">Démarrer maintenant</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">Liste des périphériques compatibles</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">Connecter</string>
+    <string name="STRING_TEXT_TERM_OF_USE">"Conditions d'utilisation"</string>
+    <string name="STRING_TEXT_UPDATE">M. à J.</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">Lorsque la connexion ne peut pas être établie</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">Lorsque vous ne pouvez pas enregistrer</string>
+    <string name="STRING_THIS_PHONE">Ce mobile</string>
+    <string name="STRING_TITLE_COUNTRY">Pays/région</string>
+    <string name="Setting_Android_Title">Réglages</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"L'authentification de votre compte a échoué.
+Connectez-vous de nouveau."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"Impossible de synchroniser les réglages étant donné que l'authentification du compte a échoué.
+Connectez-vous de nouveau."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">"Résultats d'analyse de vos oreilles"</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">Endroits enregistrés et valeurs de réglage</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">Valeurs de réglage en fonction des actions, etc.</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">Sauvegarder</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">Les réglages suivants peuvent être sauvegardés sur le serveur en liant votre compte.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">Les réglages pouvant être sauvegardés varient selon le modèle.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">"Les régl. sauvegardés peuv. ê. suppr. en utilis. l'appl. Aussi, ils seront autom. suppr. si Sony met fin à la fourniture de la fnct conformém. Cond. d'utilisation."</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">Réglages du téléchargement automatique de logiciels</string>
+    <string name="SettingsTakeOver_Appeal_Link">Accédez à ceci pour plus de renseignements</string>
+    <string name="SettingsTakeOver_Appeal_Title">Sauvegardez vos réglages.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">Sauvegarde terminée.</string>
+    <string name="SettingsTakeOver_Button_Backup">Sauvegarder</string>
+    <string name="SettingsTakeOver_Button_Restore">Restaurer</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">Utiliser régl. de cette applic.</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">Utiliser réglages sur le serveur</string>
+    <string name="SettingsTakeOver_Confirm_Backup">Voulez-vous sauvegarder sur le serveur les réglages de cette application ?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">Voulez-vous restaurer sur cette application les réglages sauvegardés sur le serveur ?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"Il y a des réglages qui ont déjà été sauvegardés sur le serveur.
+Sélectionnez un réglage dans ce qui suit afin d'activer la synchronisation automatique."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Créer un compte Sony et continuer</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">Les réglages sauvegardés ont été supprimés et la déconnexion a été effectuée.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">Effectue la déconnexion, annule le lien avec le compte et supprime entièrement les informations sauvegardées sur le serveur.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">Voulez-vous supprimer les réglages sauvegardés ?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">La synchronisation automatique des réglages est activée.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"Échec de la sauvegarde.
+Veuillez patienter un moment et essayer de nouveau."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"Échec de la restauration.
+Veuillez patienter un moment et essayer de nouveau."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"Échec de la restauration.
+Vérifiez la connexion réseau et patientez un moment et essayez de nouveau."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">"Vérifier les Conditions d'utilisation"</string>
+    <string name="SettingsTakeOver_List_Title">Sauvegarde et restauration de réglages</string>
+    <string name="SettingsTakeOver_PP_Description">"Veuillez confirmer que Sony pourra utiliser les données relatives à l'utilisation d'applications pour clients aux fins ci-dessus en appuyant sur le bouton [Accepter] ci-après. Si vous n'acceptez pas ces conditions d'utilisation, appuyez sur le bouton [Ne pas accepter]."</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">Restaurer les réglages</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">Continuer sans restaurer</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">Si vous avez sauvegardé des réglages avec Headphones Connect par le passé, vous pourrez restaurer ces réglages.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">Accédez à ceci pour plus de renseignements</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">Restaurer les réglages</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"Il n'y avait aucun réglage sauvegardé.
+Continuez sans restaurer."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">Restauration terminée.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">Compte</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">Les réglages qui ont été sauvegardés</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">Sauvegarder maintenant</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">Activer</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">Restaurer maintenant</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">Supprimer la sauvegarde et se déconnecter</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"Supprime les réglages sauvegardés sur le serveur.
+Les réglages au sein de l'application resteront."</string>
+    <string name="SettingsTakeOver_Settings_Description">Vous pouvez sauvegarder les réglages de ces applications sur le serveur en liant le compte avec lequel vous vous êtes connecté(e).</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"Pour sauvegarder les réglages les plus récents, activez la synchronisation automatique.
+Vous pouvez synchroniser les réglages avec tous les périphériques mobiles sur lesquels vous êtes connecté avec ce compte."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">Les réglages de cette fonction peuvent être modifiés à tout moment à partir du menu supérieur droit du tableau de bord.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">Synchronisation automatique</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">Réglage de compte</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Réglages de compte Sony</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">Sauvegarde en cours...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">Date de mise à jour du serveur :</string>
+    <string name="SettingsTakeOver_Settings_Status_None">Vous pouvez sauvegarder les réglages.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">"Il y a des réglages qui n'ont pas encore été sauvegardés."</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">Vous pouvez restaurer les nouveaux réglages à partir du serveur.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">Restauration en cours...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">La sauvegarde est terminée.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">Synchronisation en cours...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">Votre appareil ne prend pas en charge la sauvegarde.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Connexion avec Amazon</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Connexion avec Apple</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Connexion avec Facebook</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Connexion avec Google</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Connexion avec votre compte Sony</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">Connexion avec WeChat</string>
+    <string name="SettingsTakeOver_SignIn_Description">Pour sauvegarder et restaurer les réglages, vous devez être connecté(e) à Headphones Connect.</string>
+    <string name="SettingsTakeOver_SignIn_Split">ou</string>
+    <string name="SettingsTakeOver_SignOut_Completed">Vous êtes déconnecté(e).</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">Les fonctionnalités de sauvegarde et de restauration deviendront indisponibles.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">Les réglages sauvegardés sur le serveur seront supprimés automatiquement si un certain temps passe après votre déconnexion.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Compte Sony</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">Connexion en cours...</string>
+    <string name="SettingsTakeOver_SigningOut">Déconnexion en cours...</string>
+    <string name="SmartTalkingMode_Detail">Vous pouvez démarrer une conversation pendant que vous portez votre casque simplement en commençant à parler.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"Simplement en commençant à parler, vous pouvez effectuer une conversation pendant que vous portez votre casque. Voulez-vous essayer cette fonction ?
+Vous pouvez l'exécuter de nouveau à l'aide du bouton [i]."</string>
+    <string name="SmartTalkingMode_Experience_Btn">"L'essayer"</string>
+    <string name="SmartTalkingMode_Experience_Detail1">Par exemple, essayez de dire quelque chose comme « Bonjour ». Le casque détecte que vous avez parlé et crée automatiquement une situation qui permet de converser.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"La musique a été interrompue pour prendre le son ambiant. Ce mode reprendra pendant que vous parlez et se fermera si %s passe(nt) après que vous ayez fini de parler ou si vous avez manipulé le casque.
+Ce réglage peut être personnalisé dans [Parler pour chatter] sur le tableau de bord."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">La musique a été interrompue pour prendre le son ambiant. Le mode peut être fermé en manipulant le casque.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">Fermer</string>
+    <string name="SmartTalkingMode_Experience_Msg1">Détecte votre voix</string>
+    <string name="SmartTalkingMode_Experience_Msg2">Votre voix a été détectée</string>
+    <string name="SmartTalkingMode_Experience_Title">Expérience Parler pour chatter</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">Prend les voix tout en réduisant le bruit ambiant.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">Concentration sur la voix</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"Si le casque ne détecte pas votre voix pendant le temps spécifié, le mode Parler pour chatter se ferme et retourne à son état normal.
+Aussi, vous pouvez fermer le mode à tout moment en manipulant le casque."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">Rapide</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">Standard</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">Lent</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">Ne pas fermer automatiq.</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">Ne dépass. pas</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">"Temps jusqu'à fermeture mode"</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">Envir. 1 min</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">Environ 1 s</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">Envir. %d s</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">Env. %d min</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">Automatique</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">Ajuste automatiquement la sensibilité en fonction du son ambiant.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">Automatique :</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">Sensib. élev.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">Sélectionnez ce réglage lorsque sensibilité détection voix trop faible. Efficace lorsque le son ambiant est fort, comme lorsque dans véhicule.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">Sensib. élev. :</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">Faible sensib.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">Sélectionnez ce réglage lorsque la sensibilité de la détection de la voix est trop élevée. Efficace lorsque la personne qui parle est à proximité.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">Faible sensib. :</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">Sensibilité détect. voix</string>
+    <string name="SmartTalkingMode_Setting_Title">Réglage de Parler pour chatter</string>
+    <string name="SmartTalkingMode_Title">Parler pour chatter</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Parler pour chatter est activé</string>
+    <string name="SmartTalkingMode_TurnOn">Active Parler pour chatter pour effectuer des réglages.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Active Parler pour chatter</string>
+    <string name="SmartTalkingMode_TurnOn_conf">"Ce réglage peut être commuté par l'intermédiaire de manipulations sur votre casque.
+La méthode de manipulation peut être vérifiée dans [Aide]."</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Voulez-vous activer Parler pour chatter ?</string>
+    <string name="SongPalDownloadDialog">"Souhaitez-vous télécharger l'appli Music Center depuis Google Play ?"</string>
+    <string name="SongPalDownloadDialog_iOS">"Souhaitez-vous télécharger l'appli Music Center depuis App Store ?"</string>
+    <string name="SoundPosition_Preset_FL">Avant gauche</string>
+    <string name="SoundPosition_Preset_FR">Avant droit</string>
+    <string name="SoundPosition_Preset_Front">Avant</string>
+    <string name="SoundPosition_Preset_Off">Désactivé</string>
+    <string name="SoundPosition_Preset_RL">Arrière gauche</string>
+    <string name="SoundPosition_Preset_RR">Arrière droit</string>
+    <string name="SoundPosition_Title">Contrôle de position sonore</string>
+    <string name="Status_Loading_Headphones">Acquisition en cours de la liste de casques.</string>
+    <string name="Switch_ToOtherDevice">"Changer d'appareil"</string>
+    <string name="TalkBack_Button">Bouton</string>
+    <string name="TalkBack_Button_Option">"Plus d'options"</string>
+    <string name="TalkBack_Disable">Désactivé</string>
+    <string name="TalkBack_Switch">Bouton de commutation</string>
+    <string name="Talkback_Echo_Minus">minus</string>
+    <string name="Talkback_Echo_Plus">plus</string>
+    <string name="TouchSensorControlPanel_title">Panneau de comm. à capteurs tactiles</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">Réinitialiser</string>
+    <string name="Training_Custom_Title">Réglages rapides son</string>
+    <string name="Training_Title">Réglages rapides son</string>
+    <string name="Training_Title_Detail">"Vous pouvez commuter collectivement les réglages de [%1$s] et [%2$s].
+En outre, vous pouvez manipuler ce réglage à partir du casque."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">Stade</string>
+    <string name="VPT_Preset_Club">Discothèque</string>
+    <string name="VPT_Preset_ConcertHall">Salle de concert</string>
+    <string name="VPT_Preset_Off">Désactivé</string>
+    <string name="VPT_Preset_OutdoorFestival">Scène extérieure</string>
+    <string name="VPT_Preset_Title">Surround (VPT)</string>
+    <string name="Vibration_Title">Vibration appel entrant</string>
+    <string name="VoiceData_Update_Status_Download">Téléchargement des données vocales en cours...</string>
+    <string name="VoiceData_Update_Status_Install">Réglage des données vocales en cours...</string>
+    <string name="VoiceData_Update_Status_Send">Transfert des données vocales en cours...</string>
+    <string name="VoiceData_Update_Status_Start">Transfère les données vocales en %s au casque</string>
+    <string name="VoiceData_Update_Title">Changer de langue</string>
+    <string name="VoiceData_Updating">Veuillez patienter...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">Langue</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">Notification et guide vocal</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">portugais brésilien</string>
+    <string name="Voice_Guidance_Elem_Chinese">chinois</string>
+    <string name="Voice_Guidance_Elem_Dutch">néerlandais</string>
+    <string name="Voice_Guidance_Elem_English">anglais</string>
+    <string name="Voice_Guidance_Elem_Finnish">finnois</string>
+    <string name="Voice_Guidance_Elem_French">français</string>
+    <string name="Voice_Guidance_Elem_German">allemand</string>
+    <string name="Voice_Guidance_Elem_Italian">italien</string>
+    <string name="Voice_Guidance_Elem_Japanese">japonais</string>
+    <string name="Voice_Guidance_Elem_Korean">coréen</string>
+    <string name="Voice_Guidance_Elem_Portuguese">portugais</string>
+    <string name="Voice_Guidance_Elem_Russian">russe</string>
+    <string name="Voice_Guidance_Elem_Spanish">espagnol</string>
+    <string name="Voice_Guidance_Elem_Swedish">suédois</string>
+    <string name="Voice_Guidance_Elem_Turkish">turc</string>
+    <string name="Voice_Guidance_Setting">Langue du guidage vocal</string>
+    <string name="Volume_Talkback">Volume</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">"Pour l'utiliser, mettez à jour cette application sur Google Play."</string>
+    <string name="Walkman_Placeholder_Confirm_China">"Pour l'utiliser, téléchargez cette application à partir du site de téléchargement."</string>
+    <string name="Walkman_Placeholer_Button_Transit">Accéder</string>
+    <string name="Walkman_Placeholer_Description">"Personnalisez les casques Sony avec une fonction liaison pour cette app selon votre convenance.
+Profitez encore plus de votre musique habituelle grâce à des commandes simples."</string>
+    <string name="Walkman_Placeholer_Description_02">"Pour l'utiliser, cette application doit être mise à jour (téléchargée) à l'écran vers lequel vous serez transféré(e)."</string>
+    <string name="Walkman_Placeholer_Description_03">À propos de cette application</string>
+    <string name="Walkman_Placeholer_Link">Pour plus de détails sur les produits et les fonctions pris en charge, accédez à ceci</string>
+    <string name="Walkman_Placeholer_SubTitle">Voulez-vous accéder à la page de téléchargement de Headphones Connect ?</string>
+    <string name="Welcome_EULA_PP">Appuyer sur ce bouton établit que vous avez vérifié le doc. de consentement et la polit. de confid., et les avez approuvés.</string>
+    <string name="Welcome_EULA_PPLink">"Conditions d'utilisation"</string>
+    <string name="Welcome_SubTitle">"Plus de plaisir, plus intelligent et plus personnel.
+Commencez votre nouvelle vie avec votre nouveau casque."</string>
+    <string name="Welcome_SubTitle1">Votre concert en direct personnel démarre ici.</string>
+    <string name="Welcome_SubTitle2">"Club ? Stade ? Salle ? Ou même à l'extérieur ? Votre lieu de concert idéal est à votre disposition."</string>
+    <string name="Welcome_SubTitle3">Les basses réglables intensifieront votre journée.</string>
+    <string name="Welcome_Title">BIENVENUE</string>
+    <string name="Welcome_Title1">BIENVENUE</string>
+    <string name="Welcome_Title2">MUSIQUE EN DIRECT PAR SIMPLE EFFLEUREMENT</string>
+    <string name="Welcome_Title3">VOULEZ-VOUS PLUS DE BASSES ?</string>
+    <string name="Widget_Disconnected">"Le casque n'est pas connecté ou n'est pas enregistré. Démarrez Headphones Connect."</string>
+    <string name="Widget_EQ_Error">Confirmez [Égaliseur] à partir de Headphones Connect.</string>
+    <string name="Widget_EQ_Error_Short">Changez à partir de Headphones Connect.</string>
+    <string name="Widget_EULA_Disagreement">Démarrez Headphones Connect et effectuez les réglages.</string>
+    <string name="Widget_Initial">Chargement en cours...</string>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">Autres options</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_capital_off">NON</string>
+    <string name="abc_capital_on">OUI</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">supprimer</string>
+    <string name="abc_menu_enter_shortcut_label">entrée</string>
+    <string name="abc_menu_function_shortcut_label">Fonction+</string>
+    <string name="abc_menu_meta_shortcut_label">Méta+</string>
+    <string name="abc_menu_shift_shortcut_label">Maj+</string>
+    <string name="abc_menu_space_shortcut_label">espace</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">Activer</string>
+    <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
+    <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil.</string>
+    <string name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilité des services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil.</string>
+    <string name="common_google_play_services_update_button">Mettre à jour</string>
+    <string name="common_google_play_services_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour les services Google Play."</string>
+    <string name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="expand_button_title">Préférences avancées</string>
+    <string name="fcm_fallback_notification_channel_label">Divers</string>
+    <string name="s1">"Enregistrer l'image"</string>
+    <string name="s2">"Autoriser l'annonce à stocker l'image dans la galerie d'images ?"</string>
+    <string name="s3">Accepter</string>
+    <string name="s4">Refuser</string>
+    <string name="s5">"Créer un événement d'agenda"</string>
+    <string name="s6">"Autoriser l'annonce à créer un événement d'agenda ?"</string>
+    <string name="s7">Annonce test</string>
+    <string name="search_menu_title">Rechercher</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">DÉSACTIVÉ</string>
+    <string name="v7_preference_on">ACTIVÉ</string>
+</resources>

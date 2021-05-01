@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tips_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/IASetup_TipsDetail_Title" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TM_L_C1_Me" />
+    <ImageView android:id="@id/tips_detail_imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a_information_notification_image_immersive_optimize_service_app" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:id="@id/tips_detail_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/IASetup_TipsDetail_Description" style="@style/TSS_L_C2_Re" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height" android:layout_weight="0.0">
+        <include android:layout_gravity="center_horizontal" android:id="@id/tips_detail_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/ui_common_raised_button" />
+    </LinearLayout>
+</LinearLayout>

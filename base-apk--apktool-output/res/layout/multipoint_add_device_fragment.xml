@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" layout="@layout/ui_common_toolbar" />
+    <ScrollView android:id="@id/scroll_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/help_link" android:layout_below="@id/toolbar_layout">
+        <RelativeLayout android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sony.songpal.mdr.view.multipoint.DevicePairingAnimationView android:id="@id/device_anim_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/device_anim_view" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TL_C_C1_Me" />
+        </RelativeLayout>
+    </ScrollView>
+    <View android:id="@id/divider" android:background="@color/ui_common_color_c4_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/scroll_area" />
+    <TextView android:gravity="center_horizontal" android:id="@id/help_link" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="36.0dip" android:text="@string/Help_Troubleshooting" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TSS_C_A1_ReStyle" />
+</RelativeLayout>

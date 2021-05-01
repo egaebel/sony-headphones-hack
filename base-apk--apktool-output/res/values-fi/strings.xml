@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AMBSoundCtrlModeSelect_Elem_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_NC">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Elem_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_AMB_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_All">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Parameter_NC_Off">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_Assignable">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMB">[TBD]</string>
+    <string name="AMBSoundCtrlModeSelect_Title_NC_AMBIENT">[TBD]</string>
+    <string name="AR_Custom_LongStay_WaitTime_Long_Caption">Pitkä</string>
+    <string name="AR_Custom_LongStay_WaitTime_Short_Caption">Lyhyt</string>
+    <string name="AR_Custom_Reset">Palauta</string>
+    <string name="AR_Custom_Title">Muokkaa</string>
+    <string name="AR_Custom_Title_iOS">MUOKKAA</string>
+    <string name="AR_InitialSetup_Introduction_Detail">"Sovellus tunnistaa toimintasi ja usein vierailemasi sijainnit, ja se muuttaa automaattisesti kuulokeasetuksia, kuten ympäristöäänten kuulumista.
+Näin saavutetaan optimaaliset musiikkikokemukset, jotka sopivat tilanteeseen, jossa kuuntelet musiikkia.
+
+Käytä tätä toimintoa?"</string>
+    <string name="AR_InitialSetup_Introduction_Detail_China">"Sovellus tunnistaa toimintasi ja säätää ympäristöäänten kuulumista automaattisesti.
+Näin saavutetaan optimaaliset musiikkikokemukset, jotka sopivat tilanteeseen, jossa kuuntelet musiikkia.
+
+Käytä tätä toimintoa?"</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_01">Taustaäänten hallinnan asettaminen valmis.</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02">"Kohinanvaimennus saatetaan poistaa käytöstä ja ympäristöäänien annetaan kuulua havaitusta käytöksestä ja sijainnista riippuen.
+Tätä asetusta voi mukauttaa käyttämällä kojelaudan [Taustaäänten hallinta] -toimintoa."</string>
+    <string name="AR_InitialSetup_SetupComplete_Detail_02_China">"Järjestelmä on säädetty niin, että Kohinanvaimennus poistetaan käytöstä ja ympäristöäänien annetaan kuulua havaitusta käytöksestä riippuen.
+Tätä asetusta voi mukauttaa käyttämällä kojelaudan [Taustaäänten hallinta] -toimintoa."</string>
+    <string name="AR_Notification_Message">[%s] on käytössä.</string>
+    <string name="AR_Status_Detecting">Havaitaan</string>
+    <string name="AR_Status_LongStay">Paikallaan</string>
+    <string name="AR_Status_Run">Juoksee</string>
+    <string name="AR_Status_ShortStay">Paikallaan</string>
+    <string name="AR_Status_Vehicle">Kuljetus</string>
+    <string name="AR_Status_Walking">Kävelee</string>
+    <string name="AR_Title">Taustaäänten hallinta</string>
+    <string name="AR_Title_Detail">Sovellus tunnistaa toimintosi ja usein vierailemasi sijainnit, ja se muuttaa automaattisesti kuulokeasetuksia, kuten ympäristöäänten kuulumista.</string>
+    <string name="AR_Title_Detail_China">Sovellus havaitsee toimintosi ja [%s] vaihdetaan.</string>
+    <string name="AR_Title_Detail_EffectTone">Ilmoitusääni, kun vaihtaminen voidaan mykistää kytkemällä [%s] pois päältä.</string>
+    <string name="ASC_Activity_Change_Not_Apply_Because_Location_Is_Priority">Nämä asetukset otetaan käyttöön, kun olet tässä sijainnissa ja automaattinen vaihto toimintojen perusteella on pois käytöstä.</string>
+    <string name="ASC_Activity_Status_Not_Apply_Because_Location">Pois käytöstä, kun olet rekisteröidyssä sijainnissa</string>
+    <string name="ASC_Behavior_Detection">Automaattinen vaihto toimintojen perusteella</string>
+    <string name="ASC_Behavior_Detection_Menu">Toimintojen tunnistus</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail">"Kun rekisteröit usein vierailemasi sijainnit, asetusten automaattinen muuttaminen sijainnin mukaan tulee käytettäväksi.
+Usein vierailemasi sijainnit voidaan rekisteröidä helposti oppimistoiminnolla.
+Käytetäänkö tätä toimintoa?
+*Oppimistoiminnon käytön jälkeen usein vierailtujen sijaintien rekisteröinti kestää useita päiviä."</string>
+    <string name="ASC_InitialSetup_LearningLocation_Introduction_Detail_Not_SeverUpload">Sijaintia ei lähetetä palvelimelle, koska sijainnin oppimistoiminto toimii offline-tilassa.</string>
+    <string name="ASC_InitialSetup_TurnOn_LearningLocation">Käytä oppimistoimintoa</string>
+    <string name="ASC_LearningLocation">Usein vierailemiesi sijaintien oppiminen</string>
+    <string name="ASC_Location_BackgroundPermission_Tips_Detail_message">"Usein vierailemiesi sijaintien oppimistoiminto ja automaattinen asetusten muuttaminen Taustaäänten hallinta -toiminnon sijaintien perusteella ovat päällä, mutta sijainteja ei voi tunnistaa, koska Sijainti on kytketty pois päältä.
+
+Näiden toimintojen käyttämiseksi taustalla paina [Asetukset]-painiketta ja valitse [Salli aina] valikosta [Käyttöoikeudet] > [Sijainti]. Jos asetus on aina sallittu, sijaintitietoja kerätään myös silloin, kun sovellus on suljettu tai poissa käytöstä."</string>
+    <string name="ASC_Location_Detail">Sijaintitiedot</string>
+    <string name="ASC_Location_Detail_Message">"Uusi sijainti opittu.
+Jos tämä sijainti rekisteröidään, kuulokeasetuksia voidaan muuttaa automaattisesti."</string>
+    <string name="ASC_Location_Detail_Message_Home_Office">Poistaa kohinanvaimennuksen käytöstä ja valitsee asetuksen, jonka avulla voit paremmin havaita ympärilläsi olevien ihmisten äänet.</string>
+    <string name="ASC_Location_Detail_Message_Other">Suositeltu asetus tälle sijainnille on saatavana esiasetuksena.</string>
+    <string name="ASC_Location_Detail_Message_Station">Poistaa kohinanvaimennuksen käytöstä ja valitsee asetuksen, jonka avulla voit paremmin havaita ympäristöäänet ympärilläsi.</string>
+    <string name="ASC_Location_Detect_Notification_setting_item_name">Usein vierailemiesi sijaintien oppiminen</string>
+    <string name="ASC_Location_Detect_Tips_notification_Title">Uusi sijainti opittu.</string>
+    <string name="ASC_Location_Detect_Tips_notification_message">Kun tämä sijainti rekisteröidään, kuulokeasetuksia voidaan muuttaa automaattisesti.</string>
+    <string name="ASC_Location_Detection">Automaattinen vaihto sijainnin perusteella</string>
+    <string name="ASC_Location_Detection_Disclaimer_Msg">Esimerkiksi metrossa ja tunneleissa, joissa GPS-vastaanotto on heikko, usein vierailemiesi sijaintien oppiminen ja automaattinen vaihto sijainnin mukaan eivät ehkä toimi oikein.</string>
+    <string name="ASC_Location_Detection_Disclaimer_NoGPS_Msg">Koska mobiililaitteessasi ei ole GPS:ää, usein vierailemiesi sijaintien oppiminen ja automaattinen vaihto sijainnin mukaan eivät ehkä toimi oikein.</string>
+    <string name="ASC_Location_Detection_Disclaimer_Title">Sijainnin tunnistukselle on rajoja</string>
+    <string name="ASC_Location_Detection_Error_Status_Msg">Tunnistetaan sijaintia...</string>
+    <string name="ASC_Location_Empty_Message">Jos haluat käyttää automaattista vaihtamista sijaintisi perusteella, rekisteröi usein vierailemasi sijainnit.</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_Btn">Kytke sijainti päälle</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message">"Usein vierailemiesi sijaintien oppimistoiminto ja automaattinen asetusten muuttaminen Taustaäänten hallinta -toiminnon sijaintien perusteella ovat päällä, mutta sijainteja ei voi tunnistaa, koska sijainti on kytketty pois päältä.
+
+Kytke sijainti päälle, jotta nämä toiminnot voivat toimia oikein."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detail_message_iOS">"Usein vierailemiesi sijaintien oppimistoiminto ja automaattinen asetusten muuttaminen Taustaäänten hallinta -toiminnon sijaintien perusteella ovat päällä, mutta sijainteja ei voi tunnistaa, koska sijaintipalvelut on kytketty pois päältä.
+
+Kytke sijaintipalvelut päälle, jotta nämä toiminnot voivat toimia oikein.
+Tee asetukset valitsemalla mobiililaitteen ”Asetukset” > [Tietosuoja] > [Sijaintipalvelut]."</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title">Kytke sijainti päälle</string>
+    <string name="ASC_Location_GPS_ON_Tips_Detal_Title_iOS">Kytke sijaintipalvelut päälle</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification">Kytke sijainti päälle usein vierailemiesi sijaintien tunnistamista varten.</string>
+    <string name="ASC_Location_GPS_ON_Tips_notification_iOS">Kytke sijaintipalvelut päälle usein vierailemiesi sijaintien tunnistamiseksi.</string>
+    <string name="ASC_Location_Learning_Location_List">Opittu sijainti</string>
+    <string name="ASC_Location_Learning_Location_Name_Default">Usein vierailemasi sijainnit</string>
+    <string name="ASC_Location_Learning_Location_Select_message">Valitse rekisteröitävä sijainti.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_Setting_OK_Message">Ota oppimistoiminto käyttöön.</string>
+    <string name="ASC_Location_Learning_Tips_Detail_message">"Kun rekisteröit usein vierailemasi sijainnit, asetusten automaattinen muuttaminen sijainnin mukaan tulee käytettäväksi Taustaäänten hallinta -toimintoon.
+Usein vierailemasi sijainnit voidaan rekisteröidä helposti oppimistoiminnolla.
+*Oppimistoiminnon käytön jälkeen usein vierailtujen sijaintien rekisteröinti kestää useita päiviä."</string>
+    <string name="ASC_Location_Learning_Tips_notification">Voit helposti rekisteröidä usein käyttämäsi sijainnit oppimistoiminnon avulla.</string>
+    <string name="ASC_Location_Permission_Tips_Detail_Title">Salli sijainnin käyttö</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message">"Usein vierailemiesi sijaintien oppimistoiminto ja automaattinen asetusten muuttaminen Taustaäänten hallinta -toiminnon sijaintien perusteella ovat päällä, mutta sijainteja ei voi tunnistaa, koska sijainti on kytketty pois päältä.
+
+Salli sijainnin käyttö, jotta nämä toiminnot voivat toimia oikein. Jos asetus on aina sallittu, sijaintitietoja kerätään myös silloin, kun sovellus on suljettu tai poissa käytöstä."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_afterAndroid11">"Usein vierailemiesi sijaintien oppimistoiminto ja automaattinen asetusten muuttaminen Taustaäänten hallinta -toiminnon sijaintien perusteella ovat päällä, mutta sijainteja ei voi tunnistaa, koska sijainti on kytketty pois päältä.
+
+Valitse [Sovellusta käytettäessä] seuraavassa näytössä, jotta saat nämä toiminnot toimimaan oikein."</string>
+    <string name="ASC_Location_Permission_Tips_Detail_message_iOS">"Usein vierailemiesi sijaintien oppimistoiminto ja automaattinen asetusten muuttaminen Taustaäänten hallinta -toiminnon sijaintien perusteella ovat päällä, mutta sijainteja ei voi tunnistaa, koska sijaintipalveluja ei voi käyttää.
+
+Jotta näitä toimintoja voisi käyttää taustalla, paina [Asetukset]-painiketta ja salli käyttö aina kohdasta [Sijainti]."</string>
+    <string name="ASC_Location_Permission_Tips_notification">Salli sijainnin käyttö usein vierailemiesi sijaintien tunnistamista varten.</string>
+    <string name="ASC_Location_Position_Set">Sijainti</string>
+    <string name="ASC_Location_Position_Set_message">Määritä sijainti napauttamalla.</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_Title_iOS">Ota Tarkka sijainti käyttöön</string>
+    <string name="ASC_Location_Precise_ON_Tips_Detail_message_iOS">"Usein vierailemiesi sijaintien oppimistoiminto ja automaattinen asetusten muuttaminen Taustaäänten hallinta -toiminnon sijaintien perusteella ovat päällä, mutta sijainteja ei voi tunnistaa, koska Tarkka sijainti on pois käytöstä.
+
+Jotta nämä toiminnot toimisivat oikein, paina [Asetukset]-painiketta ja ota Tarkka sijainti käyttöön kohdassa [Sijainti]."</string>
+    <string name="ASC_Location_Precise_ON_Tips_notification_iOS">Ota Tarkka sijainti käyttöön usein vierailemiesi sijaintien tunnistamiseksi.</string>
+    <string name="ASC_Location_Range">Alue</string>
+    <string name="ASC_Location_Range_Param_Large">Iso</string>
+    <string name="ASC_Location_Range_Param_Mid">Normaali</string>
+    <string name="ASC_Location_Range_Param_Small">Pieni</string>
+    <string name="ASC_Location_Registration">Rekisteröi sijainti</string>
+    <string name="ASC_Location_Setting">Sijaintiasetukset</string>
+    <string name="ASC_Location_Sound_Setting">Kuulokeasetukset</string>
+    <string name="ASC_Location_Sound_Setting_Empty_message">Valitse asetus, johon tässä sijainnissa vaihdetaan, valikosta [Lisää/poista kohteita].</string>
+    <string name="ASC_Location_Sound_Setting_Not_Select">Älä vaihda</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items">Lisää/poista kohteita</string>
+    <string name="ASC_Location_Sound_Setting_Reselect_items_message">"Valitse asetus, johon tässä sijainnissa vaihdetaan.
+Asetukset, joita ei ole valittu, säilyvät aiemmassa tilassa vaikka siirryt tähän sijaintiin."</string>
+    <string name="ASC_Location_Switch_Setting">Vaihtotapa</string>
+    <string name="ASC_Location_Type_Bus">Bussipysäkki</string>
+    <string name="ASC_Location_Type_Gym">Kuntosali</string>
+    <string name="ASC_Location_Type_Home">Koti</string>
+    <string name="ASC_Location_Type_Office">Työ</string>
+    <string name="ASC_Location_Type_Other">Muu</string>
+    <string name="ASC_Location_Type_School">Koulu</string>
+    <string name="ASC_Location_Type_Set">Luokka</string>
+    <string name="ASC_Location_Type_Set_message">Valitse luokka.</string>
+    <string name="ASC_Location_Type_Train">Asema</string>
+    <string name="ASC_NotificationSound">Ilmoitusääni vaihdettaessa</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_Title">Salli ilmoitusasetus.</string>
+    <string name="ASC_Notification_Permission_ON_Tips_Detail_message">"Vaikka Taustaäänten hallinta -asetuksessa on käytössä [Vaihda ilmoituksesta], ilmoituksia ei näytetä, koska ilmoitusasetuksia ei sallita.
+
+Salli ilmoitusasetus, jotta tämä toiminto toimii oikein."</string>
+    <string name="ASC_NowHere">Olet tässä sijainnissa</string>
+    <string name="ASC_Others_Section">Muuta</string>
+    <string name="ASC_RegisterFromLearnedLocationBtn">Rekisteröi opituista sijainneista</string>
+    <string name="ASC_RegisterFromMapBtn">Rekisteröi kartasta</string>
+    <string name="ASC_RegisteredLocation">Rekisteröidyt sijainnit</string>
+    <string name="ASC_Status_Empty">Ei ole vaihtanut automaattisesti</string>
+    <string name="ASC_Status_Sound_Setting_Disabled_by_EQ_Unpermitted">Pois käytöstä (taajuuskorjaimen asetukset on tehtävä manuaalisesti)</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_manual">*Vaihdetaan manuaalisesti</string>
+    <string name="ASC_Status_Sound_Setting_Manual_item_by_mode">Pois käytöstä (koska äänenlaatu etusijalla)</string>
+    <string name="ASC_Status_Sound_Setting_info">Asetuksen tila</string>
+    <string name="ASC_Supplement_A2SC_Controlled">Taustaäänten hallinnan automaattisesti asettama.</string>
+    <string name="ASC_Supplement_Change_Behavior">Taustaäänten hallinta vaihtaa automaattisesti tämän asetuksen, jos toimintasi muuttuu.</string>
+    <string name="ASC_Supplement_Change_Behavior_Location">Taustaäänten hallinta vaihtaa automaattisesti tämän asetuksen, jos toimintasi ja sijaintisi muuttuu.</string>
+    <string name="ASC_Supplement_Change_Location">Taustaäänten hallinta vaihtaa automaattisesti tämän asetuksen, jos sijaintisi muuttuu.</string>
+    <string name="ASC_Supplement_Leave_Location">Palaa Taustaäänten hallinnan mukaan asetettuun automaattiasetukseen, jos poistut tästä sijainnista.</string>
+    <string name="ASC_Switch_Detail_Message">Jos asetettu tilaan [Vaihda ilmoituksesta], voit vaihtaa tätä asetusta milloin tahansa ollessasi tässä sijainnissa.</string>
+    <string name="ASC_Switch_Notification_After_Button">Palauta</string>
+    <string name="ASC_Switch_Notification_After_Description">Voit palauttaa asetuksen vaihtoa edeltävään.</string>
+    <string name="ASC_Switch_Notification_After_Title">Aseta sijainnin %s asetukseen</string>
+    <string name="ASC_Switch_Notification_Banner_After_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Banner_Before_Description">[TBD]</string>
+    <string name="ASC_Switch_Notification_Before_Button">Vaihda</string>
+    <string name="ASC_Switch_Notification_Before_Description">Vaihdetaanko tämän sijainnin asetukseen?</string>
+    <string name="ASC_Switch_Notification_Before_Title">Sijainti: %s</string>
+    <string name="ASC_Switch_Type_Auto">Vaihda automaattisesti</string>
+    <string name="ASC_Switch_Type_Manual">Vaihda ilmoituksesta</string>
+    <string name="ASM_Param_ASM">Ympäristöääni</string>
+    <string name="ASM_Param_NC">Kohinanvaimennus</string>
+    <string name="ASM_Param_NC_Lb">[TBD]</string>
+    <string name="ASM_Param_Off">Pois päältä</string>
+    <string name="ASM_Param_Off_Detail">[TBD]</string>
+    <string name="ASM_Param_On">Päällä</string>
+    <string name="ASM_Param_Street">Tuulimelun vaimennus</string>
+    <string name="ASM_Param_Street_Auto">[TBD]</string>
+    <string name="ASM_Param_Street_Auto_Detail">[TBD]</string>
+    <string name="ASM_Param_Street_Detail">[TBD]</string>
+    <string name="ASM_Simple_Param_Asm">Ympäristöääni</string>
+    <string name="ASM_Simple_Param_AsmNormal">Ympäristöääni - Normaali tila</string>
+    <string name="ASM_Simple_Param_AsmNormal_forBody">Ympäristöääni - Normaali tila</string>
+    <string name="ASM_Simple_Param_AsmVoice">Ympäristöääni - Äänitila</string>
+    <string name="ASM_Simple_Param_AsmVoice_forBody">Ympäristöääni - Äänitila</string>
+    <string name="ASM_Simple_Param_Asm_forBody">Ympäristöääni</string>
+    <string name="ASM_Simple_Param_Dual">Kohinanvaimennus</string>
+    <string name="ASM_Simple_Param_Dual_forBody">Kohinanvaimennus</string>
+    <string name="ASM_Simple_Param_NC">Kohinanvaimennus</string>
+    <string name="ASM_Simple_Param_NC_forBody">Kohinanvaimennus</string>
+    <string name="ASM_Simple_Param_Street">Tuulimelun vaimennus</string>
+    <string name="ASM_Simple_Param_Street_forBody">Tuulimelun vaimennus</string>
+    <string name="ASM_Simple_Title">Ympäristöäänten säätö</string>
+    <string name="ASM_Title">Ympäristöäänten säätö</string>
+    <string name="ASM_Voice">Painotus ääneen</string>
+    <string name="Abort_FWUpdate">Keskeytä</string>
+    <string name="AlexaSetup_ThingsToTry_Title">[TBD]</string>
+    <string name="AppNotify_Custom_Param_Off">Ei asetettu</string>
+    <string name="AppNotify_Custom_Param_Vibration">Värinä</string>
+    <string name="AppNotify_Custom_Param_VoiceRead">Teksti puheeksi</string>
+    <string name="AppNotify_Custom_Title">Ilmoituk. kuulokkeisiin</string>
+    <string name="AppNotify_Detail">Vastaanota ilmoituksia valituista sovelluksista kuulokkeisiisi. Teksti puheeksi -toimintoa varten mobiililaitteessa on oltava mediaäänet päällä Bluetooth-asetuksissa.</string>
+    <string name="AppNotify_NeedSetup">Valitse sovellukset ilmoituksille.</string>
+    <string name="AppNotify_Notification_Message">[%s] käyt.</string>
+    <string name="AppNotify_Setapps">%d sovellusta on valittu.</string>
+    <string name="AppNotify_Title">Ilmoituk. kuulokkeisiin</string>
+    <string name="AppSetting_Link">Käynnistä Music Center</string>
+    <string name="App_full_name">Sony | Headphones Connect</string>
+    <string name="Asc_Location_Registration_Btn">Rekisteröi</string>
+    <string name="Assignable_Key_Changing_Body_Confirm">Parhaillaan toistettava musiikki pysähtyy, koska yhteys kuulokkeisiin on muodostettava uudelleen. Vaihda?</string>
+    <string name="Assignable_Key_Changing_Error">Toiminto epäonnistui.</string>
+    <string name="Assignable_Key_Changing_Title_Confirm">Muuttaa painikkeen toimintaa</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Detail">Amazon Alexa -sovellus tarvitaan tämän sovelluksen käyttämiseen.</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Link">Asenna Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_AmazonAlexa_Title">Amazon Alexa</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail">Tee Google Assistant -sovelluksen asetukset tämän toiminnon käyttämiseksi.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Detail_iOS">Google Assistant -sovellus tarvitaan tämän sovelluksen käyttämiseen.</string>
+    <string name="Assignable_Key_Elem_GoogleAssistant_Title">Google Assistant</string>
+    <string name="Assignable_Key_Elem_Help_Button">Lisätietoja</string>
+    <string name="Assignable_Key_Elem_None_Button_Detail">Painiketoiminnot ovat pois käytöstä. Pariliitostoiminto on käytettävissä tällä asetuksella.</string>
+    <string name="Assignable_Key_Elem_None_Title">Ei määritettyä</string>
+    <string name="Assignable_Key_Elem_None_Touch_Detail">Kosketustoiminto poistetaan käytöstä. Pariliitostoiminto on käytettävissä tällä asetuksella.</string>
+    <string name="Assignable_Key_Elem_PlaybackControl_Title">Toiston hallinta</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceAssistant_unused_Title">[TBD]</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Detail">Voit käyttää mobiililaitetta kuulokkeiden mikrofonista omalla äänelläsi.</string>
+    <string name="Assignable_Key_Elem_VoiceRecog_Title">Ääniavustajatoiminto</string>
+    <string name="Assignable_Key_Elem_VolumeControl_Title">Äänenvoimakkuussäädin</string>
+    <string name="Assignable_Key_Error_Dual_VoiceAssistant">Et voi määrittää ääniavustajatoimintoa sekä vasemmalle että oikealle.</string>
+    <string name="Assignable_Key_Setting_1">Muuta [NC/AMBIENT] toimintaa</string>
+    <string name="Assignable_Key_Setting_2">Muuta vasemman painikkeen toimintaa</string>
+    <string name="Assignable_Key_Setting_Button">Muuta painikkeen toimintaa</string>
+    <string name="Assignable_Key_Setting_C">Muuta [C] toimintaa</string>
+    <string name="Assignable_Key_Setting_CUSTOM">Muuta [CUSTOM] toimintaa</string>
+    <string name="Assignable_Key_Setting_Edit_Button_Reset">Palauta</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Left">Voit muuttaa vasemmalle painikkeelle määritettyä toimintoa.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Button_Right">Voit muuttaa oikealle painikkeelle määritettyä toimintoa.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_C">Voit muuttaa [C]-painikkeelle määritettyä toimintoa.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Custom">Voit muuttaa [CUSTOM]-painikkeelle määritettyä toimintoa.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Left">Voit muuttaa vasemmalle kosketusanturille määritettyä toimintoa.</string>
+    <string name="Assignable_Key_Setting_Edit_Info_Touch_Right">Voit muuttaa oikealle kosketusanturille määritettyä toimintoa.</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Function">Toiminto:</string>
+    <string name="Assignable_Key_Setting_Edit_Label_Manipulation">Toimintatapa:</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Left">Vasen</string>
+    <string name="Assignable_Key_Setting_Edit_Tab_Right">Oikea</string>
+    <string name="Assignable_Key_Setting_Edit_Title">Muokkaa</string>
+    <string name="Assignable_Key_Setting_Function_AmazonAlexa">Äänitulo/Peruuta</string>
+    <string name="Assignable_Key_Setting_Function_Cancel_VoiceAssist">Peruuta ääniavustajatoiminto</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Cancel_Talk">Peruuta äänitulo</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Notification">Ääni-ilmoitus</string>
+    <string name="Assignable_Key_Setting_Function_GoogleAssistant_Start_Talk">Äänitulo</string>
+    <string name="Assignable_Key_Setting_Function_Launch_VoiceAssist">Käynnistä ääniavustajatoiminto</string>
+    <string name="Assignable_Key_Setting_Function_Music_Next">Seuraava kappale</string>
+    <string name="Assignable_Key_Setting_Function_Music_PlayPause">Toisto/Tauko</string>
+    <string name="Assignable_Key_Setting_Function_Music_Prev">Edellinen kappale</string>
+    <string name="Assignable_Key_Setting_Function_NC_AMB">Kohinanvaimennus/Ympäristöääni/Pois</string>
+    <string name="Assignable_Key_Setting_Function_NC_Optimizer">Melunvaimennuksen optimoija</string>
+    <string name="Assignable_Key_Setting_Function_None">Ei mitään</string>
+    <string name="Assignable_Key_Setting_Function_QuickAttention">Pikahuomio</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Down">Pienennä äänenvoimakkuutta</string>
+    <string name="Assignable_Key_Setting_Function_Volume_Up">Lisää äänenvoimakkuutta</string>
+    <string name="Assignable_Key_Setting_Function_Xiaowei_Start_Talk">Äänitulo</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double">Paina 2 kertaa</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Double_Hold">Paina 2 kertaa &amp; jatka painamista</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single">Paina 1 kerran</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Single_Hold">Paina 1 kerran &amp; jatka painamista</string>
+    <string name="Assignable_Key_Setting_Manipulation_Button_Triple">Paina 3 kertaa</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Hold">Jatka painamista</string>
+    <string name="Assignable_Key_Setting_Manipulation_Common_Long">Pitkä painallus</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double">Kaksoisnapauta</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Double_Hold">Kaksoisnapauta &amp; jatka painamista</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single">Napauta</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Single_Hold">Napauta &amp; jatka painamista</string>
+    <string name="Assignable_Key_Setting_Manipulation_Touch_Triple">Napauta kolme kertaa</string>
+    <string name="Assignable_Key_Setting_NC">Muuta [NC] toimintaa</string>
+    <string name="Assignable_Key_Setting_NCAMB">Muuta [NC/AMB] toimintaa</string>
+    <string name="Assignable_Key_Setting_Not_Connected">Ei yhdistetty.</string>
+    <string name="Assignable_Key_Setting_R">Muuta oikean painikkeen toimintaa</string>
+    <string name="Assignable_Key_Setting_SaveCheck">Muokkaus ei ole valmis. Lopeta?</string>
+    <string name="Assignable_Key_Setting_Touch">Muuta kosketusanturin toimintaa</string>
+    <string name="AutoPlaybackControl_Title">Taukotilaan, kun kuulokkeet poistetaan</string>
+    <string name="AutoPowerOff_Off_Parameter">Älä sammuta</string>
+    <string name="AutoPowerOff_Off_Title">Älä sammuta</string>
+    <string name="AutoPowerOff_RemovedFromEars_Detail">Jos kuulokkeet ovat käyttämättöminä tietyn aikaa, niiden virta sammutetaan automaattisesti.</string>
+    <string name="AutoPowerOff_RemovedFromEars_Parameter">Pois, kun kuulokkeet poistetaan</string>
+    <string name="AutoPowerOff_RemovedFromEars_Title">Pois, kun kuulokkeet poistetaan</string>
+    <string name="AutoPowerOff_SelectTime_Detail">Kun määritetty aika on kulunut Bluetooth-yhteyden katkaisemisen jälkeen, kuulokkeet sammutetaan automaattis</string>
+    <string name="AutoPowerOff_SelectTime_Title">Sammuu tietyn ajan kuluttua</string>
+    <string name="AutoPowerOff_SelectTme_1hour">1 tunti</string>
+    <string name="AutoPowerOff_SelectTme_30min">30 minuuttia</string>
+    <string name="AutoPowerOff_SelectTme_3hour">3 tuntia</string>
+    <string name="AutoPowerOff_SelectTme_5min">5 minuuttia</string>
+    <string name="AutoPowerOff_Title">Automaattinen Virrankatkaisu</string>
+    <string name="BTVA_Alexa_LearnMore">[TBD]</string>
+    <string name="BTVA_Description">[TBD]</string>
+    <string name="BTVA_Description_Setting_Later">[TBD]</string>
+    <string name="BTVA_Service_Description">[TBD]</string>
+    <string name="BTVA_Service_Link">[TBD]</string>
+    <string name="Battery_Remain">Akkutaso</string>
+    <string name="Battery_Remain_Unknown">Akkutaso tuntematon</string>
+    <string name="Button_Next">Seuraava</string>
+    <string name="Button_Permission_iOS_Settings">Asetukset</string>
+    <string name="Button_Prev">Edellinen</string>
+    <string name="Codec_AAC">Yhdistetty AAC:n kautta.</string>
+    <string name="Codec_LDAC">Yhdistetty LDAC:n kautta.</string>
+    <string name="Codec_SBC">Yhdistetty SBC:n kautta.</string>
+    <string name="Codec_aptX">Yhdistetty aptX:n kautta.</string>
+    <string name="Codec_aptXHD">Yhdistetty aptX HD:n kautta.</string>
+    <string name="Common_App_Start">Aloita</string>
+    <string name="Common_Back">Takaisin</string>
+    <string name="Common_Blank" />
+    <string name="Common_Done">Valmis</string>
+    <string name="Common_EULA">LOPPUKÄYTTÄJÄN LISENSSISOPIMUS</string>
+    <string name="Common_LF">"
+"</string>
+    <string name="Common_List_Symbol">- %s</string>
+    <string name="Common_List_Symbol_Only">-</string>
+    <string name="Common_More">Lisätietoa</string>
+    <string name="Common_Off">Pois päältä</string>
+    <string name="Common_On">Päällä</string>
+    <string name="Common_Other">Muu</string>
+    <string name="Common_PP">Tietosuojakäytäntö</string>
+    <string name="Common_Pause">Tauko</string>
+    <string name="Common_Play">Toisto</string>
+    <string name="Common_Start">Aloita</string>
+    <string name="Common_Yes">Kyllä</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Body_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_ConnectivityMode_Body_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Caution">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Changing_Title_Confirm">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Connectivity_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Detail">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_SoundQuality_Title">[TBD]</string>
+    <string name="ConnectMode_BluetoothConnect_Title">[TBD]</string>
+    <string name="ConnectMode_Changing_Body_Caution">Asetusten vaihtamiseksi äänenlaatutilaksi on vaihdettava Vakaa yhteys etusijalla. Lisäksi kuulokkeet yhdistetään uudelleen ja parhaillaan toistettava musiikki pysähtyy. Vaihda?</string>
+    <string name="ConnectMode_Changing_ConnectivityMode_Body_Confirm">Parhaillaan toistettava musiikki pysähtyy, koska yhteys kuulokkeisiin on muodostettava uudelleen. Lisäksi äänenlaatuasetukset eivät ehkä ole käytettävissä vaihdettaessa tilaan Äänenlaatu etusijalla. Vaihda?</string>
+    <string name="ConnectMode_Changing_SoundMode_Body_Confirm">Parhaillaan toistettava musiikki pysähtyy, koska yhteys kuulokkeisiin on muodostettava uudelleen. Vaihda?</string>
+    <string name="ConnectMode_Changing_Title_Caution">Äänenlaatutilaa on vaihdettava</string>
+    <string name="ConnectMode_Changing_Title_Confirm">Vaihtaa äänenlaatutilaa</string>
+    <string name="ConnectMode_Connectivity_Detail">Jos ääni katkeilee usein, valitse tämä asetus.</string>
+    <string name="ConnectMode_Connectivity_Title">Vakaa yhteys etusijalla</string>
+    <string name="ConnectMode_Sound_Title">Äänenlaatu etusijalla</string>
+    <string name="ConnectMode_Title">Äänenlaatutila</string>
+    <string name="Copyright">©2017,2018,2019,2020,2021 Sony Home Entertainment &amp; Sound Products Inc.</string>
+    <string name="Copyright_ActivityRecognition">Tuote sisältää (Sony | Headphones Connect) sisältää Sony Corporationin kehittämän toimintatunnistustekniikan, joka perustuu Sony Computer Science Laboratories, Inc.:n tutkimukseen.</string>
+    <string name="Copyright_AptX">Qualcomm Qualcomm Incorporatedin Yhdysvalloissa ja muissa maissa rekisteröity tavaramerkki, jota käytetään luvalla. aptX on Qualcomm Technologies International, Ltd.:n Yhdysvalloissa ja muissa maissa rekisteröity tavaramerkki, jota käytetään luvalla.</string>
+    <string name="Copyright_Bluetooth">Bluetooth®-sanan ja -logot omistaa Bluetooth SIG, Inc. ja Sony Corporation käyttää kyseisiä merkkejä yhtiön myöntämällä lisenssillä.</string>
+    <string name="Copyright_NFC">N on NFC Forum, Inc. -järjestön tavaramerkki tai rekisteröity tavaramerkki Yhdysvalloissa ja muissa maissa.</string>
+    <string name="Copyright_Other">Other system, product and service names used herein are registered trademarks or trademarks of their respective manufacturers, although the ™ and ® marks are not used in text.</string>
+    <string name="CradleBattery_Link_HowToConfirm_LatestBattery">Viimeisimmän akkutason tarkistaminen</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_01">Näytettävä akkutaso päivitetään, kun kuulokkeet poistetaan latauskotelosta.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Description_02">Latauskotelon akkutason näyttö päivitetään, kun kuulokkeet poistetaan latauskotelosta.</string>
+    <string name="CradleBattery_Msg_Confirm_Activate_Title">Ota latauskotelon akkutason näyttö käyttöön?</string>
+    <string name="Cradle_Battery">Latauskotelo</string>
+    <string name="Current_Volume_Talkback">Nykyinen voimakkuus</string>
+    <string name="DSEEHX_AI_Param_Auto">Auto</string>
+    <string name="DSEEHX_AI_Param_Off">Pois päältä</string>
+    <string name="DSEEHX_AI_Title">DSEE Extreme</string>
+    <string name="DSEEHX_Param_Auto">Auto</string>
+    <string name="DSEEHX_Param_Off">Pois päältä</string>
+    <string name="DSEEHX_Title">DSEE HX</string>
+    <string name="DSEE_HX_AI_ON">DSEE Extreme Päällä</string>
+    <string name="DSEE_HX_ON">DSEE HX Päällä</string>
+    <string name="DSEE_ON">DSEE Päällä</string>
+    <string name="DSEE_Param_Auto">Auto</string>
+    <string name="DSEE_Param_Off">Pois päältä</string>
+    <string name="DSEE_Title">DSEE</string>
+    <string name="Dashboard_Tab_Sound">Ääni</string>
+    <string name="Dashboard_Tab_Status">Tila</string>
+    <string name="Dashboard_Tab_System">Järjestel.</string>
+    <string name="DeviceStatus_Bluetooth_Connected">Yhdistetty Bluetoothilla.</string>
+    <string name="DeviceStatus_Bluetooth_NotConnected">Ei yhdistetty Bluetoothilla.</string>
+    <string name="Device_Connection_Connect">Yhdistä</string>
+    <string name="Device_Connection_Connect_iOS">Yhdistä paritettuihin kuulokkeisiin</string>
+    <string name="Device_Connection_Message1">Yhdistä kuulokkeet Bluetoothilla.</string>
+    <string name="Device_Connection_Pair">Yhdistä uusiin kuulokkeisiin</string>
+    <string name="Device_Registration_Top_Msg">Rekisteröi uudet kuulokkeet.</string>
+    <string name="Download_Latest_MDRPlugin">Näiden kuulokkeiden käyttämiseksi tarvitaan uusin Headphones Connect -versio. Päivitä tämä sovellus Google Playsta.</string>
+    <string name="Download_Latest_MDRPlugin_iOS">Näiden kuulokkeiden käyttämiseksi tarvitaan uusin Headphones Connect -versio. Päivitä tämä sovellus App Storesta.</string>
+    <string name="EBB_Indicator">Sähköbassotehostin</string>
+    <string name="EBB_Param_Title">Taso</string>
+    <string name="EBB_Title">CLEAR BASS</string>
+    <string name="EQ_ClearBass_Title">CLEAR BASS</string>
+    <string name="EQ_Preset_Acoustic">Akustinen</string>
+    <string name="EQ_Preset_Bass">Basson tehostus</string>
+    <string name="EQ_Preset_Bright">Kirkas</string>
+    <string name="EQ_Preset_Custom">Manuaalinen</string>
+    <string name="EQ_Preset_Dance">Tanssi</string>
+    <string name="EQ_Preset_EDM">EDM</string>
+    <string name="EQ_Preset_Excited">Innostunut</string>
+    <string name="EQ_Preset_Jazz">Jazz</string>
+    <string name="EQ_Preset_Mellow">Lempeä</string>
+    <string name="EQ_Preset_Off">Pois päältä</string>
+    <string name="EQ_Preset_Pop">Pop</string>
+    <string name="EQ_Preset_RandB_HipHop">R&amp;B / Hip Hop</string>
+    <string name="EQ_Preset_Relaxed">Rento</string>
+    <string name="EQ_Preset_Rock">Rock</string>
+    <string name="EQ_Preset_Speech">Puhe</string>
+    <string name="EQ_Preset_Title">Taajuuskorjain</string>
+    <string name="EQ_Preset_Treble">Diskantin tehostus</string>
+    <string name="EQ_Preset_UserSetting">Mukautettu</string>
+    <string name="EQ_Preset_Vocal">Laulu</string>
+    <string name="ESA_Audio_Description">[TBD]</string>
+    <string name="ESA_Button_Restart">[TBD]</string>
+    <string name="ESA_Button_Start">[TBD]</string>
+    <string name="ESA_Button_StartOver">[TBD]</string>
+    <string name="ESA_Comparison_Button">[TBD]</string>
+    <string name="ESA_Comparison_Title">[TBD]</string>
+    <string name="ESA_Earbuds">[TBD]</string>
+    <string name="ESA_Earbuds_01">[TBD]</string>
+    <string name="ESA_Earbuds_02">[TBD]</string>
+    <string name="ESA_Earbuds_03">[TBD]</string>
+    <string name="ESA_Error_Description_CannotExecute">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotConnected_Right">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Both">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Left">[TBD]</string>
+    <string name="ESA_Error_Description_NotWearing_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Both">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Left">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_NG_Right">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Description_OK">[TBD]</string>
+    <string name="ESA_ExecutionComplete_Title">[TBD]</string>
+    <string name="ESA_ExecutionError_Description">[TBD]</string>
+    <string name="ESA_ExecutionError_Title">[TBD]</string>
+    <string name="ESA_ExecutionResult_NG">[TBD]</string>
+    <string name="ESA_ExecutionResult_OK">[TBD]</string>
+    <string name="ESA_InstructionGuide">[TBD]</string>
+    <string name="ESA_InstructionGuide_Title">[TBD]</string>
+    <string name="ESA_JudgementComplete_Description">[TBD]</string>
+    <string name="ESA_JudgementComplete_Title">[TBD]</string>
+    <string name="ESA_JudgementError_Description">[TBD]</string>
+    <string name="ESA_JudgementError_Title">[TBD]</string>
+    <string name="ESA_NC_Caution">[TBD]</string>
+    <string name="ESA_NC_Description">[TBD]</string>
+    <string name="ESA_Running_Description">[TBD]</string>
+    <string name="ESA_Running_Title">[TBD]</string>
+    <string name="ESA_Select_Description">[TBD]</string>
+    <string name="ESA_Select_Title">[TBD]</string>
+    <string name="ESA_Size_L">[TBD]</string>
+    <string name="ESA_Size_M">[TBD]</string>
+    <string name="ESA_Size_S">[TBD]</string>
+    <string name="ESA_StartTest_Description">[TBD]</string>
+    <string name="ESA_Start_Description">[TBD]</string>
+    <string name="ESA_Start_Title">[TBD]</string>
+    <string name="ESA_Test_Button">[TBD]</string>
+    <string name="ESA_Test_Description">[TBD]</string>
+    <string name="ESA_Test_Title">[TBD]</string>
+    <string name="ESA_Title">[TBD]</string>
+    <string name="EULA_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/eula/%s/hpc_eula_%s_fi.html</string>
+    <string name="ErrMsg_CannotAccess_Server">Yhteys palvelimeen epäonnistui. Tarkista verkkoyhteyden tila.</string>
+    <string name="FW_Download_Param_Always">Aina automaattinen lataus</string>
+    <string name="FW_Download_Param_OnlyWiFi">Vain Wi-Fin kautta yhdistettynä</string>
+    <string name="FW_Download_Title">Automaattinen ohjelmiston lataus</string>
+    <string name="FW_EULA_Title">Käyttöehdot</string>
+    <string name="FW_Info_Button_Resume">Jatka</string>
+    <string name="FW_Info_Button_Start">Aloita</string>
+    <string name="FW_Info_Caution">"Kuulokkeet eivät ole käytettävissä päivityksen aikana.
+Aseta kuulokkeet ja mobiililaite lähekkäin, kun aloitat."</string>
+    <string name="FW_Info_Caution_Downloading">"Lataus keskeytetään, jos kuulokkeet ja mobiililaite asetetaan erilleen toisistaan tai kuulokkeiden virta katkaistaan.
+Jos lataus keskeytyy, sitä voidaan jatkaa."</string>
+    <string name="FW_Info_Caution_Sending">"Siirtäminen keskeytetään, jos kuulokkeet ja mobiililaite asetetaan erilleen toisistaan tai kuulokkeiden virta katkaistaan.
+Jos siirto keskeytyy, sitä voidaan jatkaa keskeytyskohdasta."</string>
+    <string name="FW_Info_Caution_Start">Aloita kuulokkeet ja mobiililaite asetettuina lähelle toisiaan.</string>
+    <string name="FW_Info_EULA">Seuraavan painikkeen painaminen vahvistaa, että olet lukenut suostumusasiakirjan ja hyväksyt sen sisällön.</string>
+    <string name="FW_Info_EULALink">Käyttöehdot</string>
+    <string name="FW_Info_Message1">Uusin kuulokeohjelmisto on saatavilla.</string>
+    <string name="FW_Info_Message2">Päivitys käynnistyy, kun painetaan [Hyväksy].</string>
+    <string name="FW_Info_Message3">Päivitys käynnistyy, kun painetaan [OK].</string>
+    <string name="FW_Info_Message_Download">Jos painetaan [%s]-painiketta, päivityksen valmistelut käynnistetään.</string>
+    <string name="FW_Info_Message_Resume">Painikkeen [%s] painaminen jatkaa siirtämistä.</string>
+    <string name="FW_Info_Message_Update">Painikkeen [%s] painaminen aloittaa päivityksen.</string>
+    <string name="FW_Info_Title">ohjelmisto Information</string>
+    <string name="FW_Info_Version">Versio</string>
+    <string name="FW_Notify_Abort">Ohjelmiston siirto kuulokkeisiin keskeytettiin.</string>
+    <string name="FW_Notify_Detail">Lisätietoa</string>
+    <string name="FW_Notify_Downloading">Ladataan uusinta kuulokeohjelmistoa... (%d%%)</string>
+    <string name="FW_Notify_Msg">Uusin kuulokeohjelmisto on saatavilla.</string>
+    <string name="FW_Notify_Sending">Siirretään uusinta kuulokeohjelmistoa... (%d%%)</string>
+    <string name="FW_Notify_Update">Päivitä kuulokeohjelmisto.</string>
+    <string name="FW_Update_Button_Transit_AppStore">Päivitä App Storesta</string>
+    <string name="FW_Update_Button_Transit_GooglePlay">Päivitä Google Playsta</string>
+    <string name="FW_Update_Message1">Odota...</string>
+    <string name="FW_Update_Message2">"Älä katkaise virtaa.
+Älä aseta kuulokkeita ja mobiililaitetta kauas toisistaan."</string>
+    <string name="FW_Update_Message3">"Käynnistyy automaattisesti uudelleen.
+Älä aseta kuulokkeita ja mobiililaitetta kauas toisistaan."</string>
+    <string name="FW_Update_Message_step2_1">Siirretään vasempaan yksikköön</string>
+    <string name="FW_Update_Message_step2_2_1">Päivitetään kuulokkeiden vas. yksikköä</string>
+    <string name="FW_Update_Message_step2_2_2">"Kuulokkeiden vasemman yksikön päivitys valmis.
+Yhdistetään oikeaan yksikköön"</string>
+    <string name="FW_Update_Message_step2_2_3">Valmistellaan siirtoa oikeaan yksikköön</string>
+    <string name="FW_Update_Message_step2_3">Siirretään oikeaan yksikköön</string>
+    <string name="FW_Update_Retry_Body_Caution">"Ennen ohjelmiston päivittämistä, sinun täytyy kytkeä \"Google Assistant\" -toiminto pois päältä.
+Kun \"Google Assistant\" on pois päältä, kuulokkeet käynnistyvät automaattisesti uudelleen ja sinun tulee seurata ponnahdusikkunoiden ohjeita.
+Kun ohjelmisto on päivitetty, kytke \"Google Assistant\" -asetukset manuaalisesti takaisin päälle."</string>
+    <string name="FW_Update_Retry_Title_Caution">\"Google Assistant\" -toiminto on kytkettävä pois päältä</string>
+    <string name="FW_Update_Status_Abort">Ohjelmiston siirto kuulokkeisiin keskeytettiin.</string>
+    <string name="FW_Update_Status_Download">Ladataan ohjelmistoa...</string>
+    <string name="FW_Update_Status_Download_step1">Ladataan ohjelmistoa... (1/3)</string>
+    <string name="FW_Update_Status_Downloading">Ladataan uusinta kuulokeohjelmistoa...</string>
+    <string name="FW_Update_Status_Install">Päivittää...</string>
+    <string name="FW_Update_Status_Install_step3">"Päivitetään ohjelmistoa...
+(3/3)"</string>
+    <string name="FW_Update_Status_Prepared">Päivitä kuulokeohjelmisto.</string>
+    <string name="FW_Update_Status_Send">Siirretään ohjelmistoa...</string>
+    <string name="FW_Update_Status_Send_step2">Siirretään ohjelmistoa... (2/3)</string>
+    <string name="FW_Update_Status_Sending">Siirretään uusinta kuulokeohjelmistoa...</string>
+    <string name="FW_Update_Title">Päivitä ohjelmisto</string>
+    <string name="FW_Version_Confirm_Title">%s Versio</string>
+    <string name="FW_Version_Menu_Title">%s Versio</string>
+    <string name="Frequency_Units_k">k</string>
+    <string name="GdprLangCode">fi</string>
+    <string name="GoogleAssistantIntro_Link">Asenna oma Google Assistant</string>
+    <string name="GoogleAssistantIntro_Msg">Saat nopean pääsyn omaan henkilökohtaiseen Google-palveluun ja muuhun. Asennus vie vain muutaman minuutin.</string>
+    <string name="GoogleAssistantIntro_Title">Nyt optimoitu Google Assistantille.</string>
+    <string name="Help_Information_Priority_High">Tarkista täältä</string>
+    <string name="Help_Troubleshooting">vianmääritys</string>
+    <string name="IASetup_AnalyzeComplete_Detail">Lähetä seuraavaksi tulokset musiikkisovellukseen 360 Reality Audio -kokemuksen optimoimiseksi.</string>
+    <string name="IASetup_AnalyzeComplete_Title">Korviesi analysointi onnistui</string>
+    <string name="IASetup_AnalyzeIntroduction_Detail_auto">"Ota kuvat korvistasi analysoitavaksi.
+Varmista ennen kuvien ottamista, että korvasi ovat täysin näkyvissä ja tarkista seuraavat asiat:
+
+- Poista kuulokkeet korviltasi.
+- Hiukset eivät peitä korviasi.
+- Poista korvarenkaat ja lävistykset."</string>
+    <string name="IASetup_AnalyzeIntroduction_Title">Analysoi korvasi muoto</string>
+    <string name="IASetup_Analyze_Cmd_Retry">Analysoi uudelleen</string>
+    <string name="IASetup_Analyze_Cmd_Start">Analysoi</string>
+    <string name="IASetup_Analyze_Detail">Tämä kestää noin %d sekuntia.</string>
+    <string name="IASetup_Analyze_Label">Analysoi korvan muoto</string>
+    <string name="IASetup_Analyze_Status_Done">Korviasi on analysoitu</string>
+    <string name="IASetup_Analyze_Status_NotComp">Korviasi ei ole analysoitu</string>
+    <string name="IASetup_Analyze_Title">Analysoidaan korviasi</string>
+    <string name="IASetup_AppDetail_NotInstalled">Ei asennettu</string>
+    <string name="IASetup_AppDetail_NotOptimized">Ei optimoitu</string>
+    <string name="IASetup_AppDetail_Optimized">Optimoitu</string>
+    <string name="IASetup_AppInstallConf_Title">Palaa Headphones Connect -sovellukseen asennuksen jälkeen.</string>
+    <string name="IASetup_AppInstall_Detail">360 Reality Audio -asetukset valmiit, kun sovellus käynnistetään sen asentamisen jälkeen. Musiikkisovellus on optimoitu luomaan tarkka äänikenttä.</string>
+    <string name="IASetup_AppInstall_Detail_iOS">Kun sovellus on asennettu ja 360 Reality Audio -asetukset on suoritettu, musiikkisovellus optimoidaan tarkan äänikentän luomista varten.</string>
+    <string name="IASetup_AppInstall_Install">Asenna ja optimoi</string>
+    <string name="IASetup_AppInstall_Install_iOS">Asenna</string>
+    <string name="IASetup_AppInstall_Title">360 Reality Audio -asetukset valmiit, kun sovellus avataan.</string>
+    <string name="IASetup_AppInstall_Title_iOS">Asenna tämä sovellus puhelimeesi.</string>
+    <string name="IASetup_AppIntroduction_Detail">"Tätä immersiivistä musiikkikokemusta varten tarvitset jonkin näistä 360 Reality Audio -musiikkipalvelusovelluksista.
+*Tilausmaksut ja käytettävissä oleva sisältö vaihtelevat musiikkipalvelun mukaan."</string>
+    <string name="IASetup_AppIntroduction_Title">360 Reality Audiolle saatavilla olevat musiikkisovellukset</string>
+    <string name="IASetup_AppLaunch_Detail">"Kun 360 Reality Audio -asetukset on tehty, voit nauttia musiikista tarkalla äänikentällä.
+Nauti sinulle optimoidusta 360 Reality Audiosta."</string>
+    <string name="IASetup_AppLaunch_Optimize">Käynnistä optimointi</string>
+    <string name="IASetup_AppLaunch_Title">360 Reality Audio -asetukset valmiit, kun sovellus avataan.</string>
+    <string name="IASetup_AppList_Detail">"360 Reality Audio on käytettävissä vain näistä musiikkipalvelusovelluksista. Valitse sovellus, jota haluat käyttää.
+*Tilausmaksut ja käytettävissä oleva sisältö vaihtelevat musiikkipalvelun mukaan."</string>
+    <string name="IASetup_AppList_Gp_NotInstalled">Ei asennettu</string>
+    <string name="IASetup_AppList_Gp_NotOptimized">Ei optimoitu</string>
+    <string name="IASetup_AppList_Gp_Optimized">Optimoitu</string>
+    <string name="IASetup_CameraInstruction_CannotDetect">Ei tunnistettu.</string>
+    <string name="IASetup_CameraInstruction_Caution_Head_Move">Ole hyvä äläkä liikuta päätäsi.</string>
+    <string name="IASetup_CameraInstruction_Caution_Mobile_Move">Älä liikuta älypuhelinta.</string>
+    <string name="IASetup_CameraInstruction_Complete">Kuva otettu.</string>
+    <string name="IASetup_CameraInstruction_Detected_Ear">Korvasi on tunnistettu. Älä liikuta päätäsi.</string>
+    <string name="IASetup_CameraInstruction_Detecting_L">Tunnistetaan vasenta korvaa...</string>
+    <string name="IASetup_CameraInstruction_Detecting_R">Tunnistetaan oikeaa korvaa...</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left">Sijainti on nyt oikea. Käännä tästä sijainnista päätäsi hitaasti oikealle.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Left_short">Käännä päätäsi hitaasti oikealle.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right">Sijainti on nyt oikea. Käännä tästä sijainnista päätäsi hitaasti vasemmalle.</string>
+    <string name="IASetup_CameraInstruction_FacePositionOK_Right_short">Käännä päätäsi hitaasti vasemmalle.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left">Ota kuva vasemmasta korvastasi. Irrota kuulokkeesi. Käännä päätäsi oikealle ja paina suljinpainiketta.</string>
+    <string name="IASetup_CameraInstruction_Manual_Left_2">"Irrota kuulokkeesi.
+Käännä päätäsi oikealle niin, että korvasi on kehyksessä, ja paina suljinpainiketta."</string>
+    <string name="IASetup_CameraInstruction_Manual_Right">Ota kuva oikeasta korvastasi. Irrota kuulokkeesi. Käännä päätäsi vasemmalle ja paina suljinpainiketta.</string>
+    <string name="IASetup_CameraInstruction_Manual_Right_2">"Irrota kuulokkeesi.
+Käännä päätäsi vasemmalle niin, että korvasi on kehyksessä, ja paina suljinpainiketta."</string>
+    <string name="IASetup_CameraInstruction_Position_Away">Ole hyvä ja siirrä kameraa kauemmaksi päästäsi.</string>
+    <string name="IASetup_CameraInstruction_Position_Close">Ole hyvä ja tuo kamera lähemmäksi.</string>
+    <string name="IASetup_CameraInstruction_Position_Down">Ole hyvä ja kallista kameraa hieman alaspäin.</string>
+    <string name="IASetup_CameraInstruction_Position_Front">"Irrota kuulokkeesi.
+Katso sitten kameraa kohti ja aseta pääsi kehyksen sisään."</string>
+    <string name="IASetup_CameraInstruction_Position_Left">Ole hyvä ja kierrä kameraa hieman vasemmalle.</string>
+    <string name="IASetup_CameraInstruction_Position_Right">Ole hyvä ja kierrä kameraa hieman oikealle.</string>
+    <string name="IASetup_CameraInstruction_Position_Up">Ole hyvä ja kallista kameraa hieman ylöspäin.</string>
+    <string name="IASetup_CameraInstruction_Remove_Headphone">Irrota kuulokkeesi.</string>
+    <string name="IASetup_CompletePhotograph_Detail">Aloita korvasi muodon analysointi.</string>
+    <string name="IASetup_CompletePhotograph_Title">Oikean korvasi kuvaaminen onnistui</string>
+    <string name="IASetup_Confirm_NonBT_Device">Suorita kuulokeasetukset painamalla [%s]-painiketta.</string>
+    <string name="IASetup_Conflict_Conf_FuncItem">- %s</string>
+    <string name="IASetup_Conflict_Conf_ToPlay_Sample">360 Reality Audion immersiivisten äänten kuuntelemiseksi ja vertailemiseksi seuraavien asetusten on poistettava käytöstä.</string>
+    <string name="IASetup_Conflict_Conf_ToSetup_IA">Seuraavat asetukset on poistettava käytöstä immersiivisen 360 Reality Audion toistamiseksi musiikkipalvelusovelluksissa.</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Play">Kytke pois ja toista</string>
+    <string name="IASetup_Conflict_Conf_TurnOff_Start">Kytke pois ja aloita</string>
+    <string name="IASetup_EarPhoto_Auto">Automaattinen kuvaus (suositus)</string>
+    <string name="IASetup_EarPhoto_Auto_iOS">Automaattinen kuvaus</string>
+    <string name="IASetup_EarPhoto_Manual">Manuaalinen kuvaus</string>
+    <string name="IASetup_FailurePhotograph_Detail">Vahvista seuraava ilmoitus ja kuvaa korvasi uudelleen.</string>
+    <string name="IASetup_FailurePhotograph_L_Title">Vasenta korvaasi ei tunnistettu</string>
+    <string name="IASetup_FailurePhotograph_R_Title">Oikeaa korvaasi ei tunnistettu</string>
+    <string name="IASetup_FeatureTitle">360 Reality Audion asetus</string>
+    <string name="IASetup_FreeTrialCoupon_Confirm">Vahvistettu</string>
+    <string name="IASetup_FreeTrialCoupon_NoUse">Jatka käyttämättä kuponkia</string>
+    <string name="IASetup_FreeTrialCoupon_Start">Siirry kuponkisivustolle</string>
+    <string name="IASetup_Instruction_Adjust_EarPhoto">Tarkista korvasi suunta ja säädä sijainti ja koko oppaan mukaisesti.</string>
+    <string name="IASetup_LearnMore">Lue lisää 360 Reality Audiosta</string>
+    <string name="IASetup_LearnMore_AboutApp">Katso musiikkipalvelun tiedot täältä</string>
+    <string name="IASetup_Link_EarPhotoSample">Korvan asento ja koko</string>
+    <string name="IASetup_Link_Handling_EarPhoto">Miten henkilötietojasi käytetään</string>
+    <string name="IASetup_Link_ReasonWhy_EarPhoto">Miksi meidän on otettava kuva korvistasi?</string>
+    <string name="IASetup_Link_SendInfo_ToApp">Tietoja sovellukseen lähetettävistä tiedoista</string>
+    <string name="IASetup_ManualPhotography_Done_Confirm">Tarkista, että koko korva on kehyksessä, ja paina [%s]-painiketta.</string>
+    <string name="IASetup_NeedToUpdateApp_Title">Päivitys vaaditaan.</string>
+    <string name="IASetup_OOBE_Title">Tietoja 360 Reality Audiosta</string>
+    <string name="IASetup_Optimize_Cmd_AppList">Vahvista</string>
+    <string name="IASetup_Optimize_Cmd_Install">Asenna</string>
+    <string name="IASetup_Optimize_Cmd_Optimize">Optimoi</string>
+    <string name="IASetup_Optimize_Label">Optimointisovellukset</string>
+    <string name="IASetup_Optimize_Status_NotInstalled">360 Reality Audio -sovelluksia ei ole asennettu</string>
+    <string name="IASetup_Optimize_Status_NotOptimized">360 Reality Audio -sovelluksia ei ole vielä optimoitu</string>
+    <string name="IASetup_Optimize_Status_NotOptimized_iOS">Ei optimoituja 360 Reality Audio -sovelluksia</string>
+    <string name="IASetup_Optimize_Status_Optimized">%d sovellusta on optimoitu</string>
+    <string name="IASetup_PhotographEar_Detail_auto">"Käännä seuraavassa näytössä etukamera kasvojasi kohti. Kuva otetaan automaattisesti, kun korvasi tunnistetaan.
+
+1. Pidä mobiililaitetta molemmin käsin kasvojesi edessä.
+2. Kun kasvosi tunnistetaan, käännä päätäsi oikealle ääniopastuksen mukaisesti.
+3. Seiso paikallaan, kunnes kuva otetaan automaattisesti."</string>
+    <string name="IASetup_PhotographEar_Title">Ota kuva vasemmasta korvastasi</string>
+    <string name="IASetup_PhotographErr_Auto_Earrings">Poista korvarenkaat.</string>
+    <string name="IASetup_PhotographErr_Auto_General_Left">"- Ota kuva vasemmasta korvastasi.
+- Jos kuvauspaikka on liian valoisa tai pimeä, vaihda paikkaa.
+- Poista kuulokkeet korviltasi."</string>
+    <string name="IASetup_PhotographErr_Auto_General_Right">"- Ota kuva oikeasta korvastasi.
+- Jos kuvauspaikka on liian valoisa tai pimeä, vaihda paikkaa.
+- Poista kuulokkeet korviltasi."</string>
+    <string name="IASetup_PhotographErr_Auto_Hair">Varmista, että hiukset eivät peitä korviasi.</string>
+    <string name="IASetup_Photograph_Ear_L">Vasen korva</string>
+    <string name="IASetup_Photograph_Ear_R">Oikea korva</string>
+    <string name="IASetup_Photograph_Retake">Ota kuva uudelleen</string>
+    <string name="IASetup_Photograph_Take">Ota kuva</string>
+    <string name="IASetup_Preview_IASound">360 Reality Audio</string>
+    <string name="IASetup_Preview_NormalSound">Tavallinen audio</string>
+    <string name="IASetup_Select_NonBT_Button">Siirry kojelautaan</string>
+    <string name="IASetup_SetupStart">Aloita asennus</string>
+    <string name="IASetup_SetupSummary_Analyze_Done">Valmis</string>
+    <string name="IASetup_SetupSummary_Analyze_Intro">Ota kuva korvistasi analysoitavaksi.</string>
+    <string name="IASetup_SetupSummary_Analyze_NotComplete">Korviasi ei ole analysoitu</string>
+    <string name="IASetup_SetupSummary_Detail">Voimme tuottaa sinulle tarkasti parhaan äänikentän analysoimalla korvasi muodon.</string>
+    <string name="IASetup_SetupSummary_Optimize">Aloita vaihe 2</string>
+    <string name="IASetup_SetupSummary_Optimize_Done">%d sovellusta on optimoitu</string>
+    <string name="IASetup_SetupSummary_Optimize_Intro">Optimoi musiikkipalvelusovellus lähettämällä korva-analyysisi tulokset.</string>
+    <string name="IASetup_SetupSummary_Optimize_NotInstalled">360 Reality Audio -sovelluksia ei ole asennettu</string>
+    <string name="IASetup_SetupSummary_Optimize_NotOptimized">360 Reality Audio -sovelluksia ei ole optimoitu</string>
+    <string name="IASetup_SetupSummary_StartAnalyze">Aloita vaihe 1</string>
+    <string name="IASetup_SetupSummary_Title">Optimoi 360 Reality Audio -äänikenttäsi</string>
+    <string name="IASetup_Setup_Complete">360 Reality Audio -äänikenttäsi on valmis</string>
+    <string name="IASetup_Setup_Title">360 Reality Audion asetus</string>
+    <string name="IASetup_SoundPreview_Detail">Kuule ero kokeilemalla alla olevaa musiikkinäytettä.</string>
+    <string name="IASetup_SoundPreview_Title">Koe 360 Reality Audio</string>
+    <string name="IASetup_StartAnalyze">Aloita</string>
+    <string name="IASetup_SuccessPhotograph_Detail">Ota seuraavaksi kuva oikeasta korvastasi.</string>
+    <string name="IASetup_SuccessPhotograph_Title">Vasemman korvasi kuvaaminen onnistui</string>
+    <string name="IASetup_TipsDetail_Button_Optimize">Optimoi sovellukset</string>
+    <string name="IASetup_TipsDetail_Description">Jotta voit nauttia 360 Reality Audion musiikkipalvelusovelluksien immersiivisestä äänikokemuksesta, musiikkipalvelusovellukset on optimoitava lähettämällä korva-analyysin tulokset.</string>
+    <string name="IASetup_TipsDetail_Title">360 Reality Audio -asetukset ovat yhä kesken.</string>
+    <string name="IASetup_UpdateApp">Päivitä</string>
+    <string name="IASetup_Welcome_Detail">360 Reality Audion kuunteleminen kuulokkeistasi mahdollistaa immersiivisen äänikokemuksen, joka tuntuu yhtä todelliselta kuin live-esitys.</string>
+    <string name="IASetup_Welcome_Title">Tervetuloa 360 Reality Audioon</string>
+    <string name="IAWM_Analyze_Cmd_Retry">Luo uudelleen</string>
+    <string name="IAWM_Analyze_Cmd_Start">Luo</string>
+    <string name="IAWM_Analyze_Label">Luo henkilökohtainen kuuloprofiili</string>
+    <string name="IAWM_Analyze_Status_Done">Valmis</string>
+    <string name="IAWM_Analyze_Status_NotComp">Keskeneräinen</string>
+    <string name="IAWM_Complete_Data_Title">Kuuloprofiilisi vastaanotto on valmis</string>
+    <string name="IAWM_Confirmation_Dialog1">"Kuuloprofiilisi on jo tallennettu.
+Vastaanotetaanko profiili palvelimelta ja jatketaanko sovelluksen optimointia?"</string>
+    <string name="IAWM_Hrtf_App_Button">Ota vastaan</string>
+    <string name="IAWM_Hrtf_App_DL_Error_Dialog">"Kuuloprofiilisi vastaanottaminen epäonnistui.
+Tarkista verkkoyhteys, odota hetki ja yritä uudelleen."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog1">"Kuuloprofiiliasi ei voitu vastaanottaa palvelimelta.
+Varmista, että kuuloprofiilisi on luotu älypuhelimessa, ja aloita vastaanotto painamalla painiketta uudelleen."</string>
+    <string name="IAWM_Hrtf_App_Error_Dialog2">"Kuuloprofiiliasi ei voitu vastaanottaa palvelimelta.
+Kun olet tarkistanut seuraavat kohdat, mene uudelleen seuraavaan ruutuun ja ota profiilisi vastaan.
+- Kuuloprofiilisi luominen älypuhelimellesi on valmis.
+- Olet kirjautunut sisälle samalle tilille sovelluksissa 360 Spatial Sound Personalizer ja Headphones Connect tällä Walkman:llä"</string>
+    <string name="IAWM_Hrtf_App_Intro_Description">Asenna 360 Spatial Sound Personalizer -sovellus älypuhelimeesi, kirjaudu sisään tämä Walkmanin kanssa samalla tilillä ja ota kuva korvistasi noudattamalla näytön ohjeita.</string>
+    <string name="IAWM_Hrtf_App_Intro_Title">Luo kuuloprofiilisi älypuhelimella</string>
+    <string name="IAWM_Hrtf_App_Start_Recieving_Button">Ota vastaan</string>
+    <string name="IAWM_Hrtf_App_Switch_Description">"Skannaa QR-koodi älypuhelimella. Jos skannausta ei voida suorittaa, etsi ”360 Spatial Sound Personalizer” -sovellus sovelluskaupasta.
+Kuuloprofiilisi kehittämisen jälkeen tämä Walkman ottaa kuuloprofiilisi automaattisesti vastaan. Pysy siis tässä ruudussa."</string>
+    <string name="IAWM_Hrtf_App_Switch_Description_2">"Skannaa QR-koodi älypuhelimella. Jos skannausta ei voida suorittaa, etsi ”360 Spatial Sound Personalizer” -sovellus sovelluskaupasta.
+Kun olet luonut kuuloprofiilisi, paina alla olevaa painiketta ja aloita vastaanottaminen."</string>
+    <string name="IAWM_Hrtf_App_Switch_Title">Asenna sovellus älypuhelimeen</string>
+    <string name="IAWM_Need_Sign_in_Description">Kirjaudu tilillesi käyttääksesi kuuloprofiiliasi, jonka olet luomassa tai jonka olet jo luonut.</string>
+    <string name="IAWM_Need_Sign_in_Title">Vaatii sisäänkirjautumisen</string>
+    <string name="IAWM_Recieve_Data_Title">Vastaanotetaan kuuloprofiiliasi palvelimelta...</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro">Ota kuva korvistasi 360 Spatial Sound Personalizer -sovelluksella ja luo kuuloprofiilisi.</string>
+    <string name="IAWM_SetupSummary_Analyze_Intro1">Kuuloprofiilisi on jo luotu.</string>
+    <string name="IAWM_SetupSummary_Description">Lähetä seuraavaksi kuuloprofiilisi musiikkipalvelusovelluksiin tarkan äänikentän luomiseksi 360 Reality Audiolla.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro">Palaa Walkmaniin ja lähettää kuuloprofiilisi ja optimoi sitten musiikkipalvelusovellukset 360 Reality Audiota varten.</string>
+    <string name="IAWM_SetupSummary_Optimize_Intro1">Lähettää kuuloprofiilisi ja optimoi musiikkipalvelusovellukset 360 Reality Audiota varten.</string>
+    <string name="IAWM_SetupSummary_Title">Kuuloprofiilisi luonti on valmis</string>
+    <string name="IAWM_Start_Recieving_Title">Käynnistä uudelleen ja ota vastaan kuuloprofiilisi.</string>
+    <string name="InformationNotification_List_Info_Empty_Title">Tällä hetkellä ei ole tietoja tai kyselyitä.</string>
+    <string name="InformationNotification_List_Info_Unknown_Title">Tiedot ja kyselyt näytetään täällä.</string>
+    <string name="InformationNotification_List_Tips_Empty_Title">Täällä näytetään käyttövinkkejä.</string>
+    <string name="InformationNotification_List_Tips_Section">Vinkkejä</string>
+    <string name="InformationNotification_List_Title">Tiedot</string>
+    <string name="InformationNotification_New_Talkback_1">Uusia tietoja ei ole.</string>
+    <string name="InformationNotification_New_Talkback_2">Uusi kohde.</string>
+    <string name="InformationNotification_New_Talkback_3">Tämä on uusi kohde.</string>
+    <string name="InformationToUsersLangCode">fi</string>
+    <string name="InitialSetup_ActivityRecognition_Detail">Sovellus tunnistaa toimintasi ja usein vierailemasi sijainnit, ja se muuttaa automaattisesti kuulokeasetuksia, kuten ympäristöäänten kuulumista.</string>
+    <string name="InitialSetup_ActivityRecognition_Detail_China">Sovellus tunnistaa toimintasi ja säätää ympäristöäänten kuulumista automaattisesti.</string>
+    <string name="InitialSetup_IASetup_Detail">Näin 360 Reality Audio -äänikokemus optimoidaan niin, että voit nauttia immersiivisestä äänikokemuksesta, joka tuntuu yhtä todelliselta kuin live-esitys.</string>
+    <string name="InitialSetup_OverallSetup_BeforeStart_Detail">Käynnistä asennus ja nauti kuulokkeiden toiminnoista.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Button">Siirry kojelautaan</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_01">Asennus on valmis.</string>
+    <string name="InitialSetup_OverallSetup_Complete_Detail_02">Asetuksia voidaan muuttaa milloin tahansa kojelaudasta.</string>
+    <string name="InitialSetup_OverallSetup_Final_Detail">Tämä on asetusten viimeinen vaihe.</string>
+    <string name="InitialSetup_OverallSetup_Title">Asennus</string>
+    <string name="InstructionGuide_CoachMark">Kuulokkeiden miellyttävää käyttöä varten katso [%s Opetusohjelma].</string>
+    <string name="InstructionGuide_Menu_Title">%s Opetusohjelma</string>
+    <string name="InstructionGuide_Page_Format">%1$d/%2$d</string>
+    <string name="LanguageData_Info_Message">Siirto alkaa, kun painetaan [OK]-painiketta.</string>
+    <string name="LanguageData_Info_Message_1">"Älä katkaise virtaa.
+Älä aseta kuulokkeita ja mobiililaitetta kauas toisistaan."</string>
+    <string name="LanguageData_Info_Message_2">"Käynnistyy automaattisesti uudelleen.
+Älä aseta kuulokkeita ja mobiililaitetta kauas toisistaan."</string>
+    <string name="LanguageData_Restriction">"Kuulokkeet ei käytettävissä siirron aikana. Voi kestää noin %d min.
+Käynnistä kuulokkeet ja mobiililaite lähellä toisiaan."</string>
+    <string name="Left_Headphones">Vasen yksikkö</string>
+    <string name="Link_AlexaApp">[TBD]</string>
+    <string name="Msg_A2DP_Connection_Switch_Error">"Ei voi vaihtaa, kun liitetty toisiin kuulokkeisiin.
+Irrota liitetyt kuulokkeet."</string>
+    <string name="Msg_ASC_Confimation_Cancel_Registration">Sijaintien rekisteröiminen ei ole valmis. Suljetaanko?</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog">"Usein vierailemiesi sijaintien tunnistamista varten Sijainnin käytön on oltava sallittuna aina, myös taustalla.
+
+Paina [Asetukset]-painiketta ja valitse [Salli aina] valikosta [Käyttöoikeudet] > [Sijainti]. Jos asetus on aina sallittu, sijaintitietoja kerätään myös silloin, kun sovellus on suljettu tai poissa käytöstä."</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast1">Sijainnin käytön on oltava aina päällä mobiililaitteen asetuksissa, jotta usein vierailemasi sijainnit voidaan tunnistaa.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_After_OSDialog_ErrorToast2">Sijainnin käytön on oltava aina päällä, myös taustalla, mobiililaitteen asetuksissa, jotta usein vierailemasi sijainnit voidaan tunnistaa.</string>
+    <string name="Msg_ASC_Location_BackgroundPermission_Before_OSDialog">Usein vierailemiesi sijaintien tunnistamista varten Sijainnin käytön on oltava sallittuna aina, myös taustalla. Jos asetus on aina sallittu, sijaintitietoja kerätään myös silloin, kun sovellus on suljettu tai poissa käytöstä. Vahvista sisältö seuraavassa ruudussa.</string>
+    <string name="Msg_ASC_Location_Confimation_Delete_Location">Perutaanko tämän sijainnin rekisteröinti?</string>
+    <string name="Msg_ASC_Location_GPS_ON_After_OSDialog_ErrorToast">Sijainti on kytkettävä päälle mobiililaitteen asetuksista, jotta usein vierailemasi sijainnit voidaan tunnistaa.</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_OSDialog">"Sijaintia käytetään usein vierailemiesi sijaintien tunnistamiseen.
+Kytke sijainti päälle."</string>
+    <string name="Msg_ASC_Location_GPS_ON_Before_iOS">"Sijaintipalvelut on kytkettävä päälle, jotta usein vierailemasi sijainnit voidaan tunnistaa.
+
+Tee asetukset valitsemalla mobiililaitteen ”Asetukset” > [Tietosuoja] > [Sijaintipalvelut]."</string>
+    <string name="Msg_ASC_Location_Learning_No_Item_Message">Opittuja sijainteja ei ole rekisteröitäväksi.</string>
+    <string name="Msg_ASC_Location_Permission_After_OSDialog_ErrorToast">Sijainnin käytön on oltava päällä mobiililaitteen asetuksissa, jotta usein vierailemasi sijainnit voidaan tunnistaa.</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog">"Sijainnin käyttö vaaditaan usein vierailemiesi sijaintien tunnistamiseen.
+Salli sijainnin käyttö. Jos asetus on aina sallittu, sijaintitietoja kerätään myös silloin, kun sovellus on suljettu tai poissa käytöstä."</string>
+    <string name="Msg_ASC_Location_Permission_Before_OSDialog_afterAndroid11">"Sijainnin käyttö vaaditaan usein vierailemiesi sijaintien tunnistamiseen.
+Valitse [Sovellusta käytettäessä]."</string>
+    <string name="Msg_ASC_Location_Permission_Before_iOS">"Usein vierailemiesi sijaintien tunnistamista varten sijainnin käytön on oltava sallittuna aina, myös taustalla.
+
+Paina [Asetukset]-painiketta ja salli käyttö kohdasta [Sijainti]."</string>
+    <string name="Msg_ASC_Location_Precise_ON_Before_iOS">"Tarkan sijainnin on oltava käytössä usein vierailemiesi sijaintien tunnistamiseksi.
+
+Paina [Asetukset]-painiketta ja ota Tarkka sijainti käyttöön kohdassa [Sijainti]."</string>
+    <string name="Msg_ASC_Location_Registration_Error_Not_Connect">"Sijaintien rekisteröimistä varten Taustaäänten hallinta -toimintoa tukevat kuulokkeet on liitettävä.
+Kuulokkeiden liittämisen jälkeen valitse kojelaudan oikeasta ylävalikosta [%s] ja jatka rekisteröintitoimenpidettä."</string>
+    <string name="Msg_ASC_Location_Sound_Setting_Confimation_Mode_Change">"Muokkaamista varten Äänenlaatutilaksi on asetettava [Vakaa yhteys etusijalla].
+Lisäksi kuulokkeet yhdistetään uudelleen ja nyt toistettava musiikki pysäytetään. Muutetaanko?"</string>
+    <string name="Msg_ASC_NoMore_Registration_Location">"Ei voi rekisteröidä enempää sijainteja.
+Peru tarpeettomien sijaintien rekisteröinnit."</string>
+    <string name="Msg_ASC_Registration_Comp">Rekisteröity %s.</string>
+    <string name="Msg_Abort_FWUpdate">"Keskeytä ohjelmistopäivitys?
+Jos keskeytetään, voit jatkaa päivitystä lopetuskohdasta."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted">Salli käyttö mobiililaitteen valikosta ”Asetukset” > [Headphones] > [Sijainti].</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02">"Sijaintipalvelujen ottaminen käyttöön parantaa taustaäänten hallinnan tarkkuutta. Lisäksi kuulokeasetuksia voidaan muuttaa automaattisesti sijainnin mukaan.
+Jotta näitä toimintoja voidaan käyttää taustalla, sijainnin on oltava aina sallittuna.
+
+Paina [Asetukset]-painiketta ja salli käyttö kohdasta [Sijainti]."</string>
+    <string name="Msg_ActivityRecognitionAccessIsNotPermitted02_China">"Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta entisestään.
+Paina [Asetukset]-painiketta ja salli käyttö kohdasta [Sijainti]."</string>
+    <string name="Msg_ActivityRecognitionGPSRecommend">Taustaäänten hallinnan tarkkuuden parantamiseksi on suositeltavaa käyttää GPS:ää. Ota GPS käyttöön mobiililaitteen asetuksista.</string>
+    <string name="Msg_ActivityRecognitionLocationRecommend">Taustaäänten hallinta tarkkuuden parantamiseksi on suositeltavaa sallia sijaintitietojen käyttö.</string>
+    <string name="Msg_ActivityRecognitionSaveCheck">Muokkaus ei ole valmis. Lopeta?</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission">"Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta. Lisäksi kuulokeasetuksia voidaan muuttaa automaattisesti sijainnin mukaan.
+Salli sijainnin käyttö."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China">"Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta.
+Salli sijainnin käyttö."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_China_afterAndroid11">"Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta.
+Salli sijainnin käyttö."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationPermission_afterAndroid11">"Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta. Lisäksi kuulokeasetuksia voidaan muuttaa automaattisesti sijainnin mukaan.
+Valitse [Sovellusta käytettäessä]."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting">"Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta. Lisäksi kuulokeasetuksia voidaan muuttaa automaattisesti sijainnin mukaan.
+Kytke sijaintiasetukset päälle."</string>
+    <string name="Msg_ActivityRecognition_InitialSetup_LocationSetting_China">"Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta.
+Ota sijainti käyttöön."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF">"Sijaintipalvelujen ottaminen käyttöön parantaa taustaäänten hallinnan tarkkuutta. Lisäksi kuulokeasetuksia voidaan muuttaa automaattisesti sijainnin mukaan.
+Tee asetukset valitsemalla mobiililaitteen ”Asetukset” > [Tietosuoja] > [Sijaintipalvelut]."</string>
+    <string name="Msg_ActivityRecognition_LocationOFF_China">"Sijaintipalvelujen ottaminen käyttöön parantaa taustaäänten hallinnan tarkkuutta entisestään.
+Tee asetukset valitsemalla mobiililaitteen ”Asetukset” > [Tietosuoja] > [Sijaintipalvelut]."</string>
+    <string name="Msg_Agree_EULAPP">Olen lukenut edellä olevan sisällön ja hyväksyn sen.</string>
+    <string name="Msg_Alexa_DownloadApp">[TBD]</string>
+    <string name="Msg_Alexa_DownloadApp_iOS">[TBD]</string>
+    <string name="Msg_AppNotifyNeedAccess">Ilmoitusten käyttö on hyväksyttävä tämän toiminnon käyttöä varten. Valitse [%1$s] ja ota käyttöön asetus %2$s.</string>
+    <string name="Msg_Check_EULA">Vahvista %s.</string>
+    <string name="Msg_Check_EULAPP">Vahvista %1$s ja %2$s.</string>
+    <string name="Msg_CompleteUpdate">Ohjelmiston päivitys valmis.</string>
+    <string name="Msg_Complete_Language_Setting">Kielen vaihto valmis.</string>
+    <string name="Msg_ConfirmBattery_MDR">Akkutaso on riittämätön. Lataa kuulokkeita riittävästi, yhdistä ne uudelleen ja yritä uudelleen.</string>
+    <string name="Msg_ConfirmBattery_Mobile">Akkutaso on riittämätön. Lataa mobiililaite ja yritä uudelleen.</string>
+    <string name="Msg_Confirm_Discard_FWUpdate">Asetusten muuttamista varten ohjelmiston päivitys on peruttava. Vaikka päivitys peruttaisiin, sen voi suorittaa uudelleen. Muutetaanko asetus?</string>
+    <string name="Msg_Confirm_Discard_FWUpdate_Title">Ohjelmistopäivitys on peruttava</string>
+    <string name="Msg_Confirm_Increase_BatteryConsumption_EQ_DSEE">Kun taajuuskorjain ja %s ovat käytössä yhtä aikaa, kuulokkeiden akun kulutus lisääntyy ja jatkuva toistoaika voi lyhentyä. Vaihda?</string>
+    <string name="Msg_Confirm_L_connection">"Kuulokkeiden vasenta yksikköä ei ole yhdistetty mobiililaitteeseen.
+Tarkista, että kuulokkeiden vasemman yksikön virta on kytketty, ja yritä uudelleen."</string>
+    <string name="Msg_Confirm_Language_Setting_Interruption">Peruuta kielen vaihto?</string>
+    <string name="Msg_Confirm_R_connection">"Kuulokkeiden oikeaa yksikköä ei ole yhdistetty mobiililaitteeseen.
+Tarkista, että kuulokkeiden oikean yksikön virta on kytketty, ja yritä uudelleen."</string>
+    <string name="Msg_Confirm_network_connection">Mobiililaitetta ei ole yhdistetty verkkoon. Yhdistä verkkoon ja yritä uudelleen.</string>
+    <string name="Msg_ConnectDevice">Yhdistä kuulokkeisiin seuraavasta painikkeesta.</string>
+    <string name="Msg_ConnectDevice_talkback">"Yhdistetty laitteeseen %s.
+Näyttää kojelaudan."</string>
+    <string name="Msg_ConnectMode_Changing_Error">Toiminto epäonnistui.</string>
+    <string name="Msg_ConnectNewDevice">Yhdistä uusiin kuulokkeisiin</string>
+    <string name="Msg_ConnectionFailed">Yhteys epäonnistui.</string>
+    <string name="Msg_ConnectionFailed_Internet">Ei voi näyttää sisältöä. Tarkista Internet-yhteys.</string>
+    <string name="Msg_ConnectionFailed_SRT">"Ei voi muodostaa yhteyttä laitteeseen %s.
+Tarkista, että laitteeseen on kytketty virta."</string>
+    <string name="Msg_DataError">Ohjelmiston lataus epäonnistui.</string>
+    <string name="Msg_Disabled_Language_Setting">"Kieltä ei voida vaihtaa kuulokkeiden ohjelmiston siirron aikana.
+Yritä uudelleen, kun ohjelmiston siirto on valmis."</string>
+    <string name="Msg_DownloadFailed">Ohjelmiston lataus epäonnistui.</string>
+    <string name="Msg_EmptyDevice">Paina [+]-painiketta ja rekisteröi laite.</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin">"Näiden kuulokkeiden ohjelmiston päivittämiseksi tarvitaan Headphones Connectin uusin versio.
+Päivitä tämä sovellus Google Playsta."</string>
+    <string name="Msg_FWUpdate_Download_Latest_MDRPlugin_iOS">"Näiden kuulokkeiden ohjelmiston päivittämiseksi tarvitaan Headphones Connectin uusin versio.
+Päivitä tämä sovellus App Storesta."</string>
+    <string name="Msg_FWVer_unmatched">Ohjelmiston päivitys epäonnistui.</string>
+    <string name="Msg_Failed_Language_Setting">Kielen vaihtaminen epäonnistui.</string>
+    <string name="Msg_FwUpdate_Unavailable_IosVersion">Kuulokkeiden ohjelmistoa ei voi päivittää iOS-versiossasi.</string>
+    <string name="Msg_IASetupAccessIsNotPermitted">"Anna lupa mobiililaitteen asetuksista seuraavasti:
+[Asetukset] -> [Kuulokkeet] -> [Kamera]"</string>
+    <string name="Msg_IASetupAccessIsNotPermitted_Android">Paina [Asetukset]-painiketta ja salli käyttö valikossa [Käyttöoikeudet] > [Kamera].</string>
+    <string name="Msg_IASetupAllowCamera">Anna lupa ottaa kuva.</string>
+    <string name="Msg_IASetupAllowCameraFromSettings">Anna lupa mobiililaitteen asetuksista</string>
+    <string name="Msg_IASetup_AppInstallConf">Kun ”%s” on asennettu, palaa Headphones Connect -sovellukseen ja suorita 360 Reality Audio -asetukset.</string>
+    <string name="Msg_IASetup_AppOptimizing">Valmistellaan optimointia. Odota...</string>
+    <string name="Msg_IASetup_Confirm_GDPR">"Seuraavalla prosessilla korvastasi otetut kuvat lähetetään Sonyn palvelimelle analysointia varten, jotta änikenttä voidaan optimoida korvasi muodon mukaan.
+Kun analyysi on valmis, nämä kuvat säilytetään palvelimellamme ilman, että niitä voidaan yhdistää sinuun.
+Kuvia käytetään vain tutkimukseen, jolla parannamme korva-analyysitoimintoamme, ja ne tuhotaan 30 päivän kuluttua."</string>
+    <string name="Msg_IASetup_Confirm_GDPR_NotStore">"- Käytämme korviesi kuvaa äänikentän optimoimiseen sinua varten korvasi muodon perusteella. Teemme tämän, jotta VOISIMME LUODA SINULLE MAHDOLLISIMMAN HYVIN OPTIMOIDUN ÄÄNIKENTÄN. Tuhoamme kuvat heti, kun analyysi on valmis.
+- Sony Home Entertainment &amp; Sound Products Inc. on vastuussa tästä käsittelystä. Käytämme Yhdysvalloissa sijaitsevaa palvelinta, jota ylläpitää kolmas osapuoli. Käytämme tavallista Euroopan komission hyväksymää sopimusta tietojesi suojaamiseen Yhdysvalloissa.
+- Voit ottaa meihin yhteyttä osoitteeseen privacyoffice.seu@sony.com tai kirjoittamalla edustajallemme, Sony Europe BV:lle, hollantilaiselle yhtiölle, jonka osoite on Taurusavenue 16, 2132LS Hoofddorp, Alankomaat (jos olet EU:ssa), tai Sony Europe BV, hollantilaiselle yhtiölle, jonka Iso-Britannian sivukonttorin osoite on The Privacy Office, The Heights, Brooklands, Weybridge, Surrey KT13 0XW, Iso-Britannia (jos olet Iso-Britanniassa). Voit myös ottaa yhteyttä meihin osoitteeseen Sony Home Entertainment &amp; Sound Products Inc., Sony City Osaki, 2-10-1, Osaki, Shinagawa-ku, Tokyo, 141-8610, Japan.
+- Sinulla on oikeus nähdä, korjata ja poistaa henkilökohtaiset tietosi niin kauan kuin käsittelemme niitä. Sinulla on myös oikeus tehdä valitus tietosuojavaltuutetulle asuinmaassasi tai alueella, jossa asut, työskentelet tai jossa valituksen aihe tulee esiin."</string>
+    <string name="Msg_IASetup_Confirm_Maybe_InstallNeeded" formatted="false">"App Store aukeaa, jos ”%s” ei ole asennettuna tai jos tarvitaan päivitys.
+
+Jos ”%s” käynnistyy, 360 Reality Audio -asetukset ovat valmiit."</string>
+    <string name="Msg_IASetup_ConnectA2DP">"Kuulokkeitasi ei ole yhdistetty A2DP-mediaprofiililla tähän mobiililaitteeseen.
+
+Katkaise media audio kuulokkeittesi ja muiden laitteiden välillä ja yhdistä sitten tähän mobiililaitteeseen."</string>
+    <string name="Msg_IASetup_ConnectCable">"Kuulokkeitasi ei ole yhdistetty mobiililaitteeseen.
+
+Yhdistä kuulokkeet tähän mobiililaitteeseen."</string>
+    <string name="Msg_IASetup_EarPhoto_ManualNotice">"Tunnistaa korvasi ja ottaa kuvan automaattisesti.
+Jos automaattinen kuvaus epäonnistuu useita kertoja, käytettävissä on myös manuaalinen kuvaus."</string>
+    <string name="Msg_IASetup_General_Err">Käsittely keskeytetään.</string>
+    <string name="Msg_IASetup_Handling_EarPhoto">"Valokuvia korvistasi/päästäsi ja muita tietoja, joista sinut on mahdollista tunnistaa, ei lähetetä millekään 360 Reality Audio -sovellukselle.
+
+Ainoastaan analysoidut tiedot lähetetään musiikkisovelluksille optimoitua musiikin kuuntelua varten."</string>
+    <string name="Msg_IASetup_NeedToUpdateApp" formatted="false">Kun ”%s” on päivitetty uusimpaan versioon, suorita 360 Reality Audio -asetukset loppuun palaamalla toimintoon Headphones Connect ja optimoimalla sovelluksen ”%s”.</string>
+    <string name="Msg_IASetup_Notify_VoiceGuide">"Seuraavassa näytössä on mukana ääniopastus. Lisää mobiililaitteen äänenvoimakkuutta niin, että kuulet opastuksen.
+
+*Älä yhdistä näitä kuulokkeita."</string>
+    <string name="Msg_IASetup_OpenAppInfo">Avataanko ”%s” Google Playssä?</string>
+    <string name="Msg_IASetup_OpenAppInfo_iOS">Avataanko ”%s” App Storessa?</string>
+    <string name="Msg_IASetup_ReasonWhy_EarPhoto">"Live-esityksissä kuulemasi ääni saattaa riippua pääsi ja korvasi muodosta.
+
+Analysoimme korvistasi otetut valokuvat laskeaksemme arvot, joiden avulla voimme tuottaa sinulle personoidun optimaalisen äänikentän.
+
+Kun lähetät nämä optimoidut tulokset 360 Reality Audio -musiikkipalvelusovelluksiin, voit nauttia immersiivisestä musiikkikokemuksesta kuulokkeillasi."</string>
+    <string name="Msg_IASetup_StopConfirm">360 Reality Audio -asetus ei ole valmis. Voit viimeistellä tämän asetuksen myöhemmin.</string>
+    <string name="Msg_IASetup_StopConfirm_Title">Haluatko ohittaa 360 Reality Audio -asetuksen?</string>
+    <string name="Msg_IASetup_UnsupportedArea">Toiminto ei ole tällä hetkellä ole saatavilla maassasi/alueellasi.</string>
+    <string name="Msg_IA_Conflict_Notify_TurnOff_This">"360 Reality Audio -asetus on käytössä.
+Poista tämä asetus käytöstä, kun toistat immersiivistä 360 Reality Audiota musiikkipalvelusovelluksissa."</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_Assignable_Touch">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMBIENT_Button">[TBD]</string>
+    <string name="Msg_Info_AMBSoundCtrlModeSelect_NC_AMB_Button">[TBD]</string>
+    <string name="Msg_Info_ESA">[TBD]</string>
+    <string name="Msg_Info_VoiceGuidance">"Ilmoitusäänet ja ääniohjaus toistetaan kuulokkeista toiminnon ja tilan mukaan.
+Joitakin tärkeitä ilmoituksia ja ääniohjauksia ei poisteta käytöstä, vaikka asetus on pois päältä."</string>
+    <string name="Msg_Info_VoiceGuidance_ASC">"Ilmoitusäänet ja ääniohjaus toistetaan kuulokkeista toiminnon ja tilan mukaan.
+Joitakin tärkeitä ilmoituksia ja ääniohjauksia ei poisteta käytöstä, vaikka asetus on pois päältä.
+Jos poistat käytöstä vain taustaäänen hallintoiminnossa tehtävän muutoksen ilmoitusäänen, voit tehdä muutoksia taustaäänen hallinnan asetuksista."</string>
+    <string name="Msg_Information_NetworkError">Ei voi yhdistää verkkoon.</string>
+    <string name="Msg_Information_OtherError">Ei voi hakea tietoja.</string>
+    <string name="Msg_InstallFailed">Ohjelmiston päivitys epäonnistui.</string>
+    <string name="Msg_MultiPoint_CancelPairingMode">Peruuttaa yhteyden uuteen laitteeseen.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairingMode_History_Description">Yritä yhdistää valittuun laitteeseen uudelleen, kun olet katkaissut yhteyden johonkin jo yhdistettyyn laitteeseen.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Description">Jos haluat liittää uuden laitteen, yritä uudelleen kun olet katkaissut yhteyden johonkin jo yhdistettyyn laitteeseen.</string>
+    <string name="Msg_MultiPoint_CannotEnterPairngMode_Title">Yhdistetyn laitteen yhteys on katkaistava</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnect">Katkaistaanko yhteys laitteeseen %s?</string>
+    <string name="Msg_MultiPoint_ConfirmToDisconnectDescription">"Katkaistaanko yhteys laitteeseen %s?
+Katkaisemisen jälkeen yhteys tähän sovellukseen katkaistaan."</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_Title">Yhteys on muodostettava uudelleen</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOff">Parhaillaan toistettava musiikki pysähtyy, koska yhteys kuulokkeisiin on muodostettava uudelleen. Yhdistä uudelleen kuulokkeisiin?</string>
+    <string name="Msg_MultiPoint_Confirm_Reconnection_TurnOn">Parhaillaan toistettava musiikki pysähtyy, koska yhteys kuulokkeisiin on muodostettava uudelleen. LDAC ei ole käytössä, kun tämä asetus on valittu. Yhdistä uudelleen kuulokkeisiin?</string>
+    <string name="Msg_MultiPoint_DeviceRemoveConfirmation">"Perutaanko laitteen %1$s rekisteröinti?
+Jos haluat yhdistää laitteeseen %1$s uudelleen rekisteröinnin perumisen jälkeen, peru laitteen %2$s rekisteröinti laitteesta %1$s ja suorita rekisteröinti uudelleen."</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_FWUpdate">Ohjelmiston päivittämiseksi %s, joka on yhdistetty kuulokkeisiin, on kytkettävä irti. Kytke irti ja aloita päivitys?</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_Update_Title">Yhdistetty %s on kytkettävä irti</string>
+    <string name="Msg_MultiPoint_Disconnect_Device_VoiceGuidance">Kielen vaihtamiseksi %s, joka on yhdistetty kuulokkeisiin, on kytkettävä irti. Kytke irti ja vaihda kieli?</string>
+    <string name="Msg_MultiPoint_FailedToConnect">Yhteys laitteeseen %s epäonnistui.</string>
+    <string name="Msg_MultiPoint_FailedToDisconnect">Yhteyden katkaiseminen laitteesta %s epäonnistui.</string>
+    <string name="Msg_MultiPoint_FailedToPair">Yhteys uuteen laitteeseen epäonnistui.</string>
+    <string name="Msg_MultiPoint_FailedToRemove">Laitteen %s rekisteröinnin peruminen epäonnistui.</string>
+    <string name="Msg_MultiPoint_Info_Detail">Kun tämä asetus otetaan käyttöön, kuulokkeet voivat muodostaa yhteyden kahteen laitteeseen samanaikaisesti. Yhdistetyt laitteet voidaan tarkistaa valitsemalla [%s]. LDAC ei ole käytössä, kun tämä asetus on valittu.</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice">Uusien laitteiden yhdistämiseksi ohjelmistopäivitys on keskeytettävä. Ohjelmistopäivitystä voidaan jatkaa, vaikka se keskeytetään. Yhdistä?</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_AddDevice_Title">Vaaditaan ohjelmistopäivityksen keskeyttämiseksi</string>
+    <string name="Msg_MultiPoint_Interrupt_FWUpdate_DeviceHistory">Jotta %s voidaan yhdistää, ohjelmistopäivitys on keskeytettävä. Ohjelmistopäivitystä voidaan jatkaa, vaikka se keskeytetään. Yhdistä?</string>
+    <string name="Msg_MultiPoint_SucceedToPairing">Yhteys laitteeseen %s valmis.</string>
+    <string name="Msg_NeedConnectDevice">Kuulokkeet ja Bluetooth-yhteys tarvitaan.</string>
+    <string name="Msg_OoBE_LocationPermission_After">Salli sijaintitietojen käyttö mobiililaitteen asetuksista kuulokkeiden helppoa rekisteröintiä varten.</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore">"Sijainti-toimintoa käyttämällä voit helposti rekisteröidä lähellä olevat kuulokkeet.
+Salli sijainnin käyttö."</string>
+    <string name="Msg_OoBE_LocationPermission_Bofore_afterAndroid11">"Sijainti-toimintoa käyttämällä voit helposti rekisteröidä lähellä olevat kuulokkeet.
+Salli sijainnin käyttö."</string>
+    <string name="Msg_OoBE_LocationSetting_After">Ota sijaintitiedot käyttöön mobiililaitteen asetuksista kuulokkeiden helppoa rekisteröintiä varten.</string>
+    <string name="Msg_OoBE_LocationSetting_Bofore">"Sijainti-toimintoa käyttämällä voit helposti rekisteröidä lähellä olevat kuulokkeet.
+Ota sijainti käyttöön."</string>
+    <string name="Msg_PairingOS_BT_Settings">Valitse kuulokkeet näytöstä Bluetooth-asetukset ja yhdistä.</string>
+    <string name="Msg_PairingOS_BT_Settings_Back">Kun pariliitos on valmis, paina [Takaisin]-painiketta.</string>
+    <string name="Msg_PairingOS_BT_Settings_With_FriendlyName">Valitse %s Bluetooth-asetusnäytöstä ja yhdistä.</string>
+    <string name="Msg_Permission_BLE">Käytämme tätä kuulokkeiden tunnistamiseksi BLE:llä.</string>
+    <string name="Msg_Permission_Location">Sijaintitietoja käytetään, kun sovellus havaitsee toimintosi, ja kuulokkeiden asetukset vaihdetaan automaattisesti.</string>
+    <string name="Msg_Permission_Location02">Sijainnin käyttäminen parantaa taustaäänten hallinnan tarkkuutta entisestään.</string>
+    <string name="Msg_PowerOff">Sammuta kuulokkeet?</string>
+    <string name="Msg_RecommendUpdate">Ohjelmistopäivitystä suositellaan tämän laitteen käyttömukavuuden parantamiseksi.</string>
+    <string name="Msg_Reconnect_BT_Connection">Vaihdetaan ohjelmistosiirron määränpäätä...</string>
+    <string name="Msg_Reset_Factory_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Factory_Title">[TBD]</string>
+    <string name="Msg_Reset_Finished">[TBD]</string>
+    <string name="Msg_Reset_Settings_App_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Confirmation">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reconnect_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Reset_Failed">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Resetting">[TBD]</string>
+    <string name="Msg_Reset_Settings_MDR_Title">[TBD]</string>
+    <string name="Msg_SelectMDR_Footer">Uudet kuulokkeet</string>
+    <string name="Msg_SelectMDR_Header">Valitse kuulokkeet</string>
+    <string name="Msg_Select_ParingDevice_iOS_BT_Settings">"Valitse kuulokkeet mobiililaitteen ”Asetukset” kohteesta [Bluetooth] ja yhdistä.
+Kun yhteys on muodostettu, käynnistä Headphones Connect uudelleen."</string>
+    <string name="Msg_Select_RegisteredDevice_iOS_BT_Settings">"Tarkista, että kuulokkeiden virta on kytketty päälle ja valitse %s mobiililaitteen ”Asetukset”-valikon kohdasta [Bluetooth] ja yhdistä.
+Kun yhteys on muodostettu, käynnistä Headphones Connect uudelleen."</string>
+    <string name="Msg_SendFailed">Ohjelmiston siirto epäonnistui.</string>
+    <string name="Msg_SendFailed_WF_Special">"Ohjelmistosiirto pysähtyi kohdassa %d %%.
+Yritä uudelleen, kun olet asettanut kuulokkeet latauskoteloon ja poistanut ne siitä."</string>
+    <string name="Msg_Setting_Data_Err">Äänitietojen lataus epäonnistui.</string>
+    <string name="Msg_Setting_Downloading_Failed">Äänitietojen lataus epäonnistui.</string>
+    <string name="Msg_Setting_Sending_Failed">Äänitietojen siirto epäonnistui.</string>
+    <string name="Msg_Title_FWAbort">Ohjelmiston siirto keskeytettiin. Tarkista seuraavat.</string>
+    <string name="Msg_TrainingModeSaveCheck">Muokkaus ei ole valmis. Lopeta?</string>
+    <string name="Msg_Update_NeedReboot">"Tarkista, että päivitys on suoritettu.
+
+1. Yritä muodostaa yhteys uudelleen, kun olet asettanut kuulokkeet latauskoteloon ja poistanut ne siitä.
+2. Valitse tämän sovelluksen oikean yläkulman valikosta [%1$s Versio]. Jos ”%2$s” näkyy, päivitys on valmis.
+
+Jos päivitys ei ole valmis, yritä uudelleen."</string>
+    <string name="Msg_Update_NeedReboot_OneUnit">"Tarkista päivityksen päättyminen.
+
+Käytä kuulokkeiden virta pois päältä ja muodosta sitten yhteys uudelleen. Valitse tämän sovelluksen oikean yläkulman valikosta [%1$s Versio]. Jos ”%2$s” näkyy, päivitys on valmis.
+
+Jos päivitys ei ole valmis, yritä uudelleen."</string>
+    <string name="Msg_VoiceData_NeedReboot">"Tarkista, että kieli on vaihdettu.
+
+1. Aseta sekä oikea että vasen kuuloke latauskoteloon, poista ne ja yhdistä ne uudelleen.
+2. Jos muutettu kieli näkyy kohdassa [%s], toiminto on suoritettu.
+
+Jos kieltä ei ole vaihdettu, yritä uudelleen."</string>
+    <string name="Msg_VoiceData_NeedReboot_OneUnit">"Tarkista, että kieli on vaihdettu.
+
+Käytä kuulokkeiden virta pois päältä ja muodosta sitten yhteys uudelleen. Jos muutettu kieli näkyy kohdassa [%s], toiminto on suoritettu.
+
+Jos kieltä ei ole vaihdettu, yritä uudelleen."</string>
+    <string name="Msg_VoiceData_Unavailable_IosVersion">Ääniopastuksen kieltä ei voi vaihtaa iOS-versiossasi.</string>
+    <string name="Msg_iOS_Pairing_Confirmation_TalkBack">Valitse kuulokkeet seuraavasta näytöstä. Kuulokkeiden näyttäminen saattaa kestää 1 minuutin.</string>
+    <string name="MultiPoint_AddNewDevice_Description">Avaa yhdistettävän laitteen Bluetooth-asetukset ja valitse %s.</string>
+    <string name="MultiPoint_DeviceNotConnect">Ei yhdistetty.</string>
+    <string name="MultiPoint_DeviceStatus_Title">Yhdistettävä laite</string>
+    <string name="MultiPoint_Device_Add">Yhdistä uuteen laitteeseen</string>
+    <string name="MultiPoint_Header_History">Paritettu</string>
+    <string name="MultiPoint_Header_Pairing">Yhdistetään...</string>
+    <string name="MultiPoint_Menu_Delete">Peruuta rekisteröinti</string>
+    <string name="MultiPoint_Menu_Disconnect">Katkaise yhteys</string>
+    <string name="MultiPoint_Setting_Description">"Nämä kuulokkeet voidaan yhdistää yhtä aikaa %d laitteeseen.
+Jos haluat vaihtaa laitteiden välillä musiikin toistamiseksi, pysäytä musiikki ja suorita toistotoiminnot jollakin muulla yhdistetyllä laitteella."</string>
+    <string name="MultiPoint_Setting_Title">Hallitse yhdistettyjä laitteita</string>
+    <string name="MultiPoint_Status_Connecting">Yhdistetään...</string>
+    <string name="MultiPoint_Status_Disconnecting">Katkaistaan...</string>
+    <string name="MultiPoint_Talkback_Add_Device">Yhdistää uuteen laitteeseen.</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_1">Laite 1</string>
+    <string name="MultiPoint_Talkback_DeviceNumber_2">Laite 2</string>
+    <string name="MultiPoint_Talkback_Device_Disconnected">Ei yhdistettyä laitetta.</string>
+    <string name="MultiPoint_Talkback_Playing_Right">Ääni toistetaan.</string>
+    <string name="MultiPoint_Talkback_Status_Connect">Yhdistetty.</string>
+    <string name="MultiPoint_Talkback_Status_Connecting">Yhdistetään...</string>
+    <string name="MultiPoint_Talkback_Status_Quitting">Katkaistaan yhteyttä...</string>
+    <string name="MultiPoint_Title">Yhdistä 2 laitteeseen yhtaikaa</string>
+    <string name="MultiPoint_TitleNum_1">1.</string>
+    <string name="MultiPoint_TitleNum_2">2.</string>
+    <string name="NCOPT_Cancel_TalkBack">Lisäksi optimoinnin keskeyttämiseksi puolivälissä paina jotakin kuulokkeiden painikkeista.</string>
+    <string name="NC_Title">Kohinanvaimennus</string>
+    <string name="NSBluetoothAlwaysUsageDescription">Käytämme tätä kuulokkeiden tunnistamiseksi Bluetooth:llä.</string>
+    <string name="NSBluetoothPeripheralUsageDescription">Käytämme tätä kuulokkeiden tunnistamiseksi Bluetooth:llä.</string>
+    <string name="NSCameraUsageDescription">Anna älypuhelimesi ottaa kuva korvistasi. Analysoimme korvistasi otetut valokuvat laskeaksemme arvot, joiden avulla voimme tuottaa sinulle personoidun optimaalisen äänikentän.</string>
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Jos haluat muuttaa asetuksia Taustaäänten hallinnan perusteella, valitse [Salli aina].</string>
+    <string name="NSLocationAlwaysUsageDescription">Jos haluat muuttaa asetuksia Taustaäänten hallinnan perusteella, valitse [Salli aina].</string>
+    <string name="NSLocationWhenInUseUsageDescription">Jos haluat muuttaa asetuksia Taustaäänten hallinnan perusteella, salli käyttö.</string>
+    <string name="NSUserTrackingUsageDescription">Käytämme näitä tietoja, jotta voimme tarjota tukevia tietoja ja mainoksia, jotka vastaavat laitteen käyttöäsi ja mielenkiinnon kohteitasi.</string>
+    <string name="Notification_Headphones_Connected">Yhdistetään kohteeseen %s...</string>
+    <string name="Notification_Headphones_Connected_Unknown">Yhdistetään kuulokkeisiin...</string>
+    <string name="Notification_IASetup_NeedToComplete">Palaa Headphones Connect -sovellukseen ja suorita 360 Reality Audio -asetukset.</string>
+    <string name="Notification_IASetup_NeedToComplete_Title">360 Reality Audio -asetukset kesken</string>
+    <string name="Notification_Summary_Abort">Ohjelmiston siirto keskeytetty.</string>
+    <string name="Notification_Summary_Downloading">Ladataan...</string>
+    <string name="Notification_Summary_FWVer_unmatched">Päivitys epäonnistui.</string>
+    <string name="Notification_Summary_Prepared">Valmis päivittämään.</string>
+    <string name="Notification_Summary_Sending">Siirretään...</string>
+    <string name="Notification_Summary_Update_NeedReboot">Tarkista, että päivitys on suoritettu.</string>
+    <string name="Notification_Summary_failed">Päivitys epäonnistui.</string>
+    <string name="Notification_Summary_updated">Päivitys valmis.</string>
+    <string name="Notification_Summary_updating">Päivitetään...</string>
+    <string name="Notification_Title">Headphones Connect</string>
+    <string name="Notification_VoiceGuidance_Setting">Vaihdetaan...</string>
+    <string name="Notification_VoiceGuidance_Setting_Complete">Vaihto valmis.</string>
+    <string name="Notification_VoiceGuidance_Setting_Failed">Vaihto epäonnistui.</string>
+    <string name="Notification_VoiceGuidance_Setting_NeedReboot">Tarkista, että muutos on otettu käyttöön.</string>
+    <string name="Notification_VoiceGuidance_Setting_Title">Vaihda ääniohjauksen kieli</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting">Vaihda ääniohjauksen kieli</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Complete">Ääniohjauksen kielen vaihto valmis.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_Failed">Ääniohjauksen kielen vaihto epäonnistui.</string>
+    <string name="Notification_iOS_VoiceGuidance_Setting_NeedReboot">Tarkista, että ääniohjauksen kieli on vaihdettu.</string>
+    <string name="OPT_Baro_Title">Ilmakehänpaineen optimointi</string>
+    <string name="OPT_Message_Analyzing">Melunvaimennus mukautetaan optimaalisesti oman makusi mukaan.</string>
+    <string name="OPT_Message_Baro">Jos ilmakehänpaine muuttuu, suorita prosessi uudelleen.</string>
+    <string name="OPT_Message_Comp">Melunvaimennus mukautetaan optimaalisesti oman makusi mukaan.</string>
+    <string name="OPT_Message_Personal">Pidä niin kuin aina. Suorita prosessi uudelleen, jos muutat pitotapaa esim. uuden hiustyylin vuoksi.</string>
+    <string name="OPT_Personal_Done_Long">Optimoitu</string>
+    <string name="OPT_Personal_Done_Short">Valmis</string>
+    <string name="OPT_Personal_Initial_Long">Ei optimoitu</string>
+    <string name="OPT_Personal_Initial_Short">Ennen opt.</string>
+    <string name="OPT_Personal_Title">Henkilökohtainen optimointi</string>
+    <string name="OPT_Start">Aloita</string>
+    <string name="OPT_Status_Analyzing">Analysoidaan...</string>
+    <string name="OPT_Status_Baro">Mitataan ilmakehänpainetta...</string>
+    <string name="OPT_Status_Comp">Valmis</string>
+    <string name="OPT_Status_Personal">Mitataan kuulokkeiden pitotapaa...</string>
+    <string name="OPT_Title">Melunvaimennuksen optimoija</string>
+    <string name="OPT_Title_iOS">Melunvaimennuksen optimoija</string>
+    <string name="OPT_atm_Long">Optimoitu %.1f atm:lle</string>
+    <string name="OPT_atm_Short">%.1f atm</string>
+    <string name="OPT_detail_Baro">Aloita pitämällä kuulokkeita niin kuin pidät niitä. Jos ilmakehänpaine muuttuu esim. lentokoneessa, suorita prosessi uudelleen.</string>
+    <string name="OPT_detail_Personal_Baro">Aloita pitämällä kuulokkeita niin kuin pidät niitä. Jos niiden pitotapa ja ilmakehänpaine muuttuvat, suorita prosessi uudelleen.</string>
+    <string name="OoBE_COMP_Message">Yhteys kuulokkeisiin valmis.</string>
+    <string name="OoBE_COMP_Title">Lisää kuulokkeet</string>
+    <string name="OoBE_Manual_Button_Label">Rekisteröi Bluetooth-asetusten kautta</string>
+    <string name="OoBE_Manual_Pair_BT_OFF_Error_Msg">"Bluetooth on pois päältä.
+Ota Bluetooth käyttöön ohjauskeskuksesta."</string>
+    <string name="OoBE_Manual_Pair_Message">"Jatka kuulokkeiden virtapainikkeen painamista noin 7 sekuntia. Kun kuulokkeiden LED vilkkuu vuoroin sinisenä ja punaisena tai nopeasti sinisenä, paina [Seuraava].
+Jos virtapainiketta ei ole, aseta kuulokkeet Bluetooth-laitteen rekisteröintitilaan (pariliitos). Katso lisätiedot käyttöohjeesta."</string>
+    <string name="OoBE_Manual_Pair_Title">Lisää kuulokkeet</string>
+    <string name="OoBE_Message1">Yhdistää kuulokkeet Bluetoothilla.</string>
+    <string name="OoBE_Message2">Valitse liitäntätapa.</string>
+    <string name="OoBE_NFC_Button_Label">Rekisteröi One touch-yhteydellä (NFC)</string>
+    <string name="OoBE_NFC_Message">Aseta kuulokkeiden N-merkki mobiililaitteen N-merkin yläpuolelle ja suorita kosketustoiminto.</string>
+    <string name="OoBE_NFC_Title">Lisää kuulokkeet</string>
+    <string name="OoBE_NonBT_Button_Label">Rekisteröi johdolliset kuulokkeet luettelosta</string>
+    <string name="OoBE_NonBT_DeviceList_Detail">Rekisteröi kuulokkeesi makusi mukaan optimoidun 360 Reality Audion käyttämiseksi.</string>
+    <string name="OoBE_Power_On_Message">"Kytke kuulokkeiden virta päälle. Varmista, että virta on päällä, ja paina [Seuraava]-painiketta.
+Katso kuulokkeiden käyttöoppaasta, miten virta kytketään päälle."</string>
+    <string name="OoBE_Power_On_Message_NonBT_Detail">Jatka napauttamalla [%s]-painiketta.</string>
+    <string name="OoBE_Power_On_Message_NonBT_Label">Jos kuulokkeesi ovat johdolliset</string>
+    <string name="OoBE_Proximity_Message">Aseta mobiililaite ja %s lähelle toisiaan kuulokkeiden todentamiseksi.</string>
+    <string name="OoBE_SelectAcc_Message">Valitse kuulokkeet. Näyttäminen voi kestää 1 minuutin.</string>
+    <string name="OoBE_SelectAcc_Title">Lisää kuulokkeet</string>
+    <string name="OoBE_Title">Lisää kuulokkeet</string>
+    <string name="PP_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_summary/hpc_pp_summary_%s_fi.html</string>
+    <string name="PP_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_fi.html</string>
+    <string name="PP_USAGE_UPDATE_SUMMARY_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp_usage_summary/hpc_pp_usage_summary_%s_fi.html</string>
+    <string name="PP_USAGE_URL" formatted="false">https://musiccenter-cdn.meta.ndmdhs.com/headphones/pp/%s/pp/hpc_pp_%s_fi.html#pp_usage_product_improvement</string>
+    <string name="PS_Detail">[%s] poistetaan automaattisesti käytöstä kun audiotoisto pysäytetään tietyksi aikaa, jolloin kuulokkeiden valmiustila kestää pidempään.</string>
+    <string name="PS_Title">Virransäästövalmiustila</string>
+    <string name="PlaybackController_Title">Nyt toistetaan</string>
+    <string name="PlaybackController_Unknown_Album">Tuntematon albumi</string>
+    <string name="PlaybackController_Unknown_Artist">Tuntematon esittäjä</string>
+    <string name="PlaybackController_Unknown_TrackName">Tuntematon kappale</string>
+    <string name="Questionnaire_HowToDisplayAgain_Description">Voit näyttää kyselyn uudelleen näytön oikean yläkulman valikon kohdasta [%s].</string>
+    <string name="Questionnaire_MenuItem">Kysely</string>
+    <string name="Questionnaire_Msg_No_Questionnaire">Tällä hetkellä ei ole kyselyitä. Odota seuraavaa kyselyä.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Format">%3$s. %2$s %1$s – %6$s. %5$s %4$s</string>
+    <string name="Questionnaire_Notification_AnswerTerm_ItemName">Vastausjakso:</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_01">tam.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_02">hel.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_03">maa.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_04">huh.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_05">tou.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_06">kes.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_07">hei.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_08">elo.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_09">syy.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_10">lok.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_11">mar.</string>
+    <string name="Questionnaire_Notification_AnswerTerm_Month_12">jou.</string>
+    <string name="Questionnaire_Notification_Button_Answer">Vastaa</string>
+    <string name="Questionnaire_Notification_Button_GoAhead">Jatka</string>
+    <string name="Questionnaire_Notification_Button_NotAnswer">Älä vastaa</string>
+    <string name="Questionnaire_Notification_Note">Käynnistä selain ja näytä kyselysivusto.</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_Fix">%d kysymystä</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_Format_MinMax">%1$d – %2$d kysymystä</string>
+    <string name="Questionnaire_Notification_NumOfQuestions_ItemName">Kysymysten määrä:</string>
+    <string name="Questionnaire_Notification_RequiredTime_Format">Noin %d minuuttia</string>
+    <string name="Questionnaire_Notification_RequiredTime_ItemName">Vaadittu aika:</string>
+    <string name="Reset_Button">[TBD]</string>
+    <string name="Reset_Factory_Description">[TBD]</string>
+    <string name="Reset_Factory_Label_Pairing">[TBD]</string>
+    <string name="Reset_Factory_Title">[TBD]</string>
+    <string name="Reset_Factory_Title_Description">[TBD]</string>
+    <string name="Reset_Settings_App_Note">[TBD]</string>
+    <string name="Reset_Settings_Description">[TBD]</string>
+    <string name="Reset_Settings_Label_App">[TBD]</string>
+    <string name="Reset_Settings_Label_MDR">[TBD]</string>
+    <string name="Reset_Settings_Title">[TBD]</string>
+    <string name="Reset_Settings_Title_Description">[TBD]</string>
+    <string name="Reset_Title">[TBD]</string>
+    <string name="RestrictionMsg_IASetup_TalkBack">- Koska ääni toistetaan kuulokkeista, suorita analyysit perheen ja ystävien kanssa, jos käyttö on vaikeaa.</string>
+    <string name="Right_Headphones">Oikea yksikkö</string>
+    <string name="STO_TOS_URL" formatted="false">https://headphones-cdn.meta.ndmdhs.com/tos/setting_take_over/%s/hpc_tos_sto_%s_fi.html</string>
+    <string name="STRING_CAUTION_ACCOUNT_AUTH_ERROR">Tilin todennus epäonnistui.</string>
+    <string name="STRING_CAUTION_CANCEL_REGISTRATION">Rekisteröinti peruutettiin.</string>
+    <string name="STRING_CAUTION_CANNOT_ACCESS_SERVER">"Palvelimeen ei saada juuri nyt yhteyttä.
+Yritä hetken kuluttua uudelleen."</string>
+    <string name="STRING_CAUTION_CANNOT_REGISTER_DEVICE">"Ei voi rekisteröidä lisää laitteita.
+Poista tarpeettomat laiterekisteröinnit."</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNIN">Sisäänkirjaus epäonnistui.</string>
+    <string name="STRING_CAUTION_CANNOT_SIGNOUT">Ei voinut kirjautua ulos.</string>
+    <string name="STRING_CAUTION_CANNOT_USE_GPS">Ota sijaintitiedot käyttöön laitteen asetuksista läheisten laitteiden helppoa rekisteröintiä varten.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_CONNECT_NETWORK">Ei voi yhdistää verkkoon.</string>
+    <string name="STRING_CAUTION_COMMON_CANNOT_OPERATE">Ei voinut käyttää.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_REGISTRATION_NUMBERS">Annettu rekisteröintinumero on virheellinen.</string>
+    <string name="STRING_CAUTION_COMMON_INPUT_STRINGS">Syötemerkkijono on liian pitkä.</string>
+    <string name="STRING_CAUTION_CONNECT">Ei pysty yhdistämään laitteeseen %s.</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON">"Ei pysty yhdistämään laitteeseen %s.
+Yhdistä laitteen kanssa samaan verkkoon ja kytke virta laitteeseen."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_ANY">"Ei voi muodostaa yhteyttä laitteeseen %s.
+Tarkista, että laitteeseen on kytketty virta."</string>
+    <string name="STRING_CAUTION_CONNECT_DEVICE_POWERON_BT">"Ei voi muodostaa yhteyttä laitteeseen %s.
+Tarkista, että laitteen Bluetooth-toiminto on käytössä."</string>
+    <string name="STRING_CAUTION_CONNECT_ERROR">"Ei pysty yhdistämään laitteeseen %s.
+Yhdistä laitteen kanssa samaan verkkoon."</string>
+    <string name="STRING_CAUTION_CONNECT_RETRY">"Ei pysty yhdistämään laitteeseen %s.
+Yritä hetken kuluttua uudelleen."</string>
+    <string name="STRING_CAUTION_CONNECT_TIMEOUT">"Ei pysty yhdistämään laitteeseen %s.
+Yritä uudelleen, kun olet tarkistanut verkon tilan."</string>
+    <string name="STRING_CAUTION_CONNECT_WOL">"Ei pysty yhdistämään laitteeseen %s.
+Kytke virta laitteeseen?"</string>
+    <string name="STRING_CAUTION_DISCONNECT">Irrotettu laitteesta %s.</string>
+    <string name="STRING_CAUTION_EULA">Sinun on hyväksyttävä %s tämän sovelluksen käyttämiseksi.</string>
+    <string name="STRING_CAUTION_FW_VERSION_CHECK">Versiota ei voitu tarkistaa.</string>
+    <string name="STRING_CAUTION_LOAD_EULA_OR_PP">Ei voinut lukea %s.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_APPLICATION">Määritettyä sovellusta ei löydy.</string>
+    <string name="STRING_CAUTION_NOT_FOUND_UNREGISTERED_DEVICE">Laitetta ei löytynyt.</string>
+    <string name="STRING_CAUTION_PERMISSION_DISABLED">Salli sijaintitietojen käyttö laitteen asetuksista läheisten laitteiden helppoa rekisteröintiä varten.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE">Ei voinut rekisteröidä.</string>
+    <string name="STRING_CAUTION_REGIST_DEVICE_RETRY">"Ei voinut rekisteröidä.
+Yritä hetken kuluttua uudelleen."</string>
+    <string name="STRING_CAUTION_SERVER_STRING">Yhteys epäonnistui.</string>
+    <string name="STRING_CAUTION_TURN_ON_BT">Ei voinut kytkeä Bluetoothia päälle.</string>
+    <string name="STRING_CAUTION_TURN_ON_WIFI">Wi-Fin päällekytkentä epäonnistui.</string>
+    <string name="STRING_CAUTION_WEAR_CONNECT_DEVICE">Ei yhdistettynä laitteeseen %s.</string>
+    <string name="STRING_CAUTION_WIFI_CANNOT_CONNECT">"Ei yhdistetty Wi-Fi-verkkoon.
+Yhdistä laitteen kanssa samaan verkkoon."</string>
+    <string name="STRING_CAUTION_WIFI_DEVICE_POWER_ON">"Ei yhdistetty Wi-Fi-verkkoon.
+Yhdistä laitteen kanssa samaan verkkoon ja kytke virta laitteeseen."</string>
+    <string name="STRING_COMMON_DONE">Valmis</string>
+    <string name="STRING_COMMON_NEXT">Seuraava</string>
+    <string name="STRING_COMMON_OTHER">Muu</string>
+    <string name="STRING_DEVICE">Laite</string>
+    <string name="STRING_DEVICES">Laitteet</string>
+    <string name="STRING_IOS_LOCATION">Sijainti</string>
+    <string name="STRING_IOS_SETTINGS">Asetukset</string>
+    <string name="STRING_MSG_ACCESS_REQUEST_WARNING">Sinun on sallittava käyttö tämän sovelluksen käyttämiseksi.</string>
+    <string name="STRING_MSG_CANCEL_DELETE">Peruuta poisto?</string>
+    <string name="STRING_MSG_CANNOT_GET_INFORMATION_FAIL">Ei voi hakea tietoja.</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_CONNECT">Yhdistetään...</string>
+    <string name="STRING_MSG_COMMON_ACTIVITY_LOAD">Ladataan...</string>
+    <string name="STRING_MSG_COMMON_CANNOT_SELECT_CONTENTS">Lisävalintoja ei voi tehdä.</string>
+    <string name="STRING_MSG_COMMON_PLEASE_WAIT">Odota hetki.</string>
+    <string name="STRING_MSG_COMMUNICATING">Yhdistetään...</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_ANY">Tarkista, että laitteeseen on kytketty virta.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_BT">Tarkista, että laitteeseen on kytketty virta ja yhdistä laite Bluetoothin kautta.</string>
+    <string name="STRING_MSG_CONFIRM_DEVICE_POWER_WIFI">Yhdistä laitteen kanssa samaan verkkoon.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_MESSAGE">Et voi tehdä varmuuskopioita ja palautuksia. Ne tulevat saataville, jos kirjaudut sisään uudelleen.</string>
+    <string name="STRING_MSG_CONFIRM_DISAGREE_TITLE">Kirjaudu ulos ja lopeta käyttö?</string>
+    <string name="STRING_MSG_CONFIRM_EULA_OR_PP">Ole hyvä ja lue tämän sovelluksen %s.</string>
+    <string name="STRING_MSG_CONFIRM_PP">Ole hyvä ja lue tämän sovelluksen %s.</string>
+    <string name="STRING_MSG_CONFIRM_TERM_OF_USE_FOR_SETTINGSTKEOVER">[TBD]Jotta voit käyttää asetusten varmuuskopiointia ja palauttamista, sinun on hyväksyttävä seuraavat käyttöehdot.</string>
+    <string name="STRING_MSG_DELETE_COMPLETE">Poistettu.</string>
+    <string name="STRING_MSG_DELETING">Poistetaan...</string>
+    <string name="STRING_MSG_ENTER_PIN_CODE">Anna TV:ssä näytettävä rekisteröintinumero.</string>
+    <string name="STRING_MSG_FINISH_DEVICE_REGISTRATION">Laitteen rekisteröinti on valmis.</string>
+    <string name="STRING_MSG_FW_VERSION_CHECKING">Tarkistetaan versio...</string>
+    <string name="STRING_MSG_GPS_BEFORE">"Jos sijaintitiedot ovat käytössä, voit helposti rekisteröidä läheisiä laitteita.
+Ota sijaintitiedot käyttöön."</string>
+    <string name="STRING_MSG_INFOMATION_UPDATING">Haetaan tietoja...</string>
+    <string name="STRING_MSG_I_AGREE_TO_START">Olen lukenut edellä olevan sisällön ja hyväksyn sen.</string>
+    <string name="STRING_MSG_LICENCE_GOOGLE">Google ja Android ovat tavaramerkkejä, jotka omistaa Google Inc.</string>
+    <string name="STRING_MSG_LOADING">Ladataan...</string>
+    <string name="STRING_MSG_LOCATION_PERMISSION_BEFORE">"Jos sijaintitiedot ovat käytössä, voit helposti rekisteröidä läheisiä laitteita.
+Salli sijaintietojen käyttö."</string>
+    <string name="STRING_MSG_NEED_AGREE_TERM_OF_USE">Tämän toiminnon käyttäminen edellyttää, että hyväksyt käyttöehdot.</string>
+    <string name="STRING_MSG_POWER_ON_DEVICE">Kytke virta laitteeseen %s?</string>
+    <string name="STRING_MSG_REGIST_FINISH">Rekisteröity.</string>
+    <string name="STRING_MSG_SELECTDEVICE_EMPTY_EXP">Paina [+]-painiketta ja rekisteröi laite.</string>
+    <string name="STRING_MSG_SELECT_COUNTRY">Valitse asuinmaa/-alue.</string>
+    <string name="STRING_MSG_SIGNOUT">Kirjaudutaanko ulos?</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_FORCE_DIALOG">"Vahvista, että Sony Home Entertainment &amp; Sound Products Inc. (”Sony”) (rekisterinpitäjä), kotipaikka Japani, voi käyttää sovelluksen käyttöösi liittyviä tietoja (kuten Tietosuojakäytännössämme tarkemmin määritetään %s) tuotteen parannus- ja kehitystarkoituksiin (teknisiä tai käytettävyyden parannuksia uusien tai muutettujen toimintojen avulla) valitsemalla [Hyväksy] alla. Jos haluat käyttää sovellusta antamatta tällaista suostumusta Sonylle, valitse [En hyväksy] alla.
+Voit peruuttaa edellä olevan suostumuksesi milloin tahansa valitsemalla ”(3 pistettä) Valikko” > ”Tietoja tästä sovelluksesta” > ”Tietosuoja-asetukset” Sovelluksessa."</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_MENU">Vahvista, että Sony Home Entertainment &amp; Sound Products Inc. (”Sony”) (rekisterinpitäjä), kotipaikka Japani, voi käyttää sovelluksen käyttöösi liittyviä tietoja (kuten Tietosuojakäytännössämme tarkemmin määritetään %s) tuotteen parannus- ja kehitystarkoituksiin (teknisiä tai käytettävyyden parannuksia uusien tai muutettujen toimintojen avulla) valitsemalla alla oleva kohde. Jos et halua antaa tällaista suostumusta Sonylle, poista kohteen valinta alla.</string>
+    <string name="STRING_MSG_USAGE_CONFIRM_WELCOME">"Vahvista, että Sony Home Entertainment &amp; Sound Products Inc. (”Sony”) (rekisterinpitäjä), kotipaikka Japani, voi käyttää sovelluksen käyttöösi liittyviä tietoja (kuten Tietosuojakäytännössämme tarkemmin määritetään %s) tuotteen parannus- ja kehitystarkoituksiin (teknisiä tai käytettävyyden parannuksia uusien tai muutettujen toimintojen avulla) valitsemalla [Hyväksy ja jatka] alla. Jos et halua antaa tällaista suostumusta Sonylle, valitse [En hyväksy ja jatka] alla.
+Voit peruuttaa edellä olevan suostumuksesi milloin tahansa valitsemalla ”(3 pistettä) Valikko” > ”Tietoja tästä sovelluksesta” > ”Tietosuoja-asetukset” Sovelluksessa."</string>
+    <string name="STRING_REMOTE_BTN_AUDIO">ÄÄNI</string>
+    <string name="STRING_REMOTE_BTN_BACK">BACK</string>
+    <string name="STRING_REMOTE_BTN_BLUE">SIN</string>
+    <string name="STRING_REMOTE_BTN_CC">"TEKSTITYS/
+CC"</string>
+    <string name="STRING_REMOTE_BTN_CH">CH</string>
+    <string name="STRING_REMOTE_BTN_DELETE">POISTA</string>
+    <string name="STRING_REMOTE_BTN_DIGITAL">Digitaalinen</string>
+    <string name="STRING_REMOTE_BTN_DIGI_ANA">"DIGITAAL/
+ANALOG"</string>
+    <string name="STRING_REMOTE_BTN_DISPLAY">NÄYTÄ</string>
+    <string name="STRING_REMOTE_BTN_ENTER">ENTER</string>
+    <string name="STRING_REMOTE_BTN_EXIT">LOPETA</string>
+    <string name="STRING_REMOTE_BTN_GREEN">VIHR</string>
+    <string name="STRING_REMOTE_BTN_GUIDE">OPAS</string>
+    <string name="STRING_REMOTE_BTN_HELP">OHJE</string>
+    <string name="STRING_REMOTE_BTN_HOME">HOME</string>
+    <string name="STRING_REMOTE_BTN_INPUT">INPUT</string>
+    <string name="STRING_REMOTE_BTN_JUMP">HYPPÄÄ</string>
+    <string name="STRING_REMOTE_BTN_MENU">VALIKKO</string>
+    <string name="STRING_REMOTE_BTN_MUTE">MUTE</string>
+    <string name="STRING_REMOTE_BTN_OK">OK</string>
+    <string name="STRING_REMOTE_BTN_OPTIONS">ASET</string>
+    <string name="STRING_REMOTE_BTN_PIC_OFF">KUVA OFF</string>
+    <string name="STRING_REMOTE_BTN_POWER">POWER</string>
+    <string name="STRING_REMOTE_BTN_PROG">OHJELMOI</string>
+    <string name="STRING_REMOTE_BTN_RED">PUN</string>
+    <string name="STRING_REMOTE_BTN_RETURN">TAKAISIN</string>
+    <string name="STRING_REMOTE_BTN_TV">TV</string>
+    <string name="STRING_REMOTE_BTN_VOICE_INPUT">"PUHE-
+KIRJOITUS"</string>
+    <string name="STRING_REMOTE_BTN_VOL">VOL</string>
+    <string name="STRING_REMOTE_BTN_WIDE">LAAJA</string>
+    <string name="STRING_REMOTE_BTN_YELLOW">KELT</string>
+    <string name="STRING_REMOTE_MSG_BT_PERMISSION_DISABLED">Ei voi käyttää Bluetoothia. Salli Bluetoothin käyttö.</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF">"Bluetooth on pois päältä.
+Ota Bluetooth käyttöön ohjauskeskuksesta."</string>
+    <string name="STRING_REMOTE_MSG_CONTROL_CENTER_BT_OFF_BT_PERMISSION_DISABLED">"Kytke Bluetooth päälle ohjauskeskuksesta.
+Jos Bluetooth on kytketty päälle, salli Bluetoothin käyttö."</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_BT">Kytketään Bluetoothia päälle...</string>
+    <string name="STRING_REMOTE_MSG_TURNNING_ON_WIFI">Kytketään Wi-Fiä päälle...</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_BT_ASK">Kytke Bluetooth päälle?</string>
+    <string name="STRING_REMOTE_MSG_TURN_ON_WIFI_ASK">Kytke Wi-Fi päälle?</string>
+    <string name="STRING_REMOTE_TEXT_ABOUT_APP">Tietoja tästä sovelluksesta</string>
+    <string name="STRING_REMOTE_TEXT_APP_SETTINGS">Sovellusasetukset</string>
+    <string name="STRING_REMOTE_TEXT_BT_SETTINGS">Bluetooth-asetukset</string>
+    <string name="STRING_REMOTE_TEXT_DEVICE_SETTINGS">Laiteasetukset</string>
+    <string name="STRING_REMOTE_TEXT_GOTO_IOS_SETTINGS">Asetuksiin</string>
+    <string name="STRING_REMOTE_TEXT_LOG_SEND_SETTINGS">Lähetä käyttöhistoria</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_ANY">"Laitetta ei löytynyt.
+Tarkista, että laitteeseen on kytketty virta."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BT_PAIRING">"Etäkäytä tallenninta.
+Tallenna ja tarkista tallennukset etänä!"</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_BT_OFF">"Bluetooth on pois päältä.
+Kytke Bluetooth."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_BY_WIFI_OFF">"Wi-Fi on pois päältä.
+Yhdistä laitteen kanssa samaan verkkoon."</string>
+    <string name="STRING_REMOTE_TEXT_NO_DEVICE_FOUND_WIFI">"Laitetta ei löytynyt.
+Yhdistä laitteen kanssa samaan verkkoon ja kytke virta laitteeseen."</string>
+    <string name="STRING_REMOTE_TEXT_PLEASE_SELECT_DEVICE">Valitse rekisteröitävä laite.</string>
+    <string name="STRING_REMOTE_TEXT_REGIST_DEVICE">Lisää laite</string>
+    <string name="STRING_REMOTE_TEXT_REGSTER_COMP_BTN">Rekisteröity.</string>
+    <string name="STRING_REMOTE_TEXT_REMOTE">Kaukosäädin</string>
+    <string name="STRING_REMOTE_TEXT_SELECTED_ITEM">Valittu</string>
+    <string name="STRING_REMOTE_TEXT_SELECT_DEVICE">Valitse laite</string>
+    <string name="STRING_REMOTE_TEXT_SETTINGS_ITEM_HELP">Ohje</string>
+    <string name="STRING_REMOTE_TEXT_SET_BT_SETTINGS">Aseta Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_SET_WIFI_SETTINGS">Aseta Wi-Fi</string>
+    <string name="STRING_REMOTE_TEXT_TAP_TO_REGSITER">Rekisteröi napauttamalla</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_BT">Kytke Bluetooth</string>
+    <string name="STRING_REMOTE_TEXT_TURN_ON_WIFI">Kytke Wi-Fi päälle</string>
+    <string name="STRING_REMOTE_TEXT_WIFI_SETTINGS">Wi-Fi-asetukset</string>
+    <string name="STRING_SONY">Sony</string>
+    <string name="STRING_SURROUND">Surround</string>
+    <string name="STRING_TALKBACK_BUTTON_OPTION">Lisää asetuksia</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_DEVICE">Vaihda tähän laitteeseen kaksoisnapauttamalla.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_CHANGE_OTHER_DEVICE">Vaihda toiseen laitteeseen kaksoisnapauttamalla.</string>
+    <string name="STRING_TALKBACK_DOUBLETAP_TO_EXPAND">Laajenna kaksoisnapauttamalla.</string>
+    <string name="STRING_TALKBACK_SELECTED_OBJECT_INFO">%2$s / %1$s</string>
+    <string name="STRING_TEXT_ACCOUNT_SETTINGS">Tilin asetukset</string>
+    <string name="STRING_TEXT_ADD_DEVICE">Rekisteröi toinen laite</string>
+    <string name="STRING_TEXT_COMMON_ACCEPT">Hyväksy</string>
+    <string name="STRING_TEXT_COMMON_AGREE">Hyväksyn</string>
+    <string name="STRING_TEXT_COMMON_AGREE_AND_PROCEED">Hyväksy ja jatka</string>
+    <string name="STRING_TEXT_COMMON_ALL">Kaikki</string>
+    <string name="STRING_TEXT_COMMON_ALLOW">Salli</string>
+    <string name="STRING_TEXT_COMMON_BACK">Takaisin</string>
+    <string name="STRING_TEXT_COMMON_CANCEL">Peruuta</string>
+    <string name="STRING_TEXT_COMMON_CANCELING_REGISTRATION">Perutaan rekisteröintiä...</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION">Peru rekisteröinti</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_COMPLETE">Rekisteröinti peruttu.</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_CONFIRMATION">Perutaanko tämän laitteen rekisteröinti?</string>
+    <string name="STRING_TEXT_COMMON_CANCEL_REGISTRATION_FAILED">Rekisteröintiä ei voitu perua.</string>
+    <string name="STRING_TEXT_COMMON_CHECK_EVERY_TIME">Kysy aina</string>
+    <string name="STRING_TEXT_COMMON_CHECK_NOT_DISPLAY_NEXT_TIME">Älä näytä uudelleen</string>
+    <string name="STRING_TEXT_COMMON_CLOSE">Sulje</string>
+    <string name="STRING_TEXT_COMMON_COLLAPSE">Pienennä</string>
+    <string name="STRING_TEXT_COMMON_CONFIRM">OK</string>
+    <string name="STRING_TEXT_COMMON_DELETE">Poista</string>
+    <string name="STRING_TEXT_COMMON_DENY">Estä</string>
+    <string name="STRING_TEXT_COMMON_DESELECT_ALL">Poista valinnat</string>
+    <string name="STRING_TEXT_COMMON_DETAIL_SETTINGS">Yksityiskohtaiset asetukset</string>
+    <string name="STRING_TEXT_COMMON_DEVICE_MENU">Laitevalikko</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE">En hyväksy</string>
+    <string name="STRING_TEXT_COMMON_DISAGREE_AND_PROCEED">En hyväksy ja jatka</string>
+    <string name="STRING_TEXT_COMMON_DO">Päällä</string>
+    <string name="STRING_TEXT_COMMON_DONT_USE">Älä käytä</string>
+    <string name="STRING_TEXT_COMMON_DOWN">Alas</string>
+    <string name="STRING_TEXT_COMMON_DO_NOTACCEPT">Hylkää</string>
+    <string name="STRING_TEXT_COMMON_EXIT">Lopeta</string>
+    <string name="STRING_TEXT_COMMON_EXPAND">Laajenna</string>
+    <string name="STRING_TEXT_COMMON_FAQ">Vianmääritys</string>
+    <string name="STRING_TEXT_COMMON_FEEDBACK">Palaute</string>
+    <string name="STRING_TEXT_COMMON_FINISH">Lopeta</string>
+    <string name="STRING_TEXT_COMMON_FORWARD">Eteenpäin</string>
+    <string name="STRING_TEXT_COMMON_HELP_AND_INFO">Ohje ja tiedot</string>
+    <string name="STRING_TEXT_COMMON_HIDE">Piilota</string>
+    <string name="STRING_TEXT_COMMON_INFO">Tiedot</string>
+    <string name="STRING_TEXT_COMMON_INFORMATION">Tiedot</string>
+    <string name="STRING_TEXT_COMMON_INPUT">Tulo</string>
+    <string name="STRING_TEXT_COMMON_LATER">Myöhemmin</string>
+    <string name="STRING_TEXT_COMMON_LAUNCH_APP">Avaa</string>
+    <string name="STRING_TEXT_COMMON_LEFT">Vasen</string>
+    <string name="STRING_TEXT_COMMON_MORE">Katso lisää</string>
+    <string name="STRING_TEXT_COMMON_MOREINFO">Tarkat tiedot</string>
+    <string name="STRING_TEXT_COMMON_MORE_INFO">Katso lisätietoja</string>
+    <string name="STRING_TEXT_COMMON_NEXT">Seuraava</string>
+    <string name="STRING_TEXT_COMMON_NO">Ei</string>
+    <string name="STRING_TEXT_COMMON_NOTE">Huomautus</string>
+    <string name="STRING_TEXT_COMMON_NOT_DO">Pois</string>
+    <string name="STRING_TEXT_COMMON_NOT_SELECTED">Ei valittu</string>
+    <string name="STRING_TEXT_COMMON_NOT_SETTING">Ei asetettu</string>
+    <string name="STRING_TEXT_COMMON_NOT_SPECIFIED">Älä määritä</string>
+    <string name="STRING_TEXT_COMMON_OFF">Pois päältä</string>
+    <string name="STRING_TEXT_COMMON_OK">OK</string>
+    <string name="STRING_TEXT_COMMON_ON">Päällä</string>
+    <string name="STRING_TEXT_COMMON_OPEN_IN_BROWSER">Avaa selaimessa</string>
+    <string name="STRING_TEXT_COMMON_OPTION">Vaihtoehto</string>
+    <string name="STRING_TEXT_COMMON_PAGE_BACK">Palaa edelliselle sivulle</string>
+    <string name="STRING_TEXT_COMMON_PAGE_FORWARD">Jatka seuraavalle sivulle</string>
+    <string name="STRING_TEXT_COMMON_PREV">Edellinen</string>
+    <string name="STRING_TEXT_COMMON_RETRY">Yritä uudelleen</string>
+    <string name="STRING_TEXT_COMMON_RIGHT">Oikea</string>
+    <string name="STRING_TEXT_COMMON_SAVE_SELECTION">Muista tämä valinta</string>
+    <string name="STRING_TEXT_COMMON_SELECT_ALL">Valitse kaikki</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS">Asetukset</string>
+    <string name="STRING_TEXT_COMMON_SETTINGS_AUTO">Auto</string>
+    <string name="STRING_TEXT_COMMON_SETTING_FINISH">Asetus valmis</string>
+    <string name="STRING_TEXT_COMMON_SHOW">Näytä</string>
+    <string name="STRING_TEXT_COMMON_SKIP">Ohita</string>
+    <string name="STRING_TEXT_COMMON_STOP_CANCEL_REGISTRATION">Pysäytetäänkö rekisteröinnin peruminen?</string>
+    <string name="STRING_TEXT_COMMON_SUPPORT">Virallinen sivusto</string>
+    <string name="STRING_TEXT_COMMON_TAB">Välilehti</string>
+    <string name="STRING_TEXT_COMMON_TIPS">Kätevä käyttö</string>
+    <string name="STRING_TEXT_COMMON_UP">Ylös</string>
+    <string name="STRING_TEXT_COMMON_USE">Käytä</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_CANCEL_RELOAD">Lopeta sivun lataaminen</string>
+    <string name="STRING_TEXT_COMMON_WEBVIEW_RELOAD">Lataa sivu uudelleen</string>
+    <string name="STRING_TEXT_COMMON_YES">Kyllä</string>
+    <string name="STRING_TEXT_DELETE_ALL">Poista kaikki</string>
+    <string name="STRING_TEXT_DELETE_FAILED">Poisto epäonnistui.</string>
+    <string name="STRING_TEXT_DELETE_REGISTDEVICE_CONFIRMATION">Poista tämä rekisteröity laite?</string>
+    <string name="STRING_TEXT_DEVICE_INFO">Laitetiedot</string>
+    <string name="STRING_TEXT_DO_UPDATE">Päivitä</string>
+    <string name="STRING_TEXT_EDIT">Muokkaa</string>
+    <string name="STRING_TEXT_EULA">Loppukäyttäjän käyttöoikeussopimus</string>
+    <string name="STRING_TEXT_LICENSE_INFORMATION">Lisenssitiedot</string>
+    <string name="STRING_TEXT_MENU">Valikko</string>
+    <string name="STRING_TEXT_MP_STATUS_DISCONNECT">Yhteys katkaistu</string>
+    <string name="STRING_TEXT_NOT_SIGNIN">Älä kirjaudu sisään</string>
+    <string name="STRING_TEXT_NO_DEVICE">Laitteita ei löytynyt.</string>
+    <string name="STRING_TEXT_NO_DEVICE_INFO">Jos laitetta ei löydetä</string>
+    <string name="STRING_TEXT_OWN_DEVICE">Päälaite</string>
+    <string name="STRING_TEXT_POWER_OFF">Sammuta kuulokkeet</string>
+    <string name="STRING_TEXT_PP_SETTINGS">Tietosuoja-asetukset</string>
+    <string name="STRING_TEXT_PP_USAGE_MORE_INFO">Lisätietoja siitä, miten Sony käyttää tällaisia tietoja, on annettu täällä.</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY">Tietosuojakäytäntö</string>
+    <string name="STRING_TEXT_PRIVACY_POLICY_HERE">täältä</string>
+    <string name="STRING_TEXT_PRODUCT_IMPROVEMENT">Suostumuksesi tuotteen/palvelun parannus-/kehitystarkoituksiin:</string>
+    <string name="STRING_TEXT_RECORDER_NAME">Tallennin</string>
+    <string name="STRING_TEXT_RECORDING_DEVICE">Laite</string>
+    <string name="STRING_TEXT_REGISTERING">Rekisteröidään...</string>
+    <string name="STRING_TEXT_RE_REGISTER">Rekisteröi uudelleen</string>
+    <string name="STRING_TEXT_SELECT_OTHER_DEVICE">Vaihda toiseen laitteeseen</string>
+    <string name="STRING_TEXT_SETTINGS_CONNECT_DEVICE">Liitetyt laitteet</string>
+    <string name="STRING_TEXT_SETTINGS_REGISTRATION">Rekisteröinti</string>
+    <string name="STRING_TEXT_SETTINGS_VERSION">Versio</string>
+    <string name="STRING_TEXT_SIGNIN">Kirjaudu sisään</string>
+    <string name="STRING_TEXT_SIGNOUT">Kirjaudu ulos</string>
+    <string name="STRING_TEXT_START">Aloita</string>
+    <string name="STRING_TEXT_STARTING">Käynnistetään...</string>
+    <string name="STRING_TEXT_START_ASIS">Käynnistä nyt</string>
+    <string name="STRING_TEXT_SUPPORTED_DEVICES">Yhteensopivien laitteiden luettelo</string>
+    <string name="STRING_TEXT_TAP_TO_RETRY">Yhdistä</string>
+    <string name="STRING_TEXT_TERM_OF_USE">Käyttöehdot</string>
+    <string name="STRING_TEXT_UPDATE">Päivitä</string>
+    <string name="STRING_TEXT_WHEN_CANT_CONNECT">Kun yhteyttä ei voida muodostaa</string>
+    <string name="STRING_TEXT_WHEN_CANT_REGISTER">Kun et voi rekisteröidä</string>
+    <string name="STRING_THIS_PHONE">Tämä mobiililaite</string>
+    <string name="STRING_TITLE_COUNTRY">Maa/alue</string>
+    <string name="Setting_Android_Title">Asetukset</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin">"Tilin todentaminen epäonnistui.
+Kirjaudu uudelleen sisään."</string>
+    <string name="SettingsTakeOver_Account_Auth_Error_Need_Signin_For_Auto">"Ei voinut synkronoida asetuksia, koska tilin todennus epäonnistui.
+Kirjaudu sisään."</string>
+    <string name="SettingsTakeOver_Appeal_360RA_Data">Korva-analyysin tulokset</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data">Rekisteröidyt sijainnit ja asetusarvot</string>
+    <string name="SettingsTakeOver_Appeal_Adaptive_Data_China">Toimintoihin jne. perustuvat asetusarvot.</string>
+    <string name="SettingsTakeOver_Appeal_Button_Backup">Varmuuskopioi</string>
+    <string name="SettingsTakeOver_Appeal_Description_01">Seuraavat asetukset voidaan tallentaa palvelimelle yhdistämällä tilisi.</string>
+    <string name="SettingsTakeOver_Appeal_Description_02">Varmuuskopioitavissa olevat asetukset vaihtelevat malleittain.</string>
+    <string name="SettingsTakeOver_Appeal_Description_03">Varmuuskopioidut asetukset voidaan poistaa käyttämällä sovellusta. Lisäksi ne poistetaan automaattisesti, jos Sony lopettaa tämän toiminnon tarjoamisen käyttöehtojen perusteella.</string>
+    <string name="SettingsTakeOver_Appeal_FW_Download_Title">Automaattinen ohjelmiston lataus -asetukset</string>
+    <string name="SettingsTakeOver_Appeal_Link">Katso täältä lisätietoja</string>
+    <string name="SettingsTakeOver_Appeal_Title">Varmuuskopioidaan asetukset.</string>
+    <string name="SettingsTakeOver_Backup_Succeeded">Varmuuskopiointi valmis.</string>
+    <string name="SettingsTakeOver_Button_Backup">Varmuuskopioi</string>
+    <string name="SettingsTakeOver_Button_Restore">Palauta</string>
+    <string name="SettingsTakeOver_Button_Use_App_Settings">Käytä sovelluksen asetuksia</string>
+    <string name="SettingsTakeOver_Button_Use_Server_Settings">Käytä palvelimen asetuksia</string>
+    <string name="SettingsTakeOver_Confirm_Backup">Varmuuskopioidaanko tämän sovelluksen asetukset palvelimelle?</string>
+    <string name="SettingsTakeOver_Confirm_Restore">Palautetaanko palvelimelle varmuuskopioidut asetukset tähän sovellukseen?</string>
+    <string name="SettingsTakeOver_Confirm_Sync">"Palvelimelle on jo varmuuskopioitu asetuksia.
+Valitse asetus automaattisen synkronoinnin käyttöä varten."</string>
+    <string name="SettingsTakeOver_Create_SonyAccount">Luo Sony-tili ja jatka</string>
+    <string name="SettingsTakeOver_DeleteAccount_Completed">Varmuuskopioidut asetukset poistettu ja kirjauduttu ulos.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Description">Kirjautuu ulos, peruu tilin yhdistämisen ja poistaa kaikki palvelimelle varmuuskopioidut tiedot.</string>
+    <string name="SettingsTakeOver_DeleteAccount_Confirm_Title">Poistetaanko varmuuskopioidut asetukset?</string>
+    <string name="SettingsTakeOver_Enabled_AutoSync_Title">Asetusten automaattinen synkronointi käytössä.</string>
+    <string name="SettingsTakeOver_Error_Backup_Failed">"Varmuuskopiointi epäonnistui.
+Odota hetki ja yritä uudelleen."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed">"Palautus epäonnistui.
+Odota hetki ja yritä uudelleen."</string>
+    <string name="SettingsTakeOver_Error_Restore_Failed_StepByStep">"Palautus epäonnistui.
+Tarkista verkkoyhteys, odota hetki ja yritä uudelleen."</string>
+    <string name="SettingsTakeOver_Link_Confirm_Terms_Of_Use">Tarkista käyttöehdot.</string>
+    <string name="SettingsTakeOver_List_Title">Asetusten varmuuskopiointi ja palautus</string>
+    <string name="SettingsTakeOver_PP_Description">Vahvista, että Sony voi käyttää asiakassovelluksen käyttöön liittyviä tietoja edellä oleviin tarkoituksiin painamalla seuraavaa [Hyväksyn]-painiketta. Jos et hyväksy näitä ehtoja, paina [En hyväksy] -painiketta.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Restore">Palauta asetukset</string>
+    <string name="SettingsTakeOver_Restore_Intro_Button_Setup">Jatka palauttamatta</string>
+    <string name="SettingsTakeOver_Restore_Intro_Description">Jos olet varmuuskopioinut asetukset Headphones Connect -palvelulla aiemmin, voit palauttaa nämä asetukset.</string>
+    <string name="SettingsTakeOver_Restore_Intro_Link">Katso täältä lisätietoja</string>
+    <string name="SettingsTakeOver_Restore_Intro_Title">Palauta asetukset</string>
+    <string name="SettingsTakeOver_Restore_NoBackup">"Varmuuskopioituja asetuksia ei ollut.
+Jatketaan ilman palauttamista."</string>
+    <string name="SettingsTakeOver_Restore_Succeeded">Palautus valmis.</string>
+    <string name="SettingsTakeOver_Settings_Account_Caption">Tili</string>
+    <string name="SettingsTakeOver_Settings_BackedupSettings_Dialog_Title">Varmuuskopioidut asetukset</string>
+    <string name="SettingsTakeOver_Settings_Button_Backup_Now">Varmuuskopioi nyt</string>
+    <string name="SettingsTakeOver_Settings_Button_Enable">Ota käyttöön</string>
+    <string name="SettingsTakeOver_Settings_Button_Restore_Now">Palauta nyt</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Caption">Poista varmuuskopio ja kirjaudu ulos</string>
+    <string name="SettingsTakeOver_Settings_DeleteAccount_Description">"Poistaa palvelimelle varmuuskopioidut asetukset.
+Sovelluksen asetukset säilyvät."</string>
+    <string name="SettingsTakeOver_Settings_Description">Voit tallentaa tämän sovelluksen asetukset palvelimelle yhdistämällä sen tiliin, jolla olet kirjautunut.</string>
+    <string name="SettingsTakeOver_Settings_Description_AutoSync">"Jotta voit varmuuskopioida uusimmat asetukset, ota automaattinen synkronointi käyttöön.
+Voit synkronoida asetukset kaikkiin mobiililaitteisiin, joilla olet kirjautuneena tällä tilillä."</string>
+    <string name="SettingsTakeOver_Settings_Description_Customize">Tämän toiminnon asetuksia voidaan muuttaa kojelaudan oikean yläkulman valikosta milloin tahansa.</string>
+    <string name="SettingsTakeOver_Settings_Label_AutoSync">Automaattinen synkronointi</string>
+    <string name="SettingsTakeOver_Settings_ServiceAccount">Tiliasetukset</string>
+    <string name="SettingsTakeOver_Settings_SonyAccount">Sony-tilin asetukset</string>
+    <string name="SettingsTakeOver_Settings_Status_BackingUp">Varmuuskopioidaan...</string>
+    <string name="SettingsTakeOver_Settings_Status_DateTime_Label">Palvelimen päivityspäivämäärä:</string>
+    <string name="SettingsTakeOver_Settings_Status_None">Voit varmuuskopioida asetukset.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotBackuped">On asetuksia, joita ei ole vielä varmuuskopioitu.</string>
+    <string name="SettingsTakeOver_Settings_Status_NotRestored">Voit palauttaa asetukset palvelimelta.</string>
+    <string name="SettingsTakeOver_Settings_Status_Restoring">Palautetaan...</string>
+    <string name="SettingsTakeOver_Settings_Status_SyncCompleted">Varmuuskopiointi valmis.</string>
+    <string name="SettingsTakeOver_Settings_Status_Synchronizing">Synkronoidaan...</string>
+    <string name="SettingsTakeOver_Settings_Status_Unavailable">Laitteesi ei tue varmuuskopiointia.</string>
+    <string name="SettingsTakeOver_SignInWith_Amazon">Kirjaudu sisään Amazonilla</string>
+    <string name="SettingsTakeOver_SignInWith_Apple">Kirjaudu sisään Applella</string>
+    <string name="SettingsTakeOver_SignInWith_Facebook">Kirjaudu sisään Facebookilla</string>
+    <string name="SettingsTakeOver_SignInWith_Google">Kirjaudu sisään Googlella</string>
+    <string name="SettingsTakeOver_SignInWith_SonyAccount">Kirjaudu sisään Sony-tilillä</string>
+    <string name="SettingsTakeOver_SignInWith_WeChat">Kirjaudu sisään WeChatilla</string>
+    <string name="SettingsTakeOver_SignIn_Description">Jotta voit varmuuskopioida ja palauttaa asetukset, sinun on oltava kirjautuneena Headphones Connect -palveluun.</string>
+    <string name="SettingsTakeOver_SignIn_Split">tai</string>
+    <string name="SettingsTakeOver_SignOut_Completed">Kirjauduttu ulos.</string>
+    <string name="SettingsTakeOver_SignOut_Confirm_Description">Varmuuskopiointi ja toimintojen palauttaminen poistuvat käytöstä.</string>
+    <string name="SettingsTakeOver_SignOut_Storage_Period">Palvelimelle varmuuskopioidut asetukset poistetaan automaattisesti, kun tietty aika uloskirjautumisesta on kulunut.</string>
+    <string name="SettingsTakeOver_SignedInWith_Amazon">Amazon</string>
+    <string name="SettingsTakeOver_SignedInWith_Apple">Apple</string>
+    <string name="SettingsTakeOver_SignedInWith_Facebook">Facebook</string>
+    <string name="SettingsTakeOver_SignedInWith_Google">Google</string>
+    <string name="SettingsTakeOver_SignedInWith_SonyAccount">Sony-tili</string>
+    <string name="SettingsTakeOver_SignedInWith_WeChat">WeChat</string>
+    <string name="SettingsTakeOver_SigningIn">Kirjaudutaan sisään...</string>
+    <string name="SettingsTakeOver_SigningOut">Kirjaudutaan ulos...</string>
+    <string name="SmartTalkingMode_Detail">Voita aloittaa keskustelun yksinkertaisesti alkamalla puhua käyttäessäsi kuulokkeita.</string>
+    <string name="SmartTalkingMode_Detail_EnableFirstTime">"Aloittamalla puhumisen voit keskustella helposti kuulokkeita käyttäessäsi. Haluatko kokeilla tätä toimintoa?
+Voit suorittaa sen uudelleen [i]-painikkeella."</string>
+    <string name="SmartTalkingMode_Experience_Btn">Koe se</string>
+    <string name="SmartTalkingMode_Experience_Detail1">Yritä sanoa esimerkiksi vaikka ”Hei”. Kuulokkeet tunnistavat, että olet puhunut, ja muodostavat automaattisesti yhteyden, joka mahdollistaa keskustelun.</string>
+    <string name="SmartTalkingMode_Experience_Detail2">"Keskeytti musiikin ympäristöäänten saamiseksi. Tämä tila jatkuu, kun puhut, ja sulkeutuu, jos %s ohittaa sen jälkeen, kun olet lopettanut puhumisen tai olet käyttänyt kuulokkeita.
+Tätä asetusta voidaan mukauttaa ohjauspaneelin valikossa [Chattaa puhumalla]."</string>
+    <string name="SmartTalkingMode_Experience_Detail3">Keskeytti musiikin ympäristöäänten saamiseksi. Tila voidaan sulkea käyttämällä kuulokkeita.</string>
+    <string name="SmartTalkingMode_Experience_Detail4">[TBD]</string>
+    <string name="SmartTalkingMode_Experience_Exit">Sulje</string>
+    <string name="SmartTalkingMode_Experience_Msg1">Tunnistaa äänesi</string>
+    <string name="SmartTalkingMode_Experience_Msg2">Tunnisti äänesi</string>
+    <string name="SmartTalkingMode_Experience_Title">Chattaa puhumalla -kokemus</string>
+    <string name="SmartTalkingMode_Setting_ASC_Detail">Päästää äänet läpi, mutta vähentää ympäristöääntä.</string>
+    <string name="SmartTalkingMode_Setting_ASC_Title">Painotus ääneen</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Detail">"Jos kuulokkeet eivät havaitse ääntäsi määritetyn ajan kuluessa, Chattaa puhumalla -tila suljetaan ja kuulokkeet palaavat normaalitilaan.
+Lisäksi tila voidaan sulkea käyttämällä kuulokkeita."</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option1">Nopea</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option2">Vakio</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option3">Hidas</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4">Ei sulkeudu automaattisesti</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Option4_short">Älä</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_Title">Aika, kunnes tila suljetaan</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_minute">Noin 1 m</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_second">Noin 1 s</string>
+    <string name="SmartTalkingMode_Setting_ModeOutTime_seconds">Noin %d s</string>
+    <string name="SmartTalkingMode_Setting_ModesOutTime_minute">Noin %d m</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto">Autom.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_Detail">Säätää herkkyyttä automaattisesti ympäristöäänen mukaan.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Auto_iOS">Automaattinen:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High">K. herkkyys</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_Detail">Valitse tämä asetus, kun puheentunnistusherkkyys on liian alhainen. Tehokas ympäristöäänen ollessa voimakas, esimerkiksi ajoneuvossa.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_High_iOS">K. herkkyys:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low">M. herkkyys</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_Detail">Valitse tämä asetus, kun äänentunnistuksen herkkyys on liian suuri. Tehokas, kun puhuja on lähellä.</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Low_iOS">M. herkkyys:</string>
+    <string name="SmartTalkingMode_Setting_Sensitivity_Title">Äänen tunn. herkkyys</string>
+    <string name="SmartTalkingMode_Setting_Title">Chattaa puhumalla -asetus</string>
+    <string name="SmartTalkingMode_Title">Chattaa puhumalla</string>
+    <string name="SmartTalkingMode_Title_EnableFirstTime">Ota Chattaa puhumalla käyttöön</string>
+    <string name="SmartTalkingMode_TurnOn">Antaa Chattaa puhumalla -toiminnon suorittaa asetuksia.</string>
+    <string name="SmartTalkingMode_TurnOn_Title">Ottaa Chattaa puhumalla -toiminnon käyttöön</string>
+    <string name="SmartTalkingMode_TurnOn_conf">Tämä asetus voidaan vaihtaa käyttämällä kuulokkeiden toimintoja. Toimintatila voidaan tarkistaa valitsemalla [Ohje].</string>
+    <string name="SmartTalkingMode_TurnOn_conf_Title">Ota Chattaa puhumalla käyttöön?</string>
+    <string name="SongPalDownloadDialog">Haluatko ladata Music Center -sovelluksen Google Play -palvelusta?</string>
+    <string name="SongPalDownloadDialog_iOS">Haluatko ladata Music Center -sovelluksen App Store -palvelusta?</string>
+    <string name="SoundPosition_Preset_FL">Etu vasen</string>
+    <string name="SoundPosition_Preset_FR">Etu oikea</string>
+    <string name="SoundPosition_Preset_Front">Etu</string>
+    <string name="SoundPosition_Preset_Off">Pois päältä</string>
+    <string name="SoundPosition_Preset_RL">Taka vasen</string>
+    <string name="SoundPosition_Preset_RR">Taka oikea</string>
+    <string name="SoundPosition_Title">Äänen sijainnin hallinta</string>
+    <string name="Status_Loading_Headphones">Haetaan kuulokeluetteloa.</string>
+    <string name="Switch_ToOtherDevice">Vaihda toiseen laitteeseen</string>
+    <string name="TalkBack_Button">Painike</string>
+    <string name="TalkBack_Button_Option">Lisää asetuksia</string>
+    <string name="TalkBack_Disable">Pois käytöstä</string>
+    <string name="TalkBack_Switch">Vaihtopainike</string>
+    <string name="Talkback_Echo_Minus">minus</string>
+    <string name="Talkback_Echo_Plus">plus</string>
+    <string name="TouchSensorControlPanel_title">Kosketusanturin ohjauspaneeli</string>
+    <string name="Touch_sensor_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Caution">[TBD]</string>
+    <string name="Touch_sensor_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="Training_Custom_Reset">Palauta</string>
+    <string name="Training_Custom_Title">Äänen pika-asetukset</string>
+    <string name="Training_Title">Äänen pika-asetukset</string>
+    <string name="Training_Title_Detail">"Voit ottaa samalla kertaa käyttöön asetukset [%1$s] ja [%2$s].
+Tämä asetusta voidaan käyttää myös kuulokkeista."</string>
+    <string name="VAS_Change_Able_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Able_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Playback_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Button_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Caution">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Setting_Caution_Title">[TBD]</string>
+    <string name="VAS_Change_Assignable_Sensor_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Disable_Reconection_Assignable_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Alexa">[TBD]</string>
+    <string name="VAS_Change_Title_Caution_to_Other">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Caution">[TBD]</string>
+    <string name="VAS_Change_Touch_Sensor_Panel_Siri_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Alexa_Caution">[TBD]</string>
+    <string name="VAS_Change_to_Other_Caution">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Left">[TBD]</string>
+    <string name="VAS_Function_Switch_Setting_Right">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Button">[TBD]</string>
+    <string name="VAS_Information_Touch_Assignable_Sensor">[TBD]</string>
+    <string name="VAS_Information_Touch_Sensor_Panel">[TBD]</string>
+    <string name="VAS_Title">[TBD]</string>
+    <string name="VPT_Preset_Arena">Areena</string>
+    <string name="VPT_Preset_Club">Klubi</string>
+    <string name="VPT_Preset_ConcertHall">Konserttisali</string>
+    <string name="VPT_Preset_Off">Pois päältä</string>
+    <string name="VPT_Preset_OutdoorFestival">Ulkoilmalava</string>
+    <string name="VPT_Preset_Title">Surround (VPT)</string>
+    <string name="Vibration_Title">Saapuvan puh. värinä</string>
+    <string name="VoiceData_Update_Status_Download">Ladataan äänitietoja...</string>
+    <string name="VoiceData_Update_Status_Install">Asetetaan äänitietoja...</string>
+    <string name="VoiceData_Update_Status_Send">Siirretään äänitietoja...</string>
+    <string name="VoiceData_Update_Status_Start">Siirtää %s äänitietoa kuulokkeisiin</string>
+    <string name="VoiceData_Update_Title">Vaihda kieli</string>
+    <string name="VoiceData_Updating">Odota...</string>
+    <string name="VoiceGuidanceSetting_Language_Title">Kieli</string>
+    <string name="VoiceGuidanceSetting_Setting_Title">Ilmoitus &amp; ääniohjaus</string>
+    <string name="Voice_Guidance_Elem_Brazilian_Portuguese">Brasilian portugali</string>
+    <string name="Voice_Guidance_Elem_Chinese">Kiina</string>
+    <string name="Voice_Guidance_Elem_Dutch">Hollanti</string>
+    <string name="Voice_Guidance_Elem_English">Englanti</string>
+    <string name="Voice_Guidance_Elem_Finnish">Suomi</string>
+    <string name="Voice_Guidance_Elem_French">Ranska</string>
+    <string name="Voice_Guidance_Elem_German">Saksa</string>
+    <string name="Voice_Guidance_Elem_Italian">Italia</string>
+    <string name="Voice_Guidance_Elem_Japanese">Japani</string>
+    <string name="Voice_Guidance_Elem_Korean">Korea</string>
+    <string name="Voice_Guidance_Elem_Portuguese">Portugali</string>
+    <string name="Voice_Guidance_Elem_Russian">Venäjä</string>
+    <string name="Voice_Guidance_Elem_Spanish">Espanja</string>
+    <string name="Voice_Guidance_Elem_Swedish">Ruotsi</string>
+    <string name="Voice_Guidance_Elem_Turkish">Turkki</string>
+    <string name="Voice_Guidance_Setting">Ääniohjauksen kieli</string>
+    <string name="Volume_Talkback">Äänenvoimakkuus</string>
+    <string name="WakeWord_Title">[TBD]</string>
+    <string name="Walkman_Placeholder_Confirm">Päivitä tämä sovellus käyttöä varten Google Playssa.</string>
+    <string name="Walkman_Placeholder_Confirm_China">Lataa tämä sovellus käyttöä varten lataussivustolta.</string>
+    <string name="Walkman_Placeholer_Button_Transit">Siirry</string>
+    <string name="Walkman_Placeholer_Description">"Muokkaa Sony-kuulokkeita sovelluksen linkkitoiminnolla mieleiseksesi.
+Päivittäisestä musiikista tulee yhä nautinnollisempaa helpoilla kontrolleilla."</string>
+    <string name="Walkman_Placeholer_Description_02">Päivitä (lataa) tämä sovellus käyttöä varten näytöllä, johon sinut siirretään.</string>
+    <string name="Walkman_Placeholer_Description_03">Tietoja tästä sovelluksesta</string>
+    <string name="Walkman_Placeholer_Link">Lisätietoja tuetuista tuotteista ja toiminnoista on täällä</string>
+    <string name="Walkman_Placeholer_SubTitle">Siirry Headphones Connect -lataussivulle?</string>
+    <string name="Welcome_EULA_PP">Tämän painikkeen painaminen vahvistaa, että olet lukenut suostumusasiakirjan ja hyväksyt sen.</string>
+    <string name="Welcome_EULA_PPLink">Käyttöehdot</string>
+    <string name="Welcome_SubTitle">"Hauskempi, älykkäämpi, henkilökohtaisempi.
+Aloita uusi elämä uusilla kuulokkeillasi."</string>
+    <string name="Welcome_SubTitle1">Henkilökohtainen live-konserttisi alkaa tästä.</string>
+    <string name="Welcome_SubTitle2">Klubi? Areena? Konserttihalli? Tai jopa ulkona? Valitse itse täydellinen konserttipaikka.</string>
+    <string name="Welcome_SubTitle3">Säädettävä basso tuo sykettä päivääsi.</string>
+    <string name="Welcome_Title">TERVETULOA</string>
+    <string name="Welcome_Title1">TERVETULOA</string>
+    <string name="Welcome_Title2">ELÄVÄÄ MUSIIKKIA YHDELLÄ NAPAUTUKSELLA</string>
+    <string name="Welcome_Title3">LISÄÄ BASSOA?</string>
+    <string name="Widget_Disconnected">Kuulokkeita ei ole yhdistetty tai rekisteröity. Käynnistä Headphones Connect.</string>
+    <string name="Widget_EQ_Error">Vahvista [Taajuuskorjain] Headphones Connectista.</string>
+    <string name="Widget_EQ_Error_Short">Vaihda Headphones Connectista.</string>
+    <string name="Widget_EULA_Disagreement">Käynnistä Headphones Connect ja suorita asetukset.</string>
+    <string name="Widget_Initial">Ladataan...</string>
+    <string name="abc_action_bar_home_description">Siirry etusivulle</string>
+    <string name="abc_action_bar_up_description">Siirry ylös</string>
+    <string name="abc_action_menu_overflow_description">Lisäasetukset</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Näytä kaikki</string>
+    <string name="abc_activitychooserview_choose_application">Valitse sovellus</string>
+    <string name="abc_capital_off">POIS PÄÄLTÄ</string>
+    <string name="abc_capital_on">PÄÄLLÄ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Vaihto+</string>
+    <string name="abc_menu_space_shortcut_label">välilyönti</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Valikko+</string>
+    <string name="abc_search_hint">Haku…</string>
+    <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
+    <string name="abc_searchview_description_query">Hakukysely</string>
+    <string name="abc_searchview_description_search">Haku</string>
+    <string name="abc_searchview_description_submit">Lähetä kysely</string>
+    <string name="abc_searchview_description_voice">Puhehaku</string>
+    <string name="abc_shareactionprovider_share_with">Jaa…</string>
+    <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
+    <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string name="app_name">Headphones</string>
+    <string name="common_google_play_services_enable_button">Ota käyttöön</string>
+    <string name="common_google_play_services_enable_text">%1$s ei toimi, ellet ota Google Play Palveluita käyttöön.</string>
+    <string name="common_google_play_services_enable_title">Ota Google Play Palvelut käyttöön</string>
+    <string name="common_google_play_services_install_button">Asenna</string>
+    <string name="common_google_play_services_install_text">%1$s ei toimi ilman Google Play Palveluita, jotka puuttuvat laitteeltasi.</string>
+    <string name="common_google_play_services_install_title">Asenna Google Play Palvelut</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Palveluiden saatavuus</string>
+    <string name="common_google_play_services_notification_ticker">Virhe Google Play -palveluissa</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ei toimi ilman Google Play Palveluita, joita laitteesi ei tue.</string>
+    <string name="common_google_play_services_update_button">Päivitä</string>
+    <string name="common_google_play_services_update_text">%1$s ei toimi, ellet päivitä Google Play Palveluita.</string>
+    <string name="common_google_play_services_update_title">Päivitä Google Play Palvelut</string>
+    <string name="common_google_play_services_updating_text">%1$s ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä.</string>
+    <string name="common_google_play_services_wear_update_text">Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian.</string>
+    <string name="common_open_on_phone">Avaa puhelimessa</string>
+    <string name="common_signin_button_text">Kirjaudu sisään</string>
+    <string name="common_signin_button_text_long">Kirjaudu Google-tilille</string>
+    <string name="expand_button_title">Lisäasetukset</string>
+    <string name="fcm_fallback_notification_channel_label">Muut</string>
+    <string name="s1">Tallenna kuva</string>
+    <string name="s2">Myönnetäänkö mainokselle oikeus tallentaa kuva galleriaan?</string>
+    <string name="s3">Hyväksy</string>
+    <string name="s4">Hylkää</string>
+    <string name="s5">Luo kalenteritapahtuma</string>
+    <string name="s6">Myönnetäänkö mainokselle oikeus luoda kalenteritapahtuma?</string>
+    <string name="s7">Testimainos</string>
+    <string name="search_menu_title">Haku</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
+    <string name="v7_preference_on">KÄYTÖSSÄ</string>
+</resources>

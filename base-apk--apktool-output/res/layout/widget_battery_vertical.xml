@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/device_battery_left" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:background="@drawable/a_mdr_label_left_light" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+        <TextView android:id="@id/device_battery_left_percent" android:layout_width="50.0dip" android:layout_height="wrap_content" style="@style/TSS_R_C1_ReStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/device_battery_right" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:background="@drawable/a_mdr_label_right_light" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+        <TextView android:id="@id/device_battery_right_percent" android:layout_width="50.0dip" android:layout_height="wrap_content" style="@style/TSS_R_C1_ReStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/device_battery_cradle" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:background="@drawable/a_mdr_label_cradle_light" android:layout_width="18.0dip" android:layout_height="12.0dip" />
+        <TextView android:id="@id/device_battery_cradle_percent" android:layout_width="50.0dip" android:layout_height="wrap_content" style="@style/TSS_R_C1_ReStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/device_battery_single" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/device_battery_single_icon" android:background="@drawable/a_mdr_battery_cover_light" android:layout_width="18.0dip" android:layout_height="12.0dip" />
+        <TextView android:id="@id/device_battery_single_percent" android:layout_width="50.0dip" android:layout_height="wrap_content" style="@style/TSS_R_C1_ReStyle" />
+    </LinearLayout>
+</LinearLayout>

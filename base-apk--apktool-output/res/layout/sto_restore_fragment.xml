@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a_settings_take_over_image_confirm_restore" android:adjustViewBounds="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/SettingsTakeOver_Restore_Intro_Description" style="@style/TSS_L_C2_Re" />
+                <TextView android:id="@id/helpLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsTakeOver_Restore_Intro_Link" style="@style/TSS_L_A1_Re" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="28.0dip" android:paddingBottom="26.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ui_navigation_bar_height">
+        <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/okButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_raised_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/SettingsTakeOver_Restore_Intro_Button_Restore" />
+        <Button android:theme="@style/AppTheme.RaisedButton" android:layout_gravity="center_horizontal" android:id="@id/cancelButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/ui_common_raised_button_min_width" android:minHeight="@dimen/ui_common_button_min_height" android:text="@string/SettingsTakeOver_Restore_Intro_Button_Setup" />
+    </LinearLayout>
+</LinearLayout>

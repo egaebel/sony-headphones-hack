@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/license_margin_start_end" android:paddingEnd="@dimen/license_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TM_L_C1_Me" android:id="@id/license_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/license_header_margin_top" />
+    <TextView android:textAppearance="@style/TSS_L_C2_Re" android:id="@id/license_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/license_text_margin_top" />
+</LinearLayout>
