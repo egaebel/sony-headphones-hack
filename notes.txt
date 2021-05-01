@@ -11,10 +11,8 @@ Steps Taken
 * "Spoof" DNS server by setting phone to talk to laptop and using "dnsspoof" program with dnsspoof.conf file, redirect all cloudfront traffic back to the laptop
 ----dnschef is a way better application, it's up and running
 --------dnschef proxies requests by default to google and selectively "cooks" the dns lookups for other domains
-
-Steps To Take
-==============
 * There appears to be an issue establishing the SSL connection. The app says "no internet connection" when trying to connect to my laptop
+----UPDATE: This wound up being crappy SSL code on my side it seems, the cert needed the domain names in SAN format.
 ----Use wireshark to sniff those packets and see what's up!
 --------TLS session establishment fails, from some reading at the URL below it appears that the application is using certificate pinning
 ------------https://blog.securityevaluators.com/how-to-view-tls-traffic-in-androids-logs-6a42ca7a6e55
@@ -22,6 +20,7 @@ Steps To Take
 ------------https://en.m.wikipedia.org/wiki/Server_Name_Indication
 ------------https://stephanheijl.com/rustls_sni.html
 * Defeat certificate pinning
+----UPDATE: Certificate pinning was never a thing
 ----I've found an RSA cert key in the extracted apk (using apktool with the full command below). The cert is (apparently) in pkcs7 format in binary encoding (using DER). It was a pain in the ass to figure this out.
 ----Cert location
 --------"/home/egaebel/Programs/sony-headphones-hack/base-apk--apktool-output/original/META-INF/CERT.RSA"
@@ -35,6 +34,7 @@ Steps To Take
 --------openssl s_client -CAfile ../../../keys-and-certs/authority/server.crt -connect 192.168.1.64:443
 ----Next step (I think?) replace the pinned certificate in the APK with my own, repackage the app, self-sign the app, upload to nexus 5 and try again.
 * Create mitm server (in rust) to also run on laptop, print out requests/responses
+----UPDATE: No decryption needed, TLS libs do this by default of course
 ----Some decryption will be necessary, but using which keys?
 --------The keys are ones that I set up. I create new key-certificate pairs for SSL spoofing and install the certs on my phone
 * Add a self-signed certificate for my rust mitm server to actually execute the mitm attack
@@ -42,6 +42,11 @@ Steps To Take
 ----First just replay and listen
 * Verify the whole system works end to end with no tampering
 ----Snoop on everything and ensure I can see it all working end-to-end
+
+Steps To Take
+==============
+* Figure out audio file format!
+----The audio section of the file has almost maximum entropy. It's probably encrypted (fucking why?) or maybe compressed? IDK how high entropy typically goes for compression algorithms though.
 * Start tampering
 ----Swap out the shitty audio files from Sony with better ones (use a language besides english for this)
 --------Make sure the new audio files aren't longer than the originals (shouldn't be hard, that's the goal anyway) there might be some buffer overflows that can happen in the headphones firmware
@@ -56,6 +61,7 @@ Notes
 * Looks like there might be a static IP for akamai CDN to serve the audio files?
 ----If so, I'll have to change some router settings.....
 * My issues may all have stemmed from using a cert that only had a single domain name attached to it. I can now make SAN certs and am serving bdcore and music-center traffic from my mitm server!
+* Everything works with my server sitting in the middle now! I have grabbed the audio file, I need to reverse engineer its encoding.
 
 
 openssl req -new -addext "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net" -key server.key -out server-2.csr
