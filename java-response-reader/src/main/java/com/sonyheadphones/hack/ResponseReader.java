@@ -13,10 +13,12 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class ResponseReader {
-    public static void main(String[] args) throws IOException {
-        String filePath = "";
+    public static void main(String[] args) throws Exception {
+        String filePath = "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
+        System.out.println(String.format("Running on file: '%s'", filePath));
         File file = new File(filePath);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         byte[] byteArray = new byte[1024];
@@ -29,6 +31,10 @@ public class ResponseReader {
                 }
             } while (bytesRead > 0);
         }
+
+        byte[] responseBytes = byteArrayOutputStream.toByteArray();
+        System.out.println(String.format("Parsing response with: '%d' bytes", responseBytes.length));
+        parseResponse(responseBytes, null, null, null, null);
     }
 
     private static k parseResponse(byte[] paramArrayOfbyte, String paramString1, String paramString2, g paramg,
@@ -38,11 +44,16 @@ public class ResponseReader {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         ArrayList<String> arrayList = new ArrayList<>();
         byte b = paramArrayOfbyte[0];
+        System.out.println(String.format("Starting b: '%02X' decimal: '%d'", b, b));
         int i = 0;
         int j = 0;
         int k = 0;
         while (true) {
+            if (i % 100000 == 0) {
+                System.out.println(String.format("Iteration: %d", i));
+            }
             while (b == 10) {
+                System.out.println(String.format("b: '%02X'", b));
                 // if (j)
                 if (j != 0) {
                     try {
@@ -70,6 +81,9 @@ public class ResponseReader {
                     byteArrayOutputStream.write((byte[]) paramArrayOfbyte, m, i);
                     byte[] arrayOfByte = byteArrayOutputStream.toByteArray();
                     if (!arrayList.isEmpty()) {
+                        System.out.println(String.format(
+                                "arrayList is not empty, loading InformationHeader from it.....\nElements:\n%s",
+                                arrayList.stream().collect(Collectors.joining("\n"))));
                         InformationHeader informationHeader = InformationHeader.a(arrayList);
                     } else {
                         // unsupportedEncodingException = null;
@@ -77,7 +91,10 @@ public class ResponseReader {
                     }
                     // if (unsupportedEncodingException != null) {
                     if (paramArrayOfbyte != null) {
+                        System.out.println("paramArrayOfbyte != null");
                         if (arrayOfByte != null) {
+                            System.out.println(
+                                    "paramArrayOfbyte != null and arrayOfByte != null, trying to create InformationHeader.....");
                             /*
                              * return a(arrayOfByte, (InformationHeader) unsupportedEncodingException,
                              * paramString1, paramString2, paramg, paramd);
@@ -105,7 +122,7 @@ public class ResponseReader {
                 // unsupportedEncodingException[i];
                 continue;
             }
-            throw new RuntimeException("InternalException.Error.PARSE_FAILED");
+            throw new RuntimeException(String.format("InternalException.Error.PARSE_FAILED: On iteration: %d", i - 1));
         }
     }
 
