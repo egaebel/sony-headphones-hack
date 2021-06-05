@@ -1,0 +1,17 @@
+package com.google.android.gms.location;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.internal.Hide;
+import com.google.android.gms.internal.zzbgm;
+import com.google.android.gms.internal.zzcfs;
+import java.util.ArrayList;
+
+@Hide
+public final class zzf implements Parcelable.Creator<ActivityTransitionRequest> {}
+
+
+/* Location:              /home/egaebel/Programs/sony-headphones-hack/base-dex2jar.jar!/com/google/android/gms/location/zzf.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */

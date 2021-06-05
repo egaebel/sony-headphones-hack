@@ -1,0 +1,27 @@
+package com.sony.songpal.ble.client.characteristic;
+
+import com.sony.songpal.ble.client.CharacteristicUuid;
+import com.sony.songpal.ble.client.g;
+
+public class ab extends g {
+  private byte[] b;
+  
+  public CharacteristicUuid a() {
+    return CharacteristicUuid.SSS_FOTA_DATA_SINK;
+  }
+  
+  public boolean a(byte[] paramArrayOfbyte) {
+    this.b = (byte[])paramArrayOfbyte.clone();
+    return true;
+  }
+  
+  public byte[] c() {
+    return this.b;
+  }
+}
+
+
+/* Location:              /home/egaebel/Programs/sony-headphones-hack/base-dex2jar.jar!/com/sony/songpal/ble/client/characteristic/ab.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */

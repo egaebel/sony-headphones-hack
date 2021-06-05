@@ -62,6 +62,17 @@ Notes
 ----If so, I'll have to change some router settings.....
 * My issues may all have stemmed from using a cert that only had a single domain name attached to it. I can now make SAN certs and am serving bdcore and music-center traffic from my mitm server!
 * Everything works with my server sitting in the middle now! I have grabbed the audio file, I need to reverse engineer its encoding.
+* Big info dump on the binary audio file format
+----There are 3 headers, separated by 0xFFs
+----The audio portion is presumably the last part (it's huge and has no more 0xFF chains)
+----The audio portion is DEFINITELY encrypted
+--------This was initially shown by using the entropy measurement tool binwalk
+--------This was backed up VERY heavily by looking through the decompiled apk file
+------------Relevant files are under the package: com.sony.songpal.automagic in the files InformationHeader.java, l.java, and a.java (yes, they're obfuscated, but legible enough). Look in InformationHeader for the most info. It's possible to send unencrypted files. Otherwise the files are encrypted with DES3 (wtf?) or AES. (Where are the keys for that!?)
+----It appears that the headers should be utf-8 encoded based on reading through the code in the decompiled java files referenced above, but reading them in that format isn't really panning out, so I'm not sure what's up there.
+----Writing a small Java program to read the file might be in order.
+----Spying on bluetooth traffic again might be a good idea.
+----DEFINITELY look more closely at the mitm server responses to see what the specific format is before it's saved off. (Maybe something got changed when I saved the file?)
 
 
 openssl req -new -addext "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net" -key server.key -out server-2.csr
