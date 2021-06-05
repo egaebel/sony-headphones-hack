@@ -1,0 +1,319 @@
+
+====================================
+Request: '
+HttpRequest HTTP/1.1 HEAD:/common/check_url.txt
+  headers:
+    "accept-encoding": "gzip"
+    "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"
+    "host": "musiccenter-cdn.meta.ndmdhs.com"
+    "connection": "Keep-Alive"
+'
+Request.head(): 'RequestHead { uri: /common/check_url.txt, method: HEAD, version: HTTP/1.1, headers: HeaderMap { inner: {"accept-encoding": One("gzip"), "user-agent": One("Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"), "host": One("musiccenter-cdn.meta.ndmdhs.com"), "connection": One("Keep-Alive")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:38017), flags: KEEP_ALIVE }'
+Request.body(): '""'
+
+Serving music center domain.....
+'HEAD' request against url: 'https://musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt'
+Request being made for mitm: 'Request { method: HEAD, url: Url { scheme: "https", username: "", password: None, host: Some(Domain("musiccenter-cdn.meta.ndmdhs.com")), port: None, path: "/common/check_url.txt", query: None, fragment: None }, headers: {"authorization": Sensitive, "accept-encoding": "gzip", "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)", "host": "musiccenter-cdn.meta.ndmdhs.com", "connection": "Keep-Alive"} }'
+
+
+-----------
+Actual request time took: '80' milliseconds.
+-----------
+
+Response from method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': 'Response { url: Url { scheme: "https", username: "", password: None, host: Some(Domain("musiccenter-cdn.meta.ndmdhs.com")), port: None, path: "/common/check_url.txt", query: None, fragment: None }, status: 200, headers: {"content-type": "text/plain", "content-length": "15", "connection": "keep-alive", "last-modified": "Wed, 12 Dec 2018 09:59:10 GMT", "accept-ranges": "bytes", "server": "AmazonS3", "date": "Tue, 13 Apr 2021 14:19:49 GMT", "etag": "\"d94f6805bb2bd7639b7a05d46800690e\"", "x-cache": "Hit from cloudfront", "via": "1.1 feda34dcbf6a00e232656b7983c2c7f0.cloudfront.net (CloudFront)", "x-amz-cf-pop": "YVR50-C1", "x-amz-cf-id": "u9UeJx8-ZRPUombmVSVSwGSTSoz_3ixqkDUxPInaYh706p4LAIcxKg==", "age": "57384"} }'
+Response.text() from method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': '""'
+Response going back from mitm server for method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': '
+Response HTTP/1.1 200 OK
+  headers:
+    "x-amz-cf-id": "u9UeJx8-ZRPUombmVSVSwGSTSoz_3ixqkDUxPInaYh706p4LAIcxKg=="
+    "last-modified": "Wed, 12 Dec 2018 09:59:10 GMT"
+    "age": "57384"
+    "accept-ranges": "bytes"
+    "x-cache": "Hit from cloudfront"
+    "server": "AmazonS3"
+    "content-type": "text/plain"
+    "date": "Tue, 13 Apr 2021 14:19:49 GMT"
+    "via": "1.1 feda34dcbf6a00e232656b7983c2c7f0.cloudfront.net (CloudFront)"
+    "connection": "keep-alive"
+    "etag": "\"d94f6805bb2bd7639b7a05d46800690e\""
+    "x-amz-cf-pop": "YVR50-C1"
+    "content-length": "15"
+  body: Sized(0)
+'
+-----------
+Served request in: '86' millis
+-----------
+
+
+====================================
+Request: '
+HttpRequest HTTP/1.1 HEAD:/common/check_url.txt
+  headers:
+    "accept-encoding": "gzip"
+    "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"
+    "host": "musiccenter-cdn.meta.ndmdhs.com"
+    "connection": "Keep-Alive"
+'
+Request.head(): 'RequestHead { uri: /common/check_url.txt, method: HEAD, version: HTTP/1.1, headers: HeaderMap { inner: {"accept-encoding": One("gzip"), "user-agent": One("Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"), "host": One("musiccenter-cdn.meta.ndmdhs.com"), "connection": One("Keep-Alive")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:43043), flags: KEEP_ALIVE }'
+Request.body(): '""'
+
+Serving music center domain.....
+'HEAD' request against url: 'https://musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt'
+Request being made for mitm: 'Request { method: HEAD, url: Url { scheme: "https", username: "", password: None, host: Some(Domain("musiccenter-cdn.meta.ndmdhs.com")), port: None, path: "/common/check_url.txt", query: None, fragment: None }, headers: {"authorization": Sensitive, "accept-encoding": "gzip", "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)", "host": "musiccenter-cdn.meta.ndmdhs.com", "connection": "Keep-Alive"} }'
+
+
+====================================
+Request: '
+HttpRequest HTTP/2.0 POST:/actionlog
+  headers:
+    "user-agent": "Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"
+    "content-encoding": "gzip"
+    "content-type": "application/csx-actionlog-json"
+    "x-csx-logsignature": "dcea97ad8fc7248af7466c6d4a61b8882053d3d5a7e499a897ed8c488016a493"
+    "accept-encoding": "gzip"
+    "x-csx-logdatetime": "1618366140016"
+    "x-csx-apikey": "71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"
+    "content-length": "1156"
+'
+Request.head(): 'RequestHead { uri: https://bdcore-apr-lb.bda.ndmdhs.com/actionlog, method: POST, version: HTTP/2.0, headers: HeaderMap { inner: {"user-agent": One("Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"), "content-encoding": One("gzip"), "content-type": One("application/csx-actionlog-json"), "x-csx-logsignature": One("dcea97ad8fc7248af7466c6d4a61b8882053d3d5a7e499a897ed8c488016a493"), "accept-encoding": One("gzip"), "x-csx-logdatetime": One("1618366140016"), "x-csx-apikey": One("71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"), "content-length": One("1156")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:45240), flags: (empty) }'
+Request.body(): '"{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 18:43:54\",\"previousViewingTime\":300580,\"detectedSource\":\"none\",\"std_preViewingTime\":300563,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"c8fc52bb-f68b-47bf-9a24-ff5bc4a26f64\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618364634735,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"background\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n{\"actionTypeId\":9005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 18:43:54\",\"duration\":710411,\"detectedSource\":\"none\",\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"38634f86-2b91-471a-ac8f-bafcf432e9cc\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618364634737,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"background\",\"selectedIsoCountryCode\":\"us\",\"loginId\":\"\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n{\"actionTypeId\":1009,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:08:59\",\"detectedSource\":\"none\",\"id\":\"Mobile device configuration\",\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"contents\":[{\"info\":{\"nfc\":1,\"sizey\":1920,\"hardwarekeyboard\":0,\"isGyroscopeSupported\":1,\"densityDpi\":480,\"isAccelerometerSupported\":1,\"densityy\":\"443.345\",\"densityx\":\"442.451\",\"isBleSupported\":1,\"sizex\":1080},\"typeId\":9004}],\"logId\":\"5b2d3b2a-33af-4c77-a45f-ee0198b7fea3\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366139858,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"background\",\"selectedIsoCountryCode\":\"us\",\"loginId\":\"\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n{\"actionTypeId\":9009,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"protocol\":\"other\",\"eventId\":\"obtainedApplicationSetting\",\"localTime\":\"2021-04-13 19:08:59\",\"id\":\"application\",\"detectedSource\":\"none\",\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"contents\":[{\"info\":{\"result\":\"on\",\"id\":\"osNotificationCategoryNewPlaceLearned\"},\"typeId\":1004},{\"info\":{\"result\":\"on\",\"id\":\"osNotificationCategoryOther\"},\"typeId\":1004},{\"info\":{\"result\":\"on\",\"id\":\"osNotificationCategoryPlaceSwitching\"},\"typeId\":1004},{\"info\":{\"result\":\"on\",\"id\":\"onNotificationCategoryIaSetup\"},\"typeId\":1004},{\"info\":{\"result\":\"on\",\"id\":\"osNotificationCategoryInfo\"},\"typeId\":1004}],\"logId\":\"bf1530b7-d332-42a3-afd8-b70b8059ed45\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366139896,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"background\",\"selectedIsoCountryCode\":\"us\",\"loginId\":\"\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n{\"actionTypeId\":9004,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"detectedSource\":\"none\",\"localTime\":\"2021-04-13 19:08:59\",\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"d55d7bbf-b51c-4604-ac33-8db9970a9fbc\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366139928,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"background\",\"selectedIsoCountryCode\":\"us\",\"loginId\":\"\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n"'
+
+Serving bdcore domain (returning OK blindly).....
+Response going back from mitm server for method 'POST' for endpoint: 'bdcore-apr-lb.bda.ndmdhs.com/actionlog': '
+Response HTTP/1.1 200 OK
+  headers:
+  body: Empty
+'
+-----------
+Served request in: '0' millis
+-----------
+
+
+-----------
+Actual request time took: '56' milliseconds.
+-----------
+
+Response from method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': 'Response { url: Url { scheme: "https", username: "", password: None, host: Some(Domain("musiccenter-cdn.meta.ndmdhs.com")), port: None, path: "/common/check_url.txt", query: None, fragment: None }, status: 200, headers: {"content-type": "text/plain", "content-length": "15", "connection": "keep-alive", "last-modified": "Wed, 12 Dec 2018 09:59:10 GMT", "accept-ranges": "bytes", "server": "AmazonS3", "date": "Tue, 13 Apr 2021 12:00:16 GMT", "etag": "\"d94f6805bb2bd7639b7a05d46800690e\"", "x-cache": "Hit from cloudfront", "via": "1.1 4201bd1d1fc37ea7749b3bd1b64fce02.cloudfront.net (CloudFront)", "x-amz-cf-pop": "YVR50-C1", "x-amz-cf-id": "y1l56-5Cu-3pM_7t4LDh-RoTOfY9O8RGF8Jm5IEIsEnEqIlSj2J-Ww==", "age": "57384"} }'
+Response.text() from method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': '""'
+Response going back from mitm server for method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': '
+Response HTTP/1.1 200 OK
+  headers:
+    "x-amz-cf-id": "y1l56-5Cu-3pM_7t4LDh-RoTOfY9O8RGF8Jm5IEIsEnEqIlSj2J-Ww=="
+    "last-modified": "Wed, 12 Dec 2018 09:59:10 GMT"
+    "age": "57384"
+    "accept-ranges": "bytes"
+    "x-cache": "Hit from cloudfront"
+    "server": "AmazonS3"
+    "content-type": "text/plain"
+    "date": "Tue, 13 Apr 2021 12:00:16 GMT"
+    "via": "1.1 4201bd1d1fc37ea7749b3bd1b64fce02.cloudfront.net (CloudFront)"
+    "connection": "keep-alive"
+    "etag": "\"d94f6805bb2bd7639b7a05d46800690e\""
+    "x-amz-cf-pop": "YVR50-C1"
+    "content-length": "15"
+  body: Sized(0)
+'
+-----------
+Served request in: '60' millis
+-----------
+
+
+====================================
+Request: '
+HttpRequest HTTP/2.0 POST:/actionlog
+  headers:
+    "user-agent": "Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"
+    "content-encoding": "gzip"
+    "content-type": "application/csx-actionlog-json"
+    "x-csx-logsignature": "fb69538d67fa9d8fb82f3f4362c1c66a67a9499796e0ff59dddcf744236a43a2"
+    "accept-encoding": "gzip"
+    "x-csx-logdatetime": "1618366140220"
+    "x-csx-apikey": "71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"
+    "content-length": "793"
+'
+Request.head(): 'RequestHead { uri: https://bdcore-apr-lb.bda.ndmdhs.com/actionlog, method: POST, version: HTTP/2.0, headers: HeaderMap { inner: {"user-agent": One("Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"), "content-encoding": One("gzip"), "content-type": One("application/csx-actionlog-json"), "x-csx-logsignature": One("fb69538d67fa9d8fb82f3f4362c1c66a67a9499796e0ff59dddcf744236a43a2"), "accept-encoding": One("gzip"), "x-csx-logdatetime": One("1618366140220"), "x-csx-apikey": One("71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"), "content-length": One("793")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:45240), flags: (empty) }'
+Request.body(): '"{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:09:00\",\"previousViewingTime\":1505346,\"detectedSource\":\"none\",\"std_preViewingTime\":1505345,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"105209a7-332b-4b9b-9f48-41b9de0447b6\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366140081,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"background\",\"currentScreenId\":\"dashboardSystem\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:09:00\",\"previousViewingTime\":0,\"detectedSource\":\"none\",\"std_preViewingTime\":7,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"87d77749-af1b-45bf-8406-06fa1be6db70\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366140088,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"dashboardSystem\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:09:00\",\"previousViewingTime\":0,\"detectedSource\":\"none\",\"std_preViewingTime\":3,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"ccdafeba-c9e8-4280-b505-eb6efec82c8f\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366140095,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"dashboardSystem\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n"'
+
+Serving bdcore domain (returning OK blindly).....
+Response going back from mitm server for method 'POST' for endpoint: 'bdcore-apr-lb.bda.ndmdhs.com/actionlog': '
+Response HTTP/1.1 200 OK
+  headers:
+  body: Empty
+'
+-----------
+Served request in: '0' millis
+-----------
+
+
+====================================
+Request: '
+HttpRequest HTTP/2.0 POST:/actionlog
+  headers:
+    "user-agent": "Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"
+    "content-encoding": "gzip"
+    "content-type": "application/csx-actionlog-json"
+    "x-csx-logsignature": "31c9d34e60bd18740c9616f9cb2b5f577de00fa5e240585d966eda9e0533898d"
+    "accept-encoding": "gzip"
+    "x-csx-logdatetime": "1618366140274"
+    "x-csx-apikey": "71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"
+    "content-length": "673"
+'
+Request.head(): 'RequestHead { uri: https://bdcore-apr-lb.bda.ndmdhs.com/actionlog, method: POST, version: HTTP/2.0, headers: HeaderMap { inner: {"user-agent": One("Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"), "content-encoding": One("gzip"), "content-type": One("application/csx-actionlog-json"), "x-csx-logsignature": One("31c9d34e60bd18740c9616f9cb2b5f577de00fa5e240585d966eda9e0533898d"), "accept-encoding": One("gzip"), "x-csx-logdatetime": One("1618366140274"), "x-csx-apikey": One("71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"), "content-length": One("673")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:45240), flags: (empty) }'
+Request.body(): '"{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:09:00\",\"previousViewingTime\":0,\"detectedSource\":\"none\",\"std_preViewingTime\":10,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"0af31c23-5990-4c32-87b2-a53958833900\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366140100,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"dashboardSystem\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n"'
+
+Serving bdcore domain (returning OK blindly).....
+Response going back from mitm server for method 'POST' for endpoint: 'bdcore-apr-lb.bda.ndmdhs.com/actionlog': '
+Response HTTP/1.1 200 OK
+  headers:
+  body: Empty
+'
+-----------
+Served request in: '0' millis
+-----------
+
+
+====================================
+Request: '
+HttpRequest HTTP/1.1 GET:/HP002/MDRID294300/info/info.xml
+  headers:
+    "accept-encoding": "gzip"
+    "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"
+    "host": "info.update.sony.net"
+    "connection": "Keep-Alive"
+'
+Request.head(): 'RequestHead { uri: /HP002/MDRID294300/info/info.xml, method: GET, version: HTTP/1.1, headers: HeaderMap { inner: {"accept-encoding": One("gzip"), "user-agent": One("Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"), "host": One("info.update.sony.net"), "connection": One("Keep-Alive")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:48557), flags: KEEP_ALIVE }'
+Request.body(): '""'
+
+Serving info update sony domain.....
+'GET' request against url: 'https://info.update.sony.net/HP002/MDRID294300/info/info.xml'
+Request being made for mitm: 'Request { method: GET, url: Url { scheme: "https", username: "", password: None, host: Some(Domain("info.update.sony.net")), port: None, path: "/HP002/MDRID294300/info/info.xml", query: None, fragment: None }, headers: {"authorization": Sensitive, "accept-encoding": "gzip", "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)", "host": "info.update.sony.net", "connection": "Keep-Alive"} }'
+
+
+====================================
+Request: '
+HttpRequest HTTP/2.0 POST:/actionlog
+  headers:
+    "user-agent": "Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"
+    "content-encoding": "gzip"
+    "content-type": "application/csx-actionlog-json"
+    "x-csx-logsignature": "e80ef1daa843e99af0057472d2d00ec638d68a2a79fb94dff66fa87b7ea36043"
+    "accept-encoding": "gzip"
+    "x-csx-logdatetime": "1618366140329"
+    "x-csx-apikey": "71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"
+    "content-length": "724"
+'
+Request.head(): 'RequestHead { uri: https://bdcore-apr-lb.bda.ndmdhs.com/actionlog, method: POST, version: HTTP/2.0, headers: HeaderMap { inner: {"user-agent": One("Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"), "content-encoding": One("gzip"), "content-type": One("application/csx-actionlog-json"), "x-csx-logsignature": One("e80ef1daa843e99af0057472d2d00ec638d68a2a79fb94dff66fa87b7ea36043"), "accept-encoding": One("gzip"), "x-csx-logdatetime": One("1618366140329"), "x-csx-apikey": One("71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"), "content-length": One("724")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:45240), flags: (empty) }'
+Request.body(): '"{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:09:00\",\"previousViewingTime\":0,\"detectedSource\":\"none\",\"std_preViewingTime\":9,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"55fbb0bf-f4d7-4732-9cb0-383d3eb9aff0\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366140111,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"dashboardSystem\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:09:00\",\"previousViewingTime\":0,\"detectedSource\":\"none\",\"std_preViewingTime\":5,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"112dbef4-17a6-4038-a7b0-701243306f02\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366140114,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"dashboardSystem\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n"'
+
+Serving bdcore domain (returning OK blindly).....
+Response going back from mitm server for method 'POST' for endpoint: 'bdcore-apr-lb.bda.ndmdhs.com/actionlog': '
+Response HTTP/1.1 200 OK
+  headers:
+  body: Empty
+'
+-----------
+Served request in: '0' millis
+-----------
+
+
+====================================
+Request: '
+HttpRequest HTTP/2.0 POST:/actionlog
+  headers:
+    "user-agent": "Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"
+    "content-encoding": "gzip"
+    "content-type": "application/csx-actionlog-json"
+    "x-csx-logsignature": "cfed9401c8b3c5dca05396136f6e234fc4d88137e8dc8fc69637a6d6e0166b10"
+    "accept-encoding": "gzip"
+    "x-csx-logdatetime": "1618366140365"
+    "x-csx-apikey": "71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"
+    "content-length": "672"
+'
+Request.head(): 'RequestHead { uri: https://bdcore-apr-lb.bda.ndmdhs.com/actionlog, method: POST, version: HTTP/2.0, headers: HeaderMap { inner: {"user-agent": One("Quiver (Android 6.0.1; Nexus 5) Core/1.5.1-vim_hpc Analytics/1.2.3-vim_hpc (1000000000000026; HeadphonesConnect)"), "content-encoding": One("gzip"), "content-type": One("application/csx-actionlog-json"), "x-csx-logsignature": One("cfed9401c8b3c5dca05396136f6e234fc4d88137e8dc8fc69637a6d6e0166b10"), "accept-encoding": One("gzip"), "x-csx-logdatetime": One("1618366140365"), "x-csx-apikey": One("71cLgyblKb400DL5pYBpro81OKa00100I01il7TCOrBHc1aj2ZwxKVtK00Pm0nXeIcQ00PfmrLqi6n3K5u7UdGjbt"), "content-length": One("672")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:45240), flags: (empty) }'
+Request.body(): '"{\"actionTypeId\":1005,\"locationType\":\"Country\",\"hardType\":\"Phone\",\"serviceId\":\"HeadphonesConnect\",\"action\":{\"localTime\":\"2021-04-13 19:09:00\",\"previousViewingTime\":0,\"detectedSource\":\"none\",\"std_preViewingTime\":3,\"placeId\":0},\"timeZone\":\"-0800\",\"hardModel\":\"Nexus 5\",\"versionOfService\":\"2.1.0\",\"uidType\":\"Anonymous\",\"logVersion\":\"1.4\",\"adId\":\"ff034351-e6e9-441f-acfa-62f7e4139198\",\"osVersion\":\"6.0.1\",\"manufacturer\":\"LGE\",\"softwareVersion\":\"7.4.1\",\"networkType\":\"Unknown\",\"logId\":\"72e6b77e-3d17-4a15-8b64-9bc3e4b82e18\",\"software\":\"HeadphonesConnect\",\"screenResolution\":\"1080x1776\",\"os\":\"Android\",\"timeStamp\":1618366140118,\"clientId\":\"2b822e27-a835-4f60-b79b-2628c6154df2\",\"serviceInfo\":{\"targetDeviceName\":\"WH-1000XM4\",\"targetDeviceColor\":\"black\",\"previousScreenId\":\"dashboardSystem\",\"currentScreenId\":\"dashboardSystem\",\"selectedIsoCountryCode\":\"us\",\"targetDeviceSoftwareVersion\":\"2.0.7\",\"loginId\":\"\",\"targetDeviceSerialNo\":\"0000000005084694\",\"targetDeviceBluetoothAddress\":\"94:DB:56:5F:D3:62\",\"targetDeviceConnectedProtocols\":[\"tandemMdr\",\"mdrBle\"],\"targetDeviceBluetoothHashValue\":\"047C048C\",\"targetDeviceModelName\":\"WH-1000XM4\"},\"location\":\"USA\",\"isAdIdOptIn\":true,\"languageCode\":\"eng\",\"applicationId\":\"1000000000000026\"}\n"'
+
+Serving bdcore domain (returning OK blindly).....
+Response going back from mitm server for method 'POST' for endpoint: 'bdcore-apr-lb.bda.ndmdhs.com/actionlog': '
+Response HTTP/1.1 200 OK
+  headers:
+  body: Empty
+'
+-----------
+Served request in: '0' millis
+-----------
+
+
+-----------
+Actual request time took: '140' milliseconds.
+-----------
+
+Response from method 'GET' for endpoint: 'info.update.sony.net/HP002/MDRID294300/info/info.xml': 'Response { url: Url { scheme: "https", username: "", password: None, host: Some(Domain("info.update.sony.net")), port: None, path: "/HP002/MDRID294300/info/info.xml", query: None, fragment: None }, status: 200, headers: {"accept-ranges": "bytes", "content-type": "application/xml", "etag": "\"83f6894e6c9ee17370715875954870ac:1604548818.841295\"", "last-modified": "Thu, 05 Nov 2020 04:00:18 GMT", "server": "AkamaiNetStorage", "vary": "Accept-Encoding", "content-encoding": "gzip", "expires": "Wed, 14 Apr 2021 02:09:04 GMT", "cache-control": "max-age=0, no-cache, no-store", "pragma": "no-cache", "date": "Wed, 14 Apr 2021 02:09:04 GMT", "content-length": "4332", "connection": "keep-alive"} }'
+Response.text() from method 'GET' for endpoint: 'info.update.sony.net/HP002/MDRID294300/info/info.xml': '""'
+Response going back from mitm server for method 'GET' for endpoint: 'info.update.sony.net/HP002/MDRID294300/info/info.xml': '
+Response HTTP/1.1 200 OK
+  headers:
+    "last-modified": "Thu, 05 Nov 2020 04:00:18 GMT"
+    "vary": "Accept-Encoding"
+    "accept-ranges": "bytes"
+    "content-encoding": "gzip"
+    "server": "AkamaiNetStorage"
+    "content-type": "application/xml"
+    "expires": "Wed, 14 Apr 2021 02:09:04 GMT"
+    "cache-control": "max-age=0, no-cache, no-store"
+    "date": "Wed, 14 Apr 2021 02:09:04 GMT"
+    "etag": "\"83f6894e6c9ee17370715875954870ac:1604548818.841295\""
+    "pragma": "no-cache"
+    "connection": "keep-alive"
+    "content-length": "4332"
+  body: Sized(4332)
+'
+-----------
+Served request in: '144' millis
+-----------
+
+
+====================================
+Request: '
+HttpRequest HTTP/1.1 HEAD:/common/check_url.txt
+  headers:
+    "accept-encoding": "gzip"
+    "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"
+    "host": "musiccenter-cdn.meta.ndmdhs.com"
+    "connection": "Keep-Alive"
+'
+Request.head(): 'RequestHead { uri: /common/check_url.txt, method: HEAD, version: HTTP/1.1, headers: HeaderMap { inner: {"accept-encoding": One("gzip"), "user-agent": One("Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)"), "host": One("musiccenter-cdn.meta.ndmdhs.com"), "connection": One("Keep-Alive")} }, extensions: RefCell { value: Extensions }, peer_addr: Some(192.168.1.136:38017), flags: KEEP_ALIVE }'
+Request.body(): '""'
+
+Serving music center domain.....
+'HEAD' request against url: 'https://musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt'
+Request being made for mitm: 'Request { method: HEAD, url: Url { scheme: "https", username: "", password: None, host: Some(Domain("musiccenter-cdn.meta.ndmdhs.com")), port: None, path: "/common/check_url.txt", query: None, fragment: None }, headers: {"authorization": Sensitive, "accept-encoding": "gzip", "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Nexus 5 Build/M4B30Z)", "host": "musiccenter-cdn.meta.ndmdhs.com", "connection": "Keep-Alive"} }'
+
+
+-----------
+Actual request time took: '58' milliseconds.
+-----------
+
+Response from method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': 'Response { url: Url { scheme: "https", username: "", password: None, host: Some(Domain("musiccenter-cdn.meta.ndmdhs.com")), port: None, path: "/common/check_url.txt", query: None, fragment: None }, status: 200, headers: {"content-type": "text/plain", "content-length": "15", "connection": "keep-alive", "last-modified": "Wed, 12 Dec 2018 09:59:10 GMT", "accept-ranges": "bytes", "server": "AmazonS3", "date": "Tue, 13 Apr 2021 10:12:40 GMT", "etag": "\"d94f6805bb2bd7639b7a05d46800690e\"", "x-cache": "Hit from cloudfront", "via": "1.1 70b0c022caf458423e58ecbec40508f0.cloudfront.net (CloudFront)", "x-amz-cf-pop": "YVR50-C1", "x-amz-cf-id": "LSLWsvBgm0ONaWCYVGHbEsAQy048Dayh34aXMC61SP11gPgpjslkQw==", "age": "57385"} }'
+Response.text() from method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': '""'
+Response going back from mitm server for method 'HEAD' for endpoint: 'musiccenter-cdn.meta.ndmdhs.com/common/check_url.txt': '
+Response HTTP/1.1 200 OK
+  headers:
+    "x-amz-cf-id": "LSLWsvBgm0ONaWCYVGHbEsAQy048Dayh34aXMC61SP11gPgpjslkQw=="
+    "last-modified": "Wed, 12 Dec 2018 09:59:10 GMT"
+    "age": "57385"
+    "accept-ranges": "bytes"
+    "x-cache": "Hit from cloudfront"
+    "server": "AmazonS3"
+    "content-type": "text/plain"
+    "date": "Tue, 13 Apr 2021 10:12:40 GMT"
+    "via": "1.1 70b0c022caf458423e58ecbec40508f0.cloudfront.net (CloudFront)"
+    "connection": "keep-alive"
+    "etag": "\"d94f6805bb2bd7639b7a05d46800690e\""
+    "x-amz-cf-pop": "YVR50-C1"
+    "content-length": "15"
+  body: Sized(0)
+'
+-----------
+Served request in: '62' millis
+-----------
+
