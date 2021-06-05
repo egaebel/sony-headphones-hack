@@ -77,3 +77,14 @@ Notes
 
 openssl req -new -addext "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net" -key server.key -out server-2.csr
 openssl x509 -req -extfile <(printf "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net") -in server-2.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server-2.crt -days 9999 -sha256
+
+
+Current Focus (Where I left off)
+================================
+* Found encryption and response reading files located under: 
+----/base-dex2jar.jar.src--files/com/sony/songpal
+* Much of the key files appear to be under:
+----/base-dex2jar.jar.src--files/com/sony/songpal/automagic
+----In particular, InformationHeader.java and base-dex2jar.jar.src--files/com/sony/songpal/automagic/l.java (that's a lowercase L)
+* There is AES, DES3, and NONE for encryption types.
+* It seems like maybe the responses aren't being read properly in Rust since they're Java objects?

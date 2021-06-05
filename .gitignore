@@ -8,3 +8,4 @@ rust-mitm-server/Cargo.
 rust-mitm-server/Cargo.lock
 audio-file-decoder/lib
 audio-file-decoder/bin
+java-response-reader/target
