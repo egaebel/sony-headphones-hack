@@ -88,3 +88,4 @@ Current Focus (Where I left off)
 ----In particular, InformationHeader.java and base-dex2jar.jar.src--files/com/sony/songpal/automagic/l.java (that's a lowercase L)
 * There is AES, DES3, and NONE for encryption types.
 * It seems like maybe the responses aren't being read properly in Rust since they're Java objects?
+----Wrote ResponseReader java program to try and resolve this. Had to instal XmlPuller to get the Java code working. Used https://github.com/stefanhaustein/kxml2/issues/5 for reference to get it working with maven.

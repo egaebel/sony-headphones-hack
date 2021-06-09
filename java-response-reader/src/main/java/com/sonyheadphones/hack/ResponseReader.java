@@ -52,11 +52,13 @@ public class ResponseReader {
             if (i % 100000 == 0) {
                 System.out.println(String.format("Iteration: %d", i));
             }
-            while (b == 10) {
+            System.out.println(String.format("Outer loop: b: '%02X'", b));
+            while (b == 10) {// 0xFF) {
                 System.out.println(String.format("b: '%02X'", b));
                 // if (j)
-                if (j != 0) {
+                if (j > 0) {
                     try {
+                        // Write j bytes from k offset, convert to utf8, and save.
                         byteArrayOutputStream.write(paramArrayOfbyte, k, j);
                         String str = new String(byteArrayOutputStream.toByteArray(), "UTF-8");
                         byteArrayOutputStream.reset();
@@ -118,8 +120,11 @@ public class ResponseReader {
              * unsupportedEncodingException1 = unsupportedEncodingException[i]; continue; }
              */
             if (i < paramArrayOfbyte.length) {
+                System.out.println(String.format("Continuing since i: '%d' < paramArrayOfByte.length: '%d'", i,
+                        paramArrayOfbyte.length));
                 // UnsupportedEncodingException unsupportedEncodingException1 =
                 // unsupportedEncodingException[i];
+                b = paramArrayOfbyte[i];
                 continue;
             }
             throw new RuntimeException(String.format("InternalException.Error.PARSE_FAILED: On iteration: %d", i - 1));
