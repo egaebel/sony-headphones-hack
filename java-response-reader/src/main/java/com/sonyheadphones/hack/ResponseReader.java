@@ -17,7 +17,8 @@ import java.util.stream.Collectors;
 
 public class ResponseReader {
     public static void main(String[] args) throws Exception {
-        String filePath = "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
+        // String filePath = "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
+        String filePath = "/home/egaebel/workspace2/Programs/sony-headphones-hack/rust-mitm-server/src/saved-responses/1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary"
         System.out.println(String.format("Running on file: '%s'", filePath));
         File file = new File(filePath);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();

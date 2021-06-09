@@ -24,6 +24,7 @@ Steps Taken
 ----I've found an RSA cert key in the extracted apk (using apktool with the full command below). The cert is (apparently) in pkcs7 format in binary encoding (using DER). It was a pain in the ass to figure this out.
 ----Cert location
 --------"/home/egaebel/Programs/sony-headphones-hack/base-apk--apktool-output/original/META-INF/CERT.RSA"
+------------UPDATE: This cert seems to just be what was used to sign the apk.
 ----apktool command
 --------apktool d base.apk -o base-apk--apktool-output/
 ----Guide to identify apk file location for an app
