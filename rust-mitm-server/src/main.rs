@@ -13,8 +13,8 @@ use rustls::{NoClientAuth, ResolvesServerCertUsingSNI, ServerConfig};
 
 use std::collections::{BTreeMap, HashMap};
 use std::fs::File;
-use std::io::BufReader;
 use std::io::prelude::*;
+use std::io::BufReader;
 use std::sync::{Arc, Mutex};
 use std::time::{Instant, SystemTime, UNIX_EPOCH};
 
@@ -313,9 +313,21 @@ fn mitm(
                 get_request_string(request_type, host, resource),
                 text
             );
-            if SAVE_RESPONSE && response_saving_domains.contains(&host) && resp_status_code == StatusCode::OK {
-                let file_name = format!("{}--{}.binary", SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_millis(), url.replace("/", "--"));
-                let mut file = File::create(format!("{}/{}", SAVE_RESPONSE_DIR, file_name)).unwrap();
+            if SAVE_RESPONSE
+                && response_saving_domains.contains(&host)
+                && resp_status_code == StatusCode::OK
+            {
+                let file_name = format!(
+                    "{}--{}.binary",
+                    SystemTime::now()
+                        .duration_since(UNIX_EPOCH)
+                        .unwrap()
+                        .as_millis(),
+                    url.replace("/", "--")
+                );
+                let mut file =
+                    File::create(format!("{}/{}", SAVE_RESPONSE_DIR, file_name)).unwrap();
+                println!(format!("body_buffer: '{}'", body_buffer));
                 file.write_all(body_buffer.as_slice()).unwrap();
             }
             if USE_RESPONSE_CACHE
