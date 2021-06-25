@@ -35,9 +35,9 @@ const MUSIC_CENTER_DOMAIN: &str = "musiccenter-cdn.meta.ndmdhs.com";
 const MUSIC_CENTER_URL: &str = "https://musiccenter-cdn.meta.ndmdhs.com";
 const SAVE_RESPONSE: bool = true;
 const SAVE_RESPONSE_DIR: &str = "saved-responses";
-const SERVING_IP_ADDRESS: &str = "192.168.1.32";
+const SERVING_IP_ADDRESS: &str = "192.168.1.64";
 const SSL_PORT: &str = "443";
-const USE_RESPONSE_CACHE: bool = false;
+const USE_RESPONSE_CACHE: bool = true;
 
 #[derive(Debug, Eq, Hash, PartialEq)]
 struct CachedRequest {
@@ -236,6 +236,105 @@ fn get_request_string(request_type: &Method, host: &str, resource: &str) -> Stri
     return get_request_string_url(request_type, &format!("{}{}", host, resource));
 }
 
+fn try_extract_utf8_headers(buffer: &[u8]) -> Result<&str, String> {
+    println!(
+        "Iterating over: '{}' bytes in chunks of 4.....",
+        buffer.len()
+    );
+    let mut header_buffer: Vec<u8> = vec![];
+    let mut running_buffer: Vec<u8> = vec![];
+    for chunk in buffer.chunks(4) {
+        if chunk.len() == 4 {
+            println!(
+                "Chunk as hex: {:X} {:X} {:X} {:X}",
+                chunk[0], chunk[1], chunk[2], chunk[3]
+            );
+            println!(
+                "Chunk as dec: {} {} {} {}",
+                chunk[0], chunk[1], chunk[2], chunk[3]
+            );
+            header_buffer.push(chunk[0]);
+            header_buffer.push(chunk[1]);
+            header_buffer.push(chunk[2]);
+            header_buffer.push(chunk[3]);
+
+            running_buffer.push(chunk[0]);
+            match std::str::from_utf8(&running_buffer.as_slice()) {
+                Ok(utf8_string) => println!(
+                    "Succeessfully extracted utf8 string from running buffer! Got: '{}'",
+                    utf8_string
+                ),
+                Err(_e) => {
+                    println!("Failed to extract utf8 string from running buffer! COntinuing.....");
+                }
+            }
+            running_buffer.push(chunk[1]);
+            match std::str::from_utf8(&running_buffer.as_slice()) {
+                Ok(utf8_string) => println!(
+                    "Succeessfully extracted utf8 string from running buffer! Got: '{}'",
+                    utf8_string
+                ),
+                Err(_e) => {
+                    println!("Failed to extract utf8 string from running buffer! COntinuing.....");
+                }
+            }
+            running_buffer.push(chunk[2]);
+            match std::str::from_utf8(&running_buffer.as_slice()) {
+                Ok(utf8_string) => println!(
+                    "Succeessfully extracted utf8 string from running buffer! Got: '{}'",
+                    utf8_string
+                ),
+                Err(_e) => {
+                    println!("Failed to extract utf8 string from running buffer! COntinuing.....");
+                }
+            }
+            running_buffer.push(chunk[3]);
+            match std::str::from_utf8(&running_buffer.as_slice()) {
+                Ok(utf8_string) => println!(
+                    "Succeessfully extracted utf8 string from running buffer! Got: '{}'",
+                    utf8_string
+                ),
+                Err(_e) => {
+                    println!("Failed to extract utf8 string from running buffer: '{:?}'! COntinuing.....", running_buffer);
+                }
+            }
+        } else {
+            println!("Chunk size is < 4.");
+        }
+        if chunk == [255, 255, 255, 255] {
+            println!("Hit 0xFFFF space: '{:?}'", chunk);
+            println!("Header buffer: '{:?}'", header_buffer);
+            match std::str::from_utf8(&header_buffer.as_slice()) {
+                Ok(utf8_string) => println!(
+                    "Succeessfully extracted utf8 string from header buffer! Got: '{}'",
+                    utf8_string
+                ),
+                Err(_e) => {
+                    println!("Failed to extract utf8 string from header buffer! COntinuing.....");
+                }
+            }
+        }
+        println!("");
+    }
+    return Ok("");
+}
+
+fn try_extract_utf8(buffer: &[u8]) -> Result<&str, String> {
+    if buffer.len() <= 1 {
+        return Err(format!(
+            "ERROR: Buffer is size: '{}', cannot extract utf-8 string.",
+            buffer.len()
+        ));
+    }
+    match std::str::from_utf8(buffer) {
+        Ok(utf8_string) => return Ok(utf8_string),
+        Err(_e) => {
+            println!("Failed to extract utf8 string from buffer, splitting in half and trying again.....");
+            try_extract_utf8(&buffer[..(buffer.len() / 2)])
+        }
+    }
+}
+
 fn mitm(
     request_type: &Method,
     host: &str,
@@ -303,6 +402,11 @@ fn mitm(
                 get_request_string(request_type, host, resource),
                 resp
             );
+            /*if resource.ends_with(".bin") {
+                let mut unmodified_resp_body_buffer: Vec<u8> = vec![];
+                resp.copy_to(&mut unmodified_resp_body_buffer).unwrap();
+                try_extract_utf8_headers(&unmodified_resp_body_buffer.as_slice()).unwrap();
+            }*/
             let resp_status_code = resp.status();
             let mut resp_builder = HttpResponse::Ok();
             set_headers_in_resp(resp.headers(), &mut resp_builder);
@@ -312,6 +416,7 @@ fn mitm(
             }
             let mut body_buffer: Vec<u8> = vec![];
             resp.copy_to(&mut body_buffer).unwrap();
+            let body_buffer_len = body_buffer.len();
             let text = resp.text().unwrap();
             println!(
                 "Response.text() from {}: '{:?}'",
@@ -320,6 +425,7 @@ fn mitm(
             );
             if SAVE_RESPONSE
                 && response_saving_domains.contains(&host)
+                && resource.ends_with(".bin")
                 && resp_status_code == StatusCode::OK
             {
                 let file_name = format!(
@@ -332,7 +438,6 @@ fn mitm(
                 );
                 let mut file =
                     File::create(format!("{}/{}", SAVE_RESPONSE_DIR, file_name)).unwrap();
-                println!("{}", format!("body_buffer: '{}'", std::str::from_utf8(body_buffer.as_slice()).unwrap()));
                 file.write_all(body_buffer.as_slice()).unwrap();
             }
             if USE_RESPONSE_CACHE
@@ -344,6 +449,13 @@ fn mitm(
                     CachedRequest::new(request_type, host, resource, request_body),
                     CachedResponse::new(string_headers, &text),
                 );
+            }
+            if false && resource.ends_with(".bin") {
+                println!(
+                    "Setting index: '{}' to 37  in body_buffer.",
+                    body_buffer_len - 100
+                );
+                body_buffer[body_buffer_len - 100] = 37;
             }
             // return resp_builder.body(text);
             return resp_builder.body(body_buffer);
@@ -393,15 +505,17 @@ async fn main() -> std::io::Result<()> {
             )
             .expect(format!("Invalid certificate for '{}'", MUSIC_CENTER_DOMAIN).as_str());
         /*resolver
-            .add(
-                BDCORE_DOMAIN,
-                rustls::sign::CertifiedKey::new(certs(cert_file).unwrap(), signing_key_boxed),
-            )
-            .expect(format!("Invalid certificate for '{}'", MUSIC_CENTER_DOMAIN).as_str());*/
+        .add(
+            BDCORE_DOMAIN,
+            rustls::sign::CertifiedKey::new(certs(cert_file).unwrap(), signing_key_boxed),
+        )
+        .expect(format!("Invalid certificate for '{}'", MUSIC_CENTER_DOMAIN).as_str());*/
 
         config.cert_resolver = Arc::new(resolver);
     } else {
-        println!("NOT using Server Name Identification (SNI), loading cert for a single domain.....");
+        println!(
+            "NOT using Server Name Identification (SNI), loading cert for a single domain....."
+        );
         // TODO: Likely remove since the resolver can handle multiple certs for multiple domains.
         config.set_single_cert(cert_chain, keys.remove(0)).unwrap();
     }
