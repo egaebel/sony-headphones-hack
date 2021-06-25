@@ -18,7 +18,11 @@ import java.util.stream.Collectors;
 public class ResponseReader {
     public static void main(String[] args) throws Exception {
         // String filePath = "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
-        String filePath = "/home/egaebel/workspace2/Programs/sony-headphones-hack/rust-mitm-server/src/saved-responses/1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary";
+        // Dutch
+        // String fileName = "1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary";
+        // English
+        String fileName = "1618367334662--https:----info.update.sony.net--HP002--VGIDLPB0401--contents--0002--VP_english_UPG_03.bin.binary";
+        String filePath = String.format("/home/egaebel/workspace2/Programs/sony-headphones-hack/rust-mitm-server/src/saved-responses/%s", fileName);
         System.out.println(String.format("Running on file: '%s'", filePath));
         File file = new File(filePath);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -57,7 +61,7 @@ public class ResponseReader {
             while (b == 10) {
                 // System.out.println(String.format("b: '%02X'", b));
                 // if (j)
-                if (j > 0) {
+                if (j != 0) {
                     try {
                         // Write j bytes from k offset, convert to utf8, and save.
                         byteArrayOutputStream.write(paramArrayOfbyte, k, j);
