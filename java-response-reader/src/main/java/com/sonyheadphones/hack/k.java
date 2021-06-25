@@ -74,7 +74,7 @@ class k {
                         } else {
                             str1 = "FALSE";
                         }
-                        System.out.println(String.format(locale, "(%s) %s %s %s -> %s",
+                        System.out.println(String.format(locale, "k.a(o, paramMap): (%s) %s %s %s -> %s",
                                 new Object[] { str2, str, str4, str3, str1 }));
                         continue;
                     }
@@ -447,7 +447,7 @@ class k {
                 StringBuilder stringBuilder1 = new StringBuilder();
                 stringBuilder1.append("replace url: ");
                 stringBuilder1.append(param1String);
-                System.out.println(str1 + stringBuilder1.toString());
+                System.out.println("k.a(param1String)--1: " + str1 + stringBuilder1.toString());
                 return param1String;
             }
             // String str = k.b();
@@ -455,7 +455,7 @@ class k {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("not replace url: ");
             stringBuilder.append(param1String);
-            System.out.println(str + stringBuilder.toString());
+            System.out.println("k.a(param1String)--2: " + str + stringBuilder.toString());
             return param1String;
         }
     }
@@ -551,7 +551,7 @@ class k {
                     try {
                         return new String(arrayOfByte, "UTF-8");
                     } catch (UnsupportedEncodingException unsupportedEncodingException) {
-                        System.out.println(a + unsupportedEncodingException.getMessage());
+                        System.out.println("k.a(param1LangCode)--1: " + a + unsupportedEncodingException.getMessage());
                     }
             }
             return "";
@@ -566,7 +566,7 @@ class k {
                 return null;
             List<HashMap<?, ?>> list = a("binary");
             if (list.isEmpty()) {
-                System.out.println(a + "distributionFilesWithInstallType for binary fail");
+                System.out.println("k.b(): " + a + "distributionFilesWithInstallType for binary fail");
                 return null;
             }
             return a(list.get(0));
@@ -577,31 +577,31 @@ class k {
                 return null;
             List<HashMap<?, ?>> list = a("notice");
             if (list.isEmpty()) {
-                System.out.println(a + "distributionFilesWithInstallType for notice file URL not exist");
+                System.out.println("k.c(): " + a + "distributionFilesWithInstallType for notice file URL not exist");
                 return null;
             }
             String str = a;
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("Notice info: ");
             stringBuilder.append(list.get(0));
-            System.out.println(str + stringBuilder.toString());
+            System.out.println("k.c(): " + str + stringBuilder.toString());
             return a(list.get(0));
         }
 
         public k.a d() {
             if (!a())
                 return null;
-            System.out.println(a + "getUpdateInformation  distributionFilesWithInstallType(EULA)");
+            System.out.println("k.d--1(): " + a + "getUpdateInformation  distributionFilesWithInstallType(EULA)");
             List<HashMap<?, ?>> list = a("EULA");
             if (list.isEmpty()) {
-                System.out.println(a + "distributionFilesWithInstallType for EULA file URL not exist");
+                System.out.println("k.d--2(): " + a + "distributionFilesWithInstallType for EULA file URL not exist");
                 return null;
             }
             String str = a;
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("EULA info: ");
             stringBuilder.append(list.get(0));
-            System.out.println(str + stringBuilder.toString());
+            System.out.println("k.d--3(): " + str + stringBuilder.toString());
             return a(list.get(0));
         }
     }

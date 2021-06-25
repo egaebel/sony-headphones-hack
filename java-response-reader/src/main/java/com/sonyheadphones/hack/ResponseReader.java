@@ -18,7 +18,11 @@ import java.util.stream.Collectors;
 public class ResponseReader {
     public static void main(String[] args) throws Exception {
         // String filePath = "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
-        String filePath = "/home/egaebel/workspace2/Programs/sony-headphones-hack/rust-mitm-server/src/saved-responses/1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary"
+        // Dutch
+        // String fileName = "1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary";
+        // English
+        String fileName = "1618367334662--https:----info.update.sony.net--HP002--VGIDLPB0401--contents--0002--VP_english_UPG_03.bin.binary";
+        String filePath = String.format("/home/egaebel/workspace2/Programs/sony-headphones-hack/rust-mitm-server/src/saved-responses/%s", fileName);
         System.out.println(String.format("Running on file: '%s'", filePath));
         File file = new File(filePath);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -53,17 +57,18 @@ public class ResponseReader {
             if (i % 100000 == 0) {
                 System.out.println(String.format("Iteration: %d", i));
             }
-            System.out.println(String.format("Outer loop: b: '%02X'", b));
-            while (b == 10) {// 0xFF) {
-                System.out.println(String.format("b: '%02X'", b));
+            // System.out.println(String.format("Outer loop: b: '%02X'", b));
+            while (b == 10) {
+                // System.out.println(String.format("b: '%02X'", b));
                 // if (j)
-                if (j > 0) {
+                if (j != 0) {
                     try {
                         // Write j bytes from k offset, convert to utf8, and save.
                         byteArrayOutputStream.write(paramArrayOfbyte, k, j);
                         String str = new String(byteArrayOutputStream.toByteArray(), "UTF-8");
                         byteArrayOutputStream.reset();
                         arrayList.add(str);
+                        // System.out.println(String.format("Added str: '%s' to arrayList.....", str));
                         k = i + 1;
                         if (k < paramArrayOfbyte.length) {
                             b = paramArrayOfbyte[k];
@@ -84,10 +89,13 @@ public class ResponseReader {
                     byteArrayOutputStream.write((byte[]) paramArrayOfbyte, m, i);
                     byte[] arrayOfByte = byteArrayOutputStream.toByteArray();
                     if (!arrayList.isEmpty()) {
+                        /*
                         System.out.println(String.format(
                                 "arrayList is not empty, loading InformationHeader from it.....\nElements:\n%s",
                                 arrayList.stream().collect(Collectors.joining("\n"))));
+                                */
                         InformationHeader informationHeader = InformationHeader.a(arrayList);
+                        System.out.println("\n\n\nLoaded InformationHeader from ArrayList! Is:\n" + informationHeader);
                     } else {
                         // unsupportedEncodingException = null;
                         paramArrayOfbyte = null;
@@ -102,8 +110,10 @@ public class ResponseReader {
                              * return a(arrayOfByte, (InformationHeader) unsupportedEncodingException,
                              * paramString1, paramString2, paramg, paramd);
                              */
-                            InformationHeader informationHeader = (InformationHeader) (new ObjectInputStream(
-                                    new ByteArrayInputStream(paramArrayOfbyte)).readObject());
+                            /*InformationHeader informationHeader = (InformationHeader) (new ObjectInputStream(
+                                    new ByteArrayInputStream(paramArrayOfbyte)).readObject());*/
+                            InformationHeader informationHeader = InformationHeader.a(arrayList);
+                            System.out.println("\n\n\nLoaded InformationHeader from ArrayList just prior to calling decode (a(...))! Is:\n" + informationHeader);
                             return a(arrayOfByte, informationHeader, paramString1, paramString2, paramg, paramd);
                         }
                         throw new RuntimeException("InternalException.Error.INVALID_INFORMATION_FILE_BODY");
@@ -121,8 +131,10 @@ public class ResponseReader {
              * unsupportedEncodingException1 = unsupportedEncodingException[i]; continue; }
              */
             if (i < paramArrayOfbyte.length) {
-                System.out.println(String.format("Continuing since i: '%d' < paramArrayOfByte.length: '%d'", i,
-                        paramArrayOfbyte.length));
+                if (i % 100000 == 0) {
+                    System.out.println(String.format("Continuing since i: '%d' < paramArrayOfByte.length: '%d'", i,
+                            paramArrayOfbyte.length));
+                }
                 // UnsupportedEncodingException unsupportedEncodingException1 =
                 // unsupportedEncodingException[i];
                 b = paramArrayOfbyte[i];
@@ -135,7 +147,7 @@ public class ResponseReader {
     private static k a(byte[] paramArrayOfbyte, InformationHeader paramInformationHeader, String paramString1,
             String paramString2, g paramg, d paramd) throws Exception {
         byte[] arrayOfByte;
-        System.out.println("function a: decodeBody");
+        System.out.println(String.format("function a: decodeBody: InformationHeader:\n%s\n\n", paramInformationHeader));
         if (paramInformationHeader.a() == InformationHeader.EncryptionType.TRIPLE_DES) {
             if (paramd != null) {
                 arrayOfByte = paramd.a(paramArrayOfbyte);
@@ -145,6 +157,7 @@ public class ResponseReader {
         } else {
             arrayOfByte = paramArrayOfbyte;
             if (paramInformationHeader.a() == InformationHeader.EncryptionType.AES)
+                System.out.println("Encryption type AES (default).");
                 if (paramd != null) {
                     arrayOfByte = paramd.b(paramArrayOfbyte);
                 } else {
@@ -304,6 +317,11 @@ public class ResponseReader {
 
         private static InformationHeader a(Map<String, String> paramMap) {
             return new InformationHeader(paramMap);
+        }
+
+        @Override
+        public String toString() {
+            return String.format("InformationHeader:\nEncryptionType: '%s'\nDigestType: '%s'\n", a(), b());
         }
 
         public EncryptionType a() {

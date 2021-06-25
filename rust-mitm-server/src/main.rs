@@ -25,6 +25,8 @@ const _BDCORE_URL: &str = "https://bdcore-apr-lb.bda.ndmdhs.com";
 const _CLOUDFRONT_URL: &str = "https://server-54-230-126-18.hio50.r.cloudfront.net";
 const HC_PRC_SONY_DNA_DOMAIN: &str = "hc01.prc.sonydna.com";
 const HC_PRC_SONY_DNA_URL: &str = "https://hc01.prc.sonydna.com";
+const HEADPHONES_CDN_DOMAIN: &str = "headphones-cdn.meta.csxdev.com";
+const HEADPHONES_CDN_URL: &str = "https://headphones-cdn.meta.csxdev.com";
 const INFO_UPDATE_SONY_DOMAIN: &str = "info.update.sony.net";
 const INFO_UPDATE_SONY_URL: &str = "https://info.update.sony.net";
 const MDS_CSX_SONY_DOMAIN: &str = "mds.csx.sony.com";
@@ -288,6 +290,9 @@ fn mitm(
     } else if host == MUSIC_CENTER_DOMAIN {
         println!("Serving music center domain.....");
         url = format!("{}{}", MUSIC_CENTER_URL, resource);
+    } else if host == HEADPHONES_CDN_DOMAIN {
+        println!("Serving headphones cdn domain.....");
+        url = format!("{}{}", HEADPHONES_CDN_URL, resource);
     } else {
         panic!("Man-in-the-middle services are not available for request to host '{}', failed at attempting resource: '{}'. Please try again :D.", host, resource);
     }
@@ -327,7 +332,7 @@ fn mitm(
                 );
                 let mut file =
                     File::create(format!("{}/{}", SAVE_RESPONSE_DIR, file_name)).unwrap();
-                println!(format!("body_buffer: '{}'", body_buffer));
+                println!("{}", format!("body_buffer: '{}'", std::str::from_utf8(body_buffer.as_slice()).unwrap()));
                 file.write_all(body_buffer.as_slice()).unwrap();
             }
             if USE_RESPONSE_CACHE
@@ -366,12 +371,15 @@ async fn main() -> std::io::Result<()> {
     // Load SSL cert/key.
     const USE_SNI: bool = false; // Probably not necessary at all :).
     let mut config = ServerConfig::new(NoClientAuth::new());
-    let cert_file = &mut BufReader::new(File::open("server.crt").unwrap());
-    let key_file = &mut BufReader::new(File::open("server.key").unwrap());
+    // let cert_file = &mut BufReader::new(File::open("server.crt").unwrap());
+    // let key_file = &mut BufReader::new(File::open("server.key").unwrap());
+    let cert_file = &mut BufReader::new(File::open("working-server-cert.crt").unwrap());
+    let key_file = &mut BufReader::new(File::open("working-server-key.key").unwrap());
     let cert_chain = certs(cert_file).unwrap();
     let mut keys = rsa_private_keys(key_file).unwrap();
 
     if USE_SNI {
+        println!("Using Server Name Identification (SNI).....");
         // Server Name Identification (SNI) support.
         let mut resolver = ResolvesServerCertUsingSNI::new();
 
@@ -384,9 +392,16 @@ async fn main() -> std::io::Result<()> {
                 rustls::sign::CertifiedKey::new(cert_chain, signing_key_boxed),
             )
             .expect(format!("Invalid certificate for '{}'", MUSIC_CENTER_DOMAIN).as_str());
+        /*resolver
+            .add(
+                BDCORE_DOMAIN,
+                rustls::sign::CertifiedKey::new(certs(cert_file).unwrap(), signing_key_boxed),
+            )
+            .expect(format!("Invalid certificate for '{}'", MUSIC_CENTER_DOMAIN).as_str());*/
 
         config.cert_resolver = Arc::new(resolver);
     } else {
+        println!("NOT using Server Name Identification (SNI), loading cert for a single domain.....");
         // TODO: Likely remove since the resolver can handle multiple certs for multiple domains.
         config.set_single_cert(cert_chain, keys.remove(0)).unwrap();
     }

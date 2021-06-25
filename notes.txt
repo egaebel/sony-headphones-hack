@@ -59,9 +59,11 @@ Steps To Take
 Notes
 =====
 * https://en.m.wikipedia.org/wiki/Server_Name_Indication
+* Using SAN with RusTLS: https://github.com/ctz/rustls/issues/331
 * Looks like there might be a static IP for akamai CDN to serve the audio files?
 ----If so, I'll have to change some router settings.....
-* My issues may all have stemmed from using a cert that only had a single domain name attached to it. I can now make SAN certs and am serving bdcore and music-center traffic from my mitm server!
+* My issues may all have stemmed from using a cert that only had a single domain name attached to it. 
+    I can now make SAN certs and am serving bdcore and music-center traffic from my mitm server!
 * Everything works with my server sitting in the middle now! I have grabbed the audio file, I need to reverse engineer its encoding.
 * Big info dump on the binary audio file format
 ----There are 3 headers, separated by 0xFFs

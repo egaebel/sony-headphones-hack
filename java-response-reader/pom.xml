@@ -43,12 +43,6 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>com.github.stefanhaustein</groupId>
 	    <artifactId>kxml2</artifactId>
 	    <version>2.5.0</version>
@@ -59,11 +53,18 @@
       <version>1.1.4.0</version>
     </dependency>
   </dependencies>
-  
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>1.4.0</version>
+          <configuration>
+            <mainClass>com.sonyheadphones.hack.ResponseReader</mainClass>
+          </configuration>
+        </plugin>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>

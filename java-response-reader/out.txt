@@ -1,0 +1,69 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mcom.sonyheadphones.hack:java-response-reader[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding java-response-reader 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.4.0:java[m [1m(default-cli)[m @ [36mjava-response-reader[0;1m ---[m
+Running on file: '/home/egaebel/workspace2/Programs/sony-headphones-hack/rust-mitm-server/src/saved-responses/1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary'
+Parsing response with: '890880' bytes
+Starting b: '96' decimal: '-106'
+Iteration: 0
+Continuing since i: '100000' < paramArrayOfByte.length: '890880'
+Iteration: 100000
+
+
+
+Loaded InformationHeader from ArrayList! Is:
+InformationHeader:
+EncryptionType: 'UNKNOWN'
+DigestType: 'UNKNOWN'
+
+paramArrayOfbyte != null
+paramArrayOfbyte != null and arrayOfByte != null, trying to create InformationHeader.....
+
+
+
+Loaded InformationHeader from ArrayList just prior to calling decode (a(...))! Is:
+InformationHeader:
+EncryptionType: 'UNKNOWN'
+DigestType: 'UNKNOWN'
+
+function a: decodeBody: InformationHeader:
+InformationHeader:
+EncryptionType: 'UNKNOWN'
+DigestType: 'UNKNOWN'
+
+
+
+[[1;33mWARNING[m] 
+[1;31mjava.lang.reflect.InvocationTargetException[m
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.mojo.exec.ExecJavaMojo$1.run ([1mExecJavaMojo.java:293[m)
+    [1mat[m java.lang.Thread.run ([1mThread.java:829[m)
+[1mCaused by[m: java.lang.RuntimeException: [1;31mInternalException.Error.ILLEGAL_ARGUMENT[m
+    [1mat[m com.sonyheadphones.hack.ResponseReader.a ([1mResponseReader.java:160[m)
+    [1mat[m com.sonyheadphones.hack.ResponseReader.parseResponse ([1mResponseReader.java:113[m)
+    [1mat[m com.sonyheadphones.hack.ResponseReader.main ([1mResponseReader.java:38[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.mojo.exec.ExecJavaMojo$1.run ([1mExecJavaMojo.java:293[m)
+    [1mat[m java.lang.Thread.run ([1mThread.java:829[m)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.367 s
+[[1;34mINFO[m] Finished at: 2021-06-09T21:55:28-07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.codehaus.mojo:exec-maven-plugin:1.4.0:java[m [1m(default-cli)[m on project [36mjava-response-reader[m: [1;31mAn exception occured while executing the Java class. null[m: InvocationTargetException: InternalException.Error.ILLEGAL_ARGUMENT -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
