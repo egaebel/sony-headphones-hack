@@ -1,0 +1,58 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            c9:c9:00:74:d1:5f:3d:d6
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = JP, ST = Tokyo, L = Minato-ku, O = VisionArts Co.Ltd, OU = BDA, CN = NDMDHS, emailAddress = localhost.localdomain
+        Validity
+            Not Before: Oct 18 07:31:29 2016 GMT
+            Not After : Sep 24 07:31:29 2116 GMT
+        Subject: C = JP, ST = Tokyo, L = Minato-ku, O = VisionArts Co.Ltd, OU = BDA, CN = NDMDHS, emailAddress = localhost.localdomain
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:bd:26:8e:f2:04:40:12:d3:45:55:ab:0e:a8:a9:
+                    42:a0:50:0d:fb:fb:96:0e:2d:d4:b2:be:97:1a:65:
+                    2d:97:6a:e1:12:9b:0e:fd:fe:32:c5:71:8f:3b:f8:
+                    aa:1b:34:21:6f:6b:2c:b1:21:7c:35:4c:b3:e6:44:
+                    3e:0a:64:06:65:f5:24:d5:46:8c:77:81:6f:09:8c:
+                    77:2b:1f:02:27:a7:db:4e:c4:07:58:b8:67:a7:01:
+                    ca:e3:5f:87:c6:a0:4c:f9:f2:8c:c7:56:5e:18:a7:
+                    72:c5:3d:d9:55:1d:97:5a:37:29:5b:6a:14:22:dc:
+                    c2:15:6d:ef:f7:7e:5a:40:a3:0f:5b:b1:81:f2:8c:
+                    21:74:fa:6f:05:71:f9:40:04:9d:93:c3:a8:b8:ed:
+                    d0:93:a5:67:27:31:6e:da:bb:0a:6a:f6:5a:ef:ef:
+                    c6:97:64:59:61:92:fc:aa:99:18:2c:01:3e:83:39:
+                    04:d1:eb:ed:92:4f:f8:0b:7b:78:fa:07:43:a1:67:
+                    dd:52:40:dc:20:23:94:ae:6a:5b:04:c8:a7:55:32:
+                    4d:1f:d2:9c:16:31:f9:cb:5b:d6:7d:25:2a:0d:04:
+                    be:fe:46:81:48:63:a2:a8:9b:01:9c:76:d1:2e:ba:
+                    34:7b:fa:b5:25:1e:c2:2c:28:fc:d6:0d:99:78:9e:
+                    d9:01
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                F5:7D:38:6D:20:27:63:F4:92:89:98:CC:5F:F5:AD:61:14:E3:73:BA
+            X509v3 Authority Key Identifier: 
+                keyid:F5:7D:38:6D:20:27:63:F4:92:89:98:CC:5F:F5:AD:61:14:E3:73:BA
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+         54:1b:36:5c:e5:74:e9:f7:6e:ce:39:56:bd:dd:35:da:93:ce:
+         59:45:ba:5b:88:1a:28:6d:99:d6:1a:32:df:de:69:49:05:e0:
+         18:2e:de:a5:3b:61:bf:72:a3:de:1e:c2:71:70:83:8e:9e:71:
+         6e:b6:88:b0:34:d8:d5:97:2a:95:10:c7:43:07:d7:ec:e8:cc:
+         f4:d4:ae:40:ec:b6:75:65:f9:bf:43:12:77:94:90:5c:73:f2:
+         7b:9a:8d:ce:f3:89:3f:6d:0d:64:a6:70:02:48:85:fc:a5:d3:
+         f8:d4:3b:3b:6d:bc:20:71:5d:07:c8:fa:ea:28:10:96:ef:61:
+         e8:85:f4:48:a5:59:3b:92:31:4e:58:1f:62:80:60:a4:2f:4c:
+         1a:1a:3f:62:43:dd:31:67:d8:29:2e:1e:6b:9f:a5:17:9f:3f:
+         ea:21:09:ab:56:41:27:44:ee:66:ea:7b:cf:09:9e:5e:da:16:
+         a7:41:ba:a6:11:f7:c3:62:fc:aa:b9:d8:11:6e:00:f3:15:83:
+         0d:de:5f:35:7e:62:c1:c0:b7:66:fe:97:fe:15:f0:91:64:64:
+         81:61:80:08:ce:d8:57:fa:d2:e9:e0:c0:e4:a9:08:29:5d:c4:
+         43:28:52:0f:36:9c:2f:af:c2:e3:54:d7:a0:d4:07:51:97:70:
+         3e:52:bf:ea

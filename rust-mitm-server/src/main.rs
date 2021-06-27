@@ -18,26 +18,37 @@ use std::io::BufReader;
 use std::sync::{Arc, Mutex};
 use std::time::{Instant, SystemTime, UNIX_EPOCH};
 
+
 const API_IAC_DOMAIN: &str = "api.iac.meta.ndmdhs.com";
 const API_IAC_URL: &str = "https://api.iac.meta.ndmdhs.com";
 const BDCORE_DOMAIN: &str = "bdcore-apr-lb.bda.ndmdhs.com";
 const _BDCORE_URL: &str = "https://bdcore-apr-lb.bda.ndmdhs.com";
+const CERTS_HEADPHONES_CONNECT_DOMAIN: &str = "certs-headphonesconnect-cfgdst-ore-pro.bda.ndmdhs.com";
+const CERTS_HEADPHONES_CONNECT_URL: &str = "https://certs-headphonesconnect-cfgdst-ore-pro.bda.ndmdhs.com";
 const _CLOUDFRONT_URL: &str = "https://server-54-230-126-18.hio50.r.cloudfront.net";
 const HC_PRC_SONY_DNA_DOMAIN: &str = "hc01.prc.sonydna.com";
 const HC_PRC_SONY_DNA_URL: &str = "https://hc01.prc.sonydna.com";
 const HEADPHONES_CDN_DOMAIN: &str = "headphones-cdn.meta.csxdev.com";
 const HEADPHONES_CDN_URL: &str = "https://headphones-cdn.meta.csxdev.com";
+const HEADPHONES_CDN_META_DOMAIN: &str = "headphones-cdn.meta.ndmdhs.com";
+const HEADPHONES_CDN_META_URL: &str = "https://headphones-cdn.meta.ndmdhs.com";
+const HEADPHONES_CONNECT_DOMAIN: &str = "headphonesconnect-cfgdst-ore-pro.bda.ndmdhs.com";
+const HEADPHONES_CONNECT_URL: &str = "https://headphonesconnect-cfgdst-ore-pro.bda.ndmdhs.com";
 const INFO_UPDATE_SONY_DOMAIN: &str = "info.update.sony.net";
 const INFO_UPDATE_SONY_URL: &str = "https://info.update.sony.net";
 const MDS_CSX_SONY_DOMAIN: &str = "mds.csx.sony.com";
 const MDS_CSX_SONY_URL: &str = "https://mds.csx.sony.com";
 const MUSIC_CENTER_DOMAIN: &str = "musiccenter-cdn.meta.ndmdhs.com";
 const MUSIC_CENTER_URL: &str = "https://musiccenter-cdn.meta.ndmdhs.com";
+const PLAYSTATION_RPT_DOMAIN: &str = "rpt.msys.playstation.net";
+const PLAYSTATION_RPT_URL: &str = "https://rpt.msys.playstation.net";
+const PLAYSTATION_CS_DOMAIN: &str = "cs.prd.msys.playstation.net";
+const PLAYSTATION_CS_URL: &str = "https://cs.prd.msys.playstation.net";
 const SAVE_RESPONSE: bool = true;
 const SAVE_RESPONSE_DIR: &str = "saved-responses";
-const SERVING_IP_ADDRESS: &str = "192.168.1.64";
+const SERVING_IP_ADDRESS: &str = "192.168.1.32";
 const SSL_PORT: &str = "443";
-const USE_RESPONSE_CACHE: bool = true;
+const USE_RESPONSE_CACHE: bool = false;
 
 #[derive(Debug, Eq, Hash, PartialEq)]
 struct CachedRequest {
@@ -369,6 +380,7 @@ fn mitm(
             .to_http_response();
     }
     let url: String;
+    // TODO: Replace this huge if-block with a map.
     if host == API_IAC_DOMAIN {
         println!("Serving api iac meta ndmdhs domain.....");
         url = format!("{}{}", API_IAC_URL, resource);
@@ -377,9 +389,15 @@ fn mitm(
         // url = format!("{}{}", BDCORE_URL, resource);
         // Screw letting these analytics requests through.
         return HttpResponse::new(StatusCode::OK);
+    } else if host == CERTS_HEADPHONES_CONNECT_DOMAIN {
+        println!("Serving cert headphones connect domain.....");
+        url = format!("{}{}", CERTS_HEADPHONES_CONNECT_URL, resource);
     } else if host == HC_PRC_SONY_DNA_DOMAIN {
         println!("Serving sony DNA domain.....");
         url = format!("{}{}", HC_PRC_SONY_DNA_URL, resource);
+    } else if host == HEADPHONES_CONNECT_DOMAIN {
+        println!("Serving headphones connect domain.....");
+        url = format!("{}{}", HEADPHONES_CONNECT_URL, resource);
     } else if host == INFO_UPDATE_SONY_DOMAIN {
         println!("Serving info update sony domain.....");
         url = format!("{}{}", INFO_UPDATE_SONY_URL, resource);
@@ -392,6 +410,15 @@ fn mitm(
     } else if host == HEADPHONES_CDN_DOMAIN {
         println!("Serving headphones cdn domain.....");
         url = format!("{}{}", HEADPHONES_CDN_URL, resource);
+    } else if host == HEADPHONES_CDN_META_DOMAIN {
+        println!("Serving headphones CDN meta connect domain.....");
+        url = format!("{}{}", HEADPHONES_CDN_META_URL, resource);
+    } else if host == PLAYSTATION_RPT_DOMAIN {
+        println!("Serving playstation rpt domain.....");
+        url = format!("{}{}", PLAYSTATION_RPT_URL, resource);
+    } else if host == PLAYSTATION_CS_DOMAIN {
+        println!("Serving playstation cs domain.....");
+        url = format!("{}{}", PLAYSTATION_CS_URL, resource);
     } else {
         panic!("Man-in-the-middle services are not available for request to host '{}', failed at attempting resource: '{}'. Please try again :D.", host, resource);
     }
@@ -417,12 +444,35 @@ fn mitm(
             let mut body_buffer: Vec<u8> = vec![];
             resp.copy_to(&mut body_buffer).unwrap();
             let body_buffer_len = body_buffer.len();
-            let text = resp.text().unwrap();
-            println!(
-                "Response.text() from {}: '{:?}'",
-                get_request_string(request_type, host, resource),
-                text
-            );
+            let body_buffer_copy = body_buffer.clone();
+            let body_buffer_len_after_copy = body_buffer.len();
+            println!("Body buffer len before copy '{}' after copy: '{}'", body_buffer_len, body_buffer_len_after_copy);
+
+            // Ruin response by flipping some bytes.
+            if false && resource.ends_with(".bin") {
+                println!(
+                    "Setting indices: '{}' and '{}' to 37  in body_buffer.",
+                    body_buffer_len - 100,
+                    body_buffer_len - 101
+                );
+                body_buffer[body_buffer_len - 100] = 37;
+                body_buffer[body_buffer_len - 101] = 37;
+            }
+            let copied_response = resp_builder.body(body_buffer);
+
+            // Try to print response body as UTF-8.
+            match std::str::from_utf8(&body_buffer_copy.as_slice()) {
+                Ok(text) => println!(
+                    "Response.text() from {}: '{:?}'",
+                    get_request_string(request_type, host, resource),
+                    text
+                ),
+                Err(_e) => println!(
+                    "Failed to get response.text() in UTF-8 from {}",
+                    get_request_string(request_type, host, resource),
+                ),
+            };
+            
             if SAVE_RESPONSE
                 && response_saving_domains.contains(&host)
                 && resource.ends_with(".bin")
@@ -438,7 +488,7 @@ fn mitm(
                 );
                 let mut file =
                     File::create(format!("{}/{}", SAVE_RESPONSE_DIR, file_name)).unwrap();
-                file.write_all(body_buffer.as_slice()).unwrap();
+                file.write_all(body_buffer_copy.as_slice()).unwrap();
             }
             if USE_RESPONSE_CACHE
                 && caching_domains.contains(&host)
@@ -447,18 +497,11 @@ fn mitm(
                 println!("Inserting request/response pair into cache.....");
                 CACHE.lock().unwrap().insert(
                     CachedRequest::new(request_type, host, resource, request_body),
-                    CachedResponse::new(string_headers, &text),
+                    CachedResponse::new(string_headers, &String::from("n/a")/*text*/),
                 );
             }
-            if false && resource.ends_with(".bin") {
-                println!(
-                    "Setting index: '{}' to 37  in body_buffer.",
-                    body_buffer_len - 100
-                );
-                body_buffer[body_buffer_len - 100] = 37;
-            }
-            // return resp_builder.body(text);
-            return resp_builder.body(body_buffer);
+
+            return copied_response;
         }
         Err(e) => panic!(
             "Error serving {}: {:?}\nWith headers: {:?}\n\n",
@@ -483,10 +526,10 @@ async fn main() -> std::io::Result<()> {
     // Load SSL cert/key.
     const USE_SNI: bool = false; // Probably not necessary at all :).
     let mut config = ServerConfig::new(NoClientAuth::new());
-    // let cert_file = &mut BufReader::new(File::open("server.crt").unwrap());
-    // let key_file = &mut BufReader::new(File::open("server.key").unwrap());
-    let cert_file = &mut BufReader::new(File::open("working-server-cert.crt").unwrap());
-    let key_file = &mut BufReader::new(File::open("working-server-key.key").unwrap());
+    let cert_file = &mut BufReader::new(File::open("server.crt").unwrap());
+    let key_file = &mut BufReader::new(File::open("server.key").unwrap());
+    // let cert_file = &mut BufReader::new(File::open("working-server-cert.crt").unwrap());
+    // let key_file = &mut BufReader::new(File::open("working-server-key.key").unwrap());
     let cert_chain = certs(cert_file).unwrap();
     let mut keys = rsa_private_keys(key_file).unwrap();
 
@@ -514,7 +557,7 @@ async fn main() -> std::io::Result<()> {
         config.cert_resolver = Arc::new(resolver);
     } else {
         println!(
-            "NOT using Server Name Identification (SNI), loading cert for a single domain....."
+            "NOT using Server Name Identification (SNI), loading single cert for domains....."
         );
         // TODO: Likely remove since the resolver can handle multiple certs for multiple domains.
         config.set_single_cert(cert_chain, keys.remove(0)).unwrap();
