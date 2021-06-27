@@ -21,8 +21,10 @@ public class ResponseReader {
         // Dutch
         // String fileName = "1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary";
         // English
-        String fileName = "1618367334662--https:----info.update.sony.net--HP002--VGIDLPB0401--contents--0002--VP_english_UPG_03.bin.binary";
-        String filePath = String.format("/home/egaebel/workspace2/Programs/sony-headphones-hack/rust-mitm-server/src/saved-responses/%s", fileName);
+        // String fileName = "1618367334662--https:----info.update.sony.net--HP002--VGIDLPB0401--contents--0002--VP_english_UPG_03.bin.binary";
+        // info.xml
+        String fileName = "info-xml-file";
+        String filePath = String.format("/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/%s", fileName);
         System.out.println(String.format("Running on file: '%s'", filePath));
         File file = new File(filePath);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
