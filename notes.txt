@@ -81,6 +81,22 @@ Notes
 openssl req -new -addext "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net" -key server.key -out server-2.csr
 openssl x509 -req -extfile <(printf "subjectAltName = DNS:bdcore-apr-lb.bda.ndmdhs.com,DNS:musiccenter-cdn.meta.ndmdhs.com,DNS:api.iac.meta.ndmdhs.com,DNS:mds.csx.sony.com,DNS:hc01.prc.sonydna.com,DNS:info.update.sony.net") -in server-2.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server-2.crt -days 9999 -sha256
 
+* the info.xml files are what contain the encryption and decryption instructions. The info.xml file is NOT encrypted, it is zipped up for sending over the network. To read an example file you can run: 
+---- zcat saved-responses/1624652413984--https:----info.update.sony.net--HP002--MDRID294300--info--info.xml.binary
+----Example output header: 
+zcat saved-responses/1624652413984--https:----info.update.sony.net--HP002--MDRID294300--info--info.xml.binary 
+eaid:ENC0003
+daid:HAS0003
+digest:c12fe043bbb38b8a8f93d8db7b452f6a28845103
+<followed by a bunch of binary stuff that I may or may not care about.>
+----The above example means that the binary file (presumably, right? Maybe just the rest of the info.xml file though) is encyrpted with AES (ENC0003) and the digest is computed with SHA-1 (HAS0003).
+* The biggest thing here is that I've been trying to apply the code that reads info.xml to the audio binary files, which is completely wrong. I *think* that the encryption type and digest applies to the binary file. I guess I can potentially check the digest by computing the SHA-1, but I'm not sure if it's on the .bin file that I receive or a decrypted version, etc.
+
+* It seems that updates are triggered/controlled via "package com.sony.songpal.mdr.j2objc.application.update.mtk.MtkUpdateController"
+
+* This guide lays out what the Sony App *might* be doing
+----https://medium.com/mindorks/how-to-pass-large-data-between-server-and-client-android-securely-345fed551651
+----Basically, ship public key with app (store private key on server), generate symmetric key in-app, encrypt symmetric key with public key, send to server.
 
 * From the certs headphones domain the app downloads a certificate!!
 ----https://certs-headphonesconnect-cfgdst-ore-pro.bda.ndmdhs.com/certificates
