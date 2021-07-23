@@ -21,6 +21,7 @@ class n {
 
     private void a(XmlPullParser paramXmlPullParser) throws Exception {
         for (int i = paramXmlPullParser.getEventType(); i != 1; i = paramXmlPullParser.nextToken()) {
+            // System.out.println(String.format("i: eventType: '%s'", i));
             if (i == 0) {
                 b(paramXmlPullParser);
             } else if (i == 2) {
@@ -64,7 +65,8 @@ class n {
     }
 
     private void f(XmlPullParser paramXmlPullParser) {
-        this.c.a(paramXmlPullParser.getText());
+        String text = paramXmlPullParser.getText();
+        this.c.a(text);
     }
 
     private void g(XmlPullParser paramXmlPullParser) {
@@ -81,7 +83,8 @@ class n {
             xmlPullParserFactory.setNamespaceAware(true);
             XmlPullParser xmlPullParser = xmlPullParserFactory.newPullParser();
             String str = new String(paramArrayOfbyte, "UTF-8");
-            System.out.println(String.format("In function n.b(paramArrayOfByte): \na: %s\nstr: %s", a, str));
+            System.out.println(String.format("In function n.b(paramArrayOfByte): \na: %s\nstr[0:500]: %s", a,
+                    str.substring(0, 5000)));
             xmlPullParser.setInput(new StringReader(str));
             a(xmlPullParser);
             return true;

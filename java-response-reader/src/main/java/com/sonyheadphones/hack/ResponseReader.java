@@ -7,24 +7,68 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.security.Security;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
-import java.util.stream.Collectors;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 public class ResponseReader {
     public static void main(String[] args) throws Exception {
-        // String filePath = "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
+
+        Security.setProperty("crypto.policy", "unlimited");
+        // Once done, we need to check that the configuration is working correctly:
+        int maxKeySize = javax.crypto.Cipher.getMaxAllowedKeyLength("AES");
+        System.out.println(String.format("Max Key Size for AES : '%d'\n\n", maxKeySize));
+
+        Security.addProvider(new BouncyCastleProvider());
+
+        boolean run_on_info_xml_file = true;
+
+        // String filePath =
+        // "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
         // Dutch
-        // String fileName = "1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary";
+        // String fileName =
+        // "1618364327996--https:----info.update.sony.net--HP002--VGIDLPB0407--contents--0002--VP_dutch_UPG_03.bin.binary";
         // English
-        // String fileName = "1618367334662--https:----info.update.sony.net--HP002--VGIDLPB0401--contents--0002--VP_english_UPG_03.bin.binary";
+        // String fileName =
+        // "1618367334662--https:----info.update.sony.net--HP002--VGIDLPB0401--contents--0002--VP_english_UPG_03.bin.binary";
+
         // info.xml
-        String fileName = "info-xml-file";
-        String filePath = String.format("/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/%s", fileName);
+        if (run_on_info_xml_file) {
+
+            // System.out.println("Reading and parsing info.xml file.....");
+            // String fileName = "info.xml";
+            // String filePath = String.format("files/%s", fileName);
+            // byte[] responseBytes = readFileToBytes(filePath);
+
+            System.out.println("Requesting and parsing info.xml file.....");
+            HttpsDownloader.a a = (new HttpsDownloader(getInfoXmlUrl("HP002", "MDRID294300"), null)).a();
+            if (a.a == HttpsDownloader.ErrorCode.OK) {
+                parseResponse(a.b, /* paramString1= */ null, /* paramString2= */ null, /* paramg= */ null,
+                        /* paramd= */ new DecryptionUtils());
+            } else {
+                throw new RuntimeException(String.format("Request for info.xml failed with: '%s'", a.a));
+            }
+        } else {
+            System.out.println("Reading and parsing binary audio file.....");
+            // dutch
+            // String fileName = "VP_dutch_UPG_03.bin";
+            // english
+            String fileName = "VP_english_UPG_03.bin";
+            String filePath = String.format("files/%s", fileName);
+            byte[] responseBytes = readFileToBytes(filePath);
+            n.a(responseBytes);
+        }
+    }
+
+    private static byte[] readFileToBytes(String filePath) throws Exception {
         System.out.println(String.format("Running on file: '%s'", filePath));
         File file = new File(filePath);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -41,7 +85,7 @@ public class ResponseReader {
 
         byte[] responseBytes = byteArrayOutputStream.toByteArray();
         System.out.println(String.format("Parsing response with: '%d' bytes", responseBytes.length));
-        parseResponse(responseBytes, null, null, null, null);
+        return responseBytes;
     }
 
     private static k parseResponse(byte[] paramArrayOfbyte, String paramString1, String paramString2, g paramg,
@@ -59,6 +103,7 @@ public class ResponseReader {
             if (i % 100000 == 0) {
                 System.out.println(String.format("Iteration: %d", i));
             }
+            // b == 10 matches the newline character byte representation.
             // System.out.println(String.format("Outer loop: b: '%02X'", b));
             while (b == 10) {
                 // System.out.println(String.format("b: '%02X'", b));
@@ -66,8 +111,10 @@ public class ResponseReader {
                 if (j != 0) {
                     try {
                         // Write j bytes from k offset, convert to utf8, and save.
+                        System.out.println(String.format("Reading: '%d' bytes from offset: '%d'", j, k));
                         byteArrayOutputStream.write(paramArrayOfbyte, k, j);
                         String str = new String(byteArrayOutputStream.toByteArray(), "UTF-8");
+                        System.out.println(String.format("str: '%s'", str));
                         byteArrayOutputStream.reset();
                         arrayList.add(str);
                         // System.out.println(String.format("Added str: '%s' to arrayList.....", str));
@@ -88,16 +135,20 @@ public class ResponseReader {
                 i = paramArrayOfbyte.length - m;
                 if (i > 0) {
                     // byteArrayOutputStream.write((byte[]) unsupportedEncodingException, m, i);
+                    // Remove the just-read data from the start of arrayOfByte.
+                    System.out.println(
+                            String.format("Resizing arrayOfByte from size: '%d' to '%d'", paramArrayOfbyte.length, i));
                     byteArrayOutputStream.write((byte[]) paramArrayOfbyte, m, i);
                     byte[] arrayOfByte = byteArrayOutputStream.toByteArray();
                     if (!arrayList.isEmpty()) {
                         /*
-                        System.out.println(String.format(
-                                "arrayList is not empty, loading InformationHeader from it.....\nElements:\n%s",
-                                arrayList.stream().collect(Collectors.joining("\n"))));
-                                */
+                         * System.out.println(String.format(
+                         * "arrayList is not empty, loading InformationHeader from it.....\nElements:\n%s"
+                         * , arrayList.stream().collect(Collectors.joining("\n"))));
+                         */
                         InformationHeader informationHeader = InformationHeader.a(arrayList);
                         System.out.println("\n\n\nLoaded InformationHeader from ArrayList! Is:\n" + informationHeader);
+
                     } else {
                         // unsupportedEncodingException = null;
                         paramArrayOfbyte = null;
@@ -112,10 +163,16 @@ public class ResponseReader {
                              * return a(arrayOfByte, (InformationHeader) unsupportedEncodingException,
                              * paramString1, paramString2, paramg, paramd);
                              */
-                            /*InformationHeader informationHeader = (InformationHeader) (new ObjectInputStream(
-                                    new ByteArrayInputStream(paramArrayOfbyte)).readObject());*/
+                            /*
+                             * InformationHeader informationHeader = (InformationHeader) (new
+                             * ObjectInputStream( new ByteArrayInputStream(paramArrayOfbyte)).readObject());
+                             */
                             InformationHeader informationHeader = InformationHeader.a(arrayList);
-                            System.out.println("\n\n\nLoaded InformationHeader from ArrayList just prior to calling decode (a(...))! Is:\n" + informationHeader);
+                            System.out.println(
+                                    "\n\n\nLoaded InformationHeader from ArrayList just prior to calling decode (a(...))! Is:\n"
+                                            + informationHeader);
+                            System.out.println(String.format("arrayOfByte[0:32] hex: '%s'",
+                                    Utils.byteArrayToHexString(Arrays.copyOfRange(arrayOfByte, 0, 32))));
                             return a(arrayOfByte, informationHeader, paramString1, paramString2, paramg, paramd);
                         }
                         throw new RuntimeException("InternalException.Error.INVALID_INFORMATION_FILE_BODY");
@@ -152,19 +209,22 @@ public class ResponseReader {
         System.out.println(String.format("function a: decodeBody: InformationHeader:\n%s\n\n", paramInformationHeader));
         if (paramInformationHeader.a() == InformationHeader.EncryptionType.TRIPLE_DES) {
             if (paramd != null) {
-                arrayOfByte = paramd.a(paramArrayOfbyte);
+                arrayOfByte = paramd.desDecrypt(paramArrayOfbyte);
             } else {
                 throw new RuntimeException("InternalException.Error.ILLEGAL_ARGUMENT");
             }
         } else {
             arrayOfByte = paramArrayOfbyte;
-            if (paramInformationHeader.a() == InformationHeader.EncryptionType.AES)
+            if (paramInformationHeader.a() == InformationHeader.EncryptionType.AES) {
                 System.out.println("Encryption type AES (default).");
                 if (paramd != null) {
-                    arrayOfByte = paramd.b(paramArrayOfbyte);
+                    System.out.println(String.format("Decrypting byte array of length: '%d'", paramArrayOfbyte.length));
+                    arrayOfByte = paramd.aesDecrypt(paramArrayOfbyte);
+                    System.out.println(String.format("arrayOfByte: '%s'", Utils.byteArrayToHexString(arrayOfByte)));
                 } else {
                     throw new RuntimeException("InternalException.Error.ILLEGAL_ARGUMENT");
                 }
+            }
         }
         if (arrayOfByte != null) {
             a(arrayOfByte, paramInformationHeader.b(), paramInformationHeader.c(), paramString1, paramString2, paramg);
@@ -296,6 +356,19 @@ public class ResponseReader {
         // 109 168 218 java/io/UnsupportedEncodingException
     }
 
+    private static URL getInfoXmlUrl(String firstIdString, String secondIdString) {
+        String paramString1 = String.format(Locale.getDefault(), "https://%s/%s/%s/info/%s",
+                new Object[] { "info.update.sony.net", firstIdString, secondIdString, "info.xml" });
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("infomartion file URL: ");
+        stringBuilder.append(paramString1);
+        try {
+            return new URL(paramString1);
+        } catch (MalformedURLException malformedURLException) {
+            throw new RuntimeException(malformedURLException);
+        }
+    }
+
     static class InformationHeader {
         private Map<String, String> a;
 
@@ -323,7 +396,8 @@ public class ResponseReader {
 
         @Override
         public String toString() {
-            return String.format("InformationHeader:\nEncryptionType: '%s'\nDigestType: '%s'\n", a(), b());
+            return String.format("InformationHeader:\nEncryptionType: '%s'\nDigestType: '%s'\nDigest: '%s'\n", a(), b(),
+                    c());
         }
 
         public EncryptionType a() {

@@ -1,9 +1,12 @@
 package com.sonyheadphones.hack;
 
 public interface d {
-    byte[] a(byte[] paramArrayOfbyte);
+    // byte[] a(byte[] paramArrayOfbyte);
 
-    byte[] b(byte[] paramArrayOfbyte);
+    // byte[] b(byte[] paramArrayOfbyte);
+
+    public byte[] desDecrypt(byte[] paramArrayOfbyte);
+    public byte[] aesDecrypt(byte[] paramArrayOfbyte);
 }
 
 /*

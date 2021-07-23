@@ -122,6 +122,7 @@ private static final byte[] c = new byte[] {
       79, -94, 121, -103, -1, -48, -117, 31, -28, -46, 
       96, -43, 123, 109, 60, 23 };
 ----I think the actual .*.bin audio files are unencrypted (they might be encrypted with the same key as the info.xml file though)
+* info.xml comes from: https://info.update.sony.net/HP002/MDRID294300/info/info.xml
 
 Current Focus (Where I left off)
 ================================
