@@ -83,8 +83,9 @@ class n {
             xmlPullParserFactory.setNamespaceAware(true);
             XmlPullParser xmlPullParser = xmlPullParserFactory.newPullParser();
             String str = new String(paramArrayOfbyte, "UTF-8");
-            System.out.println(String.format("In function n.b(paramArrayOfByte): \na: %s\nstr[0:500]: %s", a,
-                    str.substring(0, 5000)));
+            System.out.println(String.format(
+                    "\n\n\nIn function n.b(paramArrayOfByte): \na: %s\nstr[0:100]: %s\n\n\nFull str:\n%s\n\n\n", a,
+                    str.substring(0, 100), str));
             xmlPullParser.setInput(new StringReader(str));
             a(xmlPullParser);
             return true;

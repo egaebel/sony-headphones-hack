@@ -40,32 +40,30 @@ public class ResponseReader {
         // String fileName =
         // "1618367334662--https:----info.update.sony.net--HP002--VGIDLPB0401--contents--0002--VP_english_UPG_03.bin.binary";
 
-        // info.xml
-        if (run_on_info_xml_file) {
+        // System.out.println("Reading and parsing info.xml file.....");
+        // String fileName = "info.xml";
+        // String filePath = String.format("files/%s", fileName);
+        // byte[] responseBytes = readFileToBytes(filePath);
 
-            // System.out.println("Reading and parsing info.xml file.....");
-            // String fileName = "info.xml";
-            // String filePath = String.format("files/%s", fileName);
-            // byte[] responseBytes = readFileToBytes(filePath);
-
-            System.out.println("Requesting and parsing info.xml file.....");
-            HttpsDownloader.a a = (new HttpsDownloader(getInfoXmlUrl("HP002", "MDRID294300"), null)).a();
-            if (a.a == HttpsDownloader.ErrorCode.OK) {
-                parseResponse(a.b, /* paramString1= */ null, /* paramString2= */ null, /* paramg= */ null,
-                        /* paramd= */ new DecryptionUtils());
-            } else {
-                throw new RuntimeException(String.format("Request for info.xml failed with: '%s'", a.a));
-            }
+        System.out.println("Requesting and parsing info.xml file.....");
+        HttpsDownloader.a a = (new HttpsDownloader(getInfoXmlUrl("HP002", "MDRID294300"), null)).a();
+        if (a.a == HttpsDownloader.ErrorCode.OK) {
+            parseResponse(a.b, /* paramString1= */ null, /* paramString2= */ null, /* paramg= */ null,
+                    /* paramd= */ new DecryptionUtils());
         } else {
-            System.out.println("Reading and parsing binary audio file.....");
-            // dutch
-            // String fileName = "VP_dutch_UPG_03.bin";
-            // english
-            String fileName = "VP_english_UPG_03.bin";
-            String filePath = String.format("files/%s", fileName);
-            byte[] responseBytes = readFileToBytes(filePath);
-            n.a(responseBytes);
+            throw new RuntimeException(String.format("Request for info.xml failed with: '%s'", a.a));
         }
+
+        System.out.println("Reading and parsing binary audio file.....");
+        // dutch
+        // String fileName = "VP_dutch_UPG_03.bin";
+        // english
+        String fileName = "VP_english_UPG_03.bin";
+        String filePath = String.format("files/%s", fileName);
+        byte[] responseBytes = readFileToBytes(filePath);
+        System.out.println("Decrypting english audio.....");
+        new DecryptionUtils().aesDecrypt(responseBytes);
+
     }
 
     private static byte[] readFileToBytes(String filePath) throws Exception {

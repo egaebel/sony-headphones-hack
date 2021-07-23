@@ -123,6 +123,9 @@ private static final byte[] c = new byte[] {
       96, -43, 123, 109, 60, 23 };
 ----I think the actual .*.bin audio files are unencrypted (they might be encrypted with the same key as the info.xml file though)
 * info.xml comes from: https://info.update.sony.net/HP002/MDRID294300/info/info.xml
+* The MAIN AUDIO UPDATING CONTROL POINT
+----base-dex2jar.jar.src--files/com/sony/songpal/mdr/j2objc/application/update/mtk/MtkUpdateController.java
+----Controls firmware updating and language updating!
 
 Current Focus (Where I left off)
 ================================

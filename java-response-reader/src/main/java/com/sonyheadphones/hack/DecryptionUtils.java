@@ -8,6 +8,8 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
 
+import org.bouncycastle.util.Arrays;
+
 // Copied from "e" file in "automagic" package.
 // public class e implements d {
 public class DecryptionUtils implements d {
@@ -39,15 +41,21 @@ public class DecryptionUtils implements d {
   }
 
   public byte[] aesDecrypt(byte[] paramArrayOfbyte) {
+    int charLimit = Math.min(10000, paramArrayOfbyte.length);
     try {
       System.out.println(String.format("Using key with bytes: '%s'", Utils.byteArrayToHexString(c)));
       SecretKeySpec secretKeySpec = new SecretKeySpec(c, "AES");
       Cipher cipher = Cipher.getInstance("AES/ECB/ZeroBytePadding");
       System.out.println("Got Cipher: " + cipher);
-      System.out.println(String.format("Decrypting data: '%s'", Utils.byteArrayToHexString(paramArrayOfbyte)));
+      System.out.println(
+          String.format("Decrypting data: '%s'", Utils.byteArrayToHexString(paramArrayOfbyte).substring(0, charLimit)));
       cipher.init(2, secretKeySpec);
       byte[] decryptedArrayOfbyte = cipher.doFinal(paramArrayOfbyte);
-      System.out.println(String.format("Decrypted data: '%s'", Utils.byteArrayToHexString(decryptedArrayOfbyte)));
+      String byteArrayString = Utils.byteArrayToHexString(decryptedArrayOfbyte);
+      String utf8String = Utils.byteArrayToUtf8String(decryptedArrayOfbyte);
+      System.out.println(String.format("\n\nDecrypted data hex: '%s'\n\n\nDecrypted data UTF-8: '%s'\n\n\n",
+          byteArrayString.substring(0, Math.min(byteArrayString.length(), charLimit)),
+          utf8String.substring(0, Math.min(utf8String.length(), charLimit))));
       return decryptedArrayOfbyte;
     } catch (NoSuchAlgorithmException | NoSuchPaddingException | InvalidKeyException | BadPaddingException
         | IllegalBlockSizeException e) {
