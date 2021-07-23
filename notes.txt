@@ -101,6 +101,28 @@ digest:c12fe043bbb38b8a8f93d8db7b452f6a28845103
 * From the certs headphones domain the app downloads a certificate!!
 ----https://certs-headphonesconnect-cfgdst-ore-pro.bda.ndmdhs.com/certificates
 
+* Looking at where we actually parse what I think is the audio file:
+----com.sony.songpal.automagic.a line 44, with a call to n.a(<bytes>)
+
+* There are two possible paths forward:
+----Figure out how to parse the audio binary file via 44:a: n.a(bytes) (noted above) or figure out how to decrypt the info.xml file.
+
+* I think the above line 44 n.a call is a dead-end, it might just be parsing the disclaimer.....
+
+* com.sony.songpal.mdr.j2objc.application.update.common.automagic.a appears to contain an AsyncTask that downloads a file.
+
+* The AES cipher is initialized at: base-dex2jar.jar.src--files/com/sony/songpal/automagic/e.java
+
+* A brief summary of what's going on:
+----The info.xml files are encrypted. They appear to use AES with a hash verification (which will help me be sure I decrypted properly)
+--------ENcryption cipher initialized at: /home/egaebel/workspace2/Programs/sony-headphones-hack/base-dex2jar.jar.src--files/com/sony/songpal/automagic/e.java
+--------They use SecretKeySpec: https://developer.android.com/reference/javax/crypto/spec/SecretKeySpec
+--------THEY HARDCODED THE KEY IN THE CONSTANT INT ARRAY 'c' IN THE ABOVE FILE!!!
+private static final byte[] c = new byte[] { 
+      79, -94, 121, -103, -1, -48, -117, 31, -28, -46, 
+      96, -43, 123, 109, 60, 23 };
+----I think the actual .*.bin audio files are unencrypted (they might be encrypted with the same key as the info.xml file though)
+
 Current Focus (Where I left off)
 ================================
 * Found encryption and response reading files located under: 
@@ -109,5 +131,6 @@ Current Focus (Where I left off)
 ----/base-dex2jar.jar.src--files/com/sony/songpal/automagic
 ----In particular, InformationHeader.java and base-dex2jar.jar.src--files/com/sony/songpal/automagic/l.java (that's a lowercase L)
 * There is AES, DES3, and NONE for encryption types.
+----They're using AES in ECB mode with no padding, this is indicated at the top of the info.xml file. THe info.xml has the xml portions encrypted.
 * It seems like maybe the responses aren't being read properly in Rust since they're Java objects?
 ----Wrote ResponseReader java program to try and resolve this. Had to instal XmlPuller to get the Java code working. Used https://github.com/stefanhaustein/kxml2/issues/5 for reference to get it working with maven.
