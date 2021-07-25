@@ -127,6 +127,31 @@ private static final byte[] c = new byte[] {
 ----base-dex2jar.jar.src--files/com/sony/songpal/mdr/j2objc/application/update/mtk/MtkUpdateController.java
 ----Controls firmware updating and language updating!
 
+* Call pattern working backwards starting from where the URI key is used:
+----Starting. -- file k: class k.b method a line 479    return new k.a((String)param1HashMap.get("Version"), (String)param1HashMap.get("URI"), (String)param1HashMap.get("MAC"), (String)param1HashMap.get("ClientVersion"), bool);
+----Class k.b retrieved from method k.a. -- file a: class a method a line 17          k.b b = k.a(paramString3, paramString4, paramString5, paramString6, paramString7);
+----Method k.a returning instance of class k.b -- file k: class k method a line 352    public b a(String paramString1, String paramString2, String paramString3, String paramString4, String paramString5) {
+----Method k.a calling methods a(a(...)) -- file k: class k method a line 353    Map<String, Object> map = a(a(paramString1, paramString2, paramString5));
+----Method k.a called from OTHER(above) method k.a -- file k: class k method a line 36    private static Map<String, String> a(String paramString1, String paramString2, String paramString3) {
+----Method k.a called from OTHER(2 above) method k.a with param from OTHER(1 above) k.a ---- file k: class k method a line 357    public Map<String, Object> a(Map<String, String> paramMap) {
+----The audio object appears to be wrapped/returned here -- file a: class a method a line 26     return new b(AutoMagicClientErrorCode.OK, true, b.a(paramLangCode), paramString3, str, list);
+----Class b in file b which is a value class that gets returned in the above call. -- file b: class b method constructor line 22      public b(AutoMagicClientErrorCode paramAutoMagicClientErrorCode, boolean paramBoolean, String paramString1, String paramString2, String paramString3, List<c> paramList) {
+----Usage of class b (this.l is an instance of automagic.b) (not sure if it's key or not yet). -- file MtkUpdateController class MtkUpdateController method a line 756    ((b)l.a(this.l)).a(paramMdrLanguage);
+----Following usage of class b, there's something that appears to be downloading. -- file file MtkUpdateController class MtkUpdateController method a line 779    this.k.a(paramArrayOfbyte, paramInt, A());
+----UpdateCapability class/enum of interest. -- file UpdateCapability: class UpdateCapability.Target method <enum definition> line 78    public enum Target {
+----Voice Guidance usage to create CsrUpdateController for voice guidance update. -- file com.sony.songpal.mdr.application.update.csr.a: class a method b line 25    return new CsrUpdateController(paramContext, paramc, UpdateCapability.Target.VOICE_GUIDANCE);
+----CLass field k set in CsrUpdateController (similar to MtkUpdateController.....) construtor. Field k is type: com.sony.songpal.mdr.j2objc.application.update.common.automagic.a -- file CsrUpdateController class CsrUpdateController method construtor line 75    this.k = new com.sony.songpal.mdr.j2objc.application.update.common.automagic.a((b)new c());
+----SHA1 digest comparison for downloaded audio file (I think this one is the audio one.....). -- file com.sony.songpal.mdr.j2objc.application.update.common.automagic.a class a method a line 83          if (str1.equals(DigestType.SHA1)) {
+----
+----Acquisition of an objet of type com.sony.songpal.mdr.j2objc.tandem.c in CsrUpdateController based on the UpdateCapability.Target type (VOICE_GUIDANCE is ordinal 2 I think). -- file: CsrUpdateController class CsrUpdateController method constructor line 67    this.f = (c)new a(paramc.O().G());
+
+
+* Brief summary of findings from above trace
+----CsrUpdateController with UpdateCapability.Target.VOICE_GUIDANCE as a parameter is how the update is done.
+----UpdateCapability.Target is under the "tandem" package, a brief search for "audio" uncovered the "Codec" class which is ALSO in tandem. Tandem appears to handle a lot of audio processing, so it is likely involved in decoding the audio blob I get.
+----
+
+
 Current Focus (Where I left off)
 ================================
 * Found encryption and response reading files located under: 

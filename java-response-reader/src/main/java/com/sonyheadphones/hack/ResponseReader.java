@@ -29,8 +29,6 @@ public class ResponseReader {
 
         Security.addProvider(new BouncyCastleProvider());
 
-        boolean run_on_info_xml_file = true;
-
         // String filePath =
         // "/home/egaebel/Programs/sony-headphones-hack/rust-mitm-server/src/dutch-language-audio.bin";
         // Dutch
@@ -61,9 +59,15 @@ public class ResponseReader {
         String fileName = "VP_english_UPG_03.bin";
         String filePath = String.format("files/%s", fileName);
         byte[] responseBytes = readFileToBytes(filePath);
-        System.out.println("Decrypting english audio.....");
-        new DecryptionUtils().aesDecrypt(responseBytes);
-
+        System.out.println("Parsing audio container object.....");
+        ArrayList<byte[]> headersAndBody = extractLanguageBinHeadersAndBody(responseBytes);
+        System.out.println(String.format("Printing '%d' headers and the body", headersAndBody.size() - 1));
+        for (byte[] byteArray : headersAndBody) {
+            System.out.println(String.format("\n\n%s\n\n", Utils.byteArrayToHexString(byteArray)));
+        }
+        System.out.println("Decrypting audio.....");
+        byte[] decryptedAudio = new DecryptionUtils().aesDecrypt(headersAndBody.get(headersAndBody.size() - 1));
+        // TODO: Write decrypted audio to file.
     }
 
     private static byte[] readFileToBytes(String filePath) throws Exception {
@@ -84,6 +88,69 @@ public class ResponseReader {
         byte[] responseBytes = byteArrayOutputStream.toByteArray();
         System.out.println(String.format("Parsing response with: '%d' bytes", responseBytes.length));
         return responseBytes;
+    }
+
+    private static ArrayList<byte[]> extractLanguageBinHeadersAndBody(byte[] byteArray) {
+        System.out.println("Extracting data from byteArray of length: " + byteArray.length);
+        boolean delimiterHit = true;
+        // Must be initialized to true.
+        boolean delimiterConfirmed = true;
+        final int delimiterCountThreshold = 6;
+        int delimiterCount = 0;
+        // Signed value of 0xFF.
+        final byte delimiter = -1;
+        
+        int rangeStart = -1;
+        int rangeEnd = -1;
+        ArrayList<byte[]> headersAndBody = new ArrayList<>();
+        for (int i = 0; i < byteArray.length; i++) {
+            System.out.println(String.format("byteArray[%d]: '%02x' '%d' delimiter=b: '%b'", i, byteArray[i], byteArray[i], byteArray[i] == delimiter));
+            if (byteArray[i] == delimiter && delimiterHit && delimiterConfirmed) {
+                System.out.println("byteArray[i] == 0xFF && delimiterHit && delimiterConfirmed");
+                delimiterCount++;
+                continue;
+            } else if (byteArray[i] == delimiter && delimiterHit && delimiterCount > delimiterCountThreshold){
+                System.out.println("byteArray[i] == 0xFF && delimiterHit && delimiterCount > delimiterCountThreshold");
+                delimiterCount++;
+                delimiterConfirmed = true;
+            } else if (byteArray[i] == delimiter) {
+                System.out.println("byteArray[i] == 0xFF");
+                if (!delimiterHit) {
+                    rangeEnd = i;
+                }
+                delimiterCount++;
+                delimiterHit = true;                
+            } else {
+                System.out.println("else");
+                if (delimiterConfirmed) {
+                    System.out.println("delimiterConfirmed");
+                    int oldRangeStart = rangeStart;
+                    rangeStart = i;
+                    if (rangeEnd != -1) {
+                        System.out.println("rangeEnd != -1");
+                        headersAndBody.add(Arrays.copyOfRange(byteArray, oldRangeStart, rangeEnd));
+                        rangeEnd = -1;
+                    }
+                }
+                delimiterHit = false;
+                delimiterConfirmed = false;
+                delimiterCount = 0;
+            }
+        }
+        headersAndBody.add(Arrays.copyOfRange(byteArray, rangeStart, byteArray.length - rangeStart));
+        return headersAndBody;
+    }
+
+    private static byte[] trimTrailingFfs(byte[] byteArray) {
+        final byte ffsDelimiter = -1;
+        int trailingFfsCount = 0;
+        for (int i = byteArray.length - 1; i > -1; i--) {
+            if (byteArray[i] == ffsDelimiter) {
+                trailingFfsCount++;
+            }
+            break;
+        }
+        return Arrays.copyOfRange(byteArray, byteArray.length - trailingFfsCount, trailingFfsCount);
     }
 
     private static k parseResponse(byte[] paramArrayOfbyte, String paramString1, String paramString2, g paramg,
