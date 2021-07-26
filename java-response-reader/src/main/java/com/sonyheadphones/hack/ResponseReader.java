@@ -4,6 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.UnsupportedEncodingException;
@@ -58,6 +59,8 @@ public class ResponseReader {
         // english
         String fileName = "VP_english_UPG_03.bin";
         String filePath = String.format("files/%s", fileName);
+        String outputFileName = "VP_english_UPG_03--headers-stripped.bin";
+        String outputFilePath = String.format("files/%s", outputFileName);
         byte[] responseBytes = readFileToBytes(filePath);
         System.out.println("Parsing audio container object.....");
         ArrayList<byte[]> headersAndBody = extractLanguageBinHeadersAndBody(responseBytes);
@@ -67,7 +70,7 @@ public class ResponseReader {
         }
         System.out.println("Decrypting audio.....");
         byte[] decryptedAudio = new DecryptionUtils().aesDecrypt(headersAndBody.get(headersAndBody.size() - 1));
-        // TODO: Write decrypted audio to file.
+        writeBytesToFile(outputFilePath, decryptedAudio);
     }
 
     private static byte[] readFileToBytes(String filePath) throws Exception {
@@ -90,6 +93,14 @@ public class ResponseReader {
         return responseBytes;
     }
 
+    private static void writeBytesToFile(String filePath, byte[] byteArray) throws Exception {
+        System.out.println(String.format("Writing bytes to file: '%s'", filePath));
+        File file = new File(filePath);
+        try (FileOutputStream fileOutputStream = new FileOutputStream(file)) {
+            fileOutputStream.write(byteArray);
+        }
+    }
+
     private static ArrayList<byte[]> extractLanguageBinHeadersAndBody(byte[] byteArray) {
         System.out.println("Extracting data from byteArray of length: " + byteArray.length);
         boolean delimiterHit = true;
@@ -104,7 +115,6 @@ public class ResponseReader {
         int rangeEnd = -1;
         ArrayList<byte[]> headersAndBody = new ArrayList<>();
         for (int i = 0; i < byteArray.length; i++) {
-            System.out.println(String.format("byteArray[%d]: '%02x' '%d' delimiter=b: '%b'", i, byteArray[i], byteArray[i], byteArray[i] == delimiter));
             if (byteArray[i] == delimiter && delimiterHit && delimiterConfirmed) {
                 System.out.println("byteArray[i] == 0xFF && delimiterHit && delimiterConfirmed");
                 delimiterCount++;
@@ -121,7 +131,6 @@ public class ResponseReader {
                 delimiterCount++;
                 delimiterHit = true;                
             } else {
-                System.out.println("else");
                 if (delimiterConfirmed) {
                     System.out.println("delimiterConfirmed");
                     int oldRangeStart = rangeStart;

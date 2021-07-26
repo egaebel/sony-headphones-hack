@@ -143,13 +143,22 @@ private static final byte[] c = new byte[] {
 ----CLass field k set in CsrUpdateController (similar to MtkUpdateController.....) construtor. Field k is type: com.sony.songpal.mdr.j2objc.application.update.common.automagic.a -- file CsrUpdateController class CsrUpdateController method construtor line 75    this.k = new com.sony.songpal.mdr.j2objc.application.update.common.automagic.a((b)new c());
 ----SHA1 digest comparison for downloaded audio file (I think this one is the audio one.....). -- file com.sony.songpal.mdr.j2objc.application.update.common.automagic.a class a method a line 83          if (str1.equals(DigestType.SHA1)) {
 ----
+----
+----
 ----Acquisition of an objet of type com.sony.songpal.mdr.j2objc.tandem.c in CsrUpdateController based on the UpdateCapability.Target type (VOICE_GUIDANCE is ordinal 2 I think). -- file: CsrUpdateController class CsrUpdateController method constructor line 67    this.f = (c)new a(paramc.O().G());
+----
+----
+----
+----Mention of "failing to 'generate' update file". Seems like a potential lead. -- file com/sony/songpal/mdr/application/update/csr.d class d method e line 305                  d.a(this.b, new h(param1ArrayOfbyte));
+----Construction of 'h' objet from line above(1 above). -- file com/sony/songpal/mdr/application/update/csr.d class h method constructor line 25    h(byte[] paramArrayOfbyte) {
 
 
 * Brief summary of findings from above trace
 ----CsrUpdateController with UpdateCapability.Target.VOICE_GUIDANCE as a parameter is how the update is done.
 ----UpdateCapability.Target is under the "tandem" package, a brief search for "audio" uncovered the "Codec" class which is ALSO in tandem. Tandem appears to handle a lot of audio processing, so it is likely involved in decoding the audio blob I get.
 ----
+
+* NOTE: The audio is DEFINITELY transformed somehow from the language .*.bin file before it is transmitted to the headphones. A bluetooth packet sniff shows that certain byte patterns are completely missing.
 
 
 Current Focus (Where I left off)
