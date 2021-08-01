@@ -41,19 +41,18 @@ public class DecryptionUtils implements d {
   }
 
   public byte[] aesDecrypt(byte[] paramArrayOfbyte) {
-    int charLimit = Math.min(10000, paramArrayOfbyte.length);
+    int charLimit = Math.min(100, paramArrayOfbyte.length);
     try {
       System.out.println(String.format("Using key with bytes: '%s'", Utils.byteArrayToHexString(c)));
       SecretKeySpec secretKeySpec = new SecretKeySpec(c, "AES");
       Cipher cipher = Cipher.getInstance("AES/ECB/ZeroBytePadding");
-      System.out.println("Got Cipher: " + cipher);
       System.out.println(
-          String.format("Decrypting data: '%s'", Utils.byteArrayToHexString(paramArrayOfbyte).substring(0, charLimit)));
+          String.format("Decrypting data (preview): '%s'", Utils.byteArrayToHexString(paramArrayOfbyte).substring(0, charLimit)));
       cipher.init(2, secretKeySpec);
       byte[] decryptedArrayOfbyte = cipher.doFinal(paramArrayOfbyte);
       String byteArrayString = Utils.byteArrayToHexString(decryptedArrayOfbyte);
       String utf8String = Utils.byteArrayToUtf8String(decryptedArrayOfbyte);
-      System.out.println(String.format("\n\nDecrypted data hex: '%s'\n\n\nDecrypted data UTF-8: '%s'\n\n\n",
+      System.out.println(String.format("\n\nDecrypted data hex (preview): '%s'\n\n\nDecrypted data UTF-8: '%s'\n\n\n",
           byteArrayString.substring(0, Math.min(byteArrayString.length(), charLimit)),
           utf8String.substring(0, Math.min(utf8String.length(), charLimit))));
       return decryptedArrayOfbyte;

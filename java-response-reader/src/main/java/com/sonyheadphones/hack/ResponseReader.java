@@ -59,18 +59,29 @@ public class ResponseReader {
         // english
         String fileName = "VP_english_UPG_03.bin";
         String filePath = String.format("files/%s", fileName);
-        String outputFileName = "VP_english_UPG_03--headers-stripped.bin";
-        String outputFilePath = String.format("files/%s", outputFileName);
+
+        String outputFileNameHeadersStripped = "VP_english_UPG_03--headers-stripped.bin";
+        String outputFilePathHeadersStripped = String.format("files/%s", outputFileNameHeadersStripped);
+
+        String outputFileNameDecrypted = "VP_english_UPG_03--headers-stripped--decrypted.bin";
+        String outputFilePathDecrypted = String.format("files/%s", outputFileNameDecrypted);
+
         byte[] responseBytes = readFileToBytes(filePath);
         System.out.println("Parsing audio container object.....");
         ArrayList<byte[]> headersAndBody = extractLanguageBinHeadersAndBody(responseBytes);
-        System.out.println(String.format("Printing '%d' headers and the body", headersAndBody.size() - 1));
-        for (byte[] byteArray : headersAndBody) {
+        System.out.println(String.format("Printing '%d' headers and omitting the body", headersAndBody.size() - 1));
+        for (int i = 0; i < headersAndBody.size() - 1; i++) {
+            byte[] byteArray = headersAndBody.get(i);
             System.out.println(String.format("\n\n%s\n\n", Utils.byteArrayToHexString(byteArray)));
         }
+        byte[] audioContainerBody = headersAndBody.get(headersAndBody.size() - 1);
+        writeBytesToFile(outputFilePathHeadersStripped, audioContainerBody);
+        System.out.println(String.format("Wrote '%d' bytes to file: '%s'", audioContainerBody.length, outputFilePathHeadersStripped));
+
         System.out.println("Decrypting audio.....");
-        byte[] decryptedAudio = new DecryptionUtils().aesDecrypt(headersAndBody.get(headersAndBody.size() - 1));
-        writeBytesToFile(outputFilePath, decryptedAudio);
+        byte[] decryptedAudio = new DecryptionUtils().aesDecrypt(audioContainerBody);
+        writeBytesToFile(outputFilePathDecrypted, decryptedAudio);
+        System.out.println(String.format("Wrote '%d' bytes to file: '%s'", decryptedAudio.length, outputFilePathDecrypted));
     }
 
     private static byte[] readFileToBytes(String filePath) throws Exception {
@@ -116,15 +127,12 @@ public class ResponseReader {
         ArrayList<byte[]> headersAndBody = new ArrayList<>();
         for (int i = 0; i < byteArray.length; i++) {
             if (byteArray[i] == delimiter && delimiterHit && delimiterConfirmed) {
-                System.out.println("byteArray[i] == 0xFF && delimiterHit && delimiterConfirmed");
                 delimiterCount++;
                 continue;
             } else if (byteArray[i] == delimiter && delimiterHit && delimiterCount > delimiterCountThreshold){
-                System.out.println("byteArray[i] == 0xFF && delimiterHit && delimiterCount > delimiterCountThreshold");
                 delimiterCount++;
                 delimiterConfirmed = true;
             } else if (byteArray[i] == delimiter) {
-                System.out.println("byteArray[i] == 0xFF");
                 if (!delimiterHit) {
                     rangeEnd = i;
                 }
@@ -132,11 +140,9 @@ public class ResponseReader {
                 delimiterHit = true;                
             } else {
                 if (delimiterConfirmed) {
-                    System.out.println("delimiterConfirmed");
                     int oldRangeStart = rangeStart;
                     rangeStart = i;
                     if (rangeEnd != -1) {
-                        System.out.println("rangeEnd != -1");
                         headersAndBody.add(Arrays.copyOfRange(byteArray, oldRangeStart, rangeEnd));
                         rangeEnd = -1;
                     }
