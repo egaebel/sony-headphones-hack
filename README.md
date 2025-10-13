@@ -1,7 +1,8 @@
 # (Attempted) Sony WH-1000XM4 Wireless Headphones Hack
 
-This repo was an attempt to hack the WH-1000XM4 Sony headphones. 
-I undertook this project because the default voice that they haad at the time could not be silenced entirely and it was extremely annoying.
+This repo was an attempt to hack the WH-1000XM4 Sony headphones, specifically to silence the default voices and perhaps to replace them with R2-D2 bleeps.
+
+I undertook this project because the default voice they had at the time could not be silenced entirely and I found it extremely annoying.
 If I was joining a meeting and turning the headphones on, it would often talk over the first few seconds of conversation in the meeting
 with my teammates.
 
